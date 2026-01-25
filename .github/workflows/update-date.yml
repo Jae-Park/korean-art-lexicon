@@ -1,0 +1,41 @@
+name: Update Last Updated Date
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'index.html'
+      - 'data/**'
+      - 'schema/**'
+
+jobs:
+  update-date:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update date in index.html
+        run: |
+          DATE=$(date +'%B %d, %Y')
+          sed -i "s/Last updated: .*/Last updated: $DATE<\/p>/" index.html
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet index.html; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Update last updated date"
+          git push
