@@ -1,0 +1,18 @@
+id: person.park-chankyong
+name:
+  ko:
+    full: 박찬경
+    family: 박
+    given: 찬경
+  latn:
+    preferred: Park Chan-kyong
+    family: Park
+    given: Chan-kyong
+roles:
+  - artist
+  - writer
+birth_year: 1965
+sources:
+  - url: https://www.kukjegallery.com/artists/35
+    name_used: Park Chan-kyong
+status: stable

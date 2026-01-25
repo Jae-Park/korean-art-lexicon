@@ -1,0 +1,22 @@
+id: person.kim-sooja
+name:
+  ko:
+    full: 김수자
+    family: 김
+    given: 수자
+  latn:
+    preferred: Kimsooja
+    family: Kim
+    given: Sooja
+roles:
+  - artist
+birth_year: 1957
+sources:
+  - url: https://www.kimsooja.com
+    name_used: Kimsooja
+    note: "Official artist website, uses single-word name since 2003"
+  - url: https://www.moma.org/artists/29565
+    name_used: Kimsooja
+  - url: https://www.tate.org.uk/art/artists/kimsooja-2631
+    name_used: Kimsooja
+status: stable

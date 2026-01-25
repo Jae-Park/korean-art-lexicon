@@ -1,0 +1,19 @@
+id: org.takeout-drawing
+name:
+  ko: 테이크아웃드로잉
+  en: Takeout Drawing
+type: artist-run-space
+location:
+  city: Seoul
+  country: KR
+period:
+  start: 2007
+  end: 2015
+  active: false
+related:
+  - term.sinseang-gonggan
+sources:
+  - url: https://takeoutdrawing.com
+    name_used: Takeout Drawing
+status: stable
+notes: Representative sinseang gonggan, founded by artists

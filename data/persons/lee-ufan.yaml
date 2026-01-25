@@ -1,0 +1,22 @@
+id: person.lee-ufan
+name:
+  ko:
+    full: 이우환
+    family: 이
+    given: 우환
+  latn:
+    preferred: Lee Ufan
+    family: Lee
+    given: Ufan
+roles:
+  - artist
+  - writer
+birth_year: 1936
+sources:
+  - url: https://www.leeufan.com
+    name_used: Lee Ufan
+  - url: https://www.guggenheim.org/artwork/artist/lee-ufan
+    name_used: Lee Ufan
+  - url: https://www.moma.org/artists/3558
+    name_used: Lee Ufan
+status: stable

@@ -1,0 +1,20 @@
+id: exhibition.korean-pavilion-venice-2024
+title:
+  ko: "나무, 흔적, 그리고 (보이지 않는) 파빌리온"
+  en: "TREES & TRACES: An (in)visible pavilion"
+  variants:
+    - "Trees & Traces: An (In)visible Pavilion"
+    - "TREES & TRACES"
+venue: Korean Pavilion, Giardini
+city: Venice
+country: IT
+dates:
+  start: "2024-04-20"
+  end: "2024-11-24"
+type: biennale
+organizer: Arts Council Korea
+sources:
+  - https://www.labiennale.org/en/art/2024
+  - https://venicebiennale.kr
+status: stable
+notes: 60th Venice Biennale

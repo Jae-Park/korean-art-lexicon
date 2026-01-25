@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Korean Art Lexicon · 한국미술 용어집</title>
+  <meta name="description" content="An open-source authority file for Korean contemporary art names and titles">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'IBM Plex Sans', 'IBM Plex Sans KR', sans-serif;
+      line-height: 1.7;
+      color: #1a1a1a;
+      min-height: 100vh;
+      background: linear-gradient(-45deg, #ff9a9e, #fecfef, #a18cd1, #fbc2eb, #a6c1ee, #c2e9fb);
+      background-size: 400% 400%;
+      animation: gradientMove 20s ease infinite;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 32px 40px 24px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      z-index: 100;
+    }
+
+    header h1,
+    header .subtitle span {
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+    }
+
+    header .inner {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 160px 40px 80px;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(10px);
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      font-size: 1rem;
+      color: #666;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 20px;
+    }
+
+    .row.header {
+      margin-bottom: 24px;
+    }
+
+    .row h2 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+
+    .row p {
+      color: #333;
+    }
+
+    .row strong {
+      color: #1a1a1a;
+    }
+
+    .manifesto {
+      margin-bottom: 64px;
+    }
+
+    .section {
+      margin-bottom: 48px;
+    }
+
+    .section h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #1a1a1a;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .section li {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      color: #333;
+    }
+
+    .section li:last-child {
+      border-bottom: none;
+    }
+
+    .section li strong {
+      color: #1a1a1a;
+    }
+
+    .about {
+      margin-bottom: 48px;
+    }
+
+    .about h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #1a1a1a;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 24px;
+    }
+
+    .about-grid p {
+      color: #333;
+    }
+
+    .about-grid strong {
+      color: #1a1a1a;
+    }
+
+    .status {
+      font-size: 1.125rem;
+      color: #1a1a1a;
+      font-weight: 500;
+      margin-bottom: 24px;
+      padding: 16px 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #1a1a1a;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+
+    .contact-btn:hover {
+      background: #333;
+    }
+
+    footer {
+      margin-top: 80px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      font-size: 0.875rem;
+      color: #999;
+    }
+
+    footer a {
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 24px 24px 16px;
+      }
+
+      .container {
+        padding: 140px 24px 48px;
+      }
+
+      .subtitle,
+      .row,
+      .section h3,
+      .section li,
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+
+      .row {
+        margin-bottom: 24px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .status {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <h1>Korean Art Lexicon · 한국미술 용어집</h1>
+      <div class="subtitle">
+        <span>An open-source authority file for Korean contemporary art</span>
+        <span>한국 현대미술 명칭 데이터베이스</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="manifesto">
+      <div class="row header">
+        <h2>Why We Need It</h2>
+        <h2>왜 필요한가</h2>
+      </div>
+      <div class="row">
+        <p>Korean art names lack a shared standard. The same artist appears as three different people across databases. Exhibition titles change between press release and catalogue. There is no reliable reference.</p>
+        <p>한국미술의 이름에는 공유된 기준이 없습니다. 같은 작가가 데이터베이스마다 다른 사람으로 등장합니다. 전시 제목은 보도자료와 도록 사이에서 달라집니다. 신뢰할 수 있는 기준점이 없습니다.</p>
+      </div>
+      <div class="row">
+        <p><strong>This is not a dictionary.</strong> It is an infrastructure for naming Korean contemporary art reliably across languages.</p>
+        <p><strong>이것은 사전이 아닙니다.</strong> 한국 현대미술의 이름을 언어 간에 일관되게 사용하기 위한 인프라입니다.</p>
+      </div>
+      <div class="row">
+        <p>We document <strong>how names are actually used</strong>—not how they should be used. Every entry traces its source. Every variation is recorded with evidence.</p>
+        <p>우리는 이름이 <strong>어떻게 사용되어야 하는지</strong>가 아니라, <strong>실제로 어떻게 사용되고 있는지</strong>를 기록합니다. 모든 항목은 출처를 추적하고, 모든 표기 변형은 근거와 함께 기록됩니다.</p>
+      </div>
+      <div class="row">
+        <p>김수자 becomes Kimsooja, Kim Sooja, or Kim Soo-ja depending on who you ask. We don't pick winners. We show you where each form appears, so you can decide.</p>
+        <p>김수자는 Kimsooja, Kim Sooja, Kim Soo-ja 등 다양하게 표기됩니다. 우리는 하나의 정답을 제시하지 않습니다. 각 표기가 어디에서 사용되는지 보여주고, 맥락에 맞는 선택을 할 수 있도록 돕습니다.</p>
+      </div>
+      <div class="row">
+        <p><strong>Open data. Open contributions. Open governance.</strong></p>
+        <p><strong>열린 데이터. 열린 기여. 열린 거버넌스.</strong></p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>
+        <span>Scope</span>
+        <span>범위</span>
+      </h3>
+      <ul>
+        <li>
+          <span><strong>Persons</strong> — Artists, curators, writers, critics</span>
+          <span><strong>인물</strong> — 작가, 큐레이터, 필자, 비평가</span>
+        </li>
+        <li>
+          <span><strong>Exhibitions</strong> — Titles in Korean and English</span>
+          <span><strong>전시</strong> — 한국어·영어 전시 제목</span>
+        </li>
+        <li>
+          <span><strong>Organizations</strong> — Museums, galleries, artist-run spaces</span>
+          <span><strong>기관</strong> — 미술관, 갤러리, 대안공간</span>
+        </li>
+        <li>
+          <span><strong>Terms</strong> — Dansaekhwa, Minjung art, Sinseang gonggan...</span>
+          <span><strong>용어</strong> — 단색화, 민중미술, 신생공간...</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>
+        <span>Principles</span>
+        <span>원칙</span>
+      </h3>
+      <ul>
+        <li>
+          <span>Every entry requires at least one verifiable source</span>
+          <span>모든 항목은 검증 가능한 출처가 필요합니다</span>
+        </li>
+        <li>
+          <span>Preferred forms are distinguished from variants</span>
+          <span>선호 표기와 변형 표기를 구분합니다</span>
+        </li>
+        <li>
+          <span>Sources track which name form they use</span>
+          <span>출처별로 사용된 표기를 추적합니다</span>
+        </li>
+        <li>
+          <span>Changes are versioned through Git history</span>
+          <span>모든 변경은 Git 히스토리로 관리됩니다</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="about">
+      <h3>About</h3>
+      <div class="about-grid">
+        <p>
+          Korean Art Lexicon is designed and developed by <strong>Jaeyong Park</strong>—translator, writer, and curator—as
+          an initiative of <strong>Seoul Reading Room</strong>.
+          This project aims to serve the Korean art translation community as a public resource.
+        </p>
+        <p>
+          Korean Art Lexicon은 통번역가, 필자, 큐레이터 <strong>박재용</strong>이 기획·개발하고,
+          <strong>서울리딩룸</strong>의 이니셔티브로 운영됩니다.
+          한국미술 번역 커뮤니티를 위한 공공 기여를 목표로 합니다.
+        </p>
+      </div>
+      <p class="status">Currently in prototype development. · 현재 프로토타입 개발 중입니다.</p>
+      <a href="mailto:jaeyong@readingroom.me?subject=[Korean Art Lexicon] 문의" class="contact-btn">Contact</a>
+    </div>
+
+    <footer>
+      <p>Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a> · Code: MIT</p>
+    </footer>
+  </div>
+</body>
+</html>

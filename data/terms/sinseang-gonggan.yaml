@@ -1,0 +1,26 @@
+id: term.sinseang-gonggan
+term:
+  ko: 신생공간
+  en:
+    preferred: "sinseang gonggan"
+    type: transliteration
+    alternatives:
+      - form: "emerging space"
+        type: semantic
+      - form: "newborn space"
+        type: literal
+  hanja: 新生空間
+category: phenomenon
+definition:
+  ko: "2000년대 후반부터 2010년대 초반 한국에서 등장한 작가 주도형 소규모 대안공간. 기존 제도권 미술계에 대한 대안으로 작가들이 직접 운영하며, 실험적인 전시와 프로젝트를 진행했다."
+  en: "Artist-run micro-spaces that emerged in Korea from the late 2000s to early 2010s as alternatives to the established art system. Operated directly by artists, these spaces hosted experimental exhibitions and projects."
+period:
+  start: 2007
+  end: 2015
+related:
+  - org.takeout-drawing
+  - term.alternative-space
+sources:
+  - url: https://www.arko.or.kr
+    name_used: 신생공간
+status: stable

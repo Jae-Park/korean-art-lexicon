@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://korean-art-lexicon.org/schema/exhibition.schema.json",
+  "title": "Exhibition",
+  "description": "An exhibition entity in the Korean Art Lexicon",
+  "type": "object",
+  "required": ["id", "title", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^exhibition\\.[a-z0-9-]+$",
+      "description": "Unique identifier in format: exhibition.{slug}"
+    },
+    "title": {
+      "type": "object",
+      "required": ["ko"],
+      "additionalProperties": false,
+      "properties": {
+        "ko": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Korean title"
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "description": "English title"
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Alternative title forms"
+        }
+      }
+    },
+    "venue": {
+      "type": "string",
+      "description": "Exhibition venue"
+    },
+    "city": {
+      "type": "string",
+      "description": "City where the exhibition took place"
+    },
+    "country": {
+      "type": "string",
+      "description": "Country code (ISO 3166-1 alpha-2)"
+    },
+    "dates": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date",
+          "description": "Opening date (YYYY-MM-DD)"
+        },
+        "end": {
+          "type": "string",
+          "format": "date",
+          "description": "Closing date (YYYY-MM-DD)"
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 2100,
+          "description": "Year only (when exact dates unknown)"
+        }
+      }
+    },
+    "type": {
+      "type": "string",
+      "enum": ["solo", "group", "biennale", "triennale", "fair", "retrospective", "survey", "other"],
+      "description": "Exhibition type"
+    },
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^person\\.[a-z0-9-]+$"
+      },
+      "description": "References to person entities"
+    },
+    "organizer": {
+      "type": "string",
+      "description": "Organizing institution or curator"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Verifiable sources for this entry"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "review", "stable"],
+      "default": "draft",
+      "description": "Entry status"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Internal notes (optional)"
+    }
+  }
+}

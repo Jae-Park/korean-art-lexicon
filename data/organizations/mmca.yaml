@@ -1,0 +1,19 @@
+id: org.mmca
+name:
+  ko: 국립현대미술관
+  en: National Museum of Modern and Contemporary Art, Korea
+  hanja: 國立現代美術館
+type: museum
+location:
+  city: Seoul
+  country: KR
+period:
+  start: 1969
+  active: true
+sources:
+  - url: https://www.mmca.go.kr
+    name_used: MMCA
+    note: "Official abbreviation"
+  - url: https://www.mmca.go.kr/eng
+    name_used: "National Museum of Modern and Contemporary Art, Korea"
+status: stable

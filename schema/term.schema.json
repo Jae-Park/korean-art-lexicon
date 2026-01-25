@@ -1,0 +1,160 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://korean-art-lexicon.org/schema/term.schema.json",
+  "title": "Term",
+  "description": "An art term or concept in the Korean Art Lexicon",
+  "type": "object",
+  "required": ["id", "term", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^term\\.[a-z0-9-]+$",
+      "description": "Unique identifier in format: term.{slug}"
+    },
+    "term": {
+      "type": "object",
+      "required": ["ko"],
+      "additionalProperties": false,
+      "properties": {
+        "ko": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Korean term"
+        },
+        "en": {
+          "type": "object",
+          "required": ["preferred"],
+          "additionalProperties": false,
+          "properties": {
+            "preferred": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Preferred English translation"
+            },
+            "type": {
+              "type": "string",
+              "enum": ["transliteration", "literal", "semantic", "loan"],
+              "description": "Translation type: transliteration (음역), literal (직역), semantic (의미역), loan (외래어)"
+            },
+            "alternatives": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["form"],
+                "additionalProperties": false,
+                "properties": {
+                  "form": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": ["transliteration", "literal", "semantic", "loan"]
+                  },
+                  "source": {
+                    "type": "string",
+                    "description": "Where this form is used"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hanja": {
+          "type": "string",
+          "description": "Hanja (Chinese characters)"
+        }
+      }
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "movement",
+        "style",
+        "technique",
+        "material",
+        "genre",
+        "concept",
+        "phenomenon",
+        "other"
+      ],
+      "description": "Term category"
+    },
+    "definition": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ko": {
+          "type": "string",
+          "description": "Korean definition"
+        },
+        "en": {
+          "type": "string",
+          "description": "English definition"
+        }
+      }
+    },
+    "period": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "integer",
+          "description": "Year the term/movement emerged"
+        },
+        "end": {
+          "type": "integer",
+          "description": "Year the term/movement ended (if applicable)"
+        }
+      }
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^(person|org|term|exhibition)\\.[a-z0-9-]+$"
+      },
+      "description": "Related entities"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          {
+            "type": "object",
+            "required": ["url"],
+            "additionalProperties": false,
+            "properties": {
+              "url": {
+                "type": "string",
+                "minLength": 1
+              },
+              "name_used": {
+                "type": "string",
+                "description": "Term form used in this source"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        ]
+      },
+      "description": "Verifiable sources"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "review", "stable"],
+      "default": "draft"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
