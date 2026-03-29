@@ -1664,7 +1664,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2003",
       "title": {
-        "ko": "제50회 베니스 비엔날레 한국관: 차이의 풍경",
+        "ko": "제50회 베니스 비엔날레 한국관",
         "en": "Landscape of Differences"
       },
       "dates": {
@@ -1694,7 +1694,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2005",
       "title": {
-        "ko": "제51회 베니스 비엔날레 한국관: 문 뒤의 비밀",
+        "ko": "제51회 베니스 비엔날레 한국관",
         "en": "Secret Beyond the Door"
       },
       "dates": {
@@ -1736,7 +1736,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2007",
       "title": {
-        "ko": "제52회 베니스 비엔날레 한국관: 호모 스피시즈",
+        "ko": "제52회 베니스 비엔날레 한국관",
         "en": "The Homo Species"
       },
       "dates": {
@@ -1764,7 +1764,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2009",
       "title": {
-        "ko": "제53회 베니스 비엔날레 한국관: 응축",
+        "ko": "제53회 베니스 비엔날레 한국관",
         "en": "Condensation"
       },
       "dates": {
@@ -1792,7 +1792,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2011",
       "title": {
-        "ko": "제54회 베니스 비엔날레 한국관: 사랑은 가고 상처는 낫겠지",
+        "ko": "제54회 베니스 비엔날레 한국관",
         "en": "The Love Is Gone but the Scar Will Heal"
       },
       "dates": {
@@ -1820,7 +1820,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2013",
       "title": {
-        "ko": "제55회 베니스 비엔날레 한국관: 숨쉬기: 보따리",
+        "ko": "제55회 베니스 비엔날레 한국관",
         "en": "To Breathe: Bottari"
       },
       "dates": {
@@ -1848,7 +1848,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2015",
       "title": {
-        "ko": "제56회 베니스 비엔날레 한국관: 축지법과 비행술",
+        "ko": "제56회 베니스 비엔날레 한국관",
         "en": "The Ways of Folding Space & Flying"
       },
       "dates": {
@@ -1877,7 +1877,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2017",
       "title": {
-        "ko": "제57회 베니스 비엔날레 한국관: 카운터밸런스: 돌과 산",
+        "ko": "제57회 베니스 비엔날레 한국관",
         "en": "Counterbalance: The Stone and the Mountain"
       },
       "dates": {
@@ -1906,7 +1906,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2019",
       "title": {
-        "ko": "제58회 베니스 비엔날레 한국관: 역사가 우리를 망쳐놨지만 그래도 상관없다",
+        "ko": "제58회 베니스 비엔날레 한국관",
         "en": "History Has Failed Us, but No Matter"
       },
       "dates": {
@@ -1936,7 +1936,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2022",
       "title": {
-        "ko": "제59회 베니스 비엔날레 한국관: 자이르",
+        "ko": "제59회 베니스 비엔날레 한국관",
         "en": "Gyre"
       },
       "dates": {
@@ -1969,7 +1969,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2024",
       "title": {
-        "ko": "오도라마 시티",
+        "ko": "제60회 베니스 비엔날레 한국관",
         "en": "ODORAMA CITIES",
         "variants": [
           "Odorama Cities"
