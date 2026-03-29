@@ -1,0 +1,31 @@
+id: person.yang-haegue
+name:
+  ko:
+    full: 양혜규
+    family: 양
+    given: 혜규
+  latn:
+    preferred: Haegue Yang
+    family: Yang
+    given: Haegue
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202001090001232
+  name_used: Haegue Yang
+  note: MMCA Hyundai Motor Series 2020
+- url: https://www.kukjegallery.com/artists/view?seq=176
+  name_used: Haegue Yang
+  note: Kukje Gallery represented artist
+- url: https://www.tate.org.uk/art/artists/haegue-yang-16780
+  name_used: Haegue Yang
+  note: Tate artist page
+- url: https://www.moma.org/artists/37934
+  name_used: Haegue Yang
+  note: MoMA artist page
+- url: https://www.guggenheim.org/artwork/artist/haegue-yang
+  name_used: Haegue Yang
+  note: Guggenheim artist page
+status: pending_review
+notes: Uses given-family order (Haegue Yang) as preferred form
+external_ids:
+  ulan: '500355927'
+  wikidata: Q1567689

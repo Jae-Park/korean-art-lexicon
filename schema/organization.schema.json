@@ -121,7 +121,7 @@
     },
     "status": {
       "type": "string",
-      "enum": ["draft", "review", "stable"],
+      "enum": ["submitted", "pending_review", "firsthand", "stable", "rejected"],
       "default": "draft"
     },
     "notes": {

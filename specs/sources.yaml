@@ -1,0 +1,15 @@
+sources:
+  - id: mmca
+    name:
+      ko: 국립현대미술관
+      en: National Museum of Modern and Contemporary Art, Korea
+    base_url: https://www.mmca.go.kr
+    targets:
+      - type: exhibitions
+        list_url: /exhibitions/exhibitionsList.do
+        detail_url_pattern: /exhibitions/exhibitionsDetail.do?exhId={id}
+        schedule: monthly
+      - type: persons
+        note: "MMCA 웹사이트에 별도 작가 목록 없음 — 전시 상세에서 추출"
+    trust_level: institutional
+    notes: "MMCA 현대차 시리즈 (2014-2023, 10년 한정) 포함"

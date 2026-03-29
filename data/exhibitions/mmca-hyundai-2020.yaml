@@ -1,0 +1,19 @@
+id: exhibition.mmca-hyundai-2020
+title:
+  ko: 'MMCA 현대차 시리즈 2020: 양혜규 – O2 & H2O'
+venue: 국립현대미술관 서울 5전시실, 서울박스
+city: Seoul
+country: KR
+dates:
+  start: '2020-09-29'
+  end: '2021-02-28'
+type: solo
+participants:
+- person.yang-haegue
+organizer: MMCA
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202001090001232
+- url: https://www.e-flux.com/announcements/339015/haegue-yango2-h2o/
+  name_used: Haegue Yang
+  note: e-flux — 'O2 & H2O'
+status: pending_review

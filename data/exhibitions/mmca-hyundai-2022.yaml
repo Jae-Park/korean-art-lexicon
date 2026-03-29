@@ -1,0 +1,19 @@
+id: exhibition.mmca-hyundai-2022
+title:
+  ko: 'MMCA 현대차 시리즈 2022: 최우람 - 작은 방주'
+venue: 국립현대미술관 서울 서울박스, 5전시실 및 복도
+city: Seoul
+country: KR
+dates:
+  start: '2022-09-09'
+  end: '2023-02-26'
+type: solo
+participants:
+- person.choe-uram
+organizer: MMCA
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=2&exhId=202208090001545
+- url: https://www.e-flux.com/announcements/483822/choe-u-ramlittle-ark
+  name_used: Choe U-Ram
+  note: e-flux — 'Little Ark'
+status: pending_review

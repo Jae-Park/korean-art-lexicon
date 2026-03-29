@@ -1,0 +1,27 @@
+id: person.lee-bul
+name:
+  ko:
+    full: 이불
+    family: 이
+    given: 불
+  latn:
+    preferred: Lee Bul
+    family: Lee
+    given: Bul
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201409050000142
+  name_used: Lee Bul
+  note: MMCA Hyundai Motor Series 2014
+- url: https://www.tate.org.uk/art/artists/lee-bul-18154
+  name_used: Lee Bul
+  note: Tate artist page
+- url: https://www.moma.org/artists/43182
+  name_used: Bul Lee
+  note: MoMA artist page — note reversed name order
+- url: https://www.guggenheim.org/artwork/artist/lee-bul
+  name_used: Lee Bul
+  note: Guggenheim artist page
+status: pending_review
+external_ids:
+  ulan: '500125877'
+  wikidata: Q487546

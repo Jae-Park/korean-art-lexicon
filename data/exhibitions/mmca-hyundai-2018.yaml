@@ -1,0 +1,22 @@
+id: exhibition.mmca-hyundai-2018
+title:
+  ko: 'MMCA 현대차 시리즈 2018: 최정화 – 꽃,숲'
+venue: 국립현대미술관 서울 5전시실, 미술관 마당
+city: Seoul
+country: KR
+dates:
+  start: '2018-09-05'
+  end: '2019-03-03'
+type: solo
+participants:
+- person.choi-jeonghwa
+organizer: MMCA
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000995
+- url: https://www.e-flux.com/announcements/223318/choijeonghwablooming-matrix/
+  name_used: CHOIJEONGHWA
+  note: e-flux — one word, all caps
+- url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201802260001022
+  name_used: CHOIJEONGHWA
+  note: MMCA English page — 'Blooming Matrix', one-word name
+status: pending_review

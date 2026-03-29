@@ -1,0 +1,27 @@
+id: person.koo-jeonga
+name:
+  ko:
+    full: 구정아
+    family: 구
+    given: 정아
+  latn:
+    preferred: Koo Jeong A
+    family: Koo
+    given: Jeong A
+sources:
+- url: https://vocab.getty.edu/page/ulan/500294101
+  name_used: Koo Jeong A
+  note: Getty ULAN authority record
+- url: https://www.tate.org.uk/art/artists/koo-jeong-a-10562
+  name_used: Koo Jeong-A
+  note: Tate artist page
+- url: https://www.moma.org/artists/31312
+  name_used: Koo Jeong-a
+  note: MoMA artist page
+- url: https://www.guggenheim.org/artwork/artist/koo-jeong-a
+  name_used: Koo Jeong-A
+  note: Guggenheim artist page
+status: pending_review
+external_ids:
+  ulan: '500294101'
+  wikidata: Q16844597

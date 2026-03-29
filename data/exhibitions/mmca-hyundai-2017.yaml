@@ -1,0 +1,22 @@
+id: exhibition.mmca-hyundai-2017
+title:
+  ko: '국립현대미술관 현대차시리즈 2017: 임흥순 - 우리를 갈라놓는 것들'
+venue: 국립현대미술관 서울 제5, 7전시실, 전시마당, 복도
+city: Seoul
+country: KR
+dates:
+  start: '2017-11-30'
+  end: '2018-04-08'
+type: solo
+participants:
+- person.im-heungsoon
+organizer: MMCA
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201703130000546
+- url: https://www.e-flux.com/announcements/150475/im-heung-soonthings-that-do-us-part-belief-faith-love-betrayal-hatred-fear-ghost
+  name_used: Im Heung-soon
+  note: e-flux — 'Things that Do Us Part'
+- url: https://artlab.hyundai.com/project/mmca-hyundai-motor-series-2017-im-heung-soon
+  name_used: IM Heung-soon
+  note: Hyundai Artlab — family name capitalized 'IM'
+status: pending_review

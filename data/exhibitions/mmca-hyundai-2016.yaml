@@ -1,0 +1,20 @@
+id: exhibition.mmca-hyundai-2016
+title:
+  ko: '국립현대미술관 현대차 시리즈 2016: 김수자 - 마음의 기하학'
+  en: 'MMCA Hyundai Motor Series 2016: Kimsooja - Archive of Mind'
+venue: 국립현대미술관 서울 제5전시실 및 전시마당
+city: Seoul
+country: KR
+dates:
+  start: '2016-07-27'
+  end: '2017-02-05'
+type: solo
+participants:
+- person.kim-sooja
+organizer: MMCA
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201606240000455
+- url: https://www.hyundai.com/worldwide/en/company/newsroom/hyundai-motor-presents-%E2%80%98mmca-hyundai-motor-series-2016-kimsooja--archive-of-mind%E2%80%99-0000006299
+  name_used: KIMSOOJA
+  note: Hyundai Newsroom — artist name all caps, English subtitle 'Archive of Mind'
+status: pending_review

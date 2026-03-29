@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Korean Art Lexicon · Browse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'IBM Plex Sans', 'IBM Plex Sans KR', sans-serif;
+      line-height: 1.6;
+      color: #1a1a1a;
+      min-height: 100vh;
+      background: linear-gradient(-45deg, #ff9a9e, #fecfef, #a18cd1, #fbc2eb, #a6c1ee, #c2e9fb);
+      background-size: 400% 400%;
+      animation: gradientMove 20s ease infinite;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Header */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 20px 32px;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+    }
+
+    header h1 a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .count-badge {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: #666;
+      background: rgba(255,255,255,0.5);
+      padding: 4px 10px;
+      border-radius: 12px;
+    }
+
+    /* Layout */
+    .app {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 88px 32px 64px;
+    }
+
+    /* Search */
+    .search-bar {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 14px 20px 14px 44px;
+      border: none;
+      border-radius: 12px;
+      font-family: inherit;
+      font-size: 1rem;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(10px);
+      outline: none;
+      transition: background 0.2s;
+    }
+
+    .search-bar input:focus {
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .search-bar input::placeholder { color: #999; }
+
+    .search-icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1rem;
+      color: #999;
+      pointer-events: none;
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 24px;
+    }
+
+    .tab {
+      padding: 8px 18px;
+      border: none;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.4);
+      color: #555;
+      transition: all 0.15s;
+    }
+
+    .tab:hover { background: rgba(255, 255, 255, 0.6); }
+
+    .tab.active {
+      background: rgba(255, 255, 255, 0.9);
+      color: #1a1a1a;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .tab .tab-count {
+      font-size: 0.75rem;
+      color: #999;
+      margin-left: 4px;
+    }
+
+    .tab.active .tab-count { color: #666; }
+
+    /* Entry List */
+    .entry-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .entry-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      padding: 16px 20px;
+      background: rgba(255, 255, 255, 0.75);
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .entry-row:hover {
+      background: rgba(255, 255, 255, 0.92);
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .entry-ko {
+      font-weight: 500;
+    }
+
+    .entry-en {
+      color: #555;
+    }
+
+    .entry-meta {
+      font-size: 0.8rem;
+      color: #999;
+      margin-top: 2px;
+    }
+
+    /* Detail Panel */
+    .detail-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(4px);
+      z-index: 200;
+    }
+
+    .detail-overlay.open { display: block; }
+
+    .detail-panel {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(560px, 90vw);
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(20px);
+      z-index: 201;
+      overflow-y: auto;
+      padding: 32px;
+      box-shadow: -4px 0 32px rgba(0, 0, 0, 0.1);
+      transform: translateX(100%);
+      transition: transform 0.25s ease;
+    }
+
+    .detail-overlay.open .detail-panel {
+      transform: translateX(0);
+    }
+
+    .detail-close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      border: none;
+      background: rgba(0, 0, 0, 0.06);
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      font-size: 1.125rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+    }
+
+    .detail-close:hover { background: rgba(0, 0, 0, 0.1); }
+
+    .detail-title-ko {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .detail-title-en {
+      font-size: 1.125rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .detail-section {
+      margin-bottom: 20px;
+    }
+
+    .detail-section h3 {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #999;
+      margin-bottom: 8px;
+    }
+
+    .detail-field {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 8px;
+      font-size: 0.875rem;
+      margin-bottom: 6px;
+    }
+
+    .detail-field .label {
+      color: #999;
+      font-weight: 400;
+    }
+
+    .detail-field .value {
+      color: #333;
+    }
+
+    .detail-tag {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      margin-right: 4px;
+      margin-bottom: 4px;
+    }
+
+    .tag-type { background: #fef3cd; color: #856404; }
+    .tag-status-stable { background: #d4edda; color: #155724; }
+    .tag-status-draft { background: #f0f0f0; color: #666; }
+    .tag-status-review { background: #fff3cd; color: #856404; }
+    .tag-category { background: #e8daef; color: #6c3483; }
+
+    .variant-item {
+      font-size: 0.85rem;
+      padding: 8px 12px;
+      background: rgba(0, 0, 0, 0.03);
+      border-radius: 8px;
+      margin-bottom: 6px;
+    }
+
+    .variant-form {
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 500;
+      color: #1a1a1a;
+      display: block;
+    }
+
+    .variant-source {
+      font-size: 0.75rem;
+      color: #2b6cb0;
+      text-decoration: none;
+    }
+
+    .variant-source:hover { text-decoration: underline; }
+
+    .variant-note {
+      font-size: 0.75rem;
+      color: #999;
+      font-style: italic;
+      margin-left: 8px;
+    }
+
+    .source-item {
+      font-size: 0.8rem;
+      padding: 8px 12px;
+      background: rgba(0, 0, 0, 0.03);
+      border-radius: 8px;
+      margin-bottom: 6px;
+    }
+
+    .source-item a {
+      color: #2b6cb0;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .source-item a:hover { text-decoration: underline; }
+
+    .source-name-used {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.8rem;
+      color: #555;
+    }
+
+    .source-note {
+      color: #999;
+      font-style: italic;
+    }
+
+    .ref-link {
+      color: #2b6cb0;
+      cursor: pointer;
+      text-decoration: none;
+      border-bottom: 1px dashed #2b6cb0;
+    }
+
+    .ref-link:hover {
+      color: #1a4a7a;
+      border-bottom-style: solid;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 48px 20px;
+      color: #999;
+    }
+
+    .empty-state p { font-size: 1rem; }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      header { padding: 16px 20px; }
+      header h1 { font-size: 1rem; }
+      .app { padding: 80px 16px 48px; }
+
+      .tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+      .entry-row {
+        grid-template-columns: 1fr;
+        gap: 4px;
+        padding: 14px 16px;
+      }
+
+      .detail-panel { width: 100vw; padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">Korean Art Lexicon</a> · Browse</h1>
+    <div class="header-right">
+      <span class="count-badge" id="totalCount"></span>
+    </div>
+  </header>
+
+  <div class="app">
+    <div class="search-bar">
+      <span class="search-icon">&#x1F50D;</span>
+      <input type="text" id="searchInput" placeholder="검색 · Search (e.g. 김수자, Dansaekhwa, MMCA...)">
+    </div>
+
+    <div class="tabs" id="tabs"></div>
+    <div class="entry-list" id="entryList"></div>
+  </div>
+
+  <!-- Detail Overlay -->
+  <div class="detail-overlay" id="detailOverlay">
+    <div class="detail-panel" id="detailPanel"></div>
+  </div>
+
+  <script>
+    const TABS = [
+      { key: 'persons', label: '인물', labelEn: 'Persons' },
+      { key: 'exhibitions', label: '전시', labelEn: 'Exhibitions' },
+      { key: 'organizations', label: '기관', labelEn: 'Organizations' },
+      { key: 'terms', label: '용어', labelEn: 'Terms' },
+    ];
+
+    let data = {};
+    let activeTab = 'persons';
+    let searchQuery = '';
+
+    // Boot
+    async function init() {
+      const res = await fetch('dist/lexicon.json?v=' + Date.now(), { cache: 'no-store' });
+      data = await res.json();
+
+      const total = Object.values(data).reduce((s, arr) => s + arr.length, 0);
+      document.getElementById('totalCount').textContent = `${total} entries`;
+
+      renderTabs();
+      renderList();
+
+      document.getElementById('searchInput').addEventListener('input', e => {
+        searchQuery = e.target.value.trim().toLowerCase();
+        // Auto-switch to tab with results if current tab is empty
+        if (searchQuery) {
+          const currentItems = (data[activeTab] || []).filter(matchesSearch);
+          if (currentItems.length === 0) {
+            for (const t of TABS) {
+              const items = (data[t.key] || []).filter(matchesSearch);
+              if (items.length > 0) {
+                activeTab = t.key;
+                renderTabs();
+                break;
+              }
+            }
+          }
+        }
+        renderList();
+      });
+
+      document.getElementById('detailOverlay').addEventListener('click', e => {
+        if (e.target === e.currentTarget) closeDetail();
+      });
+
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeDetail();
+      });
+
+      // Handle hash navigation
+      if (location.hash) openFromHash(location.hash);
+      window.addEventListener('hashchange', () => openFromHash(location.hash));
+    }
+
+    // Tabs
+    function renderTabs() {
+      const container = document.getElementById('tabs');
+      container.innerHTML = TABS.map(t => {
+        const count = (data[t.key] || []).length;
+        const cls = t.key === activeTab ? 'tab active' : 'tab';
+        return `<button class="${cls}" data-key="${t.key}">${t.label} <span class="tab-count">${count}</span></button>`;
+      }).join('');
+
+      container.querySelectorAll('.tab').forEach(btn => {
+        btn.addEventListener('click', () => {
+          activeTab = btn.dataset.key;
+          renderTabs();
+          renderList();
+        });
+      });
+    }
+
+    // Filtering
+    function matchesSearch(entry) {
+      if (!searchQuery) return true;
+      const blob = JSON.stringify(entry).toLowerCase();
+      return blob.includes(searchQuery);
+    }
+
+    // List rendering
+    function renderList() {
+      const container = document.getElementById('entryList');
+      const items = (data[activeTab] || []).filter(matchesSearch);
+
+      if (items.length === 0) {
+        container.innerHTML = `<div class="empty-state"><p>${searchQuery ? '검색 결과가 없습니다 · No results' : '데이터 없음 · No data'}</p></div>`;
+        return;
+      }
+
+      container.innerHTML = items.map(entry => {
+        const { ko, en } = getDisplayNames(entry);
+        const meta = getMetaLine(entry);
+        return `
+          <div class="entry-row" data-id="${entry.id}">
+            <div>
+              <div class="entry-ko">${esc(ko)}</div>
+              ${meta ? `<div class="entry-meta">${esc(meta)}</div>` : ''}
+            </div>
+            <div class="entry-en">${esc(en)}</div>
+          </div>`;
+      }).join('');
+
+      container.querySelectorAll('.entry-row').forEach(row => {
+        row.addEventListener('click', () => openDetail(row.dataset.id));
+      });
+    }
+
+    // Display name helpers
+    function getDisplayNames(entry) {
+      if (entry.name) {
+        // person or org
+        const ko = typeof entry.name.ko === 'object' ? entry.name.ko.full : entry.name.ko;
+        const en = entry.name.latn ? entry.name.latn.preferred : (entry.name.en || '');
+        return { ko, en };
+      }
+      if (entry.title) {
+        return { ko: entry.title.ko || '', en: entry.title.en || '' };
+      }
+      if (entry.term) {
+        const ko = entry.term.ko || '';
+        const en = entry.term.en ? entry.term.en.preferred : '';
+        return { ko, en };
+      }
+      return { ko: entry.id, en: '' };
+    }
+
+    function getMetaLine(entry) {
+      const parts = [];
+      if (entry.birth_year) parts.push(`b. ${entry.birth_year}`);
+      // roles removed — not in scope for naming authority file
+      if (entry.type) parts.push(entry.type);
+      if (entry.dates) {
+        if (entry.dates.year) parts.push(String(entry.dates.year));
+        else if (entry.dates.start) parts.push(entry.dates.start.slice(0, 4));
+      }
+      if (entry.venue) parts.push(entry.venue);
+      if (entry.category) parts.push(entry.category);
+      if (entry.location) parts.push([entry.location.city, entry.location.country].filter(Boolean).join(', '));
+      return parts.join(' · ');
+    }
+
+    // Detail Panel
+    function openDetail(id) {
+      const entry = findEntry(id);
+      if (!entry) return;
+
+      location.hash = id;
+      const panel = document.getElementById('detailPanel');
+      panel.innerHTML = renderDetail(entry);
+      document.getElementById('detailOverlay').classList.add('open');
+
+      // Wire up ref links inside detail
+      panel.querySelectorAll('.ref-link').forEach(link => {
+        link.addEventListener('click', e => {
+          e.preventDefault();
+          openDetail(link.dataset.ref);
+        });
+      });
+    }
+
+    function closeDetail() {
+      document.getElementById('detailOverlay').classList.remove('open');
+      history.replaceState(null, '', location.pathname + location.search);
+    }
+
+    function openFromHash(hash) {
+      const id = hash.replace('#', '');
+      if (id && findEntry(id)) openDetail(id);
+    }
+
+    function findEntry(id) {
+      for (const arr of Object.values(data)) {
+        const found = arr.find(e => e.id === id);
+        if (found) return found;
+      }
+      return null;
+    }
+
+    // Detail rendering
+    function renderDetail(entry) {
+      const { ko, en } = getDisplayNames(entry);
+      let html = `<button class="detail-close" onclick="closeDetail()">&times;</button>`;
+      html += `<div class="detail-title-ko">${esc(ko)}</div>`;
+      if (en) html += `<div class="detail-title-en">${esc(en)}</div>`;
+
+      // Status tag
+      const status = entry.status || 'draft';
+      html += `<span class="detail-tag tag-status-${status}">${status}</span> `;
+
+      // --- Person ---
+      if (entry.id.startsWith('person.')) {
+        html += `<div class="detail-section" style="margin-top:20px"><h3>Name Details</h3>`;
+        html += field('한국어', entry.name.ko.full);
+        if (entry.name.ko.hanja) html += field('한자', entry.name.ko.hanja);
+        html += field('Family', entry.name.ko.family + ' / ' + entry.name.latn.family);
+        html += field('Given', entry.name.ko.given + ' / ' + entry.name.latn.given);
+        html += field('Preferred', entry.name.latn.preferred);
+        if (entry.birth_year) html += field('Born', entry.birth_year);
+        html += `</div>`;
+
+        // Name forms observed in sources
+        if (entry.sources && entry.sources.length > 1) {
+          const forms = [...new Set(entry.sources.map(s => s.name_used))];
+          if (forms.length > 1) {
+            html += `<div class="detail-section"><h3>Name Forms in Sources</h3>`;
+            entry.sources.forEach(s => {
+              const domain = s.url.replace(/https?:\/\/(www\.)?/, '').split('/')[0];
+              html += `<div class="variant-item">`;
+              html += `<span class="variant-form">${esc(s.name_used)}</span>`;
+              html += `<a class="variant-source" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(domain)}</a>`;
+              if (s.note) html += ` <span class="variant-note">${esc(s.note)}</span>`;
+              html += `</div>`;
+            });
+            html += `</div>`;
+          }
+        }
+
+        // External IDs
+        if (entry.external_ids) {
+          html += `<div class="detail-section"><h3>Authority Links</h3>`;
+          if (entry.external_ids.ulan) {
+            const ulanUrl = 'http://vocab.getty.edu/page/ulan/' + entry.external_ids.ulan;
+            html += `<div class="detail-field"><span class="label">Getty ULAN</span><span class="value"><a href="${ulanUrl}" target="_blank" rel="noopener">${entry.external_ids.ulan}</a></span></div>`;
+          }
+          if (entry.external_ids.wikidata) {
+            const wdUrl = 'https://www.wikidata.org/wiki/' + entry.external_ids.wikidata;
+            html += `<div class="detail-field"><span class="label">Wikidata</span><span class="value"><a href="${wdUrl}" target="_blank" rel="noopener">${entry.external_ids.wikidata}</a></span></div>`;
+          }
+          if (entry.external_ids.viaf) html += field('VIAF', entry.external_ids.viaf);
+          if (entry.external_ids.isni) html += field('ISNI', entry.external_ids.isni);
+          html += `</div>`;
+        }
+      }
+
+      // --- Exhibition ---
+      if (entry.id.startsWith('exhibition.')) {
+        if (entry.type) html += `<span class="detail-tag tag-type">${entry.type}</span>`;
+
+        html += `<div class="detail-section" style="margin-top:20px"><h3>Details</h3>`;
+        if (entry.venue) html += field('Venue', entry.venue);
+        if (entry.city) html += field('City', entry.city);
+        if (entry.dates) {
+          if (entry.dates.start && entry.dates.end) {
+            html += field('Dates', `${entry.dates.start} — ${entry.dates.end}`);
+          } else if (entry.dates.year) {
+            html += field('Year', entry.dates.year);
+          }
+        }
+        if (entry.organizer) html += field('Organizer', entry.organizer);
+        html += `</div>`;
+
+        if (entry.title.variants && entry.title.variants.length) {
+          html += `<div class="detail-section"><h3>Title Variants</h3>`;
+          entry.title.variants.forEach(v => { html += `<div style="font-size:0.875rem;margin-bottom:4px;color:#555">${esc(v)}</div>`; });
+          html += `</div>`;
+        }
+
+        if (entry.participants && entry.participants.length) {
+          html += `<div class="detail-section"><h3>Participants</h3>`;
+          entry.participants.forEach(pid => {
+            const p = findEntry(pid);
+            const name = p ? getDisplayNames(p).ko + ' ' + getDisplayNames(p).en : pid;
+            html += `<div style="margin-bottom:4px"><a class="ref-link" data-ref="${pid}" href="#">${esc(name)}</a></div>`;
+          });
+          html += `</div>`;
+        }
+      }
+
+      // --- Organization ---
+      if (entry.id.startsWith('org.')) {
+        if (entry.type) html += `<span class="detail-tag tag-type">${entry.type}</span>`;
+
+        html += `<div class="detail-section" style="margin-top:20px"><h3>Details</h3>`;
+        if (entry.name.hanja) html += field('Hanja', entry.name.hanja);
+        if (entry.location) html += field('Location', [entry.location.city, entry.location.country].filter(Boolean).join(', '));
+        if (entry.period) {
+          const pStr = entry.period.start + (entry.period.end ? ` — ${entry.period.end}` : entry.period.active ? ' — present' : '');
+          html += field('Period', pStr);
+        }
+        html += `</div>`;
+      }
+
+      // --- Term ---
+      if (entry.id.startsWith('term.')) {
+        if (entry.category) html += `<span class="detail-tag tag-category">${entry.category}</span>`;
+
+        html += `<div class="detail-section" style="margin-top:20px"><h3>Translation</h3>`;
+        if (entry.term.en) {
+          html += field('Preferred', entry.term.en.preferred);
+          if (entry.term.en.type) html += field('Type', entry.term.en.type);
+          if (entry.term.en.alternatives) {
+            entry.term.en.alternatives.forEach(alt => {
+              html += field(alt.type || '', alt.form + (alt.source ? ` (${alt.source})` : ''));
+            });
+          }
+        }
+        if (entry.term.hanja) html += field('Hanja', entry.term.hanja);
+        html += `</div>`;
+
+        if (entry.definition) {
+          html += `<div class="detail-section"><h3>Definition</h3>`;
+          if (entry.definition.ko) html += `<p style="font-size:0.875rem;margin-bottom:8px;color:#333">${esc(entry.definition.ko)}</p>`;
+          if (entry.definition.en) html += `<p style="font-size:0.875rem;color:#555">${esc(entry.definition.en)}</p>`;
+          html += `</div>`;
+        }
+
+        if (entry.period) {
+          html += `<div class="detail-section"><h3>Period</h3>`;
+          html += `<p style="font-size:0.875rem;color:#333">${entry.period.start}${entry.period.end ? ' — ' + entry.period.end : ''}</p>`;
+          html += `</div>`;
+        }
+      }
+
+      // --- Related ---
+      if (entry.related && entry.related.length) {
+        html += `<div class="detail-section"><h3>Related</h3>`;
+        entry.related.forEach(rid => {
+          const r = findEntry(rid);
+          const name = r ? getDisplayNames(r).ko : rid;
+          html += `<div style="margin-bottom:4px"><a class="ref-link" data-ref="${rid}" href="#">${esc(name)}</a></div>`;
+        });
+        html += `</div>`;
+      }
+
+      // --- Notes ---
+      if (entry.notes) {
+        html += `<div class="detail-section"><h3>Notes</h3>`;
+        html += `<p style="font-size:0.85rem;color:#666;font-style:italic">${esc(entry.notes)}</p>`;
+        html += `</div>`;
+      }
+
+      // --- Sources ---
+      html += `<div class="detail-section"><h3>Sources</h3>`;
+      (entry.sources || []).forEach(src => {
+        if (typeof src === 'string') {
+          html += `<div class="source-item"><a href="${esc(src)}" target="_blank" rel="noopener">${esc(src)}</a></div>`;
+        } else {
+          html += `<div class="source-item">`;
+          html += `<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.url)}</a>`;
+          if (src.name_used) html += `<br><span class="source-name-used">${esc(src.name_used)}</span>`;
+          if (src.note) html += `<br><span class="source-note">${esc(src.note)}</span>`;
+          html += `</div>`;
+        }
+      });
+      html += `</div>`;
+
+      return html;
+    }
+
+    // Helpers
+    function field(label, value) {
+      return `<div class="detail-field"><span class="label">${esc(String(label))}</span><span class="value">${esc(String(value))}</span></div>`;
+    }
+
+    function esc(str) {
+      const el = document.createElement('span');
+      el.textContent = str;
+      return el.innerHTML;
+    }
+
+    init();
+  </script>
+</body>
+</html>

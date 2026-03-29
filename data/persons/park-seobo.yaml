@@ -1,0 +1,34 @@
+id: person.park-seobo
+name:
+  ko:
+    full: 박서보
+    family: 박
+    given: 서보
+    hanja: 朴栖甫
+  latn:
+    preferred: Park Seo-Bo
+    family: Park
+    given: Seo-Bo
+sources:
+- url: https://vocab.getty.edu/page/ulan/500323715
+  name_used: Park Seo-Bo
+  note: Getty ULAN authority record
+- url: https://www.kukjegallery.com/artists/view?seq=181
+  name_used: Park Seo-Bo
+  note: Kukje Gallery represented artist
+- url: https://www.tate.org.uk/art/artists/park-seo-bo-24798
+  name_used: Park Seo-Bo
+  note: Tate artist page
+- url: https://www.moma.org/artists/48621
+  name_used: Park Seo-Bo
+  note: MoMA artist page
+- url: https://www.guggenheim.org/artwork/artist/park-seo-bo
+  name_used: Park Seo-Bo
+  note: Guggenheim artist page
+- url: https://www.perrotin.com/artists/Seo-Bo_Park/203
+  name_used: Park Seo-Bo
+  note: Perrotin represented artist (estate)
+status: pending_review
+external_ids:
+  ulan: '500323715'
+  wikidata: Q4984536

@@ -1,0 +1,18 @@
+id: person.choi-jeonghwa
+name:
+  ko:
+    full: 최정화
+    family: 최
+    given: 정화
+  latn:
+    preferred: Choi Jeonghwa
+    family: Choi
+    given: Jeonghwa
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000995
+  name_used: Choi Jeonghwa
+  note: MMCA Hyundai Motor Series 2018
+status: pending_review
+external_ids:
+  ulan: '500125325'
+  wikidata: Q28793925

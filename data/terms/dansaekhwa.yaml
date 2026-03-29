@@ -25,4 +25,13 @@ sources:
   - url: https://www.gokams.or.kr:442/visual-art/art-terms/
     name_used: 단색화
     note: "GOKAMS recommends transliteration: Dansaekhwa"
-status: stable
+  - url: https://www.tate.org.uk/art/art-terms/d/dansaekhwa-korean-monochrome-movement
+    name_used: Dansaekhwa
+    note: "Tate glossary — 'Dansaekhwa: The Korean monochrome movement'"
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?menuId=1030000000&exhId=201203200000055
+    name_used: Dansaekhwa
+    note: "MMCA 2012 exhibition 'Dansaekhwa: Korean Monochrome Painting' — established term as standard"
+  - url: https://www.tandfonline.com/doi/abs/10.1080/09528822.2013.772350
+    name_used: Dansaekhwa
+    note: "Third Text Vol.27 No.2 (2013), Joan Kee — academic article"
+status: pending_review

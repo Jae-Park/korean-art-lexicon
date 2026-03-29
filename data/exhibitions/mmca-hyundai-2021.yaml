@@ -1,0 +1,23 @@
+id: exhibition.mmca-hyundai-2021
+title:
+  ko: 'MMCA 현대차 시리즈 2021: 문경원 & 전준호 – 미지에서 온 소식, 자유의 마을'
+venue: 국립현대미술관 서울 5전시실, 서울박스
+city: Seoul
+country: KR
+dates:
+  start: '2021-09-03'
+  end: '2022-02-20'
+type: group
+participants:
+- person.moon-kyungwon
+- person.jeon-joonho
+organizer: MMCA
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202101290001375
+- url: https://www.e-flux.com/announcements/410989/moon-kyungwon-and-jeon-joonhonews-from-nowhere-freedom-village
+  name_used: Moon Kyungwon and Jeon Joonho
+  note: e-flux — 'News from Nowhere, Freedom Village'
+- url: https://ocula.com/magazine/features/moon-kyungwon-and-jeon-joonho-news-from-nowhere/
+  name_used: Moon Kyungwon and Jeon Joonho
+  note: Ocula feature
+status: pending_review

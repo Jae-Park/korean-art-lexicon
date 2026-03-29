@@ -1,20 +1,22 @@
 id: exhibition.mmca-hyundai-2023
 title:
-  ko: "MMCA 현대차 시리즈 2023: 정연두 - 백년 여행기"
-  en: "MMCA Hyundai Motor Series 2023: Yeondoo Jung - Centennial Travels"
-  variants:
-    - "백년 여행기"
-    - "Centennial Travels"
-venue: National Museum of Modern and Contemporary Art, Seoul
+  ko: 'MMCA 현대차 시리즈 2023: 정연두 - 백년 여행기'
+venue: 국립현대미술관 서울 지하1층, 5전시실, 복도, 서울박스
 city: Seoul
 country: KR
 dates:
-  start: "2023-09-06"
-  end: "2024-02-25"
+  start: '2023-09-06'
+  end: '2024-02-25'
 type: solo
 participants:
-  - person.jung-yeondoo
+- person.jung-yeondoo
 organizer: MMCA
 sources:
-  - https://www.mmca.go.kr
-status: stable
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=2&exhId=202302010001615
+- url: https://www.e-flux.com/announcements/558165/jung-yeondooone-hundred-years-of-travels/
+  name_used: Jung Yeondoo
+  note: e-flux — family-given order 'Jung Yeondoo'
+- url: https://artreview.com/yeondoo-jung-one-hundred-years-of-travels/
+  name_used: Yeondoo Jung
+  note: ArtReview — given-family order 'Yeondoo Jung'
+status: pending_review

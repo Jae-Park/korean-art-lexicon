@@ -1,0 +1,28 @@
+id: person.ha-chonghyun
+name:
+  ko:
+    full: 하종현
+    family: 하
+    given: 종현
+    hanja: 河鍾賢
+  latn:
+    preferred: Ha Chong-Hyun
+    family: Ha
+    given: Chong-Hyun
+sources:
+- url: https://vocab.getty.edu/page/ulan/500373076
+  name_used: Ha Chong-Hyun
+  note: Getty ULAN authority record
+- url: https://www.kukjegallery.com/artists/view?seq=344
+  name_used: Ha Chong-Hyun
+  note: Kukje Gallery represented artist
+- url: https://www.galleryhyundai.com/artist/view/229
+  name_used: Ha Chong-Hyun
+  note: Gallery Hyundai represented artist
+- url: https://www.moma.org/artists/47861
+  name_used: Ha Chong-Hyun
+  note: MoMA artist page
+status: pending_review
+external_ids:
+  ulan: '500373076'
+  wikidata: Q23068024

@@ -1,0 +1,24 @@
+id: person.jeon-joonho
+name:
+  ko:
+    full: 전준호
+    family: 전
+    given: 준호
+  latn:
+    preferred: Jeon Joonho
+    family: Jeon
+    given: Joonho
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202101290001375
+  name_used: Jeon Joonho
+  note: MMCA Hyundai Motor Series 2021
+- url: https://www.tate.org.uk/art/artists/jeon-joonho-18174
+  name_used: Jeon Joonho
+  note: Tate artist page
+- url: https://www.galleryhyundai.com/artist/view/20000000107
+  name_used: Jeon Joonho
+  note: Gallery Hyundai represented artist
+status: pending_review
+external_ids:
+  ulan: '500684635'
+  wikidata: Q20010723

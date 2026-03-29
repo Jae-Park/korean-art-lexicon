@@ -1,0 +1,20 @@
+id: person.im-heungsoon
+name:
+  ko:
+    full: 임흥순
+    family: 임
+    given: 흥순
+  latn:
+    preferred: Im Heung-soon
+    family: Im
+    given: Heung-soon
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201703130000546
+  name_used: Im Heung-soon
+  note: MMCA Hyundai Motor Series 2017
+- url: https://www.moma.org/calendar/exhibitions/3695
+  name_used: IM Heung-soon
+  note: MoMA PS1 exhibition (2015)
+status: pending_review
+external_ids:
+  wikidata: Q19896697

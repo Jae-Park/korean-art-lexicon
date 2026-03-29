@@ -8,11 +8,13 @@ name:
     preferred: Park Chan-kyong
     family: Park
     given: Chan-kyong
-roles:
-  - artist
-  - writer
-birth_year: 1965
 sources:
-  - url: https://www.kukjegallery.com/artists/35
-    name_used: Park Chan-kyong
-status: stable
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=3&exhId=201910180001194
+  name_used: Park Chan-kyong
+  note: MMCA Hyundai Motor Series 2019
+- url: https://www.kukjegallery.com/artists/view?seq=348
+  name_used: Park Chan-kyong
+  note: Kukje Gallery represented artist
+status: pending_review
+external_ids:
+  wikidata: Q109354786

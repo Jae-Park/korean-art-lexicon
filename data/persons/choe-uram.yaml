@@ -1,0 +1,20 @@
+id: person.choe-uram
+name:
+  ko:
+    full: 최우람
+    family: 최
+    given: 우람
+  latn:
+    preferred: Choe U-Ram
+    family: Choe
+    given: U-Ram
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=2&exhId=202208090001545
+  name_used: Choe U-Ram
+  note: MMCA Hyundai Motor Series 2022
+- url: https://www.galleryhyundai.com/artist/view/20000000113
+  name_used: Choe U-Ram
+  note: Gallery Hyundai represented artist
+status: pending_review
+external_ids:
+  wikidata: Q7862919

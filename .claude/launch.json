@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "lexicon-dev",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/Users/jaeyong_mba_m4/Desktop/Coding Projects/korean-art-lexicon/serve.py"],
+      "port": 8080,
+      "autoPort": true
+    }
+  ]
+}

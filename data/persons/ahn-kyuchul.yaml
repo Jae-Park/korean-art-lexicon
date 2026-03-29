@@ -1,0 +1,18 @@
+id: person.ahn-kyuchul
+name:
+  ko:
+    full: 안규철
+    family: 안
+    given: 규철
+  latn:
+    preferred: Ahn Kyuchul
+    family: Ahn
+    given: Kyuchul
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201508210000318
+  name_used: Ahn Kyuchul
+  note: MMCA Hyundai Motor Series 2015
+- url: https://www.kukjegallery.com/artists/view?seq=369
+  name_used: Ahn Kyuchul
+  note: Kukje Gallery represented artist
+status: pending_review

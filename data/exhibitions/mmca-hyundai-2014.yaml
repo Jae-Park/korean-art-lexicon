@@ -1,0 +1,19 @@
+id: exhibition.mmca-hyundai-2014
+title:
+  ko: '국립현대미술관 현대차 시리즈 2014: 이불'
+venue: 국립현대미술관 서울 제5전시실
+city: Seoul
+country: KR
+dates:
+  start: '2014-09-30'
+  end: '2015-03-29'
+type: solo
+participants:
+- person.lee-bul
+organizer: MMCA
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201409050000142
+- url: https://www.e-flux.com/announcements/30347/mmca-hyundai-motor-series-2014-lee-bul
+  name_used: Lee Bul
+  note: 'e-flux announcement — title: ''MMCA Hyundai Motor series 2014: Lee Bul'''
+status: pending_review

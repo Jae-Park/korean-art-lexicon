@@ -1,0 +1,32 @@
+id: term.alternative-space
+term:
+  ko: 대안공간
+  en:
+    preferred: alternative space
+    type: semantic
+    alternatives:
+      - form: alternative art space
+        type: semantic
+  hanja: 代案空間
+category: phenomenon
+definition:
+  ko: 상업 갤러리나 공공 미술관과 구별되는 비영리 전시 공간. 한국에서는 1990년대 후반부터 등장.
+  en: Non-profit exhibition spaces distinct from commercial galleries or public museums. Emerged in Korea from the late 1990s.
+period:
+  start: 1998
+related:
+  - term.sinseang-gonggan
+sources:
+  - url: https://monthlyart.com/encyclopedia/%EB%8C%80%EC%95%88%EA%B3%B5%EA%B0%84/
+    name_used: 대안공간
+    note: "월간미술 미술용어사전"
+  - url: https://www.harpersbazaar.co.kr/article/39036
+    name_used: 대안공간
+    note: "서울의 포스트 대안 공간"
+  - url: https://www.frieze.com/article/frieze-week-seoul-2023-non-profits-guide
+    name_used: dae-an gonggan
+    note: "Frieze — 'How Seoul's Non-Profit and Independent Spaces Evolved', 대안공간→신생공간 역사 정리"
+  - url: https://aaa.org.hk/en/collections/search/library/alternative-space-what-now-the-past-of-alternative-spaces-and-the-future-of-korean-contemporary-art
+    name_used: Alternative Space
+    note: "Asia Art Archive — SSamzie Space 2008 publication, 1세대(1999-2008) 대안공간 연구"
+status: pending_review

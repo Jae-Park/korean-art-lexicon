@@ -1,0 +1,23 @@
+id: exhibition.mmca-hyundai-2015
+title:
+  ko: '국립현대미술관 현대차 시리즈 2015: 안규철 - 안 보이는 사랑의 나라'
+venue: 국립현대미술관 서울 제5전시실
+city: Seoul
+country: KR
+dates:
+  start: '2015-09-15'
+  end: '2016-05-22'
+type: solo
+participants:
+- person.ahn-kyuchul
+organizer: MMCA
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201508210000318
+- url: https://www.art-it.asia/en/u/admin_expht_e/fxzkhf2wqucrb4v9ypcn/
+  name_used: Ahn Kyuchul
+  note: 'ART iT — ''MMCA HYUNDAI MOTOR SERIES 2015: Ahn Kyuchul: Invisible Land of
+    Love'''
+- url: https://www.timeout.com/seoul/art/ahn-kyu-chul-invisible-land-of-love
+  name_used: Ahn Kyu-chul
+  note: TimeOut Seoul — hyphenated romanization 'Ahn Kyu-chul'
+status: pending_review

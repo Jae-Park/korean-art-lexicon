@@ -1,0 +1,25 @@
+id: person.jung-yeondoo
+name:
+  ko:
+    full: 정연두
+    family: 정
+    given: 연두
+  latn:
+    preferred: Yeondoo Jung
+    family: Jung
+    given: Yeondoo
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=2&exhId=202302010001615
+  name_used: Jung Yeon-doo
+  note: MMCA Hyundai Motor Series 2023
+- url: https://www.kukjegallery.com/artists/view?seq=179
+  name_used: Yeondoo Jung
+  note: Kukje Gallery represented artist
+- url: https://www.perrotin.com/artists/Yeondoo_Jung/1
+  name_used: Yeondoo Jung
+  note: Perrotin artist page (archive)
+status: pending_review
+notes: Uses given-family order (Yeondoo Jung) as preferred form
+external_ids:
+  ulan: '500474551'
+  wikidata: Q1376674

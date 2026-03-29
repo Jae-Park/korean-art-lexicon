@@ -1,0 +1,25 @@
+# MMCA 전시 상세 페이지 → YAML 필드 매핑
+# URL: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId={id}
+
+exhibition:
+  title_ko:
+    source: "페이지 상단 한국어 전시명"
+    note: "MMCA 페이지에 표시된 그대로 사용, 수정/의역 금지"
+  title_en:
+    source: "페이지 상단 영문 전시명"
+    note: "영문명이 없는 경우 필드 비워둠 (추정 번역 금지)"
+  dates:
+    start:
+      source: "전시 기간 시작일"
+      format: "YYYY-MM-DD"
+    end:
+      source: "전시 기간 종료일"
+      format: "YYYY-MM-DD"
+  venue:
+    source: "전시 장소"
+  participants:
+    source: "참여 작가명"
+    note: "전시 페이지에 명시된 작가만 기록"
+  source_url:
+    value: "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId={id}"
+    note: "반드시 상세 페이지 URL 기록 — 루트 URL 금지"

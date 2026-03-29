@@ -1,0 +1,23 @@
+id: person.moon-kyungwon
+name:
+  ko:
+    full: 문경원
+    family: 문
+    given: 경원
+  latn:
+    preferred: Moon Kyungwon
+    family: Moon
+    given: Kyungwon
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202101290001375
+  name_used: Moon Kyungwon
+  note: MMCA Hyundai Motor Series 2021
+- url: https://www.tate.org.uk/art/artists/moon-kyungwon-18175
+  name_used: Moon Kyungwon
+  note: Tate artist page
+- url: https://www.galleryhyundai.com/artist/view/20000000093
+  name_used: Moon Kyungwon
+  note: Gallery Hyundai represented artist
+status: pending_review
+external_ids:
+  wikidata: Q20010749

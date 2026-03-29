@@ -4,19 +4,26 @@ name:
     full: 김수자
     family: 김
     given: 수자
+    hanja: 金守子
   latn:
     preferred: Kimsooja
     family: Kim
     given: Sooja
-roles:
-  - artist
-birth_year: 1957
 sources:
-  - url: https://www.kimsooja.com
-    name_used: Kimsooja
-    note: "Official artist website, uses single-word name since 2003"
-  - url: https://www.moma.org/artists/29565
-    name_used: Kimsooja
-  - url: https://www.tate.org.uk/art/artists/kimsooja-2631
-    name_used: Kimsooja
-status: stable
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201606240000455
+  name_used: Kimsooja
+  note: MMCA Hyundai Motor Series 2016
+- url: https://www.kukjegallery.com/artists/view?seq=201
+  name_used: Kimsooja
+  note: Kukje Gallery represented artist
+- url: https://www.moma.org/artists/31045
+  name_used: Kimsooja
+  note: MoMA artist page
+- url: https://www.guggenheim.org/exhibition/kimsooja-thread-routes
+  name_used: Kimsooja
+  note: Guggenheim exhibition page
+status: pending_review
+notes: Uses single-word name 'Kimsooja' since 2003
+external_ids:
+  ulan: '500125591'
+  wikidata: Q4220699

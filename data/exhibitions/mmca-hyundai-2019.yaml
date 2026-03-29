@@ -1,0 +1,19 @@
+id: exhibition.mmca-hyundai-2019
+title:
+  ko: 'MMCA 현대차 시리즈 2019: 박찬경 – 모임'
+venue: 국립현대미술관 서울 5전시실
+city: Seoul
+country: KR
+dates:
+  start: '2019-10-26'
+  end: '2020-02-23'
+type: solo
+participants:
+- person.park-chankyong
+organizer: MMCA
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=3&exhId=201910180001194
+- url: https://www.e-flux.com/announcements/296546/park-chan-kyonggathering
+  name_used: Park Chan-kyong
+  note: e-flux — English title 'Gathering'
+status: pending_review

@@ -53,6 +53,33 @@
       margin: 0 auto;
     }
 
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .header-top h1 {
+      margin-bottom: 0;
+    }
+
+    .browse-btn {
+      display: inline-block;
+      padding: 8px 20px;
+      background: #1a1a1a;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+
+    .browse-btn:hover {
+      background: #333;
+    }
+
     .container {
       max-width: 1080px;
       margin: 0 auto;
@@ -231,6 +258,12 @@
         font-size: 1.5rem;
       }
 
+      .header-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+
       .status {
         font-size: 1rem;
       }
@@ -240,7 +273,10 @@
 <body>
   <header>
     <div class="inner">
-      <h1>Korean Art Lexicon · 한국미술 용어집</h1>
+      <div class="header-top">
+        <h1>Korean Art Lexicon · 한국미술 용어집</h1>
+        <a href="lexicon.html" class="browse-btn">Browse the Lexicon (Beta) →</a>
+      </div>
       <div class="subtitle">
         <span>An open-source authority file for Korean contemporary art</span>
         <span>한국 현대미술 명칭 데이터베이스</span>
@@ -341,7 +377,9 @@
         </p>
       </div>
       <p class="status">Currently in prototype development. · 현재 프로토타입 개발 중입니다.</p>
-      <a href="mailto:jaeyong@readingroom.me?subject=[Korean Art Lexicon] 문의" class="contact-btn">Contact</a>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <a href="mailto:jaeyong@readingroom.me?subject=[Korean Art Lexicon] 문의" class="contact-btn">Contact</a>
+      </div>
     </div>
 
     <footer>
