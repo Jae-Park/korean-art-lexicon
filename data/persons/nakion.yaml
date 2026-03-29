@@ -1,0 +1,15 @@
+id: person.nakion
+name:
+  ko:
+    full: 나키온
+    family: 나
+    given: 키온
+  latn:
+    preferred: Nakion
+    family: Na
+    given: Kion
+sources:
+- url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
+  name_used: Nakion
+  note: AAA — Venice 2005 Korean Pavilion catalogue
+status: pending_review

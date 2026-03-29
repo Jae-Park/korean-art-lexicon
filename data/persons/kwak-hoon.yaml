@@ -1,0 +1,18 @@
+id: person.kwak-hoon
+name:
+  ko:
+    full: 곽훈
+    family: 곽
+    given: 훈
+  latn:
+    preferred: Kwak Hoon
+    family: Kwak
+    given: Hoon
+sources:
+- url: https://en.wikipedia.org/wiki/Korean_pavilion
+  name_used: Kwak Hoon
+  note: Venice Biennale Korean Pavilion 1995
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 곽훈
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+status: reviewed

@@ -18,7 +18,7 @@ sources:
 - url: https://www.galleryhyundai.com/artist/view/20000000107
   name_used: Jeon Joonho
   note: Gallery Hyundai represented artist
-status: pending_review
+status: reviewed
 external_ids:
   ulan: '500684635'
   wikidata: Q20010723

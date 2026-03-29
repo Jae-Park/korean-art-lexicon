@@ -18,6 +18,6 @@ sources:
 - url: https://www.galleryhyundai.com/artist/view/20000000093
   name_used: Moon Kyungwon
   note: Gallery Hyundai represented artist
-status: pending_review
+status: reviewed
 external_ids:
   wikidata: Q20010749

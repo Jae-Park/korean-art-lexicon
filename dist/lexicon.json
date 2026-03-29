@@ -26,7 +26,68 @@
           "note": "Kukje Gallery represented artist"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
+    },
+    {
+      "id": "person.bae-youngwhan",
+      "name": {
+        "ko": {
+          "full": "배영환",
+          "family": "배",
+          "given": "영환"
+        },
+        "latn": {
+          "preferred": "Bae Youngwhan",
+          "family": "Bae",
+          "given": "Youngwhan"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Bae Youngwhan",
+          "note": "AAA — Venice 2005 Korean Pavilion catalogue"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "배영환",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        },
+        {
+          "url": "https://www.pkmgallery.com/artists/bae-young-whan/biography",
+          "name_used": "배영환",
+          "note": "PKM Gallery 작가 약력"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.bahc-yiso",
+      "name": {
+        "ko": {
+          "full": "박이소",
+          "family": "박",
+          "given": "이소"
+        },
+        "latn": {
+          "preferred": "Bahc Yiso",
+          "family": "Bahc",
+          "given": "Yiso"
+        }
+      },
+      "sources": [
+        {
+          "url": "http://universes-in-universe.de/car/venezia/bien50/kor/e-press.htm",
+          "name_used": "Bahc Yiso",
+          "note": "Venice Biennale 2003 Korean Pavilion press release"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "박이소",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.choe-uram",
@@ -54,10 +115,43 @@
           "note": "Gallery Hyundai represented artist"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "external_ids": {
         "wikidata": "Q7862919"
       }
+    },
+    {
+      "id": "person.choi-cody",
+      "name": {
+        "ko": {
+          "full": "코디 최",
+          "family": "최",
+          "given": "코디"
+        },
+        "latn": {
+          "preferred": "Cody Choi",
+          "family": "Choi",
+          "given": "Cody"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://news.artnet.com/art-world/cody-choi-lee-wan-korean-pavilion-venice-854561",
+          "name_used": "Cody Choi",
+          "note": "Artnet — Venice 2017"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "코디최",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 붙여쓰기 '코디최'"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/1050392",
+          "name_used": "코디최",
+          "note": "헤럴드경제 — 2017 베니스 한국관 인터뷰"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.choi-jeonghwa",
@@ -85,6 +179,62 @@
         "ulan": "500125325",
         "wikidata": "Q28793925"
       }
+    },
+    {
+      "id": "person.chung-seoyoung",
+      "name": {
+        "ko": {
+          "full": "정서영",
+          "family": "정",
+          "given": "서영"
+        },
+        "latn": {
+          "preferred": "Chung Seoyoung",
+          "family": "Chung",
+          "given": "Seoyoung"
+        }
+      },
+      "sources": [
+        {
+          "url": "http://universes-in-universe.de/car/venezia/bien50/kor/e-press.htm",
+          "name_used": "Chung Seoyoung",
+          "note": "Venice Biennale 2003 Korean Pavilion press release"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "정서영",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.gimhongsok",
+      "name": {
+        "ko": {
+          "full": "김홍석",
+          "family": "김",
+          "given": "홍석"
+        },
+        "latn": {
+          "preferred": "Gimhongsok",
+          "family": "Kim",
+          "given": "Hongsok"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Gimhongsok",
+          "note": "AAA — Venice 2005 Korean Pavilion catalogue"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "김홍석",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.ha-chonghyun",
@@ -123,11 +273,39 @@
           "note": "MoMA artist page"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "external_ids": {
         "ulan": "500373076",
         "wikidata": "Q23068024"
       }
+    },
+    {
+      "id": "person.ham-jin",
+      "name": {
+        "ko": {
+          "full": "함진",
+          "family": "함",
+          "given": "진"
+        },
+        "latn": {
+          "preferred": "Ham Jin",
+          "family": "Ham",
+          "given": "Jin"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Ham Jin",
+          "note": "AAA — Venice 2005 Korean Pavilion catalogue"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "함진",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.im-heungsoon",
@@ -155,7 +333,7 @@
           "note": "MoMA PS1 exhibition (2015)"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "external_ids": {
         "wikidata": "Q19896697"
       }
@@ -191,11 +369,100 @@
           "note": "Gallery Hyundai represented artist"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "external_ids": {
         "ulan": "500684635",
         "wikidata": "Q20010723"
       }
+    },
+    {
+      "id": "person.jheon-soocheon",
+      "name": {
+        "ko": {
+          "full": "전수천",
+          "family": "전",
+          "given": "수천"
+        },
+        "latn": {
+          "preferred": "Jheon Soocheon",
+          "family": "Jheon",
+          "given": "Soocheon"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Jheon Soocheon",
+          "note": "Venice Biennale Korean Pavilion 1995 — Special Mention"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "전수천",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.joo-michael",
+      "name": {
+        "ko": {
+          "full": "마이클 주",
+          "family": "주",
+          "given": "마이클"
+        },
+        "latn": {
+          "preferred": "Michael Joo",
+          "family": "Joo",
+          "given": "Michael"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://universes.art/en/venice-biennale/2001/pavilions-tour/korea",
+          "name_used": "Michael Joo",
+          "note": "universes.art — Venice Biennale 2001 Korean Pavilion"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "person.jung-eunyoung",
+      "name": {
+        "ko": {
+          "full": "정은영",
+          "family": "정",
+          "given": "은영"
+        },
+        "latn": {
+          "preferred": "siren eun young jung",
+          "family": "jung",
+          "given": "eun young"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.labiennale.org/en/art/2019/national-participations/republic-korea",
+          "name_used": "siren eun young jung",
+          "note": "La Biennale official — all lowercase as artist's stylistic choice"
+        },
+        {
+          "url": "https://www.e-flux.com/announcements/223088/history-has-failed-us-but-no-matter",
+          "name_used": "siren eun young jung",
+          "note": "e-flux"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "정은영",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        },
+        {
+          "url": "https://www.theartro.kr/kor/features/features_view.asp?idx=2349&b_code=31e",
+          "name_used": "정은영",
+          "note": "아르트로 인터뷰 — 2019 베니스"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.jung-yeondoo",
@@ -228,12 +495,129 @@
           "note": "Perrotin artist page (archive)"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "notes": "Uses given-family order (Yeondoo Jung) as preferred form",
       "external_ids": {
         "ulan": "500474551",
         "wikidata": "Q1376674"
       }
+    },
+    {
+      "id": "person.kaisen-janejin",
+      "name": {
+        "ko": {
+          "full": "제인 진 카이젠",
+          "family": "카이젠",
+          "given": "제인 진"
+        },
+        "latn": {
+          "preferred": "Jane Jin Kaisen",
+          "family": "Kaisen",
+          "given": "Jane Jin"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.labiennale.org/en/art/2019/national-participations/republic-korea",
+          "name_used": "Jane Jin Kaisen",
+          "note": "La Biennale official — Korean-Danish artist"
+        },
+        {
+          "url": "https://www.e-flux.com/announcements/223088/history-has-failed-us-but-no-matter",
+          "name_used": "Jane Jin Kaisen",
+          "note": "e-flux"
+        },
+        {
+          "url": "https://www.theartro.kr/kor/features/features_view.asp?idx=2359&b_code=31e",
+          "name_used": "제인 진 카이젠",
+          "note": "아르트로 인터뷰 — 2019 베니스"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.kang-ikjoong",
+      "name": {
+        "ko": {
+          "full": "강익중",
+          "family": "강",
+          "given": "익중"
+        },
+        "latn": {
+          "preferred": "Kang Ik-Joong",
+          "family": "Kang",
+          "given": "Ik-Joong"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Ik-joong Kang",
+          "note": "Venice Biennale Korean Pavilion 1997 — Honorable Mention"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "강익중",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.kim-beom",
+      "name": {
+        "ko": {
+          "full": "김범",
+          "family": "김",
+          "given": "범"
+        },
+        "latn": {
+          "preferred": "Kim Beom",
+          "family": "Kim",
+          "given": "Beom"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Kim Beom",
+          "note": "AAA — Venice 2005 Korean Pavilion catalogue"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "김범",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.kim-inkyum",
+      "name": {
+        "ko": {
+          "full": "김인겸",
+          "family": "김",
+          "given": "인겸"
+        },
+        "latn": {
+          "preferred": "Kim In Kyum",
+          "family": "Kim",
+          "given": "In Kyum"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Kim In Kyum",
+          "note": "Venice Biennale Korean Pavilion 1995"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "김인겸",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.kim-sooja",
@@ -272,12 +656,83 @@
           "note": "Guggenheim exhibition page"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "notes": "Uses single-word name 'Kimsooja' since 2003",
       "external_ids": {
         "ulan": "500125591",
         "wikidata": "Q4220699"
       }
+    },
+    {
+      "id": "person.kim-sora",
+      "name": {
+        "ko": {
+          "full": "김소라",
+          "family": "김",
+          "given": "소라"
+        },
+        "latn": {
+          "preferred": "Sora Kim",
+          "family": "Kim",
+          "given": "Sora"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Sora Kim",
+          "note": "AAA — Venice 2005 Korean Pavilion catalogue"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "김소라",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.kim-yunchul",
+      "name": {
+        "ko": {
+          "full": "김윤철",
+          "family": "김",
+          "given": "윤철"
+        },
+        "latn": {
+          "preferred": "Yunchul Kim",
+          "family": "Kim",
+          "given": "Yunchul"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.labiennale.org/en/art/2022/korea-republic",
+          "name_used": "Yunchul Kim",
+          "note": "La Biennale official"
+        },
+        {
+          "url": "https://www.e-flux.com/announcements/452046/yunchul-kimgyre",
+          "name_used": "Yunchul Kim",
+          "note": "e-flux"
+        },
+        {
+          "url": "https://www.arko.or.kr/pavilion/22pavilion/index.html",
+          "name_used": "Yunchul Kim",
+          "note": "ARKO official"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "김윤철",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        },
+        {
+          "url": "https://www.arko.or.kr/board/view/4057?bid=557&cid=1804401",
+          "name_used": "김윤철",
+          "note": "ARKO 공지 — 2022 베니스 한국관"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.koo-jeonga",
@@ -315,11 +770,39 @@
           "note": "Guggenheim artist page"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "external_ids": {
         "ulan": "500294101",
         "wikidata": "Q16844597"
       }
+    },
+    {
+      "id": "person.kwak-hoon",
+      "name": {
+        "ko": {
+          "full": "곽훈",
+          "family": "곽",
+          "given": "훈"
+        },
+        "latn": {
+          "preferred": "Kwak Hoon",
+          "family": "Kwak",
+          "given": "Hoon"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Kwak Hoon",
+          "note": "Venice Biennale Korean Pavilion 1995"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "곽훈",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.lee-bul",
@@ -357,11 +840,77 @@
           "note": "Guggenheim artist page"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "external_ids": {
         "ulan": "500125877",
         "wikidata": "Q487546"
       }
+    },
+    {
+      "id": "person.lee-hyungkoo",
+      "name": {
+        "ko": {
+          "full": "이형구",
+          "family": "이",
+          "given": "형구"
+        },
+        "latn": {
+          "preferred": "Lee Hyungkoo",
+          "family": "Lee",
+          "given": "Hyungkoo"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://londonkoreanlinks.net/2007/05/20/korea-at-the-venice-biennale-2007-lee-hyungkoo-the-homo-species/",
+          "name_used": "Lee Hyungkoo",
+          "note": "London Korean Links"
+        },
+        {
+          "url": "https://www.designboom.com/art/hyungkoo-lee-at-venice-art-biennale-07/",
+          "name_used": "Hyungkoo Lee",
+          "note": "Designboom — reversed name order"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "이형구",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        },
+        {
+          "url": "https://www.doosanartcenter.com/ko/exhibit/artist/134",
+          "name_used": "이형구",
+          "note": "두산아트센터 작가 프로필"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.lee-hyungwoo",
+      "name": {
+        "ko": {
+          "full": "이형우",
+          "family": "이",
+          "given": "형우"
+        },
+        "latn": {
+          "preferred": "Lee Hyungwoo",
+          "family": "Lee",
+          "given": "Hyungwoo"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Hyungwoo Lee",
+          "note": "Venice Biennale Korean Pavilion 1997"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "이형우",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.lee-ufan",
@@ -415,11 +964,77 @@
           "note": "Pace Gallery represented artist"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "external_ids": {
         "ulan": "500061220",
         "wikidata": "Q399775"
       }
+    },
+    {
+      "id": "person.lee-wan",
+      "name": {
+        "ko": {
+          "full": "이완",
+          "family": "이",
+          "given": "완"
+        },
+        "latn": {
+          "preferred": "Lee Wan",
+          "family": "Lee",
+          "given": "Wan"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://news.artnet.com/art-world/cody-choi-lee-wan-korean-pavilion-venice-854561",
+          "name_used": "Lee Wan",
+          "note": "Artnet — Venice 2017"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "이완",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        },
+        {
+          "url": "https://biz.heraldcorp.com/article/1050392",
+          "name_used": "이완",
+          "note": "헤럴드경제 — 2017 베니스 한국관 인터뷰"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.lee-yongbaek",
+      "name": {
+        "ko": {
+          "full": "이용백",
+          "family": "이",
+          "given": "용백"
+        },
+        "latn": {
+          "preferred": "Lee Yongbaek",
+          "family": "Lee",
+          "given": "Yongbaek"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.designboom.com/art/lee-yongbaek-korean-pavilion-at-venice-art-biennale-2011/",
+          "name_used": "Lee Yongbaek",
+          "note": "Designboom — Venice 2011"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "이용백",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/201106082107305",
+          "name_used": "이용백",
+          "note": "경향신문 — 2011 베니스 한국관"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.moon-kyungwon",
@@ -452,10 +1067,165 @@
           "note": "Gallery Hyundai represented artist"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "external_ids": {
         "wikidata": "Q20010749"
       }
+    },
+    {
+      "id": "person.moon-sungsic",
+      "name": {
+        "ko": {
+          "full": "문성식",
+          "family": "문",
+          "given": "성식"
+        },
+        "latn": {
+          "preferred": "Moon Sungsic",
+          "family": "Moon",
+          "given": "Sungsic"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Moon Sungsic",
+          "note": "AAA — Venice 2005 Korean Pavilion catalogue"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "문성식",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        },
+        {
+          "url": "https://www.kukjegallery.com/artists/view?seq=177",
+          "name_used": "문성식",
+          "note": "국제갤러리 대리 작가"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.nakion",
+      "name": {
+        "ko": {
+          "full": "나키온",
+          "family": "나",
+          "given": "키온"
+        },
+        "latn": {
+          "preferred": "Nakion",
+          "family": "Na",
+          "given": "Kion"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Nakion",
+          "note": "AAA — Venice 2005 Korean Pavilion catalogue"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "person.nam-hwayeon",
+      "name": {
+        "ko": {
+          "full": "남화연",
+          "family": "남",
+          "given": "화연"
+        },
+        "latn": {
+          "preferred": "Hwayeon Nam",
+          "family": "Nam",
+          "given": "Hwayeon"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.labiennale.org/en/art/2019/national-participations/republic-korea",
+          "name_used": "Hwayeon Nam",
+          "note": "La Biennale official"
+        },
+        {
+          "url": "https://www.e-flux.com/announcements/223088/history-has-failed-us-but-no-matter",
+          "name_used": "Hwayeon Nam",
+          "note": "e-flux"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "남화연",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        },
+        {
+          "url": "https://www.theartro.kr/kor/features/features_view.asp?idx=2343&b_code=31e",
+          "name_used": "남화연",
+          "note": "아르트로 인터뷰 — 2019 베니스"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.noh-sangkyoon",
+      "name": {
+        "ko": {
+          "full": "노상균",
+          "family": "노",
+          "given": "상균"
+        },
+        "latn": {
+          "preferred": "Noh Sang-Kyoon",
+          "family": "Noh",
+          "given": "Sang-Kyoon"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/lee-bul-gravity-greater-than-velocity-amateurs-the-korean-pavilion-48th-venice-biennale",
+          "name_used": "Noh Sang-Kyoon",
+          "note": "Asia Art Archive — 48th Venice Biennale catalogue"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "노상균",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.oh-heinkuhn",
+      "name": {
+        "ko": {
+          "full": "오형근",
+          "family": "오",
+          "given": "형근"
+        },
+        "latn": {
+          "preferred": "Oh Heinkuhn",
+          "family": "Oh",
+          "given": "Heinkuhn"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Oh Heinkuhn",
+          "note": "AAA — Venice 2005 Korean Pavilion catalogue"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "오형근",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        },
+        {
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0924280605",
+          "name_used": "오형근",
+          "note": "국민일보 인터뷰"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.park-chankyong",
@@ -483,10 +1253,71 @@
           "note": "Kukje Gallery represented artist"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "external_ids": {
         "wikidata": "Q109354786"
       }
+    },
+    {
+      "id": "person.park-kiwon",
+      "name": {
+        "ko": {
+          "full": "박기원",
+          "family": "박",
+          "given": "기원"
+        },
+        "latn": {
+          "preferred": "Park Kiwon",
+          "family": "Park",
+          "given": "Kiwon"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Park Kiwon",
+          "note": "AAA — Venice 2005 Korean Pavilion catalogue"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "박기원",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        },
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201003170002817",
+          "name_used": "박기원",
+          "note": "MMCA 올해의 작가 2010"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.park-sejin",
+      "name": {
+        "ko": {
+          "full": "박세진",
+          "family": "박",
+          "given": "세진"
+        },
+        "latn": {
+          "preferred": "Park Sejin",
+          "family": "Park",
+          "given": "Sejin"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Park Sejin",
+          "note": "AAA — Venice 2005 Korean Pavilion catalogue"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "박세진",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.park-seobo",
@@ -535,11 +1366,118 @@
           "note": "Perrotin represented artist (estate)"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "external_ids": {
         "ulan": "500323715",
         "wikidata": "Q4984536"
       }
+    },
+    {
+      "id": "person.rhii-jewyo",
+      "name": {
+        "ko": {
+          "full": "이주요",
+          "family": "이",
+          "given": "주요"
+        },
+        "latn": {
+          "preferred": "Jewyo Rhii",
+          "family": "Rhii",
+          "given": "Jewyo"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Jewyo Rhii",
+          "note": "AAA — Venice 2005 Korean Pavilion catalogue"
+        },
+        {
+          "url": "https://barakatcontemporary.com/artists/56-jewyo-rhii/",
+          "name_used": "이주요",
+          "note": "바라캇 컨템포러리 작가 페이지"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.suh-doho",
+      "name": {
+        "ko": {
+          "full": "서도호",
+          "family": "서",
+          "given": "도호"
+        },
+        "latn": {
+          "preferred": "Do-Ho Suh",
+          "family": "Suh",
+          "given": "Do-Ho"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://universes.art/en/venice-biennale/2001/pavilions-tour/korea",
+          "name_used": "Do-Ho Suh",
+          "note": "universes.art — Venice Biennale 2001 Korean Pavilion"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "서도호",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.sung-nakhee",
+      "name": {
+        "ko": {
+          "full": "성낙희",
+          "family": "성",
+          "given": "낙희"
+        },
+        "latn": {
+          "preferred": "Sung Nakhee",
+          "family": "Sung",
+          "given": "Nakhee"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Sung Nakhee",
+          "note": "AAA — Venice 2005 Korean Pavilion catalogue"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "person.whang-inkie",
+      "name": {
+        "ko": {
+          "full": "황인기",
+          "family": "황",
+          "given": "인기"
+        },
+        "latn": {
+          "preferred": "Whang Inkie",
+          "family": "Whang",
+          "given": "Inkie"
+        }
+      },
+      "sources": [
+        {
+          "url": "http://universes-in-universe.de/car/venezia/bien50/kor/e-press.htm",
+          "name_used": "Whang In Kie",
+          "note": "Venice Biennale 2003 Korean Pavilion press release"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "황인기",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.yang-haegue",
@@ -582,15 +1520,452 @@
           "note": "Guggenheim artist page"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "notes": "Uses given-family order (Haegue Yang) as preferred form",
       "external_ids": {
         "ulan": "500355927",
         "wikidata": "Q1567689"
       }
+    },
+    {
+      "id": "person.yun-hyongkeun",
+      "name": {
+        "ko": {
+          "full": "윤형근",
+          "family": "윤",
+          "given": "형근"
+        },
+        "latn": {
+          "preferred": "Yun Hyong Keun",
+          "family": "Yun",
+          "given": "Hyong Keun"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Yoon Hyong Keun",
+          "note": "Venice Biennale Korean Pavilion 1995"
+        },
+        {
+          "url": "https://www.arko.or.kr/biennale/content/643",
+          "name_used": "윤형근",
+          "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
+        }
+      ],
+      "status": "reviewed"
     }
   ],
   "exhibitions": [
+    {
+      "id": "exhibition.korean-pavilion-venice-1995",
+      "title": {
+        "ko": "제46회 베니스 비엔날레 한국관"
+      },
+      "dates": {
+        "start": "1995-06-11",
+        "end": "1995-10-15"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.yun-hyongkeun",
+        "person.kwak-hoon",
+        "person.kim-inkyum",
+        "person.jheon-soocheon"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Korean pavilion",
+          "note": "Wikipedia — 1995 inaugural edition"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-1997",
+      "title": {
+        "ko": "제47회 베니스 비엔날레 한국관"
+      },
+      "dates": {
+        "start": "1997-06-15",
+        "end": "1997-11-09"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.kang-ikjoong",
+        "person.lee-hyungwoo"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Korean pavilion",
+          "note": "Wikipedia — Kang Ik-Joong received Honorable Mention"
+        }
+      ],
+      "status": "pending_review"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-1999",
+      "title": {
+        "ko": "제48회 베니스 비엔날레 한국관"
+      },
+      "dates": {
+        "start": "1999-06-12",
+        "end": "1999-11-07"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.lee-bul",
+        "person.noh-sangkyoon"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Korean pavilion",
+          "note": "Wikipedia — Lee Bul received Honorable Mention"
+        },
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/lee-bul-gravity-greater-than-velocity-amateurs-the-korean-pavilion-48th-venice-biennale",
+          "name_used": "Lee Bul",
+          "note": "Asia Art Archive catalogue record"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-2001",
+      "title": {
+        "ko": "제49회 베니스 비엔날레 한국관"
+      },
+      "dates": {
+        "start": "2001-06-10",
+        "end": "2001-11-04"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.suh-doho",
+        "person.joo-michael"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Korean pavilion",
+          "note": "Wikipedia"
+        },
+        {
+          "url": "https://universes.art/en/venice-biennale/2001/pavilions-tour/korea",
+          "name_used": "Korea",
+          "note": "universes.art pavilion page"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-2003",
+      "title": {
+        "ko": "제50회 베니스 비엔날레 한국관: 차이의 풍경",
+        "en": "Landscape of Differences"
+      },
+      "dates": {
+        "start": "2003-06-15",
+        "end": "2003-11-02"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.bahc-yiso",
+        "person.whang-inkie",
+        "person.chung-seoyoung"
+      ],
+      "sources": [
+        {
+          "url": "http://universes-in-universe.de/car/venezia/bien50/kor/e-press.htm",
+          "name_used": "Landscape of Differences",
+          "note": "universes-in-universe press release"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Korean pavilion",
+          "note": "Wikipedia"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-2005",
+      "title": {
+        "ko": "제51회 베니스 비엔날레 한국관: 문 뒤의 비밀",
+        "en": "Secret Beyond the Door"
+      },
+      "dates": {
+        "start": "2005-06-12",
+        "end": "2005-11-06"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.bae-youngwhan",
+        "person.bahc-yiso",
+        "person.choi-jeonghwa",
+        "person.gimhongsok",
+        "person.ham-jin",
+        "person.jung-yeondoo",
+        "person.kim-beom",
+        "person.kim-sora",
+        "person.nakion",
+        "person.moon-sungsic",
+        "person.oh-heinkuhn",
+        "person.park-kiwon",
+        "person.rhii-jewyo",
+        "person.park-sejin",
+        "person.sung-nakhee"
+      ],
+      "sources": [
+        {
+          "url": "https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale",
+          "name_used": "Secret Beyond the Door",
+          "note": "Asia Art Archive catalogue record"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Korean pavilion",
+          "note": "Wikipedia"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-2007",
+      "title": {
+        "ko": "제52회 베니스 비엔날레 한국관: 호모 스피시즈",
+        "en": "The Homo Species"
+      },
+      "dates": {
+        "start": "2007-06-10",
+        "end": "2007-11-21"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.lee-hyungkoo"
+      ],
+      "sources": [
+        {
+          "url": "https://londonkoreanlinks.net/2007/05/20/korea-at-the-venice-biennale-2007-lee-hyungkoo-the-homo-species/",
+          "name_used": "Lee Hyungkoo",
+          "note": "London Korean Links"
+        },
+        {
+          "url": "https://www.designboom.com/art/hyungkoo-lee-at-venice-art-biennale-07/",
+          "name_used": "Hyungkoo Lee",
+          "note": "Designboom — note reversed name order"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-2009",
+      "title": {
+        "ko": "제53회 베니스 비엔날레 한국관: 응축",
+        "en": "Condensation"
+      },
+      "dates": {
+        "start": "2009-06-07",
+        "end": "2009-11-22"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.yang-haegue"
+      ],
+      "sources": [
+        {
+          "url": "https://www.designboom.com/art/korean-pavilion-haegue-yang-at-venice-art-biennale-09/",
+          "name_used": "Haegue Yang",
+          "note": "Designboom"
+        },
+        {
+          "url": "https://vernissage.tv/2009/08/10/haegue-yang-condensation-korean-pavilion-53rd-venice-biennale-2009/",
+          "name_used": "Haegue Yang",
+          "note": "VernissageTV"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-2011",
+      "title": {
+        "ko": "제54회 베니스 비엔날레 한국관: 사랑은 가고 상처는 낫겠지",
+        "en": "The Love Is Gone but the Scar Will Heal"
+      },
+      "dates": {
+        "start": "2011-06-04",
+        "end": "2011-11-27"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.lee-yongbaek"
+      ],
+      "sources": [
+        {
+          "url": "https://www.designboom.com/art/lee-yongbaek-korean-pavilion-at-venice-art-biennale-2011/",
+          "name_used": "Lee Yongbaek",
+          "note": "Designboom"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
+          "name_used": "Korean pavilion",
+          "note": "Wikipedia"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-2013",
+      "title": {
+        "ko": "제55회 베니스 비엔날레 한국관: 숨쉬기: 보따리",
+        "en": "To Breathe: Bottari"
+      },
+      "dates": {
+        "start": "2013-06-01",
+        "end": "2013-11-24"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.kim-sooja"
+      ],
+      "sources": [
+        {
+          "url": "https://www.e-flux.com/announcements/32876/kimsooja",
+          "name_used": "Kimsooja",
+          "note": "e-flux announcement"
+        },
+        {
+          "url": "https://www.tanyabonakdargallery.com/exhibitions/713-kimsooja-to-breathe-bottari-korean-pavilion-55th-international-art-exhibition-la/",
+          "name_used": "Kimsooja",
+          "note": "Tanya Bonakdar Gallery"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-2015",
+      "title": {
+        "ko": "제56회 베니스 비엔날레 한국관: 축지법과 비행술",
+        "en": "The Ways of Folding Space & Flying"
+      },
+      "dates": {
+        "start": "2015-05-09",
+        "end": "2015-11-22"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.moon-kyungwon",
+        "person.jeon-joonho"
+      ],
+      "sources": [
+        {
+          "url": "https://www.e-flux.com/announcements/29700/moon-kyungwon-jeon-joonho-at-the-korean-pavilion-at-the-venice-biennale",
+          "name_used": "Moon Kyungwon & Jeon Joonho",
+          "note": "e-flux announcement"
+        },
+        {
+          "url": "https://www.designboom.com/art/venice-biennale-2015-korean-pavilion-05-11-2015/",
+          "name_used": "Moon Kyungwon & Jeon Joonho",
+          "note": "Designboom"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-2017",
+      "title": {
+        "ko": "제57회 베니스 비엔날레 한국관: 카운터밸런스: 돌과 산",
+        "en": "Counterbalance: The Stone and the Mountain"
+      },
+      "dates": {
+        "start": "2017-05-13",
+        "end": "2017-11-26"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.choi-cody",
+        "person.lee-wan"
+      ],
+      "sources": [
+        {
+          "url": "https://news.artnet.com/art-world/cody-choi-lee-wan-korean-pavilion-venice-854561",
+          "name_used": "Cody Choi & Lee Wan",
+          "note": "Artnet News"
+        },
+        {
+          "url": "https://artlab.hyundai.com/project/counterbalance-the-stone-and-the-mountain",
+          "name_used": "Counterbalance: The Stone and the Mountain",
+          "note": "Hyundai Artlab"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-2019",
+      "title": {
+        "ko": "제58회 베니스 비엔날레 한국관: 역사가 우리를 망쳐놨지만 그래도 상관없다",
+        "en": "History Has Failed Us, but No Matter"
+      },
+      "dates": {
+        "start": "2019-05-11",
+        "end": "2019-11-24"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.nam-hwayeon",
+        "person.jung-eunyoung",
+        "person.kaisen-janejin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.labiennale.org/en/art/2019/national-participations/republic-korea",
+          "name_used": "Republic of Korea",
+          "note": "La Biennale official"
+        },
+        {
+          "url": "https://www.e-flux.com/announcements/223088/history-has-failed-us-but-no-matter",
+          "name_used": "History Has Failed Us, but No Matter",
+          "note": "e-flux announcement"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.korean-pavilion-venice-2022",
+      "title": {
+        "ko": "제59회 베니스 비엔날레 한국관: 자이르",
+        "en": "Gyre"
+      },
+      "dates": {
+        "start": "2022-04-23",
+        "end": "2022-11-27"
+      },
+      "venue": "Korean Pavilion, Giardini, Venice",
+      "artists": [
+        "person.kim-yunchul"
+      ],
+      "sources": [
+        {
+          "url": "https://www.labiennale.org/en/art/2022/korea-republic",
+          "name_used": "Korea (Republic of)",
+          "note": "La Biennale official"
+        },
+        {
+          "url": "https://www.e-flux.com/announcements/452046/yunchul-kimgyre",
+          "name_used": "Yunchul Kim",
+          "note": "e-flux announcement"
+        },
+        {
+          "url": "https://www.arko.or.kr/pavilion/22pavilion/index.html",
+          "name_used": "Yunchul Kim: Gyre",
+          "note": "ARKO official"
+        }
+      ],
+      "status": "reviewed"
+    },
     {
       "id": "exhibition.korean-pavilion-venice-2024",
       "title": {
@@ -634,7 +2009,7 @@
           "note": "Artforum — hyphenated lowercase 'Jeong-a'"
         }
       ],
-      "status": "pending_review",
+      "status": "reviewed",
       "notes": "60th Venice Biennale, 30th anniversary of Korean Pavilion. Curated by Seolhui Lee and Jacob Fabricius."
     },
     {
@@ -664,7 +2039,7 @@
           "note": "e-flux announcement — title: 'MMCA Hyundai Motor series 2014: Lee Bul'"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2015",
@@ -698,7 +2073,7 @@
           "note": "TimeOut Seoul — hyphenated romanization 'Ahn Kyu-chul'"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2016",
@@ -728,7 +2103,7 @@
           "note": "Hyundai Newsroom — artist name all caps, English subtitle 'Archive of Mind'"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2017",
@@ -762,7 +2137,7 @@
           "note": "Hyundai Artlab — family name capitalized 'IM'"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2018",
@@ -796,7 +2171,7 @@
           "note": "MMCA English page — 'Blooming Matrix', one-word name"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2019",
@@ -825,7 +2200,7 @@
           "note": "e-flux — English title 'Gathering'"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2020",
@@ -854,7 +2229,7 @@
           "note": "e-flux — 'O2 & H2O'"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2021",
@@ -889,7 +2264,7 @@
           "note": "Ocula feature"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2022",
@@ -918,7 +2293,7 @@
           "note": "e-flux — 'Little Ark'"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2023",
@@ -952,7 +2327,7 @@
           "note": "ArtReview — given-family order 'Yeondoo Jung'"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     }
   ],
   "organizations": [
@@ -984,7 +2359,7 @@
           "note": "연혁 페이지"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     },
     {
       "id": "org.takeout-drawing",
@@ -1071,7 +2446,7 @@
           "note": "Asia Art Archive — SSamzie Space 2008 publication, 1세대(1999-2008) 대안공간 연구"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     },
     {
       "id": "term.dansaekhwa",
@@ -1129,7 +2504,7 @@
           "note": "Third Text Vol.27 No.2 (2013), Joan Kee — academic article"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     },
     {
       "id": "term.sinseang-gonggan",
@@ -1181,7 +2556,7 @@
           "note": "월간미술 — '2023년의 화려하고 불길한 전개', 신생공간/콜렉티브 비평적 결산"
         }
       ],
-      "status": "pending_review"
+      "status": "reviewed"
     }
   ]
 }

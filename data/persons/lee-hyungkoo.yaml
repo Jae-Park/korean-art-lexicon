@@ -1,0 +1,24 @@
+id: person.lee-hyungkoo
+name:
+  ko:
+    full: 이형구
+    family: 이
+    given: 형구
+  latn:
+    preferred: Lee Hyungkoo
+    family: Lee
+    given: Hyungkoo
+sources:
+- url: https://londonkoreanlinks.net/2007/05/20/korea-at-the-venice-biennale-2007-lee-hyungkoo-the-homo-species/
+  name_used: Lee Hyungkoo
+  note: London Korean Links
+- url: https://www.designboom.com/art/hyungkoo-lee-at-venice-art-biennale-07/
+  name_used: Hyungkoo Lee
+  note: Designboom — reversed name order
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 이형구
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.doosanartcenter.com/ko/exhibit/artist/134
+  name_used: 이형구
+  note: 두산아트센터 작가 프로필
+status: reviewed

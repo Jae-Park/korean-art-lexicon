@@ -1,0 +1,18 @@
+id: exhibition.korean-pavilion-venice-1999
+title:
+  ko: 제48회 베니스 비엔날레 한국관
+dates:
+  start: '1999-06-12'
+  end: '1999-11-07'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.lee-bul
+- person.noh-sangkyoon
+sources:
+- url: https://en.wikipedia.org/wiki/Korean_pavilion
+  name_used: Korean pavilion
+  note: Wikipedia — Lee Bul received Honorable Mention
+- url: https://aaa.org.hk/en/collections/search/library/lee-bul-gravity-greater-than-velocity-amateurs-the-korean-pavilion-48th-venice-biennale
+  name_used: Lee Bul
+  note: Asia Art Archive catalogue record
+status: reviewed

@@ -21,7 +21,7 @@ sources:
 - url: https://www.guggenheim.org/artwork/artist/koo-jeong-a
   name_used: Koo Jeong-A
   note: Guggenheim artist page
-status: pending_review
+status: reviewed
 external_ids:
   ulan: '500294101'
   wikidata: Q16844597

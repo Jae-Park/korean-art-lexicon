@@ -31,7 +31,7 @@ sources:
 - url: https://www.pacegallery.com/artists/lee-ufan/
   name_used: Lee Ufan
   note: Pace Gallery represented artist
-status: pending_review
+status: reviewed
 external_ids:
   ulan: '500061220'
   wikidata: Q399775

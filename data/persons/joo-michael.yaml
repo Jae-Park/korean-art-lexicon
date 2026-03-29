@@ -1,0 +1,15 @@
+id: person.joo-michael
+name:
+  ko:
+    full: 마이클 주
+    family: 주
+    given: 마이클
+  latn:
+    preferred: Michael Joo
+    family: Joo
+    given: Michael
+sources:
+- url: https://universes.art/en/venice-biennale/2001/pavilions-tour/korea
+  name_used: Michael Joo
+  note: universes.art — Venice Biennale 2001 Korean Pavilion
+status: pending_review

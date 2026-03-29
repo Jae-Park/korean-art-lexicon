@@ -1,0 +1,21 @@
+id: person.bae-youngwhan
+name:
+  ko:
+    full: 배영환
+    family: 배
+    given: 영환
+  latn:
+    preferred: Bae Youngwhan
+    family: Bae
+    given: Youngwhan
+sources:
+- url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
+  name_used: Bae Youngwhan
+  note: AAA — Venice 2005 Korean Pavilion catalogue
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 배영환
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.pkmgallery.com/artists/bae-young-whan/biography
+  name_used: 배영환
+  note: PKM Gallery 작가 약력
+status: reviewed

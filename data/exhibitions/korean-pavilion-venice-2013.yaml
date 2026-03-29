@@ -1,0 +1,18 @@
+id: exhibition.korean-pavilion-venice-2013
+title:
+  ko: '제55회 베니스 비엔날레 한국관: 숨쉬기: 보따리'
+  en: 'To Breathe: Bottari'
+dates:
+  start: '2013-06-01'
+  end: '2013-11-24'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.kim-sooja
+sources:
+- url: https://www.e-flux.com/announcements/32876/kimsooja
+  name_used: Kimsooja
+  note: e-flux announcement
+- url: https://www.tanyabonakdargallery.com/exhibitions/713-kimsooja-to-breathe-bottari-korean-pavilion-55th-international-art-exhibition-la/
+  name_used: Kimsooja
+  note: Tanya Bonakdar Gallery
+status: reviewed

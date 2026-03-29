@@ -1,0 +1,18 @@
+id: person.kim-beom
+name:
+  ko:
+    full: 김범
+    family: 김
+    given: 범
+  latn:
+    preferred: Kim Beom
+    family: Kim
+    given: Beom
+sources:
+- url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
+  name_used: Kim Beom
+  note: AAA — Venice 2005 Korean Pavilion catalogue
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 김범
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+status: reviewed

@@ -1,0 +1,21 @@
+id: person.park-kiwon
+name:
+  ko:
+    full: 박기원
+    family: 박
+    given: 기원
+  latn:
+    preferred: Park Kiwon
+    family: Park
+    given: Kiwon
+sources:
+- url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
+  name_used: Park Kiwon
+  note: AAA — Venice 2005 Korean Pavilion catalogue
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 박기원
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201003170002817
+  name_used: 박기원
+  note: MMCA 올해의 작가 2010
+status: reviewed

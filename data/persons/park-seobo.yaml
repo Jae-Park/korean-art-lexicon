@@ -28,7 +28,7 @@ sources:
 - url: https://www.perrotin.com/artists/Seo-Bo_Park/203
   name_used: Park Seo-Bo
   note: Perrotin represented artist (estate)
-status: pending_review
+status: reviewed
 external_ids:
   ulan: '500323715'
   wikidata: Q4984536

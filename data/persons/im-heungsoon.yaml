@@ -15,6 +15,6 @@ sources:
 - url: https://www.moma.org/calendar/exhibitions/3695
   name_used: IM Heung-soon
   note: MoMA PS1 exhibition (2015)
-status: pending_review
+status: reviewed
 external_ids:
   wikidata: Q19896697

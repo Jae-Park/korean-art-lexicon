@@ -15,6 +15,6 @@ sources:
 - url: https://www.galleryhyundai.com/artist/view/20000000113
   name_used: Choe U-Ram
   note: Gallery Hyundai represented artist
-status: pending_review
+status: reviewed
 external_ids:
   wikidata: Q7862919

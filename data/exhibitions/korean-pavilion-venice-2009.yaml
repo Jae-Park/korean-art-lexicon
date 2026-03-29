@@ -1,0 +1,18 @@
+id: exhibition.korean-pavilion-venice-2009
+title:
+  ko: '제53회 베니스 비엔날레 한국관: 응축'
+  en: Condensation
+dates:
+  start: '2009-06-07'
+  end: '2009-11-22'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.yang-haegue
+sources:
+- url: https://www.designboom.com/art/korean-pavilion-haegue-yang-at-venice-art-biennale-09/
+  name_used: Haegue Yang
+  note: Designboom
+- url: https://vernissage.tv/2009/08/10/haegue-yang-condensation-korean-pavilion-53rd-venice-biennale-2009/
+  name_used: Haegue Yang
+  note: VernissageTV
+status: reviewed

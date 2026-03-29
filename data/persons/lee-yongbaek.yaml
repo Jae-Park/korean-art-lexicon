@@ -1,0 +1,21 @@
+id: person.lee-yongbaek
+name:
+  ko:
+    full: 이용백
+    family: 이
+    given: 용백
+  latn:
+    preferred: Lee Yongbaek
+    family: Lee
+    given: Yongbaek
+sources:
+- url: https://www.designboom.com/art/lee-yongbaek-korean-pavilion-at-venice-art-biennale-2011/
+  name_used: Lee Yongbaek
+  note: Designboom — Venice 2011
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 이용백
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.khan.co.kr/article/201106082107305
+  name_used: 이용백
+  note: 경향신문 — 2011 베니스 한국관
+status: reviewed

@@ -1,0 +1,18 @@
+id: person.jheon-soocheon
+name:
+  ko:
+    full: 전수천
+    family: 전
+    given: 수천
+  latn:
+    preferred: Jheon Soocheon
+    family: Jheon
+    given: Soocheon
+sources:
+- url: https://en.wikipedia.org/wiki/Korean_pavilion
+  name_used: Jheon Soocheon
+  note: Venice Biennale Korean Pavilion 1995 — Special Mention
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 전수천
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+status: reviewed

@@ -1,0 +1,18 @@
+id: person.noh-sangkyoon
+name:
+  ko:
+    full: 노상균
+    family: 노
+    given: 상균
+  latn:
+    preferred: Noh Sang-Kyoon
+    family: Noh
+    given: Sang-Kyoon
+sources:
+- url: https://aaa.org.hk/en/collections/search/library/lee-bul-gravity-greater-than-velocity-amateurs-the-korean-pavilion-48th-venice-biennale
+  name_used: Noh Sang-Kyoon
+  note: Asia Art Archive — 48th Venice Biennale catalogue
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 노상균
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+status: reviewed

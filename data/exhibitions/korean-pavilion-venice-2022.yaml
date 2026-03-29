@@ -1,0 +1,21 @@
+id: exhibition.korean-pavilion-venice-2022
+title:
+  ko: '제59회 베니스 비엔날레 한국관: 자이르'
+  en: Gyre
+dates:
+  start: '2022-04-23'
+  end: '2022-11-27'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.kim-yunchul
+sources:
+- url: https://www.labiennale.org/en/art/2022/korea-republic
+  name_used: Korea (Republic of)
+  note: La Biennale official
+- url: https://www.e-flux.com/announcements/452046/yunchul-kimgyre
+  name_used: Yunchul Kim
+  note: e-flux announcement
+- url: https://www.arko.or.kr/pavilion/22pavilion/index.html
+  name_used: 'Yunchul Kim: Gyre'
+  note: ARKO official
+status: reviewed

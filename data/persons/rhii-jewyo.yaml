@@ -1,0 +1,18 @@
+id: person.rhii-jewyo
+name:
+  ko:
+    full: 이주요
+    family: 이
+    given: 주요
+  latn:
+    preferred: Jewyo Rhii
+    family: Rhii
+    given: Jewyo
+sources:
+- url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
+  name_used: Jewyo Rhii
+  note: AAA — Venice 2005 Korean Pavilion catalogue
+- url: https://barakatcontemporary.com/artists/56-jewyo-rhii/
+  name_used: 이주요
+  note: 바라캇 컨템포러리 작가 페이지
+status: reviewed

@@ -1,0 +1,18 @@
+id: person.lee-hyungwoo
+name:
+  ko:
+    full: 이형우
+    family: 이
+    given: 형우
+  latn:
+    preferred: Lee Hyungwoo
+    family: Lee
+    given: Hyungwoo
+sources:
+- url: https://en.wikipedia.org/wiki/Korean_pavilion
+  name_used: Hyungwoo Lee
+  note: Venice Biennale Korean Pavilion 1997
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 이형우
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+status: reviewed

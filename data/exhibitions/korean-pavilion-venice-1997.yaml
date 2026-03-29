@@ -1,0 +1,15 @@
+id: exhibition.korean-pavilion-venice-1997
+title:
+  ko: 제47회 베니스 비엔날레 한국관
+dates:
+  start: '1997-06-15'
+  end: '1997-11-09'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.kang-ikjoong
+- person.lee-hyungwoo
+sources:
+- url: https://en.wikipedia.org/wiki/Korean_pavilion
+  name_used: Korean pavilion
+  note: Wikipedia — Kang Ik-Joong received Honorable Mention
+status: pending_review

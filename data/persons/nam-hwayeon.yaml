@@ -1,0 +1,24 @@
+id: person.nam-hwayeon
+name:
+  ko:
+    full: 남화연
+    family: 남
+    given: 화연
+  latn:
+    preferred: Hwayeon Nam
+    family: Nam
+    given: Hwayeon
+sources:
+- url: https://www.labiennale.org/en/art/2019/national-participations/republic-korea
+  name_used: Hwayeon Nam
+  note: La Biennale official
+- url: https://www.e-flux.com/announcements/223088/history-has-failed-us-but-no-matter
+  name_used: Hwayeon Nam
+  note: e-flux
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 남화연
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.theartro.kr/kor/features/features_view.asp?idx=2343&b_code=31e
+  name_used: 남화연
+  note: 아르트로 인터뷰 — 2019 베니스
+status: reviewed

@@ -2,32 +2,35 @@ id: term.sinseang-gonggan
 term:
   ko: 신생공간
   en:
-    preferred: "sinseang gonggan"
+    preferred: sinseang gonggan
     type: transliteration
     alternatives:
-      - form: "emerging space"
-        type: semantic
-      - form: "newborn space"
-        type: literal
+    - form: emerging space
+      type: semantic
+    - form: newborn space
+      type: literal
   hanja: 新生空間
 category: phenomenon
 definition:
-  ko: "2000년대 후반부터 2010년대 초반 한국에서 등장한 작가 주도형 소규모 대안공간. 기존 제도권 미술계에 대한 대안으로 작가들이 직접 운영하며, 실험적인 전시와 프로젝트를 진행했다."
-  en: "Artist-run micro-spaces that emerged in Korea from the late 2000s to early 2010s as alternatives to the established art system. Operated directly by artists, these spaces hosted experimental exhibitions and projects."
+  ko: 2000년대 후반부터 2010년대 초반 한국에서 등장한 작가 주도형 소규모 대안공간. 기존 제도권 미술계에 대한 대안으로 작가들이 직접
+    운영하며, 실험적인 전시와 프로젝트를 진행했다.
+  en: Artist-run micro-spaces that emerged in Korea from the late 2000s to early 2010s
+    as alternatives to the established art system. Operated directly by artists, these
+    spaces hosted experimental exhibitions and projects.
 period:
   start: 2007
   end: 2015
 related:
-  - org.takeout-drawing
-  - term.alternative-space
+- org.takeout-drawing
+- term.alternative-space
 sources:
-  - url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002597052
-    name_used: 신생공간
-    note: "정필주, '2010년대 이후, 예술가운영 신생공간을 둘러싼 쟁점들', 미술사학보 2020 no.54"
-  - url: https://www.frieze.com/article/frieze-week-seoul-2023-non-profits-guide
-    name_used: sinsaeng gonggan
-    note: "Frieze — 영어권 정의, 대안공간에서 신생공간으로의 전환 서술"
-  - url: https://monthlyart.com/portfolio-item/2023%EB%85%84%EC%9D%98-%ED%99%94%EB%A0%A4%ED%95%98%EA%B3%A0-%EB%B6%88%EA%B8%B8%ED%95%9C-%EC%A0%84%EA%B0%9C-%EB%8B%A4%EC%8B%9C-%EA%B3%B5%ED%9A%8C%EC%A0%84-%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%87%B4/
-    name_used: 신생공간
-    note: "월간미술 — '2023년의 화려하고 불길한 전개', 신생공간/콜렉티브 비평적 결산"
-status: pending_review
+- url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002597052
+  name_used: 신생공간
+  note: 정필주, '2010년대 이후, 예술가운영 신생공간을 둘러싼 쟁점들', 미술사학보 2020 no.54
+- url: https://www.frieze.com/article/frieze-week-seoul-2023-non-profits-guide
+  name_used: sinsaeng gonggan
+  note: Frieze — 영어권 정의, 대안공간에서 신생공간으로의 전환 서술
+- url: https://monthlyart.com/portfolio-item/2023%EB%85%84%EC%9D%98-%ED%99%94%EB%A0%A4%ED%95%98%EA%B3%A0-%EB%B6%88%EA%B8%B8%ED%95%9C-%EC%A0%84%EA%B0%9C-%EB%8B%A4%EC%8B%9C-%EA%B3%B5%ED%9A%8C%EC%A0%84-%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%87%B4/
+  name_used: 신생공간
+  note: 월간미술 — '2023년의 화려하고 불길한 전개', 신생공간/콜렉티브 비평적 결산
+status: reviewed

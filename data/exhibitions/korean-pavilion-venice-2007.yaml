@@ -1,0 +1,18 @@
+id: exhibition.korean-pavilion-venice-2007
+title:
+  ko: '제52회 베니스 비엔날레 한국관: 호모 스피시즈'
+  en: The Homo Species
+dates:
+  start: '2007-06-10'
+  end: '2007-11-21'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.lee-hyungkoo
+sources:
+- url: https://londonkoreanlinks.net/2007/05/20/korea-at-the-venice-biennale-2007-lee-hyungkoo-the-homo-species/
+  name_used: Lee Hyungkoo
+  note: London Korean Links
+- url: https://www.designboom.com/art/hyungkoo-lee-at-venice-art-biennale-07/
+  name_used: Hyungkoo Lee
+  note: Designboom — note reversed name order
+status: reviewed

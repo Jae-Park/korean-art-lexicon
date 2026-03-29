@@ -1,0 +1,21 @@
+id: person.oh-heinkuhn
+name:
+  ko:
+    full: 오형근
+    family: 오
+    given: 형근
+  latn:
+    preferred: Oh Heinkuhn
+    family: Oh
+    given: Heinkuhn
+sources:
+- url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
+  name_used: Oh Heinkuhn
+  note: AAA — Venice 2005 Korean Pavilion catalogue
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 오형근
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.kmib.co.kr/article/view.asp?arcid=0924280605
+  name_used: 오형근
+  note: 국민일보 인터뷰
+status: reviewed

@@ -21,7 +21,7 @@ sources:
 - url: https://www.guggenheim.org/artwork/artist/lee-bul
   name_used: Lee Bul
   note: Guggenheim artist page
-status: pending_review
+status: reviewed
 external_ids:
   ulan: '500125877'
   wikidata: Q487546

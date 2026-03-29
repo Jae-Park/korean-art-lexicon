@@ -1,0 +1,21 @@
+id: person.choi-cody
+name:
+  ko:
+    full: 코디 최
+    family: 최
+    given: 코디
+  latn:
+    preferred: Cody Choi
+    family: Choi
+    given: Cody
+sources:
+- url: https://news.artnet.com/art-world/cody-choi-lee-wan-korean-pavilion-venice-854561
+  name_used: Cody Choi
+  note: Artnet — Venice 2017
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 코디최
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 붙여쓰기 '코디최'
+- url: https://biz.heraldcorp.com/article/1050392
+  name_used: 코디최
+  note: 헤럴드경제 — 2017 베니스 한국관 인터뷰
+status: reviewed

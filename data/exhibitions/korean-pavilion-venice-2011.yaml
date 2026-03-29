@@ -1,0 +1,18 @@
+id: exhibition.korean-pavilion-venice-2011
+title:
+  ko: '제54회 베니스 비엔날레 한국관: 사랑은 가고 상처는 낫겠지'
+  en: The Love Is Gone but the Scar Will Heal
+dates:
+  start: '2011-06-04'
+  end: '2011-11-27'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.lee-yongbaek
+sources:
+- url: https://www.designboom.com/art/lee-yongbaek-korean-pavilion-at-venice-art-biennale-2011/
+  name_used: Lee Yongbaek
+  note: Designboom
+- url: https://en.wikipedia.org/wiki/Korean_pavilion
+  name_used: Korean pavilion
+  note: Wikipedia
+status: reviewed

@@ -1,0 +1,20 @@
+id: exhibition.korean-pavilion-venice-2019
+title:
+  ko: '제58회 베니스 비엔날레 한국관: 역사가 우리를 망쳐놨지만 그래도 상관없다'
+  en: History Has Failed Us, but No Matter
+dates:
+  start: '2019-05-11'
+  end: '2019-11-24'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.nam-hwayeon
+- person.jung-eunyoung
+- person.kaisen-janejin
+sources:
+- url: https://www.labiennale.org/en/art/2019/national-participations/republic-korea
+  name_used: Republic of Korea
+  note: La Biennale official
+- url: https://www.e-flux.com/announcements/223088/history-has-failed-us-but-no-matter
+  name_used: History Has Failed Us, but No Matter
+  note: e-flux announcement
+status: reviewed

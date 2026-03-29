@@ -11,10 +11,10 @@ period:
   start: 1969
   active: true
 sources:
-  - url: https://www.mmca.go.kr/about/introduction.do
-    name_used: 국립현대미술관
-    note: "공식 소개 페이지"
-  - url: https://www.mmca.go.kr/about/history.do
-    name_used: MMCA
-    note: "연혁 페이지"
-status: pending_review
+- url: https://www.mmca.go.kr/about/introduction.do
+  name_used: 국립현대미술관
+  note: 공식 소개 페이지
+- url: https://www.mmca.go.kr/about/history.do
+  name_used: MMCA
+  note: 연혁 페이지
+status: reviewed

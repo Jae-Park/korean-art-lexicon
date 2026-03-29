@@ -1,0 +1,19 @@
+id: exhibition.korean-pavilion-venice-2015
+title:
+  ko: '제56회 베니스 비엔날레 한국관: 축지법과 비행술'
+  en: The Ways of Folding Space & Flying
+dates:
+  start: '2015-05-09'
+  end: '2015-11-22'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.moon-kyungwon
+- person.jeon-joonho
+sources:
+- url: https://www.e-flux.com/announcements/29700/moon-kyungwon-jeon-joonho-at-the-korean-pavilion-at-the-venice-biennale
+  name_used: Moon Kyungwon & Jeon Joonho
+  note: e-flux announcement
+- url: https://www.designboom.com/art/venice-biennale-2015-korean-pavilion-05-11-2015/
+  name_used: Moon Kyungwon & Jeon Joonho
+  note: Designboom
+status: reviewed

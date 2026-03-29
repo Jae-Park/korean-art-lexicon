@@ -22,7 +22,7 @@ sources:
 - url: https://www.moma.org/artists/47861
   name_used: Ha Chong-Hyun
   note: MoMA artist page
-status: pending_review
+status: reviewed
 external_ids:
   ulan: '500373076'
   wikidata: Q23068024

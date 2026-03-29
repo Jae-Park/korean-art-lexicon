@@ -1,0 +1,21 @@
+id: person.lee-wan
+name:
+  ko:
+    full: 이완
+    family: 이
+    given: 완
+  latn:
+    preferred: Lee Wan
+    family: Lee
+    given: Wan
+sources:
+- url: https://news.artnet.com/art-world/cody-choi-lee-wan-korean-pavilion-venice-854561
+  name_used: Lee Wan
+  note: Artnet — Venice 2017
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 이완
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://biz.heraldcorp.com/article/1050392
+  name_used: 이완
+  note: 헤럴드경제 — 2017 베니스 한국관 인터뷰
+status: reviewed

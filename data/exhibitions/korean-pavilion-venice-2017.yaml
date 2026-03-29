@@ -1,0 +1,19 @@
+id: exhibition.korean-pavilion-venice-2017
+title:
+  ko: '제57회 베니스 비엔날레 한국관: 카운터밸런스: 돌과 산'
+  en: 'Counterbalance: The Stone and the Mountain'
+dates:
+  start: '2017-05-13'
+  end: '2017-11-26'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.choi-cody
+- person.lee-wan
+sources:
+- url: https://news.artnet.com/art-world/cody-choi-lee-wan-korean-pavilion-venice-854561
+  name_used: Cody Choi & Lee Wan
+  note: Artnet News
+- url: https://artlab.hyundai.com/project/counterbalance-the-stone-and-the-mountain
+  name_used: 'Counterbalance: The Stone and the Mountain'
+  note: Hyundai Artlab
+status: reviewed

@@ -1,0 +1,18 @@
+id: exhibition.korean-pavilion-venice-2001
+title:
+  ko: 제49회 베니스 비엔날레 한국관
+dates:
+  start: '2001-06-10'
+  end: '2001-11-04'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.suh-doho
+- person.joo-michael
+sources:
+- url: https://en.wikipedia.org/wiki/Korean_pavilion
+  name_used: Korean pavilion
+  note: Wikipedia
+- url: https://universes.art/en/venice-biennale/2001/pavilions-tour/korea
+  name_used: Korea
+  note: universes.art pavilion page
+status: reviewed

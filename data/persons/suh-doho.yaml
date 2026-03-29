@@ -1,0 +1,18 @@
+id: person.suh-doho
+name:
+  ko:
+    full: 서도호
+    family: 서
+    given: 도호
+  latn:
+    preferred: Do-Ho Suh
+    family: Suh
+    given: Do-Ho
+sources:
+- url: https://universes.art/en/venice-biennale/2001/pavilions-tour/korea
+  name_used: Do-Ho Suh
+  note: universes.art — Venice Biennale 2001 Korean Pavilion
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 서도호
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+status: reviewed

@@ -1,0 +1,17 @@
+id: exhibition.korean-pavilion-venice-1995
+title:
+  ko: 제46회 베니스 비엔날레 한국관
+dates:
+  start: '1995-06-11'
+  end: '1995-10-15'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.yun-hyongkeun
+- person.kwak-hoon
+- person.kim-inkyum
+- person.jheon-soocheon
+sources:
+- url: https://en.wikipedia.org/wiki/Korean_pavilion
+  name_used: Korean pavilion
+  note: Wikipedia — 1995 inaugural edition
+status: pending_review

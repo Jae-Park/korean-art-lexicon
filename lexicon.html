@@ -429,6 +429,11 @@
       const res = await fetch('dist/lexicon.json?v=' + Date.now(), { cache: 'no-store' });
       data = await res.json();
 
+      // Hide entries that haven't passed review
+      for (const key of Object.keys(data)) {
+        data[key] = data[key].filter(e => e.status !== 'pending_review');
+      }
+
       const total = Object.values(data).reduce((s, arr) => s + arr.length, 0);
       document.getElementById('totalCount').textContent = `${total} entries`;
 

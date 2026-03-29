@@ -18,7 +18,7 @@ sources:
 - url: https://www.perrotin.com/artists/Yeondoo_Jung/1
   name_used: Yeondoo Jung
   note: Perrotin artist page (archive)
-status: pending_review
+status: reviewed
 notes: Uses given-family order (Yeondoo Jung) as preferred form
 external_ids:
   ulan: '500474551'

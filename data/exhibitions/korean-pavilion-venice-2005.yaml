@@ -1,0 +1,32 @@
+id: exhibition.korean-pavilion-venice-2005
+title:
+  ko: '제51회 베니스 비엔날레 한국관: 문 뒤의 비밀'
+  en: Secret Beyond the Door
+dates:
+  start: '2005-06-12'
+  end: '2005-11-06'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.bae-youngwhan
+- person.bahc-yiso
+- person.choi-jeonghwa
+- person.gimhongsok
+- person.ham-jin
+- person.jung-yeondoo
+- person.kim-beom
+- person.kim-sora
+- person.nakion
+- person.moon-sungsic
+- person.oh-heinkuhn
+- person.park-kiwon
+- person.rhii-jewyo
+- person.park-sejin
+- person.sung-nakhee
+sources:
+- url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
+  name_used: Secret Beyond the Door
+  note: Asia Art Archive catalogue record
+- url: https://en.wikipedia.org/wiki/Korean_pavilion
+  name_used: Korean pavilion
+  note: Wikipedia
+status: reviewed

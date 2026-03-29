@@ -1,0 +1,18 @@
+id: person.kang-ikjoong
+name:
+  ko:
+    full: 강익중
+    family: 강
+    given: 익중
+  latn:
+    preferred: Kang Ik-Joong
+    family: Kang
+    given: Ik-Joong
+sources:
+- url: https://en.wikipedia.org/wiki/Korean_pavilion
+  name_used: Ik-joong Kang
+  note: Venice Biennale Korean Pavilion 1997 — Honorable Mention
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 강익중
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+status: reviewed

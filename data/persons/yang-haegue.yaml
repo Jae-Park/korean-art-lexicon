@@ -24,7 +24,7 @@ sources:
 - url: https://www.guggenheim.org/artwork/artist/haegue-yang
   name_used: Haegue Yang
   note: Guggenheim artist page
-status: pending_review
+status: reviewed
 notes: Uses given-family order (Haegue Yang) as preferred form
 external_ids:
   ulan: '500355927'

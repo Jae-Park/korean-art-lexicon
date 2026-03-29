@@ -22,7 +22,7 @@ sources:
 - url: https://www.guggenheim.org/exhibition/kimsooja-thread-routes
   name_used: Kimsooja
   note: Guggenheim exhibition page
-status: pending_review
+status: reviewed
 notes: Uses single-word name 'Kimsooja' since 2003
 external_ids:
   ulan: '500125591'

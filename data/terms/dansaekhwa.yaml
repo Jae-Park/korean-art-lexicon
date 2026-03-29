@@ -5,33 +5,36 @@ term:
     preferred: Dansaekhwa
     type: transliteration
     alternatives:
-      - form: "Korean monochrome painting"
-        type: semantic
-        source: "Academic texts"
-      - form: "monochrome painting"
-        type: semantic
+    - form: Korean monochrome painting
+      type: semantic
+      source: Academic texts
+    - form: monochrome painting
+      type: semantic
   hanja: 單色畵
 category: movement
 definition:
-  ko: "1970년대 한국에서 발전한 추상회화 경향. 단일 색조의 반복적 행위와 물성을 강조하며, 서구 미니멀리즘과 구별되는 한국적 미학을 추구했다."
-  en: "A Korean abstract painting movement that developed in the 1970s. Characterized by repetitive actions and emphasis on materiality within monochromatic tones, it pursued a distinctly Korean aesthetic separate from Western minimalism."
+  ko: 1970년대 한국에서 발전한 추상회화 경향. 단일 색조의 반복적 행위와 물성을 강조하며, 서구 미니멀리즘과 구별되는 한국적 미학을 추구했다.
+  en: A Korean abstract painting movement that developed in the 1970s. Characterized
+    by repetitive actions and emphasis on materiality within monochromatic tones,
+    it pursued a distinctly Korean aesthetic separate from Western minimalism.
 period:
   start: 1970
 related:
-  - person.lee-ufan
-  - person.park-seobo
-  - person.ha-chonghyun
+- person.lee-ufan
+- person.park-seobo
+- person.ha-chonghyun
 sources:
-  - url: https://www.gokams.or.kr:442/visual-art/art-terms/
-    name_used: 단색화
-    note: "GOKAMS recommends transliteration: Dansaekhwa"
-  - url: https://www.tate.org.uk/art/art-terms/d/dansaekhwa-korean-monochrome-movement
-    name_used: Dansaekhwa
-    note: "Tate glossary — 'Dansaekhwa: The Korean monochrome movement'"
-  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?menuId=1030000000&exhId=201203200000055
-    name_used: Dansaekhwa
-    note: "MMCA 2012 exhibition 'Dansaekhwa: Korean Monochrome Painting' — established term as standard"
-  - url: https://www.tandfonline.com/doi/abs/10.1080/09528822.2013.772350
-    name_used: Dansaekhwa
-    note: "Third Text Vol.27 No.2 (2013), Joan Kee — academic article"
-status: pending_review
+- url: https://www.gokams.or.kr:442/visual-art/art-terms/
+  name_used: 단색화
+  note: 'GOKAMS recommends transliteration: Dansaekhwa'
+- url: https://www.tate.org.uk/art/art-terms/d/dansaekhwa-korean-monochrome-movement
+  name_used: Dansaekhwa
+  note: 'Tate glossary — ''Dansaekhwa: The Korean monochrome movement'''
+- url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?menuId=1030000000&exhId=201203200000055
+  name_used: Dansaekhwa
+  note: 'MMCA 2012 exhibition ''Dansaekhwa: Korean Monochrome Painting'' — established
+    term as standard'
+- url: https://www.tandfonline.com/doi/abs/10.1080/09528822.2013.772350
+  name_used: Dansaekhwa
+  note: Third Text Vol.27 No.2 (2013), Joan Kee — academic article
+status: reviewed

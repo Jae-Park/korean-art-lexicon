@@ -1,0 +1,15 @@
+id: person.sung-nakhee
+name:
+  ko:
+    full: 성낙희
+    family: 성
+    given: 낙희
+  latn:
+    preferred: Sung Nakhee
+    family: Sung
+    given: Nakhee
+sources:
+- url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
+  name_used: Sung Nakhee
+  note: AAA — Venice 2005 Korean Pavilion catalogue
+status: pending_review

@@ -1,0 +1,27 @@
+id: person.kim-yunchul
+name:
+  ko:
+    full: 김윤철
+    family: 김
+    given: 윤철
+  latn:
+    preferred: Yunchul Kim
+    family: Kim
+    given: Yunchul
+sources:
+- url: https://www.labiennale.org/en/art/2022/korea-republic
+  name_used: Yunchul Kim
+  note: La Biennale official
+- url: https://www.e-flux.com/announcements/452046/yunchul-kimgyre
+  name_used: Yunchul Kim
+  note: e-flux
+- url: https://www.arko.or.kr/pavilion/22pavilion/index.html
+  name_used: Yunchul Kim
+  note: ARKO official
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 김윤철
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.arko.or.kr/board/view/4057?bid=557&cid=1804401
+  name_used: 김윤철
+  note: ARKO 공지 — 2022 베니스 한국관
+status: reviewed

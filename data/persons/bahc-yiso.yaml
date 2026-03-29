@@ -1,0 +1,18 @@
+id: person.bahc-yiso
+name:
+  ko:
+    full: 박이소
+    family: 박
+    given: 이소
+  latn:
+    preferred: Bahc Yiso
+    family: Bahc
+    given: Yiso
+sources:
+- url: http://universes-in-universe.de/car/venezia/bien50/kor/e-press.htm
+  name_used: Bahc Yiso
+  note: Venice Biennale 2003 Korean Pavilion press release
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 박이소
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+status: reviewed

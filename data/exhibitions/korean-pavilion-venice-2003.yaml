@@ -1,0 +1,20 @@
+id: exhibition.korean-pavilion-venice-2003
+title:
+  ko: '제50회 베니스 비엔날레 한국관: 차이의 풍경'
+  en: Landscape of Differences
+dates:
+  start: '2003-06-15'
+  end: '2003-11-02'
+venue: Korean Pavilion, Giardini, Venice
+artists:
+- person.bahc-yiso
+- person.whang-inkie
+- person.chung-seoyoung
+sources:
+- url: http://universes-in-universe.de/car/venezia/bien50/kor/e-press.htm
+  name_used: Landscape of Differences
+  note: universes-in-universe press release
+- url: https://en.wikipedia.org/wiki/Korean_pavilion
+  name_used: Korean pavilion
+  note: Wikipedia
+status: reviewed

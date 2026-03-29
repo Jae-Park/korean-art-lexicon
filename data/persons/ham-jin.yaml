@@ -1,0 +1,18 @@
+id: person.ham-jin
+name:
+  ko:
+    full: 함진
+    family: 함
+    given: 진
+  latn:
+    preferred: Ham Jin
+    family: Ham
+    given: Jin
+sources:
+- url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
+  name_used: Ham Jin
+  note: AAA — Venice 2005 Korean Pavilion catalogue
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 함진
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+status: reviewed

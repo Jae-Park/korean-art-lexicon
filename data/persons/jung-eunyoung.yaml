@@ -1,0 +1,24 @@
+id: person.jung-eunyoung
+name:
+  ko:
+    full: 정은영
+    family: 정
+    given: 은영
+  latn:
+    preferred: siren eun young jung
+    family: jung
+    given: eun young
+sources:
+- url: https://www.labiennale.org/en/art/2019/national-participations/republic-korea
+  name_used: siren eun young jung
+  note: La Biennale official — all lowercase as artist's stylistic choice
+- url: https://www.e-flux.com/announcements/223088/history-has-failed-us-but-no-matter
+  name_used: siren eun young jung
+  note: e-flux
+- url: https://www.arko.or.kr/biennale/content/643
+  name_used: 정은영
+  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.theartro.kr/kor/features/features_view.asp?idx=2349&b_code=31e
+  name_used: 정은영
+  note: 아르트로 인터뷰 — 2019 베니스
+status: reviewed
