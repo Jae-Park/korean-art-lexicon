@@ -1,6 +1,6 @@
 id: exhibition.korean-pavilion-venice-2022
 title:
-  ko: 제59회 베니스 비엔날레 한국관
+  ko: 나선
   en: Gyre
 dates:
   start: '2022-04-23'
@@ -18,4 +18,7 @@ sources:
 - url: https://www.arko.or.kr/pavilion/22pavilion/index.html
   name_used: 'Yunchul Kim: Gyre'
   note: ARKO official
+- url: https://www.arko.or.kr/board/view/4057?bid=557&cid=1804401
+  name_used: 나선(螺旋)
+  note: ARKO 보도자료 — 한국어 제목 확인
 status: reviewed

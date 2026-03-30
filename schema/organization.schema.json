@@ -4,7 +4,12 @@
   "title": "Organization",
   "description": "An organization entity: galleries, museums, artist-run spaces, art groups, institutions",
   "type": "object",
-  "required": ["id", "name", "type", "sources"],
+  "required": [
+    "id",
+    "name",
+    "type",
+    "sources"
+  ],
   "additionalProperties": false,
   "properties": {
     "id": {
@@ -14,7 +19,9 @@
     },
     "name": {
       "type": "object",
-      "required": ["ko"],
+      "required": [
+        "ko"
+      ],
       "additionalProperties": false,
       "properties": {
         "ko": {
@@ -99,7 +106,9 @@
           },
           {
             "type": "object",
-            "required": ["url"],
+            "required": [
+              "url"
+            ],
             "additionalProperties": false,
             "properties": {
               "url": {
@@ -121,7 +130,14 @@
     },
     "status": {
       "type": "string",
-      "enum": ["submitted", "pending_review", "firsthand", "stable", "rejected"],
+      "enum": [
+        "submitted",
+        "pending_review",
+        "reviewed",
+        "firsthand",
+        "stable",
+        "rejected"
+      ],
       "default": "draft"
     },
     "notes": {

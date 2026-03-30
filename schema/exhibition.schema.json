@@ -27,6 +27,10 @@
           "minLength": 1,
           "description": "English title"
         },
+        "note": {
+          "type": "string",
+          "description": "Note about title (e.g. 공식 한국어 제목 미발견)"
+        },
         "variants": {
           "type": "array",
           "items": {
@@ -99,7 +103,7 @@
     },
     "status": {
       "type": "string",
-      "enum": ["submitted", "pending_review", "firsthand", "stable", "rejected"],
+      "enum": ["submitted", "pending_review", "reviewed", "firsthand", "stable", "rejected"],
       "default": "draft",
       "description": "Entry status"
     },

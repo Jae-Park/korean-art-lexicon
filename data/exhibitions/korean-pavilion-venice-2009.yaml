@@ -1,6 +1,6 @@
 id: exhibition.korean-pavilion-venice-2009
 title:
-  ko: 제53회 베니스 비엔날레 한국관
+  ko: 응결
   en: Condensation
 dates:
   start: '2009-06-07'
@@ -15,4 +15,7 @@ sources:
 - url: https://vernissage.tv/2009/08/10/haegue-yang-condensation-korean-pavilion-53rd-venice-biennale-2009/
   name_used: Haegue Yang
   note: VernissageTV
+- url: https://www.arko.or.kr/pavilion/09pavilion/kr/acknowledgments.html
+  name_used: 응결(凝結)
+  note: ARKO 공식 페이지 — 한국어 제목 확인
 status: reviewed

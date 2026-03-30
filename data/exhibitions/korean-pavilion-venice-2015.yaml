@@ -1,6 +1,6 @@
 id: exhibition.korean-pavilion-venice-2015
 title:
-  ko: 제56회 베니스 비엔날레 한국관
+  ko: 축지법과 비행술
   en: The Ways of Folding Space & Flying
 dates:
   start: '2015-05-09'
@@ -16,4 +16,7 @@ sources:
 - url: https://www.designboom.com/art/venice-biennale-2015-korean-pavilion-05-11-2015/
   name_used: Moon Kyungwon & Jeon Joonho
   note: Designboom
+- url: https://www.news1.kr/life-culture/performance-exhibition/2178185
+  name_used: 축지법과 비행술
+  note: 뉴스1 — 한국어 제목 확인
 status: reviewed

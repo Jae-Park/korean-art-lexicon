@@ -1,6 +1,6 @@
 id: exhibition.korean-pavilion-venice-2017
 title:
-  ko: 제57회 베니스 비엔날레 한국관
+  ko: 카운터밸런스
   en: 'Counterbalance: The Stone and the Mountain'
 dates:
   start: '2017-05-13'
@@ -16,4 +16,7 @@ sources:
 - url: https://artlab.hyundai.com/project/counterbalance-the-stone-and-the-mountain
   name_used: 'Counterbalance: The Stone and the Mountain'
   note: Hyundai Artlab
+- url: https://m.artinpost.co.kr/product/public-tech/1463/
+  name_used: 카운터밸런스
+  note: artinpost — 한국어 제목(음차) 확인
 status: reviewed

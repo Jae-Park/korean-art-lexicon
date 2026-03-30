@@ -1,6 +1,6 @@
 id: exhibition.korean-pavilion-venice-2011
 title:
-  ko: 제54회 베니스 비엔날레 한국관
+  ko: 사랑은 갔지만 상처는 곧 아물겠지요
   en: The Love Is Gone but the Scar Will Heal
 dates:
   start: '2011-06-04'
@@ -15,4 +15,7 @@ sources:
 - url: https://en.wikipedia.org/wiki/Korean_pavilion
   name_used: Korean pavilion
   note: Wikipedia
+- url: https://sema.seoul.go.kr/semaaa/front/jungu/searchView.do?authId=41
+  name_used: 사랑은 갔지만 상처는 곧 아물겠지요
+  note: SeMA — 한국어 제목 확인
 status: reviewed

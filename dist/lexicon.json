@@ -1665,7 +1665,8 @@
       "id": "exhibition.korean-pavilion-venice-2003",
       "title": {
         "ko": "제50회 베니스 비엔날레 한국관",
-        "en": "Landscape of Differences"
+        "en": "Landscape of Differences",
+        "note": "한국어 제목 \"차이의 풍경들\" — 출처 재확인 필요"
       },
       "dates": {
         "start": "2003-06-15",
@@ -1695,7 +1696,8 @@
       "id": "exhibition.korean-pavilion-venice-2005",
       "title": {
         "ko": "제51회 베니스 비엔날레 한국관",
-        "en": "Secret Beyond the Door"
+        "en": "Secret Beyond the Door",
+        "note": "공식 한국어 제목 미발견"
       },
       "dates": {
         "start": "2005-06-12",
@@ -1737,7 +1739,8 @@
       "id": "exhibition.korean-pavilion-venice-2007",
       "title": {
         "ko": "제52회 베니스 비엔날레 한국관",
-        "en": "The Homo Species"
+        "en": "The Homo Species",
+        "note": "공식 한국어 제목 미발견"
       },
       "dates": {
         "start": "2007-06-10",
@@ -1764,7 +1767,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2009",
       "title": {
-        "ko": "제53회 베니스 비엔날레 한국관",
+        "ko": "응결",
         "en": "Condensation"
       },
       "dates": {
@@ -1785,6 +1788,11 @@
           "url": "https://vernissage.tv/2009/08/10/haegue-yang-condensation-korean-pavilion-53rd-venice-biennale-2009/",
           "name_used": "Haegue Yang",
           "note": "VernissageTV"
+        },
+        {
+          "url": "https://www.arko.or.kr/pavilion/09pavilion/kr/acknowledgments.html",
+          "name_used": "응결(凝結)",
+          "note": "ARKO 공식 페이지 — 한국어 제목 확인"
         }
       ],
       "status": "reviewed"
@@ -1792,7 +1800,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2011",
       "title": {
-        "ko": "제54회 베니스 비엔날레 한국관",
+        "ko": "사랑은 갔지만 상처는 곧 아물겠지요",
         "en": "The Love Is Gone but the Scar Will Heal"
       },
       "dates": {
@@ -1813,6 +1821,11 @@
           "url": "https://en.wikipedia.org/wiki/Korean_pavilion",
           "name_used": "Korean pavilion",
           "note": "Wikipedia"
+        },
+        {
+          "url": "https://sema.seoul.go.kr/semaaa/front/jungu/searchView.do?authId=41",
+          "name_used": "사랑은 갔지만 상처는 곧 아물겠지요",
+          "note": "SeMA — 한국어 제목 확인"
         }
       ],
       "status": "reviewed"
@@ -1820,7 +1833,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2013",
       "title": {
-        "ko": "제55회 베니스 비엔날레 한국관",
+        "ko": "호흡:보따리",
         "en": "To Breathe: Bottari"
       },
       "dates": {
@@ -1841,6 +1854,11 @@
           "url": "https://www.tanyabonakdargallery.com/exhibitions/713-kimsooja-to-breathe-bottari-korean-pavilion-55th-international-art-exhibition-la/",
           "name_used": "Kimsooja",
           "note": "Tanya Bonakdar Gallery"
+        },
+        {
+          "url": "https://www.theartro.kr/kor/features/features_view.asp?idx=1217&b_code=11e&page=4&searchColumn=&searchKeyword=&b_ex2=",
+          "name_used": "호흡:보따리",
+          "note": "theartro — 한국어 제목 확인"
         }
       ],
       "status": "reviewed"
@@ -1848,7 +1866,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2015",
       "title": {
-        "ko": "제56회 베니스 비엔날레 한국관",
+        "ko": "축지법과 비행술",
         "en": "The Ways of Folding Space & Flying"
       },
       "dates": {
@@ -1870,6 +1888,11 @@
           "url": "https://www.designboom.com/art/venice-biennale-2015-korean-pavilion-05-11-2015/",
           "name_used": "Moon Kyungwon & Jeon Joonho",
           "note": "Designboom"
+        },
+        {
+          "url": "https://www.news1.kr/life-culture/performance-exhibition/2178185",
+          "name_used": "축지법과 비행술",
+          "note": "뉴스1 — 한국어 제목 확인"
         }
       ],
       "status": "reviewed"
@@ -1877,7 +1900,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2017",
       "title": {
-        "ko": "제57회 베니스 비엔날레 한국관",
+        "ko": "카운터밸런스",
         "en": "Counterbalance: The Stone and the Mountain"
       },
       "dates": {
@@ -1899,6 +1922,11 @@
           "url": "https://artlab.hyundai.com/project/counterbalance-the-stone-and-the-mountain",
           "name_used": "Counterbalance: The Stone and the Mountain",
           "note": "Hyundai Artlab"
+        },
+        {
+          "url": "https://m.artinpost.co.kr/product/public-tech/1463/",
+          "name_used": "카운터밸런스",
+          "note": "artinpost — 한국어 제목(음차) 확인"
         }
       ],
       "status": "reviewed"
@@ -1907,7 +1935,8 @@
       "id": "exhibition.korean-pavilion-venice-2019",
       "title": {
         "ko": "제58회 베니스 비엔날레 한국관",
-        "en": "History Has Failed Us, but No Matter"
+        "en": "History Has Failed Us, but No Matter",
+        "note": "공식 한국어 제목 미발견"
       },
       "dates": {
         "start": "2019-05-11",
@@ -1936,7 +1965,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2022",
       "title": {
-        "ko": "제59회 베니스 비엔날레 한국관",
+        "ko": "나선",
         "en": "Gyre"
       },
       "dates": {
@@ -1962,6 +1991,11 @@
           "url": "https://www.arko.or.kr/pavilion/22pavilion/index.html",
           "name_used": "Yunchul Kim: Gyre",
           "note": "ARKO official"
+        },
+        {
+          "url": "https://www.arko.or.kr/board/view/4057?bid=557&cid=1804401",
+          "name_used": "나선(螺旋)",
+          "note": "ARKO 보도자료 — 한국어 제목 확인"
         }
       ],
       "status": "reviewed"
@@ -1969,7 +2003,7 @@
     {
       "id": "exhibition.korean-pavilion-venice-2024",
       "title": {
-        "ko": "제60회 베니스 비엔날레 한국관",
+        "ko": "오도라마 시티",
         "en": "ODORAMA CITIES",
         "variants": [
           "Odorama Cities"
@@ -2001,7 +2035,7 @@
         {
           "url": "https://www.arko.or.kr/board/view/4057?cid=1807933",
           "name_used": "구정아",
-          "note": "한국문화예술위원회 보도자료"
+          "note": "한국문화예술위원회 보도자료 — 한국어 제목 '오도라마 시티' 확인"
         },
         {
           "url": "https://www.artforum.com/news/koo-jeong-a-to-represent-south-korea-at-venice-biennale-252597/",

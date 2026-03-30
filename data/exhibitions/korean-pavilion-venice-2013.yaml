@@ -1,6 +1,6 @@
 id: exhibition.korean-pavilion-venice-2013
 title:
-  ko: 제55회 베니스 비엔날레 한국관
+  ko: 호흡:보따리
   en: 'To Breathe: Bottari'
 dates:
   start: '2013-06-01'
@@ -15,4 +15,7 @@ sources:
 - url: https://www.tanyabonakdargallery.com/exhibitions/713-kimsooja-to-breathe-bottari-korean-pavilion-55th-international-art-exhibition-la/
   name_used: Kimsooja
   note: Tanya Bonakdar Gallery
+- url: https://www.theartro.kr/kor/features/features_view.asp?idx=1217&b_code=11e&page=4&searchColumn=&searchKeyword=&b_ex2=
+  name_used: 호흡:보따리
+  note: theartro — 한국어 제목 확인
 status: reviewed

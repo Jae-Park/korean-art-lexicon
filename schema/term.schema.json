@@ -4,7 +4,11 @@
   "title": "Term",
   "description": "An art term or concept in the Korean Art Lexicon",
   "type": "object",
-  "required": ["id", "term", "sources"],
+  "required": [
+    "id",
+    "term",
+    "sources"
+  ],
   "additionalProperties": false,
   "properties": {
     "id": {
@@ -14,7 +18,9 @@
     },
     "term": {
       "type": "object",
-      "required": ["ko"],
+      "required": [
+        "ko"
+      ],
       "additionalProperties": false,
       "properties": {
         "ko": {
@@ -24,7 +30,9 @@
         },
         "en": {
           "type": "object",
-          "required": ["preferred"],
+          "required": [
+            "preferred"
+          ],
           "additionalProperties": false,
           "properties": {
             "preferred": {
@@ -34,14 +42,21 @@
             },
             "type": {
               "type": "string",
-              "enum": ["transliteration", "literal", "semantic", "loan"],
+              "enum": [
+                "transliteration",
+                "literal",
+                "semantic",
+                "loan"
+              ],
               "description": "Translation type: transliteration (음역), literal (직역), semantic (의미역), loan (외래어)"
             },
             "alternatives": {
               "type": "array",
               "items": {
                 "type": "object",
-                "required": ["form"],
+                "required": [
+                  "form"
+                ],
                 "additionalProperties": false,
                 "properties": {
                   "form": {
@@ -50,7 +65,12 @@
                   },
                   "type": {
                     "type": "string",
-                    "enum": ["transliteration", "literal", "semantic", "loan"]
+                    "enum": [
+                      "transliteration",
+                      "literal",
+                      "semantic",
+                      "loan"
+                    ]
                   },
                   "source": {
                     "type": "string",
@@ -128,7 +148,9 @@
           },
           {
             "type": "object",
-            "required": ["url"],
+            "required": [
+              "url"
+            ],
             "additionalProperties": false,
             "properties": {
               "url": {
@@ -150,7 +172,14 @@
     },
     "status": {
       "type": "string",
-      "enum": ["submitted", "pending_review", "firsthand", "stable", "rejected"],
+      "enum": [
+        "submitted",
+        "pending_review",
+        "reviewed",
+        "firsthand",
+        "stable",
+        "rejected"
+      ],
       "default": "draft"
     },
     "notes": {
