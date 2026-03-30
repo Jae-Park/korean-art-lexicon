@@ -31,6 +31,10 @@ sources:
 - url: https://www.pacegallery.com/artists/lee-ufan/
   name_used: Lee Ufan
   note: Pace Gallery represented artist
+- url: https://www.studioleeufan.org/
+  name_used: Lee Ufan
+  note: Studio Lee Ufan official website
+  accessed: '2026-03-30'
 status: reviewed
 external_ids:
   ulan: '500061220'

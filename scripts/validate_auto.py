@@ -31,6 +31,7 @@ ENTITY_SCHEMA_MAP = {
     "persons": "person.schema.json",
     "organizations": "organization.schema.json",
     "terms": "term.schema.json",
+    "publications": "publication.schema.json",
 }
 
 
@@ -149,12 +150,18 @@ def validate_sources(doc: dict, check_alive: bool = True) -> list[str]:
 
     for i, src in enumerate(sources):
         url = src if isinstance(src, str) else src.get("url", "")
+        note = src.get("note", "") if isinstance(src, dict) else ""
 
         if not url:
             errors.append(f"sources[{i}]: URL이 비어있음")
             continue
 
-        if ROOT_URL_PATTERN.match(url):
+        # 작가/기관 공식 웹사이트는 루트 URL 허용
+        is_official_site = any(kw in note.lower() for kw in [
+            "official website", "artist official", "studio website",
+            "foundation official", "estate", "archive website",
+        ])
+        if ROOT_URL_PATTERN.match(url) and not is_official_site:
             errors.append(f"sources[{i}]: 루트 URL 사용 금지 — '{url}'")
             continue
 

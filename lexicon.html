@@ -116,7 +116,6 @@
     .tabs {
       display: flex;
       gap: 4px;
-      margin-bottom: 24px;
     }
 
     .tab {
@@ -147,6 +146,52 @@
     }
 
     .tab.active .tab-count { color: #666; }
+
+    /* Controls Row */
+    .controls-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      gap: 12px;
+    }
+
+    .sort-controls {
+      display: flex;
+      gap: 2px;
+      flex-shrink: 0;
+    }
+
+    .sort-btn {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.75rem;
+      font-weight: 500;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.3);
+      color: #777;
+      transition: all 0.15s;
+    }
+
+    .sort-btn:hover { background: rgba(255, 255, 255, 0.5); }
+
+    .sort-btn.active {
+      background: rgba(255, 255, 255, 0.85);
+      color: #1a1a1a;
+    }
+
+    .entry-type-badge {
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: #888;
+      background: rgba(0, 0, 0, 0.06);
+      padding: 1px 7px;
+      border-radius: 4px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
 
     /* Entry List */
     .entry-list {
@@ -377,7 +422,9 @@
       header h1 { font-size: 1rem; }
       .app { padding: 80px 16px 48px; }
 
+      .controls-row { flex-direction: column; align-items: stretch; }
       .tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+      .sort-controls { justify-content: flex-end; }
 
       .entry-row {
         grid-template-columns: 1fr;
@@ -403,7 +450,14 @@
       <input type="text" id="searchInput" placeholder="검색 · Search (e.g. 김수자, Dansaekhwa, MMCA...)">
     </div>
 
-    <div class="tabs" id="tabs"></div>
+    <div class="controls-row">
+      <div class="tabs" id="tabs"></div>
+      <div class="sort-controls" id="sortControls">
+        <button class="sort-btn active" data-sort="default">기본</button>
+        <button class="sort-btn" data-sort="ko">가나다</button>
+        <button class="sort-btn" data-sort="en">ABC</button>
+      </div>
+    </div>
     <div class="entry-list" id="entryList"></div>
   </div>
 
@@ -414,15 +468,26 @@
 
   <script>
     const TABS = [
+      { key: 'all', label: '전체', labelEn: 'All' },
       { key: 'persons', label: '인물', labelEn: 'Persons' },
       { key: 'exhibitions', label: '전시', labelEn: 'Exhibitions' },
       { key: 'organizations', label: '기관', labelEn: 'Organizations' },
       { key: 'terms', label: '용어', labelEn: 'Terms' },
+      { key: 'publications', label: '출판물', labelEn: 'Publications' },
     ];
 
+    const ENTITY_LABELS = {
+      'person.': '인물',
+      'exhibition.': '전시',
+      'org.': '기관',
+      'term.': '용어',
+      'publication.': '출판물',
+    };
+
     let data = {};
-    let activeTab = 'persons';
+    let activeTab = 'all';
     let searchQuery = '';
+    let sortMode = 'default'; // 'default' | 'ko' | 'en'
 
     // Boot
     async function init() {
@@ -440,14 +505,24 @@
       renderTabs();
       renderList();
 
+      // Sort controls
+      document.querySelectorAll('.sort-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          sortMode = btn.dataset.sort;
+          document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderList();
+        });
+      });
+
       document.getElementById('searchInput').addEventListener('input', e => {
         searchQuery = e.target.value.trim().toLowerCase();
         // Auto-switch to tab with results if current tab is empty
         if (searchQuery) {
-          const currentItems = (data[activeTab] || []).filter(matchesSearch);
+          const currentItems = getEntriesForTab(activeTab).filter(matchesSearch);
           if (currentItems.length === 0) {
             for (const t of TABS) {
-              const items = (data[t.key] || []).filter(matchesSearch);
+              const items = getEntriesForTab(t.key).filter(matchesSearch);
               if (items.length > 0) {
                 activeTab = t.key;
                 renderTabs();
@@ -472,11 +547,51 @@
       window.addEventListener('hashchange', () => openFromHash(location.hash));
     }
 
+    // Get all entries merged
+    function getAllEntries() {
+      const all = [];
+      for (const [key, arr] of Object.entries(data)) {
+        if (Array.isArray(arr)) arr.forEach(e => all.push(e));
+      }
+      return all;
+    }
+
+    function getEntriesForTab(tab) {
+      if (tab === 'all') return getAllEntries();
+      return data[tab] || [];
+    }
+
+    function getTabCount(tab) {
+      if (tab === 'all') return getAllEntries().length;
+      return (data[tab] || []).length;
+    }
+
+    // Sort
+    function sortEntries(entries) {
+      if (sortMode === 'default') return entries;
+      return [...entries].sort((a, b) => {
+        const aN = getDisplayNames(a);
+        const bN = getDisplayNames(b);
+        if (sortMode === 'ko') {
+          return (aN.ko || '').localeCompare(bN.ko || '', 'ko');
+        } else {
+          return (aN.en || '').localeCompare(bN.en || '', 'en');
+        }
+      });
+    }
+
+    function getEntityLabel(id) {
+      for (const [prefix, label] of Object.entries(ENTITY_LABELS)) {
+        if (id.startsWith(prefix)) return label;
+      }
+      return '';
+    }
+
     // Tabs
     function renderTabs() {
       const container = document.getElementById('tabs');
       container.innerHTML = TABS.map(t => {
-        const count = (data[t.key] || []).length;
+        const count = getTabCount(t.key);
         const cls = t.key === activeTab ? 'tab active' : 'tab';
         return `<button class="${cls}" data-key="${t.key}">${t.label} <span class="tab-count">${count}</span></button>`;
       }).join('');
@@ -500,7 +615,8 @@
     // List rendering
     function renderList() {
       const container = document.getElementById('entryList');
-      const items = (data[activeTab] || []).filter(matchesSearch);
+      const filtered = getEntriesForTab(activeTab).filter(matchesSearch);
+      const items = sortEntries(filtered);
 
       if (items.length === 0) {
         container.innerHTML = `<div class="empty-state"><p>${searchQuery ? '검색 결과가 없습니다 · No results' : '데이터 없음 · No data'}</p></div>`;
@@ -510,10 +626,11 @@
       container.innerHTML = items.map(entry => {
         const { ko, en } = getDisplayNames(entry);
         const meta = getMetaLine(entry);
+        const typeLabel = activeTab === 'all' ? getEntityLabel(entry.id) : '';
         return `
           <div class="entry-row" data-id="${entry.id}">
             <div>
-              <div class="entry-ko">${esc(ko)}</div>
+              <div class="entry-ko">${esc(ko)}${typeLabel ? ` <span class="entry-type-badge">${esc(typeLabel)}</span>` : ''}</div>
               ${meta ? `<div class="entry-meta">${esc(meta)}</div>` : ''}
             </div>
             <div class="entry-en">${esc(en)}</div>
@@ -544,17 +661,41 @@
       return { ko: entry.id, en: '' };
     }
 
+    // AAT ID → 사람이 읽을 수 있는 레이블 (주요 ID만)
+    const AAT_LABELS = {
+      '300266309': 'biennale',
+      '300449166': 'group',
+      '300449167': 'solo',
+      '300312281': 'museum',
+      '300192556': 'alternative space',
+      '300055769': 'movement',
+      '300026096': 'exhibition catalogue',
+      '300060417': 'monograph',
+      '300026657': 'periodical',
+    };
+
+    function aatLabel(obj) {
+      if (!obj || typeof obj !== 'object') return '';
+      const id = obj.aat;
+      return AAT_LABELS[id] || `AAT:${id}`;
+    }
+
     function getMetaLine(entry) {
       const parts = [];
-      if (entry.birth_year) parts.push(`b. ${entry.birth_year}`);
-      // roles removed — not in scope for naming authority file
-      if (entry.type) parts.push(entry.type);
+      if (entry.birth_year) {
+        let yearStr = `b. ${entry.birth_year}`;
+        if (entry.death_year) yearStr += ` — d. ${entry.death_year}`;
+        parts.push(yearStr);
+      }
+      if (entry.type && typeof entry.type === 'object') parts.push(aatLabel(entry.type));
+      else if (entry.type && typeof entry.type === 'string') parts.push(entry.type);
       if (entry.dates) {
         if (entry.dates.year) parts.push(String(entry.dates.year));
         else if (entry.dates.start) parts.push(entry.dates.start.slice(0, 4));
       }
       if (entry.venue) parts.push(entry.venue);
-      if (entry.category) parts.push(entry.category);
+      if (entry.category && typeof entry.category === 'object') parts.push(aatLabel(entry.category));
+      else if (entry.category && typeof entry.category === 'string') parts.push(entry.category);
       if (entry.location) parts.push([entry.location.city, entry.location.country].filter(Boolean).join(', '));
       return parts.join(' · ');
     }
@@ -654,7 +795,7 @@
 
       // --- Exhibition ---
       if (entry.id.startsWith('exhibition.')) {
-        if (entry.type) html += `<span class="detail-tag tag-type">${entry.type}</span>`;
+        if (entry.type) html += `<span class="detail-tag tag-type">${esc(aatLabel(entry.type))}</span>`;
 
         html += `<div class="detail-section" style="margin-top:20px"><h3>Details</h3>`;
         if (entry.venue) html += field('Venue', entry.venue);
@@ -671,7 +812,18 @@
 
         if (entry.title.variants && entry.title.variants.length) {
           html += `<div class="detail-section"><h3>Title Variants</h3>`;
-          entry.title.variants.forEach(v => { html += `<div style="font-size:0.875rem;margin-bottom:4px;color:#555">${esc(v)}</div>`; });
+          entry.title.variants.forEach(v => {
+            if (typeof v === 'string') {
+              html += `<div style="font-size:0.875rem;margin-bottom:4px;color:#555">${esc(v)}</div>`;
+            } else {
+              html += `<div class="variant-item">`;
+              html += `<span class="variant-form">${esc(v.form)}</span>`;
+              const meta = [v.lang, v.script, v.type].filter(Boolean).join(' · ');
+              if (meta) html += ` <span class="variant-note">${esc(meta)}</span>`;
+              if (v.source) html += ` <span class="variant-note">— ${esc(v.source)}</span>`;
+              html += `</div>`;
+            }
+          });
           html += `</div>`;
         }
 
@@ -688,7 +840,7 @@
 
       // --- Organization ---
       if (entry.id.startsWith('org.')) {
-        if (entry.type) html += `<span class="detail-tag tag-type">${entry.type}</span>`;
+        if (entry.type) html += `<span class="detail-tag tag-type">${esc(aatLabel(entry.type))}</span>`;
 
         html += `<div class="detail-section" style="margin-top:20px"><h3>Details</h3>`;
         if (entry.name.hanja) html += field('Hanja', entry.name.hanja);
@@ -702,20 +854,29 @@
 
       // --- Term ---
       if (entry.id.startsWith('term.')) {
-        if (entry.category) html += `<span class="detail-tag tag-category">${entry.category}</span>`;
+        if (entry.category) html += `<span class="detail-tag tag-category">${esc(aatLabel(entry.category))}</span>`;
 
         html += `<div class="detail-section" style="margin-top:20px"><h3>Translation</h3>`;
         if (entry.term.en) {
           html += field('Preferred', entry.term.en.preferred);
           if (entry.term.en.type) html += field('Type', entry.term.en.type);
-          if (entry.term.en.alternatives) {
-            entry.term.en.alternatives.forEach(alt => {
-              html += field(alt.type || '', alt.form + (alt.source ? ` (${alt.source})` : ''));
-            });
-          }
         }
         if (entry.term.hanja) html += field('Hanja', entry.term.hanja);
         html += `</div>`;
+
+        // Term variants
+        if (entry.term.variants && entry.term.variants.length) {
+          html += `<div class="detail-section"><h3>Variants</h3>`;
+          entry.term.variants.forEach(v => {
+            html += `<div class="variant-item">`;
+            html += `<span class="variant-form">${esc(v.form)}</span>`;
+            const meta = [v.lang, v.script, v.type].filter(Boolean).join(' · ');
+            if (meta) html += ` <span class="variant-note">${esc(meta)}</span>`;
+            if (v.source) html += ` <span class="variant-note">— ${esc(v.source)}</span>`;
+            html += `</div>`;
+          });
+          html += `</div>`;
+        }
 
         if (entry.definition) {
           html += `<div class="detail-section"><h3>Definition</h3>`;

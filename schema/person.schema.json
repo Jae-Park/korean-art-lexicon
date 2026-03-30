@@ -27,26 +27,24 @@
         "ko": {
           "type": "object",
           "required": [
-            "full",
-            "family",
-            "given"
+            "full"
           ],
           "additionalProperties": false,
           "properties": {
             "full": {
               "type": "string",
               "minLength": 1,
-              "description": "Full Korean name (한글)"
+              "description": "Full Korean name (한글) or Korean transcription of foreign name"
             },
             "family": {
               "type": "string",
               "minLength": 1,
-              "description": "Family name (성)"
+              "description": "Family name (성) — optional for foreign names"
             },
             "given": {
               "type": "string",
               "minLength": 1,
-              "description": "Given name (이름)"
+              "description": "Given name (이름) — optional for foreign names"
             },
             "hanja": {
               "type": "string",
@@ -57,9 +55,7 @@
         "latn": {
           "type": "object",
           "required": [
-            "preferred",
-            "family",
-            "given"
+            "preferred"
           ],
           "additionalProperties": false,
           "properties": {
@@ -79,14 +75,89 @@
               "description": "Romanized given name"
             }
           }
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["form", "lang"],
+            "additionalProperties": false,
+            "properties": {
+              "form": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The name variant string"
+              },
+              "lang": {
+                "type": "string",
+                "description": "ISO 639-1 language code (ko, en, ja, zh, etc.)"
+              },
+              "script": {
+                "type": "string",
+                "enum": ["Hang", "Hani", "Kore", "Latn", "Jpan", "Hans", "Hant"],
+                "description": "ISO 15924 script code"
+              },
+              "type": {
+                "type": "string",
+                "enum": ["preferred", "alternate", "pseudonym", "birth_name", "art_name", "abbreviation", "former", "transliteration"],
+                "description": "Variant type — aligned with ULAN Term_Type"
+              },
+              "romanization": {
+                "type": "string",
+                "enum": ["revised", "mcr", "yale", "artist", "conventional"],
+                "description": "Romanization system (person-specific, only when script=Latn)"
+              },
+              "display_order": {
+                "type": "string",
+                "enum": ["given-family", "family-given"],
+                "description": "Name display order (person-specific)"
+              },
+              "source": {
+                "type": "string",
+                "description": "Institution or publication where this variant is used"
+              },
+              "accessed": {
+                "type": "string",
+                "format": "date",
+                "description": "Date the source was last accessed (YYYY-MM-DD)"
+              }
+            }
+          },
+          "description": "Name variants with language, script, and provenance — core value of this lexicon"
         }
       }
+    },
+    "nationality": {
+      "type": "string",
+      "description": "ISO 3166-1 alpha-2 country code (e.g. KR, GB, US)"
     },
     "birth_year": {
       "type": "integer",
       "minimum": 1800,
       "maximum": 2100,
       "description": "Year of birth — must be verifiable from at least one source"
+    },
+    "death_year": {
+      "type": "integer",
+      "minimum": 1800,
+      "maximum": 2100,
+      "description": "Year of death — must be verifiable from at least one source"
+    },
+    "role": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["aat"],
+        "additionalProperties": false,
+        "properties": {
+          "aat": {
+            "type": "string",
+            "pattern": "^[0-9]+$",
+            "description": "Getty AAT Subject ID for the role/occupation"
+          }
+        }
+      },
+      "description": "Roles/occupations as Getty AAT IDs (e.g. 300025103 = artists)"
     },
     "external_ids": {
       "type": "object",
@@ -108,6 +179,10 @@
         "isni": {
           "type": "string",
           "description": "ISNI identifier"
+        },
+        "aaa": {
+          "type": "string",
+          "description": "Asia Art Archive actor ID (e.g. actors:197)"
         }
       },
       "description": "Links to global authority files (optional, added when verified)"
@@ -131,11 +206,16 @@
           "name_used": {
             "type": "string",
             "minLength": 1,
-            "description": "The romanized name form used in this source"
+            "description": "The name form used in this source"
           },
           "note": {
             "type": "string",
             "description": "Additional context (optional)"
+          },
+          "accessed": {
+            "type": "string",
+            "format": "date",
+            "description": "Date the source was last accessed (YYYY-MM-DD)"
           }
         }
       },

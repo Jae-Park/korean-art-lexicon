@@ -24,6 +24,10 @@ sources:
 - url: https://www.guggenheim.org/artwork/artist/haegue-yang
   name_used: Haegue Yang
   note: Guggenheim artist page
+- url: https://www.heikejung.de/
+  name_used: Haegue Yang
+  note: Artist official website — domain 'Heike Jung' is German rendering of name
+  accessed: '2026-03-30'
 status: reviewed
 notes: Uses given-family order (Haegue Yang) as preferred form
 external_ids:

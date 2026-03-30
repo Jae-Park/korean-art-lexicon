@@ -1,16 +1,20 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://korean-art-lexicon.org/schema/exhibition.schema.json",
-  "title": "Exhibition",
-  "description": "An exhibition entity in the Korean Art Lexicon",
+  "$id": "https://korean-art-lexicon.org/schema/publication.schema.json",
+  "title": "Publication",
+  "description": "A publication entity in the Korean Art Lexicon — exhibition catalogues, monographs, periodicals, anthologies",
   "type": "object",
-  "required": ["id", "title", "sources"],
+  "required": [
+    "id",
+    "title",
+    "sources"
+  ],
   "additionalProperties": false,
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^exhibition\\.[a-z0-9-]+$",
-      "description": "Unique identifier in format: exhibition.{slug}"
+      "pattern": "^publication\\.[a-z0-9-]+$",
+      "description": "Unique identifier in format: publication.{slug}"
     },
     "title": {
       "type": "object",
@@ -72,40 +76,6 @@
         }
       }
     },
-    "venue": {
-      "type": "string",
-      "description": "Exhibition venue"
-    },
-    "city": {
-      "type": "string",
-      "description": "City where the exhibition took place"
-    },
-    "country": {
-      "type": "string",
-      "description": "Country code (ISO 3166-1 alpha-2)"
-    },
-    "dates": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "start": {
-          "type": "string",
-          "format": "date",
-          "description": "Opening date (YYYY-MM-DD)"
-        },
-        "end": {
-          "type": "string",
-          "format": "date",
-          "description": "Closing date (YYYY-MM-DD)"
-        },
-        "year": {
-          "type": "integer",
-          "minimum": 1900,
-          "maximum": 2100,
-          "description": "Year only (when exact dates unknown)"
-        }
-      }
-    },
     "type": {
       "type": "object",
       "required": ["aat"],
@@ -114,22 +84,36 @@
         "aat": {
           "type": "string",
           "pattern": "^[0-9]+$",
-          "description": "Getty AAT Subject ID for the exhibition type"
+          "description": "Getty AAT Subject ID (e.g. 300026096 = exhibition catalogs)"
         }
       },
-      "description": "Exhibition type as Getty AAT ID"
+      "description": "Publication type as Getty AAT ID"
     },
-    "participants": {
+    "publisher": {
+      "type": "string",
+      "description": "Publisher name"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1800,
+      "maximum": 2100,
+      "description": "Year of publication"
+    },
+    "isbn": {
+      "type": "string",
+      "description": "ISBN identifier"
+    },
+    "issn": {
+      "type": "string",
+      "description": "ISSN identifier (for periodicals)"
+    },
+    "language": {
       "type": "array",
       "items": {
         "type": "string",
-        "pattern": "^person\\.[a-z0-9-]+$"
+        "description": "ISO 639-1 language code"
       },
-      "description": "References to person entities"
-    },
-    "organizer": {
-      "type": "string",
-      "description": "Organizing institution or curator"
+      "description": "Languages of the publication"
     },
     "related": {
       "type": "array",
@@ -137,7 +121,7 @@
         "type": "string",
         "pattern": "^(person|org|term|exhibition|publication)\\.[a-z0-9-]+$"
       },
-      "description": "Related entities"
+      "description": "Related entities (e.g. exhibition catalogue → exhibition, author → person)"
     },
     "external_ids": {
       "type": "object",
@@ -150,7 +134,11 @@
         },
         "aaa": {
           "type": "string",
-          "description": "Asia Art Archive event ID"
+          "description": "Asia Art Archive library record ID"
+        },
+        "worldcat": {
+          "type": "string",
+          "description": "WorldCat OCLC number"
         }
       },
       "description": "Links to external databases"
@@ -175,7 +163,7 @@
               },
               "name_used": {
                 "type": "string",
-                "description": "Name/title form used in this source"
+                "description": "Title form used in this source"
               },
               "note": {
                 "type": "string"
@@ -189,17 +177,22 @@
           }
         ]
       },
-      "description": "Verifiable sources for this entry"
+      "description": "Verifiable sources"
     },
     "status": {
       "type": "string",
-      "enum": ["submitted", "pending_review", "reviewed", "firsthand", "stable", "rejected"],
-      "default": "draft",
-      "description": "Entry status"
+      "enum": [
+        "submitted",
+        "pending_review",
+        "reviewed",
+        "firsthand",
+        "stable",
+        "rejected"
+      ],
+      "default": "draft"
     },
     "notes": {
-      "type": "string",
-      "description": "Internal notes (optional)"
+      "type": "string"
     }
   }
 }

@@ -4,14 +4,19 @@ term:
   en:
     preferred: Dansaekhwa
     type: transliteration
-    alternatives:
-    - form: Korean monochrome painting
-      type: semantic
-      source: Academic texts
-    - form: monochrome painting
-      type: semantic
   hanja: 單色畵
-category: movement
+  variants:
+  - form: Korean monochrome painting
+    lang: en
+    script: Latn
+    type: alternate
+    source: Academic texts
+  - form: monochrome painting
+    lang: en
+    script: Latn
+    type: alternate
+category:
+  aat: '300055769'
 definition:
   ko: 1970년대 한국에서 발전한 추상회화 경향. 단일 색조의 반복적 행위와 물성을 강조하며, 서구 미니멀리즘과 구별되는 한국적 미학을 추구했다.
   en: A Korean abstract painting movement that developed in the 1970s. Characterized

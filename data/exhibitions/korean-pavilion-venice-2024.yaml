@@ -10,7 +10,8 @@ country: IT
 dates:
   start: '2024-04-20'
   end: '2024-11-24'
-type: biennale
+type:
+  aat: '300266309'
 participants:
 - person.koo-jeonga
 organizer: Arts Council Korea

@@ -4,11 +4,12 @@ term:
   en:
     preferred: alternative space
     type: semantic
-    alternatives:
-    - form: alternative art space
-      type: semantic
   hanja: 代案空間
-category: phenomenon
+  variants:
+  - form: alternative art space
+    lang: en
+    script: Latn
+    type: alternate
 definition:
   ko: 상업 갤러리나 공공 미술관과 구별되는 비영리 전시 공간. 한국에서는 1990년대 후반부터 등장.
   en: Non-profit exhibition spaces distinct from commercial galleries or public museums.

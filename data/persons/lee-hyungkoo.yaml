@@ -21,4 +21,8 @@ sources:
 - url: https://www.doosanartcenter.com/ko/exhibit/artist/134
   name_used: 이형구
   note: 두산아트센터 작가 프로필
+- url: https://hyungkoolee.kr/
+  name_used: Hyungkoo Lee
+  note: Artist official website
+  accessed: '2026-03-30'
 status: reviewed

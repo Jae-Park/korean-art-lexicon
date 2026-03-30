@@ -3,7 +3,8 @@ name:
   ko: 국립현대미술관
   en: National Museum of Modern and Contemporary Art, Korea
   hanja: 國立現代美術館
-type: museum
+type:
+  aat: '300312281'
 location:
   city: Seoul
   country: KR

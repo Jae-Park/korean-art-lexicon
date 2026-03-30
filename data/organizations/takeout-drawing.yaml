@@ -2,7 +2,8 @@ id: org.takeout-drawing
 name:
   ko: 테이크아웃드로잉
   en: Takeout Drawing
-type: artist-run-space
+type:
+  aat: '300192556'
 location:
   city: Seoul
   country: KR
@@ -11,13 +12,13 @@ period:
   end: 2015
   active: false
 related:
-  - term.sinseang-gonggan
+- term.sinseang-gonggan
 sources:
-  - url: https://www.newstapa.org/article/P3RBm
-    name_used: 테이크아웃드로잉
-    note: "뉴스타파 폐점 기사"
-  - url: https://magazine.sfac.or.kr/html/view.asp?PubDate=201510&CateMasterCd=300&CateSubCd=720
-    name_used: 테이크아웃드로잉
-    note: "문화+서울 매거진"
+- url: https://www.newstapa.org/article/P3RBm
+  name_used: 테이크아웃드로잉
+  note: 뉴스타파 폐점 기사
+- url: https://magazine.sfac.or.kr/html/view.asp?PubDate=201510&CateMasterCd=300&CateSubCd=720
+  name_used: 테이크아웃드로잉
+  note: 문화+서울 매거진
 status: pending_review
-notes: "Representative sinseang gonggan, founded by artists"
+notes: Representative sinseang gonggan, founded by artists

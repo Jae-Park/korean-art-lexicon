@@ -7,7 +7,6 @@
   "required": [
     "id",
     "name",
-    "type",
     "sources"
   ],
   "additionalProperties": false,
@@ -37,24 +36,60 @@
         "hanja": {
           "type": "string",
           "description": "Hanja (Chinese characters)"
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["form", "lang"],
+            "additionalProperties": false,
+            "properties": {
+              "form": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The name variant string"
+              },
+              "lang": {
+                "type": "string",
+                "description": "ISO 639-1 language code"
+              },
+              "script": {
+                "type": "string",
+                "enum": ["Hang", "Hani", "Kore", "Latn", "Jpan", "Hans", "Hant"],
+                "description": "ISO 15924 script code"
+              },
+              "type": {
+                "type": "string",
+                "enum": ["preferred", "alternate", "abbreviation", "former", "transliteration"],
+                "description": "Variant type"
+              },
+              "source": {
+                "type": "string",
+                "description": "Institution or publication where this variant is used"
+              },
+              "accessed": {
+                "type": "string",
+                "format": "date",
+                "description": "Date the source was last accessed (YYYY-MM-DD)"
+              }
+            }
+          },
+          "description": "Name variants with language, script, and provenance"
         }
       }
     },
     "type": {
-      "type": "string",
-      "enum": [
-        "museum",
-        "gallery",
-        "artist-run-space",
-        "alternative-space",
-        "art-group",
-        "association",
-        "foundation",
-        "school",
-        "biennale",
-        "other"
-      ],
-      "description": "Organization type"
+      "type": "object",
+      "required": ["aat"],
+      "additionalProperties": false,
+      "properties": {
+        "aat": {
+          "type": "string",
+          "pattern": "^[0-9]+$",
+          "description": "Getty AAT Subject ID for the organization type"
+        }
+      },
+      "description": "Organization type as Getty AAT ID"
     },
     "location": {
       "type": "object",
@@ -91,9 +126,33 @@
       "type": "array",
       "items": {
         "type": "string",
-        "pattern": "^(person|org|term|exhibition)\\.[a-z0-9-]+$"
+        "pattern": "^(person|org|term|exhibition|publication)\\.[a-z0-9-]+$"
       },
       "description": "Related entities"
+    },
+    "external_ids": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ulan": {
+          "type": "string",
+          "description": "Getty ULAN Subject ID (for corporate bodies)"
+        },
+        "wikidata": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$",
+          "description": "Wikidata Q-item ID"
+        },
+        "viaf": {
+          "type": "string",
+          "description": "VIAF cluster ID"
+        },
+        "aaa": {
+          "type": "string",
+          "description": "Asia Art Archive actor ID"
+        }
+      },
+      "description": "Links to external databases"
     },
     "sources": {
       "type": "array",
@@ -121,6 +180,11 @@
               },
               "note": {
                 "type": "string"
+              },
+              "accessed": {
+                "type": "string",
+                "format": "date",
+                "description": "Date the source was last accessed (YYYY-MM-DD)"
               }
             }
           }

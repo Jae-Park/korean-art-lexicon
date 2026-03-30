@@ -12,4 +12,8 @@ sources:
 - url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
   name_used: Sung Nakhee
   note: AAA — Venice 2005 Korean Pavilion catalogue
+- url: https://nakheesung.com/
+  name_used: NAKHEE SUNG
+  note: Artist official website
+  accessed: '2026-03-30'
 status: pending_review

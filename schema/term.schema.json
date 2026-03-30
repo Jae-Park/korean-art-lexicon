@@ -49,57 +49,71 @@
                 "loan"
               ],
               "description": "Translation type: transliteration (음역), literal (직역), semantic (의미역), loan (외래어)"
-            },
-            "alternatives": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "required": [
-                  "form"
-                ],
-                "additionalProperties": false,
-                "properties": {
-                  "form": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "type": {
-                    "type": "string",
-                    "enum": [
-                      "transliteration",
-                      "literal",
-                      "semantic",
-                      "loan"
-                    ]
-                  },
-                  "source": {
-                    "type": "string",
-                    "description": "Where this form is used"
-                  }
-                }
-              }
             }
           }
         },
         "hanja": {
           "type": "string",
           "description": "Hanja (Chinese characters)"
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["form", "lang"],
+            "additionalProperties": false,
+            "properties": {
+              "form": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The term variant string"
+              },
+              "lang": {
+                "type": "string",
+                "description": "ISO 639-1 language code"
+              },
+              "script": {
+                "type": "string",
+                "enum": ["Hang", "Hani", "Kore", "Latn", "Jpan", "Hans", "Hant"],
+                "description": "ISO 15924 script code"
+              },
+              "type": {
+                "type": "string",
+                "enum": ["preferred", "alternate", "abbreviation", "former", "transliteration"],
+                "description": "Variant type"
+              },
+              "romanization": {
+                "type": "string",
+                "enum": ["revised", "mcr", "yale", "artist", "conventional"],
+                "description": "Romanization system (only when script=Latn)"
+              },
+              "source": {
+                "type": "string",
+                "description": "Institution or publication where this variant is used"
+              },
+              "accessed": {
+                "type": "string",
+                "format": "date",
+                "description": "Date the source was last accessed (YYYY-MM-DD)"
+              }
+            }
+          },
+          "description": "Term variants with language, script, and provenance"
         }
       }
     },
     "category": {
-      "type": "string",
-      "enum": [
-        "movement",
-        "style",
-        "technique",
-        "material",
-        "genre",
-        "concept",
-        "phenomenon",
-        "other"
-      ],
-      "description": "Term category"
+      "type": "object",
+      "required": ["aat"],
+      "additionalProperties": false,
+      "properties": {
+        "aat": {
+          "type": "string",
+          "pattern": "^[0-9]+$",
+          "description": "Getty AAT Subject ID for the term category"
+        }
+      },
+      "description": "Term category as Getty AAT ID"
     },
     "definition": {
       "type": "object",
@@ -133,9 +147,25 @@
       "type": "array",
       "items": {
         "type": "string",
-        "pattern": "^(person|org|term|exhibition)\\.[a-z0-9-]+$"
+        "pattern": "^(person|org|term|exhibition|publication)\\.[a-z0-9-]+$"
       },
       "description": "Related entities"
+    },
+    "external_ids": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "aat": {
+          "type": "string",
+          "description": "Getty AAT Subject ID (if the term itself is in AAT)"
+        },
+        "wikidata": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$",
+          "description": "Wikidata Q-item ID"
+        }
+      },
+      "description": "Links to external databases"
     },
     "sources": {
       "type": "array",
@@ -163,6 +193,11 @@
               },
               "note": {
                 "type": "string"
+              },
+              "accessed": {
+                "type": "string",
+                "format": "date",
+                "description": "Date the source was last accessed (YYYY-MM-DD)"
               }
             }
           }

@@ -15,4 +15,8 @@ sources:
 - url: https://www.arko.or.kr/biennale/content/643
   name_used: 윤형근
   note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.yunhyongkeun.org/
+  name_used: Yun Hyong-keun
+  note: Yun Hyong-keun estate/archive website
+  accessed: '2026-03-30'
 status: reviewed

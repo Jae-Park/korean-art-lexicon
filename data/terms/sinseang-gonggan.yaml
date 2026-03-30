@@ -4,13 +4,16 @@ term:
   en:
     preferred: sinseang gonggan
     type: transliteration
-    alternatives:
-    - form: emerging space
-      type: semantic
-    - form: newborn space
-      type: literal
   hanja: 新生空間
-category: phenomenon
+  variants:
+  - form: emerging space
+    lang: en
+    script: Latn
+    type: alternate
+  - form: newborn space
+    lang: en
+    script: Latn
+    type: alternate
 definition:
   ko: 2000년대 후반부터 2010년대 초반 한국에서 등장한 작가 주도형 소규모 대안공간. 기존 제도권 미술계에 대한 대안으로 작가들이 직접
     운영하며, 실험적인 전시와 프로젝트를 진행했다.

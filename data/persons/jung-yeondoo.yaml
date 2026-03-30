@@ -18,6 +18,10 @@ sources:
 - url: https://www.perrotin.com/artists/Yeondoo_Jung/1
   name_used: Yeondoo Jung
   note: Perrotin artist page (archive)
+- url: https://jungyeondoo.com/
+  name_used: Yeondoo Jung
+  note: Artist official website
+  accessed: '2026-03-30'
 status: reviewed
 notes: Uses given-family order (Yeondoo Jung) as preferred form
 external_ids:

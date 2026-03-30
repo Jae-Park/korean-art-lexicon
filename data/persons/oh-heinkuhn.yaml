@@ -18,4 +18,8 @@ sources:
 - url: https://www.kmib.co.kr/article/view.asp?arcid=0924280605
   name_used: 오형근
   note: 국민일보 인터뷰
+- url: https://heinkuhnoh.com/
+  name_used: HEINKUHN OH
+  note: Artist official website
+  accessed: '2026-03-30'
 status: reviewed

@@ -28,6 +28,10 @@ sources:
 - url: https://www.perrotin.com/artists/Seo-Bo_Park/203
   name_used: Park Seo-Bo
   note: Perrotin represented artist (estate)
+- url: https://parkseobofoundation.org/
+  name_used: Park Seo-Bo
+  note: Park Seo-Bo Foundation official website
+  accessed: '2026-03-30'
 status: reviewed
 external_ids:
   ulan: '500323715'

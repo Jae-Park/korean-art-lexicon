@@ -10,13 +10,68 @@
 ### sources 필드 규칙
 - 모든 YAML 파일에 `sources` 필드 필수
 - 루트 URL 금지 (예: `https://www.mmca.go.kr` ✗)
+  - **예외**: 작가/기관 공식 웹사이트는 루트 URL 허용 (note에 "official website", "studio website", "foundation official", "estate" 등 명시)
 - 전시 상세 페이지, 작가 프로필 등 구체적 URL만 허용 (예: `https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=...` ✓)
 - **URL도 날조 금지**: "이 갤러리에 이 작가 페이지가 있을 것 같다"로 URL을 추정해서 작성하지 않는다. 반드시 검색으로 실제 URL을 확인한 후 기록한다.
 - URL 없이 데이터를 작성할 경우 `status: unverified` 표시 필수
+- **`accessed` 필드**: 출처 접속일을 `YYYY-MM-DD` (ISO 8601) 형식으로 기록. 새로 추가/검증하는 출처부터 기입한다.
 
 ### 검증 기준
 - 제목(한/영), 날짜, 참여 작가 등 핵심 필드는 반드시 출처 페이지와 1:1 대조
 - "그럴듯한" 정보를 추정하여 채우지 않는다 — 확인 불가 시 필드를 비워둔다
+
+### 엔트리 조사 체크리스트
+새 엔트리를 작성하거나 기존 엔트리를 보강할 때 아래 항목을 모두 확인한다:
+1. **기관 출처** — MMCA, 갤러리 대표 페이지 등 (상세 URL)
+2. **언론 출처** — e-flux, ArtReview, Artforum 등 기사/공지
+3. **작가/기관 공식 웹사이트** — 루트 URL 허용, note에 "official website" 명시
+4. **한국어 출처** — ARKO, 국내 언론 (한글 이름 검증용)
+5. **`accessed` 날짜** — 각 출처별 접속일 기록 (`YYYY-MM-DD`)
+
+---
+
+## 엔티티 스키마 (5 types)
+
+| 엔티티 | ID 패턴 | 이름/제목 필드 | 타입/분류 필드 |
+|--------|---------|-------------|-------------|
+| person | `person.{slug}` | `name.ko`, `name.latn` | `role[].aat` (역할) |
+| exhibition | `exhibition.{slug}` | `title.ko`, `title.en` | `type.aat` (전시 유형) |
+| organization | `org.{slug}` | `name.ko`, `name.en` | `type.aat` (기관 유형) |
+| term | `term.{slug}` | `term.ko`, `term.en` | `category.aat` (용어 분류) |
+| publication | `publication.{slug}` | `title.ko`, `title.en` | `type.aat` (출판물 유형) |
+
+### 타입 분류: Getty AAT ID 기반
+커스텀 enum 대신 Getty AAT Subject ID를 사용한다. 새 타입 추가 시 반드시 AAT 페이지에서 ID를 직접 검증한다.
+
+**현재 사용 중인 AAT ID:**
+- 전시: `300266309` (biennials), `300449166` (group exhibitions), `300449167` (solo exhibitions)
+- 기관: `300312281` (museums), `300192556` (alternative spaces)
+- 용어: `300055769` (cultural movements and attitudes)
+- 출판물: `300026096` (exhibition catalogs), `300060417` (monographs), `300026657` (periodicals)
+- 역할: `300025103` (artists), `300025633` (curators), `300025519` (critics)
+
+### name.variants / title.variants
+모든 엔티티에 공통 구조:
+```yaml
+variants:
+- form: "이름/제목 변형"
+  lang: "ko"           # ISO 639-1
+  script: "Hang"       # ISO 15924 (Hang|Hani|Kore|Latn|Jpan|Hans|Hant)
+  type: "preferred"    # preferred|alternate|abbreviation|former|transliteration
+  source: "출처 기관/출판물"
+  accessed: "2026-03-30"
+```
+person만 추가 필드: `romanization` (revised|mcr|yale|artist|conventional), `display_order` (given-family|family-given)
+
+### external_ids
+외부 권위 파일 연결 (선택, 검증된 경우만 추가):
+- `ulan`: Getty ULAN Subject ID (person, org)
+- `wikidata`: Wikidata Q-item ID (all)
+- `viaf`: VIAF cluster ID (person, org)
+- `isni`: ISNI (person)
+- `aaa`: Asia Art Archive actor/event ID (all)
+- `worldcat`: WorldCat OCLC number (publication)
+- `aat`: Getty AAT Subject ID (term — 용어 자체가 AAT에 있는 경우)
 
 ---
 
@@ -88,9 +143,12 @@ submitted → [자동 검증] → pending_review (staging/)
 | `submitted` | 입력됨, 미검증 | 입력 큐 |
 | `failed` | 자동 검증 실패 | 반려 |
 | `pending_review` | 자동 검증 통과, 인간 리뷰 대기 | staging/ |
+| `reviewed` | 인간 리뷰 통과, 공개 가능 | data/ |
 | `firsthand` | 1차 출처 (본인) 확인됨 | staging/ → data/ |
 | `stable` | 최종 검증 완료 | data/ |
 | `rejected` | 인간 리뷰에서 거부 | 반려 |
+
+> **공개 기준**: `pending_review` 엔트리는 웹 프론트엔드에서 필터링되어 비공개. `reviewed` 이상만 공개.
 
 ---
 
@@ -136,6 +194,7 @@ korean-art-lexicon/
 │   ├── exhibitions/
 │   ├── persons/
 │   ├── organizations/
-│   └── terms/
+│   ├── terms/
+│   └── publications/
 └── site/                         # 프론트엔드 (lexicon 웹)
 ```

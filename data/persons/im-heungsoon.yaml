@@ -15,6 +15,10 @@ sources:
 - url: https://www.moma.org/calendar/exhibitions/3695
   name_used: IM Heung-soon
   note: MoMA PS1 exhibition (2015)
+- url: http://imheungsoon.com/
+  name_used: IM Heung-soon
+  note: Artist official website
+  accessed: '2026-03-30'
 status: reviewed
 external_ids:
   wikidata: Q19896697

@@ -18,4 +18,8 @@ sources:
 - url: https://www.theartro.kr/kor/features/features_view.asp?idx=2359&b_code=31e
   name_used: 제인 진 카이젠
   note: 아르트로 인터뷰 — 2019 베니스
+- url: https://janejinkaisen.com/
+  name_used: Jane Jin Kaisen
+  note: Artist official website
+  accessed: '2026-03-30'
 status: reviewed
