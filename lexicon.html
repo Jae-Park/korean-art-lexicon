@@ -742,46 +742,29 @@
       return `<span class="detail-tag ${cssClass}">${esc(label)} <span class="aat-code"><a href="${url}" target="_blank" rel="noopener">AAT:${esc(obj.aat)}</a></span></span>`;
     }
 
-    // 엔티티별 해당 authority ID 필드
-    const ENTITY_AUTH_FIELDS = {
-      'person.':      ['ulan', 'viaf', 'wikidata', 'isni'],
-      'exhibition.':  ['wikidata', 'aaa'],
-      'org.':         ['ulan', 'viaf', 'wikidata'],
-      'term.':        ['aat', 'wikidata'],
-      'publication.': ['worldcat', 'wikidata', 'aaa'],
-    };
+    // 모든 엔티티 공통 authority 필드 4개
+    const AUTH_FIELDS = ['ulan', 'wikidata', 'viaf', 'aaa'];
 
     const AUTH_FIELD_CONFIG = {
-      ulan:     { label: 'Getty ULAN', url: id => 'http://vocab.getty.edu/page/ulan/' + id },
-      viaf:     { label: 'VIAF',       url: id => 'https://viaf.org/viaf/' + id },
-      wikidata: { label: 'Wikidata',   url: id => 'https://www.wikidata.org/wiki/' + id },
-      isni:     { label: 'ISNI',       url: id => 'https://isni.org/isni/' + id.replace(/\s/g, '') },
-      aaa:      { label: 'AAA',        url: null },
-      worldcat: { label: 'WorldCat',   url: id => 'https://www.worldcat.org/oclc/' + id },
-      aat:      { label: 'Getty AAT',  url: id => 'http://vocab.getty.edu/page/aat/' + id },
+      ulan:     { label: 'Getty ULAN', home: 'https://www.getty.edu/research/tools/vocabularies/ulan/', url: id => 'http://vocab.getty.edu/page/ulan/' + id },
+      wikidata: { label: 'Wikidata',   home: 'https://www.wikidata.org/',                              url: id => 'https://www.wikidata.org/wiki/' + id },
+      viaf:     { label: 'VIAF',       home: 'https://viaf.org/',                                      url: id => 'https://viaf.org/viaf/' + id },
+      aaa:      { label: 'AAA',        home: 'https://aaa.org.hk/',                                    url: id => 'https://aaa.org.hk/en/collections/search/archive/' + id },
     };
 
     function renderExternalIds(entry) {
-      // 엔티티 타입에 해당하는 필드 목록 결정
-      let fields = null;
-      for (const [prefix, f] of Object.entries(ENTITY_AUTH_FIELDS)) {
-        if (entry.id.startsWith(prefix)) { fields = f; break; }
-      }
-      if (!fields) return '';
-
       const ids = entry.external_ids || {};
-      const rows = fields.map(key => {
+      const rows = AUTH_FIELDS.map(key => {
         const cfg = AUTH_FIELD_CONFIG[key];
         const val = ids[key];
+        const labelHtml = `<a href="${cfg.home}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;border-bottom:1px dotted #aaa">${cfg.label}</a>`;
         let valueHtml;
         if (val) {
-          valueHtml = cfg.url
-            ? `<a href="${cfg.url(val)}" target="_blank" rel="noopener">${esc(val)}</a>`
-            : esc(val);
+          valueHtml = `<a href="${cfg.url(val)}" target="_blank" rel="noopener">${esc(val)}</a>`;
         } else {
-          valueHtml = '<span style="color:#ccc">—</span>';
+          valueHtml = '<span style="color:#ccc">n/a</span>';
         }
-        return `<div class="ext-id-row"><span class="ext-id-label">${cfg.label}</span><span class="ext-id-value">${valueHtml}</span></div>`;
+        return `<div class="ext-id-row"><span class="ext-id-label">${labelHtml}</span><span class="ext-id-value">${valueHtml}</span></div>`;
       });
 
       return `<div class="detail-section"><h3>Authority IDs</h3>${rows.join('')}</div>`;
