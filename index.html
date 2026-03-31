@@ -72,17 +72,18 @@
     .about-link {
       font-size: 0.8125rem;
       font-weight: 500;
-      color: #555;
+      color: #1a1a1a;
       text-decoration: none;
-      padding: 4px 12px;
+      padding: 6px 16px;
       border-radius: 8px;
-      background: rgba(255,255,255,0.4);
-      transition: background 0.15s;
+      background: rgba(255,255,255,0.7);
+      border: 1px solid rgba(0,0,0,0.1);
+      transition: all 0.15s;
     }
 
     .about-link:hover {
-      background: rgba(255,255,255,0.7);
-      color: #1a1a1a;
+      background: rgba(255,255,255,0.95);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
 
     /* Layout */
@@ -509,6 +510,7 @@
     <h1>Korean Art Lexicon</h1>
     <div class="header-right">
       <span class="count-badge" id="totalCount"></span>
+      <a href="standards.html" class="about-link">Standards</a>
       <a href="about.html" class="about-link">About</a>
     </div>
   </header>

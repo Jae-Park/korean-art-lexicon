@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Korean Art Lexicon · Technical Standards</title>
+  <meta name="description" content="Technical standards and interoperability of the Korean Art Lexicon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'IBM Plex Sans', 'IBM Plex Sans KR', sans-serif;
+      line-height: 1.7;
+      color: #1a1a1a;
+      min-height: 100vh;
+      background: linear-gradient(-45deg, #ff9a9e, #fecfef, #a18cd1, #fbc2eb, #a6c1ee, #c2e9fb);
+      background-size: 400% 400%;
+      animation: gradientMove 20s ease infinite;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 32px 40px 24px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      z-index: 100;
+    }
+
+    header .inner {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+      margin-bottom: 0;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 8px;
+    }
+
+    .nav-btn {
+      display: inline-block;
+      padding: 8px 20px;
+      background: #1a1a1a;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+
+    .nav-btn:hover { background: #333; }
+
+    .nav-btn.outline {
+      background: #fff;
+      color: #1a1a1a;
+      border: 1px solid #1a1a1a;
+    }
+
+    .nav-btn.outline:hover { background: #f5f5f5; }
+
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 120px 40px 80px;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(10px);
+      min-height: 100vh;
+    }
+
+    .page-title {
+      margin-bottom: 48px;
+    }
+
+    .page-title h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .page-title p {
+      color: #666;
+      font-size: 1rem;
+    }
+
+    .section {
+      margin-bottom: 48px;
+    }
+
+    .section h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #1a1a1a;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+
+    .section p {
+      color: #333;
+      margin-bottom: 12px;
+    }
+
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .section li {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      color: #333;
+    }
+
+    .section li:last-child { border-bottom: none; }
+    .section li strong { color: #1a1a1a; }
+
+    .section li a {
+      color: #2b6cb0;
+      text-decoration: none;
+    }
+
+    .section li a:hover { text-decoration: underline; }
+
+    code {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.85em;
+      background: rgba(0, 0, 0, 0.05);
+      padding: 1px 6px;
+      border-radius: 3px;
+    }
+
+    .entity-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      margin-bottom: 12px;
+    }
+
+    .entity-table th,
+    .entity-table td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .entity-table th {
+      font-weight: 600;
+      color: #666;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .entity-table td { color: #333; }
+
+    .diagram {
+      background: rgba(0, 0, 0, 0.03);
+      border-radius: 8px;
+      padding: 20px 24px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.8rem;
+      line-height: 1.8;
+      color: #555;
+      overflow-x: auto;
+      margin-bottom: 12px;
+    }
+
+    footer {
+      margin-top: 80px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      font-size: 0.875rem;
+      color: #999;
+    }
+
+    footer a { color: #666; }
+
+    @media (max-width: 768px) {
+      header { padding: 20px 20px 16px; }
+      .container { padding: 100px 20px 48px; }
+      .section h3, .section li { grid-template-columns: 1fr; gap: 8px; }
+      .header-top { flex-direction: column; align-items: flex-start; gap: 12px; }
+      .entity-table { font-size: 0.75rem; }
+      .entity-table th, .entity-table td { padding: 8px 6px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <div class="header-top">
+        <h1>Technical Standards</h1>
+        <div class="nav-links">
+          <a href="index.html" class="nav-btn">← Lexicon</a>
+          <a href="about.html" class="nav-btn outline">About</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="page-title">
+      <h2>Standards &amp; Interoperability · 표준과 상호운용성</h2>
+      <p>Korean Art Lexicon is built on international standards to ensure interoperability with global art information systems.</p>
+      <p>Korean Art Lexicon은 국제 표준을 기반으로 구축되어 글로벌 미술 정보 시스템과의 상호운용성을 보장합니다.</p>
+    </div>
+
+    <!-- Authority Files -->
+    <div class="section">
+      <h3>
+        <span>Authority Files</span>
+        <span>권위 파일</span>
+      </h3>
+      <ul>
+        <li>
+          <span><strong><a href="https://www.getty.edu/research/tools/vocabularies/aat/" target="_blank" rel="noopener">Getty AAT</a></strong> — Art &amp; Architecture Thesaurus. Used for classifying entity types (exhibition, organization, term, publication) and roles (artist, curator, critic).</span>
+          <span>미술·건축 시소러스. 전시 유형, 기관 유형, 용어 분류, 역할 등 모든 타입/분류 체계의 기준으로 사용합니다.</span>
+        </li>
+        <li>
+          <span><strong><a href="https://www.getty.edu/research/tools/vocabularies/ulan/" target="_blank" rel="noopener">Getty ULAN</a></strong> — Union List of Artist Names. Links persons and organizations to the Getty's artist authority records.</span>
+          <span>통합 작가명 목록. 인물과 기관을 Getty의 작가 전거 레코드에 연결합니다.</span>
+        </li>
+        <li>
+          <span><strong><a href="https://viaf.org/" target="_blank" rel="noopener">VIAF</a></strong> — Virtual International Authority File. Clusters authority records from national libraries worldwide, including Korea's National Library (KRNLK).</span>
+          <span>가상 국제 전거 파일. 한국국립중앙도서관(KRNLK)을 포함한 전 세계 국립도서관의 전거 레코드를 연결합니다.</span>
+        </li>
+        <li>
+          <span><strong><a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a></strong> — Open knowledge base. Q-item IDs connect lexicon entries to the broader linked data ecosystem.</span>
+          <span>개방형 지식 베이스. Q-item ID로 렉시콘 항목을 광범위한 링크드 데이터 생태계에 연결합니다.</span>
+        </li>
+        <li>
+          <span><strong><a href="https://aaa.org.hk/" target="_blank" rel="noopener">AAA</a></strong> — Asia Art Archive. Connects to the primary archive for contemporary Asian art documentation.</span>
+          <span>아시아 아트 아카이브. 아시아 현대미술 기록의 핵심 아카이브와 연결합니다.</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ISO Standards -->
+    <div class="section">
+      <h3>
+        <span>ISO Standards</span>
+        <span>ISO 표준</span>
+      </h3>
+      <ul>
+        <li>
+          <span><strong>ISO 639-1</strong> — Language codes: <code>ko</code> <code>en</code> <code>ja</code> <code>zh</code></span>
+          <span>언어 코드</span>
+        </li>
+        <li>
+          <span><strong>ISO 15924</strong> — Script codes: <code>Hang</code> (한글) <code>Hani</code> (한자) <code>Kore</code> (한국어 혼용) <code>Latn</code> (로마자) <code>Jpan</code> (일본어)</span>
+          <span>문자 코드</span>
+        </li>
+        <li>
+          <span><strong>ISO 3166-1</strong> — Country codes: <code>KR</code> <code>US</code> <code>JP</code> etc.</span>
+          <span>국가 코드</span>
+        </li>
+        <li>
+          <span><strong>ISO 8601</strong> — Date format: <code>YYYY-MM-DD</code></span>
+          <span>날짜 형식</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Data Structure -->
+    <div class="section">
+      <h3>
+        <span>Data Structure</span>
+        <span>데이터 구조</span>
+      </h3>
+      <table class="entity-table">
+        <thead>
+          <tr>
+            <th>Entity</th>
+            <th>ID Pattern</th>
+            <th>Name Field</th>
+            <th>Classification</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Person 인물</td>
+            <td><code>person.{slug}</code></td>
+            <td><code>name.ko</code> <code>name.latn</code></td>
+            <td><code>role[].aat</code></td>
+          </tr>
+          <tr>
+            <td>Exhibition 전시</td>
+            <td><code>exhibition.{slug}</code></td>
+            <td><code>title.ko</code> <code>title.en</code></td>
+            <td><code>type.aat</code></td>
+          </tr>
+          <tr>
+            <td>Organization 기관</td>
+            <td><code>org.{slug}</code></td>
+            <td><code>name.ko</code> <code>name.en</code></td>
+            <td><code>type.aat</code></td>
+          </tr>
+          <tr>
+            <td>Term 용어</td>
+            <td><code>term.{slug}</code></td>
+            <td><code>term.ko</code> <code>term.en</code></td>
+            <td><code>category.aat</code></td>
+          </tr>
+          <tr>
+            <td>Publication 출판물</td>
+            <td><code>publication.{slug}</code></td>
+            <td><code>title.ko</code> <code>title.en</code></td>
+            <td><code>type.aat</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Name Variants -->
+    <div class="section">
+      <h3>
+        <span>Name Variant Recording</span>
+        <span>이름 변형 기록</span>
+      </h3>
+      <p>Each entity records name/title variants with structured metadata, documenting how names actually appear across different sources and contexts.</p>
+      <p>각 항목은 이름/제목 변형을 구조화된 메타데이터와 함께 기록하여, 다양한 출처와 맥락에서 이름이 실제로 어떻게 나타나는지를 문서화합니다.</p>
+      <div class="diagram">
+        variants:<br>
+        &nbsp;&nbsp;- form: "Lee U-Fan"<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;lang: en &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# ISO 639-1<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;script: Latn &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# ISO 15924<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;type: alternate<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;source: "Tate"<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;accessed: 2026-03-30
+      </div>
+    </div>
+
+    <!-- Interoperability -->
+    <div class="section">
+      <h3>
+        <span>Interoperability</span>
+        <span>상호운용성</span>
+      </h3>
+      <ul>
+        <li>
+          <span>Each entry can link to up to 4 authority files: <strong>Getty ULAN</strong>, <strong>VIAF</strong>, <strong>Wikidata</strong>, and <strong>AAA</strong></span>
+          <span>각 항목은 최대 4개의 권위 파일에 연결됩니다: Getty ULAN, VIAF, Wikidata, AAA</span>
+        </li>
+        <li>
+          <span>Getty AAT IDs enable semantic interoperability — any system using AAT can interpret our type classifications</span>
+          <span>Getty AAT ID를 통해 의미론적 상호운용이 가능합니다 — AAT를 사용하는 모든 시스템이 우리의 분류를 해석할 수 있습니다</span>
+        </li>
+        <li>
+          <span>VIAF links connect to 50+ national library systems, enabling discovery through WorldCat and library OPACs</span>
+          <span>VIAF 연결을 통해 50개 이상의 국립도서관 시스템과 연결되며, WorldCat 및 도서관 OPAC에서의 탐색이 가능합니다</span>
+        </li>
+        <li>
+          <span>Wikidata Q-IDs bridge to Wikipedia, Google Knowledge Graph, and thousands of other linked data consumers</span>
+          <span>Wikidata Q-ID를 통해 위키피디아, Google Knowledge Graph 및 수천 개의 링크드 데이터 소비자에 연결됩니다</span>
+        </li>
+        <li>
+          <span>The full dataset will be published as a <strong>public Git repository</strong> with structured YAML files and a JSON API endpoint</span>
+          <span>전체 데이터셋은 구조화된 YAML 파일과 JSON API 엔드포인트를 갖춘 <strong>공개 Git 리포지토리</strong>로 공개될 예정입니다</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Technology Stack -->
+    <div class="section">
+      <h3>
+        <span>Technology</span>
+        <span>기술 스택</span>
+      </h3>
+      <ul>
+        <li>
+          <span><strong>Data format</strong> — YAML (human-readable, Git-friendly)</span>
+          <span>데이터 형식 — YAML (사람이 읽을 수 있고, Git 친화적)</span>
+        </li>
+        <li>
+          <span><strong>Validation</strong> — JSON Schema + automated URL verification pipeline</span>
+          <span>검증 — JSON 스키마 + 자동 URL 검증 파이프라인</span>
+        </li>
+        <li>
+          <span><strong>Build</strong> — YAML → JSON (static build, no server required)</span>
+          <span>빌드 — YAML → JSON (정적 빌드, 서버 불필요)</span>
+        </li>
+        <li>
+          <span><strong>Frontend</strong> — Vanilla HTML/CSS/JS (no framework dependencies)</span>
+          <span>프론트엔드 — 순수 HTML/CSS/JS (프레임워크 의존성 없음)</span>
+        </li>
+        <li>
+          <span><strong>Hosting</strong> — GitHub Pages (static, free, version-controlled)</span>
+          <span>호스팅 — GitHub Pages (정적, 무료, 버전 관리)</span>
+        </li>
+        <li>
+          <span><strong>License</strong> — Data: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a> · Code: MIT</span>
+          <span>라이선스 — 데이터: CC-BY-4.0 · 코드: MIT</span>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <p><a href="index.html">← Browse the Lexicon</a> · <a href="about.html">About</a></p>
+    </footer>
+  </div>
+</body>
+</html>
