@@ -285,26 +285,38 @@
   </header>
 
   <div class="container">
+
+    <!-- 1. Seoul Reading Room -->
+    <div class="about" style="margin-bottom:64px">
+      <h3>Seoul Reading Room</h3>
+      <div class="about-grid">
+        <p>
+          <strong>Korean Art Lexicon</strong> is designed and developed by <strong>Jaeyong Park</strong>—translator, writer, and curator—as
+          an initiative of <strong>Seoul Reading Room</strong>.
+          This project aims to serve the Korean art translation community as a public resource.
+        </p>
+        <p>
+          <strong>Korean Art Lexicon</strong>은 통번역가, 필자, 큐레이터 <strong>박재용</strong>이 기획·개발하고,
+          <strong>서울리딩룸</strong>의 이니셔티브로 운영됩니다.
+          한국미술 번역 커뮤니티를 위한 공공 자원을 목표로 합니다.
+        </p>
+      </div>
+      <p class="status">Currently in prototype development. · 현재 프로토타입 개발 중입니다.</p>
+    </div>
+
+    <!-- 2. Why -->
     <div class="manifesto">
       <div class="row header">
-        <h2>Why We Need It</h2>
+        <h2>Why</h2>
         <h2>왜 필요한가</h2>
       </div>
       <div class="row">
-        <p>Korean art names lack a shared standard. The same artist appears as three different people across databases. Exhibition titles change between press release and catalogue. There is no reliable reference.</p>
-        <p>한국미술의 이름에는 공유된 기준이 없습니다. 같은 작가가 데이터베이스마다 다른 사람으로 등장합니다. 전시 제목은 보도자료와 도록 사이에서 달라집니다. 신뢰할 수 있는 기준점이 없습니다.</p>
-      </div>
-      <div class="row">
-        <p><strong>This is not a dictionary.</strong> It is an infrastructure for naming Korean contemporary art reliably across languages.</p>
-        <p><strong>이것은 사전이 아닙니다.</strong> 한국 현대미술의 이름을 언어 간에 일관되게 사용하기 위한 인프라입니다.</p>
+        <p>Korean art names lack a shared standard. The same artist appears as three different people across databases. Exhibition titles change between press release and catalogue.</p>
+        <p>한국미술의 이름에는 공유된 기준이 없습니다. 같은 작가가 데이터베이스마다 다른 사람으로 등장하고, 전시 제목은 보도자료와 도록 사이에서 달라집니다.</p>
       </div>
       <div class="row">
         <p>We document <strong>how names are actually used</strong>—not how they should be used. Every entry traces its source. Every variation is recorded with evidence.</p>
-        <p>우리는 이름이 <strong>어떻게 사용되어야 하는지</strong>가 아니라, <strong>실제로 어떻게 사용되고 있는지</strong>를 기록합니다. 모든 항목은 출처를 추적하고, 모든 표기 변형은 근거와 함께 기록됩니다.</p>
-      </div>
-      <div class="row">
-        <p>김수자 becomes Kimsooja, Kim Sooja, or Kim Soo-ja depending on who you ask. We don't pick winners. We show you where each form appears, so you can decide.</p>
-        <p>김수자는 Kimsooja, Kim Sooja, Kim Soo-ja 등 다양하게 표기됩니다. 우리는 하나의 정답을 제시하지 않습니다. 각 표기가 어디에서 사용되는지 보여주고, 맥락에 맞는 선택을 할 수 있도록 돕습니다.</p>
+        <p>우리는 이름이 <strong>실제로 어떻게 사용되고 있는지</strong>를 기록합니다. 모든 항목은 출처를 추적하고, 모든 표기 변형은 근거와 함께 기록됩니다.</p>
       </div>
       <div class="row">
         <p><strong>Open data. Open contributions. Open governance.</strong></p>
@@ -312,6 +324,7 @@
       </div>
     </div>
 
+    <!-- 3. Scope -->
     <div class="section">
       <h3>
         <span>Scope</span>
@@ -334,9 +347,14 @@
           <span><strong>Terms</strong> — Dansaekhwa, Minjung art, Sinseang gonggan...</span>
           <span><strong>용어</strong> — 단색화, 민중미술, 신생공간...</span>
         </li>
+        <li>
+          <span><strong>Publications</strong> — Exhibition catalogues, monographs, periodicals</span>
+          <span><strong>출판물</strong> — 전시 도록, 단행본, 정기간행물</span>
+        </li>
       </ul>
     </div>
 
+    <!-- 4. Principles -->
     <div class="section">
       <h3>
         <span>Principles</span>
@@ -356,36 +374,50 @@
           <span>출처별로 사용된 표기를 추적합니다</span>
         </li>
         <li>
+          <span>Classifications follow Getty AAT — no custom taxonomies</span>
+          <span>분류 체계는 Getty AAT를 따릅니다 — 자체 분류를 만들지 않습니다</span>
+        </li>
+        <li>
           <span>All changes are versioned through Git — the full dataset will be published as a public repository</span>
-          <span>모든 변경은 Git으로 관리되며, 향후 전체 데이터셋을 공개 리포지토리로 공개할 계획입니다</span>
+          <span>모든 변경은 Git으로 관리되며, 향후 전체 데이터셋을 공개 리포지토리로 제공할 예정입니다</span>
         </li>
       </ul>
     </div>
 
+    <!-- 5. Roadmap -->
+    <div class="section">
+      <h3>
+        <span>Roadmap</span>
+        <span>로드맵</span>
+      </h3>
+      <ul>
+        <li>
+          <span><strong>Near-term</strong> — Expand to 100+ entries: GOKAMS terminology, Gwangju Biennale, major publications. Systematic VIAF and Wikidata registration.</span>
+          <span><strong>단기</strong> — 항목 100개 이상: GOKAMS 용어 확장, 광주비엔날레, 주요 출판물 추가. VIAF·Wikidata 체계적 등록.</span>
+        </li>
+        <li>
+          <span><strong>Mid-term</strong> — 100–500 entries: additional institutional data (ARKO, SeMA, MoCA Busan), foreign artist Korean names, foreign exhibition Korean titles, Wikidata and Getty ULAN contributions.</span>
+          <span><strong>중기</strong> — 항목 100–500개: 추가 기관 데이터(아르코, 서울시립미술관, 부산현대미술관), 외국 작가 한국어명, 외국 전시 한국어 제목, Wikidata·Getty ULAN 기여.</span>
+        </li>
+        <li>
+          <span><strong>Long-term</strong> — 500+ entries: user registration and permission tiers (viewer → contributor → reviewer → editor → admin), public API endpoint, open dataset as a public Git repository.</span>
+          <span><strong>장기</strong> — 항목 500개 이상: 사용자 등록 및 권한 계층(열람자 → 기여자 → 리뷰어 → 편집자 → 관리자), 공개 API 엔드포인트, 공개 Git 리포지토리로 데이터셋 제공.</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 6. Contact + Links -->
     <div class="about">
-      <h3>About</h3>
-      <div class="about-grid">
-        <p>
-          <strong>Korean Art Lexicon</strong> is designed and developed by <strong>Jaeyong Park</strong>—translator, writer, and curator—as
-          an initiative of <strong>Seoul Reading Room</strong>.
-          This project aims to serve the Korean art translation community as a public resource.
-        </p>
-        <p>
-          <strong>한국미술 용어집</strong>은 통번역가, 필자, 큐레이터 <strong>박재용</strong>이 기획·개발하고,
-          <strong>서울리딩룸</strong>의 이니셔티브로 운영됩니다.
-          한국미술 번역 커뮤니티를 위한 공공 기여를 목표로 합니다.
-        </p>
-      </div>
-      <p class="status">Currently in prototype development. · 현재 프로토타입 개발 중입니다.</p>
+      <h3>Contact</h3>
       <div style="display:flex;gap:12px;flex-wrap:wrap">
-        <a href="mailto:jaeyong@readingroom.me?subject=[Korean Art Lexicon] 문의" class="contact-btn">Contact</a>
+        <a href="mailto:jaeyong@readingroom.me?subject=[Korean Art Lexicon] 문의" class="contact-btn">Email</a>
         <a href="standards.html" class="contact-btn" style="background:#fff;color:#1a1a1a;border:1px solid #1a1a1a">Technical Standards →</a>
       </div>
     </div>
 
     <footer>
       <p>Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a> · Code: MIT</p>
-      <p>Last updated: March 31, 2026</p>
+      <p>Last updated: March 2026</p>
     </footer>
   </div>
 </body>
