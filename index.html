@@ -927,6 +927,8 @@
           lifespan += ' – ';
           if (entry.death_year) lifespan += entry.death_year;
           html += field('생몰연도', lifespan.trim());
+        } else {
+          html += field('생몰연도', '확인 필요');
         }
         html += `</div>`;
 

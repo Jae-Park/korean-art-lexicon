@@ -61,9 +61,11 @@ def get_existing_ids(data_dir: Path) -> set:
     return ids
 
 
-def validate_schema(doc: dict, schema: dict, path: str = "") -> list[str]:
+def validate_schema(doc: dict, schema: dict, path: str = "", warnings: list = None) -> list[str]:
     """필수 필드 및 기본 타입 검증 — 중첩 required도 재귀 체크"""
     errors = []
+    if warnings is None:
+        warnings = []
 
     # required 필드 체크
     for field in schema.get("required", []):
@@ -91,6 +93,10 @@ def validate_schema(doc: dict, schema: dict, path: str = "") -> list[str]:
         allowed = properties["status"].get("enum", [])
         if doc["status"] not in allowed:
             errors.append(f"잘못된 status: '{doc['status']}' (허용: {allowed})")
+
+    # person: birth_year 누락 경고 (warning, not error)
+    if not path and doc.get("id", "").startswith("person.") and "birth_year" not in doc:
+        warnings.append("birth_year 누락 (확인 필요)")
 
     # sources 존재 및 비어있지 않은지
     if "sources" in doc:
@@ -216,7 +222,9 @@ def validate_file(filepath: Path, existing_ids: set, check_alive: bool = True) -
     schema = load_schema(entity_type)
 
     # 1. 스키마 검증
-    result["errors"].extend(validate_schema(doc, schema))
+    warnings = []
+    result["errors"].extend(validate_schema(doc, schema, warnings=warnings))
+    result["warnings"].extend(warnings)
 
     # 2. 출처 검증 (형식 + URL 생존)
     result["errors"].extend(validate_sources(doc, check_alive=check_alive))
@@ -285,6 +293,9 @@ def main():
                 print(f"         {err}")
         else:
             passed += 1
+
+        for warn in result.get("warnings", []):
+            print(f"         ⚠️  {warn}")
 
     print(f"\n{'='*50}")
     print(f"총 {total}개 | 통과 {passed}개 | 실패 {failed}개")
