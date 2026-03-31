@@ -139,10 +139,18 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     }
 
+    .tab .tab-label-en {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #888;
+    }
+
+    .tab.active .tab-label-en { color: #555; }
+
     .tab .tab-count {
       font-size: 0.75rem;
       color: #999;
-      margin-left: 4px;
+      margin-left: 2px;
     }
 
     .tab.active .tab-count { color: #666; }
@@ -338,6 +346,50 @@
     .tag-status-draft { background: #f0f0f0; color: #666; }
     .tag-status-review { background: #fff3cd; color: #856404; }
     .tag-category { background: #e8daef; color: #6c3483; }
+
+    .aat-code {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      color: #888;
+      margin-left: 4px;
+    }
+
+    .aat-code a {
+      color: #888;
+      text-decoration: none;
+    }
+
+    .aat-code a:hover { color: #2b6cb0; text-decoration: underline; }
+
+    .ext-id-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+    }
+
+    .ext-id-row:last-child { border-bottom: none; }
+
+    .ext-id-label {
+      font-weight: 500;
+      color: #666;
+      min-width: 80px;
+      flex-shrink: 0;
+    }
+
+    .ext-id-value {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.8rem;
+    }
+
+    .ext-id-value a {
+      color: #2b6cb0;
+      text-decoration: none;
+    }
+
+    .ext-id-value a:hover { text-decoration: underline; }
 
     .variant-item {
       font-size: 0.85rem;
@@ -593,7 +645,7 @@
       container.innerHTML = TABS.map(t => {
         const count = getTabCount(t.key);
         const cls = t.key === activeTab ? 'tab active' : 'tab';
-        return `<button class="${cls}" data-key="${t.key}">${t.label} <span class="tab-count">${count}</span></button>`;
+        return `<button class="${cls}" data-key="${t.key}">${t.label} <span class="tab-label-en">${t.labelEn}</span> <span class="tab-count">${count}</span></button>`;
       }).join('');
 
       container.querySelectorAll('.tab').forEach(btn => {
@@ -672,12 +724,67 @@
       '300026096': 'exhibition catalogue',
       '300060417': 'monograph',
       '300026657': 'periodical',
+      '300025103': 'artist',
+      '300025633': 'curator',
+      '300025519': 'critic',
     };
 
     function aatLabel(obj) {
       if (!obj || typeof obj !== 'object') return '';
       const id = obj.aat;
       return AAT_LABELS[id] || `AAT:${id}`;
+    }
+
+    function aatTag(obj, cssClass) {
+      if (!obj || typeof obj !== 'object' || !obj.aat) return '';
+      const label = AAT_LABELS[obj.aat] || obj.aat;
+      const url = 'http://vocab.getty.edu/page/aat/' + obj.aat;
+      return `<span class="detail-tag ${cssClass}">${esc(label)} <span class="aat-code"><a href="${url}" target="_blank" rel="noopener">AAT:${esc(obj.aat)}</a></span></span>`;
+    }
+
+    // 엔티티별 해당 authority ID 필드
+    const ENTITY_AUTH_FIELDS = {
+      'person.':      ['ulan', 'viaf', 'wikidata', 'isni'],
+      'exhibition.':  ['wikidata', 'aaa'],
+      'org.':         ['ulan', 'viaf', 'wikidata'],
+      'term.':        ['aat', 'wikidata'],
+      'publication.': ['worldcat', 'wikidata', 'aaa'],
+    };
+
+    const AUTH_FIELD_CONFIG = {
+      ulan:     { label: 'Getty ULAN', url: id => 'http://vocab.getty.edu/page/ulan/' + id },
+      viaf:     { label: 'VIAF',       url: id => 'https://viaf.org/viaf/' + id },
+      wikidata: { label: 'Wikidata',   url: id => 'https://www.wikidata.org/wiki/' + id },
+      isni:     { label: 'ISNI',       url: id => 'https://isni.org/isni/' + id.replace(/\s/g, '') },
+      aaa:      { label: 'AAA',        url: null },
+      worldcat: { label: 'WorldCat',   url: id => 'https://www.worldcat.org/oclc/' + id },
+      aat:      { label: 'Getty AAT',  url: id => 'http://vocab.getty.edu/page/aat/' + id },
+    };
+
+    function renderExternalIds(entry) {
+      // 엔티티 타입에 해당하는 필드 목록 결정
+      let fields = null;
+      for (const [prefix, f] of Object.entries(ENTITY_AUTH_FIELDS)) {
+        if (entry.id.startsWith(prefix)) { fields = f; break; }
+      }
+      if (!fields) return '';
+
+      const ids = entry.external_ids || {};
+      const rows = fields.map(key => {
+        const cfg = AUTH_FIELD_CONFIG[key];
+        const val = ids[key];
+        let valueHtml;
+        if (val) {
+          valueHtml = cfg.url
+            ? `<a href="${cfg.url(val)}" target="_blank" rel="noopener">${esc(val)}</a>`
+            : esc(val);
+        } else {
+          valueHtml = '<span style="color:#ccc">—</span>';
+        }
+        return `<div class="ext-id-row"><span class="ext-id-label">${cfg.label}</span><span class="ext-id-value">${valueHtml}</span></div>`;
+      });
+
+      return `<div class="detail-section"><h3>Authority IDs</h3>${rows.join('')}</div>`;
     }
 
     function getMetaLine(entry) {
@@ -776,26 +883,21 @@
           }
         }
 
-        // External IDs
-        if (entry.external_ids) {
-          html += `<div class="detail-section"><h3>Authority Links</h3>`;
-          if (entry.external_ids.ulan) {
-            const ulanUrl = 'http://vocab.getty.edu/page/ulan/' + entry.external_ids.ulan;
-            html += `<div class="detail-field"><span class="label">Getty ULAN</span><span class="value"><a href="${ulanUrl}" target="_blank" rel="noopener">${entry.external_ids.ulan}</a></span></div>`;
-          }
-          if (entry.external_ids.wikidata) {
-            const wdUrl = 'https://www.wikidata.org/wiki/' + entry.external_ids.wikidata;
-            html += `<div class="detail-field"><span class="label">Wikidata</span><span class="value"><a href="${wdUrl}" target="_blank" rel="noopener">${entry.external_ids.wikidata}</a></span></div>`;
-          }
-          if (entry.external_ids.viaf) html += field('VIAF', entry.external_ids.viaf);
-          if (entry.external_ids.isni) html += field('ISNI', entry.external_ids.isni);
+        // Roles with AAT IDs
+        if (entry.role && entry.role.length) {
+          html += `<div class="detail-section"><h3>Roles</h3>`;
+          entry.role.forEach(r => {
+            if (r.aat) {
+              html += aatTag(r, 'tag-type') + ' ';
+            }
+          });
           html += `</div>`;
         }
       }
 
       // --- Exhibition ---
       if (entry.id.startsWith('exhibition.')) {
-        if (entry.type) html += `<span class="detail-tag tag-type">${esc(aatLabel(entry.type))}</span>`;
+        if (entry.type) html += aatTag(entry.type, 'tag-type');
 
         html += `<div class="detail-section" style="margin-top:20px"><h3>Details</h3>`;
         if (entry.venue) html += field('Venue', entry.venue);
@@ -840,7 +942,7 @@
 
       // --- Organization ---
       if (entry.id.startsWith('org.')) {
-        if (entry.type) html += `<span class="detail-tag tag-type">${esc(aatLabel(entry.type))}</span>`;
+        if (entry.type) html += aatTag(entry.type, 'tag-type');
 
         html += `<div class="detail-section" style="margin-top:20px"><h3>Details</h3>`;
         if (entry.name.hanja) html += field('Hanja', entry.name.hanja);
@@ -854,7 +956,7 @@
 
       // --- Term ---
       if (entry.id.startsWith('term.')) {
-        if (entry.category) html += `<span class="detail-tag tag-category">${esc(aatLabel(entry.category))}</span>`;
+        if (entry.category) html += aatTag(entry.category, 'tag-category');
 
         html += `<div class="detail-section" style="margin-top:20px"><h3>Translation</h3>`;
         if (entry.term.en) {
@@ -891,6 +993,9 @@
           html += `</div>`;
         }
       }
+
+      // --- Authority IDs (all entity types) ---
+      html += renderExternalIds(entry);
 
       // --- Related ---
       if (entry.related && entry.related.length) {

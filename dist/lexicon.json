@@ -1650,7 +1650,8 @@
     {
       "id": "exhibition.korean-pavilion-venice-1995",
       "title": {
-        "ko": "제46회 베니스 비엔날레 한국관"
+        "ko": "제46회 베니스 비엔날레 한국관",
+        "en": "Korean Pavilion, the 46th Venice Biennale"
       },
       "dates": {
         "start": "1995-06-11",
@@ -1675,7 +1676,8 @@
     {
       "id": "exhibition.korean-pavilion-venice-1997",
       "title": {
-        "ko": "제47회 베니스 비엔날레 한국관"
+        "ko": "제47회 베니스 비엔날레 한국관",
+        "en": "Korean Pavilion, the 47th Venice Biennale"
       },
       "dates": {
         "start": "1997-06-15",
@@ -1698,7 +1700,8 @@
     {
       "id": "exhibition.korean-pavilion-venice-1999",
       "title": {
-        "ko": "제48회 베니스 비엔날레 한국관"
+        "ko": "제48회 베니스 비엔날레 한국관",
+        "en": "Korean Pavilion, the 48th Venice Biennale"
       },
       "dates": {
         "start": "1999-06-12",
@@ -1726,7 +1729,8 @@
     {
       "id": "exhibition.korean-pavilion-venice-2001",
       "title": {
-        "ko": "제49회 베니스 비엔날레 한국관"
+        "ko": "제49회 베니스 비엔날레 한국관",
+        "en": "Korean Pavilion, the 49th Venice Biennale"
       },
       "dates": {
         "start": "2001-06-10",
@@ -2141,7 +2145,8 @@
     {
       "id": "exhibition.mmca-hyundai-2014",
       "title": {
-        "ko": "국립현대미술관 현대차 시리즈 2014: 이불"
+        "ko": "국립현대미술관 현대차 시리즈 2014: 이불",
+        "en": "MMCA Hyundai Motor Series 2014: Lee Bul"
       },
       "venue": "국립현대미술관 서울 제5전시실",
       "city": "Seoul",
@@ -2172,7 +2177,8 @@
     {
       "id": "exhibition.mmca-hyundai-2015",
       "title": {
-        "ko": "국립현대미술관 현대차 시리즈 2015: 안규철 - 안 보이는 사랑의 나라"
+        "ko": "국립현대미술관 현대차 시리즈 2015: 안규철 - 안 보이는 사랑의 나라",
+        "en": "MMCA Hyundai Motor Series 2015: Ahn Kyuchul — Invisible Land of Love"
       },
       "venue": "국립현대미술관 서울 제5전시실",
       "city": "Seoul",
@@ -2240,7 +2246,8 @@
     {
       "id": "exhibition.mmca-hyundai-2017",
       "title": {
-        "ko": "국립현대미술관 현대차시리즈 2017: 임흥순 - 우리를 갈라놓는 것들"
+        "ko": "국립현대미술관 현대차시리즈 2017: 임흥순 - 우리를 갈라놓는 것들",
+        "en": "MMCA Hyundai Motor Series 2017: IM Heung-soon — Things that Do Us Part"
       },
       "venue": "국립현대미술관 서울 제5, 7전시실, 전시마당, 복도",
       "city": "Seoul",
@@ -2276,7 +2283,8 @@
     {
       "id": "exhibition.mmca-hyundai-2018",
       "title": {
-        "ko": "MMCA 현대차 시리즈 2018: 최정화 – 꽃,숲"
+        "ko": "MMCA 현대차 시리즈 2018: 최정화 – 꽃,숲",
+        "en": "MMCA Hyundai Motor Series 2018: Choi Jeonghwa — Blooming Matrix"
       },
       "venue": "국립현대미술관 서울 5전시실, 미술관 마당",
       "city": "Seoul",
@@ -2312,7 +2320,8 @@
     {
       "id": "exhibition.mmca-hyundai-2019",
       "title": {
-        "ko": "MMCA 현대차 시리즈 2019: 박찬경 – 모임"
+        "ko": "MMCA 현대차 시리즈 2019: 박찬경 – 모임",
+        "en": "MMCA Hyundai Motor Series 2019: Park Chan-kyong — Gathering"
       },
       "venue": "국립현대미술관 서울 5전시실",
       "city": "Seoul",
@@ -2343,7 +2352,8 @@
     {
       "id": "exhibition.mmca-hyundai-2020",
       "title": {
-        "ko": "MMCA 현대차 시리즈 2020: 양혜규 – O2 & H2O"
+        "ko": "MMCA 현대차 시리즈 2020: 양혜규 – O2 & H2O",
+        "en": "MMCA Hyundai Motor Series 2020: Haegue Yang — O2 & H2O"
       },
       "venue": "국립현대미술관 서울 5전시실, 서울박스",
       "city": "Seoul",
@@ -2374,7 +2384,8 @@
     {
       "id": "exhibition.mmca-hyundai-2021",
       "title": {
-        "ko": "MMCA 현대차 시리즈 2021: 문경원 & 전준호 – 미지에서 온 소식, 자유의 마을"
+        "ko": "MMCA 현대차 시리즈 2021: 문경원 & 전준호 – 미지에서 온 소식, 자유의 마을",
+        "en": "MMCA Hyundai Motor Series 2021: Moon Kyungwon & Jeon Joonho — News from Nowhere, Freedom Village"
       },
       "venue": "국립현대미술관 서울 5전시실, 서울박스",
       "city": "Seoul",
@@ -2411,7 +2422,8 @@
     {
       "id": "exhibition.mmca-hyundai-2022",
       "title": {
-        "ko": "MMCA 현대차 시리즈 2022: 최우람 - 작은 방주"
+        "ko": "MMCA 현대차 시리즈 2022: 최우람 - 작은 방주",
+        "en": "MMCA Hyundai Motor Series 2022: Choe U-Ram — Little Ark"
       },
       "venue": "국립현대미술관 서울 서울박스, 5전시실 및 복도",
       "city": "Seoul",
@@ -2442,7 +2454,8 @@
     {
       "id": "exhibition.mmca-hyundai-2023",
       "title": {
-        "ko": "MMCA 현대차 시리즈 2023: 정연두 - 백년 여행기"
+        "ko": "MMCA 현대차 시리즈 2023: 정연두 - 백년 여행기",
+        "en": "MMCA Hyundai Motor Series 2023: Jung Yeondoo — One Hundred Years of Travels"
       },
       "venue": "국립현대미술관 서울 지하1층, 5전시실, 복도, 서울박스",
       "city": "Seoul",
