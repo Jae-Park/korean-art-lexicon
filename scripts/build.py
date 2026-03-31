@@ -10,6 +10,7 @@ import os
 import sys
 import json
 import datetime
+import subprocess
 import yaml
 from pathlib import Path
 
@@ -26,6 +27,20 @@ CATEGORIES = {
 }
 
 
+def git_last_modified(filepath):
+    """파일의 마지막 git commit 날짜를 YYYY-MM-DD로 반환. 실패 시 None."""
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%aI", "--", str(filepath)],
+            capture_output=True, text=True, cwd=PROJECT_ROOT
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            return result.stdout.strip()[:10]  # YYYY-MM-DD
+    except Exception:
+        pass
+    return None
+
+
 def build():
     lexicon = {}
 
@@ -40,6 +55,9 @@ def build():
             with open(f, "r", encoding="utf-8") as fh:
                 doc = yaml.safe_load(fh)
                 if doc:
+                    last_mod = git_last_modified(f)
+                    if last_mod:
+                        doc["_last_updated"] = last_mod
                     entries.append(doc)
         lexicon[key] = entries
 

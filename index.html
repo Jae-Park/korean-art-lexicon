@@ -60,18 +60,38 @@
       gap: 8px;
     }
 
-    .count-badge, .about-link {
+    .header-title {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+
+    .header-subtitle {
+      font-size: 0.8125rem;
+      font-weight: 400;
+      color: #666;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+    }
+
+    .count-badge {
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: #666;
+      padding: 6px 16px;
+      text-decoration: none;
+    }
+
+    .about-link {
       font-size: 0.8125rem;
       font-weight: 500;
       color: #fff;
       background: #1a1a1a;
       padding: 6px 16px;
-      border-radius: 8px;
       text-decoration: none;
       transition: background 0.15s;
     }
 
-    .about-link:hover, .count-badge:hover {
+    .about-link:hover {
       background: #333;
     }
 
@@ -92,7 +112,7 @@
       width: 100%;
       padding: 14px 20px 14px 44px;
       border: none;
-      border-radius: 12px;
+      border-radius: 0;
       font-family: inherit;
       font-size: 1rem;
       background: rgba(255, 255, 255, 0.85);
@@ -127,7 +147,7 @@
     .tab {
       padding: 8px 18px;
       border: none;
-      border-radius: 8px;
+      border-radius: 0;
       font-family: inherit;
       font-size: 0.875rem;
       font-weight: 500;
@@ -179,7 +199,7 @@
     .sort-btn {
       padding: 6px 12px;
       border: none;
-      border-radius: 6px;
+      border-radius: 0;
       font-family: inherit;
       font-size: 0.75rem;
       font-weight: 500;
@@ -202,7 +222,7 @@
       color: #888;
       background: rgba(0, 0, 0, 0.06);
       padding: 1px 7px;
-      border-radius: 4px;
+      border-radius: 0;
       margin-left: 6px;
       vertical-align: middle;
     }
@@ -220,7 +240,7 @@
       gap: 24px;
       padding: 16px 20px;
       background: rgba(255, 255, 255, 0.75);
-      border-radius: 10px;
+      border-radius: 0;
       cursor: pointer;
       transition: all 0.15s;
     }
@@ -289,7 +309,7 @@
       background: rgba(0, 0, 0, 0.06);
       width: 32px;
       height: 32px;
-      border-radius: 8px;
+      border-radius: 0;
       font-size: 1.125rem;
       cursor: pointer;
       display: flex;
@@ -350,7 +370,7 @@
     .detail-tag {
       display: inline-block;
       padding: 2px 10px;
-      border-radius: 6px;
+      border-radius: 0;
       font-size: 0.8rem;
       font-weight: 500;
       margin-right: 4px;
@@ -411,7 +431,7 @@
       font-size: 0.85rem;
       padding: 8px 12px;
       background: rgba(0, 0, 0, 0.03);
-      border-radius: 8px;
+      border-radius: 0;
       margin-bottom: 6px;
     }
 
@@ -441,7 +461,7 @@
       font-size: 0.8rem;
       padding: 8px 12px;
       background: rgba(0, 0, 0, 0.03);
-      border-radius: 8px;
+      border-radius: 0;
       margin-bottom: 6px;
     }
 
@@ -462,6 +482,14 @@
     .source-note {
       color: #999;
       font-style: italic;
+    }
+
+    .detail-updated {
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid #eee;
+      font-size: 0.8125rem;
+      color: #999;
     }
 
     .ref-link {
@@ -486,9 +514,22 @@
 
     /* Responsive */
     @media (max-width: 640px) {
-      header { padding: 16px 20px; }
+      header {
+        padding: 12px 16px;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
       header h1 { font-size: 1rem; }
-      .app { padding: 80px 16px 48px; }
+      .header-title { gap: 6px; }
+      .header-subtitle { font-size: 0.7rem; }
+      .header-right {
+        gap: 6px;
+        width: 100%;
+        justify-content: flex-start;
+      }
+      .count-badge { padding: 4px 0; }
+      .about-link { padding: 5px 12px; font-size: 0.75rem; }
+      .app { padding: 100px 16px 48px; }
 
       .controls-row { flex-direction: column; align-items: stretch; }
       .tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; }
@@ -506,7 +547,10 @@
 </head>
 <body>
   <header>
-    <h1>Korean Art Lexicon</h1>
+    <div class="header-title">
+      <h1>Korean Art Lexicon</h1>
+      <span class="header-subtitle">by Seoul Reading Room</span>
+    </div>
     <div class="header-right">
       <span class="count-badge" id="totalCount"></span>
       <a href="standards.html" class="about-link">Standards</a>
@@ -877,7 +921,13 @@
         html += field('Family', entry.name.ko.family + ' / ' + entry.name.latn.family);
         html += field('Given', entry.name.ko.given + ' / ' + entry.name.latn.given);
         html += field('Preferred', entry.name.latn.preferred);
-        if (entry.birth_year) html += field('Born', entry.birth_year);
+        if (entry.birth_year || entry.death_year) {
+          let lifespan = '';
+          if (entry.birth_year) lifespan += entry.birth_year;
+          lifespan += ' – ';
+          if (entry.death_year) lifespan += entry.death_year;
+          html += field('생몰연도', lifespan.trim());
+        }
         html += `</div>`;
 
         // Name forms observed in sources
@@ -1043,6 +1093,11 @@
         }
       });
       html += `</div>`;
+
+      // --- Last Updated ---
+      if (entry._last_updated) {
+        html += `<div class="detail-updated">Last updated: ${esc(entry._last_updated)}</div>`;
+      }
 
       return html;
     }

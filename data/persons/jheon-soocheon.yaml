@@ -8,6 +8,8 @@ name:
     preferred: Jheon Soocheon
     family: Jheon
     given: Soocheon
+birth_year: 1947
+death_year: 2018
 sources:
 - url: https://en.wikipedia.org/wiki/Korean_pavilion
   name_used: Jheon Soocheon
