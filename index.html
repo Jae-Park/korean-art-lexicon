@@ -287,10 +287,15 @@
       transform: translateX(0);
     }
 
-    .detail-close {
+    .detail-top-actions {
       position: absolute;
       top: 20px;
       right: 20px;
+      display: flex;
+      gap: 6px;
+    }
+
+    .detail-btn {
       border: none;
       background: rgba(0, 0, 0, 0.06);
       width: 32px;
@@ -304,7 +309,12 @@
       color: #666;
     }
 
-    .detail-close:hover { background: rgba(0, 0, 0, 0.1); }
+    .detail-btn:hover { background: rgba(0, 0, 0, 0.1); }
+
+    .detail-btn.copied {
+      background: #d4edda;
+      color: #155724;
+    }
 
     .detail-title-ko {
       font-size: 1.5rem;
@@ -833,6 +843,19 @@
       history.replaceState(null, '', location.pathname + location.search);
     }
 
+    function shareEntry(id) {
+      const url = location.origin + location.pathname + '#' + id;
+      navigator.clipboard.writeText(url).then(() => {
+        const btn = document.querySelector('.detail-top-actions .detail-btn');
+        btn.classList.add('copied');
+        btn.innerHTML = '&#x2713;';
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          btn.innerHTML = '&#x1F517;';
+        }, 1500);
+      });
+    }
+
     function openFromHash(hash) {
       const id = hash.replace('#', '');
       if (id && findEntry(id)) openDetail(id);
@@ -849,7 +872,7 @@
     // Detail rendering
     function renderDetail(entry) {
       const { ko, en } = getDisplayNames(entry);
-      let html = `<button class="detail-close" onclick="closeDetail()">&times;</button>`;
+      let html = `<div class="detail-top-actions"><button class="detail-btn" onclick="shareEntry('${entry.id}')" title="Copy link">&#x1F517;</button><button class="detail-btn" onclick="closeDetail()" title="Close">&times;</button></div>`;
       html += `<div class="detail-title-ko">${esc(ko)}</div>`;
       if (en) html += `<div class="detail-title-en">${esc(en)}</div>`;
 
