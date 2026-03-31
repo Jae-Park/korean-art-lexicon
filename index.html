@@ -3,21 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Korean Art Lexicon · 한국미술 용어집</title>
-  <meta name="description" content="An open-source authority file for Korean contemporary art names and titles">
+  <title>Korean Art Lexicon · Browse</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
       font-family: 'IBM Plex Sans', 'IBM Plex Sans KR', sans-serif;
-      line-height: 1.7;
+      line-height: 1.6;
       color: #1a1a1a;
       min-height: 100vh;
       background: linear-gradient(-45deg, #ff9a9e, #fecfef, #a18cd1, #fbc2eb, #a6c1ee, #c2e9fb);
@@ -31,361 +26,1025 @@
       100% { background-position: 0% 50%; }
     }
 
+    /* Header */
     header {
       position: fixed;
       top: 0;
       left: 0;
       right: 0;
-      padding: 32px 40px 24px;
-      background: rgba(255, 255, 255, 0.15);
+      padding: 20px 32px;
+      background: rgba(255, 255, 255, 0.2);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
       z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
 
-    header h1,
-    header .subtitle span {
+    header h1 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
       text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
     }
 
-    header .inner {
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-
-    .header-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 12px;
-    }
-
-    .header-top h1 {
-      margin-bottom: 0;
-    }
-
-    .browse-btn {
-      display: inline-block;
-      padding: 8px 20px;
-      background: #1a1a1a;
-      color: #fff;
+    header h1 a {
+      color: inherit;
       text-decoration: none;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .count-badge {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: #666;
+      background: rgba(255,255,255,0.5);
+      padding: 4px 10px;
+      border-radius: 12px;
+    }
+
+    .about-link {
       font-size: 0.8125rem;
       font-weight: 500;
-      white-space: nowrap;
+      color: #555;
+      text-decoration: none;
+      padding: 4px 12px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.4);
+      transition: background 0.15s;
+    }
+
+    .about-link:hover {
+      background: rgba(255,255,255,0.7);
+      color: #1a1a1a;
+    }
+
+    /* Layout */
+    .app {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 88px 32px 64px;
+    }
+
+    /* Search */
+    .search-bar {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 14px 20px 14px 44px;
+      border: none;
+      border-radius: 12px;
+      font-family: inherit;
+      font-size: 1rem;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(10px);
+      outline: none;
       transition: background 0.2s;
     }
 
-    .browse-btn:hover {
-      background: #333;
+    .search-bar input:focus {
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
     }
 
-    .container {
-      max-width: 1080px;
-      margin: 0 auto;
-      padding: 160px 40px 80px;
+    .search-bar input::placeholder { color: #999; }
+
+    .search-icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1rem;
+      color: #999;
+      pointer-events: none;
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 4px;
+    }
+
+    .tab {
+      padding: 8px 18px;
+      border: none;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.4);
+      color: #555;
+      transition: all 0.15s;
+    }
+
+    .tab:hover { background: rgba(255, 255, 255, 0.6); }
+
+    .tab.active {
+      background: rgba(255, 255, 255, 0.9);
+      color: #1a1a1a;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .tab .tab-label-en {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #888;
+    }
+
+    .tab.active .tab-label-en { color: #555; }
+
+    .tab .tab-count {
+      font-size: 0.75rem;
+      color: #999;
+      margin-left: 2px;
+    }
+
+    .tab.active .tab-count { color: #666; }
+
+    /* Controls Row */
+    .controls-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      gap: 12px;
+    }
+
+    .sort-controls {
+      display: flex;
+      gap: 2px;
+      flex-shrink: 0;
+    }
+
+    .sort-btn {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.75rem;
+      font-weight: 500;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.3);
+      color: #777;
+      transition: all 0.15s;
+    }
+
+    .sort-btn:hover { background: rgba(255, 255, 255, 0.5); }
+
+    .sort-btn.active {
       background: rgba(255, 255, 255, 0.85);
-      backdrop-filter: blur(10px);
-      min-height: 100vh;
+      color: #1a1a1a;
     }
 
-    h1 {
-      font-size: 2rem;
-      font-weight: 600;
-      margin-bottom: 12px;
-      letter-spacing: -0.02em;
+    .entry-type-badge {
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: #888;
+      background: rgba(0, 0, 0, 0.06);
+      padding: 1px 7px;
+      border-radius: 4px;
+      margin-left: 6px;
+      vertical-align: middle;
     }
 
-    .subtitle {
+    /* Entry List */
+    .entry-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .entry-row {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 40px;
-      font-size: 1rem;
+      gap: 24px;
+      padding: 16px 20px;
+      background: rgba(255, 255, 255, 0.75);
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .entry-row:hover {
+      background: rgba(255, 255, 255, 0.92);
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .entry-ko {
+      font-weight: 500;
+    }
+
+    .entry-en {
+      color: #555;
+    }
+
+    .entry-meta {
+      font-size: 0.8rem;
+      color: #999;
+      margin-top: 2px;
+    }
+
+    /* Detail Panel */
+    .detail-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(4px);
+      z-index: 200;
+    }
+
+    .detail-overlay.open { display: block; }
+
+    .detail-panel {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(560px, 90vw);
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(20px);
+      z-index: 201;
+      overflow-y: auto;
+      padding: 32px;
+      box-shadow: -4px 0 32px rgba(0, 0, 0, 0.1);
+      transform: translateX(100%);
+      transition: transform 0.25s ease;
+    }
+
+    .detail-overlay.open .detail-panel {
+      transform: translateX(0);
+    }
+
+    .detail-close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      border: none;
+      background: rgba(0, 0, 0, 0.06);
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      font-size: 1.125rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       color: #666;
     }
 
-    .row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 40px;
-      margin-bottom: 20px;
+    .detail-close:hover { background: rgba(0, 0, 0, 0.1); }
+
+    .detail-title-ko {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 4px;
     }
 
-    .row.header {
-      margin-bottom: 24px;
-    }
-
-    .row h2 {
+    .detail-title-en {
       font-size: 1.125rem;
-      font-weight: 600;
-      color: #1a1a1a;
-    }
-
-    .row p {
-      color: #333;
-    }
-
-    .row strong {
-      color: #1a1a1a;
-    }
-
-    .manifesto {
-      margin-bottom: 64px;
-    }
-
-    .section {
-      margin-bottom: 48px;
-    }
-
-    .section h3 {
-      font-size: 1rem;
-      font-weight: 600;
+      color: #555;
       margin-bottom: 20px;
-      color: #1a1a1a;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 40px;
     }
 
-    .section ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    .section li {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 40px;
-      padding: 12px 0;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-      color: #333;
-    }
-
-    .section li:last-child {
-      border-bottom: none;
-    }
-
-    .section li strong {
-      color: #1a1a1a;
-    }
-
-    .about {
-      margin-bottom: 48px;
-    }
-
-    .about h3 {
-      font-size: 1rem;
-      font-weight: 600;
+    .detail-section {
       margin-bottom: 20px;
-      color: #1a1a1a;
     }
 
-    .about-grid {
+    .detail-section h3 {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #999;
+      margin-bottom: 8px;
+    }
+
+    .detail-field {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 40px;
-      margin-bottom: 24px;
+      grid-template-columns: 100px 1fr;
+      gap: 8px;
+      font-size: 0.875rem;
+      margin-bottom: 6px;
     }
 
-    .about-grid p {
+    .detail-field .label {
+      color: #999;
+      font-weight: 400;
+    }
+
+    .detail-field .value {
       color: #333;
     }
 
-    .about-grid strong {
-      color: #1a1a1a;
-    }
-
-    .status {
-      font-size: 1.125rem;
-      color: #1a1a1a;
-      font-weight: 500;
-      margin-bottom: 24px;
-      padding: 16px 0;
-      border-top: 1px solid rgba(0, 0, 0, 0.1);
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    }
-
-    .contact-btn {
+    .detail-tag {
       display: inline-block;
-      padding: 12px 24px;
-      background: #1a1a1a;
-      color: #fff;
-      text-decoration: none;
-      font-size: 0.875rem;
+      padding: 2px 10px;
+      border-radius: 6px;
+      font-size: 0.8rem;
       font-weight: 500;
-      transition: background 0.2s;
+      margin-right: 4px;
+      margin-bottom: 4px;
     }
 
-    .contact-btn:hover {
-      background: #333;
+    .tag-type { background: #fef3cd; color: #856404; }
+    .tag-status-stable { background: #d4edda; color: #155724; }
+    .tag-status-draft { background: #f0f0f0; color: #666; }
+    .tag-status-review { background: #fff3cd; color: #856404; }
+    .tag-category { background: #e8daef; color: #6c3483; }
+
+    .aat-code {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      color: #888;
+      margin-left: 4px;
     }
 
-    footer {
-      margin-top: 80px;
-      padding-top: 24px;
-      border-top: 1px solid rgba(0, 0, 0, 0.1);
-      font-size: 0.875rem;
+    .aat-code a {
+      color: #888;
+      text-decoration: none;
+    }
+
+    .aat-code a:hover { color: #2b6cb0; text-decoration: underline; }
+
+    .ext-id-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+    }
+
+    .ext-id-row:last-child { border-bottom: none; }
+
+    .ext-id-label {
+      font-weight: 500;
+      color: #666;
+      min-width: 80px;
+      flex-shrink: 0;
+    }
+
+    .ext-id-value {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.8rem;
+    }
+
+    .ext-id-value a {
+      color: #2b6cb0;
+      text-decoration: none;
+    }
+
+    .ext-id-value a:hover { text-decoration: underline; }
+
+    .variant-item {
+      font-size: 0.85rem;
+      padding: 8px 12px;
+      background: rgba(0, 0, 0, 0.03);
+      border-radius: 8px;
+      margin-bottom: 6px;
+    }
+
+    .variant-form {
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 500;
+      color: #1a1a1a;
+      display: block;
+    }
+
+    .variant-source {
+      font-size: 0.75rem;
+      color: #2b6cb0;
+      text-decoration: none;
+    }
+
+    .variant-source:hover { text-decoration: underline; }
+
+    .variant-note {
+      font-size: 0.75rem;
+      color: #999;
+      font-style: italic;
+      margin-left: 8px;
+    }
+
+    .source-item {
+      font-size: 0.8rem;
+      padding: 8px 12px;
+      background: rgba(0, 0, 0, 0.03);
+      border-radius: 8px;
+      margin-bottom: 6px;
+    }
+
+    .source-item a {
+      color: #2b6cb0;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .source-item a:hover { text-decoration: underline; }
+
+    .source-name-used {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.8rem;
+      color: #555;
+    }
+
+    .source-note {
+      color: #999;
+      font-style: italic;
+    }
+
+    .ref-link {
+      color: #2b6cb0;
+      cursor: pointer;
+      text-decoration: none;
+      border-bottom: 1px dashed #2b6cb0;
+    }
+
+    .ref-link:hover {
+      color: #1a4a7a;
+      border-bottom-style: solid;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 48px 20px;
       color: #999;
     }
 
-    footer a {
-      color: #666;
-    }
+    .empty-state p { font-size: 1rem; }
 
-    @media (max-width: 768px) {
-      header {
-        padding: 20px 20px 16px;
-      }
+    /* Responsive */
+    @media (max-width: 640px) {
+      header { padding: 16px 20px; }
+      header h1 { font-size: 1rem; }
+      .app { padding: 80px 16px 48px; }
 
-      .container {
-        padding: 240px 20px 48px;
-      }
+      .controls-row { flex-direction: column; align-items: stretch; }
+      .tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+      .sort-controls { justify-content: flex-end; }
 
-      .subtitle,
-      .row,
-      .section h3,
-      .section li,
-      .about-grid {
+      .entry-row {
         grid-template-columns: 1fr;
-        gap: 8px;
+        gap: 4px;
+        padding: 14px 16px;
       }
 
-      .row {
-        margin-bottom: 24px;
-      }
-
-      h1 {
-        font-size: 1.5rem;
-      }
-
-      .header-top {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-      }
-
-      .status {
-        font-size: 1rem;
-      }
+      .detail-panel { width: 100vw; padding: 24px 20px; }
     }
   </style>
 </head>
 <body>
   <header>
-    <div class="inner">
-      <div class="header-top">
-        <h1>Korean Art Lexicon · 한국미술 용어집</h1>
-        <a href="lexicon.html" class="browse-btn">Browse the Lexicon (Beta) →</a>
-      </div>
-      <div class="subtitle">
-        <span>An open-source authority file for Korean contemporary art</span>
-        <span>한국 현대미술 명칭 데이터베이스</span>
-      </div>
+    <h1>Korean Art Lexicon</h1>
+    <div class="header-right">
+      <span class="count-badge" id="totalCount"></span>
+      <a href="about.html" class="about-link">About</a>
     </div>
   </header>
 
-  <div class="container">
-    <div class="manifesto">
-      <div class="row header">
-        <h2>Why We Need It</h2>
-        <h2>왜 필요한가</h2>
-      </div>
-      <div class="row">
-        <p>Korean art names lack a shared standard. The same artist appears as three different people across databases. Exhibition titles change between press release and catalogue. There is no reliable reference.</p>
-        <p>한국미술의 이름에는 공유된 기준이 없습니다. 같은 작가가 데이터베이스마다 다른 사람으로 등장합니다. 전시 제목은 보도자료와 도록 사이에서 달라집니다. 신뢰할 수 있는 기준점이 없습니다.</p>
-      </div>
-      <div class="row">
-        <p><strong>This is not a dictionary.</strong> It is an infrastructure for naming Korean contemporary art reliably across languages.</p>
-        <p><strong>이것은 사전이 아닙니다.</strong> 한국 현대미술의 이름을 언어 간에 일관되게 사용하기 위한 인프라입니다.</p>
-      </div>
-      <div class="row">
-        <p>We document <strong>how names are actually used</strong>—not how they should be used. Every entry traces its source. Every variation is recorded with evidence.</p>
-        <p>우리는 이름이 <strong>어떻게 사용되어야 하는지</strong>가 아니라, <strong>실제로 어떻게 사용되고 있는지</strong>를 기록합니다. 모든 항목은 출처를 추적하고, 모든 표기 변형은 근거와 함께 기록됩니다.</p>
-      </div>
-      <div class="row">
-        <p>김수자 becomes Kimsooja, Kim Sooja, or Kim Soo-ja depending on who you ask. We don't pick winners. We show you where each form appears, so you can decide.</p>
-        <p>김수자는 Kimsooja, Kim Sooja, Kim Soo-ja 등 다양하게 표기됩니다. 우리는 하나의 정답을 제시하지 않습니다. 각 표기가 어디에서 사용되는지 보여주고, 맥락에 맞는 선택을 할 수 있도록 돕습니다.</p>
-      </div>
-      <div class="row">
-        <p><strong>Open data. Open contributions. Open governance.</strong></p>
-        <p><strong>열린 데이터. 열린 기여. 열린 거버넌스.</strong></p>
-      </div>
+  <div class="app">
+    <div class="search-bar">
+      <span class="search-icon">&#x1F50D;</span>
+      <input type="text" id="searchInput" placeholder="검색 · Search (e.g. 김수자, Dansaekhwa, MMCA...)">
     </div>
 
-    <div class="section">
-      <h3>
-        <span>Scope</span>
-        <span>범위</span>
-      </h3>
-      <ul>
-        <li>
-          <span><strong>Persons</strong> — Artists, curators, writers, critics</span>
-          <span><strong>인물</strong> — 작가, 큐레이터, 필자, 비평가</span>
-        </li>
-        <li>
-          <span><strong>Exhibitions</strong> — Titles in Korean and English</span>
-          <span><strong>전시</strong> — 한국어·영어 전시 제목</span>
-        </li>
-        <li>
-          <span><strong>Organizations</strong> — Museums, galleries, artist-run spaces</span>
-          <span><strong>기관</strong> — 미술관, 갤러리, 대안공간</span>
-        </li>
-        <li>
-          <span><strong>Terms</strong> — Dansaekhwa, Minjung art, Sinseang gonggan...</span>
-          <span><strong>용어</strong> — 단색화, 민중미술, 신생공간...</span>
-        </li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h3>
-        <span>Principles</span>
-        <span>원칙</span>
-      </h3>
-      <ul>
-        <li>
-          <span>Every entry requires at least one verifiable source</span>
-          <span>모든 항목은 검증 가능한 출처가 필요합니다</span>
-        </li>
-        <li>
-          <span>Preferred forms are distinguished from variants</span>
-          <span>선호 표기와 변형 표기를 구분합니다</span>
-        </li>
-        <li>
-          <span>Sources track which name form they use</span>
-          <span>출처별로 사용된 표기를 추적합니다</span>
-        </li>
-        <li>
-          <span>Changes are versioned through Git history</span>
-          <span>모든 변경은 Git 히스토리로 관리됩니다</span>
-        </li>
-      </ul>
-    </div>
-
-    <div class="about">
-      <h3>About</h3>
-      <div class="about-grid">
-        <p>
-          <strong>Korean Art Lexicon</strong> is designed and developed by <strong>Jaeyong Park</strong>—translator, writer, and curator—as
-          an initiative of <strong>Seoul Reading Room</strong>.
-          This project aims to serve the Korean art translation community as a public resource.
-        </p>
-        <p>
-          <strong>한국미술 용어집</strong>은 통번역가, 필자, 큐레이터 <strong>박재용</strong>이 기획·개발하고,
-          <strong>서울리딩룸</strong>의 이니셔티브로 운영됩니다.
-          한국미술 번역 커뮤니티를 위한 공공 기여를 목표로 합니다.
-        </p>
-      </div>
-      <p class="status">Currently in prototype development. · 현재 프로토타입 개발 중입니다.</p>
-      <div style="display:flex;gap:12px;flex-wrap:wrap">
-        <a href="mailto:jaeyong@readingroom.me?subject=[Korean Art Lexicon] 문의" class="contact-btn">Contact</a>
+    <div class="controls-row">
+      <div class="tabs" id="tabs"></div>
+      <div class="sort-controls" id="sortControls">
+        <button class="sort-btn active" data-sort="default">기본</button>
+        <button class="sort-btn" data-sort="ko">가나다</button>
+        <button class="sort-btn" data-sort="en">ABC</button>
       </div>
     </div>
-
-    <footer>
-      <p>Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a> · Code: MIT</p>
-      <p>Last updated: January 25, 2025</p>
-    </footer>
+    <div class="entry-list" id="entryList"></div>
   </div>
+
+  <!-- Detail Overlay -->
+  <div class="detail-overlay" id="detailOverlay">
+    <div class="detail-panel" id="detailPanel"></div>
+  </div>
+
+  <script>
+    const TABS = [
+      { key: 'all', label: '전체', labelEn: 'All' },
+      { key: 'persons', label: '인물', labelEn: 'Persons' },
+      { key: 'exhibitions', label: '전시', labelEn: 'Exhibitions' },
+      { key: 'organizations', label: '기관', labelEn: 'Organizations' },
+      { key: 'terms', label: '용어', labelEn: 'Terms' },
+      { key: 'publications', label: '출판물', labelEn: 'Publications' },
+    ];
+
+    const ENTITY_LABELS = {
+      'person.': '인물',
+      'exhibition.': '전시',
+      'org.': '기관',
+      'term.': '용어',
+      'publication.': '출판물',
+    };
+
+    let data = {};
+    let activeTab = 'all';
+    let searchQuery = '';
+    let sortMode = 'default'; // 'default' | 'ko' | 'en'
+
+    // Boot
+    async function init() {
+      const res = await fetch('dist/lexicon.json?v=' + Date.now(), { cache: 'no-store' });
+      data = await res.json();
+
+      // Hide entries that haven't passed review
+      for (const key of Object.keys(data)) {
+        data[key] = data[key].filter(e => e.status !== 'pending_review');
+      }
+
+      const total = Object.values(data).reduce((s, arr) => s + arr.length, 0);
+      document.getElementById('totalCount').textContent = `${total} entries`;
+
+      renderTabs();
+      renderList();
+
+      // Sort controls
+      document.querySelectorAll('.sort-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          sortMode = btn.dataset.sort;
+          document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderList();
+        });
+      });
+
+      document.getElementById('searchInput').addEventListener('input', e => {
+        searchQuery = e.target.value.trim().toLowerCase();
+        // Auto-switch to tab with results if current tab is empty
+        if (searchQuery) {
+          const currentItems = getEntriesForTab(activeTab).filter(matchesSearch);
+          if (currentItems.length === 0) {
+            for (const t of TABS) {
+              const items = getEntriesForTab(t.key).filter(matchesSearch);
+              if (items.length > 0) {
+                activeTab = t.key;
+                renderTabs();
+                break;
+              }
+            }
+          }
+        }
+        renderList();
+      });
+
+      document.getElementById('detailOverlay').addEventListener('click', e => {
+        if (e.target === e.currentTarget) closeDetail();
+      });
+
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeDetail();
+      });
+
+      // Handle hash navigation
+      if (location.hash) openFromHash(location.hash);
+      window.addEventListener('hashchange', () => openFromHash(location.hash));
+    }
+
+    // Get all entries merged
+    function getAllEntries() {
+      const all = [];
+      for (const [key, arr] of Object.entries(data)) {
+        if (Array.isArray(arr)) arr.forEach(e => all.push(e));
+      }
+      return all;
+    }
+
+    function getEntriesForTab(tab) {
+      if (tab === 'all') return getAllEntries();
+      return data[tab] || [];
+    }
+
+    function getTabCount(tab) {
+      if (tab === 'all') return getAllEntries().length;
+      return (data[tab] || []).length;
+    }
+
+    // Sort
+    function sortEntries(entries) {
+      if (sortMode === 'default') return entries;
+      return [...entries].sort((a, b) => {
+        const aN = getDisplayNames(a);
+        const bN = getDisplayNames(b);
+        if (sortMode === 'ko') {
+          return (aN.ko || '').localeCompare(bN.ko || '', 'ko');
+        } else {
+          return (aN.en || '').localeCompare(bN.en || '', 'en');
+        }
+      });
+    }
+
+    function getEntityLabel(id) {
+      for (const [prefix, label] of Object.entries(ENTITY_LABELS)) {
+        if (id.startsWith(prefix)) return label;
+      }
+      return '';
+    }
+
+    // Tabs
+    function renderTabs() {
+      const container = document.getElementById('tabs');
+      container.innerHTML = TABS.map(t => {
+        const count = getTabCount(t.key);
+        const cls = t.key === activeTab ? 'tab active' : 'tab';
+        return `<button class="${cls}" data-key="${t.key}">${t.label} <span class="tab-label-en">${t.labelEn}</span> <span class="tab-count">${count}</span></button>`;
+      }).join('');
+
+      container.querySelectorAll('.tab').forEach(btn => {
+        btn.addEventListener('click', () => {
+          activeTab = btn.dataset.key;
+          renderTabs();
+          renderList();
+        });
+      });
+    }
+
+    // Filtering
+    function matchesSearch(entry) {
+      if (!searchQuery) return true;
+      const blob = JSON.stringify(entry).toLowerCase();
+      return blob.includes(searchQuery);
+    }
+
+    // List rendering
+    function renderList() {
+      const container = document.getElementById('entryList');
+      const filtered = getEntriesForTab(activeTab).filter(matchesSearch);
+      const items = sortEntries(filtered);
+
+      if (items.length === 0) {
+        container.innerHTML = `<div class="empty-state"><p>${searchQuery ? '검색 결과가 없습니다 · No results' : '데이터 없음 · No data'}</p></div>`;
+        return;
+      }
+
+      container.innerHTML = items.map(entry => {
+        const { ko, en } = getDisplayNames(entry);
+        const meta = getMetaLine(entry);
+        const typeLabel = activeTab === 'all' ? getEntityLabel(entry.id) : '';
+        return `
+          <div class="entry-row" data-id="${entry.id}">
+            <div>
+              <div class="entry-ko">${esc(ko)}${typeLabel ? ` <span class="entry-type-badge">${esc(typeLabel)}</span>` : ''}</div>
+              ${meta ? `<div class="entry-meta">${esc(meta)}</div>` : ''}
+            </div>
+            <div class="entry-en">${esc(en)}</div>
+          </div>`;
+      }).join('');
+
+      container.querySelectorAll('.entry-row').forEach(row => {
+        row.addEventListener('click', () => openDetail(row.dataset.id));
+      });
+    }
+
+    // Display name helpers
+    function getDisplayNames(entry) {
+      if (entry.name) {
+        // person or org
+        const ko = typeof entry.name.ko === 'object' ? entry.name.ko.full : entry.name.ko;
+        const en = entry.name.latn ? entry.name.latn.preferred : (entry.name.en || '');
+        return { ko, en };
+      }
+      if (entry.title) {
+        return { ko: entry.title.ko || '', en: entry.title.en || '' };
+      }
+      if (entry.term) {
+        const ko = entry.term.ko || '';
+        const en = entry.term.en ? entry.term.en.preferred : '';
+        return { ko, en };
+      }
+      return { ko: entry.id, en: '' };
+    }
+
+    // AAT ID → 사람이 읽을 수 있는 레이블 (주요 ID만)
+    const AAT_LABELS = {
+      '300266309': 'biennale',
+      '300449166': 'group',
+      '300449167': 'solo',
+      '300312281': 'museum',
+      '300192556': 'alternative space',
+      '300055769': 'movement',
+      '300026096': 'exhibition catalogue',
+      '300060417': 'monograph',
+      '300026657': 'periodical',
+      '300025103': 'artist',
+      '300025633': 'curator',
+      '300025519': 'critic',
+    };
+
+    function aatLabel(obj) {
+      if (!obj || typeof obj !== 'object') return '';
+      const id = obj.aat;
+      return AAT_LABELS[id] || `AAT:${id}`;
+    }
+
+    function aatTag(obj, cssClass) {
+      if (!obj || typeof obj !== 'object' || !obj.aat) return '';
+      const label = AAT_LABELS[obj.aat] || obj.aat;
+      const url = 'http://vocab.getty.edu/page/aat/' + obj.aat;
+      return `<span class="detail-tag ${cssClass}">${esc(label)} <span class="aat-code"><a href="${url}" target="_blank" rel="noopener">AAT:${esc(obj.aat)}</a></span></span>`;
+    }
+
+    // 모든 엔티티 공통 authority 필드 4개
+    const AUTH_FIELDS = ['ulan', 'wikidata', 'viaf', 'aaa'];
+
+    const AUTH_FIELD_CONFIG = {
+      ulan:     { label: 'Getty ULAN', home: 'https://www.getty.edu/research/tools/vocabularies/ulan/', url: id => 'http://vocab.getty.edu/page/ulan/' + id },
+      wikidata: { label: 'Wikidata',   home: 'https://www.wikidata.org/',                              url: id => 'https://www.wikidata.org/wiki/' + id },
+      viaf:     { label: 'VIAF',       home: 'https://viaf.org/',                                      url: id => 'https://viaf.org/viaf/' + id },
+      aaa:      { label: 'AAA',        home: 'https://aaa.org.hk/',                                    url: id => 'https://aaa.org.hk/en/collections/search/archive/' + id },
+    };
+
+    function renderExternalIds(entry) {
+      const ids = entry.external_ids || {};
+      const rows = AUTH_FIELDS.map(key => {
+        const cfg = AUTH_FIELD_CONFIG[key];
+        const val = ids[key];
+        const labelHtml = `<a href="${cfg.home}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;border-bottom:1px dotted #aaa">${cfg.label}</a>`;
+        let valueHtml;
+        if (val) {
+          valueHtml = `<a href="${cfg.url(val)}" target="_blank" rel="noopener">${esc(val)}</a>`;
+        } else {
+          valueHtml = '<span style="color:#ccc">n/a</span>';
+        }
+        return `<div class="ext-id-row"><span class="ext-id-label">${labelHtml}</span><span class="ext-id-value">${valueHtml}</span></div>`;
+      });
+
+      return `<div class="detail-section"><h3>Authority IDs</h3>${rows.join('')}</div>`;
+    }
+
+    function getMetaLine(entry) {
+      const parts = [];
+      if (entry.birth_year) {
+        let yearStr = `b. ${entry.birth_year}`;
+        if (entry.death_year) yearStr += ` — d. ${entry.death_year}`;
+        parts.push(yearStr);
+      }
+      if (entry.type && typeof entry.type === 'object') parts.push(aatLabel(entry.type));
+      else if (entry.type && typeof entry.type === 'string') parts.push(entry.type);
+      if (entry.dates) {
+        if (entry.dates.year) parts.push(String(entry.dates.year));
+        else if (entry.dates.start) parts.push(entry.dates.start.slice(0, 4));
+      }
+      if (entry.venue) parts.push(entry.venue);
+      if (entry.category && typeof entry.category === 'object') parts.push(aatLabel(entry.category));
+      else if (entry.category && typeof entry.category === 'string') parts.push(entry.category);
+      if (entry.location) parts.push([entry.location.city, entry.location.country].filter(Boolean).join(', '));
+      return parts.join(' · ');
+    }
+
+    // Detail Panel
+    function openDetail(id) {
+      const entry = findEntry(id);
+      if (!entry) return;
+
+      location.hash = id;
+      const panel = document.getElementById('detailPanel');
+      panel.innerHTML = renderDetail(entry);
+      document.getElementById('detailOverlay').classList.add('open');
+
+      // Wire up ref links inside detail
+      panel.querySelectorAll('.ref-link').forEach(link => {
+        link.addEventListener('click', e => {
+          e.preventDefault();
+          openDetail(link.dataset.ref);
+        });
+      });
+    }
+
+    function closeDetail() {
+      document.getElementById('detailOverlay').classList.remove('open');
+      history.replaceState(null, '', location.pathname + location.search);
+    }
+
+    function openFromHash(hash) {
+      const id = hash.replace('#', '');
+      if (id && findEntry(id)) openDetail(id);
+    }
+
+    function findEntry(id) {
+      for (const arr of Object.values(data)) {
+        const found = arr.find(e => e.id === id);
+        if (found) return found;
+      }
+      return null;
+    }
+
+    // Detail rendering
+    function renderDetail(entry) {
+      const { ko, en } = getDisplayNames(entry);
+      let html = `<button class="detail-close" onclick="closeDetail()">&times;</button>`;
+      html += `<div class="detail-title-ko">${esc(ko)}</div>`;
+      if (en) html += `<div class="detail-title-en">${esc(en)}</div>`;
+
+      // Status tag
+      const status = entry.status || 'draft';
+      html += `<span class="detail-tag tag-status-${status}">${status}</span> `;
+
+      // --- Person ---
+      if (entry.id.startsWith('person.')) {
+        html += `<div class="detail-section" style="margin-top:20px"><h3>Name Details</h3>`;
+        html += field('한국어', entry.name.ko.full);
+        if (entry.name.ko.hanja) html += field('한자', entry.name.ko.hanja);
+        html += field('Family', entry.name.ko.family + ' / ' + entry.name.latn.family);
+        html += field('Given', entry.name.ko.given + ' / ' + entry.name.latn.given);
+        html += field('Preferred', entry.name.latn.preferred);
+        if (entry.birth_year) html += field('Born', entry.birth_year);
+        html += `</div>`;
+
+        // Name forms observed in sources
+        if (entry.sources && entry.sources.length > 1) {
+          const forms = [...new Set(entry.sources.map(s => s.name_used))];
+          if (forms.length > 1) {
+            html += `<div class="detail-section"><h3>Name Forms in Sources</h3>`;
+            entry.sources.forEach(s => {
+              const domain = s.url.replace(/https?:\/\/(www\.)?/, '').split('/')[0];
+              html += `<div class="variant-item">`;
+              html += `<span class="variant-form">${esc(s.name_used)}</span>`;
+              html += `<a class="variant-source" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(domain)}</a>`;
+              if (s.note) html += ` <span class="variant-note">${esc(s.note)}</span>`;
+              html += `</div>`;
+            });
+            html += `</div>`;
+          }
+        }
+
+        // Roles with AAT IDs
+        if (entry.role && entry.role.length) {
+          html += `<div class="detail-section"><h3>Roles</h3>`;
+          entry.role.forEach(r => {
+            if (r.aat) {
+              html += aatTag(r, 'tag-type') + ' ';
+            }
+          });
+          html += `</div>`;
+        }
+      }
+
+      // --- Exhibition ---
+      if (entry.id.startsWith('exhibition.')) {
+        if (entry.type) html += aatTag(entry.type, 'tag-type');
+
+        html += `<div class="detail-section" style="margin-top:20px"><h3>Details</h3>`;
+        if (entry.venue) html += field('Venue', entry.venue);
+        if (entry.city) html += field('City', entry.city);
+        if (entry.dates) {
+          if (entry.dates.start && entry.dates.end) {
+            html += field('Dates', `${entry.dates.start} — ${entry.dates.end}`);
+          } else if (entry.dates.year) {
+            html += field('Year', entry.dates.year);
+          }
+        }
+        if (entry.organizer) html += field('Organizer', entry.organizer);
+        html += `</div>`;
+
+        if (entry.title.variants && entry.title.variants.length) {
+          html += `<div class="detail-section"><h3>Title Variants</h3>`;
+          entry.title.variants.forEach(v => {
+            if (typeof v === 'string') {
+              html += `<div style="font-size:0.875rem;margin-bottom:4px;color:#555">${esc(v)}</div>`;
+            } else {
+              html += `<div class="variant-item">`;
+              html += `<span class="variant-form">${esc(v.form)}</span>`;
+              const meta = [v.lang, v.script, v.type].filter(Boolean).join(' · ');
+              if (meta) html += ` <span class="variant-note">${esc(meta)}</span>`;
+              if (v.source) html += ` <span class="variant-note">— ${esc(v.source)}</span>`;
+              html += `</div>`;
+            }
+          });
+          html += `</div>`;
+        }
+
+        if (entry.participants && entry.participants.length) {
+          html += `<div class="detail-section"><h3>Participants</h3>`;
+          entry.participants.forEach(pid => {
+            const p = findEntry(pid);
+            const name = p ? getDisplayNames(p).ko + ' ' + getDisplayNames(p).en : pid;
+            html += `<div style="margin-bottom:4px"><a class="ref-link" data-ref="${pid}" href="#">${esc(name)}</a></div>`;
+          });
+          html += `</div>`;
+        }
+      }
+
+      // --- Organization ---
+      if (entry.id.startsWith('org.')) {
+        if (entry.type) html += aatTag(entry.type, 'tag-type');
+
+        html += `<div class="detail-section" style="margin-top:20px"><h3>Details</h3>`;
+        if (entry.name.hanja) html += field('Hanja', entry.name.hanja);
+        if (entry.location) html += field('Location', [entry.location.city, entry.location.country].filter(Boolean).join(', '));
+        if (entry.period) {
+          const pStr = entry.period.start + (entry.period.end ? ` — ${entry.period.end}` : entry.period.active ? ' — present' : '');
+          html += field('Period', pStr);
+        }
+        html += `</div>`;
+      }
+
+      // --- Term ---
+      if (entry.id.startsWith('term.')) {
+        if (entry.category) html += aatTag(entry.category, 'tag-category');
+
+        html += `<div class="detail-section" style="margin-top:20px"><h3>Translation</h3>`;
+        if (entry.term.en) {
+          html += field('Preferred', entry.term.en.preferred);
+          if (entry.term.en.type) html += field('Type', entry.term.en.type);
+        }
+        if (entry.term.hanja) html += field('Hanja', entry.term.hanja);
+        html += `</div>`;
+
+        // Term variants
+        if (entry.term.variants && entry.term.variants.length) {
+          html += `<div class="detail-section"><h3>Variants</h3>`;
+          entry.term.variants.forEach(v => {
+            html += `<div class="variant-item">`;
+            html += `<span class="variant-form">${esc(v.form)}</span>`;
+            const meta = [v.lang, v.script, v.type].filter(Boolean).join(' · ');
+            if (meta) html += ` <span class="variant-note">${esc(meta)}</span>`;
+            if (v.source) html += ` <span class="variant-note">— ${esc(v.source)}</span>`;
+            html += `</div>`;
+          });
+          html += `</div>`;
+        }
+
+        if (entry.definition) {
+          html += `<div class="detail-section"><h3>Definition</h3>`;
+          if (entry.definition.ko) html += `<p style="font-size:0.875rem;margin-bottom:8px;color:#333">${esc(entry.definition.ko)}</p>`;
+          if (entry.definition.en) html += `<p style="font-size:0.875rem;color:#555">${esc(entry.definition.en)}</p>`;
+          html += `</div>`;
+        }
+
+        if (entry.period) {
+          html += `<div class="detail-section"><h3>Period</h3>`;
+          html += `<p style="font-size:0.875rem;color:#333">${entry.period.start}${entry.period.end ? ' — ' + entry.period.end : ''}</p>`;
+          html += `</div>`;
+        }
+      }
+
+      // --- Authority IDs (all entity types) ---
+      html += renderExternalIds(entry);
+
+      // --- Related ---
+      if (entry.related && entry.related.length) {
+        html += `<div class="detail-section"><h3>Related</h3>`;
+        entry.related.forEach(rid => {
+          const r = findEntry(rid);
+          const name = r ? getDisplayNames(r).ko : rid;
+          html += `<div style="margin-bottom:4px"><a class="ref-link" data-ref="${rid}" href="#">${esc(name)}</a></div>`;
+        });
+        html += `</div>`;
+      }
+
+      // --- Notes ---
+      if (entry.notes) {
+        html += `<div class="detail-section"><h3>Notes</h3>`;
+        html += `<p style="font-size:0.85rem;color:#666;font-style:italic">${esc(entry.notes)}</p>`;
+        html += `</div>`;
+      }
+
+      // --- Sources ---
+      html += `<div class="detail-section"><h3>Sources</h3>`;
+      (entry.sources || []).forEach(src => {
+        if (typeof src === 'string') {
+          html += `<div class="source-item"><a href="${esc(src)}" target="_blank" rel="noopener">${esc(src)}</a></div>`;
+        } else {
+          html += `<div class="source-item">`;
+          html += `<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.url)}</a>`;
+          if (src.name_used) html += `<br><span class="source-name-used">${esc(src.name_used)}</span>`;
+          if (src.note) html += `<br><span class="source-note">${esc(src.note)}</span>`;
+          html += `</div>`;
+        }
+      });
+      html += `</div>`;
+
+      return html;
+    }
+
+    // Helpers
+    function field(label, value) {
+      return `<div class="detail-field"><span class="label">${esc(String(label))}</span><span class="value">${esc(String(value))}</span></div>`;
+    }
+
+    function esc(str) {
+      const el = document.createElement('span');
+      el.textContent = str;
+      return el.innerHTML;
+    }
+
+    init();
+  </script>
 </body>
 </html>
