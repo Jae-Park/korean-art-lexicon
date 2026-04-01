@@ -1,0 +1,23 @@
+id: org.kukje-gallery
+name:
+  ko: 국제갤러리
+  en: Kukje Gallery
+type:
+  aat: '300417122'
+location:
+  city: Seoul
+  country: KR
+period:
+  start: 1982
+  active: true
+sources:
+- url: https://www.kukjegallery.com/about/seoul_gallery
+  name_used: Kukje Gallery
+  note: "official website — 1982 이현숙 설립(인사동), 1987 소격동 이전 확인. 인용: 'initially founded in Seoul's Insa-dong by chairman Hyun-Sook Lee in 1982, relocated in 1987 to its iconic K1 building in the heart of Sogyeok-dong'"
+  accessed: '2026-04-02'
+- url: https://www.kukjegallery.com/
+  name_used: Kukje Gallery
+  note: official website — 주소 54 Samcheong-ro, Jongno-gu, Seoul (03053) 및 부산 F1963 분관 확인
+  accessed: '2026-04-01'
+status: pending_review
+notes: "1982년 이현숙 설립, 인사동 → 1987년 소격동(삼청로) 이전. 부산 F1963 분관 운영 중. type.aat 300417122(art galleries, commercial) 검증 필요."

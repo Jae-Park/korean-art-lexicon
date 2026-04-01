@@ -1,0 +1,29 @@
+id: org.art-sonje-center
+name:
+  ko: 아트선재센터
+  en: Art Sonje Center
+type:
+  aat: '300312281'
+location:
+  city: Seoul
+  country: KR
+period:
+  start: 1998
+  active: true
+external_ids:
+  wikidata: Q4801558
+sources:
+- url: https://artsonje.org/en/
+  name_used: Art Sonje Center
+  note: official website — 주소 87 Yulgok-ro 3-gil, Jongno-gu, Seoul 확인
+  accessed: '2026-04-01'
+- url: https://en.wikipedia.org/wiki/Art_Sonje_Center
+  name_used: Art Sonje Center
+  note: 창립 1998년, Wikidata Q4801558, 소케익동 43 감고당길 주소 확인
+  accessed: '2026-04-01'
+- url: https://ocula.com/institutions/art-sonje-center/
+  name_used: Art Sonje Center
+  note: 전시 아카이브 및 기관 설명 (봇 차단으로 직접 접근 불가, URL 생존 확인됨)
+  accessed: '2026-04-01'
+status: pending_review
+notes: 사립 현대미술관. 종로구 소재. 국제 현대미술 전시·퍼포먼스·교육 중심. 김종성 설계 건물.

@@ -1,0 +1,34 @@
+id: org.sema
+name:
+  ko: 서울시립미술관
+  en: Seoul Museum of Art
+  variants:
+  - form: SeMA
+    lang: en
+    script: Latn
+    type: abbreviation
+    source: Seoul Museum of Art official website
+    accessed: '2026-04-01'
+type:
+  aat: '300312281'
+location:
+  city: Seoul
+  country: KR
+period:
+  start: 1988
+  active: true
+external_ids:
+  wikidata: Q7451676
+related:
+- org.mmca
+sources:
+- url: https://sema.seoul.go.kr/en/index
+  name_used: Seoul Museum of Art
+  note: official website — 컬렉션 6,310점, 주소 61 Deoksugung-gil, Jung-gu 확인
+  accessed: '2026-04-01'
+- url: https://en.wikipedia.org/wiki/Seoul_Museum_of_Art
+  name_used: Seoul Museum of Art
+  note: 창립 연도 1988년 8월 19일, Wikidata Q7451676 확인
+  accessed: '2026-04-01'
+status: pending_review
+notes: 서울특별시 운영 공립미술관. 서소문 본관 외 북서울·남서울·서울(신미디어)·사진·아카이브 등 분관 다수. 컬렉션 6,310점.

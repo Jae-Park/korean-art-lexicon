@@ -1,0 +1,43 @@
+id: term.minjung-misul
+term:
+  ko: 민중미술
+  en:
+    preferred: Minjung Art
+    type: transliteration
+  hanja: 民衆美術
+  variants:
+  - form: minjung misul
+    lang: ko
+    script: Latn
+    type: transliteration
+    romanization: revised
+    source: Wikipedia (Minjung art)
+    accessed: '2026-04-01'
+  - form: People's Art
+    lang: en
+    script: Latn
+    type: literal
+    source: Tate (art-terms/m/minjung-art)
+    accessed: '2026-04-01'
+category:
+  aat: '300055769'
+definition:
+  ko: 1980년 광주 항쟁을 계기로 본격화된 한국의 사회참여 미술 운동. 민주화 운동과 연대하며 노동자·민중의 삶을 형상화했고, 판화·걸개그림·만화 등 재생산 가능한 매체를 즐겨 사용했다. 서구 형식주의에 반대하고 한국의 전통 시각문화를 계승하려 했다.
+  en: A South Korean socio-political art movement that intensified following the 1980 Gwangju Uprising. Artists aligned with the democratization movement, depicting the lives of workers and ordinary people, and favored reproducible media such as woodblock prints, banners, and pamphlets. The movement consciously rejected Western formalism in favor of distinctly Korean visual traditions.
+period:
+  start: 1980
+external_ids:
+  wikidata: Q6867771
+related:
+- org.gwangju-biennale
+sources:
+- url: https://en.wikipedia.org/wiki/Minjung_art
+  name_used: Minjung art
+  note: "민중미술 개요, 시기, 주요 특징, Wikidata Q6867771 확인"
+  accessed: '2026-04-01'
+- url: https://www.tate.org.uk/art/art-terms/m/minjung-art
+  name_used: Minjung art
+  note: Tate 미술용어 사전 — 1980 광주항쟁 계기, 집단 행동·민주적 이상 강조, 1990년대 초 해산 확인
+  accessed: '2026-04-01'
+status: pending_review
+notes: 운동 종료 시점은 1990년대 초로 기술되나 정확한 연도 미확인 — period.end 미입력.

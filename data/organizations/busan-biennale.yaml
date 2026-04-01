@@ -1,0 +1,46 @@
+id: org.busan-biennale
+name:
+  ko: (사)부산비엔날레조직위원회
+  en: Busan Biennale Organizing Committee
+  variants:
+  - form: 부산비엔날레조직위원회
+    lang: ko
+    script: Hang
+    type: alternate
+    source: GOKAMS 국내DB
+    accessed: '2026-04-02'
+  - form: 부산비엔날레
+    lang: ko
+    script: Hang
+    type: abbreviation
+    source: GOKAMS 국내DB
+    accessed: '2026-04-02'
+  - form: Busan Biennale
+    lang: en
+    script: Latn
+    type: abbreviation
+    source: Wikipedia (Busan Biennale)
+    accessed: '2026-04-01'
+type:
+  aat: '300266309'
+location:
+  city: Busan
+  country: KR
+period:
+  start: 1999
+  active: true
+external_ids:
+  wikidata: Q16184623
+related:
+- org.gwangju-biennale
+sources:
+- url: https://www.gokams.or.kr/05_know/internaldb8_view.aspx?Idx=36286
+  name_used: (사)부산비엔날레조직위원회
+  note: GOKAMS 국내DB — 사단법인, 설립 1999년, 주소(부산시 연제구 아시아드주경기장 38호) 확인
+  accessed: '2026-04-02'
+- url: https://en.wikipedia.org/wiki/Busan_Biennale
+  name_used: Busan Biennale
+  note: 행사 출범 1998년, Wikidata Q16184623, 전신 3개 행사(부산청년비엔날레 1981·바다미술제 1987·야외조각심포지엄 1991) 확인
+  accessed: '2026-04-01'
+status: pending_review
+notes: "사단법인. 부산비엔날레 행사(1998 출범)를 운영하는 법인은 1999년 설립. 광주비엔날레재단(재단법인)과 달리 사단법인 형태. 공식 사이트(busanbiennale.org) SSL 오류로 직접 접근 불가."

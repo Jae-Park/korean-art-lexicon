@@ -2613,6 +2613,279 @@
   ],
   "organizations": [
     {
+      "id": "org.arko-art-center",
+      "name": {
+        "ko": "아르코미술관",
+        "en": "ARKO Art Center",
+        "variants": [
+          {
+            "form": "한국문화예술위원회 아르코미술관",
+            "lang": "ko",
+            "script": "Hang",
+            "type": "alternate",
+            "source": "한국문화예술위원회 공식 웹사이트",
+            "accessed": "2026-04-01"
+          },
+          {
+            "form": "마로니에미술관",
+            "lang": "ko",
+            "script": "Hang",
+            "type": "former",
+            "source": "아르코미술관 50주년 공식 게시글",
+            "accessed": "2026-04-01"
+          },
+          {
+            "form": "미술회관",
+            "lang": "ko",
+            "script": "Hang",
+            "type": "former",
+            "source": "아르코미술관 50주년 공식 게시글",
+            "accessed": "2026-04-01"
+          }
+        ]
+      },
+      "type": {
+        "aat": "300312281"
+      },
+      "location": {
+        "city": "Seoul",
+        "country": "KR"
+      },
+      "period": {
+        "start": 1974,
+        "active": true
+      },
+      "related": [
+        "org.mmca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.arko.or.kr/artcenter/introduce.do",
+          "name_used": "아르코미술관",
+          "note": "official website — 소개 페이지. 주소 동숭길 3, 종로구 확인",
+          "accessed": "2026-04-01"
+        },
+        {
+          "url": "https://www.arko.or.kr/artcenter/location.do",
+          "name_used": "아르코미술관",
+          "note": "위치 페이지 — 서울 종로구 동숭길 3 확인",
+          "accessed": "2026-04-01"
+        },
+        {
+          "url": "https://www.arko.or.kr/board/view/4057?cid=1807502",
+          "name_used": "아르코미술관",
+          "note": "아르코미술관 50주년 공식 게시글 — 1974 관훈동 개관, 1979 동숭동 이전, 2002 마로니에미술관, 2005 아르코미술관 개칭 확인",
+          "accessed": "2026-04-01"
+        },
+        {
+          "url": "https://www.arko.or.kr/eng/index",
+          "name_used": "ARKO Arts Center",
+          "note": "Arts Council Korea 영문 공식 사이트 — 산하기관으로 언급",
+          "accessed": "2026-04-01"
+        }
+      ],
+      "status": "pending_review",
+      "notes": "한국문화예술위원회(Arts Council Korea) 산하 공공미술관. 서울 대학로 소재. 1974년 종로구 관훈동 미술회관으로 개관 → 1979년 김수근 설계 동숭동 마로니에 공원 건물 이전 → 2002년 마로니에미술관 → 2005년 현 명칭. 50년간 약 2,000회 전시 개최."
+    },
+    {
+      "id": "org.art-sonje-center",
+      "name": {
+        "ko": "아트선재센터",
+        "en": "Art Sonje Center"
+      },
+      "type": {
+        "aat": "300312281"
+      },
+      "location": {
+        "city": "Seoul",
+        "country": "KR"
+      },
+      "period": {
+        "start": 1998,
+        "active": true
+      },
+      "external_ids": {
+        "wikidata": "Q4801558"
+      },
+      "sources": [
+        {
+          "url": "https://artsonje.org/en/",
+          "name_used": "Art Sonje Center",
+          "note": "official website — 주소 87 Yulgok-ro 3-gil, Jongno-gu, Seoul 확인",
+          "accessed": "2026-04-01"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Art_Sonje_Center",
+          "name_used": "Art Sonje Center",
+          "note": "창립 1998년, Wikidata Q4801558, 소케익동 43 감고당길 주소 확인",
+          "accessed": "2026-04-01"
+        },
+        {
+          "url": "https://ocula.com/institutions/art-sonje-center/",
+          "name_used": "Art Sonje Center",
+          "note": "전시 아카이브 및 기관 설명 (봇 차단으로 직접 접근 불가, URL 생존 확인됨)",
+          "accessed": "2026-04-01"
+        }
+      ],
+      "status": "pending_review",
+      "notes": "사립 현대미술관. 종로구 소재. 국제 현대미술 전시·퍼포먼스·교육 중심. 김종성 설계 건물."
+    },
+    {
+      "id": "org.busan-biennale",
+      "name": {
+        "ko": "(사)부산비엔날레조직위원회",
+        "en": "Busan Biennale Organizing Committee",
+        "variants": [
+          {
+            "form": "부산비엔날레조직위원회",
+            "lang": "ko",
+            "script": "Hang",
+            "type": "alternate",
+            "source": "GOKAMS 국내DB",
+            "accessed": "2026-04-02"
+          },
+          {
+            "form": "부산비엔날레",
+            "lang": "ko",
+            "script": "Hang",
+            "type": "abbreviation",
+            "source": "GOKAMS 국내DB",
+            "accessed": "2026-04-02"
+          },
+          {
+            "form": "Busan Biennale",
+            "lang": "en",
+            "script": "Latn",
+            "type": "abbreviation",
+            "source": "Wikipedia (Busan Biennale)",
+            "accessed": "2026-04-01"
+          }
+        ]
+      },
+      "type": {
+        "aat": "300266309"
+      },
+      "location": {
+        "city": "Busan",
+        "country": "KR"
+      },
+      "period": {
+        "start": 1999,
+        "active": true
+      },
+      "external_ids": {
+        "wikidata": "Q16184623"
+      },
+      "related": [
+        "org.gwangju-biennale"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gokams.or.kr/05_know/internaldb8_view.aspx?Idx=36286",
+          "name_used": "(사)부산비엔날레조직위원회",
+          "note": "GOKAMS 국내DB — 사단법인, 설립 1999년, 주소(부산시 연제구 아시아드주경기장 38호) 확인",
+          "accessed": "2026-04-02"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Busan_Biennale",
+          "name_used": "Busan Biennale",
+          "note": "행사 출범 1998년, Wikidata Q16184623, 전신 3개 행사(부산청년비엔날레 1981·바다미술제 1987·야외조각심포지엄 1991) 확인",
+          "accessed": "2026-04-01"
+        }
+      ],
+      "status": "pending_review",
+      "notes": "사단법인. 부산비엔날레 행사(1998 출범)를 운영하는 법인은 1999년 설립. 광주비엔날레재단(재단법인)과 달리 사단법인 형태. 공식 사이트(busanbiennale.org) SSL 오류로 직접 접근 불가."
+    },
+    {
+      "id": "org.gwangju-biennale",
+      "name": {
+        "ko": "광주비엔날레재단",
+        "en": "Gwangju Biennale Foundation",
+        "variants": [
+          {
+            "form": "광주비엔날레",
+            "lang": "ko",
+            "script": "Hang",
+            "type": "abbreviation",
+            "source": "광주비엔날레 공식 웹사이트",
+            "accessed": "2026-04-01"
+          },
+          {
+            "form": "Gwangju Biennale",
+            "lang": "en",
+            "script": "Latn",
+            "type": "abbreviation",
+            "source": "Gwangju Biennale official website",
+            "accessed": "2026-04-01"
+          }
+        ]
+      },
+      "type": {
+        "aat": "300266309"
+      },
+      "location": {
+        "city": "Gwangju",
+        "country": "KR"
+      },
+      "period": {
+        "start": 1995,
+        "active": true
+      },
+      "external_ids": {
+        "wikidata": "Q484487"
+      },
+      "sources": [
+        {
+          "url": "https://gwangjubiennale.org/en/index.do",
+          "name_used": "Gwangju Biennale Foundation",
+          "note": "official website",
+          "accessed": "2026-04-01"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gwangju_Biennale",
+          "name_used": "Gwangju Biennale",
+          "note": "창립 연도, 재단 구조, Wikidata Q484487 확인",
+          "accessed": "2026-04-01"
+        }
+      ],
+      "status": "pending_review",
+      "notes": "아시아 최초·최대 규모 국제현대미술비엔날레. 1980년 5·18민주화운동을 기념하여 설립. 광주비엔날레재단이 운영하며 광주디자인비엔날레도 관할. 주소: 61104 광주광역시 북구 비엔날레로 111. type.aat는 기관 유형(art foundation 등)으로 재검토 필요 — 현재 biennial(300266309) 사용 중."
+    },
+    {
+      "id": "org.kukje-gallery",
+      "name": {
+        "ko": "국제갤러리",
+        "en": "Kukje Gallery"
+      },
+      "type": {
+        "aat": "300417122"
+      },
+      "location": {
+        "city": "Seoul",
+        "country": "KR"
+      },
+      "period": {
+        "start": 1982,
+        "active": true
+      },
+      "sources": [
+        {
+          "url": "https://www.kukjegallery.com/about/seoul_gallery",
+          "name_used": "Kukje Gallery",
+          "note": "official website — 1982 이현숙 설립(인사동), 1987 소격동 이전 확인. 인용: 'initially founded in Seoul's Insa-dong by chairman Hyun-Sook Lee in 1982, relocated in 1987 to its iconic K1 building in the heart of Sogyeok-dong'",
+          "accessed": "2026-04-02"
+        },
+        {
+          "url": "https://www.kukjegallery.com/",
+          "name_used": "Kukje Gallery",
+          "note": "official website — 주소 54 Samcheong-ro, Jongno-gu, Seoul (03053) 및 부산 F1963 분관 확인",
+          "accessed": "2026-04-01"
+        }
+      ],
+      "status": "pending_review",
+      "notes": "1982년 이현숙 설립, 인사동 → 1987년 소격동(삼청로) 이전. 부산 F1963 분관 운영 중. type.aat 300417122(art galleries, commercial) 검증 필요."
+    },
+    {
       "id": "org.mmca",
       "name": {
         "ko": "국립현대미술관",
@@ -2644,6 +2917,56 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "org.sema",
+      "name": {
+        "ko": "서울시립미술관",
+        "en": "Seoul Museum of Art",
+        "variants": [
+          {
+            "form": "SeMA",
+            "lang": "en",
+            "script": "Latn",
+            "type": "abbreviation",
+            "source": "Seoul Museum of Art official website",
+            "accessed": "2026-04-01"
+          }
+        ]
+      },
+      "type": {
+        "aat": "300312281"
+      },
+      "location": {
+        "city": "Seoul",
+        "country": "KR"
+      },
+      "period": {
+        "start": 1988,
+        "active": true
+      },
+      "external_ids": {
+        "wikidata": "Q7451676"
+      },
+      "related": [
+        "org.mmca"
+      ],
+      "sources": [
+        {
+          "url": "https://sema.seoul.go.kr/en/index",
+          "name_used": "Seoul Museum of Art",
+          "note": "official website — 컬렉션 6,310점, 주소 61 Deoksugung-gil, Jung-gu 확인",
+          "accessed": "2026-04-01"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Seoul_Museum_of_Art",
+          "name_used": "Seoul Museum of Art",
+          "note": "창립 연도 1988년 8월 19일, Wikidata Q7451676 확인",
+          "accessed": "2026-04-01"
+        }
+      ],
+      "status": "pending_review",
+      "notes": "서울특별시 운영 공립미술관. 서소문 본관 외 북서울·남서울·서울(신미디어)·사진·아카이브 등 분관 다수. 컬렉션 6,310점."
     },
     {
       "id": "org.takeout-drawing",
@@ -2801,6 +3124,68 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "term.minjung-misul",
+      "term": {
+        "ko": "민중미술",
+        "en": {
+          "preferred": "Minjung Art",
+          "type": "transliteration"
+        },
+        "hanja": "民衆美術",
+        "variants": [
+          {
+            "form": "minjung misul",
+            "lang": "ko",
+            "script": "Latn",
+            "type": "transliteration",
+            "romanization": "revised",
+            "source": "Wikipedia (Minjung art)",
+            "accessed": "2026-04-01"
+          },
+          {
+            "form": "People's Art",
+            "lang": "en",
+            "script": "Latn",
+            "type": "literal",
+            "source": "Tate (art-terms/m/minjung-art)",
+            "accessed": "2026-04-01"
+          }
+        ]
+      },
+      "category": {
+        "aat": "300055769"
+      },
+      "definition": {
+        "ko": "1980년 광주 항쟁을 계기로 본격화된 한국의 사회참여 미술 운동. 민주화 운동과 연대하며 노동자·민중의 삶을 형상화했고, 판화·걸개그림·만화 등 재생산 가능한 매체를 즐겨 사용했다. 서구 형식주의에 반대하고 한국의 전통 시각문화를 계승하려 했다.",
+        "en": "A South Korean socio-political art movement that intensified following the 1980 Gwangju Uprising. Artists aligned with the democratization movement, depicting the lives of workers and ordinary people, and favored reproducible media such as woodblock prints, banners, and pamphlets. The movement consciously rejected Western formalism in favor of distinctly Korean visual traditions."
+      },
+      "period": {
+        "start": 1980
+      },
+      "external_ids": {
+        "wikidata": "Q6867771"
+      },
+      "related": [
+        "org.gwangju-biennale"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Minjung_art",
+          "name_used": "Minjung art",
+          "note": "민중미술 개요, 시기, 주요 특징, Wikidata Q6867771 확인",
+          "accessed": "2026-04-01"
+        },
+        {
+          "url": "https://www.tate.org.uk/art/art-terms/m/minjung-art",
+          "name_used": "Minjung art",
+          "note": "Tate 미술용어 사전 — 1980 광주항쟁 계기, 집단 행동·민주적 이상 강조, 1990년대 초 해산 확인",
+          "accessed": "2026-04-01"
+        }
+      ],
+      "status": "pending_review",
+      "notes": "운동 종료 시점은 1990년대 초로 기술되나 정확한 연도 미확인 — period.end 미입력."
     },
     {
       "id": "term.sinseang-gonggan",

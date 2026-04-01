@@ -1,0 +1,38 @@
+id: org.gwangju-biennale
+name:
+  ko: 광주비엔날레재단
+  en: Gwangju Biennale Foundation
+  variants:
+  - form: 광주비엔날레
+    lang: ko
+    script: Hang
+    type: abbreviation
+    source: 광주비엔날레 공식 웹사이트
+    accessed: '2026-04-01'
+  - form: Gwangju Biennale
+    lang: en
+    script: Latn
+    type: abbreviation
+    source: Gwangju Biennale official website
+    accessed: '2026-04-01'
+type:
+  aat: '300266309'
+location:
+  city: Gwangju
+  country: KR
+period:
+  start: 1995
+  active: true
+external_ids:
+  wikidata: Q484487
+sources:
+- url: https://gwangjubiennale.org/en/index.do
+  name_used: Gwangju Biennale Foundation
+  note: official website
+  accessed: '2026-04-01'
+- url: https://en.wikipedia.org/wiki/Gwangju_Biennale
+  name_used: Gwangju Biennale
+  note: 창립 연도, 재단 구조, Wikidata Q484487 확인
+  accessed: '2026-04-01'
+status: pending_review
+notes: "아시아 최초·최대 규모 국제현대미술비엔날레. 1980년 5·18민주화운동을 기념하여 설립. 광주비엔날레재단이 운영하며 광주디자인비엔날레도 관할. 주소: 61104 광주광역시 북구 비엔날레로 111. type.aat는 기관 유형(art foundation 등)으로 재검토 필요 — 현재 biennial(300266309) 사용 중."
