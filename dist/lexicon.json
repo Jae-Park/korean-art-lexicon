@@ -27,8 +27,7 @@
           "note": "Kukje Gallery represented artist"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.bae-youngwhan",
@@ -62,8 +61,7 @@
           "note": "PKM Gallery 작가 약력"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.bahc-yiso",
@@ -93,8 +91,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.choe-uram",
@@ -126,8 +123,7 @@
       "status": "reviewed",
       "external_ids": {
         "wikidata": "Q7862919"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.choi-cody",
@@ -161,8 +157,7 @@
           "note": "헤럴드경제 — 2017 베니스 한국관 인터뷰"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.choi-jeonghwa",
@@ -190,8 +185,7 @@
       "external_ids": {
         "ulan": "500125325",
         "wikidata": "Q28793925"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.chung-seoyoung",
@@ -220,8 +214,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.gimhongsok",
@@ -250,8 +243,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.ha-chonghyun",
@@ -295,8 +287,7 @@
       "external_ids": {
         "ulan": "500373076",
         "wikidata": "Q23068024"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.ham-jin",
@@ -325,8 +316,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.im-heungsoon",
@@ -364,8 +354,7 @@
       "status": "reviewed",
       "external_ids": {
         "wikidata": "Q19896697"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.jeon-joonho",
@@ -403,8 +392,7 @@
       "external_ids": {
         "ulan": "500684635",
         "wikidata": "Q20010723"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.jheon-soocheon",
@@ -434,8 +422,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.joo-michael",
@@ -459,8 +446,7 @@
           "note": "universes.art — Venice Biennale 2001 Korean Pavilion"
         }
       ],
-      "status": "pending_review",
-      "_last_updated": "2026-03-31"
+      "status": "pending_review"
     },
     {
       "id": "person.jung-eunyoung",
@@ -505,8 +491,7 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.jung-yeondoo",
@@ -551,8 +536,7 @@
       "external_ids": {
         "ulan": "500474551",
         "wikidata": "Q1376674"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.kaisen-janejin",
@@ -592,8 +576,7 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.kang-ikjoong",
@@ -622,8 +605,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.kim-beom",
@@ -652,8 +634,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.kim-inkyum",
@@ -682,8 +663,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.kim-sooja",
@@ -734,8 +714,7 @@
       "external_ids": {
         "ulan": "500125591",
         "wikidata": "Q4220699"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.kim-sora",
@@ -764,8 +743,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.kim-yunchul",
@@ -809,8 +787,7 @@
           "note": "ARKO 공지 — 2022 베니스 한국관"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.koo-jeonga",
@@ -859,8 +836,7 @@
       "external_ids": {
         "ulan": "500294101",
         "wikidata": "Q16844597"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.kwak-hoon",
@@ -889,8 +865,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.lee-bul",
@@ -939,8 +914,7 @@
       "external_ids": {
         "ulan": "500125877",
         "wikidata": "Q487546"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.lee-hyungkoo",
@@ -985,8 +959,7 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.lee-hyungwoo",
@@ -1015,8 +988,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.lee-ufan",
@@ -1081,8 +1053,7 @@
       "external_ids": {
         "ulan": "500061220",
         "wikidata": "Q399775"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.lee-wan",
@@ -1122,8 +1093,7 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.lee-yongbaek",
@@ -1157,8 +1127,7 @@
           "note": "경향신문 — 2011 베니스 한국관"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.moon-kyungwon",
@@ -1195,8 +1164,7 @@
       "status": "reviewed",
       "external_ids": {
         "wikidata": "Q20010749"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.moon-sungsic",
@@ -1230,8 +1198,7 @@
           "note": "국제갤러리 대리 작가"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.nakion",
@@ -1254,8 +1221,7 @@
           "note": "AAA — Venice 2005 Korean Pavilion catalogue"
         }
       ],
-      "status": "pending_review",
-      "_last_updated": "2026-03-30"
+      "status": "pending_review"
     },
     {
       "id": "person.nam-hwayeon",
@@ -1294,8 +1260,7 @@
           "note": "아르트로 인터뷰 — 2019 베니스"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.noh-sangkyoon",
@@ -1324,8 +1289,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.oh-heinkuhn",
@@ -1365,8 +1329,7 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.park-chankyong",
@@ -1398,8 +1361,7 @@
       "status": "reviewed",
       "external_ids": {
         "wikidata": "Q109354786"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.park-kiwon",
@@ -1433,8 +1395,7 @@
           "note": "MMCA 올해의 작가 2010"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.park-sejin",
@@ -1463,8 +1424,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.park-seobo",
@@ -1525,8 +1485,7 @@
       "external_ids": {
         "ulan": "500323715",
         "wikidata": "Q4984536"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.rhii-jewyo",
@@ -1555,8 +1514,7 @@
           "note": "바라캇 컨템포러리 작가 페이지"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.suh-doho",
@@ -1585,8 +1543,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.sung-nakhee",
@@ -1616,8 +1573,7 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "pending_review",
-      "_last_updated": "2026-03-31"
+      "status": "pending_review"
     },
     {
       "id": "person.whang-inkie",
@@ -1646,8 +1602,7 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "person.yang-haegue",
@@ -1702,8 +1657,7 @@
       "external_ids": {
         "ulan": "500355927",
         "wikidata": "Q1567689"
-      },
-      "_last_updated": "2026-03-31"
+      }
     },
     {
       "id": "person.yun-hyongkeun",
@@ -1739,8 +1693,7 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     }
   ],
   "exhibitions": [
@@ -1768,8 +1721,7 @@
           "note": "Wikipedia — 1995 inaugural edition"
         }
       ],
-      "status": "pending_review",
-      "_last_updated": "2026-03-31"
+      "status": "pending_review"
     },
     {
       "id": "exhibition.korean-pavilion-venice-1997",
@@ -1793,8 +1745,7 @@
           "note": "Wikipedia — Kang Ik-Joong received Honorable Mention"
         }
       ],
-      "status": "pending_review",
-      "_last_updated": "2026-03-31"
+      "status": "pending_review"
     },
     {
       "id": "exhibition.korean-pavilion-venice-1999",
@@ -1823,8 +1774,7 @@
           "note": "Asia Art Archive catalogue record"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2001",
@@ -1853,8 +1803,7 @@
           "note": "universes.art pavilion page"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2003",
@@ -1885,8 +1834,7 @@
           "note": "Wikipedia"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2005",
@@ -1929,8 +1877,7 @@
           "note": "Wikipedia"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2007",
@@ -1959,8 +1906,7 @@
           "note": "Designboom — note reversed name order"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2009",
@@ -1993,8 +1939,7 @@
           "note": "ARKO 공식 페이지 — 한국어 제목 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2011",
@@ -2027,8 +1972,7 @@
           "note": "SeMA — 한국어 제목 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2013",
@@ -2061,8 +2005,7 @@
           "note": "theartro — 한국어 제목 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2015",
@@ -2096,8 +2039,7 @@
           "note": "뉴스1 — 한국어 제목 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2017",
@@ -2131,8 +2073,7 @@
           "note": "artinpost — 한국어 제목(음차) 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2019",
@@ -2163,8 +2104,7 @@
           "note": "e-flux announcement"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2022",
@@ -2202,8 +2142,7 @@
           "note": "ARKO 보도자료 — 한국어 제목 확인"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2024",
@@ -2251,8 +2190,7 @@
         }
       ],
       "status": "reviewed",
-      "notes": "60th Venice Biennale, 30th anniversary of Korean Pavilion. Curated by Seolhui Lee and Jacob Fabricius.",
-      "_last_updated": "2026-03-31"
+      "notes": "60th Venice Biennale, 30th anniversary of Korean Pavilion. Curated by Seolhui Lee and Jacob Fabricius."
     },
     {
       "id": "exhibition.mmca-hyundai-2014",
@@ -2284,8 +2222,7 @@
           "note": "e-flux announcement — title: 'MMCA Hyundai Motor series 2014: Lee Bul'"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2015",
@@ -2322,8 +2259,7 @@
           "note": "TimeOut Seoul — hyphenated romanization 'Ahn Kyu-chul'"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2016",
@@ -2355,8 +2291,7 @@
           "note": "Hyundai Newsroom — artist name all caps, English subtitle 'Archive of Mind'"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2017",
@@ -2393,8 +2328,7 @@
           "note": "Hyundai Artlab — family name capitalized 'IM'"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2018",
@@ -2431,8 +2365,7 @@
           "note": "MMCA English page — 'Blooming Matrix', one-word name"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2019",
@@ -2464,8 +2397,7 @@
           "note": "e-flux — English title 'Gathering'"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2020",
@@ -2497,8 +2429,7 @@
           "note": "e-flux — 'O2 & H2O'"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2021",
@@ -2536,8 +2467,7 @@
           "note": "Ocula feature"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2022",
@@ -2569,8 +2499,7 @@
           "note": "e-flux — 'Little Ark'"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "exhibition.mmca-hyundai-2023",
@@ -2607,8 +2536,7 @@
           "note": "ArtReview — given-family order 'Yeondoo Jung'"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     }
   ],
   "organizations": [
@@ -2915,8 +2843,7 @@
           "note": "연혁 페이지"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "org.sema",
@@ -3002,8 +2929,7 @@
         }
       ],
       "status": "pending_review",
-      "notes": "Representative sinseang gonggan, founded by artists",
-      "_last_updated": "2026-03-31"
+      "notes": "Representative sinseang gonggan, founded by artists"
     }
   ],
   "terms": [
@@ -3057,8 +2983,7 @@
           "note": "Asia Art Archive — SSamzie Space 2008 publication, 1세대(1999-2008) 대안공간 연구"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "term.dansaekhwa",
@@ -3122,8 +3047,7 @@
           "note": "Third Text Vol.27 No.2 (2013), Joan Kee — academic article"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     },
     {
       "id": "term.minjung-misul",
@@ -3240,9 +3164,7 @@
           "note": "월간미술 — '2023년의 화려하고 불길한 전개', 신생공간/콜렉티브 비평적 결산"
         }
       ],
-      "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "status": "reviewed"
     }
-  ],
-  "publications": []
+  ]
 }
