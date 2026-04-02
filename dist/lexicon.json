@@ -28,7 +28,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.bae-youngwhan",
@@ -63,7 +63,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.bahc-yiso",
@@ -94,7 +94,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.choe-uram",
@@ -127,7 +127,7 @@
       "external_ids": {
         "wikidata": "Q7862919"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.choi-cody",
@@ -162,7 +162,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.choi-jeonghwa",
@@ -191,7 +191,7 @@
         "ulan": "500125325",
         "wikidata": "Q28793925"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.chung-seoyoung",
@@ -221,7 +221,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.gimhongsok",
@@ -251,7 +251,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.ha-chonghyun",
@@ -296,7 +296,7 @@
         "ulan": "500373076",
         "wikidata": "Q23068024"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.ham-jin",
@@ -326,7 +326,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.im-heungsoon",
@@ -365,7 +365,7 @@
       "external_ids": {
         "wikidata": "Q19896697"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.jeon-joonho",
@@ -404,7 +404,7 @@
         "ulan": "500684635",
         "wikidata": "Q20010723"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.jheon-soocheon",
@@ -435,7 +435,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.joo-michael",
@@ -460,7 +460,7 @@
         }
       ],
       "status": "pending_review",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.jung-eunyoung",
@@ -506,7 +506,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.jung-yeondoo",
@@ -552,7 +552,7 @@
         "ulan": "500474551",
         "wikidata": "Q1376674"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.kaisen-janejin",
@@ -593,7 +593,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.kang-ikjoong",
@@ -623,7 +623,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.kim-beom",
@@ -653,7 +653,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.kim-inkyum",
@@ -683,7 +683,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.kim-sooja",
@@ -735,7 +735,7 @@
         "ulan": "500125591",
         "wikidata": "Q4220699"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.kim-sora",
@@ -765,7 +765,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.kim-yun-shin",
@@ -809,7 +809,8 @@
         }
       ],
       "status": "reviewed",
-      "notes": "Korea's first-generation woman sculptor; lives and works between Argentina and Korea."
+      "notes": "Korea's first-generation woman sculptor; lives and works between Argentina and Korea.",
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.kim-yunchul",
@@ -854,7 +855,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.koo-jeonga",
@@ -904,7 +905,7 @@
         "ulan": "500294101",
         "wikidata": "Q16844597"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.kwak-hoon",
@@ -934,7 +935,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.lee-bul",
@@ -984,7 +985,7 @@
         "ulan": "500125877",
         "wikidata": "Q487546"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.lee-hyungkoo",
@@ -1030,7 +1031,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.lee-hyungwoo",
@@ -1060,7 +1061,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.lee-ufan",
@@ -1126,7 +1127,7 @@
         "ulan": "500061220",
         "wikidata": "Q399775"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.lee-wan",
@@ -1167,7 +1168,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.lee-yongbaek",
@@ -1202,7 +1203,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.moon-kyungwon",
@@ -1240,7 +1241,7 @@
       "external_ids": {
         "wikidata": "Q20010749"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.moon-sungsic",
@@ -1275,7 +1276,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.nakion",
@@ -1299,7 +1300,7 @@
         }
       ],
       "status": "pending_review",
-      "_last_updated": "2026-03-30"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.nam-hwayeon",
@@ -1339,7 +1340,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.noh-sangkyoon",
@@ -1369,7 +1370,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.oh-heinkuhn",
@@ -1410,7 +1411,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.park-chankyong",
@@ -1443,7 +1444,7 @@
       "external_ids": {
         "wikidata": "Q109354786"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.park-kiwon",
@@ -1478,7 +1479,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.park-sejin",
@@ -1508,7 +1509,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.park-seobo",
@@ -1570,7 +1571,7 @@
         "ulan": "500323715",
         "wikidata": "Q4984536"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.rhii-jewyo",
@@ -1600,7 +1601,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.suh-doho",
@@ -1630,7 +1631,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.sung-nakhee",
@@ -1661,7 +1662,7 @@
         }
       ],
       "status": "pending_review",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.whang-inkie",
@@ -1691,7 +1692,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.yang-haegue",
@@ -1747,7 +1748,7 @@
         "ulan": "500355927",
         "wikidata": "Q1567689"
       },
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.yoo-youngkuk",
@@ -1804,7 +1805,8 @@
         }
       ],
       "status": "reviewed",
-      "notes": "Pioneer of Korean abstract painting; also seen as Yoo Young-kuk in English-language publications."
+      "notes": "Pioneer of Korean abstract painting; also seen as Yoo Young-kuk in English-language publications.",
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.yun-hyongkeun",
@@ -1841,7 +1843,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     }
   ],
   "exhibitions": [
@@ -1870,7 +1872,7 @@
         }
       ],
       "status": "pending_review",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-1997",
@@ -1895,7 +1897,7 @@
         }
       ],
       "status": "pending_review",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-1999",
@@ -1925,7 +1927,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2001",
@@ -1955,7 +1957,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2003",
@@ -1987,7 +1989,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2005",
@@ -2031,7 +2033,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2007",
@@ -2061,7 +2063,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2009",
@@ -2095,7 +2097,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2011",
@@ -2129,7 +2131,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2013",
@@ -2163,7 +2165,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2015",
@@ -2198,7 +2200,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2017",
@@ -2233,7 +2235,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2019",
@@ -2265,7 +2267,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2022",
@@ -2304,7 +2306,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2024",
@@ -2353,7 +2355,7 @@
       ],
       "status": "reviewed",
       "notes": "60th Venice Biennale, 30th anniversary of Korean Pavilion. Curated by Seolhui Lee and Jacob Fabricius.",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.mmca-hyundai-2014",
@@ -2386,7 +2388,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.mmca-hyundai-2015",
@@ -2424,7 +2426,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.mmca-hyundai-2016",
@@ -2457,7 +2459,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.mmca-hyundai-2017",
@@ -2495,7 +2497,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.mmca-hyundai-2018",
@@ -2533,7 +2535,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.mmca-hyundai-2019",
@@ -2566,7 +2568,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.mmca-hyundai-2020",
@@ -2599,7 +2601,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.mmca-hyundai-2021",
@@ -2638,7 +2640,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.mmca-hyundai-2022",
@@ -2671,7 +2673,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "exhibition.mmca-hyundai-2023",
@@ -2709,7 +2711,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     }
   ],
   "organizations": [
@@ -3067,7 +3069,7 @@
       ],
       "status": "reviewed",
       "notes": "National public museum founded in 1969. Main sites now include Gwacheon, Deoksugung, Seoul, and Cheongju.",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.sema",
@@ -3161,7 +3163,7 @@
       ],
       "status": "pending_review",
       "notes": "Representative sinseang gonggan, founded by artists",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     }
   ],
   "terms": [
@@ -3216,7 +3218,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "term.dansaekhwa",
@@ -3281,7 +3283,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "term.minjung-misul",
@@ -3400,7 +3402,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-03-31"
+      "_last_updated": "2026-04-02"
     }
   ],
   "publications": []
