@@ -17,6 +17,14 @@ sources:
   name_used: Art Sonje Center
   note: official website — 주소 87 Yulgok-ro 3-gil, Jongno-gu, Seoul 확인
   accessed: '2026-04-01'
+- url: https://artsonje.org/en/asjasjc-enc/about/
+  name_used: Art Sonje Center
+  note: official about page — founded in 1998, mission, founding context, and founder Heeja K Chung
+  accessed: '2026-04-02'
+- url: https://artsonje.org/en/visit-en/contact/
+  name_used: Art Sonje Center
+  note: official contact page — address, opening hours, and visitor access details
+  accessed: '2026-04-02'
 - url: https://en.wikipedia.org/wiki/Art_Sonje_Center
   name_used: Art Sonje Center
   note: 창립 1998년, Wikidata Q4801558, 소케익동 43 감고당길 주소 확인

@@ -1,0 +1,39 @@
+id: person.yoo-youngkuk
+name:
+  ko:
+    full: 유영국
+    family: 유
+    given: 영국
+  latn:
+    preferred: Yoo Youngkuk
+    family: Yoo
+    given: Youngkuk
+  variants:
+    - form: Yoo Young-kuk
+      lang: en
+      script: Latn
+      type: alternate
+      romanization: conventional
+      display_order: family-given
+      source: MMCA exhibition and publication usage
+      accessed: '2026-04-02'
+birth_year: 1916
+death_year: 2002
+nationality: KR
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/digitals/digitalMovInfo.do?mbId=202403190001497&menuId=0000000000
+    name_used: 유영국
+    note: MMCA digital feature with Korean biography
+    accessed: '2026-04-02'
+  - url: https://www.pacegallery.com/artists/yoo-youngkuk/
+    name_used: Yoo Youngkuk
+    note: Pace Gallery artist page
+    accessed: '2026-04-02'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202407100001806
+    name_used: 유영국
+    note: MMCA exhibition page
+    accessed: '2026-04-02'
+status: reviewed
+notes: Pioneer of Korean abstract painting; also seen as Yoo Young-kuk in English-language publications.

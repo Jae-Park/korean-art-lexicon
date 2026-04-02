@@ -15,7 +15,18 @@ sources:
 - url: https://www.mmca.go.kr/about/introduction.do
   name_used: 국립현대미술관
   note: 공식 소개 페이지
+  accessed: '2026-04-02'
 - url: https://www.mmca.go.kr/about/history.do
   name_used: MMCA
   note: 연혁 페이지
+  accessed: '2026-04-02'
+- url: https://www.mmca.go.kr/eng/about/introduction.do
+  name_used: National Museum of Modern and Contemporary Art, Korea
+  note: official English introduction page — founded in 1969; four branches in Gwacheon, Deoksugung, Seoul, and Cheongju
+  accessed: '2026-04-02'
+- url: https://www.mmca.go.kr/eng/about/history.do
+  name_used: National Museum of Modern and Contemporary Art, Korea
+  note: official English history page — branch openings and institutional timeline
+  accessed: '2026-04-02'
 status: reviewed
+notes: National public museum founded in 1969. Main sites now include Gwacheon, Deoksugung, Seoul, and Cheongju.

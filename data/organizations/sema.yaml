@@ -26,6 +26,10 @@ sources:
   name_used: Seoul Museum of Art
   note: official website — 컬렉션 6,310점, 주소 61 Deoksugung-gil, Jung-gu 확인
   accessed: '2026-04-01'
+- url: https://sema.seoul.go.kr/en/sema/landing
+  name_used: Seoul Museum of Art
+  note: official about page — network museum concept, history, branch structure, and 1988 opening timeline
+  accessed: '2026-04-02'
 - url: https://en.wikipedia.org/wiki/Seoul_Museum_of_Art
   name_used: Seoul Museum of Art
   note: 창립 연도 1988년 8월 19일, Wikidata Q7451676 확인

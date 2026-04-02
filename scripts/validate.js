@@ -44,6 +44,12 @@ const entityTypes = [
     dir: 'data/terms',
     schemaFile: 'schema/term.schema.json',
     idPrefix: 'term'
+  },
+  {
+    name: 'publications',
+    dir: 'data/publications',
+    schemaFile: 'schema/publication.schema.json',
+    idPrefix: 'publication'
   }
 ];
 

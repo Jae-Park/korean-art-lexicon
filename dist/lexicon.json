@@ -27,7 +27,8 @@
           "note": "Kukje Gallery represented artist"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.bae-youngwhan",
@@ -61,7 +62,8 @@
           "note": "PKM Gallery 작가 약력"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.bahc-yiso",
@@ -91,7 +93,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.choe-uram",
@@ -123,7 +126,8 @@
       "status": "reviewed",
       "external_ids": {
         "wikidata": "Q7862919"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.choi-cody",
@@ -157,7 +161,8 @@
           "note": "헤럴드경제 — 2017 베니스 한국관 인터뷰"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.choi-jeonghwa",
@@ -185,7 +190,8 @@
       "external_ids": {
         "ulan": "500125325",
         "wikidata": "Q28793925"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.chung-seoyoung",
@@ -214,7 +220,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.gimhongsok",
@@ -243,7 +250,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.ha-chonghyun",
@@ -287,7 +295,8 @@
       "external_ids": {
         "ulan": "500373076",
         "wikidata": "Q23068024"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.ham-jin",
@@ -316,7 +325,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.im-heungsoon",
@@ -354,7 +364,8 @@
       "status": "reviewed",
       "external_ids": {
         "wikidata": "Q19896697"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.jeon-joonho",
@@ -392,7 +403,8 @@
       "external_ids": {
         "ulan": "500684635",
         "wikidata": "Q20010723"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.jheon-soocheon",
@@ -422,7 +434,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.joo-michael",
@@ -446,7 +459,8 @@
           "note": "universes.art — Venice Biennale 2001 Korean Pavilion"
         }
       ],
-      "status": "pending_review"
+      "status": "pending_review",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.jung-eunyoung",
@@ -491,7 +505,8 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.jung-yeondoo",
@@ -536,7 +551,8 @@
       "external_ids": {
         "ulan": "500474551",
         "wikidata": "Q1376674"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kaisen-janejin",
@@ -576,7 +592,8 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kang-ikjoong",
@@ -605,7 +622,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kim-beom",
@@ -634,7 +652,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kim-inkyum",
@@ -663,7 +682,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kim-sooja",
@@ -714,7 +734,8 @@
       "external_ids": {
         "ulan": "500125591",
         "wikidata": "Q4220699"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kim-sora",
@@ -743,7 +764,52 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "person.kim-yun-shin",
+      "name": {
+        "ko": {
+          "full": "김윤신",
+          "family": "김",
+          "given": "윤신"
+        },
+        "latn": {
+          "preferred": "Kim Yun Shin",
+          "family": "Kim",
+          "given": "Yun Shin"
+        }
+      },
+      "birth_year": 1935,
+      "nationality": "KR",
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.kukjegallery.com/artists/view?seq=428",
+          "name_used": "Kim Yun Shin",
+          "note": "Kukje Gallery artist page",
+          "accessed": "2026-04-02"
+        },
+        {
+          "url": "https://www.kukjegallery.com/exhibitions/view?seq=268",
+          "name_used": "김윤신",
+          "note": "Kukje Gallery solo exhibition page with Korean biography",
+          "accessed": "2026-04-02"
+        },
+        {
+          "url": "https://www.lehmannmaupin.com/artists/kim-yun-shin",
+          "name_used": "Kim Yun Shin",
+          "note": "Lehmann Maupin artist page",
+          "accessed": "2026-04-02"
+        }
+      ],
+      "status": "reviewed",
+      "notes": "Korea's first-generation woman sculptor; lives and works between Argentina and Korea."
     },
     {
       "id": "person.kim-yunchul",
@@ -787,7 +853,8 @@
           "note": "ARKO 공지 — 2022 베니스 한국관"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.koo-jeonga",
@@ -836,7 +903,8 @@
       "external_ids": {
         "ulan": "500294101",
         "wikidata": "Q16844597"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kwak-hoon",
@@ -865,7 +933,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.lee-bul",
@@ -914,7 +983,8 @@
       "external_ids": {
         "ulan": "500125877",
         "wikidata": "Q487546"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.lee-hyungkoo",
@@ -959,7 +1029,8 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.lee-hyungwoo",
@@ -988,7 +1059,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.lee-ufan",
@@ -1053,7 +1125,8 @@
       "external_ids": {
         "ulan": "500061220",
         "wikidata": "Q399775"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.lee-wan",
@@ -1093,7 +1166,8 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.lee-yongbaek",
@@ -1127,7 +1201,8 @@
           "note": "경향신문 — 2011 베니스 한국관"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.moon-kyungwon",
@@ -1164,7 +1239,8 @@
       "status": "reviewed",
       "external_ids": {
         "wikidata": "Q20010749"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.moon-sungsic",
@@ -1198,7 +1274,8 @@
           "note": "국제갤러리 대리 작가"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.nakion",
@@ -1221,7 +1298,8 @@
           "note": "AAA — Venice 2005 Korean Pavilion catalogue"
         }
       ],
-      "status": "pending_review"
+      "status": "pending_review",
+      "_last_updated": "2026-03-30"
     },
     {
       "id": "person.nam-hwayeon",
@@ -1260,7 +1338,8 @@
           "note": "아르트로 인터뷰 — 2019 베니스"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.noh-sangkyoon",
@@ -1289,7 +1368,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.oh-heinkuhn",
@@ -1329,7 +1409,8 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.park-chankyong",
@@ -1361,7 +1442,8 @@
       "status": "reviewed",
       "external_ids": {
         "wikidata": "Q109354786"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.park-kiwon",
@@ -1395,7 +1477,8 @@
           "note": "MMCA 올해의 작가 2010"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.park-sejin",
@@ -1424,7 +1507,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.park-seobo",
@@ -1485,7 +1569,8 @@
       "external_ids": {
         "ulan": "500323715",
         "wikidata": "Q4984536"
-      }
+      },
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.rhii-jewyo",
@@ -1514,7 +1599,8 @@
           "note": "바라캇 컨템포러리 작가 페이지"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.suh-doho",
@@ -1543,7 +1629,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.sung-nakhee",
@@ -1573,7 +1660,8 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "pending_review"
+      "status": "pending_review",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.whang-inkie",
@@ -1602,7 +1690,8 @@
           "note": "ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.yang-haegue",
@@ -1657,7 +1746,65 @@
       "external_ids": {
         "ulan": "500355927",
         "wikidata": "Q1567689"
-      }
+      },
+      "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "person.yoo-youngkuk",
+      "name": {
+        "ko": {
+          "full": "유영국",
+          "family": "유",
+          "given": "영국"
+        },
+        "latn": {
+          "preferred": "Yoo Youngkuk",
+          "family": "Yoo",
+          "given": "Youngkuk"
+        },
+        "variants": [
+          {
+            "form": "Yoo Young-kuk",
+            "lang": "en",
+            "script": "Latn",
+            "type": "alternate",
+            "romanization": "conventional",
+            "display_order": "family-given",
+            "source": "MMCA exhibition and publication usage",
+            "accessed": "2026-04-02"
+          }
+        ]
+      },
+      "birth_year": 1916,
+      "death_year": 2002,
+      "nationality": "KR",
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/digitals/digitalMovInfo.do?mbId=202403190001497&menuId=0000000000",
+          "name_used": "유영국",
+          "note": "MMCA digital feature with Korean biography",
+          "accessed": "2026-04-02"
+        },
+        {
+          "url": "https://www.pacegallery.com/artists/yoo-youngkuk/",
+          "name_used": "Yoo Youngkuk",
+          "note": "Pace Gallery artist page",
+          "accessed": "2026-04-02"
+        },
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202407100001806",
+          "name_used": "유영국",
+          "note": "MMCA exhibition page",
+          "accessed": "2026-04-02"
+        }
+      ],
+      "status": "reviewed",
+      "notes": "Pioneer of Korean abstract painting; also seen as Yoo Young-kuk in English-language publications."
     },
     {
       "id": "person.yun-hyongkeun",
@@ -1693,7 +1840,8 @@
           "accessed": "2026-03-30"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     }
   ],
   "exhibitions": [
@@ -1721,7 +1869,8 @@
           "note": "Wikipedia — 1995 inaugural edition"
         }
       ],
-      "status": "pending_review"
+      "status": "pending_review",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-1997",
@@ -1745,7 +1894,8 @@
           "note": "Wikipedia — Kang Ik-Joong received Honorable Mention"
         }
       ],
-      "status": "pending_review"
+      "status": "pending_review",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-1999",
@@ -1774,7 +1924,8 @@
           "note": "Asia Art Archive catalogue record"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2001",
@@ -1803,7 +1954,8 @@
           "note": "universes.art pavilion page"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2003",
@@ -1834,7 +1986,8 @@
           "note": "Wikipedia"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2005",
@@ -1877,7 +2030,8 @@
           "note": "Wikipedia"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2007",
@@ -1906,7 +2060,8 @@
           "note": "Designboom — note reversed name order"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2009",
@@ -1939,7 +2094,8 @@
           "note": "ARKO 공식 페이지 — 한국어 제목 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2011",
@@ -1972,7 +2128,8 @@
           "note": "SeMA — 한국어 제목 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2013",
@@ -2005,7 +2162,8 @@
           "note": "theartro — 한국어 제목 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2015",
@@ -2039,7 +2197,8 @@
           "note": "뉴스1 — 한국어 제목 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2017",
@@ -2073,7 +2232,8 @@
           "note": "artinpost — 한국어 제목(음차) 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2019",
@@ -2104,7 +2264,8 @@
           "note": "e-flux announcement"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2022",
@@ -2142,7 +2303,8 @@
           "note": "ARKO 보도자료 — 한국어 제목 확인"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2024",
@@ -2190,7 +2352,8 @@
         }
       ],
       "status": "reviewed",
-      "notes": "60th Venice Biennale, 30th anniversary of Korean Pavilion. Curated by Seolhui Lee and Jacob Fabricius."
+      "notes": "60th Venice Biennale, 30th anniversary of Korean Pavilion. Curated by Seolhui Lee and Jacob Fabricius.",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2014",
@@ -2222,7 +2385,8 @@
           "note": "e-flux announcement — title: 'MMCA Hyundai Motor series 2014: Lee Bul'"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2015",
@@ -2259,7 +2423,8 @@
           "note": "TimeOut Seoul — hyphenated romanization 'Ahn Kyu-chul'"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2016",
@@ -2291,7 +2456,8 @@
           "note": "Hyundai Newsroom — artist name all caps, English subtitle 'Archive of Mind'"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2017",
@@ -2328,7 +2494,8 @@
           "note": "Hyundai Artlab — family name capitalized 'IM'"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2018",
@@ -2365,7 +2532,8 @@
           "note": "MMCA English page — 'Blooming Matrix', one-word name"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2019",
@@ -2397,7 +2565,8 @@
           "note": "e-flux — English title 'Gathering'"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2020",
@@ -2429,7 +2598,8 @@
           "note": "e-flux — 'O2 & H2O'"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2021",
@@ -2467,7 +2637,8 @@
           "note": "Ocula feature"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2022",
@@ -2499,7 +2670,8 @@
           "note": "e-flux — 'Little Ark'"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2023",
@@ -2536,7 +2708,8 @@
           "note": "ArtReview — given-family order 'Yeondoo Jung'"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     }
   ],
   "organizations": [
@@ -2610,10 +2783,17 @@
           "name_used": "ARKO Arts Center",
           "note": "Arts Council Korea 영문 공식 사이트 — 산하기관으로 언급",
           "accessed": "2026-04-01"
+        },
+        {
+          "url": "https://www.arko.or.kr/eng/about/facilities?lang=ko",
+          "name_used": "ARKO Art Center",
+          "note": "official English facilities page — ARKO Art Center mission and institutional role under Arts Council Korea",
+          "accessed": "2026-04-02"
         }
       ],
       "status": "reviewed",
-      "notes": "한국문화예술위원회(Arts Council Korea) 산하 공공미술관. 서울 대학로 소재. 1974년 종로구 관훈동 미술회관으로 개관 → 1979년 김수근 설계 동숭동 마로니에 공원 건물 이전 → 2002년 마로니에미술관 → 2005년 현 명칭. 50년간 약 2,000회 전시 개최."
+      "notes": "한국문화예술위원회(Arts Council Korea) 산하 공공미술관. 서울 대학로 소재. 1974년 종로구 관훈동 미술회관으로 개관 → 1979년 김수근 설계 동숭동 마로니에 공원 건물 이전 → 2002년 마로니에미술관 → 2005년 현 명칭. 50년간 약 2,000회 전시 개최.",
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.art-sonje-center",
@@ -2643,6 +2823,18 @@
           "accessed": "2026-04-01"
         },
         {
+          "url": "https://artsonje.org/en/asjasjc-enc/about/",
+          "name_used": "Art Sonje Center",
+          "note": "official about page — founded in 1998, mission, founding context, and founder Heeja K Chung",
+          "accessed": "2026-04-02"
+        },
+        {
+          "url": "https://artsonje.org/en/visit-en/contact/",
+          "name_used": "Art Sonje Center",
+          "note": "official contact page — address, opening hours, and visitor access details",
+          "accessed": "2026-04-02"
+        },
+        {
           "url": "https://en.wikipedia.org/wiki/Art_Sonje_Center",
           "name_used": "Art Sonje Center",
           "note": "창립 1998년, Wikidata Q4801558, 소케익동 43 감고당길 주소 확인",
@@ -2656,7 +2848,8 @@
         }
       ],
       "status": "reviewed",
-      "notes": "사립 현대미술관. 종로구 소재. 국제 현대미술 전시·퍼포먼스·교육 중심. 김종성 설계 건물."
+      "notes": "사립 현대미술관. 종로구 소재. 국제 현대미술 전시·퍼포먼스·교육 중심. 김종성 설계 건물.",
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.busan-biennale",
@@ -2722,7 +2915,8 @@
         }
       ],
       "status": "reviewed",
-      "notes": "사단법인. 부산비엔날레 행사(1998 출범)를 운영하는 법인은 1999년 설립. 광주비엔날레재단(재단법인)과 달리 사단법인 형태. 공식 사이트(busanbiennale.org) SSL 오류로 직접 접근 불가."
+      "notes": "사단법인. 부산비엔날레 행사(1998 출범)를 운영하는 법인은 1999년 설립. 광주비엔날레재단(재단법인)과 달리 사단법인 형태. 공식 사이트(busanbiennale.org) SSL 오류로 직접 접근 불가.",
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.gwangju-biennale",
@@ -2770,6 +2964,18 @@
           "accessed": "2026-04-01"
         },
         {
+          "url": "https://www.gwangjubiennale.org/en/foundationCH/history.do",
+          "name_used": "Gwangju Biennale Foundation",
+          "note": "official history page — founding history and institutional timeline",
+          "accessed": "2026-04-02"
+        },
+        {
+          "url": "https://www.gwangjubiennale.org/en/foundationCH/organization.do",
+          "name_used": "Gwangju Biennale Foundation",
+          "note": "official organization page — foundation name, address, and board structure",
+          "accessed": "2026-04-02"
+        },
+        {
           "url": "https://en.wikipedia.org/wiki/Gwangju_Biennale",
           "name_used": "Gwangju Biennale",
           "note": "창립 연도, 재단 구조, Wikidata Q484487 확인",
@@ -2777,7 +2983,8 @@
         }
       ],
       "status": "reviewed",
-      "notes": "아시아 최초·최대 규모 국제현대미술비엔날레. 1980년 5·18민주화운동을 기념하여 설립. 광주비엔날레재단이 운영하며 광주디자인비엔날레도 관할. 주소: 61104 광주광역시 북구 비엔날레로 111. type.aat는 기관 유형(art foundation 등)으로 재검토 필요 — 현재 biennial(300266309) 사용 중."
+      "notes": "아시아 최초·최대 규모 국제현대미술비엔날레. 1980년 5·18민주화운동을 기념하여 설립. 광주비엔날레재단이 운영하며 광주디자인비엔날레도 관할. 주소: 61104 광주광역시 북구 비엔날레로 111. type.aat는 기관 유형(art foundation 등)으로 재검토 필요 — 현재 biennial(300266309) 사용 중.",
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.kukje-gallery",
@@ -2811,7 +3018,8 @@
         }
       ],
       "status": "reviewed",
-      "notes": "1982년 이현숙 설립, 인사동 → 1987년 소격동(삼청로) 이전. 부산 F1963 분관 운영 중. type.aat 300417122(art galleries, commercial) 검증 필요."
+      "notes": "1982년 이현숙 설립, 인사동 → 1987년 소격동(삼청로) 이전. 부산 F1963 분관 운영 중. type.aat 300417122(art galleries, commercial) 검증 필요.",
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.mmca",
@@ -2835,15 +3043,31 @@
         {
           "url": "https://www.mmca.go.kr/about/introduction.do",
           "name_used": "국립현대미술관",
-          "note": "공식 소개 페이지"
+          "note": "공식 소개 페이지",
+          "accessed": "2026-04-02"
         },
         {
           "url": "https://www.mmca.go.kr/about/history.do",
           "name_used": "MMCA",
-          "note": "연혁 페이지"
+          "note": "연혁 페이지",
+          "accessed": "2026-04-02"
+        },
+        {
+          "url": "https://www.mmca.go.kr/eng/about/introduction.do",
+          "name_used": "National Museum of Modern and Contemporary Art, Korea",
+          "note": "official English introduction page — founded in 1969; four branches in Gwacheon, Deoksugung, Seoul, and Cheongju",
+          "accessed": "2026-04-02"
+        },
+        {
+          "url": "https://www.mmca.go.kr/eng/about/history.do",
+          "name_used": "National Museum of Modern and Contemporary Art, Korea",
+          "note": "official English history page — branch openings and institutional timeline",
+          "accessed": "2026-04-02"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "notes": "National public museum founded in 1969. Main sites now include Gwacheon, Deoksugung, Seoul, and Cheongju.",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "org.sema",
@@ -2886,6 +3110,12 @@
           "accessed": "2026-04-01"
         },
         {
+          "url": "https://sema.seoul.go.kr/en/sema/landing",
+          "name_used": "Seoul Museum of Art",
+          "note": "official about page — network museum concept, history, branch structure, and 1988 opening timeline",
+          "accessed": "2026-04-02"
+        },
+        {
           "url": "https://en.wikipedia.org/wiki/Seoul_Museum_of_Art",
           "name_used": "Seoul Museum of Art",
           "note": "창립 연도 1988년 8월 19일, Wikidata Q7451676 확인",
@@ -2893,7 +3123,8 @@
         }
       ],
       "status": "reviewed",
-      "notes": "서울특별시 운영 공립미술관. 서소문 본관 외 북서울·남서울·서울(신미디어)·사진·아카이브 등 분관 다수. 컬렉션 6,310점."
+      "notes": "서울특별시 운영 공립미술관. 서소문 본관 외 북서울·남서울·서울(신미디어)·사진·아카이브 등 분관 다수. 컬렉션 6,310점.",
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.takeout-drawing",
@@ -2929,7 +3160,8 @@
         }
       ],
       "status": "pending_review",
-      "notes": "Representative sinseang gonggan, founded by artists"
+      "notes": "Representative sinseang gonggan, founded by artists",
+      "_last_updated": "2026-03-31"
     }
   ],
   "terms": [
@@ -2983,7 +3215,8 @@
           "note": "Asia Art Archive — SSamzie Space 2008 publication, 1세대(1999-2008) 대안공간 연구"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "term.dansaekhwa",
@@ -3047,7 +3280,8 @@
           "note": "Third Text Vol.27 No.2 (2013), Joan Kee — academic article"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "term.minjung-misul",
@@ -3109,7 +3343,8 @@
         }
       ],
       "status": "reviewed",
-      "notes": "운동 종료 시점은 1990년대 초로 기술되나 정확한 연도 미확인 — period.end 미입력."
+      "notes": "운동 종료 시점은 1990년대 초로 기술되나 정확한 연도 미확인 — period.end 미입력.",
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "term.sinseang-gonggan",
@@ -3164,7 +3399,9 @@
           "note": "월간미술 — '2023년의 화려하고 불길한 전개', 신생공간/콜렉티브 비평적 결산"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-03-31"
     }
-  ]
+  ],
+  "publications": []
 }

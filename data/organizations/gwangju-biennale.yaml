@@ -30,6 +30,14 @@ sources:
   name_used: Gwangju Biennale Foundation
   note: official website
   accessed: '2026-04-01'
+- url: https://www.gwangjubiennale.org/en/foundationCH/history.do
+  name_used: Gwangju Biennale Foundation
+  note: official history page — founding history and institutional timeline
+  accessed: '2026-04-02'
+- url: https://www.gwangjubiennale.org/en/foundationCH/organization.do
+  name_used: Gwangju Biennale Foundation
+  note: official organization page — foundation name, address, and board structure
+  accessed: '2026-04-02'
 - url: https://en.wikipedia.org/wiki/Gwangju_Biennale
   name_used: Gwangju Biennale
   note: 창립 연도, 재단 구조, Wikidata Q484487 확인

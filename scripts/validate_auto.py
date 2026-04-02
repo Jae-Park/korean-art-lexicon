@@ -46,11 +46,13 @@ def load_yaml(filepath: Path) -> dict:
         return yaml.safe_load(f)
 
 
-def get_existing_ids(data_dir: Path) -> set:
-    """data/ 내 모든 YAML에서 id 수집"""
+def get_existing_ids(data_dir: Path, exclude_dir: Path = None) -> set:
+    """data/ 내 모든 YAML에서 id 수집. exclude_dir 하위는 제외 가능."""
     ids = set()
     for subdir in data_dir.iterdir():
         if subdir.is_dir():
+            if exclude_dir and subdir.resolve() == exclude_dir.resolve():
+                continue
             for f in subdir.glob("*.yaml"):
                 try:
                     doc = load_yaml(f)
@@ -248,9 +250,15 @@ def main():
         print(f"디렉토리 없음: {target_dir}")
         sys.exit(1)
 
-    # data/에서 기존 id 수집 (data/ 자체 검증 시에는 비워둠)
+    # data/에서 기존 id 수집
     is_data_dir = target_dir.resolve() == DATA_DIR.resolve()
-    existing_ids = set() if is_data_dir else get_existing_ids(DATA_DIR)
+    is_data_subdir = DATA_DIR.resolve() in target_dir.resolve().parents
+    if is_data_dir:
+        existing_ids = set()
+    elif is_data_subdir:
+        existing_ids = get_existing_ids(DATA_DIR, exclude_dir=target_dir)
+    else:
+        existing_ids = get_existing_ids(DATA_DIR)
 
     # 대상 디렉토리 내 모든 YAML 검증
     yaml_files = sorted(target_dir.rglob("*.yaml"))
