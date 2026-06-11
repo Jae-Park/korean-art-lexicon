@@ -58,7 +58,8 @@ export async function harvest({ push = false } = {}) {
 
   // git 브랜치 + 커밋(데이터만, pathspec) + push + gh PR — 거버넌스=PR 게이트(자동 merge 없음)
   const day = new Date().toISOString().slice(0, 10);
-  const branch = `miner/harvest-${day}`;
+  const stamp = new Date().toISOString().slice(11, 16).replace(":", ""); // HHMM — 같은 날 재실행 충돌 방지
+  const branch = `miner/harvest-${day}-${stamp}`;
   const git = (a) => execFileSync("git", a, { cwd: config.repoRoot, encoding: "utf8" });
   const names = prom.moved.map((p) => p.split("/").pop().replace(".yaml", "")).join(", ");
   git(["checkout", "-b", branch]);
