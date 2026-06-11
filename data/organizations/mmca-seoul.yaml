@@ -2,6 +2,11 @@ id: org.mmca-seoul
 name:
   ko: 국립현대미술관 서울
   en: MMCA Seoul
+type:
+  aat: '300312281'
+location:
+  city: Seoul
+  country: KR
 sources:
 - url: https://www.mmca.go.kr/visitingInfo/seoulInfo.do
   note: MMCA 본관 / institution-branch / 본관 EN docs 등장. MMCA 서울관 표준 영문명.

@@ -2,6 +2,11 @@ id: org.mmca-cheongju
 name:
   ko: 국립현대미술관 청주
   en: MMCA Cheongju
+type:
+  aat: '300312281'
+location:
+  city: Cheongju
+  country: KR
 sources:
 - url: https://www.mmca.go.kr/visitingInfo/cheongjuInfo.do
   note: MMCA 본관 / institution-official / 2021-076 김남수(천대광론) 본문 'MMCA Cheongju' 확인.
