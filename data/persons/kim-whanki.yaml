@@ -17,9 +17,23 @@ external_ids:
   wikidata: Q10855929
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993
-  name_used: Kim Whanki
-  note: '영문표기 ''KIM Whanki'' — 실제 용례 확인: http://whankimuseum.org/en/kim-whanki/artist/.
-    [2026-06-11] 영문표기 ''KIM Whanki'' — 실제 용례 확인: http://whankimuseum.org/en/kim-whanki/artist/.
-    [2026-06-11] MMCA 전시 ''소장품전: 근대를 수놓은 그림'' 참여작가 (과천, 201'
+  name_used: 김환기
+  note: 'MMCA 전시 ''소장품전: 근대를 수놓은 그림'' 참여작가 (과천, 2018)'
   accessed: '2026-06-11'
+- url: http://whankimuseum.org/en/kim-whanki/artist/
+  name_used: Kim Whanki
+  note: 환기미술관 공식 영문 작가 페이지 — 재단 표기
+  accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/Whanki_Kim
+  name_used: Whanki Kim
+  note: Wikipedia — 성-이름 역순(given-family) 표기
+  accessed: '2026-06-12'
+- url: https://www.sfmoma.org/artist/Whanki_Kim/
+  name_used: Whanki Kim
+  note: SFMOMA 소장작가 페이지 — given-family 표기
+  accessed: '2026-06-12'
+- url: https://www.artnet.com/artists/kim-whanki/
+  name_used: Kim Whan-Ki
+  note: Artnet — 하이픈 표기 변이
+  accessed: '2026-06-12'
 status: reviewed

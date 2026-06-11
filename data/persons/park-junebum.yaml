@@ -16,6 +16,14 @@ sources:
 - url: https://www.zabludowiczcollection.com/collection/artists/view/junebum-park
   name_used: PARK Junebum
   note: MMCA 본관 / person-artist / 퍼즐 연작 작가. 표 정렬 추출. source-derived(Memsource). 본인표기
-    확인 권장.
+    확인 권장
   accessed: '2026-06-11'
+- url: https://www.galleryhyundai.com/artist/view/113
+  name_used: PARK Junebum
+  note: 갤러리현대 — 성 대문자 표기
+  accessed: '2026-06-12'
+- url: https://www.galleryhyundai.com/exhibition/view/184
+  name_used: PARK June Bum
+  note: 갤러리현대 전시 'Absolutely Faithful' — 띄어쓰기 변이
+  accessed: '2026-06-12'
 status: reviewed

@@ -15,8 +15,19 @@ role:
 - aat: '300025103'
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994
-  name_used: Nam June Paik
-  note: '영문표기 ''Nam June Paik'' — 실제 용례 확인: https://web.archive.org/web/20041015061902/http%3A//www.paikstudios.com/.
-    [2026-06-11] MMCA 전시 ''소장품 특별전 균열 II'' 참여작가 (과천, 2018)'
+  name_used: 백남준
+  note: MMCA 전시 '소장품 특별전 균열 II' 참여작가 (과천, 2018)
   accessed: '2026-06-11'
+- url: https://www.guggenheim.org/artwork/artist/nam-june-paik
+  name_used: Nam June Paik
+  note: Guggenheim 소장작가
+  accessed: '2026-06-12'
+- url: https://www.sfmoma.org/exhibition/nam-june-paik-2021/
+  name_used: Nam June Paik
+  note: SFMOMA 2021 회고전(Tate 공동)
+  accessed: '2026-06-12'
+- url: https://americanart.si.edu/artwork/nam-june-paik-archive-collection-77502
+  name_used: Nam June Paik
+  note: Smithsonian American Art Museum — 백남준 estate 소장
+  accessed: '2026-06-12'
 status: reviewed

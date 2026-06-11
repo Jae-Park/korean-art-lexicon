@@ -17,6 +17,14 @@ sources:
 - url: https://ko.wikipedia.org/wiki/채용신
   name_used: Chae Yong-Shin
   note: MMCA 본관 / person-artist / 호 석지(Seokji). 《서거 60주년 석지 채용신전》, Memorial Exhibition
-    for Chae, Yong-Shin. 한말 일제초 초상화가. source-derived(Memsource).
+    for Chae, Yong-Shin. 한말 일제초 초상화가. source-derived(Memsource)
   accessed: '2026-06-11'
+- url: https://www.metmuseum.org/art/collection/search/717940
+  name_used: Chae Yongsin
+  note: Metropolitan Museum — artist name Seokji(석지) 병기
+  accessed: '2026-06-12'
+- url: https://www.kccla.org/vkorea/view/?vid=1060
+  name_used: Chae Yongshin
+  note: KCCLA — 붙여쓰기 변이
+  accessed: '2026-06-12'
 status: reviewed

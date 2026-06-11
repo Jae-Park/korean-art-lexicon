@@ -14,8 +14,15 @@ role:
 - aat: '300025103'
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431
-  name_used: Marc Nagtzaam
-  note: '영문표기 ''Marc Nagtzaam'' — 실제 용례 확인: https://www.marcnagtzaam.info/news.html.
-    [2026-06-11] MMCA 전시 ''예술가의 문서들'' 참여작가 (서울, 2016). 외국 작가, 원어 표기 확인 권장.'
+  name_used: 마르크 나흐참
+  note: MMCA 전시 '예술가의 문서들' 참여작가 (서울, 2016)
   accessed: '2026-06-11'
+- url: https://www.marcnagtzaam.info/news.html
+  name_used: Marc Nagtzaam
+  note: 작가 공식 웹사이트
+  accessed: '2026-06-12'
+- url: https://www.romapublications.org/?book=present-marc-nagtzaam
+  name_used: Marc Nagtzaam
+  note: Roma Publications
+  accessed: '2026-06-12'
 status: reviewed

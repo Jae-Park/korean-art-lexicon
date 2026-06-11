@@ -17,6 +17,14 @@ sources:
 - url: https://encykorea.aks.ac.kr/Article/E0079471
   name_used: Han Mook
   note: 'MMCA 본관 / person-artist / 《올해의 작가 2003: 한묵》, The Artist of the Year 2003:
-    Han, Mook. source-derived(Memsource).'
+    Han, Mook. source-derived(Memsource)'
   accessed: '2026-06-11'
+- url: https://www.koreaherald.com/article/10370411
+  name_used: Han Mook
+  note: Korea Herald — 'living legend of abstract art'
+  accessed: '2026-06-12'
+- url: https://www.artnet.com/artists/han-mook/
+  name_used: Han Mook
+  note: Artnet
+  accessed: '2026-06-12'
 status: reviewed

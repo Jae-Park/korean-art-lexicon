@@ -14,8 +14,15 @@ role:
 - aat: '300025103'
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431
-  name_used: Batia Suter
-  note: '영문표기 ''Batia Suter'' — 실제 용례 확인: https://www.batiasuter.org/. [2026-06-11]
-    MMCA 전시 ''예술가의 문서들'' 참여작가 (서울, 2016). 외국 작가, 원어 표기 확인 권장.'
+  name_used: 바티아 쉬터르
+  note: MMCA 전시 '예술가의 문서들' 참여작가 (서울, 2016)
   accessed: '2026-06-11'
+- url: https://www.batiasuter.org/
+  name_used: Batia Suter
+  note: 작가 공식 웹사이트 (artist official website)
+  accessed: '2026-06-12'
+- url: https://www.le-bal.fr/en/biographies/batia-suter
+  name_used: Batia Suter
+  note: LE BAL (파리)
+  accessed: '2026-06-12'
 status: reviewed

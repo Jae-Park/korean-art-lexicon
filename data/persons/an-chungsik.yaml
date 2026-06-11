@@ -17,9 +17,15 @@ external_ids:
   wikidata: Q10310975
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
-  name_used: An Chungsik
-  note: '영문표기 ''An Chungsik'' — 실제 용례 확인: https://en.wikipedia.org/wiki/An_Chungsik.
-    [2026-06-11] 영문표기 ''An Chungsik'' — 실제 용례 확인: https://en.wikipedia.org/wiki/An_Chungsik.
-    [2026-06-11] MMCA 전시 ''내가 사랑한 미술관: 근대의 걸작'' 참여작가 (덕수궁, 2018)'
+  name_used: 안중식
+  note: 'MMCA 전시 ''내가 사랑한 미술관: 근대의 걸작'' 참여작가 (덕수궁, 2018)'
   accessed: '2026-06-11'
+- url: https://en.wikipedia.org/wiki/An_Jung-sik
+  name_used: An Jung-sik
+  note: Wikipedia — Jung 로마자화(호 심전)
+  accessed: '2026-06-12'
+- url: https://www.britannica.com/biography/An-Chung-sik
+  name_used: An Chung-sik
+  note: Britannica — 하이픈 변이
+  accessed: '2026-06-12'
 status: reviewed
