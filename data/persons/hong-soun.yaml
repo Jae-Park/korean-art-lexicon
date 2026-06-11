@@ -2,8 +2,12 @@ id: person.hong-soun
 name:
   ko:
     full: 홍순
+    family: 홍
+    given: 순
   latn:
     preferred: Hong Soun
+    family: Hong
+    given: Soun
 sources:
 - url: https://www.johyungallery.com/artists/40-hong-soun/biography
   name_used: Hong Soun

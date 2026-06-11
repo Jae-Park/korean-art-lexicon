@@ -2,8 +2,12 @@ id: person.lee-jung-seop
 name:
   ko:
     full: 이중섭
+    family: 이
+    given: 중섭
   latn:
     preferred: Lee Jung-seop
+    family: Lee
+    given: Jung-seop
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993
   name_used: Lee Jung-seop

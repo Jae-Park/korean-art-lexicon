@@ -2,8 +2,12 @@ id: person.batia-suter
 name:
   ko:
     full: 바티아 쉬터르
+    given: 바티아
+    family: 쉬터르
   latn:
     preferred: Batia Suter
+    given: Batia
+    family: Suter
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431
   name_used: Batia Suter

@@ -2,8 +2,12 @@ id: person.nam-june-paik
 name:
   ko:
     full: 백남준
+    family: 백
+    given: 남준
   latn:
     preferred: Nam June Paik
+    family: Paik
+    given: Nam June
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994
   name_used: Nam June Paik

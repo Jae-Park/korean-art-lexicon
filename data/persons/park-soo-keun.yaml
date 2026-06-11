@@ -2,8 +2,12 @@ id: person.park-soo-keun
 name:
   ko:
     full: 박수근
+    family: 박
+    given: 수근
   latn:
     preferred: Park Soo-keun
+    family: Park
+    given: Soo-keun
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
   name_used: Park Soo-keun

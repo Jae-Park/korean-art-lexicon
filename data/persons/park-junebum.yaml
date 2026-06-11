@@ -2,8 +2,12 @@ id: person.park-junebum
 name:
   ko:
     full: 박준범
+    family: 박
+    given: 준범
   latn:
     preferred: PARK Junebum
+    family: PARK
+    given: Junebum
 sources:
 - url: https://www.zabludowiczcollection.com/collection/artists/view/junebum-park
   name_used: PARK Junebum

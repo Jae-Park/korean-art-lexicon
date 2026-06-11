@@ -2,8 +2,12 @@ id: person.lee-do-yeong
 name:
   ko:
     full: 이도영
+    family: 이
+    given: 도영
   latn:
     preferred: Lee Do-yeong
+    family: Lee
+    given: Do-yeong
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
   name_used: Lee Do-yeong

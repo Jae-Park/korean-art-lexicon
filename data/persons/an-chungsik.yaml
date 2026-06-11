@@ -2,8 +2,12 @@ id: person.an-chungsik
 name:
   ko:
     full: 안중식
+    family: 안
+    given: 중식
   latn:
     preferred: An Chungsik
+    family: An
+    given: Chungsik
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
   name_used: An Chungsik

@@ -2,8 +2,12 @@ id: person.han-mook
 name:
   ko:
     full: 한묵
+    family: 한
+    given: 묵
   latn:
     preferred: Han Mook
+    family: Han
+    given: Mook
 sources:
 - url: https://encykorea.aks.ac.kr/Article/E0079471
   name_used: Han Mook

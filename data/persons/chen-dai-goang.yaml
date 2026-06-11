@@ -2,8 +2,12 @@ id: person.chen-dai-goang
 name:
   ko:
     full: 천대광
+    family: 천
+    given: 대광
   latn:
     preferred: Chen Dai Goang
+    family: Chen
+    given: Dai Goang
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202102010001388
   name_used: Chen Dai Goang
