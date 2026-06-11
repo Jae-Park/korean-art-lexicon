@@ -2,6 +2,15 @@ id: exhibition.artists-documents
 title:
   ko: '예술가의 문서들: 예술, 타이포그래피 그리고 협업'
   en: 'Artists'' Documents: Art, Typography and Collaboration'
+type:
+  aat: '300449166'
+venue: MMCA Seoul
+city: Seoul
+country: KR
+dates:
+  start: '2016-05-26'
+  end: '2016-08-31'
+organizer: National Museum of Modern and Contemporary Art, Korea
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431
   note: MMCA 서울 / 기획전시 / 2016-05-26~2016-08-31

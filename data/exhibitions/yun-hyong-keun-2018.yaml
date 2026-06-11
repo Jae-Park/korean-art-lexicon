@@ -2,6 +2,15 @@ id: exhibition.yun-hyong-keun-2018
 title:
   ko: 윤형근
   en: Yun Hyong-keun
+type:
+  aat: '300449167'
+venue: MMCA Seoul
+city: Seoul
+country: KR
+dates:
+  start: '2018-08-04'
+  end: '2019-02-06'
+organizer: National Museum of Modern and Contemporary Art, Korea
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000998
   note: MMCA 서울 / 기획전시 / 2018-08-04~2019-02-06

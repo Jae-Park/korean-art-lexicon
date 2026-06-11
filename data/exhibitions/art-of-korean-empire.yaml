@@ -2,6 +2,15 @@ id: exhibition.art-of-korean-empire
 title:
   ko: '대한제국의 미술: 빛의 길을 꿈꾸다'
   en: 'Art of the Korean Empire: The Emergence of Modern Art'
+type:
+  aat: '300449166'
+venue: MMCA Deoksugung
+city: Seoul
+country: KR
+dates:
+  start: '2018-11-15'
+  end: '2019-02-06'
+organizer: National Museum of Modern and Contemporary Art, Korea
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
   note: MMCA 덕수궁 / 기획전시 / 2018-11-15~2019-02-06

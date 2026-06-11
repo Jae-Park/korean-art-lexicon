@@ -2,6 +2,15 @@ id: exhibition.mmca-collection-geundae
 title:
   ko: '소장품전: 근대를 수놓은 그림'
   en: 1900~1960s Modern Art from MMCA Collection
+type:
+  aat: '300449166'
+venue: MMCA Gwacheon
+city: Gwacheon
+country: KR
+dates:
+  start: '2018-07-11'
+  end: '2019-06-23'
+organizer: National Museum of Modern and Contemporary Art, Korea
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993
   note: MMCA 과천 / 기획전시 / 2018-07-11~2019-06-23
