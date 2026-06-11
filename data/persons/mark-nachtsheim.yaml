@@ -1,0 +1,13 @@
+id: person.mark-nachtsheim
+name:
+  ko:
+    full: 마르크 나흐참
+  latn:
+    preferred: Marc Nagtzaam
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431
+  name_used: Marc Nagtzaam
+  note: '영문표기 ''Marc Nagtzaam'' — 실제 용례 확인: https://www.marcnagtzaam.info/news.html.
+    [2026-06-11] MMCA 전시 ''예술가의 문서들'' 참여작가 (서울, 2016). 외국 작가, 원어 표기 확인 권장.'
+  accessed: '2026-06-11'
+status: reviewed

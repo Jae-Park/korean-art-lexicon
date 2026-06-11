@@ -1,0 +1,9 @@
+id: org.mmca-deoksugung
+name:
+  ko: 국립현대미술관 덕수궁
+  en: MMCA Deoksugung
+sources:
+- url: https://www.mmca.go.kr/visitingInfo/deoksugungInfo.do
+  note: MMCA 본관 / institution-branch / 본관 EN docs 등장(3건). MMCA 덕수궁관 표준 영문명.
+  accessed: '2026-06-11'
+status: reviewed

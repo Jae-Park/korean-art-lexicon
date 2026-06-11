@@ -1,0 +1,14 @@
+id: person.kim-eun-ho
+name:
+  ko:
+    full: 김은호
+  latn:
+    preferred: Kim Eun-ho
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
+  name_used: Kim Eun-ho
+  note: '영문표기 ''Kim Eun-ho'' — 실제 용례 확인: https://en.wikipedia.org/wiki/Kim_Eun-ho_%28painter%29.
+    [2026-06-11] 영문표기 ''Kim Eun-ho'' — 실제 용례 확인: https://en.wikipedia.org/wiki/Kim_Eun-ho_%28painter%29.
+    [2026-06-11] MMCA 전시 ''대한제국의 미술'' 참여작'
+  accessed: '2026-06-11'
+status: reviewed

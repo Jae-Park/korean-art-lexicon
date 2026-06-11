@@ -31,6 +31,26 @@
       "_last_updated": "2026-03-31"
     },
     {
+      "id": "person.an-chungsik",
+      "name": {
+        "ko": {
+          "full": "안중식"
+        },
+        "latn": {
+          "preferred": "An Chungsik"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999",
+          "name_used": "An Chungsik",
+          "note": "영문표기 'An Chungsik' — 실제 용례 확인: https://en.wikipedia.org/wiki/An_Chungsik. [2026-06-11] 영문표기 'An Chungsik' — 실제 용례 확인: https://en.wikipedia.org/wiki/An_Chungsik. [2026-06-11] MMCA 전시 '내가 사랑한 미술관: 근대의 걸작' 참여작가 (덕수궁, 2018)",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "person.bae-youngwhan",
       "name": {
         "ko": {
@@ -95,6 +115,86 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "person.bart-lodewijks",
+      "name": {
+        "ko": {
+          "full": "바르트 로데베이크스"
+        },
+        "latn": {
+          "preferred": "Bart Lodewijks"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431",
+          "name_used": "Bart Lodewijks",
+          "note": "영문표기 'Bart Lodewijks' — 실제 용례 확인: https://www.bartlodewijks.nl/. [2026-06-11] MMCA 전시 '예술가의 문서들' 참여작가 (서울, 2016). 외국 작가, 원어 표기 확인 권장.",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.batia-suter",
+      "name": {
+        "ko": {
+          "full": "바티아 쉬터르"
+        },
+        "latn": {
+          "preferred": "Batia Suter"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431",
+          "name_used": "Batia Suter",
+          "note": "영문표기 'Batia Suter' — 실제 용례 확인: https://www.batiasuter.org/. [2026-06-11] MMCA 전시 '예술가의 문서들' 참여작가 (서울, 2016). 외국 작가, 원어 표기 확인 권장.",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.chae-yong-shin",
+      "name": {
+        "ko": {
+          "full": "채용신"
+        },
+        "latn": {
+          "preferred": "Chae Yong-Shin"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/채용신",
+          "name_used": "Chae Yong-Shin",
+          "note": "MMCA 본관 / person-artist / 호 석지(Seokji). 《서거 60주년 석지 채용신전》, Memorial Exhibition for Chae, Yong-Shin. 한말 일제초 초상화가. source-derived(Memsource).",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.chen-dai-goang",
+      "name": {
+        "ko": {
+          "full": "천대광"
+        },
+        "latn": {
+          "preferred": "Chen Dai Goang"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202102010001388",
+          "name_used": "Chen Dai Goang",
+          "note": "MMCA 본관 / person-artist / 2021-076 납품 EN 표기. 두 번역자(전시텍스트, 김남수론) 독립 일치, 고신뢰. RR 'Cheon Dae-gwang' 강제 금지. 작가 본인 선호 표기 개연성 높으나 소스 내 명시 없음(open_question).",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.choe-uram",
@@ -211,7 +311,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.chung-seoyoung",
@@ -272,6 +373,26 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "person.go-hui-dong",
+      "name": {
+        "ko": {
+          "full": "고희동"
+        },
+        "latn": {
+          "preferred": "Go Hui-dong"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999",
+          "name_used": "Go Hui-dong",
+          "note": "영문표기 'Go Hui-dong' — 실제 용례 확인: https://magazine.seoulselection.com/2013/11/28/the-go-hui-dong-house/. [2026-06-11] MMCA 전시 '내가 사랑한 미술관: 근대의 걸작' 참여작가 (덕수궁, 2018)",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.ha-chonghyun",
@@ -347,6 +468,46 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "person.han-mook",
+      "name": {
+        "ko": {
+          "full": "한묵"
+        },
+        "latn": {
+          "preferred": "Han Mook"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://encykorea.aks.ac.kr/Article/E0079471",
+          "name_used": "Han Mook",
+          "note": "MMCA 본관 / person-artist / 《올해의 작가 2003: 한묵》, The Artist of the Year 2003: Han, Mook. source-derived(Memsource).",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.hong-soun",
+      "name": {
+        "ko": {
+          "full": "홍순"
+        },
+        "latn": {
+          "preferred": "Hong Soun"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.johyungallery.com/artists/40-hong-soun/biography",
+          "name_used": "Hong Soun",
+          "note": "MMCA 본관 / person-artist / 소스 EN 표기 'Hong Soun'(홍순). 조현화랑 작가. 본인 표기 확인 권장.",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.im-heungsoon",
@@ -456,6 +617,26 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "person.jo-seok-jin",
+      "name": {
+        "ko": {
+          "full": "조석진"
+        },
+        "latn": {
+          "preferred": "Jo Seok-jin"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000",
+          "name_used": "Jo Seok-jin",
+          "note": "영문표기 'Jo Seok-jin' — 실제 용례 확인: https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%9D%EC%A7%84. [2026-06-11] MMCA 전시 '대한제국의 미술' 참여작가 (덕수궁, 2018)",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.joo-michael",
@@ -676,6 +857,26 @@
       "_last_updated": "2026-03-31"
     },
     {
+      "id": "person.kim-eun-ho",
+      "name": {
+        "ko": {
+          "full": "김은호"
+        },
+        "latn": {
+          "preferred": "Kim Eun-ho"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000",
+          "name_used": "Kim Eun-ho",
+          "note": "영문표기 'Kim Eun-ho' — 실제 용례 확인: https://en.wikipedia.org/wiki/Kim_Eun-ho_%28painter%29. [2026-06-11] 영문표기 'Kim Eun-ho' — 실제 용례 확인: https://en.wikipedia.org/wiki/Kim_Eun-ho_%28painter%29. [2026-06-11] MMCA 전시 '대한제국의 미술' 참여작",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "person.kim-inkyum",
       "name": {
         "ko": {
@@ -704,6 +905,26 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "person.kim-namsoo",
+      "name": {
+        "ko": {
+          "full": "김남수"
+        },
+        "latn": {
+          "preferred": "Kim Namsoo"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/김남수_(1969년)",
+          "name_used": "Kim Namsoo",
+          "note": "MMCA 본관 / person-author / 안무비평가, 'Choreography Critic'. 동명이인 확인 권장.",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.kim-sooja",
@@ -786,6 +1007,26 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "person.kim-whanki",
+      "name": {
+        "ko": {
+          "full": "김환기"
+        },
+        "latn": {
+          "preferred": "Kim Whanki"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993",
+          "name_used": "Kim Whanki",
+          "note": "영문표기 'KIM Whanki' — 실제 용례 확인: http://whankimuseum.org/en/kim-whanki/artist/. [2026-06-11] 영문표기 'KIM Whanki' — 실제 용례 확인: http://whankimuseum.org/en/kim-whanki/artist/. [2026-06-11] MMCA 전시 '소장품전: 근대를 수놓은 그림' 참여작가 (과천, 201",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.kim-yun-shin",
@@ -1008,6 +1249,26 @@
       "_last_updated": "2026-03-31"
     },
     {
+      "id": "person.lee-do-yeong",
+      "name": {
+        "ko": {
+          "full": "이도영"
+        },
+        "latn": {
+          "preferred": "Lee Do-yeong"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000",
+          "name_used": "Lee Do-yeong",
+          "note": "영문표기 'Lee Do-yeong' — 실제 용례 확인: https://www.lambiek.net/artists/l/lee_do-yeong.htm. [2026-06-11] 영문표기 'Lee Do-yeong' — 실제 용례 확인: https://www.lambiek.net/artists/l/lee_do-yeong.htm. [2026-06-11] MMCA 전시 '대한제국의 미술' 참여작가 (덕",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "person.lee-hyungkoo",
       "name": {
         "ko": {
@@ -1082,6 +1343,26 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "person.lee-jung-seop",
+      "name": {
+        "ko": {
+          "full": "이중섭"
+        },
+        "latn": {
+          "preferred": "Lee Jung-seop"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993",
+          "name_used": "Lee Jung-seop",
+          "note": "영문표기 'LEE JUNG SEOB' — 실제 용례 확인: https://www.mmca.go.kr/upload/exhibition/2016/06/2016060102255850713868.pdf. [2026-06-11] 영문표기 'LEE JUNG SEOB' — 실제 용례 확인: https://www.mmca.go.kr/upload/exhibition/2016/06/201606010225585",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.lee-ufan",
@@ -1226,6 +1507,46 @@
       "_last_updated": "2026-03-31"
     },
     {
+      "id": "person.mark-manders",
+      "name": {
+        "ko": {
+          "full": "마르크 만더르스"
+        },
+        "latn": {
+          "preferred": "Mark Manders"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431",
+          "name_used": "Mark Manders",
+          "note": "영문표기 'Mark Manders' — 실제 용례 확인: https://www.xavierhufkens.com/artists/mark-manders. [2026-06-11] MMCA 전시 '예술가의 문서들' 참여작가 (서울, 2016). 외국 작가, 원어 표기 확인 권장.",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.mark-nachtsheim",
+      "name": {
+        "ko": {
+          "full": "마르크 나흐참"
+        },
+        "latn": {
+          "preferred": "Marc Nagtzaam"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431",
+          "name_used": "Marc Nagtzaam",
+          "note": "영문표기 'Marc Nagtzaam' — 실제 용례 확인: https://www.marcnagtzaam.info/news.html. [2026-06-11] MMCA 전시 '예술가의 문서들' 참여작가 (서울, 2016). 외국 작가, 원어 표기 확인 권장.",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "person.moon-kyungwon",
       "name": {
         "ko": {
@@ -1363,6 +1684,26 @@
       "_last_updated": "2026-03-31"
     },
     {
+      "id": "person.nam-june-paik",
+      "name": {
+        "ko": {
+          "full": "백남준"
+        },
+        "latn": {
+          "preferred": "Nam June Paik"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994",
+          "name_used": "Nam June Paik",
+          "note": "영문표기 'Nam June Paik' — 실제 용례 확인: https://web.archive.org/web/20041015061902/http%3A//www.paikstudios.com/. [2026-06-11] MMCA 전시 '소장품 특별전 균열 II' 참여작가 (과천, 2018)",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "person.noh-sangkyoon",
       "name": {
         "ko": {
@@ -1465,6 +1806,26 @@
         "wikidata": "Q109354786"
       },
       "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "person.park-junebum",
+      "name": {
+        "ko": {
+          "full": "박준범"
+        },
+        "latn": {
+          "preferred": "PARK Junebum"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.zabludowiczcollection.com/collection/artists/view/junebum-park",
+          "name_used": "PARK Junebum",
+          "note": "MMCA 본관 / person-artist / 퍼즐 연작 작가. 표 정렬 추출. source-derived(Memsource). 본인표기 확인 권장.",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.park-kiwon",
@@ -1594,6 +1955,26 @@
       "_last_updated": "2026-03-31"
     },
     {
+      "id": "person.park-soo-keun",
+      "name": {
+        "ko": {
+          "full": "박수근"
+        },
+        "latn": {
+          "preferred": "Park Soo-keun"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999",
+          "name_used": "Park Soo-keun",
+          "note": "영문표기 'Park Soo-keun' — 실제 용례 확인: https://www.koreaherald.com/view.php?ud=20200629000912. [2026-06-11] 영문표기 'Park Soo-keun' — 실제 용례 확인: https://www.koreaherald.com/view.php?ud=20200629000912. [2026-06-11] MMCA 전시 '내가 사랑한 ",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "person.rhii-jewyo",
       "name": {
         "ko": {
@@ -1622,6 +2003,26 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-03-31"
+    },
+    {
+      "id": "person.roger-willems",
+      "name": {
+        "ko": {
+          "full": "로허르 빌럼스"
+        },
+        "latn": {
+          "preferred": "Roger Willems"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431",
+          "name_used": "Roger Willems",
+          "note": "영문표기 'Roger Willems' — 실제 용례 확인: https://www.rogerwillems.nl/. [2026-06-11] MMCA 전시 '예술가의 문서들' 참여작가 (서울, 2016). 외국 작가, 원어 표기 확인 권장.",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.suh-doho",
@@ -1867,6 +2268,48 @@
     }
   ],
   "exhibitions": [
+    {
+      "id": "exhibition.art-of-korean-empire",
+      "title": {
+        "ko": "대한제국의 미술: 빛의 길을 꿈꾸다"
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000",
+          "note": "MMCA 덕수궁 / 기획전시 / 2018-11-15~2019-02-06",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.artists-documents",
+      "title": {
+        "ko": "예술가의 문서들: 예술, 타이포그래피 그리고 협업"
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431",
+          "note": "MMCA 서울 / 기획전시 / 2016-05-26~2016-08-31",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.civilization-how-we-live",
+      "title": {
+        "ko": "문명: 지금 우리가 사는 방법"
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000997",
+          "note": "MMCA 과천 / 기획전시 / 2018-10-18~2019-02-17",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
     {
       "id": "exhibition.korean-pavilion-venice-1995",
       "title": {
@@ -2378,6 +2821,34 @@
       "_last_updated": "2026-03-31"
     },
     {
+      "id": "exhibition.mmca-collection-geundae",
+      "title": {
+        "ko": "소장품전: 근대를 수놓은 그림"
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993",
+          "note": "MMCA 과천 / 기획전시 / 2018-07-11~2019-06-23",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "exhibition.mmca-fissure-2",
+      "title": {
+        "ko": "소장품 특별전 《균열 Ⅱ: 세상을 보는 눈/ 영원을 향한 시선》"
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994",
+          "note": "MMCA 과천 / 기획전시 / 2018-09-18~2019-10-20",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "exhibition.mmca-hyundai-2014",
       "title": {
         "ko": "국립현대미술관 현대차 시리즈 2014: 이불",
@@ -2734,6 +3205,20 @@
       "_last_updated": "2026-03-31"
     },
     {
+      "id": "exhibition.museum-i-loved-modern",
+      "title": {
+        "ko": "내가 사랑한 미술관: 근대의 걸작"
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999",
+          "note": "MMCA 덕수궁 / 기획전시 / 2018-05-03~2018-10-14",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "exhibition.yun-hyong-keun-2018",
       "title": {
         "ko": "윤형근"
@@ -2745,7 +3230,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     }
   ],
   "organizations": [
@@ -3023,6 +3509,21 @@
       "_last_updated": "2026-04-02"
     },
     {
+      "id": "org.gyeonggi-creation-center",
+      "name": {
+        "ko": "경기창작센터",
+        "en": "Gyeonggi Creation Center"
+      },
+      "sources": [
+        {
+          "url": "https://gcc.ggcf.kr/pages/history",
+          "note": "MMCA 본관 / institution-official / 송성진 1평조차 2019-071",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "org.kukje-gallery",
       "name": {
         "ko": "국제갤러리",
@@ -3056,6 +3557,66 @@
       "status": "reviewed",
       "notes": "1982년 이현숙 설립, 인사동 → 1987년 소격동(삼청로) 이전. 부산 F1963 분관 운영 중. type.aat 300417122(art galleries, commercial) 검증 필요.",
       "_last_updated": "2026-04-02"
+    },
+    {
+      "id": "org.mmca-cheongju",
+      "name": {
+        "ko": "국립현대미술관 청주",
+        "en": "MMCA Cheongju"
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/visitingInfo/cheongjuInfo.do",
+          "note": "MMCA 본관 / institution-official / 2021-076 김남수(천대광론) 본문 'MMCA Cheongju' 확인. 박태호 전시텍스트 납품 EN엔 미등장.",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "org.mmca-deoksugung",
+      "name": {
+        "ko": "국립현대미술관 덕수궁",
+        "en": "MMCA Deoksugung"
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/visitingInfo/deoksugungInfo.do",
+          "note": "MMCA 본관 / institution-branch / 본관 EN docs 등장(3건). MMCA 덕수궁관 표준 영문명.",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "org.mmca-gwacheon",
+      "name": {
+        "ko": "국립현대미술관 과천",
+        "en": "MMCA Gwacheon"
+      },
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q60823450",
+          "note": "MMCA 본관 / institution-branch / 본관 EN docs 다수 등장(6건). MMCA 과천관 표준 영문명.",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "org.mmca-seoul",
+      "name": {
+        "ko": "국립현대미술관 서울",
+        "en": "MMCA Seoul"
+      },
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/visitingInfo/seoulInfo.do",
+          "note": "MMCA 본관 / institution-branch / 본관 EN docs 등장. MMCA 서울관 표준 영문명.",
+          "accessed": "2026-06-11"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "org.mmca",

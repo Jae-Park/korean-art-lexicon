@@ -1,0 +1,10 @@
+id: org.mmca-cheongju
+name:
+  ko: 국립현대미술관 청주
+  en: MMCA Cheongju
+sources:
+- url: https://www.mmca.go.kr/visitingInfo/cheongjuInfo.do
+  note: MMCA 본관 / institution-official / 2021-076 김남수(천대광론) 본문 'MMCA Cheongju' 확인.
+    박태호 전시텍스트 납품 EN엔 미등장.
+  accessed: '2026-06-11'
+status: reviewed

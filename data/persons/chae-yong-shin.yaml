@@ -1,0 +1,13 @@
+id: person.chae-yong-shin
+name:
+  ko:
+    full: 채용신
+  latn:
+    preferred: Chae Yong-Shin
+sources:
+- url: https://ko.wikipedia.org/wiki/채용신
+  name_used: Chae Yong-Shin
+  note: MMCA 본관 / person-artist / 호 석지(Seokji). 《서거 60주년 석지 채용신전》, Memorial Exhibition
+    for Chae, Yong-Shin. 한말 일제초 초상화가. source-derived(Memsource).
+  accessed: '2026-06-11'
+status: reviewed

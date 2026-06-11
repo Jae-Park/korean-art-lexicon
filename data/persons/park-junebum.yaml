@@ -1,0 +1,13 @@
+id: person.park-junebum
+name:
+  ko:
+    full: 박준범
+  latn:
+    preferred: PARK Junebum
+sources:
+- url: https://www.zabludowiczcollection.com/collection/artists/view/junebum-park
+  name_used: PARK Junebum
+  note: MMCA 본관 / person-artist / 퍼즐 연작 작가. 표 정렬 추출. source-derived(Memsource). 본인표기
+    확인 권장.
+  accessed: '2026-06-11'
+status: reviewed

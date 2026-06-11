@@ -1,0 +1,13 @@
+id: person.go-hui-dong
+name:
+  ko:
+    full: 고희동
+  latn:
+    preferred: Go Hui-dong
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
+  name_used: Go Hui-dong
+  note: '영문표기 ''Go Hui-dong'' — 실제 용례 확인: https://magazine.seoulselection.com/2013/11/28/the-go-hui-dong-house/.
+    [2026-06-11] MMCA 전시 ''내가 사랑한 미술관: 근대의 걸작'' 참여작가 (덕수궁, 2018)'
+  accessed: '2026-06-11'
+status: reviewed

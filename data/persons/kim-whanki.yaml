@@ -1,0 +1,14 @@
+id: person.kim-whanki
+name:
+  ko:
+    full: 김환기
+  latn:
+    preferred: Kim Whanki
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993
+  name_used: Kim Whanki
+  note: '영문표기 ''KIM Whanki'' — 실제 용례 확인: http://whankimuseum.org/en/kim-whanki/artist/.
+    [2026-06-11] 영문표기 ''KIM Whanki'' — 실제 용례 확인: http://whankimuseum.org/en/kim-whanki/artist/.
+    [2026-06-11] MMCA 전시 ''소장품전: 근대를 수놓은 그림'' 참여작가 (과천, 201'
+  accessed: '2026-06-11'
+status: reviewed

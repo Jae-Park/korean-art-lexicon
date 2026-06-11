@@ -1,0 +1,12 @@
+id: person.hong-soun
+name:
+  ko:
+    full: 홍순
+  latn:
+    preferred: Hong Soun
+sources:
+- url: https://www.johyungallery.com/artists/40-hong-soun/biography
+  name_used: Hong Soun
+  note: MMCA 본관 / person-artist / 소스 EN 표기 'Hong Soun'(홍순). 조현화랑 작가. 본인 표기 확인 권장.
+  accessed: '2026-06-11'
+status: reviewed
