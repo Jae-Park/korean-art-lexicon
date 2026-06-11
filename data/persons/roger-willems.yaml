@@ -1,0 +1,13 @@
+id: person.roger-willems
+name:
+  ko:
+    full: 로허르 빌럼스
+  latn:
+    preferred: Roger Willems
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431
+  name_used: Roger Willems
+  note: '영문표기 ''Roger Willems'' — 실제 용례 확인: https://www.rogerwillems.nl/. [2026-06-11]
+    MMCA 전시 ''예술가의 문서들'' 참여작가 (서울, 2016). 외국 작가, 원어 표기 확인 권장.'
+  accessed: '2026-06-11'
+status: reviewed

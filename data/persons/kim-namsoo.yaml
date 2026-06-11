@@ -1,0 +1,12 @@
+id: person.kim-namsoo
+name:
+  ko:
+    full: 김남수
+  latn:
+    preferred: Kim Namsoo
+sources:
+- url: https://ko.wikipedia.org/wiki/김남수_(1969년)
+  name_used: Kim Namsoo
+  note: MMCA 본관 / person-author / 안무비평가, 'Choreography Critic'. 동명이인 확인 권장.
+  accessed: '2026-06-11'
+status: reviewed

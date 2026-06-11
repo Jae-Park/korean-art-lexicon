@@ -1,0 +1,9 @@
+id: org.gyeonggi-creation-center
+name:
+  ko: 경기창작센터
+  en: Gyeonggi Creation Center
+sources:
+- url: https://gcc.ggcf.kr/pages/history
+  note: MMCA 본관 / institution-official / 송성진 1평조차 2019-071
+  accessed: '2026-06-11'
+status: reviewed

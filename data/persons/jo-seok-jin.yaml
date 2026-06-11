@@ -1,0 +1,13 @@
+id: person.jo-seok-jin
+name:
+  ko:
+    full: 조석진
+  latn:
+    preferred: Jo Seok-jin
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
+  name_used: Jo Seok-jin
+  note: '영문표기 ''Jo Seok-jin'' — 실제 용례 확인: https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%9D%EC%A7%84.
+    [2026-06-11] MMCA 전시 ''대한제국의 미술'' 참여작가 (덕수궁, 2018)'
+  accessed: '2026-06-11'
+status: reviewed

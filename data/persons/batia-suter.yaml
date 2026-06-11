@@ -1,0 +1,13 @@
+id: person.batia-suter
+name:
+  ko:
+    full: 바티아 쉬터르
+  latn:
+    preferred: Batia Suter
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431
+  name_used: Batia Suter
+  note: '영문표기 ''Batia Suter'' — 실제 용례 확인: https://www.batiasuter.org/. [2026-06-11]
+    MMCA 전시 ''예술가의 문서들'' 참여작가 (서울, 2016). 외국 작가, 원어 표기 확인 권장.'
+  accessed: '2026-06-11'
+status: reviewed

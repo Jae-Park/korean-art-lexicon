@@ -1,0 +1,13 @@
+id: person.nam-june-paik
+name:
+  ko:
+    full: 백남준
+  latn:
+    preferred: Nam June Paik
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994
+  name_used: Nam June Paik
+  note: '영문표기 ''Nam June Paik'' — 실제 용례 확인: https://web.archive.org/web/20041015061902/http%3A//www.paikstudios.com/.
+    [2026-06-11] MMCA 전시 ''소장품 특별전 균열 II'' 참여작가 (과천, 2018)'
+  accessed: '2026-06-11'
+status: reviewed

@@ -1,0 +1,13 @@
+id: person.chen-dai-goang
+name:
+  ko:
+    full: 천대광
+  latn:
+    preferred: Chen Dai Goang
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202102010001388
+  name_used: Chen Dai Goang
+  note: MMCA 본관 / person-artist / 2021-076 납품 EN 표기. 두 번역자(전시텍스트, 김남수론) 독립 일치, 고신뢰.
+    RR 'Cheon Dae-gwang' 강제 금지. 작가 본인 선호 표기 개연성 높으나 소스 내 명시 없음(open_question).
+  accessed: '2026-06-11'
+status: reviewed

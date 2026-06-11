@@ -1,0 +1,13 @@
+id: person.lee-jung-seop
+name:
+  ko:
+    full: 이중섭
+  latn:
+    preferred: Lee Jung-seop
+sources:
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993
+  name_used: Lee Jung-seop
+  note: '영문표기 ''LEE JUNG SEOB'' — 실제 용례 확인: https://www.mmca.go.kr/upload/exhibition/2016/06/2016060102255850713868.pdf.
+    [2026-06-11] 영문표기 ''LEE JUNG SEOB'' — 실제 용례 확인: https://www.mmca.go.kr/upload/exhibition/2016/06/201606010225585'
+  accessed: '2026-06-11'
+status: reviewed

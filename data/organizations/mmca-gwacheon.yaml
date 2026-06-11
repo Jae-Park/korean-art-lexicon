@@ -1,0 +1,9 @@
+id: org.mmca-gwacheon
+name:
+  ko: 국립현대미술관 과천
+  en: MMCA Gwacheon
+sources:
+- url: https://www.wikidata.org/wiki/Q60823450
+  note: MMCA 본관 / institution-branch / 본관 EN docs 다수 등장(6건). MMCA 과천관 표준 영문명.
+  accessed: '2026-06-11'
+status: reviewed
