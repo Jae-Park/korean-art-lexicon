@@ -44,6 +44,17 @@
           "given": "Chungsik"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1861,
+      "death_year": 1919,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "external_ids": {
+        "wikidata": "Q10310975"
+      },
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999",
@@ -135,6 +146,13 @@
           "family": "Lodewijks"
         }
       },
+      "nationality": "NL",
+      "birth_year": 1972,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431",
@@ -160,6 +178,13 @@
           "family": "Suter"
         }
       },
+      "nationality": "CH",
+      "birth_year": 1967,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431",
@@ -185,6 +210,14 @@
           "given": "Yong-Shin"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1850,
+      "death_year": 1941,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://ko.wikipedia.org/wiki/채용신",
@@ -210,6 +243,13 @@
           "given": "Dai Goang"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1970,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202102010001388",
@@ -332,6 +372,14 @@
           "given": "Hyuck-Lim"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1916,
+      "death_year": 2010,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0074270",
@@ -416,6 +464,17 @@
           "family": "Go",
           "given": "Hui-dong"
         }
+      },
+      "nationality": "KR",
+      "birth_year": 1886,
+      "death_year": 1965,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "external_ids": {
+        "wikidata": "Q5574841"
       },
       "sources": [
         {
@@ -517,6 +576,14 @@
           "given": "Mook"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1914,
+      "death_year": 2016,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0079471",
@@ -542,6 +609,13 @@
           "given": "Soun"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1959,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.johyungallery.com/artists/40-hong-soun/biography",
@@ -675,6 +749,17 @@
           "family": "Jo",
           "given": "Seok-jin"
         }
+      },
+      "nationality": "KR",
+      "birth_year": 1853,
+      "death_year": 1920,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "external_ids": {
+        "wikidata": "Q16181911"
       },
       "sources": [
         {
@@ -919,6 +1004,17 @@
           "given": "Eun-ho"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1892,
+      "death_year": 1979,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "external_ids": {
+        "wikidata": "Q12588355"
+      },
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000",
@@ -974,6 +1070,13 @@
           "given": "Namsoo"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1969,
+      "role": [
+        {
+          "aat": "300025519"
+        }
+      ],
       "sources": [
         {
           "url": "https://ko.wikipedia.org/wiki/김남수_(1969년)",
@@ -1080,6 +1183,17 @@
           "family": "Kim",
           "given": "Whanki"
         }
+      },
+      "nationality": "KR",
+      "birth_year": 1913,
+      "death_year": 1974,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "external_ids": {
+        "wikidata": "Q10855929"
       },
       "sources": [
         {
@@ -1326,6 +1440,17 @@
           "given": "Do-yeong"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1884,
+      "death_year": 1933,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "external_ids": {
+        "wikidata": "Q3228847"
+      },
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000",
@@ -1427,6 +1552,14 @@
           "given": "Jung-seop"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1916,
+      "death_year": 1956,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993",
@@ -1594,6 +1727,13 @@
           "family": "Manders"
         }
       },
+      "nationality": "NL",
+      "birth_year": 1968,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431",
@@ -1619,6 +1759,13 @@
           "family": "Nagtzaam"
         }
       },
+      "nationality": "NL",
+      "birth_year": 1968,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431",
@@ -1781,6 +1928,14 @@
           "given": "Nam June"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1932,
+      "death_year": 2006,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994",
@@ -1910,6 +2065,13 @@
           "given": "Junebum"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1976,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.zabludowiczcollection.com/collection/artists/view/junebum-park",
@@ -2062,6 +2224,17 @@
           "given": "Soo-keun"
         }
       },
+      "nationality": "KR",
+      "birth_year": 1914,
+      "death_year": 1965,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "external_ids": {
+        "wikidata": "Q7138062"
+      },
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999",
@@ -2117,6 +2290,13 @@
           "family": "Willems"
         }
       },
+      "nationality": "NL",
+      "birth_year": 1969,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431",

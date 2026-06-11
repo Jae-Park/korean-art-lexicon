@@ -8,6 +8,13 @@ name:
     preferred: Lee Do-yeong
     family: Lee
     given: Do-yeong
+nationality: KR
+birth_year: 1884
+death_year: 1933
+role:
+- aat: '300025103'
+external_ids:
+  wikidata: Q3228847
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
   name_used: Lee Do-yeong

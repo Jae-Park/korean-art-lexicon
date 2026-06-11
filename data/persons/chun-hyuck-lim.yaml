@@ -8,6 +8,11 @@ name:
     preferred: Chun Hyuck-Lim
     family: Chun
     given: Hyuck-Lim
+nationality: KR
+birth_year: 1916
+death_year: 2010
+role:
+- aat: '300025103'
 sources:
 - url: https://encykorea.aks.ac.kr/Article/E0074270
   name_used: Chun Hyuck-Lim

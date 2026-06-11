@@ -8,6 +8,10 @@ name:
     preferred: Batia Suter
     given: Batia
     family: Suter
+nationality: CH
+birth_year: 1967
+role:
+- aat: '300025103'
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431
   name_used: Batia Suter

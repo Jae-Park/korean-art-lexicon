@@ -8,6 +8,10 @@ name:
     preferred: Roger Willems
     given: Roger
     family: Willems
+nationality: NL
+birth_year: 1969
+role:
+- aat: '300025103'
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431
   name_used: Roger Willems

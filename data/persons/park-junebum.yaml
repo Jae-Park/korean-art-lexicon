@@ -8,6 +8,10 @@ name:
     preferred: PARK Junebum
     family: PARK
     given: Junebum
+nationality: KR
+birth_year: 1976
+role:
+- aat: '300025103'
 sources:
 - url: https://www.zabludowiczcollection.com/collection/artists/view/junebum-park
   name_used: PARK Junebum

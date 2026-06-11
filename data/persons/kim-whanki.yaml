@@ -8,6 +8,13 @@ name:
     preferred: Kim Whanki
     family: Kim
     given: Whanki
+nationality: KR
+birth_year: 1913
+death_year: 1974
+role:
+- aat: '300025103'
+external_ids:
+  wikidata: Q10855929
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993
   name_used: Kim Whanki

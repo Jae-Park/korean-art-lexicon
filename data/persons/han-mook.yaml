@@ -8,6 +8,11 @@ name:
     preferred: Han Mook
     family: Han
     given: Mook
+nationality: KR
+birth_year: 1914
+death_year: 2016
+role:
+- aat: '300025103'
 sources:
 - url: https://encykorea.aks.ac.kr/Article/E0079471
   name_used: Han Mook

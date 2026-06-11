@@ -8,6 +8,11 @@ name:
     preferred: Nam June Paik
     family: Paik
     given: Nam June
+nationality: KR
+birth_year: 1932
+death_year: 2006
+role:
+- aat: '300025103'
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994
   name_used: Nam June Paik

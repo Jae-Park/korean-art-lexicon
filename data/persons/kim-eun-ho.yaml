@@ -8,6 +8,13 @@ name:
     preferred: Kim Eun-ho
     family: Kim
     given: Eun-ho
+nationality: KR
+birth_year: 1892
+death_year: 1979
+role:
+- aat: '300025103'
+external_ids:
+  wikidata: Q12588355
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
   name_used: Kim Eun-ho

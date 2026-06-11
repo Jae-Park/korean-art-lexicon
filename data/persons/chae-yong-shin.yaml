@@ -8,6 +8,11 @@ name:
     preferred: Chae Yong-Shin
     family: Chae
     given: Yong-Shin
+nationality: KR
+birth_year: 1850
+death_year: 1941
+role:
+- aat: '300025103'
 sources:
 - url: https://ko.wikipedia.org/wiki/채용신
   name_used: Chae Yong-Shin
