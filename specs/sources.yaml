@@ -4,12 +4,16 @@ sources:
       ko: 국립현대미술관
       en: National Museum of Modern and Contemporary Art, Korea
     base_url: https://www.mmca.go.kr
+    tier: deterministic
     targets:
       - type: exhibitions
-        list_url: /exhibitions/exhibitionsList.do
-        detail_url_pattern: /exhibitions/exhibitionsDetail.do?exhId={id}
-        schedule: monthly
+        # 2026-06-11: 구 exhibitionsList.do는 404(사이트 개편). 현행 데이터 = JSON Ajax API.
+        list_api: /exhibitions/AjaxExhibitionList.do?currentPageNo={page}   # JSON, 페이지당 8건, 총 ~1292건/162p
+        detail_url_pattern: /exhibitions/exhibitionsDetail.do?exhId={id}     # = 후보 GOLD 1차 출처
+        json_fields: { exhId, exhTitle, exhArtist, exhStDt, exhEdDt, exhPlaNm, exhTpCd }
+        impl: miner/src/feeders/mmca.js
+        schedule: biweekly
       - type: persons
-        note: "MMCA 웹사이트에 별도 작가 목록 없음 — 전시 상세에서 추출"
+        note: "별도 작가 목록 없음 — Ajax JSON의 exhArtist(참여작가)에서 추출. JS렌더라 단순 fetch는 빈값."
     trust_level: institutional
-    notes: "MMCA 현대차 시리즈 (2014-2023, 10년 한정) 포함"
+    notes: "MMCA Ajax JSON = JS렌더 우회 결정론 크롤($0). exhId 상세 URL이 곧 GOLD 출처 → 검증 생략(verified=true)."

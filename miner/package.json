@@ -1,0 +1,12 @@
+{
+  "name": "korean-art-lexicon-miner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Mine candidate entries (persons/exhibitions/orgs/terms/publications) for the Korean Art Lexicon, with web-verified sources, for human review in Notion. Source-First: never writes data/.",
+  "scripts": {
+    "mine": "node src/index.js mine",
+    "harvest": "node src/index.js harvest"
+  },
+  "dependencies": {}
+}
