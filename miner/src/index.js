@@ -10,6 +10,7 @@ import { verifyBatch } from "./verify/index.js";
 import { buildMentionIndex, computeWeight } from "./weight.js";
 import { createCandidate } from "./notion.js";
 import { harvest as runHarvest } from "./harvest.js";
+import { enrichEn } from "./enrich.js";
 import { log } from "../lib/log.js";
 
 const cmd = process.argv[2];
@@ -84,7 +85,11 @@ async function harvest() {
   await runHarvest({ push: has("--push") });
 }
 
-const run = { mine, harvest }[cmd];
+async function enrich() {
+  await enrichEn({ concurrency: Number(val("--concurrency")) || 3 });
+}
+
+const run = { mine, harvest, enrich }[cmd];
 if (!run) {
   console.error(
     "usage:\n" +
