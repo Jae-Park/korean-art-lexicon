@@ -2,8 +2,12 @@ id: person.mark-nachtsheim
 name:
   ko:
     full: 마르크 나흐참
+    given: 마르크
+    family: 나흐참
   latn:
     preferred: Marc Nagtzaam
+    given: Marc
+    family: Nagtzaam
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431
   name_used: Marc Nagtzaam

@@ -2,8 +2,12 @@ id: person.kim-namsoo
 name:
   ko:
     full: 김남수
+    family: 김
+    given: 남수
   latn:
     preferred: Kim Namsoo
+    family: Kim
+    given: Namsoo
 sources:
 - url: https://ko.wikipedia.org/wiki/김남수_(1969년)
   name_used: Kim Namsoo

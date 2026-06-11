@@ -2,8 +2,12 @@ id: person.chun-hyuck-lim
 name:
   ko:
     full: 전혁림
+    family: 전
+    given: 혁림
   latn:
     preferred: Chun Hyuck-Lim
+    family: Chun
+    given: Hyuck-Lim
 sources:
 - url: https://encykorea.aks.ac.kr/Article/E0074270
   name_used: Chun Hyuck-Lim

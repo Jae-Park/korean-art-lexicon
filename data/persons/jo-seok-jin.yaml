@@ -2,8 +2,12 @@ id: person.jo-seok-jin
 name:
   ko:
     full: 조석진
+    family: 조
+    given: 석진
   latn:
     preferred: Jo Seok-jin
+    family: Jo
+    given: Seok-jin
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
   name_used: Jo Seok-jin

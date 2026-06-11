@@ -2,8 +2,12 @@ id: person.roger-willems
 name:
   ko:
     full: 로허르 빌럼스
+    given: 로허르
+    family: 빌럼스
   latn:
     preferred: Roger Willems
+    given: Roger
+    family: Willems
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431
   name_used: Roger Willems

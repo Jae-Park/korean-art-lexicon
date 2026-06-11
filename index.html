@@ -918,9 +918,12 @@
         html += `<div class="detail-section" style="margin-top:20px"><h3>Name Details</h3>`;
         html += field('한국어', entry.name.ko.full);
         if (entry.name.ko.hanja) html += field('한자', entry.name.ko.hanja);
-        html += field('Family', entry.name.ko.family + ' / ' + entry.name.latn.family);
-        html += field('Given', entry.name.ko.given + ' / ' + entry.name.latn.given);
-        html += field('Preferred', entry.name.latn.preferred);
+        const latn = entry.name.latn || {};
+        const famParts = [entry.name.ko.family, latn.family].filter(Boolean);
+        if (famParts.length) html += field('Family', famParts.join(' / '));
+        const givParts = [entry.name.ko.given, latn.given].filter(Boolean);
+        if (givParts.length) html += field('Given', givParts.join(' / '));
+        if (latn.preferred) html += field('Preferred', latn.preferred);
         if (entry.birth_year || entry.death_year) {
           let lifespan = '';
           if (entry.birth_year) lifespan += entry.birth_year;

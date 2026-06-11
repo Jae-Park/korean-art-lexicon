@@ -34,10 +34,14 @@
       "id": "person.an-chungsik",
       "name": {
         "ko": {
-          "full": "안중식"
+          "full": "안중식",
+          "family": "안",
+          "given": "중식"
         },
         "latn": {
-          "preferred": "An Chungsik"
+          "preferred": "An Chungsik",
+          "family": "An",
+          "given": "Chungsik"
         }
       },
       "sources": [
@@ -121,10 +125,14 @@
       "id": "person.bart-lodewijks",
       "name": {
         "ko": {
-          "full": "바르트 로데베이크스"
+          "full": "바르트 로데베이크스",
+          "given": "바르트",
+          "family": "로데베이크스"
         },
         "latn": {
-          "preferred": "Bart Lodewijks"
+          "preferred": "Bart Lodewijks",
+          "given": "Bart",
+          "family": "Lodewijks"
         }
       },
       "sources": [
@@ -142,10 +150,14 @@
       "id": "person.batia-suter",
       "name": {
         "ko": {
-          "full": "바티아 쉬터르"
+          "full": "바티아 쉬터르",
+          "given": "바티아",
+          "family": "쉬터르"
         },
         "latn": {
-          "preferred": "Batia Suter"
+          "preferred": "Batia Suter",
+          "given": "Batia",
+          "family": "Suter"
         }
       },
       "sources": [
@@ -163,10 +175,14 @@
       "id": "person.chae-yong-shin",
       "name": {
         "ko": {
-          "full": "채용신"
+          "full": "채용신",
+          "family": "채",
+          "given": "용신"
         },
         "latn": {
-          "preferred": "Chae Yong-Shin"
+          "preferred": "Chae Yong-Shin",
+          "family": "Chae",
+          "given": "Yong-Shin"
         }
       },
       "sources": [
@@ -184,10 +200,14 @@
       "id": "person.chen-dai-goang",
       "name": {
         "ko": {
-          "full": "천대광"
+          "full": "천대광",
+          "family": "천",
+          "given": "대광"
         },
         "latn": {
-          "preferred": "Chen Dai Goang"
+          "preferred": "Chen Dai Goang",
+          "family": "Chen",
+          "given": "Dai Goang"
         }
       },
       "sources": [
@@ -302,10 +322,14 @@
       "id": "person.chun-hyuck-lim",
       "name": {
         "ko": {
-          "full": "전혁림"
+          "full": "전혁림",
+          "family": "전",
+          "given": "혁림"
         },
         "latn": {
-          "preferred": "Chun Hyuck-Lim"
+          "preferred": "Chun Hyuck-Lim",
+          "family": "Chun",
+          "given": "Hyuck-Lim"
         }
       },
       "sources": [
@@ -383,10 +407,14 @@
       "id": "person.go-hui-dong",
       "name": {
         "ko": {
-          "full": "고희동"
+          "full": "고희동",
+          "family": "고",
+          "given": "희동"
         },
         "latn": {
-          "preferred": "Go Hui-dong"
+          "preferred": "Go Hui-dong",
+          "family": "Go",
+          "given": "Hui-dong"
         }
       },
       "sources": [
@@ -479,10 +507,14 @@
       "id": "person.han-mook",
       "name": {
         "ko": {
-          "full": "한묵"
+          "full": "한묵",
+          "family": "한",
+          "given": "묵"
         },
         "latn": {
-          "preferred": "Han Mook"
+          "preferred": "Han Mook",
+          "family": "Han",
+          "given": "Mook"
         }
       },
       "sources": [
@@ -500,10 +532,14 @@
       "id": "person.hong-soun",
       "name": {
         "ko": {
-          "full": "홍순"
+          "full": "홍순",
+          "family": "홍",
+          "given": "순"
         },
         "latn": {
-          "preferred": "Hong Soun"
+          "preferred": "Hong Soun",
+          "family": "Hong",
+          "given": "Soun"
         }
       },
       "sources": [
@@ -630,10 +666,14 @@
       "id": "person.jo-seok-jin",
       "name": {
         "ko": {
-          "full": "조석진"
+          "full": "조석진",
+          "family": "조",
+          "given": "석진"
         },
         "latn": {
-          "preferred": "Jo Seok-jin"
+          "preferred": "Jo Seok-jin",
+          "family": "Jo",
+          "given": "Seok-jin"
         }
       },
       "sources": [
@@ -869,10 +909,14 @@
       "id": "person.kim-eun-ho",
       "name": {
         "ko": {
-          "full": "김은호"
+          "full": "김은호",
+          "family": "김",
+          "given": "은호"
         },
         "latn": {
-          "preferred": "Kim Eun-ho"
+          "preferred": "Kim Eun-ho",
+          "family": "Kim",
+          "given": "Eun-ho"
         }
       },
       "sources": [
@@ -920,10 +964,14 @@
       "id": "person.kim-namsoo",
       "name": {
         "ko": {
-          "full": "김남수"
+          "full": "김남수",
+          "family": "김",
+          "given": "남수"
         },
         "latn": {
-          "preferred": "Kim Namsoo"
+          "preferred": "Kim Namsoo",
+          "family": "Kim",
+          "given": "Namsoo"
         }
       },
       "sources": [
@@ -1023,10 +1071,14 @@
       "id": "person.kim-whanki",
       "name": {
         "ko": {
-          "full": "김환기"
+          "full": "김환기",
+          "family": "김",
+          "given": "환기"
         },
         "latn": {
-          "preferred": "Kim Whanki"
+          "preferred": "Kim Whanki",
+          "family": "Kim",
+          "given": "Whanki"
         }
       },
       "sources": [
@@ -1264,10 +1316,14 @@
       "id": "person.lee-do-yeong",
       "name": {
         "ko": {
-          "full": "이도영"
+          "full": "이도영",
+          "family": "이",
+          "given": "도영"
         },
         "latn": {
-          "preferred": "Lee Do-yeong"
+          "preferred": "Lee Do-yeong",
+          "family": "Lee",
+          "given": "Do-yeong"
         }
       },
       "sources": [
@@ -1361,10 +1417,14 @@
       "id": "person.lee-jung-seop",
       "name": {
         "ko": {
-          "full": "이중섭"
+          "full": "이중섭",
+          "family": "이",
+          "given": "중섭"
         },
         "latn": {
-          "preferred": "Lee Jung-seop"
+          "preferred": "Lee Jung-seop",
+          "family": "Lee",
+          "given": "Jung-seop"
         }
       },
       "sources": [
@@ -1524,10 +1584,14 @@
       "id": "person.mark-manders",
       "name": {
         "ko": {
-          "full": "마르크 만더르스"
+          "full": "마르크 만더르스",
+          "given": "마르크",
+          "family": "만더르스"
         },
         "latn": {
-          "preferred": "Mark Manders"
+          "preferred": "Mark Manders",
+          "given": "Mark",
+          "family": "Manders"
         }
       },
       "sources": [
@@ -1545,10 +1609,14 @@
       "id": "person.mark-nachtsheim",
       "name": {
         "ko": {
-          "full": "마르크 나흐참"
+          "full": "마르크 나흐참",
+          "given": "마르크",
+          "family": "나흐참"
         },
         "latn": {
-          "preferred": "Marc Nagtzaam"
+          "preferred": "Marc Nagtzaam",
+          "given": "Marc",
+          "family": "Nagtzaam"
         }
       },
       "sources": [
@@ -1703,10 +1771,14 @@
       "id": "person.nam-june-paik",
       "name": {
         "ko": {
-          "full": "백남준"
+          "full": "백남준",
+          "family": "백",
+          "given": "남준"
         },
         "latn": {
-          "preferred": "Nam June Paik"
+          "preferred": "Nam June Paik",
+          "family": "Paik",
+          "given": "Nam June"
         }
       },
       "sources": [
@@ -1828,10 +1900,14 @@
       "id": "person.park-junebum",
       "name": {
         "ko": {
-          "full": "박준범"
+          "full": "박준범",
+          "family": "박",
+          "given": "준범"
         },
         "latn": {
-          "preferred": "PARK Junebum"
+          "preferred": "PARK Junebum",
+          "family": "PARK",
+          "given": "Junebum"
         }
       },
       "sources": [
@@ -1976,10 +2052,14 @@
       "id": "person.park-soo-keun",
       "name": {
         "ko": {
-          "full": "박수근"
+          "full": "박수근",
+          "family": "박",
+          "given": "수근"
         },
         "latn": {
-          "preferred": "Park Soo-keun"
+          "preferred": "Park Soo-keun",
+          "family": "Park",
+          "given": "Soo-keun"
         }
       },
       "sources": [
@@ -2027,10 +2107,14 @@
       "id": "person.roger-willems",
       "name": {
         "ko": {
-          "full": "로허르 빌럼스"
+          "full": "로허르 빌럼스",
+          "given": "로허르",
+          "family": "빌럼스"
         },
         "latn": {
-          "preferred": "Roger Willems"
+          "preferred": "Roger Willems",
+          "given": "Roger",
+          "family": "Willems"
         }
       },
       "sources": [
@@ -2850,12 +2934,18 @@
       "id": "exhibition.mmca-collection-geundae",
       "title": {
         "ko": "소장품전: 근대를 수놓은 그림",
-        "note": "공식 영문 제목 미발견 (검수 시 확인)"
+        "en": "1900~1960s Modern Art from MMCA Collection"
       },
       "sources": [
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993",
           "note": "MMCA 과천 / 기획전시 / 2018-07-11~2019-06-23",
+          "accessed": "2026-06-11"
+        },
+        {
+          "url": "https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201806290001063",
+          "name_used": "1900~1960s Modern Art from MMCA Collection",
+          "note": "MMCA 영문 페이지",
           "accessed": "2026-06-11"
         }
       ],
