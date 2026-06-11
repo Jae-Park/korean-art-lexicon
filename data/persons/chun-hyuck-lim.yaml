@@ -1,0 +1,12 @@
+id: person.chun-hyuck-lim
+name:
+  ko:
+    full: 전혁림
+  latn:
+    preferred: Chun Hyuck-Lim
+sources:
+- url: https://encykorea.aks.ac.kr/Article/E0074270
+  name_used: Chun Hyuck-Lim
+  note: '올해의 작가 2002: 전혁림. RR Jeon Hyeok-rim 아님, 소스값.'
+  accessed: '2026-06-11'
+status: reviewed
