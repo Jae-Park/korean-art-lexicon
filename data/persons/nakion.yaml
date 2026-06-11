@@ -2,14 +2,28 @@ id: person.nakion
 name:
   ko:
     full: 나키온
-    family: 나
-    given: 키온
   latn:
     preferred: Nakion
-    family: Na
-    given: Kion
+  variants:
+  - form: 성낙영
+    lang: ko
+    script: Hang
+    type: birth_name
+    source: Kim Kim Gallery 작가 약력
+    accessed: '2026-06-12'
+  - form: Nak Young Sung
+    lang: en
+    script: Latn
+    type: birth_name
+    source: Kim Kim Gallery 작가 약력
+    accessed: '2026-06-12'
 sources:
 - url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
   name_used: Nakion
   note: AAA — Venice 2005 Korean Pavilion catalogue
+- url: http://www.kimkimgallery.com/biographies/nakyoung_sung.pdf
+  name_used: Nak Young Sung (Nakion)
+  note: Kim Kim Gallery 작가 약력 — 본명 성낙영(Nak Young Sung), 쿠퍼유니온 BFA. 성낙희(Sung Nakhee)와
+    별개 인물
+  accessed: '2026-06-12'
 status: pending_review
