@@ -28,4 +28,12 @@ sources:
   name_used: Jo Seok-jin
   note: Google Arts & Culture — 하이픈 표기
   accessed: '2026-06-12'
+- url: https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%9D%EC%A7%84
+  name_used: Jo Seok-jin
+  note: 한국어 Wikipedia 조석진 항목의 로마자 표기
+  accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/An_Chungsik
+  name_used: Cho Sŏkchin
+  note: English Wikipedia An Chungsik 문서에서 조석진을 언급한 표기
+  accessed: '2026-06-12'
 status: reviewed

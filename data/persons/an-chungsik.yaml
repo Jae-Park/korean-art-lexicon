@@ -28,4 +28,16 @@ sources:
   name_used: An Chung-sik
   note: Britannica — 하이픈 변이
   accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/An_Chungsik
+  name_used: An Chungsik
+  note: English Wikipedia artist article title and infobox name
+  accessed: '2026-06-12'
+- url: https://es.wikipedia.org/wiki/An_Jung-sik
+  name_used: An Jung-sik
+  note: Spanish Wikipedia artist article title and lead sentence
+  accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/Kim_Eun-ho_(painter)
+  name_used: An Jung-Sik
+  note: English Wikipedia Kim Eun-ho article, Kyongsong School teacher list
+  accessed: '2026-06-12'
 status: reviewed

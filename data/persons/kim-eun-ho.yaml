@@ -18,7 +18,7 @@ external_ids:
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
   name_used: 김은호
-  note: '영문표기 ''Kim Eun-ho'' — 실제 용례 확인: https://en.wikipedia.org/wiki/Kim_Eun-ho_%28painter%29.'
+  note: 'MMCA 전시 ''대한제국의 미술: 빛의 길을 꿈꾸다'' 참여작가 (덕수궁, 2018)'
   accessed: '2026-06-11'
 - url: https://en.wikipedia.org/wiki/Kim_Eun-ho_(painter)
   name_used: Kim Eun-ho
@@ -31,5 +31,14 @@ sources:
 - url: https://www.mmcaresearch.kr/terms/view.do?fid=1334
   name_used: Kim Eunho
   note: MMCA 연구 — 붙여쓰기 변이
+  accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/Kim_Ki-chang
+  name_used: Kim Eun-ho
+  note: Wikipedia article on Kim Ki-chang, identifying Kim Eun-ho as his teacher.
+  accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/Park_Seo-bo
+  name_used: Kim Eun-ho
+  note: Wikipedia article on Park Seo-bo, mentioning Korean artist Kim Eun-ho in early-life
+    context.
   accessed: '2026-06-12'
 status: reviewed

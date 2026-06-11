@@ -16,7 +16,7 @@ role:
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993
   name_used: 이중섭
-  note: '영문표기 ''LEE JUNG SEOB'' — 실제 용례 확인: https://www.mmca.go.kr/upload/exhibition/2016/06/2016060102255850713868.pdf.'
+  note: 'MMCA 전시 ''소장품전: 근대를 수놓은 그림'' 참여작가 (과천, 2018)'
   accessed: '2026-06-11'
 - url: https://en.wikipedia.org/wiki/Lee_Jung-seob
   name_used: Lee Jung-seob
@@ -29,5 +29,21 @@ sources:
 - url: https://www.artsy.net/artist/lee-jung-seop
   name_used: Lee Jung Seop
   note: Artsy — 하이픈 없는 변이
+  accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/upload/exhibition/2016/06/2016060102255850713868.pdf
+  name_used: Lee Jung Seob
+  note: MMCA 이중섭 회고전 《백년의 신화》 도록 PDF(2016)
+  accessed: '2026-06-12'
+- url: https://artsandculture.google.com/entity/lee-jung-seob/m0hn8fnr
+  name_used: Lee Jung-seob
+  note: Google Arts & Culture (entity)
+  accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/eng/collections/collectionsDetailPage.do?wrkinfoSeqno=8215
+  name_used: Lee Jungseop
+  note: MMCA 영문 소장품 페이지 — 붙여쓰기(Three People 소장)
+  accessed: '2026-06-12'
+- url: https://hyundaihwarang.com/en/?c=artist&s=1&gbn=view&gp=1&ix=142
+  name_used: Lee Jung Seob
+  note: 현대화랑(Gallery Hyundai) 영문 — 띄어쓰기. 이중섭 estate 대리
   accessed: '2026-06-12'
 status: reviewed
