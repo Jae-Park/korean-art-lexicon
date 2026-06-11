@@ -15,6 +15,14 @@ role:
 sources:
 - url: https://www.johyungallery.com/artists/40-hong-soun/biography
   name_used: Hong Soun
-  note: MMCA 본관 / person-artist / 소스 EN 표기 'Hong Soun'(홍순). 조현화랑 작가. 본인 표기 확인 권장.
+  note: MMCA 본관 / person-artist / 소스 EN 표기 'Hong Soun'(홍순). 조현화랑 작가. 본인 표기 확인 권장
   accessed: '2026-06-11'
+- url: https://artsandculture.google.com/asset/sidescape-70518-hong-soun/FAGoDVSsguIVdA
+  name_used: Hong, Soun
+  note: Google Arts & Culture — 성-이름 콤마 표기
+  accessed: '2026-06-12'
+- url: http://www.hongsoun.com/
+  name_used: Hong Soun
+  note: 작가 공식 웹사이트 (artist official website)
+  accessed: '2026-06-12'
 status: reviewed

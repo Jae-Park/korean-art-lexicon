@@ -14,8 +14,16 @@ role:
 - aat: '300025103'
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202102010001388
-  name_used: Chen Dai Goang
+  name_used: 천대광
   note: MMCA 본관 / person-artist / 2021-076 납품 EN 표기. 두 번역자(전시텍스트, 김남수론) 독립 일치, 고신뢰.
-    RR 'Cheon Dae-gwang' 강제 금지. 작가 본인 선호 표기 개연성 높으나 소스 내 명시 없음(open_question).
+    RR 'Cheon Dae-gwang' 강제 금지. 작가 본인 선호 표기 개연성 높으나 소스 내 명시 없음(open_question)
   accessed: '2026-06-11'
+- url: https://www.e-flux.com/announcements/421734/chen-dai-goangdreams-of-the-perfect-city
+  name_used: Chen Dai Goang
+  note: e-flux — MMCA 청주프로젝트 'Dreams of the Perfect City'
+  accessed: '2026-06-12'
+- url: https://kaheejeong.wordpress.com/the-view-from-mount-sumeru/
+  name_used: Dai Goang Chen
+  note: 이름-성 역순 변이
+  accessed: '2026-06-12'
 status: reviewed

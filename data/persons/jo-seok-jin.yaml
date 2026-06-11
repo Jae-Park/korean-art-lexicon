@@ -17,8 +17,15 @@ external_ids:
   wikidata: Q16181911
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
-  name_used: Jo Seok-jin
-  note: '영문표기 ''Jo Seok-jin'' — 실제 용례 확인: https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%9D%EC%A7%84.
-    [2026-06-11] MMCA 전시 ''대한제국의 미술'' 참여작가 (덕수궁, 2018)'
+  name_used: 조석진
+  note: MMCA 전시 '대한제국의 미술' 참여작가 (덕수궁, 2018)
   accessed: '2026-06-11'
+- url: https://www.metmuseum.org/art/collection/search/748601
+  name_used: Jo Seokjin
+  note: Metropolitan Museum — artist name Sorim(소림) 병기, 붙여쓰기
+  accessed: '2026-06-12'
+- url: https://artsandculture.google.com/asset/bamboo-jo-seok-jin-korean-approx-1853-1918-artist/pAHTtlDUidAJDw
+  name_used: Jo Seok-jin
+  note: Google Arts & Culture — 하이픈 표기
+  accessed: '2026-06-12'
 status: reviewed

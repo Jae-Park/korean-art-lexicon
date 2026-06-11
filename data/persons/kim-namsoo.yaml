@@ -15,6 +15,10 @@ role:
 sources:
 - url: https://ko.wikipedia.org/wiki/김남수_(1969년)
   name_used: Kim Namsoo
-  note: MMCA 본관 / person-author / 안무비평가, 'Choreography Critic'. 동명이인 확인 권장.
+  note: MMCA 본관 / person-author / 안무비평가, 'Choreography Critic'. 동명이인 확인 권장
   accessed: '2026-06-11'
+- url: https://namu.wiki/w/김남수
+  name_used: 김남수
+  note: 나무위키 — 안무비평가·드라마터그·백남준 연구자
+  accessed: '2026-06-12'
 status: reviewed

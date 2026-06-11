@@ -17,9 +17,11 @@ external_ids:
   wikidata: Q3228847
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
-  name_used: Lee Do-yeong
-  note: '영문표기 ''Lee Do-yeong'' — 실제 용례 확인: https://www.lambiek.net/artists/l/lee_do-yeong.htm.
-    [2026-06-11] 영문표기 ''Lee Do-yeong'' — 실제 용례 확인: https://www.lambiek.net/artists/l/lee_do-yeong.htm.
-    [2026-06-11] MMCA 전시 ''대한제국의 미술'' 참여작가 (덕'
+  name_used: 이도영
+  note: '영문표기 ''Lee Do-yeong'' — 실제 용례 확인: https://www.lambiek.net/artists/l/lee_do-yeong.htm.'
   accessed: '2026-06-11'
+- url: https://ko.wikipedia.org/wiki/이도영_(화가)
+  name_used: 이도영
+  note: 위키백과(한국어) — 호 관재. 조석진·안중식 문하
+  accessed: '2026-06-12'
 status: reviewed

@@ -15,8 +15,19 @@ role:
 - aat: '300025103'
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993
-  name_used: Lee Jung-seop
-  note: '영문표기 ''LEE JUNG SEOB'' — 실제 용례 확인: https://www.mmca.go.kr/upload/exhibition/2016/06/2016060102255850713868.pdf.
-    [2026-06-11] 영문표기 ''LEE JUNG SEOB'' — 실제 용례 확인: https://www.mmca.go.kr/upload/exhibition/2016/06/201606010225585'
+  name_used: 이중섭
+  note: '영문표기 ''LEE JUNG SEOB'' — 실제 용례 확인: https://www.mmca.go.kr/upload/exhibition/2016/06/2016060102255850713868.pdf.'
   accessed: '2026-06-11'
+- url: https://en.wikipedia.org/wiki/Lee_Jung-seob
+  name_used: Lee Jung-seob
+  note: Wikipedia 영문
+  accessed: '2026-06-12'
+- url: https://www.moma.org/artists/3451
+  name_used: Joong Seop Lee
+  note: MoMA — 한국 작가 최초 MoMA 소장. 이름-성 표기
+  accessed: '2026-06-12'
+- url: https://www.artsy.net/artist/lee-jung-seop
+  name_used: Lee Jung Seop
+  note: Artsy — 하이픈 없는 변이
+  accessed: '2026-06-12'
 status: reviewed

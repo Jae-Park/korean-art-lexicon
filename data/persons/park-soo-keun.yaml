@@ -17,9 +17,19 @@ external_ids:
   wikidata: Q7138062
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
-  name_used: Park Soo-keun
-  note: '영문표기 ''Park Soo-keun'' — 실제 용례 확인: https://www.koreaherald.com/view.php?ud=20200629000912.
-    [2026-06-11] 영문표기 ''Park Soo-keun'' — 실제 용례 확인: https://www.koreaherald.com/view.php?ud=20200629000912.
-    [2026-06-11] MMCA 전시 ''내가 사랑한 '
+  name_used: 박수근
+  note: '영문표기 ''Park Soo-keun'' — 실제 용례 확인: https://www.koreaherald.com/view.php?ud=20200629000912.'
   accessed: '2026-06-11'
+- url: https://www.artnet.com/artists/park-soo-keun/
+  name_used: Park Soo-Keun
+  note: Artnet
+  accessed: '2026-06-12'
+- url: https://www.mutualart.com/Artist/Park-Soo-Keun/98C0B98F27533022
+  name_used: Park Soo Keun
+  note: MutualArt — 띄어쓰기 변이
+  accessed: '2026-06-12'
+- url: https://www.invaluable.com/artist/sookeun-park-5b9dpnb6b7/sold-at-auction-prices/
+  name_used: Park Sookeun
+  note: Invaluable — 붙여쓰기 변이
+  accessed: '2026-06-12'
 status: reviewed

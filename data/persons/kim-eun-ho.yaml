@@ -17,9 +17,19 @@ external_ids:
   wikidata: Q12588355
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
-  name_used: Kim Eun-ho
-  note: '영문표기 ''Kim Eun-ho'' — 실제 용례 확인: https://en.wikipedia.org/wiki/Kim_Eun-ho_%28painter%29.
-    [2026-06-11] 영문표기 ''Kim Eun-ho'' — 실제 용례 확인: https://en.wikipedia.org/wiki/Kim_Eun-ho_%28painter%29.
-    [2026-06-11] MMCA 전시 ''대한제국의 미술'' 참여작'
+  name_used: 김은호
+  note: '영문표기 ''Kim Eun-ho'' — 실제 용례 확인: https://en.wikipedia.org/wiki/Kim_Eun-ho_%28painter%29.'
   accessed: '2026-06-11'
+- url: https://en.wikipedia.org/wiki/Kim_Eun-ho_(painter)
+  name_used: Kim Eun-ho
+  note: Wikipedia 영문(호 이당)
+  accessed: '2026-06-12'
+- url: https://www.artnet.com/artists/kim-eun-ho/
+  name_used: Kim Eun-Ho
+  note: Artnet
+  accessed: '2026-06-12'
+- url: https://www.mmcaresearch.kr/terms/view.do?fid=1334
+  name_used: Kim Eunho
+  note: MMCA 연구 — 붙여쓰기 변이
+  accessed: '2026-06-12'
 status: reviewed
