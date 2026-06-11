@@ -8,6 +8,13 @@ name:
     preferred: An Chungsik
     family: An
     given: Chungsik
+nationality: KR
+birth_year: 1861
+death_year: 1919
+role:
+- aat: '300025103'
+external_ids:
+  wikidata: Q10310975
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
   name_used: An Chungsik

@@ -8,6 +8,13 @@ name:
     preferred: Jo Seok-jin
     family: Jo
     given: Seok-jin
+nationality: KR
+birth_year: 1853
+death_year: 1920
+role:
+- aat: '300025103'
+external_ids:
+  wikidata: Q16181911
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
   name_used: Jo Seok-jin

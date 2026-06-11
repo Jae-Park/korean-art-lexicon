@@ -8,6 +8,10 @@ name:
     preferred: Chen Dai Goang
     family: Chen
     given: Dai Goang
+nationality: KR
+birth_year: 1970
+role:
+- aat: '300025103'
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202102010001388
   name_used: Chen Dai Goang

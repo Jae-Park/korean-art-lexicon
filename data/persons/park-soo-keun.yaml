@@ -8,6 +8,13 @@ name:
     preferred: Park Soo-keun
     family: Park
     given: Soo-keun
+nationality: KR
+birth_year: 1914
+death_year: 1965
+role:
+- aat: '300025103'
+external_ids:
+  wikidata: Q7138062
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
   name_used: Park Soo-keun

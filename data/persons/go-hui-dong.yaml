@@ -8,6 +8,13 @@ name:
     preferred: Go Hui-dong
     family: Go
     given: Hui-dong
+nationality: KR
+birth_year: 1886
+death_year: 1965
+role:
+- aat: '300025103'
+external_ids:
+  wikidata: Q5574841
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
   name_used: Go Hui-dong

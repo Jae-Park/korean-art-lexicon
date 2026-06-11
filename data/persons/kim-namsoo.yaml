@@ -8,6 +8,10 @@ name:
     preferred: Kim Namsoo
     family: Kim
     given: Namsoo
+nationality: KR
+birth_year: 1969
+role:
+- aat: '300025519'
 sources:
 - url: https://ko.wikipedia.org/wiki/김남수_(1969년)
   name_used: Kim Namsoo

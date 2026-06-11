@@ -8,6 +8,11 @@ name:
     preferred: Lee Jung-seop
     family: Lee
     given: Jung-seop
+nationality: KR
+birth_year: 1916
+death_year: 1956
+role:
+- aat: '300025103'
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993
   name_used: Lee Jung-seop
