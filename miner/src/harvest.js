@@ -25,14 +25,26 @@ export async function harvest({ push = false } = {}) {
   log(`materialize: ${mat.materialized.length} → staging / ${mat.skipped.length} skip`);
   for (const s of mat.skipped) log(`  skip ${s["이름"]}: ${s["사유"]}`);
 
-  const val = execFileSync(VENV, [join(config.repoRoot, "scripts/validate_auto.py"), "staging/", "--no-url-check"], {
-    cwd: config.repoRoot,
-    encoding: "utf8",
-  });
-  log("validate_auto:\n" + val);
+  let valOut = "";
+  let valPassed = true;
+  try {
+    valOut = execFileSync(VENV, [join(config.repoRoot, "scripts/validate_auto.py"), "staging/", "--no-url-check"], {
+      cwd: config.repoRoot,
+      encoding: "utf8",
+    });
+  } catch (e) {
+    valOut = (e.stdout || "") + (e.stderr || ""); // validate 비-0 종료 = 검증 실패(루트URL/404/스키마 등)
+    valPassed = false;
+  }
+  log("validate_auto:\n" + valOut.trim());
+
+  if (!valPassed) {
+    log("⚠️ 검증 실패 — 위 FAIL 항목의 출처를 노션에서 상세 URL로 고치거나(처리=rework) 승인 취소 후 재harvest. promote/PR 중단(잘못된 엔트리 승격 방지).");
+    return;
+  }
 
   if (!push) {
-    log("dry-run: staging 작성 + 검증 완료. data/ 자동쓰기 없음. --push 로 promote+PR(사람 최종확인).");
+    log("dry-run: staging 작성 + 검증 통과. data/ 자동쓰기 없음. --push 로 promote+PR(사람 최종확인).");
     return;
   }
 
