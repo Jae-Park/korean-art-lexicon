@@ -48,7 +48,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.bae-youngwhan",
@@ -134,7 +135,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.batia-suter",
@@ -154,7 +156,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.chae-yong-shin",
@@ -174,7 +177,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.chen-dai-goang",
@@ -194,7 +198,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.choe-uram",
@@ -392,7 +397,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.ha-chonghyun",
@@ -487,7 +493,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.hong-soun",
@@ -507,7 +514,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.im-heungsoon",
@@ -636,7 +644,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.joo-michael",
@@ -874,7 +883,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.kim-inkyum",
@@ -924,7 +934,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.kim-sooja",
@@ -1026,7 +1037,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.kim-yun-shin",
@@ -1266,7 +1278,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.lee-hyungkoo",
@@ -1362,7 +1375,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.lee-ufan",
@@ -1524,7 +1538,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.mark-nachtsheim",
@@ -1544,7 +1559,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.moon-kyungwon",
@@ -1701,7 +1717,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.noh-sangkyoon",
@@ -1825,7 +1842,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.park-kiwon",
@@ -1972,7 +1990,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.rhii-jewyo",
@@ -2022,7 +2041,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "person.suh-doho",
@@ -2271,7 +2291,8 @@
     {
       "id": "exhibition.art-of-korean-empire",
       "title": {
-        "ko": "대한제국의 미술: 빛의 길을 꿈꾸다"
+        "ko": "대한제국의 미술: 빛의 길을 꿈꾸다",
+        "note": "공식 영문 제목 미발견 (검수 시 확인)"
       },
       "sources": [
         {
@@ -2280,12 +2301,14 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "exhibition.artists-documents",
       "title": {
-        "ko": "예술가의 문서들: 예술, 타이포그래피 그리고 협업"
+        "ko": "예술가의 문서들: 예술, 타이포그래피 그리고 협업",
+        "note": "공식 영문 제목 미발견 (검수 시 확인)"
       },
       "sources": [
         {
@@ -2294,12 +2317,14 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "exhibition.civilization-how-we-live",
       "title": {
-        "ko": "문명: 지금 우리가 사는 방법"
+        "ko": "문명: 지금 우리가 사는 방법",
+        "en": "Civilization: The Way We Live Now"
       },
       "sources": [
         {
@@ -2308,7 +2333,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "exhibition.korean-pavilion-venice-1995",
@@ -2823,7 +2849,8 @@
     {
       "id": "exhibition.mmca-collection-geundae",
       "title": {
-        "ko": "소장품전: 근대를 수놓은 그림"
+        "ko": "소장품전: 근대를 수놓은 그림",
+        "note": "공식 영문 제목 미발견 (검수 시 확인)"
       },
       "sources": [
         {
@@ -2832,12 +2859,14 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "exhibition.mmca-fissure-2",
       "title": {
-        "ko": "소장품 특별전 《균열 Ⅱ: 세상을 보는 눈/ 영원을 향한 시선》"
+        "ko": "소장품 특별전 《균열 Ⅱ: 세상을 보는 눈/ 영원을 향한 시선》",
+        "note": "공식 영문 제목 미발견 (검수 시 확인)"
       },
       "sources": [
         {
@@ -2846,7 +2875,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "exhibition.mmca-hyundai-2014",
@@ -3207,7 +3237,8 @@
     {
       "id": "exhibition.museum-i-loved-modern",
       "title": {
-        "ko": "내가 사랑한 미술관: 근대의 걸작"
+        "ko": "내가 사랑한 미술관: 근대의 걸작",
+        "note": "공식 영문 제목 미발견 (검수 시 확인)"
       },
       "sources": [
         {
@@ -3216,12 +3247,14 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "exhibition.yun-hyong-keun-2018",
       "title": {
-        "ko": "윤형근"
+        "ko": "윤형근",
+        "en": "Yun Hyong-keun"
       },
       "sources": [
         {
@@ -3521,7 +3554,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "org.kukje-gallery",
@@ -3571,7 +3605,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "org.mmca-deoksugung",
@@ -3586,7 +3621,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "org.mmca-gwacheon",
@@ -3601,7 +3637,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "org.mmca-seoul",
@@ -3616,7 +3653,8 @@
           "accessed": "2026-06-11"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "org.mmca",
