@@ -919,9 +919,16 @@
         html += field('한국어', entry.name.ko.full);
         if (entry.name.ko.hanja) html += field('한자', entry.name.ko.hanja);
         const latn = entry.name.latn || {};
-        const famParts = [entry.name.ko.family, latn.family].filter(Boolean);
+        const ko = entry.name.ko;
+        // 한자수=음절수(성+이름)로 1:1 정렬될 때만 성/이름 한자 분해(어긋나면 생략 — 오분할 방지)
+        let famHanja = '', givHanja = '';
+        if (ko.hanja && ko.family && ko.given && ko.hanja.length === ko.family.length + ko.given.length) {
+          famHanja = ko.hanja.slice(0, ko.family.length);
+          givHanja = ko.hanja.slice(ko.family.length);
+        }
+        const famParts = [ko.family, latn.family, famHanja].filter(Boolean);
         if (famParts.length) html += field('Family', famParts.join(' / '));
-        const givParts = [entry.name.ko.given, latn.given].filter(Boolean);
+        const givParts = [ko.given, latn.given, givHanja].filter(Boolean);
         if (givParts.length) html += field('Given', givParts.join(' / '));
         if (latn.preferred) html += field('Preferred', latn.preferred);
         if (entry.birth_year || entry.death_year) {
