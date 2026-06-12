@@ -73,6 +73,24 @@
           "name_used": "An Chung-sik",
           "note": "Britannica — 하이픈 변이",
           "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/An_Chungsik",
+          "name_used": "An Chungsik",
+          "note": "English Wikipedia artist article title and infobox name",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://es.wikipedia.org/wiki/An_Jung-sik",
+          "name_used": "An Jung-sik",
+          "note": "Spanish Wikipedia artist article title and lead sentence",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kim_Eun-ho_(painter)",
+          "name_used": "An Jung-Sik",
+          "note": "English Wikipedia Kim Eun-ho article, Kyongsong School teacher list",
+          "accessed": "2026-06-12"
         }
       ],
       "status": "reviewed",
@@ -272,6 +290,12 @@
           "name_used": "Chae Yong Shin",
           "note": "Google Arts & Culture — 띄어쓰기 변이(영조 어진, 조석진 공동작)",
           "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Choe_Ik-hyeon",
+          "name_used": "Chae Yong-shin",
+          "note": "English Wikipedia caption for Portrait of Choe Ik-hyeon credits the artist with this spelling.",
+          "accessed": "2026-06-12"
         }
       ],
       "status": "reviewed",
@@ -315,6 +339,12 @@
           "url": "https://kaheejeong.wordpress.com/the-view-from-mount-sumeru/",
           "name_used": "Dai Goang Chen",
           "note": "이름-성 역순 변이",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=202102010001388",
+          "name_used": "Chen Dai Goang",
+          "note": "MMCA English exhibition detail page, artist field/title for MMCA Cheongju Project 2021",
           "accessed": "2026-06-12"
         }
       ],
@@ -566,6 +596,18 @@
           "name_used": "Ko Hui-dong",
           "note": "Korea Herald — 고희동미술관(Ko Huidong Art Museum)",
           "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://www.britannica.com/biography/Ko-Hui-dong",
+          "name_used": "Ko Hŭi-dong",
+          "note": "Encyclopaedia Britannica biography main heading; also lists “Koh Hui-dong” as also known as.",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q5574841",
+          "name_used": "Go Hui-dong",
+          "note": "Wikidata English label and Revised Romanization statement for Q5574841.",
+          "accessed": "2026-06-12"
         }
       ],
       "status": "reviewed",
@@ -686,6 +728,18 @@
           "name_used": "Han Mook",
           "note": "Artnet",
           "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kim_Seung-duk",
+          "name_used": "Han Mook",
+          "note": "English Wikipedia page lists “Han Mook & Lee Ungno” in selected exhibitions",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yoo_Youngkuk",
+          "name_used": "Han Mook",
+          "note": "English Wikipedia page mentions Han Mook as a Modern Art Association colleague",
+          "accessed": "2026-06-12"
         }
       ],
       "status": "reviewed",
@@ -729,6 +783,12 @@
           "url": "http://www.hongsoun.com/",
           "name_used": "Hong Soun",
           "note": "작가 공식 웹사이트 (artist official website)",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Juergen_Staack",
+          "name_used": "Hong Soun",
+          "note": "Wikipedia의 Juergen Staack 문서 전시 이력에서 2024년 2인전 작가명으로 표기",
           "accessed": "2026-06-12"
         }
       ],
@@ -886,6 +946,18 @@
           "url": "https://artsandculture.google.com/asset/bamboo-jo-seok-jin-korean-approx-1853-1918-artist/pAHTtlDUidAJDw",
           "name_used": "Jo Seok-jin",
           "note": "Google Arts & Culture — 하이픈 표기",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%9D%EC%A7%84",
+          "name_used": "Jo Seok-jin",
+          "note": "한국어 Wikipedia 조석진 항목의 로마자 표기",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/An_Chungsik",
+          "name_used": "Cho Sŏkchin",
+          "note": "English Wikipedia An Chungsik 문서에서 조석진을 언급한 표기",
           "accessed": "2026-06-12"
         }
       ],
@@ -1139,7 +1211,7 @@
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000",
           "name_used": "김은호",
-          "note": "영문표기 'Kim Eun-ho' — 실제 용례 확인: https://en.wikipedia.org/wiki/Kim_Eun-ho_%28painter%29.",
+          "note": "MMCA 전시 '대한제국의 미술: 빛의 길을 꿈꾸다' 참여작가 (덕수궁, 2018)",
           "accessed": "2026-06-11"
         },
         {
@@ -1158,6 +1230,18 @@
           "url": "https://www.mmcaresearch.kr/terms/view.do?fid=1334",
           "name_used": "Kim Eunho",
           "note": "MMCA 연구 — 붙여쓰기 변이",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kim_Ki-chang",
+          "name_used": "Kim Eun-ho",
+          "note": "Wikipedia article on Kim Ki-chang, identifying Kim Eun-ho as his teacher.",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Park_Seo-bo",
+          "name_used": "Kim Eun-ho",
+          "note": "Wikipedia article on Park Seo-bo, mentioning Korean artist Kim Eun-ho in early-life context.",
           "accessed": "2026-06-12"
         }
       ],
@@ -1368,6 +1452,24 @@
           "url": "https://www.artnet.com/artists/kim-whanki/",
           "name_used": "Kim Whan-Ki",
           "note": "Artnet — 하이픈 표기 변이",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://www.galleryhyundai.com/story/view/20000000074",
+          "name_used": "Kim Whanki",
+          "note": "Gallery Hyundai story title is cited as “Kim Whanki 김환기: Universe 05–IV–71 #200.”",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://www.christies.com/en/lot/lot-6242546",
+          "name_used": "Kim Whan-ki",
+          "note": "Christie’s lot/article title cited as “An Enduring Friendship: The Legacy of Dr. Matthew Kim and Kim Whan-ki.”",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Modern_and_Contemporary_Art",
+          "name_used": "Kim Whan-ki",
+          "note": "Wikipedia’s MMCA collection summary reports MMCA holdings including “Kim Whan-ki”; direct MMCA collection page",
           "accessed": "2026-06-12"
         }
       ],
@@ -1623,13 +1725,37 @@
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000",
           "name_used": "이도영",
-          "note": "영문표기 'Lee Do-yeong' — 실제 용례 확인: https://www.lambiek.net/artists/l/lee_do-yeong.htm.",
+          "note": "MMCA 전시 '대한제국의 미술: 빛의 길을 꿈꾸다' 참여작가 (덕수궁, 2018)",
           "accessed": "2026-06-11"
         },
         {
           "url": "https://ko.wikipedia.org/wiki/이도영_(화가)",
           "name_used": "이도영",
           "note": "위키백과(한국어) — 호 관재. 조석진·안중식 문하",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://www.lambiek.net/artists/l/lee_do-yeong.htm",
+          "name_used": "Lee Do-yeong",
+          "note": "Lambiek Comiclopedia — 만화가 약력",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://fr.wikipedia.org/wiki/Lee_Do-yeong",
+          "name_used": "Lee Do-yeong",
+          "note": "French Wikipedia article title and lead name for 이도영.",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/An_Chungsik",
+          "name_used": "Lee Doyeong",
+          "note": "English Wikipedia An Chungsik page, Students and Pupils section.",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Lee_Do-yeong",
+          "name_used": "Lee Do-Yeong",
+          "note": "Wikimedia Commons category metadata lists this alias among names for 이도영.",
           "accessed": "2026-06-12"
         }
       ],
@@ -1738,7 +1864,7 @@
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000993",
           "name_used": "이중섭",
-          "note": "영문표기 'LEE JUNG SEOB' — 실제 용례 확인: https://www.mmca.go.kr/upload/exhibition/2016/06/2016060102255850713868.pdf.",
+          "note": "MMCA 전시 '소장품전: 근대를 수놓은 그림' 참여작가 (과천, 2018)",
           "accessed": "2026-06-11"
         },
         {
@@ -1757,6 +1883,30 @@
           "url": "https://www.artsy.net/artist/lee-jung-seop",
           "name_used": "Lee Jung Seop",
           "note": "Artsy — 하이픈 없는 변이",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://www.mmca.go.kr/upload/exhibition/2016/06/2016060102255850713868.pdf",
+          "name_used": "Lee Jung Seob",
+          "note": "MMCA 이중섭 회고전 《백년의 신화》 도록 PDF(2016)",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://artsandculture.google.com/entity/lee-jung-seob/m0hn8fnr",
+          "name_used": "Lee Jung-seob",
+          "note": "Google Arts & Culture (entity)",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://www.mmca.go.kr/eng/collections/collectionsDetailPage.do?wrkinfoSeqno=8215",
+          "name_used": "Lee Jungseop",
+          "note": "MMCA 영문 소장품 페이지 — 붙여쓰기(Three People 소장)",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://hyundaihwarang.com/en/?c=artist&s=1&gbn=view&gp=1&ix=142",
+          "name_used": "Lee Jung Seob",
+          "note": "현대화랑(Gallery Hyundai) 영문 — 띄어쓰기. 이중섭 estate 대리",
           "accessed": "2026-06-12"
         }
       ],
@@ -2196,6 +2346,30 @@
           "name_used": "Nam June Paik",
           "note": "Smithsonian American Art Museum — 백남준 estate 소장",
           "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://www.sfmoma.org/artist/Nam_June_Paik/",
+          "name_used": "Nam June Paik",
+          "note": "SFMOMA artist page heading and collection listings use this form.",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://americanart.si.edu/artist/nam-june-paik-3670",
+          "name_used": "Nam June Paik",
+          "note": "Smithsonian American Art Museum artist page heading uses this form.",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://www.walkerart.org/collections/artist/nam-june-paik/",
+          "name_used": "Nam June Paik",
+          "note": "Walker Art Center collection artist page heading uses this form.",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Nam_June_Paik",
+          "name_used": "Nam June Paik",
+          "note": "English Wikipedia article title and infobox name use this form; it also notes native order as Paik Nam June.",
+          "accessed": "2026-06-12"
         }
       ],
       "status": "reviewed",
@@ -2505,7 +2679,7 @@
         {
           "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999",
           "name_used": "박수근",
-          "note": "영문표기 'Park Soo-keun' — 실제 용례 확인: https://www.koreaherald.com/view.php?ud=20200629000912.",
+          "note": "MMCA 전시 '내가 사랑한 미술관: 근대의 걸작' 참여작가 (덕수궁, 2018)",
           "accessed": "2026-06-11"
         },
         {
@@ -2524,6 +2698,24 @@
           "url": "https://www.invaluable.com/artist/sookeun-park-5b9dpnb6b7/sold-at-auction-prices/",
           "name_used": "Park Sookeun",
           "note": "Invaluable — 붙여쓰기 변이",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://www.koreaherald.com/view.php?ud=20200629000912",
+          "name_used": "Park Soo-keun",
+          "note": "Korea Herald 기사",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Park_Su-geun",
+          "name_used": "Park Su-geun",
+          "note": "English Wikipedia article heading and lead; also notes alternate transliteration Park Soo-keun.",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://fr.wikipedia.org/wiki/Park_Soo-keun",
+          "name_used": "Park Soo-keun",
+          "note": "French Wikipedia article heading, infobox, and lead.",
           "accessed": "2026-06-12"
         }
       ],

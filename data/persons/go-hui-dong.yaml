@@ -32,4 +32,13 @@ sources:
   name_used: Ko Hui-dong
   note: Korea Herald — 고희동미술관(Ko Huidong Art Museum)
   accessed: '2026-06-12'
+- url: https://www.britannica.com/biography/Ko-Hui-dong
+  name_used: Ko Hŭi-dong
+  note: Encyclopaedia Britannica biography main heading; also lists “Koh Hui-dong”
+    as also known as.
+  accessed: '2026-06-12'
+- url: https://www.wikidata.org/wiki/Q5574841
+  name_used: Go Hui-dong
+  note: Wikidata English label and Revised Romanization statement for Q5574841.
+  accessed: '2026-06-12'
 status: reviewed

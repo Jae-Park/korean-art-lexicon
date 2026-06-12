@@ -18,7 +18,7 @@ external_ids:
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
   name_used: 박수근
-  note: '영문표기 ''Park Soo-keun'' — 실제 용례 확인: https://www.koreaherald.com/view.php?ud=20200629000912.'
+  note: 'MMCA 전시 ''내가 사랑한 미술관: 근대의 걸작'' 참여작가 (덕수궁, 2018)'
   accessed: '2026-06-11'
 - url: https://www.artnet.com/artists/park-soo-keun/
   name_used: Park Soo-Keun
@@ -31,5 +31,18 @@ sources:
 - url: https://www.invaluable.com/artist/sookeun-park-5b9dpnb6b7/sold-at-auction-prices/
   name_used: Park Sookeun
   note: Invaluable — 붙여쓰기 변이
+  accessed: '2026-06-12'
+- url: https://www.koreaherald.com/view.php?ud=20200629000912
+  name_used: Park Soo-keun
+  note: Korea Herald 기사
+  accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/Park_Su-geun
+  name_used: Park Su-geun
+  note: English Wikipedia article heading and lead; also notes alternate transliteration
+    Park Soo-keun.
+  accessed: '2026-06-12'
+- url: https://fr.wikipedia.org/wiki/Park_Soo-keun
+  name_used: Park Soo-keun
+  note: French Wikipedia article heading, infobox, and lead.
   accessed: '2026-06-12'
 status: reviewed

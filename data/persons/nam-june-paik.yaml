@@ -30,4 +30,21 @@ sources:
   name_used: Nam June Paik
   note: Smithsonian American Art Museum — 백남준 estate 소장
   accessed: '2026-06-12'
+- url: https://www.sfmoma.org/artist/Nam_June_Paik/
+  name_used: Nam June Paik
+  note: SFMOMA artist page heading and collection listings use this form.
+  accessed: '2026-06-12'
+- url: https://americanart.si.edu/artist/nam-june-paik-3670
+  name_used: Nam June Paik
+  note: Smithsonian American Art Museum artist page heading uses this form.
+  accessed: '2026-06-12'
+- url: https://www.walkerart.org/collections/artist/nam-june-paik/
+  name_used: Nam June Paik
+  note: Walker Art Center collection artist page heading uses this form.
+  accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/Nam_June_Paik
+  name_used: Nam June Paik
+  note: English Wikipedia article title and infobox name use this form; it also notes
+    native order as Paik Nam June.
+  accessed: '2026-06-12'
 status: reviewed
