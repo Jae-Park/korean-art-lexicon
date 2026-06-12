@@ -11,4 +11,20 @@ sources:
 - url: https://www.mmca.go.kr/visitingInfo/seoulInfo.do
   note: MMCA 본관 / institution-branch / 본관 EN docs 등장. MMCA 서울관 표준 영문명.
   accessed: '2026-06-11'
+- url: https://www.mmca.go.kr/eng/visitingInfo/seoulInfo.do
+  name_used: MMCA Seoul
+  note: 공식 영문 관람안내 페이지의 서울관 표기
+  accessed: '2026-06-12'
+- url: https://ko.wikipedia.org/wiki/%EA%B5%AD%EB%A6%BD%ED%98%84%EB%8C%80%EB%AF%B8%EC%88%A0%EA%B4%80_%EC%84%9C%EC%9A%B8%EA%B4%80
+  name_used: 국립현대미술관 서울관
+  note: 한국어 Wikipedia 문서 제목 및 본문 표기
+  accessed: '2026-06-12'
+- url: https://www.wikidata.org/wiki/Q27207690
+  name_used: National Museum of Modern and Contemporary Art, Seoul
+  note: Wikidata Q27207690 영어 label 표기
+  accessed: '2026-06-12'
+- url: https://www.ft.com/content/b3ac908e-6d3a-4225-b988-f9d3819a5811
+  name_used: MMCA Seoul
+  note: Financial Times 기사 내 전시 장소 표기
+  accessed: '2026-06-12'
 status: reviewed

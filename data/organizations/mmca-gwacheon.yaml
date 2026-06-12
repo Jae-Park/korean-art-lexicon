@@ -11,4 +11,20 @@ sources:
 - url: https://www.wikidata.org/wiki/Q60823450
   note: MMCA 본관 / institution-branch / 본관 EN docs 다수 등장(6건). MMCA 과천관 표준 영문명.
   accessed: '2026-06-11'
+- url: https://www.mmca.go.kr/visitingInfo/gwacheonInfo.do
+  name_used: 국립현대미술관 과천
+  note: 공식 사이트 한국어 관람안내 페이지의 표기
+  accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/eng/visitingInfo/gwacheonInfo.do
+  name_used: MMCA Gwacheon
+  note: 공식 사이트 영어 관람안내 페이지의 표기
+  accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/National_Museum_of_Modern_and_Contemporary_Art
+  name_used: Gwacheon Contemporary Art Museum (과천현대미술관)
+  note: 영문 Wikipedia의 Gwacheon 절에서 병기한 명칭
+  accessed: '2026-06-12'
+- url: https://www.wikidata.org/wiki/Q484054
+  name_used: National Museum of Modern Art, Gwacheon
+  note: Wikidata Q484054의 child organization or unit 항목에 표시된 과천관 레이블
+  accessed: '2026-06-12'
 status: reviewed

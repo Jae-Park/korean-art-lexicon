@@ -15,4 +15,20 @@ sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000998
   note: MMCA 서울 / 기획전시 / 2018-08-04~2019-02-06
   accessed: '2026-06-11'
+- url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201808080001076
+  name_used: Yun Hyong-keun
+  note: MMCA 영문 전시 상세 페이지 제목
+  accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201808080001076
+  name_used: Yun Hyong-keun
+  note: MMCA 국문 전시 상세 페이지 제목; 국문 페이지도 제목을 영문으로 표기
+  accessed: '2026-06-12'
+- url: https://ocula.com/magazine/spotlights/yun-hyong-keun-in-venice-the-artist-behind-th/
+  name_used: Yun Hyong-keun Retrospective
+  note: Ocula 미술언론 기사 이미지 캡션의 2018 MMCA 서울 전시 표기
+  accessed: '2026-06-12'
+- url: https://ocula.com/artists/yun-hyong-keun/
+  name_used: Yun Hyong Keun
+  note: Ocula 작가 프로필에서 2018 MMCA 서울 회고전을 설명하며 쓴 표기
+  accessed: '2026-06-12'
 status: reviewed
