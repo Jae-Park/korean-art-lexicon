@@ -73,7 +73,7 @@ export async function harvest({ push = false } = {}) {
   const git = (a) => execFileSync("git", a, { cwd: config.repoRoot, encoding: "utf8" });
   const names = prom.moved.map((p) => p.split("/").pop().replace(".yaml", "")).join(", ");
   git(["checkout", "-b", branch]);
-  git(["add", "data/", "dist/"]);
+  git(["add", "data/", "dist/", "index.html"]); // index.html=build.py가 SEO 디렉터리 주입(데이터 동기)
   git(["commit", "-m",
     `harvest: ${prom.moved.length}개 엔트리 승격 (${day})\n\n` +
     `노션 Lexicon Candidates 승인분 → materialize → 검증 → data/. ${names}\n\n` +
