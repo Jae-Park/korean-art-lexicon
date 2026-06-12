@@ -76,7 +76,97 @@ def build():
 
     counts = ", ".join(f"{k}: {len(v)}" for k, v in lexicon.items())
     print(f"Built dist/lexicon.json ({counts})")
+
+    inject_seo_directory(lexicon)
     return lexicon
+
+
+# --- SEO: 정적 디렉터리 주입 (SPA가 JS로만 렌더 → 크롤 가능한 본문이 필요) ---
+import html as _html
+import re as _re
+
+
+def _person_label(e):
+    name = e.get("name", {}) or {}
+    ko = name.get("ko", {})
+    full = ko.get("full", "") if isinstance(ko, dict) else (ko or "")
+    hanja = ko.get("hanja", "") if isinstance(ko, dict) else ""
+    latn = name.get("latn", {}) or {}
+    pref = latn.get("preferred", "") if isinstance(latn, dict) else ""
+    s = full
+    if hanja:
+        s += f" ({hanja})"
+    if pref and pref != full:
+        s += " · " + pref
+    if e.get("birth_year") or e.get("death_year"):
+        s += f" ({e.get('birth_year', '')}–{e.get('death_year', '')})"
+    return s
+
+
+def _coerce_str(v):
+    """문자열/숫자는 그대로, dict면 대표값 추출, 그 외 빈 문자열."""
+    if isinstance(v, dict):
+        return str(v.get("full") or v.get("ko") or v.get("en") or "")
+    if v is None:
+        return ""
+    return str(v)
+
+
+def _bi_label(primary):
+    """제목/이름이 {ko,en} 또는 문자열인 엔트리의 라벨. 필드가 dict여도 안전."""
+    if isinstance(primary, dict):
+        ko = _coerce_str(primary.get("ko", ""))
+        en = _coerce_str(primary.get("en", ""))
+    else:
+        ko, en = _coerce_str(primary), ""
+    s = ko
+    if en and en != ko:
+        s += " · " + en
+    return s
+
+
+def build_seo_directory(lexicon):
+    spec = [
+        ("persons", "People · 인물", _person_label),
+        ("exhibitions", "Exhibitions · 전시", lambda e: _bi_label(e.get("title"))),
+        ("organizations", "Institutions · 기관", lambda e: _bi_label(e.get("name"))),
+        ("terms", "Terms · 용어", lambda e: _bi_label(e.get("term"))),
+        ("publications", "Publications · 출판물", lambda e: _bi_label(e.get("title"))),
+    ]
+    out = []
+    for key, heading, labeler in spec:
+        items = lexicon.get(key) or []
+        if not items:
+            continue
+        out.append(f"    <h3>{heading} ({len(items)})</h3>")
+        out.append("    <ul>")
+        for e in sorted(items, key=lambda x: x.get("id", "")):
+            eid = _html.escape(e.get("id", ""))
+            label = _html.escape((labeler(e) or e.get("id", "")).strip())
+            out.append(f'      <li><a href="#{eid}">{label}</a></li>')
+        out.append("    </ul>")
+    return "\n".join(out)
+
+
+def inject_seo_directory(lexicon):
+    idx = PROJECT_ROOT / "index.html"
+    if not idx.exists():
+        return
+    txt = idx.read_text(encoding="utf-8")
+    start, end = "<!-- SEO-DIRECTORY:START -->", "<!-- SEO-DIRECTORY:END -->"
+    if start not in txt or end not in txt:
+        return
+    block = build_seo_directory(lexicon)
+    new = _re.sub(
+        _re.escape(start) + r".*?" + _re.escape(end),
+        start + "\n" + block + "\n    " + end,
+        txt,
+        flags=_re.S,
+    )
+    if new != txt:
+        idx.write_text(new, encoding="utf-8")
+        n = sum(len(lexicon.get(k) or []) for k in lexicon)
+        print(f"SEO 디렉터리 주입: {n} 항목 → index.html")
 
 
 if __name__ == "__main__":
