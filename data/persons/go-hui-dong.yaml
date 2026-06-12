@@ -57,4 +57,9 @@ sources:
 
     www.mmca.go.kr›collections'
   accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/eng/collections/collectionsDetailPage.do?wrkinfoSeqno=126
+  name_used: Ko Huidong
+  note: MMCA 영문 소장품 페이지(기관 1차 출처). 하이픈 없는 'Huidong' 변이(기존 'Hui-dong'과 구별). MMCA 원문은
+    성 대문자 'KO Huidong'으로 표기.
+  accessed: '2026-06-12'
 status: reviewed
