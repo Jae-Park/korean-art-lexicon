@@ -15,4 +15,20 @@ sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994
   note: MMCA 과천 / 기획전시 / 2018-09-18~2019-10-20
   accessed: '2026-06-11'
+- url: https://www.mmca.go.kr/upload/artInfo/2018/02/2018020903582097012285.pdf
+  name_used: '소장품 특별전 《균열 Ⅱ: 세상을 보는 눈/ 영원을 향한 시선》'
+  note: 국내 기관/언론
+  accessed: '2026-06-12'
+- url: https://sema.seoul.go.kr/semaaa/front/book/view.do?bkId=2932
+  name_used: '소장품 특별전 《균열 Ⅱ: 세상을 보는 눈/ 영원을 향한 시선》'
+  note: '국내 출처: SeMA
+
+    sema.seoul.go.kr›semaaa'
+  accessed: '2026-06-12'
+- url: https://www.mcst.go.kr/site/s_policy/comm/studentNews/studentNewsView.jsp?pSeq=5036
+  name_used: '소장품 특별전 《균열 Ⅱ: 세상을 보는 눈/ 영원을 향한 시선》'
+  note: '국내 출처: 문화체육관광부
+
+    www.mcst.go.kr›site'
+  accessed: '2026-06-12'
 status: reviewed

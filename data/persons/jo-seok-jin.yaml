@@ -36,4 +36,26 @@ sources:
   name_used: Cho Sŏkchin
   note: English Wikipedia An Chungsik 문서에서 조석진을 언급한 표기
   accessed: '2026-06-12'
+- url: https://encykorea.aks.ac.kr/Article/E0051899
+  name_used: 조석진
+  note: '국내 출처: 한국민족문화대백과사전
+
+    encykorea.aks.ac.kr›Article'
+  accessed: '2026-06-12'
+- url: https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?schM=view&relicId=221414
+  name_used: 조석진
+  note: '국내 출처: 국립중앙박물관
+
+    www.museum.go.kr›MUSEUM'
+  accessed: '2026-06-12'
+- url: https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?schM=view&relicId=126432
+  name_used: 조석진
+  note: 국내 기관/언론
+  accessed: '2026-06-12'
+- url: https://www.culture.go.kr/portal/cltKnw/artCont/view.do?menuNo=200022&knwldgSn=7430&knwldgClsfCd=D012
+  name_used: 조석진
+  note: '국내 출처: 문화포털
+
+    www.culture.go.kr›portal'
+  accessed: '2026-06-12'
 status: reviewed

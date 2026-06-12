@@ -15,4 +15,26 @@ sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000997
   note: MMCA 과천 / 기획전시 / 2018-10-18~2019-02-17
   accessed: '2026-06-11'
+- url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201802260001023
+  name_used: 'Civilization: The Way We Live Now'
+  note: MMCA 영문 전시 상세 페이지
+  accessed: '2026-06-12'
+- url: https://www.fep-photo.org/exhibitions/civilization-the-way-we-live-now/
+  name_used: 'Civilization: The Way We Live Now'
+  note: Foundation for the Exhibition of Photography 전시 페이지, MMCA 공동제작 명시
+  accessed: '2026-06-12'
+- url: https://www.fep-photo.org/publications/civilization-the-way-we-live-now/
+  name_used: 'Civilization: The Way We Live Now'
+  note: FEP 도록/출판물 페이지, Thames & Hudson 다국어판 설명
+  accessed: '2026-06-12'
+- url: https://www.saatchigallery.com/exhibition/civilization_the_way_we_live_now
+  name_used: 'CIVILIZATION: The Way We Live Now'
+  note: Saatchi Gallery 순회전 페이지
+  accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/educations/educationsDetail.do?eduId=201810250001635
+  name_used: '문명: 지금 우리가 사는 방법'
+  note: '국내 출처: 국립현대미술관
+
+    www.mmca.go.kr›educations'
+  accessed: '2026-06-12'
 status: reviewed

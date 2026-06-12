@@ -15,4 +15,18 @@ sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
   note: MMCA 덕수궁 / 기획전시 / 2018-05-03~2018-10-14
   accessed: '2026-06-11'
+- url: https://www.mmca.go.kr/educations/educationsDetail.do?eduId=201808100001559
+  name_used: '내가 사랑한 미술관: 근대의 걸작'
+  note: '국내 출처: 전시를 말하다: MMCA토크 <내가 사랑한 미술관: 근대의 걸작>'
+  accessed: '2026-06-12'
+- url: https://library.gangnam.go.kr/intro/menu/10003/program/30001/plusSearchResultDetail.do?recKey=68088759&bookKey=68088761&publishFormCode=BO
+  name_used: '내가 사랑한 미술관: 근대의 걸작'
+  note: '국내 출처: 강남구통합도서관
+
+    library.gangnam.go.kr›intro'
+  accessed: '2026-06-12'
+- url: https://library.gangnam.go.kr/intro/menu/10007/program/30005/plusSearchResultDetail.do?recKey=863175&bookKey=1623864&publishFormCode=BO
+  name_used: '내가 사랑한 미술관: 근대의 걸작'
+  note: '국내 출처: 내가 사랑한 미술관 : 근대의 걸작'
+  accessed: '2026-06-12'
 status: reviewed

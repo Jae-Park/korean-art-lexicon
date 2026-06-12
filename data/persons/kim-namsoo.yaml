@@ -21,4 +21,30 @@ sources:
   name_used: 김남수
   note: 나무위키 — 안무비평가·드라마터그·백남준 연구자
   accessed: '2026-06-12'
+- url: https://www.yangju.go.kr/changucchin/selectBbsNttView.do?key=2026&bbsNo=125&nttNo=96023
+  name_used: 김남수
+  note: '국내 출처: 양주시청
+
+    www.yangju.go.kr›changucchin'
+  accessed: '2026-06-12'
+- url: https://mpllc.sen.go.kr/mpllc/intro/search/detail.do?vCtrl=3785383226&isbn=9788990431943&menu_idx=175
+  name_used: 김남수
+  note: '국내 출처: 서울특별시교육청 마포평생학습관
+
+    mpllc.sen.go.kr›mpllc'
+  accessed: '2026-06-12'
+- url: https://yjcc.yangju.go.kr/changucchin/selectBbsNttView.do?key=2026&bbsNo=125&nttNo=96023
+  name_used: 김남수
+  note: '국내 출처: 양주시의회
+
+    yjcc.yangju.go.kr›changucchin'
+  accessed: '2026-06-12'
+- url: https://www.gg.go.kr/cmmn/download.do?idx=475075
+  name_used: 김남수
+  note: '국내 출처: 경기도청
+
+    www.gg.go.kr›cmmn
+
+    PDF'
+  accessed: '2026-06-12'
 status: reviewed

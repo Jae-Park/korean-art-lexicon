@@ -41,4 +41,20 @@ sources:
   name_used: Go Hui-dong
   note: Wikidata English label and Revised Romanization statement for Q5574841.
   accessed: '2026-06-12'
+- url: https://www.joongang.co.kr/article/25253395
+  name_used: 고희동
+  note: '국내 출처: 한국 첫 서양화가 고희동…세 점의 자화상으로 남다'
+  accessed: '2026-06-12'
+- url: https://encykorea.aks.ac.kr/Article/E0004097
+  name_used: 고희동
+  note: '국내 출처: 한국민족문화대백과사전
+
+    encykorea.aks.ac.kr›Article'
+  accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=126
+  name_used: 고희동
+  note: '국내 출처: 국립현대미술관
+
+    www.mmca.go.kr›collections'
+  accessed: '2026-06-12'
 status: reviewed

@@ -11,4 +11,21 @@ sources:
 - url: https://www.mmca.go.kr/visitingInfo/deoksugungInfo.do
   note: MMCA 본관 / institution-branch / 본관 EN docs 등장(3건). MMCA 덕수궁관 표준 영문명.
   accessed: '2026-06-11'
+- url: https://www.mmca.go.kr/upload/exhibition/2016/06/2016060102255850713868.pdf
+  name_used: National Museum of Modern and Contemporary Art (MMCA), Deoksugung
+  note: MMCA 공식 영문 전시 브로슈어의 Venue 표기
+  accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/National_Museum_of_Modern_and_Contemporary_Art
+  name_used: National Museum of Modern and Contemporary Art, Korea (MMCA) / 국립현대미술관
+    / Deoksugung branch
+  note: 영문 Wikipedia 본문·정보상자 표기
+  accessed: '2026-06-12'
+- url: https://www.wikidata.org/wiki/Special:EntityPage/Q484054
+  name_used: National Museum of Modern and Contemporary Art / 국립현대미술관
+  note: Wikidata의 국립현대미술관 항목; 덕수궁 분관명은 별도 항목으로 확인하지 못함
+  accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/Deoksugung
+  name_used: National Museum of Modern and Contemporary Art, Deoksugung branch
+  note: Deoksugung 영문 Wikipedia의 궁 내 기관 설명 표기
+  accessed: '2026-06-12'
 status: reviewed

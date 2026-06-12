@@ -9,4 +9,12 @@ sources:
 - url: https://gcc.ggcf.kr/pages/history
   note: MMCA 본관 / institution-official / 송성진 1평조차 2019-071
   accessed: '2026-06-11'
+- url: https://en.wikipedia.org/wiki/Soi_Park
+  name_used: Gyeonggi Creation Center
+  note: English Wikipedia 작가 문서 전시 이력 표기
+  accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/Yee_Soo-kyung
+  name_used: Gyeonggi Creation Center Pilot Program
+  note: English Wikipedia 작가 문서 레지던시 이력 표기
+  accessed: '2026-06-12'
 status: reviewed

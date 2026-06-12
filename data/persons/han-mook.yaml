@@ -35,4 +35,16 @@ sources:
   name_used: Han Mook
   note: English Wikipedia page mentions Han Mook as a Modern Art Association colleague
   accessed: '2026-06-12'
+- url: http://www.ktv.go.kr/content/view?content_id=438300
+  name_used: 한묵
+  note: '국내 출처: KTV 국민방송
+
+    www.ktv.go.kr›content'
+  accessed: '2026-06-12'
+- url: https://www.yna.co.kr/view/AKR20181211160300005
+  name_used: 한묵
+  note: '국내 출처: 연합뉴스
+
+    www.yna.co.kr›연합뉴스›최신뉴스'
+  accessed: '2026-06-12'
 status: reviewed

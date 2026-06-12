@@ -12,4 +12,20 @@ sources:
   note: MMCA 본관 / institution-official / 2021-076 김남수(천대광론) 본문 'MMCA Cheongju' 확인.
     박태호 전시텍스트 납품 EN엔 미등장.
   accessed: '2026-06-11'
+- url: https://www.mmca.go.kr/eng/visitingInfo/cheongjuInfo.do
+  name_used: MMCA Cheongju
+  note: 공식 사이트 영문 Cheongju 방문정보 페이지의 본문 표기
+  accessed: '2026-06-12'
+- url: https://en.wikipedia.org/wiki/Cheongju
+  name_used: National Museum of Modern and Contemporary Art – Cheongju (MMCA Cheongju)
+  note: English Wikipedia Cheongju 문서의 Cultural properties 항목 표기
+  accessed: '2026-06-12'
+- url: https://www.wikidata.org/wiki/Q484054
+  name_used: National Museum of Modern and Contemporary Art, Cheongju
+  note: Wikidata Q484054의 child organization or unit 항목에 표시된 청주 분관 명칭
+  accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/cheongju/accessibility/subway.do
+  name_used: 국립현대미술관 청주
+  note: 국내 기관/언론
+  accessed: '2026-06-12'
 status: reviewed
