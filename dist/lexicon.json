@@ -28,7 +28,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.an-chungsik",
@@ -154,7 +154,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.bahc-yiso",
@@ -185,7 +185,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.bart-lodewijks",
@@ -281,7 +281,8 @@
         "ko": {
           "full": "채용신",
           "family": "채",
-          "given": "용신"
+          "given": "용신",
+          "hanja": "蔡龍臣"
         },
         "latn": {
           "preferred": "Chae Yong-Shin",
@@ -332,6 +333,12 @@
           "url": "https://www.jma.go.kr/web/page.php?pcode=AB&exhibit_code=19060400500074",
           "name_used": "채용신",
           "note": "국내 출처: 전북특별자치도립미술관\nwww.jma.go.kr›page",
+          "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://encykorea.aks.ac.kr/Article/E0055628",
+          "name_used": "채용신",
+          "note": "한국민족문화대백과사전 — 한자 병기 출처",
           "accessed": "2026-06-12"
         }
       ],
@@ -425,7 +432,7 @@
       "external_ids": {
         "wikidata": "Q7862919"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.choi-cody",
@@ -460,7 +467,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.choi-jeonghwa",
@@ -489,7 +496,7 @@
         "ulan": "500125325",
         "wikidata": "Q28793925"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.chun-hyuck-lim",
@@ -559,7 +566,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.gimhongsok",
@@ -589,7 +596,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.go-hui-dong",
@@ -725,7 +732,7 @@
         "ulan": "500373076",
         "wikidata": "Q23068024"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.ham-jin",
@@ -755,7 +762,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.han-mook",
@@ -932,7 +939,7 @@
       "external_ids": {
         "wikidata": "Q19896697"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.jeon-joonho",
@@ -971,7 +978,7 @@
         "ulan": "500684635",
         "wikidata": "Q20010723"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.jheon-soocheon",
@@ -1002,7 +1009,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.jo-seok-jin",
@@ -1112,7 +1119,7 @@
         }
       ],
       "status": "pending_review",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.jung-eunyoung",
@@ -1158,7 +1165,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.jung-yeondoo",
@@ -1204,7 +1211,7 @@
         "ulan": "500474551",
         "wikidata": "Q1376674"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kaisen-janejin",
@@ -1245,7 +1252,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kang-ikjoong",
@@ -1275,7 +1282,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kim-beom",
@@ -1305,7 +1312,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kim-eun-ho",
@@ -1426,7 +1433,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kim-namsoo",
@@ -1540,7 +1547,7 @@
         "ulan": "500125591",
         "wikidata": "Q4220699"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kim-sora",
@@ -1570,7 +1577,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kim-whanki",
@@ -1712,7 +1719,7 @@
       ],
       "status": "reviewed",
       "notes": "Korea's first-generation woman sculptor; lives and works between Argentina and Korea.",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.kim-yunchul",
@@ -1757,7 +1764,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.koo-jeonga",
@@ -1807,7 +1814,7 @@
         "ulan": "500294101",
         "wikidata": "Q16844597"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.kwak-hoon",
@@ -1837,7 +1844,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.lee-bul",
@@ -1993,7 +2000,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.lee-hyungwoo",
@@ -2023,7 +2030,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.lee-jung-seop",
@@ -2031,7 +2038,8 @@
         "ko": {
           "full": "이중섭",
           "family": "이",
-          "given": "중섭"
+          "given": "중섭",
+          "hanja": "李仲燮"
         },
         "latn": {
           "preferred": "Lee Jung-seop",
@@ -2107,6 +2115,12 @@
           "name_used": "이중섭",
           "note": "국내 출처: 국립현대미술관\nwww.mmca.go.kr›collections",
           "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "name_used": "이중섭",
+          "note": "한국민족문화대백과사전 — 한자 병기 출처",
+          "accessed": "2026-06-12"
         }
       ],
       "status": "reviewed",
@@ -2176,7 +2190,7 @@
         "ulan": "500061220",
         "wikidata": "Q399775"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.lee-wan",
@@ -2246,7 +2260,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.marc-nagtzaam",
@@ -2372,7 +2386,7 @@
       "external_ids": {
         "wikidata": "Q20010749"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.moon-sungsic",
@@ -2407,7 +2421,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.nakion",
@@ -2491,7 +2505,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.nam-june-paik",
@@ -2499,7 +2513,8 @@
         "ko": {
           "full": "백남준",
           "family": "백",
-          "given": "남준"
+          "given": "남준",
+          "hanja": "白南準"
         },
         "latn": {
           "preferred": "Nam June Paik",
@@ -2563,6 +2578,12 @@
           "name_used": "Nam June Paik",
           "note": "English Wikipedia article title and infobox name use this form; it also notes native order as Paik Nam June.",
           "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://encykorea.aks.ac.kr/Article/E0073699",
+          "name_used": "백남준",
+          "note": "한국민족문화대백과사전 — 한자 병기 출처",
+          "accessed": "2026-06-12"
         }
       ],
       "status": "reviewed",
@@ -2596,7 +2617,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.oh-heinkuhn",
@@ -2637,7 +2658,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.park-chankyong",
@@ -2670,7 +2691,7 @@
       "external_ids": {
         "wikidata": "Q109354786"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.park-junebum",
@@ -2761,7 +2782,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.park-sejin",
@@ -2791,7 +2812,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.park-seobo",
@@ -2853,7 +2874,7 @@
         "ulan": "500323715",
         "wikidata": "Q4984536"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.park-soo-keun",
@@ -2861,7 +2882,8 @@
         "ko": {
           "full": "박수근",
           "family": "박",
-          "given": "수근"
+          "given": "수근",
+          "hanja": "朴壽根"
         },
         "latn": {
           "preferred": "Park Soo-keun",
@@ -2940,6 +2962,12 @@
           "name_used": "박수근",
           "note": "국내 출처: 국립현대미술관\nwww.mmca.go.kr›exhibitions",
           "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "name_used": "박수근",
+          "note": "한국민족문화대백과사전 — 한자 병기 출처",
+          "accessed": "2026-06-12"
         }
       ],
       "status": "reviewed",
@@ -2973,7 +3001,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.roger-willems",
@@ -3047,7 +3075,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.sung-nakhee",
@@ -3078,7 +3106,7 @@
         }
       ],
       "status": "pending_review",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.whang-inkie",
@@ -3108,7 +3136,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.yang-haegue",
@@ -3164,7 +3192,7 @@
         "ulan": "500355927",
         "wikidata": "Q1567689"
       },
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.yoo-youngkuk",
@@ -3172,7 +3200,8 @@
         "ko": {
           "full": "유영국",
           "family": "유",
-          "given": "영국"
+          "given": "영국",
+          "hanja": "劉永國"
         },
         "latn": {
           "preferred": "Yoo Youngkuk",
@@ -3218,11 +3247,17 @@
           "name_used": "유영국",
           "note": "MMCA exhibition page",
           "accessed": "2026-04-02"
+        },
+        {
+          "url": "https://encykorea.aks.ac.kr/Article/E0069619",
+          "name_used": "유영국",
+          "note": "한국민족문화대백과사전 — 한자 병기 출처",
+          "accessed": "2026-06-12"
         }
       ],
       "status": "reviewed",
       "notes": "Pioneer of Korean abstract painting; also seen as Yoo Young-kuk in English-language publications.",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "person.yun-hyongkeun",
@@ -3405,7 +3440,7 @@
         }
       ],
       "status": "pending_review",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-1997",
@@ -3430,7 +3465,7 @@
         }
       ],
       "status": "pending_review",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-1999",
@@ -3460,7 +3495,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2001",
@@ -3490,7 +3525,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2003",
@@ -3522,7 +3557,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2005",
@@ -3566,7 +3601,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2007",
@@ -3596,7 +3631,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2009",
@@ -3630,7 +3665,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2011",
@@ -3664,7 +3699,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2013",
@@ -3698,7 +3733,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2015",
@@ -3733,7 +3768,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2017",
@@ -3768,7 +3803,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2019",
@@ -3800,7 +3835,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2022",
@@ -3839,7 +3874,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.korean-pavilion-venice-2024",
@@ -3888,7 +3923,7 @@
       ],
       "status": "reviewed",
       "notes": "60th Venice Biennale, 30th anniversary of Korean Pavilion. Curated by Seolhui Lee and Jacob Fabricius.",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-collection-geundae",
@@ -3921,7 +3956,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "exhibition.mmca-fissure-2",
@@ -3999,7 +4034,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2015",
@@ -4037,7 +4072,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2016",
@@ -4070,7 +4105,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2017",
@@ -4108,7 +4143,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2018",
@@ -4146,7 +4181,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2019",
@@ -4179,7 +4214,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2020",
@@ -4212,7 +4247,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2021",
@@ -4251,7 +4286,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2022",
@@ -4284,7 +4319,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2023",
@@ -4322,7 +4357,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.museum-i-loved-modern",
@@ -4520,7 +4555,7 @@
       ],
       "status": "reviewed",
       "notes": "한국문화예술위원회(Arts Council Korea) 산하 공공미술관. 서울 대학로 소재. 1974년 종로구 관훈동 미술회관으로 개관 → 1979년 김수근 설계 동숭동 마로니에 공원 건물 이전 → 2002년 마로니에미술관 → 2005년 현 명칭. 50년간 약 2,000회 전시 개최.",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.art-sonje-center",
@@ -4576,7 +4611,7 @@
       ],
       "status": "reviewed",
       "notes": "사립 현대미술관. 종로구 소재. 국제 현대미술 전시·퍼포먼스·교육 중심. 김종성 설계 건물.",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.busan-biennale",
@@ -4643,7 +4678,7 @@
       ],
       "status": "reviewed",
       "notes": "사단법인. 부산비엔날레 행사(1998 출범)를 운영하는 법인은 1999년 설립. 광주비엔날레재단(재단법인)과 달리 사단법인 형태. 공식 사이트(busanbiennale.org) SSL 오류로 직접 접근 불가.",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.gwangju-biennale",
@@ -4711,7 +4746,7 @@
       ],
       "status": "reviewed",
       "notes": "아시아 최초·최대 규모 국제현대미술비엔날레. 1980년 5·18민주화운동을 기념하여 설립. 광주비엔날레재단이 운영하며 광주디자인비엔날레도 관할. 주소: 61104 광주광역시 북구 비엔날레로 111. type.aat는 기관 유형(art foundation 등)으로 재검토 필요 — 현재 biennial(300266309) 사용 중.",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.gyeonggi-creation-center",
@@ -4778,7 +4813,7 @@
       ],
       "status": "reviewed",
       "notes": "1982년 이현숙 설립, 인사동 → 1987년 소격동(삼청로) 이전. 부산 F1963 분관 운영 중. type.aat 300417122(art galleries, commercial) 검증 필요.",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.mmca-cheongju",
@@ -5032,7 +5067,7 @@
       ],
       "status": "reviewed",
       "notes": "National public museum founded in 1969. Main sites now include Gwacheon, Deoksugung, Seoul, and Cheongju.",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.sema",
@@ -5089,7 +5124,7 @@
       ],
       "status": "reviewed",
       "notes": "서울특별시 운영 공립미술관. 서소문 본관 외 북서울·남서울·서울(신미디어)·사진·아카이브 등 분관 다수. 컬렉션 6,310점.",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.takeout-drawing",
@@ -5126,7 +5161,7 @@
       ],
       "status": "pending_review",
       "notes": "Representative sinseang gonggan, founded by artists",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     }
   ],
   "terms": [
@@ -5181,7 +5216,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "term.dansaekhwa",
@@ -5246,7 +5281,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "term.minjung-misul",
@@ -5309,7 +5344,7 @@
       ],
       "status": "reviewed",
       "notes": "운동 종료 시점은 1990년대 초로 기술되나 정확한 연도 미확인 — period.end 미입력.",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "term.sinseang-gonggan",
@@ -5365,7 +5400,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-12"
+      "_last_updated": "2026-03-31"
     }
   ],
   "publications": []

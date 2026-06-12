@@ -4,6 +4,7 @@ name:
     full: 박수근
     family: 박
     given: 수근
+    hanja: 朴壽根
   latn:
     preferred: Park Soo-keun
     family: Park
@@ -59,5 +60,9 @@ sources:
   note: '국내 출처: 국립현대미술관
 
     www.mmca.go.kr›exhibitions'
+  accessed: '2026-06-12'
+- url: https://encykorea.aks.ac.kr/Article/E0020834
+  name_used: 박수근
+  note: 한국민족문화대백과사전 — 한자 병기 출처
   accessed: '2026-06-12'
 status: reviewed
