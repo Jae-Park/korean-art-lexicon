@@ -56,6 +56,16 @@ export async function harvest({ push = false } = {}) {
     return;
   }
 
+  // 한자 enrichment (Phase1 자동, 고신뢰·검색0): 한국 인물 중 encykorea 출처 보유분의
+  // name.ko.hanja를 그 페이지에서 추출. 기억 아닌 출처 기반(Source-First). 실패해도 harvest 진행.
+  // Phase2(검색)는 별도 수동: scripts/enrich_hanja.py --search --apply --accessed YYYY-MM-DD
+  try {
+    const hj = execFileSync(VENV, [join(config.repoRoot, "scripts/enrich_hanja.py"), "--apply"], { cwd: config.repoRoot, encoding: "utf8" });
+    log("enrich_hanja(Phase1):\n" + hj.trim().split("\n").slice(-4).join("\n"));
+  } catch (e) {
+    log("enrich_hanja 건너뜀(harvest 계속): " + (((e.stdout || "") + (e.stderr || "")).slice(-160)));
+  }
+
   // git 브랜치 + 커밋(데이터만, pathspec) + push + gh PR — 거버넌스=PR 게이트(자동 merge 없음)
   const day = new Date().toISOString().slice(0, 10);
   const stamp = new Date().toISOString().slice(11, 16).replace(":", ""); // HHMM — 같은 날 재실행 충돌 방지

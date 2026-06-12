@@ -194,6 +194,7 @@ korean-art-lexicon/
 │   ├── validate_auto.py          # 1단계: 스키마+중복+출처형식+URL생존 (중첩 required 재귀 체크)
 │   ├── validate_source_content.py # 2단계: 출처 내용 대조 (진위 검증)
 │   ├── build.py                  # YAML → dist/lexicon.json 빌드
+│   ├── enrich_hanja.py           # 한자 채움: encykorea에서 한글 앵커 추출(Source-First). Phase1=출처보유 자동(harvest 연결), Phase2=--search
 │   ├── pipeline.sh               # 원스텝: validate → build → verify
 │   └── scrape/                   # 기관별 크롤러
 ├── staging/                      # 자동 검증 통과, 인간 리뷰 대기
