@@ -15,4 +15,8 @@ sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201605180000431
   note: MMCA 서울 / 기획전시 / 2016-05-26~2016-08-31
   accessed: '2026-06-11'
+- url: https://www.mmca.go.kr/upload/research/MMCA%20Guide%20to%20Publication_last%20update%20August%202019.pdf
+  name_used: '예술가의 문서들: 예술, 타이포그래피 그리고 협업'
+  note: 국내 기관/언론
+  accessed: '2026-06-12'
 status: reviewed

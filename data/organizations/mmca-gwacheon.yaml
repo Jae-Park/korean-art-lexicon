@@ -27,4 +27,16 @@ sources:
   name_used: National Museum of Modern Art, Gwacheon
   note: Wikidata Q484054의 child organization or unit 항목에 표시된 과천관 레이블
   accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/visitingInfo/seoulInfo.do
+  name_used: 국립현대미술관 과천
+  note: '국내 출처: 서울관 페이지로 이동'
+  accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/exhibitions/progressList.do
+  name_used: 국립현대미술관 과천
+  note: '국내 출처: 전시'
+  accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/visitingInfo/deoksugungInfo.do
+  name_used: 국립현대미술관 과천
+  note: '국내 출처: 휴관'
+  accessed: '2026-06-12'
 status: reviewed

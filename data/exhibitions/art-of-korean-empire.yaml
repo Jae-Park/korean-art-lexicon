@@ -15,4 +15,8 @@ sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
   note: MMCA 덕수궁 / 기획전시 / 2018-11-15~2019-02-06
   accessed: '2026-06-11'
+- url: https://www.mmca.go.kr/educations/educationsDetail.do?eduId=201811160001657
+  name_used: '대한제국의 미술: 빛의 길을 꿈꾸다'
+  note: '국내 출처: <대한제국의 미술-빛의 길을 꿈꾸다> MMCA 렉처'
+  accessed: '2026-06-12'
 status: reviewed

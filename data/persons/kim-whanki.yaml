@@ -51,4 +51,22 @@ sources:
   note: Wikipedia’s MMCA collection summary reports MMCA holdings including “Kim Whan-ki”;
     direct MMCA collection page
   accessed: '2026-06-12'
+- url: https://kids.seoul.go.kr/board/boardDetail.do?p_bbsSn=2134553699
+  name_used: 김환기
+  note: '국내 출처: 내친구서울
+
+    kids.seoul.go.kr›board'
+  accessed: '2026-06-12'
+- url: https://encykorea.aks.ac.kr/Article/E0011112
+  name_used: 김환기
+  note: '국내 출처: 한국민족문화대백과사전
+
+    encykorea.aks.ac.kr›Article'
+  accessed: '2026-06-12'
+- url: https://www.yangju.go.kr/changucchin/contents.do?key=1999
+  name_used: 김환기
+  note: '국내 출처: 양주시청
+
+    www.yangju.go.kr›changucchin'
+  accessed: '2026-06-12'
 status: reviewed

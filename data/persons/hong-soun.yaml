@@ -29,4 +29,20 @@ sources:
   name_used: Hong Soun
   note: Wikipedia의 Juergen Staack 문서 전시 이력에서 2024년 2인전 작가명으로 표기
   accessed: '2026-06-12'
+- url: https://www.culture.go.kr/portal/cltKnw/artCont/view.do?menuNo=200022&knwldgSn=837&knwldgClsfCd=E411
+  name_used: 홍순
+  note: '국내 출처: 문화포털
+
+    www.culture.go.kr›portal'
+  accessed: '2026-06-12'
+- url: https://www.culture.go.kr/portal/cltKnw/artCont/view.do?menuNo=200022&knwldgSn=5365
+  name_used: 홍순
+  note: '국내 출처: 충북대학교 사회과학관 - 예술지식백과 | 배워봐요 문화지식'
+  accessed: '2026-06-12'
+- url: https://www.jma.go.kr/web/page.php?pcode=AB&exhibit_code=19060400500795
+  name_used: 홍순
+  note: '국내 출처: 전북특별자치도립미술관
+
+    www.jma.go.kr›page'
+  accessed: '2026-06-12'
 status: reviewed

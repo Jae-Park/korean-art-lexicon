@@ -41,4 +41,26 @@ sources:
   note: Wikipedia article on Park Seo-bo, mentioning Korean artist Kim Eun-ho in early-life
     context.
   accessed: '2026-06-12'
+- url: https://www.culture.go.kr/portal/cltKnw/artCont/view.do?menuNo=200022&knwldgSn=7441&knwldgClsfCd=D612
+  name_used: 김은호
+  note: '국내 출처: 문화포털
+
+    www.culture.go.kr›portal'
+  accessed: '2026-06-12'
+- url: https://encykorea.aks.ac.kr/Article/E0010131
+  name_used: 김은호
+  note: '국내 출처: 한국민족문화대백과사전
+
+    encykorea.aks.ac.kr›Article'
+  accessed: '2026-06-12'
+- url: https://www.donga.com/archive/newslibrary/interview?cid=4475557
+  name_used: 김은호
+  note: '국내 출처: 동아일보
+
+    www.donga.com›archive'
+  accessed: '2026-06-12'
+- url: https://www.joongang.co.kr/article/25432972
+  name_used: 김은호
+  note: '국내 출처: 김은호 아들 “어진화사였던 부친, 김홍도 화첩으로 후학 가르쳐”'
+  accessed: '2026-06-12'
 status: reviewed
