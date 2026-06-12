@@ -4,6 +4,7 @@ name:
     full: 채용신
     family: 채
     given: 용신
+    hanja: 蔡龍臣
   latn:
     preferred: Chae Yong-Shin
     family: Chae
@@ -41,5 +42,9 @@ sources:
   note: '국내 출처: 전북특별자치도립미술관
 
     www.jma.go.kr›page'
+  accessed: '2026-06-12'
+- url: https://encykorea.aks.ac.kr/Article/E0055628
+  name_used: 채용신
+  note: 한국민족문화대백과사전 — 한자 병기 출처
   accessed: '2026-06-12'
 status: reviewed

@@ -29,13 +29,15 @@ import os
 import re
 import subprocess
 import sys
+import unicodedata
 
 import yaml
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PERSONS = os.path.join(REPO, "data", "persons")
-# CJK 통합 한자 + 확장 A (한국 인명 한자 커버)
-HANJA = r"[一-鿿㐀-䶿]"
+# CJK 통합 한자 + 확장 A + 호환 한자(F900-FAFF). 추출 전 NFKC로 호환→통합 정규화하므로
+# 통합 범위만으로 충분하나, 방어적으로 호환 범위도 포함.
+HANJA = r"[㐀-䶿一-鿿豈-﫿]"
 ENCY = "encykorea.aks.ac.kr"
 
 
@@ -45,7 +47,12 @@ def is_korean_personal_name(full: str) -> bool:
 
 
 def extract_hanja(text: str, full: str):
-    """렌더 텍스트에서 한글명에 앵커된 한자 런 추출. 음절수 ±1 sanity-check."""
+    """렌더 텍스트에서 한글명에 앵커된 한자 런 추출. 음절수 ±1 sanity-check.
+
+    NFKC 정규화로 CJK 호환 한자(劉 U+F9C7 등 한국 인명에 흔함)를 통합 한자(U+5289)로
+    바꿔 추출·저장한다 → 누락 방지 + 표준 코드포인트 저장.
+    """
+    text = unicodedata.normalize("NFKC", text)
     m = re.search(re.escape(full) + r"[\s(（]*(" + HANJA + r"+)", text)
     if not m:
         return None
@@ -55,9 +62,11 @@ def extract_hanja(text: str, full: str):
     return None  # 길이 불일치 = 오추출 의심
 
 
-def headword_matches(text: str, full: str) -> bool:
-    """페이지 상단에 한글 표제어가 실제로 존재하는지(엉뚱한 페이지 차단)."""
-    return full in text[:400]
+def headword_is(title: str, full: str) -> bool:
+    """encykorea 페이지 제목 '{표제어} - 한국민족문화대백과사전'의 표제어가 정확히 full인지.
+    '이중섭미술관' 같은 파생 페이지를 정확 일치로 차단(동명이인/관련 항목 방어)."""
+    head = (title or "").split(" - ")[0].strip()
+    return head == full
 
 
 def load_persons():
@@ -118,16 +127,20 @@ def add_encykorea_source(d: dict, url: str, full: str):
     })
 
 
-def naver_encykorea_url(pg, full: str):
-    """Naver 검색으로 인물의 encykorea Article URL 후보를 찾는다."""
+def naver_encykorea_urls(pg, full: str, limit: int = 6):
+    """Naver 검색으로 인물의 encykorea Article URL 후보들을 순서대로 반환(dedup).
+    첫 결과가 '○○○미술관' 등 파생 항목일 수 있어 여러 후보를 받아 제목 정확일치로 거른다."""
     q = f"{full} 한국민족문화대백과사전"
     pg.goto("https://search.naver.com/search.naver?query=" + q, wait_until="domcontentloaded", timeout=30000)
     pg.wait_for_timeout(1200)
     hrefs = pg.eval_on_selector_all("a", "els => els.map(e => e.href)")
+    out = []
     for h in hrefs:
-        if ENCY in (h or "") and "/Article/" in h:
-            return h.split("?")[0]
-    return None
+        if h and ENCY in h and "/Article/" in h:
+            u = h.split("?")[0]
+            if u not in out:
+                out.append(u)
+    return out[:limit]
 
 
 def run(apply: bool, search: bool, limit: int):
@@ -174,21 +187,32 @@ def run(apply: bool, search: bool, limit: int):
             for f, d, full, _ in p2:
                 pg = b.new_page()
                 try:
-                    url = naver_encykorea_url(pg, full)
+                    cands = naver_encykorea_urls(pg, full)
                 except Exception:
-                    url = None
-                if not url:
+                    cands = []
+                if not cands:
                     pg.close(); skipped.append((full, "no_encykorea_found")); continue
-                txt = fetch(pg, url)
-                pg.close()
-                if not txt or not headword_matches(txt, full):
-                    skipped.append((full, "person_mismatch")); continue
                 by = d.get("birth_year")
-                if by and str(by) not in txt:
-                    skipped.append((full, "birthyear_unconfirmed")); continue
-                hanja = extract_hanja(txt, full)
-                if not hanja:
-                    skipped.append((full, "extract_fail")); continue
+                chosen = None              # (url, hanja)
+                reason = "person_mismatch"  # 제목 정확일치 후보가 하나도 없을 때
+                for url in cands:
+                    txt = fetch(pg, url)
+                    if not txt or not headword_is(pg.title(), full):
+                        continue            # 파생/동명 페이지(예: '○○○미술관')
+                    norm = unicodedata.normalize("NFKC", txt)
+                    if by and str(by) not in norm:
+                        reason = "birthyear_unconfirmed"   # 동명이인 의심 → 다음 후보
+                        continue
+                    hanja = extract_hanja(txt, full)
+                    if not hanja:
+                        reason = "extract_fail"
+                        continue
+                    chosen = (url, hanja)
+                    break
+                pg.close()
+                if not chosen:
+                    skipped.append((full, reason)); continue
+                url, hanja = chosen
                 filled.append((full, hanja, "phase2:" + url.split("/")[-1]))
                 if apply:
                     add_encykorea_source(d, url, full)

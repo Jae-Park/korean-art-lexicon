@@ -4,6 +4,7 @@ name:
     full: 이중섭
     family: 이
     given: 중섭
+    hanja: 李仲燮
   latn:
     preferred: Lee Jung-seop
     family: Lee
@@ -57,5 +58,9 @@ sources:
   note: '국내 출처: 국립현대미술관
 
     www.mmca.go.kr›collections'
+  accessed: '2026-06-12'
+- url: https://encykorea.aks.ac.kr/Article/E0046021
+  name_used: 이중섭
+  note: 한국민족문화대백과사전 — 한자 병기 출처
   accessed: '2026-06-12'
 status: reviewed

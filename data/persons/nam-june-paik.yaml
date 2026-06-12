@@ -4,6 +4,7 @@ name:
     full: 백남준
     family: 백
     given: 남준
+    hanja: 白南準
   latn:
     preferred: Nam June Paik
     family: Paik
@@ -46,5 +47,9 @@ sources:
   name_used: Nam June Paik
   note: English Wikipedia article title and infobox name use this form; it also notes
     native order as Paik Nam June.
+  accessed: '2026-06-12'
+- url: https://encykorea.aks.ac.kr/Article/E0073699
+  name_used: 백남준
+  note: 한국민족문화대백과사전 — 한자 병기 출처
   accessed: '2026-06-12'
 status: reviewed
