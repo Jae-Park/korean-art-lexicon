@@ -668,6 +668,12 @@
           "name_used": "고희동",
           "note": "국내 출처: 국립현대미술관\nwww.mmca.go.kr›collections",
           "accessed": "2026-06-12"
+        },
+        {
+          "url": "https://www.mmca.go.kr/eng/collections/collectionsDetailPage.do?wrkinfoSeqno=126",
+          "name_used": "Ko Huidong",
+          "note": "MMCA 영문 소장품 페이지(기관 1차 출처). 하이픈 없는 'Huidong' 변이(기존 'Hui-dong'과 구별). MMCA 원문은 성 대문자 'KO Huidong'으로 표기.",
+          "accessed": "2026-06-12"
         }
       ],
       "status": "reviewed",
@@ -2887,9 +2893,9 @@
           "accessed": "2026-06-12"
         },
         {
-          "url": "https://www.invaluable.com/artist/sookeun-park-5b9dpnb6b7/sold-at-auction-prices/",
+          "url": "https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=202101190001360",
           "name_used": "Park Sookeun",
-          "note": "Invaluable — 붙여쓰기 변이",
+          "note": "MMCA 영문 전시 페이지(기관 1차 출처). 'Sookeun' 붙여쓰기. MMCA 원문은 성을 대문자 'PARK Sookeun'으로 표기(여기선 정규화). 애그리게이터(Invaluable) 대체.",
           "accessed": "2026-06-12"
         },
         {

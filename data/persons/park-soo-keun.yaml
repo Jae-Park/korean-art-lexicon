@@ -28,9 +28,10 @@ sources:
   name_used: Park Soo Keun
   note: MutualArt — 띄어쓰기 변이
   accessed: '2026-06-12'
-- url: https://www.invaluable.com/artist/sookeun-park-5b9dpnb6b7/sold-at-auction-prices/
+- url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=202101190001360
   name_used: Park Sookeun
-  note: Invaluable — 붙여쓰기 변이
+  note: MMCA 영문 전시 페이지(기관 1차 출처). 'Sookeun' 붙여쓰기. MMCA 원문은 성을 대문자 'PARK Sookeun'으로
+    표기(여기선 정규화). 애그리게이터(Invaluable) 대체.
   accessed: '2026-06-12'
 - url: https://www.koreaherald.com/view.php?ud=20200629000912
   name_used: Park Soo-keun
