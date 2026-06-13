@@ -5,7 +5,7 @@ _정본: specs/institutions.yaml · published는 dist에서 라이브 계산 · 
 | 단계 | 기관 | 도메인 | crawled | candidates | pushed | published(live) | 범위 | 갱신 |
 |---|---|---|---|---|---|---|---|---|
 | 🟢 live | 국립현대미술관 (MMCA) | mmca.go.kr | · | · | · | 51 | 전시(정기 월/목 크롤) | 2026-06-11 |
-| 📤 pushed | 대안공간 풀 (Art Space Pool) | altpool.org | 244 | 361 | 361 | 0 | 전시 1999-2020 전체(b_type=8) | 2026-06-13 |
+| 📤 pushed | 대안공간 풀 (Art Space Pool) | altpool.org | 244 | 459 | 459 | 0 | 전시 1999-2020 전체(b_type=8) | 2026-06-13 |
 | ⬜ planned | 아트선재센터 (Art Sonje Center) | artsonje.org | · | · | · | 1 | 전시·작가 | 2026-06-13 |
 | ⬜ planned | 국제갤러리 (Kukje Gallery) | kukjegallery.com | · | · | · | 11 |  | 2026-06-13 |
 | ⬜ planned | 광주비엔날레 (Gwangju Biennale) | gwangjubiennale.org | · | · | · | 1 |  | 2026-06-13 |
