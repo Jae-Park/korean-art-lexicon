@@ -73,18 +73,34 @@ def label(text, *names):
     return ""
 
 
+def derive_title_artist(item_title):
+    """itemTitle('2012 Pool Production 《Kim gun-hee : White-Out》') → (title_en, solo_artist).
+    모든 en 페이지(산문형 포함)의 itemTitle div에 영문 제목이 있음 → ○Title보다 커버리지 큼."""
+    m = re.search(r"[《≪](.+?)[》≫]", item_title)
+    inner = (m.group(1).strip() if m
+             else re.sub(r"^\s*\d{4}\s+(Pool Production|Production)\s*", "", item_title).strip())
+    if " : " in inner:  # '작가 : 제목'(솔로) → 제목/작가 분리
+        a, t = inner.split(" : ", 1)
+        return t.strip(), a.strip()
+    return inner, ""
+
+
 def parse_en(bid):
     h = fetch(f"{EN_VIEW}?b_type=8&board_id={bid}")
     date = ""
     dm = re.search(r'<div class="itemDate">(.*?)</div>', h, re.S)
     if dm:
         date = clean(dm.group(1))
+    im = re.search(r'<div class="itemTitle">(.*?)</div>', h, re.S)
+    item_title = clean(im.group(1)) if im else ""
     cm = re.search(r'<div class="itemContent">(.*?)<!--', h, re.S) or re.search(r'<div class="itemContent">(.*)', h, re.S)
     ct = clean(cm.group(1)) if cm else ""
+    title_en, solo_artist = derive_title_artist(item_title)
     return {
         "en_board_id": bid,
         "item_date": date,
-        "title_en": label(ct, "Title"),
+        "title_en": title_en or label(ct, "Title"),  # itemTitle 우선, ○Title 폴백
+        "solo_artist": solo_artist,
         "artists_en": label(ct, "Artist", "Artists"),
     }
 
@@ -130,12 +146,17 @@ def main():
             continue  # 날짜 모호/부재 → skip
         k = krs[0]
         matched += 1
-        if k.get("title_ko") and en["title_en"]:
-            title_en[k["title_ko"]] = en["title_en"]
+        # KR 깨끗한 제목 = title_ko(○전시명) 우선, 없으면 archive_title 《》에서 도출(옛 페이지 대응).
+        kr_title = (k.get("title_ko") or "").strip() or derive_title_artist(k.get("archive_title") or "")[0]
+        if kr_title and en["title_en"]:
+            title_en[kr_title] = en["title_en"]
         ko_names = [strip_members(x) for x in split_names("，".join(k.get("artists", [])) if isinstance(k.get("artists"), list) else "")]
         # KR artists는 이미 리스트 → 그대로 + 멤버 strip
         ko_names = [strip_members(x) for x in (k.get("artists") or [])]
         en_names = [strip_members(x) for x in split_names(en["artists_en"])]
+        # ○Artist 없는 산문 페이지라도 솔로전(《작가 : 제목》)이고 KR 작가 1명이면 그 1명 매핑
+        if not en_names and en.get("solo_artist") and len(ko_names) == 1:
+            en_names = [en["solo_artist"]]
         if len(ko_names) != len(en_names) or not ko_names:
             continue  # 수 불일치 → 위치정렬 불가, skip(보수)
         for ko, en_n in zip(ko_names, en_names):
