@@ -2,10 +2,25 @@
 // scripts/scrape/altpool.py가 뽑은 JSON을 읽어 exhibition/person/org 후보로 매핑.
 // 상세 view.asp URL이 곧 풀 기관 1차 출처(GOLD) → verified:true. http 전용 사이트라 출처도 http.
 // 1회 백필 용도(정기 피더 아님): mine --source altpool 로 노션 후보 push → 사람 검수.
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
 import { nfc, dedupKey, proposedId, cleanName, guessOrigin } from "../normalize.js";
 
 const DEFAULT_JSON = process.env.ALTPOOL_JSON || "/tmp/altpool_full.json";
+// 풀 영문판에서 추출한 작가 로마자 + 전시 영문명 맵(기관 GOLD). altpool_en_romanize.py 산출. 없으면 빈 맵.
+// feeders→src→miner→repoRoot. CWD 무관 절대경로.
+const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), "../../..");
+const EN_MAP_PATH = process.env.ALTPOOL_EN_MAP || join(REPO_ROOT, "crawl-archive/altpool/en_romanization_20260613.json");
+const EN_MAP = (() => {
+  try {
+    return existsSync(EN_MAP_PATH) ? JSON.parse(readFileSync(EN_MAP_PATH, "utf8")) : {};
+  } catch {
+    return {};
+  }
+})();
+const ROMAN = EN_MAP.romanization || {};   // 한글명 → {en, source}
+const TITLE_EN = EN_MAP.title_en || {};    // 전시 title_ko → en
 const ORG_KO = "대안공간 풀";
 const ORG_EN = "Art Space Pool"; // 본문 표기(현재). 영문판 site title은 "Alternative Space Pool" — 둘 다 병용(변이).
 const ORG_SRC = "http://www.altpool.org/_v3/en/about/mission.asp"; // 본문 'Art Space Pool' + <title> 'alternative space pool' 동시 출처
@@ -82,9 +97,11 @@ export function fromAltpool({ jsonPath = DEFAULT_JSON } = {}) {
       ? `${r.date_text_original}(원문 날짜 모순-확인요)`
       : r.date_text_original || "";
     const ev = `대안공간 풀 / ${dateNote} / 기획 ${(r.curators || []).join(", ") || "-"}`;
-    // 병기형 제목(《… ENGLISH》)의 EN을 en 칸에 표면화(미확정 — 검수자가 공식 EN 확정). 없으면 빈칸(한국어 전용=정상).
-    const exEn = r.en_candidate || "";
-    const exNote = exEn ? `EN 병기(미확정, 검수 확인 요): ${exEn}` : undefined;
+    // EN 제목: 영문판 매칭(기관 GOLD) 우선, 없으면 병기형 제목 파싱(미확정), 없으면 빈칸(한국어 전용 전시).
+    const exEn = TITLE_EN[title] || r.en_candidate || "";
+    const exNote = TITLE_EN[title]
+      ? "EN: 풀 영문판 공식 제목(기관 GOLD)"
+      : (exEn ? `EN 병기(미확정, 검수 확인 요): ${exEn}` : undefined);
     out.push(mk("exhibition", title, exEn, r.source_url, ev, year, exNote));
 
     // 참여작가 → person. 한 칸을 개별 이름으로 분리(다중구분자·공백리스트) 후 각각:
@@ -98,9 +115,12 @@ export function fromAltpool({ jsonPath = DEFAULT_JSON } = {}) {
         if (seenArtist.has(name)) continue; // 같은 전시 내 중복
         seenArtist.add(name);
         const grp = GROUP_WORDS.test(name);
-        out.push(mk("person", name, "", r.source_url,
-          `대안공간 풀 전시 '${title}' 참여작가 (${year})`, year,
-          grp ? "GOLD: 대안공간 풀. 단체/콜렉티브 가능 — 유형(person/org) 검수 확인." : undefined));
+        const roman = ROMAN[name] ? ROMAN[name].en : ""; // 풀 영문판 공식 로마자(기관 GOLD)
+        const note = roman
+          ? "GOLD: 대안공간 풀. EN=풀 영문판 공식 로마자."
+          : (grp ? "GOLD: 대안공간 풀. 단체/콜렉티브 가능 — 유형(person/org) 검수 확인." : undefined);
+        out.push(mk("person", name, roman, r.source_url,
+          `대안공간 풀 전시 '${title}' 참여작가 (${year})`, year, note));
       }
     }
   }
