@@ -1,0 +1,73 @@
+# 기관 통째 스크랩(institutional bulk scrape) 진행 트래커 — 정본.
+# 각 기관이 파이프라인 어느 단계인지 + 카운트를 기록. 반복 작업의 단일 출처.
+#
+# 단계(stage): planned → recon → scraper → crawled → pushed → reviewing → harvested → published → live
+#   planned    수집 대상 후보(미착수)
+#   recon      사이트 구조 역설계 완료(스크랩 방법 확정)
+#   scraper    스크레이퍼/피더 빌드 완료
+#   crawled    데이터 추출 완료(records 확보)
+#   pushed     후보를 노션 검수 DB에 push
+#   reviewing  사람 검수 중(노션)
+#   harvested  승인분 materialize→PR
+#   published  data/에 반영(라이브 사이트)
+#   live       정기 자동 피더로 상시 가동(MMCA 등)
+#
+# counts: crawled=추출 레코드수, candidates=매핑된 후보, pushed=노션 행, approved=승인, published=data/ 반영
+# (published는 scripts/institution_status.py가 dist/lexicon.json에서 도메인 매칭으로 라이브 재계산)
+
+institutions:
+  - key: mmca
+    name_ko: 국립현대미술관
+    name_en: MMCA
+    domain: mmca.go.kr
+    scraper: miner/src/feeders/mmca.js
+    tech: "Ajax JSON API(AjaxExhibitionList.do) — JS렌더 우회, 결정론 $0"
+    stage: live
+    coverage: "전시(정기 월/목 크롤)"
+    counts: { crawled: null, candidates: null, pushed: null, approved: null }
+    updated: 2026-06-11
+    notes: "GOLD 정기 피더. launchd 월/목."
+
+  - key: altpool
+    name_ko: 대안공간 풀
+    name_en: Art Space Pool
+    domain: altpool.org
+    scraper: scripts/scrape/altpool.py
+    feeder: miner/src/feeders/altpool.js
+    tech: "레거시 ASP 게시판, HTTP전용, EUC-KR, 프레임셋. list.asp goView(id) 열거 → view.asp 상세(.itemTitle/.itemDate/○레이블)"
+    stage: pushed
+    coverage: "전시 1999-2020 전체(b_type=8)"
+    counts: { crawled: 244, candidates: 361, pushed: 361, approved: 0 }
+    updated: 2026-06-13
+    notes: "1회 백필. 노션 검수 대기. 작가 130명 로마자 enrich 진행 중(신진 다수=저수확 예상). 영문명 ~2010 개칭(Alternative→Art Space Pool, Wayback 확정). Wayback 출처 보존 검토."
+    # 크롤 체크포인트 — 언제/어디까지/어디 저장. 재크롤 시 증분 기준.
+    crawl:
+      last_run: 2026-06-13
+      record_count: 244
+      extent: "b_type=8 전체, board_id 303–2206, 전시 244건, 1999–2020"
+      high_water: { max_board_id: 2206, b_types: [8] }  # 다음 크롤: board_id > 2206만(증분)
+      local_archive: crawl-archive/altpool/altpool_20260613.json
+      sha256_16: 7abcb1b83238c50b
+
+  - key: artsonje
+    name_ko: 아트선재센터
+    name_en: Art Sonje Center
+    domain: artsonje.org
+    stage: planned
+    coverage: "전시·작가"
+    updated: 2026-06-13
+    notes: "다음 후보."
+
+  - key: kukje
+    name_ko: 국제갤러리
+    name_en: Kukje Gallery
+    domain: kukjegallery.com
+    stage: planned
+    updated: 2026-06-13
+
+  - key: gwangju-biennale
+    name_ko: 광주비엔날레
+    name_en: Gwangju Biennale
+    domain: gwangjubiennale.org
+    stage: planned
+    updated: 2026-06-13

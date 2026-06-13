@@ -89,6 +89,14 @@ person만 추가 필드: `romanization` (revised|mcr|yale|artist|conventional), 
 - 설정: `specs/sources.yaml` + `specs/field-mapping/` 기반
 - 흐름: `크롤링 → 자동 검증 → staging/ → 인간 리뷰 → data/`
 
+#### 기관 통째 스크랩 트래킹 (반복 작업 필수 컨벤션)
+기관을 통째로 긁는 작업(altpool 등)을 반복하므로, 진행·체크포인트를 정본에 기록한다:
+- **정본 레지스트리** `specs/institutions.yaml` — 기관별 단계(planned→recon→scraper→crawled→pushed→reviewing→harvested→published→live) + counts + **크롤 매니페스트**(`crawl:` 언제 `last_run`/어디까지 `extent`+`high_water`/어디 저장 `local_archive`/`sha256`).
+- **영구 저장본** `crawl-archive/<key>/<key>_<YYYYMMDD>.json` — `/tmp` 금지(휘발). 크롤 원본을 날짜별 보존.
+- **재크롤 = 증분**: `high_water`(예: altpool `max_board_id`) 초과분만 수집.
+- **상태 보기** `python scripts/institution_status.py` → `reports/institutions_status.md` (published는 dist에서 도메인 매칭 라이브 계산).
+- **출처 보존(권장)**: fragile 사이트는 Wayback(`web.archive.org/save/`)에 스냅샷 + 라이브 URL·접속일과 함께 기록.
+
 ### 2. 사용자 입력 (수동)
 - 대상: 작가, 큐레이터, 연구자 등 외부 기여자
 - 흐름: `입력 → 자동 검증 → staging/ → 인간 리뷰 → data/`
