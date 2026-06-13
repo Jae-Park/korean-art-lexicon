@@ -7,8 +7,8 @@ import { nfc, dedupKey, proposedId, cleanName, guessOrigin } from "../normalize.
 
 const DEFAULT_JSON = process.env.ALTPOOL_JSON || "/tmp/altpool_full.json";
 const ORG_KO = "대안공간 풀";
-const ORG_EN = "Art Space Pool";
-const ORG_SRC = "http://www.altpool.org/_v3/about/mission.asp";
+const ORG_EN = "Art Space Pool"; // 본문 표기(현재). 영문판 site title은 "Alternative Space Pool" — 둘 다 병용(변이).
+const ORG_SRC = "http://www.altpool.org/_v3/en/about/mission.asp"; // 본문 'Art Space Pool' + <title> 'alternative space pool' 동시 출처
 
 // 정리 후에도 다중인명(괄호/협업X·×/슬래시)이면 단일 인명 아님 → person 후보 제외(전시 evidence엔 남음).
 function isMultiName(name) {
@@ -41,10 +41,10 @@ export function fromAltpool({ jsonPath = DEFAULT_JSON } = {}) {
   const recs = JSON.parse(readFileSync(jsonPath, "utf8"));
   const out = [];
 
-  // 기관 1건
+  // 기관 1건. 영문명 변천(Alternative Space Pool ↔ Art Space Pool) 둘 다 풀 영문판 자체 출처.
   out.push(mk("organization", ORG_KO, ORG_EN, ORG_SRC,
-    "대안공간 풀 — 1999년 설립 한국 대표 대안공간(서울 종로). 전시 아카이브 출처.", "",
-    "GOLD: 대안공간 풀 기관. about/mission 페이지 출처."));
+    "대안공간 풀 — 1999년 설립 한국 대표 대안공간(서울 종로). 영문명 'Art Space Pool'(본문)과 'Alternative Space Pool'(영문판 site title) 병용.", "",
+    "GOLD: 대안공간 풀 기관. 영문명 변이 Alternative Space Pool / Art Space Pool(출처: en/about). 검수 시 name.variants로 둘 다 보존."));
 
   for (const r of recs) {
     const title = nfc(r.title_ko || r.archive_title || "");
@@ -57,8 +57,10 @@ export function fromAltpool({ jsonPath = DEFAULT_JSON } = {}) {
       ? `${r.date_text_original}(원문 날짜 모순-확인요)`
       : r.date_text_original || "";
     const ev = `대안공간 풀 / ${dateNote} / 기획 ${(r.curators || []).join(", ") || "-"}`;
-    const exNote = r.en_candidate ? `EN 병기 후보(미확정): ${r.en_candidate}` : undefined;
-    out.push(mk("exhibition", title, "", r.source_url, ev, year, exNote));
+    // 병기형 제목(《… ENGLISH》)의 EN을 en 칸에 표면화(미확정 — 검수자가 공식 EN 확정). 없으면 빈칸(한국어 전용=정상).
+    const exEn = r.en_candidate || "";
+    const exNote = exEn ? `EN 병기(미확정, 검수 확인 요): ${exEn}` : undefined;
+    out.push(mk("exhibition", title, exEn, r.source_url, ev, year, exNote));
 
     // 참여작가 → person. 끝 괄호(멤버 병기) 제거 후: 다중인명이면 제외, 단체어면 flag해서 포함.
     for (const a of r.artists || []) {
