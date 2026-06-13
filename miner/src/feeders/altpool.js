@@ -10,9 +10,33 @@ const ORG_KO = "대안공간 풀";
 const ORG_EN = "Art Space Pool"; // 본문 표기(현재). 영문판 site title은 "Alternative Space Pool" — 둘 다 병용(변이).
 const ORG_SRC = "http://www.altpool.org/_v3/en/about/mission.asp"; // 본문 'Art Space Pool' + <title> 'alternative space pool' 동시 출처
 
+// 작가 한 칸을 개별 이름으로 분리. 한국어 명단은 쉼표·가운뎃점(ㆍ·∙•)·슬래시·세미콜론·및/와/과로
+// 섞여 구분되고, 공백으로만 나열되기도 함("강동주 이미래 장서영"=세 사람). 단일명에 공백이 끼기도 함("김 보민"=김보민).
+function splitArtistCell(cell) {
+  const parts = String(cell)
+    .split(/[,，、ㆍ·∙•/／;；]|\s+및\s+|\s+와\s+|\s+과\s+/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+  const out = [];
+  for (const p of parts) {
+    const toks = p.split(/\s+/);
+    if (toks.length >= 3 && toks.every((t) => /^[가-힣]{2,4}$/.test(t))) {
+      out.push(...toks); // 한글명 3+ 공백나열 = 리스트 → 분리
+    } else if (toks.length === 2 && /^[가-힣]$/.test(toks[0]) && /^[가-힣]{2,3}$/.test(toks[1])) {
+      out.push(toks.join("")); // 1음절 성 + 이름 = 공백 끼인 단일명 → 병합("김 보민"→"김보민")
+    } else {
+      out.push(p); // 2토큰 외국명(할릴 알틴데레)·단체명은 그대로
+    }
+  }
+  return out;
+}
 // 정리 후에도 다중인명(괄호/협업X·×/슬래시)이면 단일 인명 아님 → person 후보 제외(전시 evidence엔 남음).
 function isMultiName(name) {
   return /[(){}\[\]]|\sx\s|\sX\s|×|\//.test(name);
+}
+// 숫자/라틴-only = 작가명 아님(잡음, 예: '25hr sailing') → 제외.
+function isJunkName(name) {
+  return /\d/.test(name) || /^[A-Za-z0-9 .,'\-]+$/.test(name);
 }
 // 단체/콜렉티브 의심 어미 — 제외하진 않고 flag(검수자가 person/org 유형 확정).
 const GROUP_WORDS = /(형제|콜렉티브|컬렉티브|콜로니|그룹|팀|프로젝트|컴퍼니|듀오)$/u;
@@ -63,15 +87,21 @@ export function fromAltpool({ jsonPath = DEFAULT_JSON } = {}) {
     const exNote = exEn ? `EN 병기(미확정, 검수 확인 요): ${exEn}` : undefined;
     out.push(mk("exhibition", title, exEn, r.source_url, ev, year, exNote));
 
-    // 참여작가 → person. 끝 괄호(멤버 병기) 제거 후: 다중인명이면 제외, 단체어면 flag해서 포함.
-    for (const a of r.artists || []) {
-      const name = cleanName(a); // "팽창콜로니 ( 김주원 X 이은새 )" → "팽창콜로니"
-      if (!name || name.length < 2 || name.length > 20) continue;
-      if (isMultiName(name)) continue; // 정리 후에도 다중인명이면 보류
-      const grp = GROUP_WORDS.test(name);
-      out.push(mk("person", name, "", r.source_url,
-        `대안공간 풀 전시 '${title}' 참여작가 (${year})`, year,
-        grp ? "GOLD: 대안공간 풀. 단체/콜렉티브 가능 — 유형(person/org) 검수 확인." : undefined));
+    // 참여작가 → person. 한 칸을 개별 이름으로 분리(다중구분자·공백리스트) 후 각각:
+    // 잡음(숫자/라틴)·다중인명(괄호·X) 제외, 단체어는 flag해서 포함.
+    const seenArtist = new Set();
+    for (const cell of r.artists || []) {
+      for (const raw of splitArtistCell(cell)) {
+        const name = cleanName(raw); // "팽창콜로니 ( 김주원 X 이은새 )" → "팽창콜로니"
+        if (!name || name.length < 2 || name.length > 20) continue;
+        if (isMultiName(name) || isJunkName(name)) continue;
+        if (seenArtist.has(name)) continue; // 같은 전시 내 중복
+        seenArtist.add(name);
+        const grp = GROUP_WORDS.test(name);
+        out.push(mk("person", name, "", r.source_url,
+          `대안공간 풀 전시 '${title}' 참여작가 (${year})`, year,
+          grp ? "GOLD: 대안공간 풀. 단체/콜렉티브 가능 — 유형(person/org) 검수 확인." : undefined));
+      }
     }
   }
   return out;
