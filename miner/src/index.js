@@ -5,6 +5,7 @@
 import { config, assertNoApiKey } from "./config.js";
 import { fromStyleRegistry } from "./feeders/styleRegistry.js";
 import { fromMMCA } from "./feeders/mmca.js";
+import { fromAltpool } from "./feeders/altpool.js";
 import { loadExistingKeys, filterNew } from "./dedup.js";
 import { verifyBatch } from "./verify/index.js";
 import { buildMentionIndex, computeWeight } from "./weight.js";
@@ -39,6 +40,11 @@ async function mine() {
     const s = fromStyleRegistry({ clients });
     log(`leads from style_registry(SILVER): ${s.length}`);
     leads.push(...s);
+  }
+  if (source === "altpool") {
+    const a = fromAltpool({ jsonPath: val("--altpool-json") || undefined });
+    log(`leads from altpool(GOLD): ${a.length}`);
+    leads.push(...a);
   }
 
   const existing = loadExistingKeys();
