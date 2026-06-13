@@ -39,7 +39,7 @@ institutions:
     coverage: "전시 1999-2020 전체(b_type=8)"
     counts: { crawled: 244, candidates: 361, pushed: 361, approved: 0 }
     updated: 2026-06-13
-    notes: "1회 백필. 노션 검수 대기. 작가 130명 로마자 enrich 진행 중(신진 다수=저수확 예상). 영문명 ~2010 개칭(Alternative→Art Space Pool, Wayback 확정). Wayback 출처 보존 검토."
+    notes: "1회 백필, 노션 검수 대기(359행, 작가 분리·EN 정정 완료). 작가 EN=풀 영문판 공식 로마자 31 + 전시 EN 19(en 미러 매칭, GOLD). 영문명 ~2010 개칭(Wayback 확정). Wayback 전수 보존 진행."
     # 크롤 체크포인트 — 언제/어디까지/어디 저장. 재크롤 시 증분 기준.
     crawl:
       last_run: 2026-06-13
@@ -48,6 +48,8 @@ institutions:
       high_water: { max_board_id: 2206, b_types: [8] }  # 다음 크롤: board_id > 2206만(증분)
       local_archive: crawl-archive/altpool/altpool_20260613.json
       sha256_16: 7abcb1b83238c50b
+      en_romanization: crawl-archive/altpool/en_romanization_20260613.json  # 영문판 매칭 로마자/제목 맵
+      wayback_index: crawl-archive/altpool/wayback_20260613.json  # 라이브URL↔스냅샷 매핑
 
   - key: artsonje
     name_ko: 아트선재센터
