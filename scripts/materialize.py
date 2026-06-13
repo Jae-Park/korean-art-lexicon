@@ -6,6 +6,7 @@ Source-First: 출처 URL 없으면 skip. person은 EN/romanization 필수(id+lat
 import sys
 import json
 import re
+import datetime
 from pathlib import Path
 
 try:
@@ -16,7 +17,13 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 STAGING = ROOT / "staging"
-TODAY = "2026-06-11"
+
+
+def accessed_date(row):
+    """출처 접속일 = 후보 생성(크롤)일 run_date 우선, 없으면 오늘. 하드코딩 금지(stale 방지)."""
+    rd = (row.get("run_date") or row.get("run date") or "").strip()
+    m = re.match(r"\d{4}-\d{2}-\d{2}", rd)
+    return m.group(0) if m else datetime.date.today().isoformat()
 
 
 def slug(s):
@@ -36,6 +43,7 @@ def materialize(row):
     url = (row.get("출처 URL") or "").strip()
     note = (row.get("evidence") or row.get("근거") or "").strip()
     src_note = re.sub(r"^\[\d{4}-\d{2}-\d{2}\]\s*", "", note)[:220]  # evidence의 날짜 prefix 제거
+    acc = accessed_date(row)  # 접속일 = 크롤일(run_date) 또는 오늘
 
     if not url:
         return None, "출처 URL 없음 (Source-First 위반 — 재작업)"
@@ -49,7 +57,7 @@ def materialize(row):
         doc = {
             "id": pid,
             "name": {"ko": {"full": ko}, "latn": {"preferred": en}},
-            "sources": [{"url": url, "name_used": en, "note": src_note, "accessed": TODAY}],
+            "sources": [{"url": url, "name_used": en, "note": src_note, "accessed": acc}],
             "status": "pending_review",
         }
         return ("persons", pid, doc), None
@@ -64,7 +72,7 @@ def materialize(row):
         doc = {
             "id": pid,
             "title": title,
-            "sources": [{"url": url, "note": src_note, "accessed": TODAY}],
+            "sources": [{"url": url, "note": src_note, "accessed": acc}],
             "status": "pending_review",
         }
         return ("exhibitions", pid, doc), None
@@ -79,7 +87,7 @@ def materialize(row):
         doc = {
             "id": pid,
             "name": name,
-            "sources": [{"url": url, "note": src_note, "accessed": TODAY}],
+            "sources": [{"url": url, "note": src_note, "accessed": acc}],
             "status": "pending_review",
         }
         return ("organizations", pid, doc), None

@@ -41,10 +41,10 @@ export function fromAltpool({ jsonPath = DEFAULT_JSON } = {}) {
   const recs = JSON.parse(readFileSync(jsonPath, "utf8"));
   const out = [];
 
-  // 기관 1건. 영문명 변천(Alternative Space Pool ↔ Art Space Pool) 둘 다 풀 영문판 자체 출처.
+  // 기관 1건. 영문명 변천(Alternative Space Pool ↔ Art Space Pool) — 풀 영문판 + 국제기관(New Museum) 출처.
   out.push(mk("organization", ORG_KO, ORG_EN, ORG_SRC,
-    "대안공간 풀 — 1999년 설립 한국 대표 대안공간(서울 종로). 영문명 'Art Space Pool'(본문)과 'Alternative Space Pool'(영문판 site title) 병용.", "",
-    "GOLD: 대안공간 풀 기관. 영문명 변이 Alternative Space Pool / Art Space Pool(출처: en/about). 검수 시 name.variants로 둘 다 보존."));
+    "대안공간 풀 — 1999년 설립 한국 대표 대안공간(서울 종로). 영문명 'Art Space Pool'(본문)과 'Alternative Space Pool'(영문판 site title) 병용. 뉴욕 New Museum 'Museum as Hub' 파트너로 'art space pool, Seoul' 표기.", "",
+    "GOLD: 대안공간 풀 기관. 영문명 변이 Alternative/Art Space Pool. 출처: altpool en/about + New Museum archive(archive.newmuseum.org/exhibitions/1691). 검수 시 name.variants + sources 둘 다."));
 
   for (const r of recs) {
     const title = nfc(r.title_ko || r.archive_title || "");
