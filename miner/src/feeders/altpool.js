@@ -25,6 +25,17 @@ const ORG_KO = "대안공간 풀";
 const ORG_EN = "Art Space Pool"; // 본문 표기(현재). 영문판 site title은 "Alternative Space Pool" — 둘 다 병용(변이).
 const ORG_SRC = "http://www.altpool.org/_v3/en/about/mission.asp"; // 본문 'Art Space Pool' + <title> 'alternative space pool' 동시 출처
 
+// 깨끗한 전시 제목: ○전시명(title_ko) 우선, 없으면 archive_title 《》에서 도출(옛 페이지는 ○전시명 부재
+// → "2015 풀 프로덕션 《제목》" 형태만 있음). '작가 : 제목'(솔로)이면 제목만. en-extractor와 동일 규칙.
+function cleanExhTitle(r) {
+  const tk = nfc(r.title_ko || "");
+  if (tk) return tk;
+  const m = (r.archive_title || "").match(/[《≪](.+?)[》≫]/);
+  let inner = m ? m[1].trim() : nfc(r.archive_title || "");
+  if (inner.includes(" : ")) inner = inner.split(" : ").slice(1).join(" : ").trim(); // 작가:제목 → 제목
+  return nfc(inner);
+}
+
 // 작가 한 칸을 개별 이름으로 분리. 한국어 명단은 쉼표·가운뎃점(ㆍ·∙•)·슬래시·세미콜론·및/와/과로
 // 섞여 구분되고, 공백으로만 나열되기도 함("강동주 이미래 장서영"=세 사람). 단일명에 공백이 끼기도 함("김 보민"=김보민).
 function splitArtistCell(cell) {
@@ -87,7 +98,7 @@ export function fromAltpool({ jsonPath = DEFAULT_JSON } = {}) {
     "GOLD: 대안공간 풀 기관. 영문명 ~2010 개칭(변이 아님). 출처: Wayback 스냅샷(2009/2010, dated) + altpool en/about + New Museum archive(archive.newmuseum.org/exhibitions/1691)."));
 
   for (const r of recs) {
-    const title = nfc(r.title_ko || r.archive_title || "");
+    const title = cleanExhTitle(r);
     if (!title) continue;
     const year =
       (r.date_start || "").slice(0, 4) ||
