@@ -33,7 +33,7 @@ def http(url, timeout, tries=1):
             return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout)
         except urllib.error.HTTPError as e:
             last = e
-            if e.code in (429, 503) and i < tries - 1:
+            if e.code in (429, 502, 503, 504, 520, 523) and i < tries - 1:
                 time.sleep(15 * (i + 1))
                 continue
             return e
