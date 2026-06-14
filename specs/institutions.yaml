@@ -26,20 +26,7 @@ institutions:
     coverage: "전시(정기 월/목 크롤)"
     counts: { crawled: null, candidates: null, pushed: null, approved: null }
     updated: 2026-06-11
-    notes: "GOLD 정기 피더. launchd 월/목."
-
-  - key: altpool
-    name_ko: 대안공간 풀
-    name_en: Art Space Pool
-    domain: altpool.org
-    scraper: scripts/scrape/altpool.py
-    feeder: miner/src/feeders/altpool.js
-    tech: "레거시 ASP 게시판, HTTP전용, EUC-KR, 프레임셋. list.asp goView(id) 열거 → view.asp 상세(.itemTitle/.itemDate/○레이블)"
-    stage: pushed
-    coverage: "전시 1999-2020 전체(b_type=8)"
-    counts: { crawled: 244, candidates: 459, pushed: 459, approved: 0 }
-    updated: 2026-06-13
-    notes: "전체 사이트 미러(1790 HTML/16MB/895 board_id/11 b_type)에서 전수추출. 전시 220(EN 131, 풀 영문판 공식) + 작가 238(로마자 62 GOLD) + 기관 1 = 459 노션 push. 전시 외 301개 콘텐츠(프로그램·토크)는 미러 보존만. 영문명 ~2010 개칭(Wayback). Wayback 출처보존 진행 중. 검수 대기."
+    notes: "미러(1790HTML/11btype)를 codex LLM 의미추출 → 전시 242(EN 150)·작가 690(로마자 414)·기관 1 = 933 노션 push. 비일관 itemTitle을 codex가 흡수(regex 폐기). 영문명 ~2010 개칭(Wayback 154/246 스냅샷). 검수 대기."
     # 크롤 체크포인트 — 언제/어디까지/어디 저장. 재크롤 시 증분 기준.
     crawl:
       last_run: 2026-06-13
@@ -51,7 +38,8 @@ institutions:
       en_romanization: crawl-archive/altpool/en_romanization_20260613.json  # 영문판 매칭 로마자/제목 맵
       wayback_index: crawl-archive/altpool/wayback_20260613.json  # 라이브URL↔스냅샷 매핑
       full_mirror: crawl-archive/altpool/mirror/  # 전체 사이트 원본 HTML(1790파일/16MB/11 b_type) — 영구 로컬본
-      mirror_extract: crawl-archive/altpool/extract_from_mirror.json  # 미러 전수추출(피더 단일소스)
+      codex_extract: crawl-archive/altpool/codex_extract.json  # codex LLM 의미추출(피더 단일소스, 최종)
+      mirror_extract: crawl-archive/altpool/extract_from_mirror.json  # regex 추출(폐기, 비교용)
 
   - key: artsonje
     name_ko: 아트선재센터
