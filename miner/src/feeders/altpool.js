@@ -1,14 +1,15 @@
-// GOLD 피더 — 대안공간 풀(altpool.org). 전체 사이트 미러 전수 추출을 단일 소스로 사용.
-// scripts/scrape/altpool_extract_from_mirror.py 산출(extract_from_mirror.json):
-//   exhibitions[{board_id, title_ko(깨끗), title_en, date, artists_ko(검증된 리스트), source_url}] + romanization{ko:en}
-// 상세 view.asp URL = 풀 기관 1차 출처(GOLD) → verified:true. http 전용. 1회 백필.
+// GOLD 피더 — 대안공간 풀(altpool.org). 미러를 codex(LLM)로 의미추출한 결과를 단일 소스로.
+// scripts/scrape/altpool_codex_extract.py 산출(codex_extract.json):
+//   exhibitions[{board_id, title_ko, title_en, type, artists_ko, date, source_url, curators}] + romanization{ko:en}
+// 비일관 itemTitle(《제목》/작가:제목/프로그램:작가/산문)을 codex가 의미로 흡수 — regex 추출 폐기.
+// 상세 view.asp URL = 풀 기관 1차 출처(GOLD). http 전용. 1회 백필.
 import { readFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { nfc, dedupKey, proposedId, guessOrigin } from "../normalize.js";
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), "../../..");
-const EXTRACT_PATH = process.env.ALTPOOL_EXTRACT || join(REPO_ROOT, "crawl-archive/altpool/extract_from_mirror.json");
+const EXTRACT_PATH = process.env.ALTPOOL_EXTRACT || join(REPO_ROOT, "crawl-archive/altpool/codex_extract.json");
 const DATA = (() => {
   try {
     return existsSync(EXTRACT_PATH) ? JSON.parse(readFileSync(EXTRACT_PATH, "utf8")) : {};
@@ -60,11 +61,15 @@ export function fromAltpool() {
 
   const seenArtist = new Set();
   for (const e of exhibitions) {
-    const title = nfc(e.title_ko || "");
-    if (!title) continue;
+    const arts = (e.artists_ko || []).map(nfc).filter(Boolean);
+    let title = nfc(e.title_ko || "");
+    if (!title) {
+      // 제목 없는 솔로 초대전(codex가 null) → "{작가} 개인전". 그 외 무제는 skip.
+      if (e.type === "solo" && arts.length === 1) title = `${arts[0]} 개인전`;
+      else continue;
+    }
     const year = yearOf(e.date);
-    const arts = e.artists_ko || [];
-    const ev = `대안공간 풀 / ${e.date || ""} / 작가 ${arts.slice(0, 6).join(", ") || "-"}${arts.length > 6 ? " 외" : ""}`;
+    const ev = `대안공간 풀 / ${e.date || ""} / ${e.type || "?"} / 기획 ${(e.curators || []).join(", ") || "-"} / 작가 ${arts.slice(0, 6).join(", ") || "-"}${arts.length > 6 ? " 외" : ""}`;
     const exEn = nfc(e.title_en || "");
     out.push(mk("exhibition", title, exEn, e.source_url, ev, year,
       exEn ? "EN: 풀 영문판 공식 제목(기관 GOLD)" : undefined));

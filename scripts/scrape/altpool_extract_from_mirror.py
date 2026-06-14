@@ -45,13 +45,22 @@ def item_content(h):
     return clean(m.group(1)) if m else ""
 
 
+# 프로그램/시리즈명 신호(콜론 앞이 이거면 콜론 뒤가 작가) — 초대전·기획전 등.
+_PROGRAM = re.compile(r"\d{4}|기획\s*초대|새로운\s*(작가|시각)|초대전|기획전|신진|프로덕션|기금마련|Production|Invitation|Project")
+
+
 def derive_title_artist(item_title):
+    """itemTitle → (제목, 작가). 콜론 형식 분기:
+    'Artist : Title'(앞=작가) vs 'Program : Artist'(앞=연도/프로그램 → 뒤가 작가)."""
     m = re.search(r"[《≪](.+?)[》≫]", item_title)
     inner = (m.group(1).strip() if m
              else re.sub(r"^\s*\d{4}\s+(Pool Production|Production|풀 프로덕션|기획전시|기금마련전)\s*[:：]?\s*", "", item_title).strip())
     if " : " in inner:
-        a, t = inner.split(" : ", 1)
-        return t.strip(), a.strip()
+        before, after = [p.strip() for p in inner.split(" : ", 1)]
+        if _PROGRAM.search(before) and not _PROGRAM.search(after):
+            # 'Program : Artist' — 작가=뒤, 제목은 전체 유지(작가명이 제목으로 둔갑 방지)
+            return item_title.strip(), after
+        return after, before  # 'Artist : Title'
     return inner, ""
 
 
