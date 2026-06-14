@@ -13,7 +13,12 @@ sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000995
   name_used: Choi Jeonghwa
   note: MMCA Hyundai Motor Series 2018
-status: pending_review
+- url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
+  name_used: Choi Jeong-Hwa
+  note: AAA — 제51회 베니스비엔날레 한국관 《Secret Beyond the Door》(2005) 참여작가. 한국관 지붕 빨간 소쿠리
+    설치.
+  accessed: '2026-06-14'
+status: reviewed
 external_ids:
   ulan: '500125325'
   wikidata: Q28793925

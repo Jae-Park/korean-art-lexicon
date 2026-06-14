@@ -1198,7 +1198,9 @@
           html += `<div class="detail-section"><h3>Participants</h3>`;
           entry.participants.forEach(pid => {
             const p = findEntry(pid);
-            const name = p ? getDisplayNames(p).ko + ' ' + getDisplayNames(p).en : pid;
+            // 미해결 참조(미공개/미존재)는 raw 'person.xxx' 대신 슬러그를 읽기 좋게 폴백(+ 미공개 표시)
+            const fallback = pid.replace(/^[a-z]+\./, '').replace(/-/g, ' ') + ' (미공개)';
+            const name = p ? getDisplayNames(p).ko + ' ' + getDisplayNames(p).en : fallback;
             html += `<div style="margin-bottom:4px"><a class="ref-link" data-ref="${pid}" href="#">${esc(name)}</a></div>`;
           });
           html += `</div>`;
