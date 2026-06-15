@@ -203,6 +203,7 @@ korean-art-lexicon/
 │   ├── validate_source_content.py # 2단계: 출처 내용 대조 (진위 검증)
 │   ├── build.py                  # YAML → dist/lexicon.json 빌드
 │   ├── enrich_hanja.py           # 한자 채움: encykorea에서 한글 앵커 추출(Source-First). Phase1=출처보유 자동(harvest 연결), Phase2=--search
+│   ├── person_source_enrich.py   # 인물 다중소스 보강: 다른 기관 출처(미술관·갤러리·AAA·e-flux) 하베스트→sources[] append. 각 출처 name_used(표기변이) 기록. Naver $0. --apply/--batch/--max
 │   ├── pipeline.sh               # 원스텝: validate → build → verify
 │   └── scrape/                   # 기관별 크롤러
 ├── staging/                      # 자동 검증 통과, 인간 리뷰 대기
