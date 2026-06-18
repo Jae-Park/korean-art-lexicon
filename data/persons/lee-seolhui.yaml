@@ -1,0 +1,18 @@
+id: person.lee-seolhui
+name:
+  ko:
+    full: 이설희
+    family: 이
+    given: 설희
+  latn:
+    preferred: Seolhui Lee
+    family: Lee
+    given: Seolhui
+role:
+- aat: '300025633'
+sources:
+- url: https://www.venicebiennale.kr/archive
+  name_used: Seolhui Lee
+  note: 베니스비엔날레 한국관 제60회(2024) 커미셔너 — 한국문화예술위원회 아르코예술기록원 공식 아카이브
+  accessed: '2026-06-19'
+status: reviewed

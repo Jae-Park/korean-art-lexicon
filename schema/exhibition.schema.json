@@ -127,6 +127,14 @@
       },
       "description": "References to person entities"
     },
+    "curators": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^person\\.[a-z0-9-]+$"
+      },
+      "description": "References to curator/commissioner person entities"
+    },
     "organizer": {
       "type": "string",
       "description": "Organizing institution or curator"
