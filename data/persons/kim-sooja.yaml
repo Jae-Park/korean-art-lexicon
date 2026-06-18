@@ -27,6 +27,14 @@ sources:
   name_used: Kimsooja
   note: Artist official website
   accessed: '2026-03-30'
+- url: https://www.daljin.com/?WS=33&BC=cv&DNO=22958
+  name_used: 김수자
+  note: daljin.com — 김수자 참조
+  accessed: '2026-06-16'
+- url: https://www.kf.or.kr/kfNewsletter/mgzinSubViewPage.do?mgzinSubSn=3665
+  name_used: 김수자
+  note: kf.or.kr — 김수자 참조
+  accessed: '2026-06-16'
 status: reviewed
 notes: Uses single-word name 'Kimsooja' since 2003
 external_ids:

@@ -16,6 +16,18 @@ sources:
 - url: https://www.galleryhyundai.com/artist/view/20000000113
   name_used: Choe U-Ram
   note: Gallery Hyundai represented artist
+- url: https://sema.seoul.go.kr/kr/knowledge_research/collection/collection_detail?artSeq=WORK_0000001882
+  name_used: 최우람
+  note: sema.seoul.go.kr — 최우람 참조
+  accessed: '2026-06-16'
+- url: https://tv.seoul.go.kr/v/STV-4859
+  name_used: 최우람
+  note: tv.seoul.go.kr — 최우람 참조
+  accessed: '2026-06-16'
+- url: https://www.ulsan.go.kr/s/uam/bbs/view.do?mId=001007002001000000&bbsId=BBS_0000000000000188&dataId=52773
+  name_used: 최우람
+  note: ulsan.go.kr — 최우람 참조
+  accessed: '2026-06-16'
 status: reviewed
 external_ids:
   wikidata: Q7862919

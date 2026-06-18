@@ -22,6 +22,22 @@ sources:
 - url: https://www.guggenheim.org/artwork/artist/lee-bul
   name_used: Lee Bul
   note: Guggenheim artist page
+- url: https://sema.seoul.go.kr/kr/whatson/exhibition/audio_guide?exNo=461401&audioGuideNo=956015
+  name_used: 이불
+  note: sema.seoul.go.kr — 이불 참조
+  accessed: '2026-06-16'
+- url: https://museum.or.kr/museums_news/?mod=document&uid=6294
+  name_used: 이불
+  note: museum.or.kr — 이불 참조
+  accessed: '2026-06-16'
+- url: https://www.kf.or.kr/kf/na/ntt/selectNttInfo.do?bbsId=1061&nttSn=136588
+  name_used: 이불
+  note: kf.or.kr — 이불 참조
+  accessed: '2026-06-16'
+- url: https://www.daljin.com/?WS=31&BC=cv&DNO=23179
+  name_used: 이불
+  note: daljin.com — 이불 참조
+  accessed: '2026-06-16'
 status: reviewed
 external_ids:
   ulan: '500125877'

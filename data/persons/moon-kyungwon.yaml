@@ -19,6 +19,14 @@ sources:
 - url: https://www.galleryhyundai.com/artist/view/20000000093
   name_used: Moon Kyungwon
   note: Gallery Hyundai represented artist
+- url: http://www.sdf.or.kr/archive/2013/ko/speaker/10000000549
+  name_used: 문경원
+  note: sdf.or.kr — 문경원 참조
+  accessed: '2026-06-16'
+- url: https://sema.seoul.go.kr/kr/knowledge_research/collection/collection_detail?artSeq=WORK_0000003657
+  name_used: 문경원
+  note: sema.seoul.go.kr — 문경원 참조
+  accessed: '2026-06-16'
 status: reviewed
 external_ids:
   wikidata: Q20010749

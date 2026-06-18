@@ -23,6 +23,14 @@ sources:
   name_used: Yeondoo Jung
   note: Artist official website
   accessed: '2026-03-30'
+- url: https://www.ulsan.go.kr/s/uam/bbs/view.ulsan?bbsId=BBS_0000000000000174&mId=001003001000000000&dataId=32421
+  name_used: 정연두
+  note: ulsan.go.kr — 정연두 참조
+  accessed: '2026-06-16'
+- url: https://www.daljin.com/?WS=33&BC=cv&DNO=21512
+  name_used: 정연두
+  note: daljin.com — 정연두 참조
+  accessed: '2026-06-16'
 status: reviewed
 notes: Uses given-family order (Yeondoo Jung) as preferred form
 external_ids:

@@ -16,4 +16,12 @@ sources:
 - url: https://www.arko.or.kr/biennale/content/643
   name_used: 김홍석
   note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://art.busan.go.kr/tblTsite07Display/viewNowClient.nm?id=20230406110509881
+  name_used: 김홍석
+  note: art.busan.go.kr — 김홍석 참조
+  accessed: '2026-06-16'
+- url: https://suma.suwon.go.kr/exhi/current_view.do?lang=en&ge_idx=1237
+  name_used: 김홍석
+  note: suma.suwon.go.kr — 김홍석 참조
+  accessed: '2026-06-16'
 status: reviewed

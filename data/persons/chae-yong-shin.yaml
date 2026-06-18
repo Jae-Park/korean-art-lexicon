@@ -47,4 +47,16 @@ sources:
   name_used: 채용신
   note: 한국민족문화대백과사전 — 한자 병기 출처
   accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/educations/educationsDetail.do?eduId=202508180000835
+  name_used: 채용신
+  note: mmca.go.kr — 채용신 참조
+  accessed: '2026-06-16'
+- url: https://www.jeonbuk.go.kr/board/view.jeonbuk?boardId=BBS_0000013&menuCd=DOM_000000102010000000&dataSid=158915
+  name_used: 채용신
+  note: jeonbuk.go.kr — 채용신 참조
+  accessed: '2026-06-16'
+- url: https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?schM=view&relicId=2284
+  name_used: 채용신
+  note: museum.go.kr — 채용신 참조
+  accessed: '2026-06-16'
 status: reviewed

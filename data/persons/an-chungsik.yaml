@@ -63,4 +63,8 @@ sources:
 
     www.museum.go.kr›MUSEUM'
   accessed: '2026-06-12'
+- url: https://www.ulsan.go.kr/s/uam/bbs/view.ulsan?bbsId=BBS_0000000000000174&mId=001003001000000000&dataId=55778
+  name_used: 안중식
+  note: ulsan.go.kr — 안중식 참조
+  accessed: '2026-06-16'
 status: reviewed

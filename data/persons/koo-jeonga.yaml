@@ -26,6 +26,10 @@ sources:
   name_used: Koo Jeong A
   note: Artist official website
   accessed: '2026-03-30'
+- url: https://www.arko.or.kr/artcenter/board/view/506?bid=266&cid=715775
+  name_used: 구정아
+  note: arko.or.kr — 구정아 참조
+  accessed: '2026-06-16'
 status: reviewed
 external_ids:
   ulan: '500294101'

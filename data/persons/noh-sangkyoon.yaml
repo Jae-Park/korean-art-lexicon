@@ -16,4 +16,12 @@ sources:
 - url: https://www.arko.or.kr/biennale/content/643
   name_used: 노상균
   note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://sema.seoul.go.kr/semaaa/front/book/view.do?bkId=2973
+  name_used: 노상균
+  note: sema.seoul.go.kr — 노상균 참조
+  accessed: '2026-06-16'
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002665
+  name_used: 노상균
+  note: mmca.go.kr — 노상균 참조
+  accessed: '2026-06-16'
 status: reviewed

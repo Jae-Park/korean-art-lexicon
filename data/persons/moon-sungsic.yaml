@@ -19,4 +19,8 @@ sources:
 - url: https://www.kukjegallery.com/artists/view?seq=177
   name_used: 문성식
   note: 국제갤러리 대리 작가
+- url: https://sema.seoul.go.kr/kr/support/nanji_residency/detail_info?actNo=652752
+  name_used: 문성식
+  note: sema.seoul.go.kr — 문성식 참조
+  accessed: '2026-06-16'
 status: reviewed

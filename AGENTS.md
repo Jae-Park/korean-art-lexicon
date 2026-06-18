@@ -203,7 +203,9 @@ korean-art-lexicon/
 │   ├── validate_source_content.py # 2단계: 출처 내용 대조 (진위 검증)
 │   ├── build.py                  # YAML → dist/lexicon.json 빌드
 │   ├── enrich_hanja.py           # 한자 채움: encykorea에서 한글 앵커 추출(Source-First). Phase1=출처보유 자동(harvest 연결), Phase2=--search
-│   ├── person_source_enrich.py   # 인물 다중소스 보강: 다른 기관 출처(미술관·갤러리·AAA·e-flux) 하베스트→sources[] append. 각 출처 name_used(표기변이) 기록. Naver $0. --apply/--batch/--max
+│   ├── person_source_enrich.py   # 인물 다중소스 보강: 다른 기관 출처(미술관·갤러리·AAA·e-flux) 하베스트→sources[] append. 각 출처 name_used(표기변이) 기록. Naver $0. --apply/--batch/--max.
+│   │                             #   배치 안전모드(권장): --harvest-only OUT(Naver 수집+snippet, 증분저장·재개·인물별격리) → sonnet Agent로 동명이인·관련성·name_used 검증(write前 게이트) → --apply-verified IN(통과분만 sources[]+빌드). 비파괴 자동적용 OK, reject는 write 안 함.
+│   │                             #   주의(2026-06-16 실측): Naver는 국내 페이지라 거의 한글 표기만 회수 → 로마자 표기변이는 안 늘고 기관 레퍼런스만 보강됨. 표기변이를 원하면 기관 영문 페이지 벡터 필요
 │   ├── pipeline.sh               # 원스텝: validate → build → verify
 │   └── scrape/                   # 기관별 크롤러
 ├── staging/                      # 자동 검증 통과, 인간 리뷰 대기

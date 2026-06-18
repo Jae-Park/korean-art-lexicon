@@ -17,4 +17,12 @@ sources:
 - url: https://www.arko.or.kr/biennale/content/643
   name_used: 전수천
   note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.jma.go.kr/web/page.php?pcode=AB&exhibit_code=26031016101808
+  name_used: 전수천
+  note: jma.go.kr — 전수천 참조
+  accessed: '2026-06-16'
+- url: https://museum.or.kr/museums_news/?mod=document&uid=6632
+  name_used: 전수천
+  note: museum.or.kr — 전수천 참조
+  accessed: '2026-06-16'
 status: reviewed

@@ -59,4 +59,12 @@ sources:
 
     www.culture.go.kr›portal'
   accessed: '2026-06-12'
+- url: https://www.ulsan.go.kr/s/uam/bbs/view.ulsan?bbsId=BBS_0000000000000174&mId=001003001000000000&dataId=55778
+  name_used: 조석진
+  note: ulsan.go.kr — 조석진 참조
+  accessed: '2026-06-16'
+- url: https://art.busan.go.kr/article/list.nm?menuCd=5
+  name_used: 조석진
+  note: art.busan.go.kr — 조석진 참조
+  accessed: '2026-06-16'
 status: reviewed

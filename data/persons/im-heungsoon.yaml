@@ -20,6 +20,18 @@ sources:
   name_used: IM Heung-soon
   note: Artist official website
   accessed: '2026-03-30'
+- url: https://sema.seoul.go.kr/kr/knowledge_research/collection/collection_detail?artSeq=WORK_0000004654
+  name_used: 임흥순
+  note: sema.seoul.go.kr — 임흥순 참조
+  accessed: '2026-06-16'
+- url: https://www.daljin.com/?WS=21&BC=gdv&GNO=D064505
+  name_used: 임흥순
+  note: daljin.com — 임흥순 참조
+  accessed: '2026-06-16'
+- url: https://www.mcst.go.kr/site/s_policy/comm/studentNews/studentNewsView.jsp?pSeq=4654
+  name_used: 임흥순
+  note: mcst.go.kr — 임흥순 참조
+  accessed: '2026-06-16'
 status: reviewed
 external_ids:
   wikidata: Q19896697

@@ -86,8 +86,17 @@ def harvest_naver(ko, existing_urls, want):
         b = p.chromium.launch()
         pg = b.new_page()
         try:
-            pg.goto("https://search.naver.com/search.naver?query=" + ko + " 작가 미술",
-                    wait_until="domcontentloaded", timeout=20000)
+            ok = False
+            for attempt in range(3):  # 검색 페이지 goto 타임아웃 격리 — 재시도
+                try:
+                    pg.goto("https://search.naver.com/search.naver?query=" + ko + " 작가 미술",
+                            wait_until="domcontentloaded", timeout=25000)
+                    ok = True
+                    break
+                except Exception:
+                    pg.wait_for_timeout(1500)
+            if not ok:
+                return found  # 검색 자체 실패 → 빈손(크래시 금지)
             pg.wait_for_timeout(900)
             hrefs = pg.eval_on_selector_all("a", "els=>els.map(e=>e.href)")
             cands = []
@@ -113,20 +122,25 @@ def harvest_naver(ko, existing_urls, want):
                 if not alive(url):
                     continue
                 dom = re.sub(r"^https?://(www\.)?", "", url).split("/")[0]
-                found.append({"url": url, "name_used": nu, "note": f"{dom} — {ko} 참조", "accessed": TODAY})
+                i = txt.find(ko)
+                snip = re.sub(r"\s+", " ", txt[max(0, i - 130):i + 170]) if i >= 0 else ""
+                found.append({"url": url, "name_used": nu, "note": f"{dom} — {ko} 참조",
+                              "accessed": TODAY, "snippet": snip, "domain": dom})
                 existing_urls.add(url)
         finally:
             b.close()
     return found
 
 
-def enrich(key, apply, want):
+def enrich(key, apply, want, collect=False):
     f, d, ko = find_person(key)
     if not d:
         print(f"  인물 못 찾음: {key}")
-        return 0
+        return [] if collect else 0
     existing = {(s.get("url") if isinstance(s, dict) else s) for s in (d.get("sources") or [])}
     new = harvest_naver(ko, set(existing), want)
+    if collect:  # 수집만 — sonnet 검증용 후보 반환(적용 X)
+        return {"id": d["id"], "file": f, "ko": ko, "candidates": new}
     forms_before = {s.get("name_used") for s in (d.get("sources") or []) if isinstance(s, dict)}
     added = [s for s in new if s["url"] not in existing]
     print(f"\n[{d['id']}] {ko} — 기존 출처 {len(existing)}개")
@@ -149,12 +163,68 @@ def main():
     ap.add_argument("--batch", help="id/이름 목록 파일")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--max", type=int, default=5, help="인물당 추가 출처 최대")
+    ap.add_argument("--harvest-only", help="수집만 → 이 경로에 JSON(sonnet 검증용). 적용 안 함.")
+    ap.add_argument("--apply-verified", help="sonnet 검증 통과 JSON([{id,approved:[{url,name_used,note,accessed}]}]) → sources[] 적용 + 빌드")
     a = ap.parse_args()
     keys = [a.key] if a.key else []
     if a.batch:
         keys += [x.strip() for x in open(a.batch, encoding="utf-8") if x.strip()]
-    if not keys:
+    if not keys and not a.apply_verified:
         ap.error("key 또는 --batch 필요")
+    if a.harvest_only:
+        import json
+        # 재개: 이미 수집된 인물은 건너뜀(크래시/타임아웃 후 이어서)
+        out = json.load(open(a.harvest_only, encoding="utf-8")) if os.path.exists(a.harvest_only) else []
+        done_ids = {r["id"] for r in out}
+        for i, k in enumerate(keys):
+            f0, d0, _ = find_person(k)
+            if d0 and d0.get("id") in done_ids:
+                print(f"  건너뜀 {i+1}/{len(keys)} {k} (이미 수집)", file=sys.stderr)
+                continue
+            try:
+                r = enrich(k, False, a.max, collect=True)
+            except Exception as e:  # 인물별 격리 — 한 명 실패가 배치를 죽이지 않게
+                print(f"  실패 {i+1}/{len(keys)} {k}: {str(e)[:50]}", file=sys.stderr)
+                continue
+            if r:
+                out.append(r)  # 0건도 기록(재처리 방지)
+                done_ids.add(r["id"])
+                json.dump(out, open(a.harvest_only, "w", encoding="utf-8"), ensure_ascii=False, indent=1)  # 증분 저장
+            print(f"  수집 {i+1}/{len(keys)} {k}: {len(r.get('candidates',[])) if r else 0}건", file=sys.stderr)
+        tot = sum(len(r["candidates"]) for r in out)
+        print(f"수집 완료: {tot}개 후보 출처 / {len(out)}명 → {a.harvest_only}")
+        return
+    if a.apply_verified:
+        import json
+        verified = json.load(open(a.apply_verified, encoding="utf-8"))
+        applied, touched = 0, []
+        for v in verified:
+            f, d, ko = find_person(v["id"])
+            if not d:
+                print(f"  인물 못 찾음: {v['id']}", file=sys.stderr)
+                continue
+            existing = {(s.get("url") if isinstance(s, dict) else s) for s in (d.get("sources") or [])}
+            add = []
+            for c in v.get("approved", []):
+                if c["url"] in existing:
+                    continue
+                # helper 필드(snippet/domain) 제거 — sources[]엔 스키마 필드만
+                add.append({"url": c["url"], "name_used": c["name_used"],
+                            "note": c.get("note", ""), "accessed": c.get("accessed", TODAY)})
+                existing.add(c["url"])
+            if add:
+                d.setdefault("sources", []).extend(add)
+                with open(f, "w", encoding="utf-8") as fh:
+                    fh.write(yaml.safe_dump(d, allow_unicode=True, sort_keys=False))
+                applied += len(add)
+                touched.append(f"{ko} +{len(add)}")
+                print(f"  [{v['id']}] {ko} — {len(add)}개 추가: " +
+                      ", ".join(f"{c['name_used']}" for c in add))
+        print(f"\n적용 완료: {applied}개 출처 / {len(touched)}명")
+        if applied:
+            rc = subprocess.call([sys.executable, os.path.join(REPO, "scripts", "build.py")])
+            print(f"build rc={rc}")
+        return
     total = sum(enrich(k, a.apply, a.max) for k in keys)
     print(f"\n총 추가 출처 {total}개")
     if a.apply and total:

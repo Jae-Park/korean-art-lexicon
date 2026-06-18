@@ -16,4 +16,8 @@ sources:
 - url: https://www.arko.or.kr/biennale/content/643
   name_used: 박세진
   note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://sema.seoul.go.kr/kr/knowledge_research/collection/collection_detail?artSeq=WORK_0000002827
+  name_used: 박세진
+  note: sema.seoul.go.kr — 박세진 참조
+  accessed: '2026-06-16'
 status: reviewed

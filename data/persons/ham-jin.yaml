@@ -16,4 +16,16 @@ sources:
 - url: https://www.arko.or.kr/biennale/content/643
   name_used: 함진
   note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.daarts.or.kr/visual/artist/1479
+  name_used: Ham Jin
+  note: daarts.or.kr — 함진 참조
+  accessed: '2026-06-16'
+- url: https://news.suwon.go.kr/_Ext/news/viewPrint.php?reqIdx=202604270834135958
+  name_used: 함진
+  note: news.suwon.go.kr — 함진 참조
+  accessed: '2026-06-16'
+- url: https://www.mcst.go.kr/usr/child/enter/culture/cultureView.jsp?pSeq=69033
+  name_used: 함진
+  note: mcst.go.kr — 함진 참조
+  accessed: '2026-06-16'
 status: reviewed

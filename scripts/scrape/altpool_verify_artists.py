@@ -54,8 +54,12 @@ def main():
     a = ap.parse_args()
     os.makedirs(BATCH_DIR, exist_ok=True)
 
-    names = [n.strip() for n in open(a.names, encoding="utf-8") if n.strip()]
-    print(f"작가 {len(names)}명 → 배치 {a.batch}", flush=True)
+    all_names = [n.strip() for n in open(a.names, encoding="utf-8") if n.strip()]
+    # 재개: 이미 판정된 이름은 건너뛰고 누락분만 처리 → 기존과 병합
+    existing = json.load(open(OUT, encoding="utf-8")) if os.path.exists(OUT) else []
+    verified = {x["name"] for x in existing if isinstance(x, dict) and x.get("verdict")}
+    names = [n for n in all_names if n not in verified]
+    print(f"전체 {len(all_names)} | 기판정 {len(verified)} | 이번 {len(names)} → 배치 {a.batch}", flush=True)
     batches = [names[i:i + a.batch] for i in range(0, len(names), a.batch)]
     paths = []
     for i, b in enumerate(batches):
@@ -74,12 +78,12 @@ def main():
             n = sum(len(r) for r in results if r)
             print(f"  배치 {done}/{len(paths)} | 누적 판정 {n}", flush=True)
 
-    merged = []
+    merged = list(existing)  # 기존 판정 유지 + 이번 신규 병합
     for r in results:
         merged.extend(r or [])
     json.dump(merged, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     from collections import Counter
-    print(f"완료: {len(merged)} 판정 → {OUT}", flush=True)
+    print(f"완료: 누적 {len(merged)} 판정 → {OUT}", flush=True)
     print("verdict:", dict(Counter(x.get("verdict") for x in merged)), flush=True)
 
 

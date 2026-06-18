@@ -26,4 +26,12 @@ sources:
   name_used: Hyungkoo Lee
   note: Artist official website
   accessed: '2026-03-30'
+- url: https://sema.seoul.go.kr/semaaa/front/book/view.do?bkId=2807
+  name_used: 이형구
+  note: sema.seoul.go.kr — 이형구 참조
+  accessed: '2026-06-16'
+- url: https://art.busan.go.kr/tblTsite07Display/viewPastClient.nm?id=20220321133840633
+  name_used: 이형구
+  note: art.busan.go.kr — 이형구 참조
+  accessed: '2026-06-16'
 status: reviewed

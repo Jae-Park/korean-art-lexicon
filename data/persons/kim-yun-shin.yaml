@@ -11,19 +11,24 @@ name:
 birth_year: 1935
 nationality: KR
 role:
-  - aat: '300025103'
+- aat: '300025103'
 sources:
-  - url: https://www.kukjegallery.com/artists/view?seq=428
-    name_used: Kim Yun Shin
-    note: Kukje Gallery artist page
-    accessed: '2026-04-02'
-  - url: https://www.kukjegallery.com/exhibitions/view?seq=268
-    name_used: 김윤신
-    note: Kukje Gallery solo exhibition page with Korean biography
-    accessed: '2026-04-02'
-  - url: https://www.lehmannmaupin.com/artists/kim-yun-shin
-    name_used: Kim Yun Shin
-    note: Lehmann Maupin artist page
-    accessed: '2026-04-02'
+- url: https://www.kukjegallery.com/artists/view?seq=428
+  name_used: Kim Yun Shin
+  note: Kukje Gallery artist page
+  accessed: '2026-04-02'
+- url: https://www.kukjegallery.com/exhibitions/view?seq=268
+  name_used: 김윤신
+  note: Kukje Gallery solo exhibition page with Korean biography
+  accessed: '2026-04-02'
+- url: https://www.lehmannmaupin.com/artists/kim-yun-shin
+  name_used: Kim Yun Shin
+  note: Lehmann Maupin artist page
+  accessed: '2026-04-02'
+- url: https://gnews.gg.go.kr/news/news_view.do?number=202604212138199760C076&s_code=C501
+  name_used: 김윤신
+  note: gnews.gg.go.kr — 김윤신 참조
+  accessed: '2026-06-16'
 status: reviewed
-notes: Korea's first-generation woman sculptor; lives and works between Argentina and Korea.
+notes: Korea's first-generation woman sculptor; lives and works between Argentina
+  and Korea.

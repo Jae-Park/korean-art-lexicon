@@ -25,4 +25,12 @@ sources:
 - url: https://www.arko.or.kr/board/view/4057?bid=557&cid=1804401
   name_used: 김윤철
   note: ARKO 공지 — 2022 베니스 한국관
+- url: https://sema.seoul.go.kr/kr/whatson/event/detail?evtNo=1251808
+  name_used: 김윤철
+  note: sema.seoul.go.kr — 김윤철 참조
+  accessed: '2026-06-16'
+- url: https://mediahub.seoul.go.kr/archives/2016939
+  name_used: 김윤철
+  note: mediahub.seoul.go.kr — 김윤철 참조
+  accessed: '2026-06-16'
 status: reviewed

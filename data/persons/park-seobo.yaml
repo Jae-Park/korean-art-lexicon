@@ -34,6 +34,10 @@ sources:
   name_used: Park Seo-Bo
   note: Park Seo-Bo Foundation official website
   accessed: '2026-03-30'
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201904040001142
+  name_used: 박서보
+  note: mmca.go.kr — 박서보 참조
+  accessed: '2026-06-16'
 status: reviewed
 external_ids:
   ulan: '500323715'

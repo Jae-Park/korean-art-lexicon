@@ -19,4 +19,8 @@ sources:
 - url: https://www.pkmgallery.com/artists/bae-young-whan/biography
   name_used: 배영환
   note: PKM Gallery 작가 약력
+- url: https://www.publicart.or.kr/name/nameView.do?menuId=31&cms_site_id=&cms_group_id=4&searchArt=all&searchKeyword=&nameId=344&pageIndex=1&searchCondition=confirm
+  name_used: 배영환
+  note: publicart.or.kr — 배영환 참조
+  accessed: '2026-06-16'
 status: reviewed

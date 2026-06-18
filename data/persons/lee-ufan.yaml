@@ -36,6 +36,14 @@ sources:
   name_used: Lee Ufan
   note: Studio Lee Ufan official website
   accessed: '2026-03-30'
+- url: https://sema.seoul.go.kr/kr/knowledge_research/collection/collection_detail?artSeq=WORK_0000001041
+  name_used: 이우환
+  note: sema.seoul.go.kr — 이우환 참조
+  accessed: '2026-06-16'
+- url: https://art.busan.go.kr/tblTsite07Display/viewNowClient.nm?id=20220705102521917
+  name_used: 이우환
+  note: art.busan.go.kr — 이우환 참조
+  accessed: '2026-06-16'
 status: reviewed
 external_ids:
   ulan: '500061220'

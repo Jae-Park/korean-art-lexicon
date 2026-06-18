@@ -29,10 +29,6 @@ sources:
   name_used: Kim Eun-Ho
   note: Artnet
   accessed: '2026-06-12'
-- url: https://www.mmcaresearch.kr/terms/view.do?fid=1334
-  name_used: Kim Eunho
-  note: MMCA 연구 — 붙여쓰기 변이
-  accessed: '2026-06-12'
 - url: https://en.wikipedia.org/wiki/Kim_Ki-chang
   name_used: Kim Eun-ho
   note: Wikipedia article on Kim Ki-chang, identifying Kim Eun-ho as his teacher.
@@ -64,4 +60,12 @@ sources:
   name_used: 김은호
   note: '국내 출처: 김은호 아들 “어진화사였던 부친, 김홍도 화첩으로 후학 가르쳐”'
   accessed: '2026-06-12'
+- url: https://namgaram.or.kr/artist/%EC%9D%B4%EB%8B%B9-%EA%B9%80%EC%9D%80%ED%98%B8-%E4%BB%A5%E5%A0%82-%EF%A4%8A%E6%AE%B7%E9%8E%AC/
+  name_used: 김은호
+  note: namgaram.or.kr — 김은호 참조
+  accessed: '2026-06-16'
+- url: https://contents.history.go.kr/front/km/view.do?levelId=km_021_0060_0020_0020_0030
+  name_used: 김은호
+  note: contents.history.go.kr — 김은호 참조
+  accessed: '2026-06-16'
 status: reviewed

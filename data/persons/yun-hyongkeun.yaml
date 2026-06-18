@@ -17,4 +17,12 @@ sources:
 - url: https://www.arko.or.kr/biennale/content/643
   name_used: 윤형근
   note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000998
+  name_used: 윤형근
+  note: mmca.go.kr — 윤형근 참조
+  accessed: '2026-06-16'
+- url: https://gwangyang.go.kr/tour/board.es?mid=a30601000000&bid=0044&act=view&list_no=188502
+  name_used: 윤형근
+  note: gwangyang.go.kr — 윤형근 참조
+  accessed: '2026-06-16'
 status: reviewed

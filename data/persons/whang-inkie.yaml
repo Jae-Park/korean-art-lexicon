@@ -16,4 +16,16 @@ sources:
 - url: https://www.arko.or.kr/biennale/content/643
   name_used: 황인기
   note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://sema.seoul.go.kr/kr/knowledge_research/collection/collection_detail?artSeq=WORK_0000004376
+  name_used: 황인기
+  note: sema.seoul.go.kr — 황인기 참조
+  accessed: '2026-06-16'
+- url: https://www.cbmuseum.or.kr/bbs/board.php?bo_table=cbms05_01_dev&wr_id=21
+  name_used: 황인기
+  note: cbmuseum.or.kr — 황인기 참조
+  accessed: '2026-06-16'
+- url: https://www.chungju.go.kr/www/selectBbsNttView.do?key=494&bbsNo=6&nttNo=307914
+  name_used: 황인기
+  note: chungju.go.kr — 황인기 참조
+  accessed: '2026-06-16'
 status: reviewed

@@ -16,4 +16,12 @@ sources:
 - url: https://www.arko.or.kr/biennale/content/643
   name_used: 김인겸
   note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://sema.seoul.go.kr/kr/knowledge_research/collection/collection_detail?artSeq=WORK_0000001854
+  name_used: 김인겸
+  note: sema.seoul.go.kr — 김인겸 참조
+  accessed: '2026-06-16'
+- url: https://suma.suwon.go.kr/exhi/past_view.do?ge_idx=15
+  name_used: 김인겸
+  note: suma.suwon.go.kr — 김인겸 참조
+  accessed: '2026-06-16'
 status: reviewed

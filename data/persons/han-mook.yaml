@@ -48,4 +48,16 @@ sources:
 
     www.yna.co.kr›연합뉴스›최신뉴스'
   accessed: '2026-06-12'
+- url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5266
+  name_used: 한묵
+  note: mmca.go.kr — 한묵 참조
+  accessed: '2026-06-16'
+- url: https://sema.seoul.go.kr/semaaa/front/book/view.do?bkId=2854
+  name_used: 한묵
+  note: sema.seoul.go.kr — 한묵 참조
+  accessed: '2026-06-16'
+- url: https://museum.or.kr/museums_news/?mod=document&uid=6403
+  name_used: 한묵
+  note: museum.or.kr — 한묵 참조
+  accessed: '2026-06-16'
 status: reviewed

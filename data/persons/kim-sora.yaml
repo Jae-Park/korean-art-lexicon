@@ -16,4 +16,12 @@ sources:
 - url: https://www.arko.or.kr/biennale/content/643
   name_used: 김소라
   note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://www.artistcenter.or.kr/pg/bbs/board.php?bo_table=artist01&wr_id=91
+  name_used: 김소라
+  note: artistcenter.or.kr — 김소라 참조
+  accessed: '2026-06-16'
+- url: https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=1521250
+  name_used: 김소라
+  note: sema.seoul.go.kr — 김소라 참조
+  accessed: '2026-06-16'
 status: reviewed

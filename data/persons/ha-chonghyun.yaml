@@ -23,6 +23,10 @@ sources:
 - url: https://www.moma.org/artists/47861
   name_used: Ha Chong-Hyun
   note: MoMA artist page
+- url: https://sema.seoul.go.kr/kr/knowledge_research/collection/collection_detail?artSeq=WORK_0000000032
+  name_used: 하종현
+  note: sema.seoul.go.kr — 하종현 참조
+  accessed: '2026-06-16'
 status: reviewed
 external_ids:
   ulan: '500373076'

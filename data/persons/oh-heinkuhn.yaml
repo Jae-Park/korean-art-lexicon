@@ -23,4 +23,16 @@ sources:
   name_used: HEINKUHN OH
   note: Artist official website
   accessed: '2026-03-30'
+- url: https://www.daljin.com/?WS=21&BC=gdv&GNO=E01243
+  name_used: 오형근
+  note: daljin.com — 오형근 참조
+  accessed: '2026-06-16'
+- url: https://museum.or.kr/museums_news/?mod=document&uid=6645
+  name_used: 오형근
+  note: museum.or.kr — 오형근 참조
+  accessed: '2026-06-16'
+- url: https://www.culture.go.kr/portal/cltKnw/artCont/view.do?menuNo=200022&knwldgSn=2022&knwldgClsfCd=D171
+  name_used: 오형근
+  note: culture.go.kr — 오형근 참조
+  accessed: '2026-06-16'
 status: reviewed

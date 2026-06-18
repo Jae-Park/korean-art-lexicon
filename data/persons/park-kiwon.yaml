@@ -19,4 +19,8 @@ sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201003170002817
   name_used: 박기원
   note: MMCA 올해의 작가 2010
+- url: https://www.daljin.com/?WS=21&BC=gdv&GNO=E38780
+  name_used: 박기원
+  note: daljin.com — 박기원 참조
+  accessed: '2026-06-16'
 status: reviewed

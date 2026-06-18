@@ -16,4 +16,12 @@ sources:
 - url: https://www.arko.or.kr/biennale/content/643
   name_used: 이형우
   note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+- url: https://artmuse.gwangju.go.kr/pj/pjExhibit.php?pageID=hajungwoong0103000000&action=detail&seq=1835
+  name_used: 이형우
+  note: artmuse.gwangju.go.kr — 이형우 참조
+  accessed: '2026-06-16'
+- url: https://artmuseum.jeonnam.go.kr/www/21?artworkSeq=2888
+  name_used: 이형우
+  note: artmuseum.jeonnam.go.kr — 이형우 참조
+  accessed: '2026-06-16'
 status: reviewed

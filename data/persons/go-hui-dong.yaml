@@ -63,4 +63,16 @@ sources:
   note: MMCA 영문 소장품 페이지(기관 1차 출처). 하이픈 없는 'Huidong' 변이(기존 'Hui-dong'과 구별). MMCA 원문은
     성 대문자 'KO Huidong'으로 표기.
   accessed: '2026-06-12'
+- url: https://www.jfac.or.kr/site/main/content/gohd01
+  name_used: 고희동
+  note: jfac.or.kr — 고희동 참조
+  accessed: '2026-06-16'
+- url: https://contents.history.go.kr/front/km/view.do?levelId=km_021_0040_0030_0010
+  name_used: 고희동
+  note: contents.history.go.kr — 고희동 참조
+  accessed: '2026-06-16'
+- url: https://www.culture.go.kr/portal/cltKnw/artCont/view.do?menuNo=200022&knwldgSn=7393&knwldgClsfCd=D012
+  name_used: 고희동
+  note: culture.go.kr — 고희동 참조
+  accessed: '2026-06-16'
 status: reviewed
