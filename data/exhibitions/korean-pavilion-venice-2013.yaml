@@ -2,6 +2,8 @@ id: exhibition.korean-pavilion-venice-2013
 title:
   ko: 호흡:보따리
   en: 'To Breathe: Bottari'
+type:
+  aat: '300266309'
 dates:
   start: '2013-06-01'
   end: '2013-11-24'

@@ -3,3 +3,4 @@ node_modules/
 *.log
 .env
 crawl-archive/
+__pycache__/

@@ -16,7 +16,7 @@ term:
   - form: People's Art
     lang: en
     script: Latn
-    type: literal
+    type: alternate
     source: Tate (art-terms/m/minjung-art)
     accessed: '2026-04-01'
 category:

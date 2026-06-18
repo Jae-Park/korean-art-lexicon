@@ -2,6 +2,8 @@ id: exhibition.korean-pavilion-venice-2017
 title:
   ko: 카운터밸런스
   en: 'Counterbalance: The Stone and the Mountain'
+type:
+  aat: '300266309'
 dates:
   start: '2017-05-13'
   end: '2017-11-26'

@@ -2,6 +2,8 @@ id: exhibition.korean-pavilion-venice-2001
 title:
   ko: 제49회 베니스 비엔날레 한국관
   en: "Korean Pavilion, the 49th Venice Biennale"
+type:
+  aat: '300266309'
 dates:
   start: '2001-06-10'
   end: '2001-11-04'

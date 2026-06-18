@@ -3,7 +3,10 @@ title:
   ko: 오도라마 시티
   en: ODORAMA CITIES
   variants:
-  - Odorama Cities
+  - form: Odorama Cities
+    lang: en
+    script: Latn
+    type: alternate
 venue: Korean Pavilion, Giardini
 city: Venice
 country: IT

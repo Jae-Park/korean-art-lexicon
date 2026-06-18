@@ -2,6 +2,8 @@ id: exhibition.korean-pavilion-venice-2022
 title:
   ko: 나선
   en: Gyre
+type:
+  aat: '300266309'
 dates:
   start: '2022-04-23'
   end: '2022-11-27'

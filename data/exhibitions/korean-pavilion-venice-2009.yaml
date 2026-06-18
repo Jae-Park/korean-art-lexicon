@@ -2,6 +2,8 @@ id: exhibition.korean-pavilion-venice-2009
 title:
   ko: 응결
   en: Condensation
+type:
+  aat: '300266309'
 dates:
   start: '2009-06-07'
   end: '2009-11-22'
