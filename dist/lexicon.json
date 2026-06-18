@@ -40,7 +40,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.ahn-soyeon",
@@ -167,7 +167,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.bae-youngwhan",
@@ -208,7 +208,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.bahc-yiso",
@@ -257,7 +257,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.bart-lodewijks",
@@ -301,7 +301,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "person.batia-suter",
@@ -351,7 +351,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.chae-yong-shin",
@@ -439,7 +439,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.chen-dai-goang",
@@ -501,7 +501,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.choe-uram",
@@ -552,7 +552,7 @@
       "external_ids": {
         "wikidata": "Q7862919"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.choi-cody",
@@ -587,7 +587,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.choi-jeonghwa",
@@ -640,7 +640,7 @@
         "ulan": "500125325",
         "wikidata": "Q28793925"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.chun-hyuck-lim",
@@ -692,7 +692,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.chung-seoyoung",
@@ -728,7 +728,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.gimhongsok",
@@ -770,7 +770,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.go-hui-dong",
@@ -879,7 +879,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.ha-chonghyun",
@@ -930,7 +930,7 @@
         "ulan": "500373076",
         "wikidata": "Q23068024"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.ham-jin",
@@ -978,7 +978,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.han-mook",
@@ -1066,7 +1066,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.hong-soun",
@@ -1134,7 +1134,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "person.im-heungsoon",
@@ -1191,7 +1191,7 @@
       "external_ids": {
         "wikidata": "Q19896697"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.jacob-fabricius",
@@ -1222,6 +1222,35 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-06-19"
+    },
+    {
+      "id": "person.jade-keunhye-lim",
+      "name": {
+        "ko": {
+          "full": "임근혜",
+          "family": "임",
+          "given": "근혜"
+        },
+        "latn": {
+          "preferred": "Jade Keunhye Lim",
+          "family": "Lim",
+          "given": "Jade Keunhye"
+        }
+      },
+      "role": [
+        {
+          "aat": "300025633"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.venicebiennale.kr/en/about",
+          "name_used": "Jade Keunhye Lim",
+          "note": "베니스비엔날레 한국관 30주년 특별전 《모든 섬은 산이다》 예술감독(Artistic Director) — 한국문화예술위원회",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.jeon-joonho",
@@ -1260,7 +1289,7 @@
         "ulan": "500684635",
         "wikidata": "Q20010723"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.jheon-soocheon",
@@ -1303,7 +1332,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.jo-seok-jin",
@@ -1400,7 +1429,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.joo-eungie",
@@ -1455,7 +1484,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-14"
     },
     {
       "id": "person.jung-eunyoung",
@@ -1507,7 +1536,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.jung-yeondoo",
@@ -1565,7 +1594,7 @@
         "ulan": "500474551",
         "wikidata": "Q1376674"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.kaisen-janejin",
@@ -1612,7 +1641,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.kang-ikjoong",
@@ -1654,7 +1683,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.kim-beom",
@@ -1690,7 +1719,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.kim-eun-ho",
@@ -1787,7 +1816,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.kim-honghee",
@@ -1889,7 +1918,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.kim-namsoo",
@@ -1963,7 +1992,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.kim-seungduk",
@@ -2057,7 +2086,7 @@
         "ulan": "500125591",
         "wikidata": "Q4220699"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.kim-sora",
@@ -2099,7 +2128,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.kim-sunjung",
@@ -2226,7 +2255,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "person.kim-yun-shin",
@@ -2277,7 +2306,7 @@
       ],
       "status": "reviewed",
       "notes": "Korea's first-generation woman sculptor; lives and works between Argentina and Korea.",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.kim-yunchul",
@@ -2334,7 +2363,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.koo-jeonga",
@@ -2390,7 +2419,7 @@
         "ulan": "500294101",
         "wikidata": "Q16844597"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.kwak-hoon",
@@ -2432,7 +2461,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.lee-bul",
@@ -2500,7 +2529,7 @@
         "ulan": "500125877",
         "wikidata": "Q487546"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.lee-daehyung",
@@ -2614,7 +2643,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.lee-hyungkoo",
@@ -2672,7 +2701,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.lee-hyungwoo",
@@ -2714,7 +2743,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.lee-il",
@@ -2856,7 +2885,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.lee-seolhui",
@@ -2994,7 +3023,7 @@
         "ulan": "500061220",
         "wikidata": "Q399775"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.lee-wan",
@@ -3041,7 +3070,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.lee-yongbaek",
@@ -3076,7 +3105,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.lee-youngchul",
@@ -3150,7 +3179,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "person.mark-manders",
@@ -3200,7 +3229,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.moon-kyungwon",
@@ -3250,7 +3279,7 @@
       "external_ids": {
         "wikidata": "Q20010749"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.moon-sungsic",
@@ -3291,7 +3320,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.nakion",
@@ -3341,7 +3370,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.nam-hwayeon",
@@ -3381,7 +3410,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.nam-june-paik",
@@ -3469,7 +3498,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.noh-sangkyoon",
@@ -3511,7 +3540,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.oh-heinkuhn",
@@ -3570,7 +3599,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.oh-kwangsu",
@@ -3633,7 +3662,7 @@
       "external_ids": {
         "wikidata": "Q109354786"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "person.park-junebum",
@@ -3707,7 +3736,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.park-kiwon",
@@ -3748,7 +3777,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.park-kyungmee",
@@ -3814,7 +3843,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.park-seobo",
@@ -3882,7 +3911,7 @@
         "ulan": "500323715",
         "wikidata": "Q4984536"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.park-soo-keun",
@@ -3985,7 +4014,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.rhii-jewyo",
@@ -4021,7 +4050,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.roger-willems",
@@ -4065,7 +4094,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "person.song-misook",
@@ -4131,7 +4160,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.sung-nakhee",
@@ -4162,7 +4191,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-14"
     },
     {
       "id": "person.whang-inkie",
@@ -4210,7 +4239,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.yang-haegue",
@@ -4272,7 +4301,7 @@
         "ulan": "500355927",
         "wikidata": "Q1567689"
       },
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.yoo-youngkuk",
@@ -4349,7 +4378,7 @@
       ],
       "status": "reviewed",
       "notes": "Pioneer of Korean abstract painting; also seen as Yoo Young-kuk in English-language publications.",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "person.yun-cheagab",
@@ -4422,7 +4451,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     }
   ],
   "exhibitions": [
@@ -4457,7 +4486,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "exhibition.artists-documents",
@@ -4490,7 +4519,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "exhibition.civilization-how-we-live",
@@ -4547,7 +4576,83 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
+    },
+    {
+      "id": "exhibition.every-island-is-a-mountain-2024",
+      "title": {
+        "ko": "모든 섬은 산이다",
+        "en": "Every Island is a Mountain"
+      },
+      "type": {
+        "aat": "300449166"
+      },
+      "venue": "Palazzo Malta – Ordine di Malta",
+      "city": "Venice",
+      "country": "IT",
+      "dates": {
+        "start": "2024-04-19",
+        "end": "2024-09-08"
+      },
+      "organizer": "Arts Council Korea",
+      "curators": [
+        "person.jade-keunhye-lim"
+      ],
+      "participants": [
+        "person.lee-wan",
+        "person.kim-inkyum",
+        "person.jheon-soocheon",
+        "person.yun-hyongkeun",
+        "person.bahc-yiso",
+        "person.jung-eunyoung",
+        "person.sung-nakhee",
+        "person.kim-sora",
+        "person.park-sejin",
+        "person.lee-yongbaek",
+        "person.noh-sangkyoon",
+        "person.rhii-jewyo",
+        "person.ham-jin",
+        "person.kim-beom",
+        "person.moon-sungsic",
+        "person.kaisen-janejin",
+        "person.gimhongsok",
+        "person.kim-yunchul",
+        "person.park-kiwon",
+        "person.jung-yeondoo",
+        "person.bae-youngwhan",
+        "person.oh-heinkuhn",
+        "person.nakion",
+        "person.moon-kyungwon",
+        "person.jeon-joonho",
+        "person.choi-cody",
+        "person.lee-hyungkoo",
+        "person.suh-doho",
+        "person.lee-hyungwoo",
+        "person.kim-sooja",
+        "person.whang-inkie",
+        "person.joo-michael",
+        "person.nam-hwayeon",
+        "person.chung-seoyoung",
+        "person.kang-ikjoong",
+        "person.choi-jeonghwa",
+        "person.kwak-hoon"
+      ],
+      "sources": [
+        {
+          "url": "https://www.venicebiennale.kr/en/about",
+          "name_used": "Every Island is a Mountain",
+          "note": "베니스비엔날레 한국관 개관 30주년 특별전(예술감독 임근혜), 역대 베니스 참여작가 36인 — 한국문화예술위원회 주최, 팔라초 말타",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://www.venicebiennale.kr/list",
+          "name_used": "모든 섬은 산이다",
+          "note": "참여작가 명단(연보/이름) — 37 person 참조 = 36 작가(문경원 & 전준호 듀오 포함). 성낙영=나키온(person.nakion).",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed",
+      "notes": "베니스비엔날레 한국관 개관 30주년 기념 특별전(2024, 팔라초 말타). 역대 한국 참여작가 36인."
     },
     {
       "id": "exhibition.korean-pavilion-venice-1995",
@@ -5279,7 +5384,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-11"
     },
     {
       "id": "exhibition.mmca-fissure-2",
@@ -5324,7 +5429,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "exhibition.mmca-hyundai-2014",
@@ -5357,7 +5462,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2015",
@@ -5395,7 +5500,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2016",
@@ -5428,7 +5533,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2017",
@@ -5466,7 +5571,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2018",
@@ -5504,7 +5609,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2019",
@@ -5537,7 +5642,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2020",
@@ -5570,7 +5675,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2021",
@@ -5609,7 +5714,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2022",
@@ -5642,7 +5747,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.mmca-hyundai-2023",
@@ -5680,7 +5785,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "exhibition.museum-i-loved-modern",
@@ -5725,7 +5830,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "exhibition.yun-hyong-keun-2018",
@@ -5788,7 +5893,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     }
   ],
   "organizations": [
@@ -5872,7 +5977,7 @@
       ],
       "status": "reviewed",
       "notes": "한국문화예술위원회(Arts Council Korea) 산하 공공미술관. 서울 대학로 소재. 1974년 종로구 관훈동 미술회관으로 개관 → 1979년 김수근 설계 동숭동 마로니에 공원 건물 이전 → 2002년 마로니에미술관 → 2005년 현 명칭. 50년간 약 2,000회 전시 개최.",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.art-sonje-center",
@@ -5928,7 +6033,7 @@
       ],
       "status": "reviewed",
       "notes": "사립 현대미술관. 종로구 소재. 국제 현대미술 전시·퍼포먼스·교육 중심. 김종성 설계 건물.",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.busan-biennale",
@@ -5995,7 +6100,7 @@
       ],
       "status": "reviewed",
       "notes": "사단법인. 부산비엔날레 행사(1998 출범)를 운영하는 법인은 1999년 설립. 광주비엔날레재단(재단법인)과 달리 사단법인 형태. 공식 사이트(busanbiennale.org) SSL 오류로 직접 접근 불가.",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.gwangju-biennale",
@@ -6063,7 +6168,7 @@
       ],
       "status": "reviewed",
       "notes": "아시아 최초·최대 규모 국제현대미술비엔날레. 1980년 5·18민주화운동을 기념하여 설립. 광주비엔날레재단이 운영하며 광주디자인비엔날레도 관할. 주소: 61104 광주광역시 북구 비엔날레로 111. type.aat는 기관 유형(art foundation 등)으로 재검토 필요 — 현재 biennial(300266309) 사용 중.",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.gyeonggi-creation-center",
@@ -6095,7 +6200,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "org.kukje-gallery",
@@ -6130,7 +6235,7 @@
       ],
       "status": "reviewed",
       "notes": "1982년 이현숙 설립, 인사동 → 1987년 소격동(삼청로) 이전. 부산 F1963 분관 운영 중. type.aat 300417122(art galleries, commercial) 검증 필요.",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.mmca-cheongju",
@@ -6177,7 +6282,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "org.mmca-deoksugung",
@@ -6224,7 +6329,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "org.mmca-gwacheon",
@@ -6289,7 +6394,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "org.mmca-seoul",
@@ -6336,7 +6441,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-12"
     },
     {
       "id": "org.mmca",
@@ -6384,7 +6489,7 @@
       ],
       "status": "reviewed",
       "notes": "National public museum founded in 1969. Main sites now include Gwacheon, Deoksugung, Seoul, and Cheongju.",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.sema",
@@ -6441,7 +6546,7 @@
       ],
       "status": "reviewed",
       "notes": "서울특별시 운영 공립미술관. 서소문 본관 외 북서울·남서울·서울(신미디어)·사진·아카이브 등 분관 다수. 컬렉션 6,310점.",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-04-02"
     },
     {
       "id": "org.takeout-drawing",
@@ -6478,7 +6583,7 @@
       ],
       "status": "pending_review",
       "notes": "Representative sinseang gonggan, founded by artists",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     }
   ],
   "terms": [
@@ -6533,7 +6638,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "term.dansaekhwa",
@@ -6598,7 +6703,7 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     },
     {
       "id": "term.minjung-misul",
@@ -6661,7 +6766,7 @@
       ],
       "status": "reviewed",
       "notes": "운동 종료 시점은 1990년대 초로 기술되나 정확한 연도 미확인 — period.end 미입력.",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-06-18"
     },
     {
       "id": "term.sinseang-gonggan",
@@ -6717,8 +6822,35 @@
         }
       ],
       "status": "reviewed",
-      "_last_updated": "2026-06-19"
+      "_last_updated": "2026-03-31"
     }
   ],
-  "publications": []
+  "publications": [
+    {
+      "id": "publication.the-last-pavilion",
+      "title": {
+        "ko": "마지막 국가관",
+        "en": "The Last Pavilion"
+      },
+      "type": {
+        "aat": "300060417"
+      },
+      "publisher": "한국문화예술위원회",
+      "year": 2024,
+      "isbn": "978-89-6583-123-5",
+      "language": [
+        "ko"
+      ],
+      "sources": [
+        {
+          "url": "https://www.venicebiennale.kr/static/source/archive-book-kr.pdf",
+          "name_used": "마지막 국가관",
+          "note": "베니스비엔날레 한국관 30주년 아카이브 발간물(The Archival Publication of the Korean Pavilion at the Venice Biennale, 1995–2024), 325쪽, 비매품. 발행 한국문화예술위원회(위원장 정병국), 자료제공 아르코예술기록원, 총괄편집 호경윤. 발행일 2024-04-18.",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed",
+      "notes": "베니스비엔날레 한국관 1995–2024 아카이브 발간물. 30주년 특별전 《모든 섬은 산이다》와 연계 발행."
+    }
+  ]
 }

@@ -1,0 +1,18 @@
+id: person.jade-keunhye-lim
+name:
+  ko:
+    full: 임근혜
+    family: 임
+    given: 근혜
+  latn:
+    preferred: Jade Keunhye Lim
+    family: Lim
+    given: Jade Keunhye
+role:
+- aat: '300025633'
+sources:
+- url: https://www.venicebiennale.kr/en/about
+  name_used: Jade Keunhye Lim
+  note: 베니스비엔날레 한국관 30주년 특별전 《모든 섬은 산이다》 예술감독(Artistic Director) — 한국문화예술위원회
+  accessed: '2026-06-19'
+status: reviewed
