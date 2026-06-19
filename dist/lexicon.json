@@ -1723,6 +1723,41 @@
       "_last_updated": "2026-06-19"
     },
     {
+      "id": "person.kang-soojung",
+      "name": {
+        "ko": {
+          "full": "강수정",
+          "family": "강",
+          "given": "수정"
+        },
+        "latn": {
+          "preferred": "Kang Soojung",
+          "family": "Kang",
+          "given": "Soojung"
+        }
+      },
+      "role": [
+        {
+          "aat": "300025633"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.guggenheim.org/exhibition/experimental-art-in-korea-1960s-70s",
+          "name_used": "Kang Soojung",
+          "note": "국립현대미술관 학예연구관 — 《한국 실험미술 1960-70년대》(2023) 공동 큐레이터",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://woodplanet.co.kr/news/view/1065586225444446",
+          "name_used": "강수정",
+          "note": "우드플래닛 — 국립현대미술관/구겐하임 공동기획 《한국 실험미술 1960-70년대》(2023), 공동 큐레이터 강수정, 안휘경",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "person.kim-beom",
       "name": {
         "ko": {
@@ -2572,6 +2607,41 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-06-19"
+    },
+    {
+      "id": "person.kyung-an",
+      "name": {
+        "ko": {
+          "full": "안휘경",
+          "family": "안",
+          "given": "휘경"
+        },
+        "latn": {
+          "preferred": "Kyung An",
+          "family": "An",
+          "given": "Kyung"
+        }
+      },
+      "role": [
+        {
+          "aat": "300025633"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.guggenheim.org/exhibition/experimental-art-in-korea-1960s-70s",
+          "name_used": "Kyung An",
+          "note": "솔로몬 R. 구겐하임미술관 아시아미술 큐레이터 — 《한국 실험미술 1960-70년대》(2023) 공동 큐레이터",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://woodplanet.co.kr/news/view/1065586225444446",
+          "name_used": "안휘경",
+          "note": "우드플래닛 — 국립현대미술관/구겐하임 공동기획 《한국 실험미술 1960-70년대》(2023), 공동 큐레이터 강수정, 안휘경",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.lee-bul",
@@ -6089,6 +6159,65 @@
       "_last_updated": "2026-06-19"
     },
     {
+      "id": "exhibition.only-the-young-2023",
+      "title": {
+        "ko": "한국 실험미술 1960-70년대",
+        "en": "Only the Young: Experimental Art in Korea, 1960s–1970s"
+      },
+      "type": {
+        "aat": "300449166"
+      },
+      "venue": "MMCA Seoul",
+      "city": "Seoul",
+      "country": "KR",
+      "dates": {
+        "start": "2023-05-26",
+        "end": "2023-07-16"
+      },
+      "organizer": "National Museum of Modern and Contemporary Art, Korea / Solomon R. Guggenheim Museum",
+      "curators": [
+        "person.kang-soojung",
+        "person.kyung-an"
+      ],
+      "participants": [
+        "person.kim-kulim",
+        "person.lee-kunyong",
+        "person.lee-kangso",
+        "person.sung-neungkyung"
+      ],
+      "related": [
+        "term.experimental-art"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202305190001653",
+          "name_used": "한국 실험미술 1960-70년대",
+          "note": "국립현대미술관 — 구겐하임 공동기획",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://www.guggenheim.org/exhibition/experimental-art-in-korea-1960s-70s",
+          "name_used": "Only the Young: Experimental Art in Korea, 1960s–1970s",
+          "note": "구겐하임 — MMCA 서울 이후 순회(2023-09-01~2024-01-07)",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://www.e-flux.com/announcements/541387/only-the-young-experimental-art-in-korea-1960s-1970s",
+          "name_used": "Only the Young",
+          "note": "e-flux 공지 — 공동 큐레이터 Kang Soojung, Kyung An",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://woodplanet.co.kr/news/view/1065586225444446",
+          "name_used": "한국 실험미술 1960-70년대",
+          "note": "우드플래닛 — 국립현대미술관/구겐하임 공동기획 《한국 실험미술 1960-70년대》(2023), 공동 큐레이터 강수정, 안휘경",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed",
+      "notes": "국립현대미술관·구겐하임 공동기획 순회전(서울 2023 → 구겐하임 뉴욕 2023-24 → 해머미술관 LA 2024). 한국 실험미술을 다룬 첫 북미 미술관 전시. 참여작가는 어휘집 등재분 4명만 연결(실제 약 29명)."
+    },
+    {
       "id": "exhibition.yun-hyong-keun-2018",
       "title": {
         "ko": "윤형근",
@@ -6191,7 +6320,8 @@
         }
       ],
       "status": "reviewed",
-      "notes": "1999년 2월 홍대 앞 개관. 한국 1세대 대안공간."
+      "notes": "1999년 2월 홍대 앞 개관. 한국 1세대 대안공간.",
+      "_last_updated": "2026-06-19"
     },
     {
       "id": "org.arko-art-center",
@@ -6384,7 +6514,8 @@
         }
       ],
       "status": "reviewed",
-      "notes": "1999년 2월 미술인 공동발의로 설립, 4월 관훈동 개관. 대안공간 풀에서 2010년 아트스페이스 풀로 개칭."
+      "notes": "1999년 2월 미술인 공동발의로 설립, 4월 관훈동 개관. 대안공간 풀에서 2010년 아트스페이스 풀로 개칭.",
+      "_last_updated": "2026-06-19"
     },
     {
       "id": "org.busan-biennale",
@@ -6935,7 +7066,8 @@
         }
       ],
       "status": "reviewed",
-      "notes": "쌈지(패션기업)의 문화예술 지원 사업. 1998 암사동 스튜디오에서 2000 홍대 이전, 2008 폐관. 작가 레지던시 프로그램 운영."
+      "notes": "쌈지(패션기업)의 문화예술 지원 사업. 1998 암사동 스튜디오에서 2000 홍대 이전, 2008 폐관. 작가 레지던시 프로그램 운영.",
+      "_last_updated": "2026-06-19"
     },
     {
       "id": "org.takeout-drawing",
@@ -7153,7 +7285,8 @@
           "accessed": "2026-06-19"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-19"
     },
     {
       "id": "term.minjung-misul",

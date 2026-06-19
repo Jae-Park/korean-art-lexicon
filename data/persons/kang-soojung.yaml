@@ -1,0 +1,22 @@
+id: person.kang-soojung
+name:
+  ko:
+    full: 강수정
+    family: 강
+    given: 수정
+  latn:
+    preferred: Kang Soojung
+    family: Kang
+    given: Soojung
+role:
+- aat: '300025633'
+sources:
+- url: https://www.guggenheim.org/exhibition/experimental-art-in-korea-1960s-70s
+  name_used: Kang Soojung
+  note: 국립현대미술관 학예연구관 — 《한국 실험미술 1960-70년대》(2023) 공동 큐레이터
+  accessed: '2026-06-19'
+- url: https://woodplanet.co.kr/news/view/1065586225444446
+  name_used: 강수정
+  note: 우드플래닛 — 국립현대미술관/구겐하임 공동기획 《한국 실험미술 1960-70년대》(2023), 공동 큐레이터 강수정, 안휘경
+  accessed: '2026-06-19'
+status: reviewed

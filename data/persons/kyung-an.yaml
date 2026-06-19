@@ -1,0 +1,22 @@
+id: person.kyung-an
+name:
+  ko:
+    full: 안휘경
+    family: 안
+    given: 휘경
+  latn:
+    preferred: Kyung An
+    family: An
+    given: Kyung
+role:
+- aat: '300025633'
+sources:
+- url: https://www.guggenheim.org/exhibition/experimental-art-in-korea-1960s-70s
+  name_used: Kyung An
+  note: 솔로몬 R. 구겐하임미술관 아시아미술 큐레이터 — 《한국 실험미술 1960-70년대》(2023) 공동 큐레이터
+  accessed: '2026-06-19'
+- url: https://woodplanet.co.kr/news/view/1065586225444446
+  name_used: 안휘경
+  note: 우드플래닛 — 국립현대미술관/구겐하임 공동기획 《한국 실험미술 1960-70년대》(2023), 공동 큐레이터 강수정, 안휘경
+  accessed: '2026-06-19'
+status: reviewed
