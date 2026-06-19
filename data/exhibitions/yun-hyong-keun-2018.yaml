@@ -11,6 +11,8 @@ dates:
   start: '2018-08-04'
   end: '2019-02-06'
 organizer: National Museum of Modern and Contemporary Art, Korea
+curators:
+- person.kim-inhye
 sources:
 - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000998
   note: MMCA 서울 / 기획전시 / 2018-08-04~2019-02-06

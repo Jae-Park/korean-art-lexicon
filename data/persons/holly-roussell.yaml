@@ -1,0 +1,22 @@
+id: person.holly-roussell
+name:
+  ko:
+    full: 홀리 루셀
+    given: 홀리
+    family: 루셀
+  latn:
+    preferred: Holly Roussell
+    given: Holly
+    family: Roussell
+role:
+- aat: '300025633'
+sources:
+- url: http://m.khan.co.kr/culture/art-architecture/article/201810311328001
+  name_used: 홀리 루셀
+  note: '국립현대미술관 《문명: 지금 우리가 사는 방법》(2018) 공동 큐레이터 — 경향신문'
+  accessed: '2026-06-19'
+- url: https://www.hollyroussell.com/civilizationucca
+  name_used: Holly Roussell
+  note: 큐레이터 본인 웹사이트 — Civilization 전시
+  accessed: '2026-06-19'
+status: reviewed

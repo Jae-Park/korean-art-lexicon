@@ -1,0 +1,22 @@
+id: person.kim-inhye
+name:
+  ko:
+    full: 김인혜
+    family: 김
+    given: 인혜
+  latn:
+    preferred: Kim Inhye
+    family: Kim
+    given: Inhye
+role:
+- aat: '300025633'
+sources:
+- url: https://ocula.com/magazine/spotlights/kim-inhye-on-yun-hyong-keuns-retrospective-at/
+  name_used: Kim Inhye
+  note: 국립현대미술관 학예연구관(근대미술팀장), 《윤형근》(2018) 회고전 큐레이터 — Ocula 스폿라이트(큐레이터 인터뷰)
+  accessed: '2026-06-19'
+- url: https://www.koreaherald.com/article/1747401
+  name_used: Kim Inhye
+  note: Korea Herald — Yun Hyong-keun retrospective curator
+  accessed: '2026-06-19'
+status: reviewed
