@@ -1,0 +1,23 @@
+id: person.lee-kangso
+name:
+  ko:
+    full: 이강소
+    family: 이
+    given: 강소
+  latn:
+    preferred: Lee Kangso
+    family: Lee
+    given: Kangso
+birth_year: 1943
+role:
+- aat: '300025103'
+sources:
+- url: https://www.pkmgallery.com/artists/lee-kangso/biography
+  name_used: Lee Kangso
+  note: PKM 갤러리 — 작가 약력(대표 갤러리)
+  accessed: '2026-06-19'
+- url: https://ropac.net/artists/278-lee-kang-so/
+  name_used: Lee Kang So
+  note: Thaddaeus Ropac — b.1943
+  accessed: '2026-06-19'
+status: reviewed

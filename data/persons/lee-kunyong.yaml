@@ -1,0 +1,23 @@
+id: person.lee-kunyong
+name:
+  ko:
+    full: 이건용
+    family: 이
+    given: 건용
+  latn:
+    preferred: Lee Kun-Yong
+    family: Lee
+    given: Kun-Yong
+birth_year: 1941
+role:
+- aat: '300025103'
+sources:
+- url: https://www.galleryhyundai.com/exhibition/view/20000000055
+  name_used: Lee Kun-Yong
+  note: 갤러리현대 — 이건용 개인전
+  accessed: '2026-06-19'
+- url: https://en.wikipedia.org/wiki/Lee_Kun-Yong
+  name_used: Lee Kun-Yong
+  note: Wikipedia — 한국 실험미술/행위예술(b.1941), ST 그룹
+  accessed: '2026-06-19'
+status: reviewed

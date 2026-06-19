@@ -1,0 +1,23 @@
+id: person.kim-kulim
+name:
+  ko:
+    full: 김구림
+    family: 김
+    given: 구림
+  latn:
+    preferred: Kim Kulim
+    family: Kim
+    given: Kulim
+birth_year: 1936
+role:
+- aat: '300025103'
+sources:
+- url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3928&artistnm=%EA%B9%80%EA%B5%AC%EB%A6%BC
+  name_used: 김구림
+  note: 국립현대미술관 소장품 〈스탠드〉(1979) — 작가 김구림
+  accessed: '2026-06-19'
+- url: https://en.wikipedia.org/wiki/Kim_Kulim
+  name_used: Kim Kulim
+  note: Wikipedia — 한국 실험미술 선구자(b.1936)
+  accessed: '2026-06-19'
+status: reviewed

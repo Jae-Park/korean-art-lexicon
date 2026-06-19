@@ -1101,7 +1101,8 @@
           "accessed": "2026-06-19"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-19"
     },
     {
       "id": "person.hong-soun",
@@ -1947,7 +1948,8 @@
           "accessed": "2026-06-19"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-19"
     },
     {
       "id": "person.kim-inkyum",
@@ -1990,6 +1992,42 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-06-19"
+    },
+    {
+      "id": "person.kim-kulim",
+      "name": {
+        "ko": {
+          "full": "김구림",
+          "family": "김",
+          "given": "구림"
+        },
+        "latn": {
+          "preferred": "Kim Kulim",
+          "family": "Kim",
+          "given": "Kulim"
+        }
+      },
+      "birth_year": 1936,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3928&artistnm=%EA%B9%80%EA%B5%AC%EB%A6%BC",
+          "name_used": "김구림",
+          "note": "국립현대미술관 소장품 〈스탠드〉(1979) — 작가 김구림",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kim_Kulim",
+          "name_used": "Kim Kulim",
+          "note": "Wikipedia — 한국 실험미술 선구자(b.1936)",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.kim-namsoo",
@@ -2957,6 +2995,78 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-06-19"
+    },
+    {
+      "id": "person.lee-kangso",
+      "name": {
+        "ko": {
+          "full": "이강소",
+          "family": "이",
+          "given": "강소"
+        },
+        "latn": {
+          "preferred": "Lee Kangso",
+          "family": "Lee",
+          "given": "Kangso"
+        }
+      },
+      "birth_year": 1943,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pkmgallery.com/artists/lee-kangso/biography",
+          "name_used": "Lee Kangso",
+          "note": "PKM 갤러리 — 작가 약력(대표 갤러리)",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://ropac.net/artists/278-lee-kang-so/",
+          "name_used": "Lee Kang So",
+          "note": "Thaddaeus Ropac — b.1943",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "person.lee-kunyong",
+      "name": {
+        "ko": {
+          "full": "이건용",
+          "family": "이",
+          "given": "건용"
+        },
+        "latn": {
+          "preferred": "Lee Kun-Yong",
+          "family": "Lee",
+          "given": "Kun-Yong"
+        }
+      },
+      "birth_year": 1941,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.galleryhyundai.com/exhibition/view/20000000055",
+          "name_used": "Lee Kun-Yong",
+          "note": "갤러리현대 — 이건용 개인전",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Lee_Kun-Yong",
+          "name_used": "Lee Kun-Yong",
+          "note": "Wikipedia — 한국 실험미술/행위예술(b.1941), ST 그룹",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "person.lee-seolhui",
@@ -4265,6 +4375,42 @@
       "_last_updated": "2026-06-19"
     },
     {
+      "id": "person.sung-neungkyung",
+      "name": {
+        "ko": {
+          "full": "성능경",
+          "family": "성",
+          "given": "능경"
+        },
+        "latn": {
+          "preferred": "Sung Neung Kyung",
+          "family": "Sung",
+          "given": "Neung Kyung"
+        }
+      },
+      "birth_year": 1944,
+      "role": [
+        {
+          "aat": "300025103"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.lehmannmaupin.com/artists/sung-neung-kyung/biography",
+          "name_used": "Sung Neung Kyung",
+          "note": "Lehmann Maupin — 작가 약력(대표 갤러리)",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sung_Neung_Kyung",
+          "name_used": "Sung Neung Kyung",
+          "note": "Wikipedia — 한국 실험미술/ST 그룹(b.1944)",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "person.whang-inkie",
       "name": {
         "ko": {
@@ -4339,7 +4485,8 @@
           "accessed": "2026-06-19"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-19"
     },
     {
       "id": "person.yang-haegue",

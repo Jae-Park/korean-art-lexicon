@@ -1,0 +1,23 @@
+id: person.sung-neungkyung
+name:
+  ko:
+    full: 성능경
+    family: 성
+    given: 능경
+  latn:
+    preferred: Sung Neung Kyung
+    family: Sung
+    given: Neung Kyung
+birth_year: 1944
+role:
+- aat: '300025103'
+sources:
+- url: https://www.lehmannmaupin.com/artists/sung-neung-kyung/biography
+  name_used: Sung Neung Kyung
+  note: Lehmann Maupin — 작가 약력(대표 갤러리)
+  accessed: '2026-06-19'
+- url: https://en.wikipedia.org/wiki/Sung_Neung_Kyung
+  name_used: Sung Neung Kyung
+  note: Wikipedia — 한국 실험미술/ST 그룹(b.1944)
+  accessed: '2026-06-19'
+status: reviewed
