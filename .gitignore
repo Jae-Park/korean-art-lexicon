@@ -4,3 +4,4 @@ node_modules/
 .env
 crawl-archive/
 __pycache__/
+dist/lexicon.json
