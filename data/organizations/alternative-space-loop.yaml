@@ -1,0 +1,25 @@
+id: org.alternative-space-loop
+name:
+  ko: 대안공간 루프
+  en: Alternative Space Loop
+type:
+  aat: '300192556'
+location:
+  city: Seoul
+  country: KR
+period:
+  start: 1999
+  active: true
+related:
+- term.alternative-space
+sources:
+- url: http://altspaceloop.com/about
+  name_used: 대안공간 루프
+  note: 대안공간 루프 공식 웹사이트 — official website
+  accessed: '2026-06-19'
+- url: https://sema.seoul.go.kr/semaaa/front/jungu/searchView.do?authId=185
+  name_used: 대안공간 루프
+  note: 서울시립미술관 아카이브
+  accessed: '2026-06-19'
+status: reviewed
+notes: 1999년 2월 홍대 앞 개관. 한국 1세대 대안공간.

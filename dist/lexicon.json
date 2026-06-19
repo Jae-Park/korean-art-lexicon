@@ -2027,7 +2027,8 @@
           "accessed": "2026-06-19"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-19"
     },
     {
       "id": "person.kim-namsoo",
@@ -3030,7 +3031,8 @@
           "accessed": "2026-06-19"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-19"
     },
     {
       "id": "person.lee-kunyong",
@@ -3066,7 +3068,8 @@
           "accessed": "2026-06-19"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-19"
     },
     {
       "id": "person.lee-seolhui",
@@ -4408,7 +4411,8 @@
           "accessed": "2026-06-19"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "_last_updated": "2026-06-19"
     },
     {
       "id": "person.whang-inkie",
@@ -6153,6 +6157,43 @@
   ],
   "organizations": [
     {
+      "id": "org.alternative-space-loop",
+      "name": {
+        "ko": "대안공간 루프",
+        "en": "Alternative Space Loop"
+      },
+      "type": {
+        "aat": "300192556"
+      },
+      "location": {
+        "city": "Seoul",
+        "country": "KR"
+      },
+      "period": {
+        "start": 1999,
+        "active": true
+      },
+      "related": [
+        "term.alternative-space"
+      ],
+      "sources": [
+        {
+          "url": "http://altspaceloop.com/about",
+          "name_used": "대안공간 루프",
+          "note": "대안공간 루프 공식 웹사이트 — official website",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://sema.seoul.go.kr/semaaa/front/jungu/searchView.do?authId=185",
+          "name_used": "대안공간 루프",
+          "note": "서울시립미술관 아카이브",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed",
+      "notes": "1999년 2월 홍대 앞 개관. 한국 1세대 대안공간."
+    },
+    {
       "id": "org.arko-art-center",
       "name": {
         "ko": "아르코미술관",
@@ -6289,6 +6330,61 @@
       "status": "reviewed",
       "notes": "사립 현대미술관. 종로구 소재. 국제 현대미술 전시·퍼포먼스·교육 중심. 김종성 설계 건물.",
       "_last_updated": "2026-06-19"
+    },
+    {
+      "id": "org.art-space-pool",
+      "name": {
+        "ko": "아트스페이스 풀",
+        "en": "Art Space Pool",
+        "variants": [
+          {
+            "form": "대안공간 풀",
+            "lang": "ko",
+            "script": "Hang",
+            "type": "former",
+            "source": "아트스페이스 풀 공식 웹사이트",
+            "accessed": "2026-06-19"
+          },
+          {
+            "form": "Alternative Space Pool",
+            "lang": "en",
+            "script": "Latn",
+            "type": "former",
+            "source": "아트스페이스 풀 공식 웹사이트",
+            "accessed": "2026-06-19"
+          }
+        ]
+      },
+      "type": {
+        "aat": "300192556"
+      },
+      "location": {
+        "city": "Seoul",
+        "country": "KR"
+      },
+      "period": {
+        "start": 1999,
+        "active": true
+      },
+      "related": [
+        "term.alternative-space"
+      ],
+      "sources": [
+        {
+          "url": "http://altpool.org/",
+          "name_used": "아트스페이스 풀",
+          "note": "아트스페이스 풀 공식 웹사이트 — official website",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://sema.seoul.go.kr/semaaa/front/jungu/searchView.do?authId=19",
+          "name_used": "대안공간 풀",
+          "note": "서울시립미술관 아카이브",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed",
+      "notes": "1999년 2월 미술인 공동발의로 설립, 4월 관훈동 개관. 대안공간 풀에서 2010년 아트스페이스 풀로 개칭."
     },
     {
       "id": "org.busan-biennale",
@@ -6804,6 +6900,44 @@
       "_last_updated": "2026-06-19"
     },
     {
+      "id": "org.ssamzie-space",
+      "name": {
+        "ko": "쌈지스페이스",
+        "en": "Ssamzie Space"
+      },
+      "type": {
+        "aat": "300192556"
+      },
+      "location": {
+        "city": "Seoul",
+        "country": "KR"
+      },
+      "period": {
+        "start": 1998,
+        "end": 2008,
+        "active": false
+      },
+      "related": [
+        "term.alternative-space"
+      ],
+      "sources": [
+        {
+          "url": "https://sema.seoul.go.kr/semaaa/front/jungu/searchView.do?authId=203",
+          "name_used": "쌈지스페이스",
+          "note": "서울시립미술관 아카이브",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://ssamziespace2018.modoo.at/",
+          "name_used": "쌈지스페이스",
+          "note": "쌈지스페이스 1998-2008-2018 회고전 — 연혁 확인",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed",
+      "notes": "쌈지(패션기업)의 문화예술 지원 사업. 1998 암사동 스튜디오에서 2000 홍대 이전, 2008 폐관. 작가 레지던시 프로그램 운영."
+    },
+    {
       "id": "org.takeout-drawing",
       "name": {
         "ko": "테이크아웃드로잉",
@@ -6959,6 +7093,67 @@
       ],
       "status": "reviewed",
       "_last_updated": "2026-06-19"
+    },
+    {
+      "id": "term.experimental-art",
+      "term": {
+        "ko": "실험미술",
+        "en": {
+          "preferred": "Korean Experimental Art",
+          "type": "semantic"
+        },
+        "hanja": "實驗美術",
+        "variants": [
+          {
+            "form": "silheom misul",
+            "lang": "ko",
+            "script": "Latn",
+            "type": "transliteration",
+            "romanization": "revised",
+            "source": "Guggenheim (Only the Young)",
+            "accessed": "2026-06-19"
+          },
+          {
+            "form": "Experimental Art",
+            "lang": "en",
+            "script": "Latn",
+            "type": "alternate",
+            "source": "Guggenheim (Only the Young)",
+            "accessed": "2026-06-19"
+          }
+        ]
+      },
+      "category": {
+        "aat": "300055769"
+      },
+      "definition": {
+        "ko": "1960년대 후반에서 1970년대 한국에서 전개된 전위적 미술 경향. 해프닝, 행위, 개념미술, 대지미술, 오브제 등 기존 매체와 제도를 벗어난 실험적 실천을 포괄한다.",
+        "en": "An avant-garde art tendency that developed in Korea from the late 1960s through the 1970s, encompassing experimental practices beyond conventional media and institutions, including happenings, performance, conceptual art, land art, and object-based work."
+      },
+      "period": {
+        "start": 1967
+      },
+      "related": [
+        "person.kim-kulim",
+        "person.lee-kunyong",
+        "person.lee-kangso",
+        "person.sung-neungkyung"
+      ],
+      "sources": [
+        {
+          "url": "https://www.guggenheim.org/exhibition/experimental-art-in-korea-1960s-70s",
+          "name_used": "Korean Experimental Art (silheom misul)",
+          "note": "구겐하임 《Only the Young: Experimental Art in Korea, 1960s–1970s》(2023, MMCA 공동기획) — 용어 정립",
+          "accessed": "2026-06-19"
+        },
+        {
+          "url": "https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202305190001653",
+          "name_used": "실험미술",
+          "note": "국립현대미술관 《한국 실험미술 1960-70년대》(2023)",
+          "accessed": "2026-06-19"
+        }
+      ],
+      "status": "reviewed"
     },
     {
       "id": "term.minjung-misul",

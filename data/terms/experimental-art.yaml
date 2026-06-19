@@ -1,0 +1,46 @@
+id: term.experimental-art
+term:
+  ko: 실험미술
+  en:
+    preferred: Korean Experimental Art
+    type: semantic
+  hanja: 實驗美術
+  variants:
+  - form: silheom misul
+    lang: ko
+    script: Latn
+    type: transliteration
+    romanization: revised
+    source: Guggenheim (Only the Young)
+    accessed: '2026-06-19'
+  - form: Experimental Art
+    lang: en
+    script: Latn
+    type: alternate
+    source: Guggenheim (Only the Young)
+    accessed: '2026-06-19'
+category:
+  aat: '300055769'
+definition:
+  ko: 1960년대 후반에서 1970년대 한국에서 전개된 전위적 미술 경향. 해프닝, 행위, 개념미술, 대지미술, 오브제 등 기존 매체와 제도를 벗어난 실험적 실천을 포괄한다.
+  en: An avant-garde art tendency that developed in Korea from the late 1960s through
+    the 1970s, encompassing experimental practices beyond conventional media and
+    institutions, including happenings, performance, conceptual art, land art, and
+    object-based work.
+period:
+  start: 1967
+related:
+- person.kim-kulim
+- person.lee-kunyong
+- person.lee-kangso
+- person.sung-neungkyung
+sources:
+- url: https://www.guggenheim.org/exhibition/experimental-art-in-korea-1960s-70s
+  name_used: Korean Experimental Art (silheom misul)
+  note: '구겐하임 《Only the Young: Experimental Art in Korea, 1960s–1970s》(2023, MMCA 공동기획) — 용어 정립'
+  accessed: '2026-06-19'
+- url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202305190001653
+  name_used: 실험미술
+  note: 국립현대미술관 《한국 실험미술 1960-70년대》(2023)
+  accessed: '2026-06-19'
+status: reviewed

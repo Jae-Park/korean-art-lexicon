@@ -1,0 +1,26 @@
+id: org.ssamzie-space
+name:
+  ko: 쌈지스페이스
+  en: Ssamzie Space
+type:
+  aat: '300192556'
+location:
+  city: Seoul
+  country: KR
+period:
+  start: 1998
+  end: 2008
+  active: false
+related:
+- term.alternative-space
+sources:
+- url: https://sema.seoul.go.kr/semaaa/front/jungu/searchView.do?authId=203
+  name_used: 쌈지스페이스
+  note: 서울시립미술관 아카이브
+  accessed: '2026-06-19'
+- url: https://ssamziespace2018.modoo.at/
+  name_used: 쌈지스페이스
+  note: 쌈지스페이스 1998-2008-2018 회고전 — 연혁 확인
+  accessed: '2026-06-19'
+status: reviewed
+notes: 쌈지(패션기업)의 문화예술 지원 사업. 1998 암사동 스튜디오에서 2000 홍대 이전, 2008 폐관. 작가 레지던시 프로그램 운영.

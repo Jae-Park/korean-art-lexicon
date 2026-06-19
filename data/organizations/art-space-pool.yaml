@@ -1,0 +1,38 @@
+id: org.art-space-pool
+name:
+  ko: 아트스페이스 풀
+  en: Art Space Pool
+  variants:
+  - form: 대안공간 풀
+    lang: ko
+    script: Hang
+    type: former
+    source: 아트스페이스 풀 공식 웹사이트
+    accessed: '2026-06-19'
+  - form: Alternative Space Pool
+    lang: en
+    script: Latn
+    type: former
+    source: 아트스페이스 풀 공식 웹사이트
+    accessed: '2026-06-19'
+type:
+  aat: '300192556'
+location:
+  city: Seoul
+  country: KR
+period:
+  start: 1999
+  active: true
+related:
+- term.alternative-space
+sources:
+- url: http://altpool.org/
+  name_used: 아트스페이스 풀
+  note: 아트스페이스 풀 공식 웹사이트 — official website
+  accessed: '2026-06-19'
+- url: https://sema.seoul.go.kr/semaaa/front/jungu/searchView.do?authId=19
+  name_used: 대안공간 풀
+  note: 서울시립미술관 아카이브
+  accessed: '2026-06-19'
+status: reviewed
+notes: 1999년 2월 미술인 공동발의로 설립, 4월 관훈동 개관. 대안공간 풀에서 2010년 아트스페이스 풀로 개칭.
