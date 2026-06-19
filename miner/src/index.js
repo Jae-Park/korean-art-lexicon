@@ -9,7 +9,7 @@ import { fromAltpool } from "./feeders/altpool.js";
 import { loadExistingKeys, filterNew } from "./dedup.js";
 import { verifyBatch } from "./verify/index.js";
 import { buildMentionIndex, computeWeight } from "./weight.js";
-import { createCandidate } from "./notion.js";
+import { createCandidate, candidateMentionIndex, setWeight, queryReviewable } from "./notion.js";
 import { harvest as runHarvest } from "./harvest.js";
 import { enrichEn } from "./enrich.js";
 import { log } from "../lib/log.js";
@@ -63,7 +63,8 @@ async function mine() {
     log(`verified: ${ok} confirmed / ${result.length - ok} not (unresolved→Tier1 codex: ${unresolved})`);
 
     // 업로드/검수 순서 가중치 → 정렬(높을수록 먼저). 기관 먼저, 인물은 기관 언급빈도.
-    const mIdx = buildMentionIndex();
+    // mentionIdx = style_registry + 노션 후보 코퍼스(도메인) → 다기관 교차등장이 weight에 반영(cross-run).
+    const mIdx = await mergedMentionIndex(result);
     for (const r of result) r.weight = computeWeight(r, mIdx);
     result.sort((a, b) => (b.weight || 0) - (a.weight || 0));
     log(`weighted+sorted: top=${result[0]?.ko}(w${result[0]?.weight}) bottom=${result[result.length - 1]?.ko}(w${result[result.length - 1]?.weight})`);
@@ -87,6 +88,62 @@ async function mine() {
   log(`pushed ${pushed}/${result.length}`);
 }
 
+// style_registry + 노션 후보 코퍼스(도메인=기관) + 현재 leads 도메인을 합산한 mention index.
+// 여러 기관을 따로 mine 해도 같은 작가의 교차등장(서로 다른 도메인)이 누적돼 weight에 반영된다.
+async function mergedMentionIndex(leads = []) {
+  const mIdx = buildMentionIndex(); // style_registry: dedupKey -> Set(client)
+  try {
+    const cIdx = await candidateMentionIndex(); // 노션 후보: dedupKey -> Set(domain)
+    for (const [k, doms] of cIdx) {
+      if (!mIdx.has(k)) mIdx.set(k, new Set());
+      for (const d of doms) mIdx.get(k).add(d);
+    }
+    log(`mentionIdx: style_registry + 노션후보 ${cIdx.size}키 병합`);
+  } catch (e) {
+    log(`candidateMentionIndex skip: ${e.message}`);
+  }
+  for (const r of leads) {
+    if (!r.dedupKey || !r.sourceUrl) continue;
+    let dom;
+    try {
+      dom = new URL(r.sourceUrl).hostname.replace(/^www\./, "");
+    } catch {
+      continue;
+    }
+    if (!mIdx.has(r.dedupKey)) mIdx.set(r.dedupKey, new Set());
+    mIdx.get(r.dedupKey).add(dom);
+  }
+  return mIdx;
+}
+
+// 기존 노션 후보(new/rework)를 cross-institution mention 기준으로 재가중. --dry-run이면 PATCH 안 함.
+async function reweight() {
+  const dry = has("--dry-run") || !config.notionToken;
+  const rows = await queryReviewable();
+  log(`reweight: 검수대상 ${rows.length}건`);
+  const mIdx = await mergedMentionIndex();
+  const moved = [];
+  let changed = 0;
+  for (const r of rows) {
+    const c = {
+      type: r.엔티티,
+      confidence: r.신뢰도,
+      sourceType: r.출처유형,
+      origin: r.origin,
+      dedupKey: r.dedup_key,
+      verified: r.신뢰도 === "high", // 근사: verified 플래그 미저장 → high 신뢰도를 proxy
+    };
+    const w = computeWeight(c, mIdx);
+    if (w !== r.우선순위) {
+      moved.push({ ko: r["이름/제목"], old: r.우선순위, w, m: c.instMentions });
+      if (!dry && (await setWeight(r._pageId, w))) changed++;
+    }
+  }
+  moved.sort((a, b) => b.w - a.w);
+  log(`weight 변동 ${moved.length}건. 상위: ${moved.slice(0, 10).map((m) => `${m.ko}(${m.old}→${m.w},m${m.m || "-"})`).join(", ")}`);
+  log(dry ? "--dry-run: PATCH 안 함(--dry-run 빼면 적용)" : `적용: ${changed}건 우선순위 갱신`);
+}
+
 async function harvest() {
   await runHarvest({ push: has("--push") });
 }
@@ -95,11 +152,12 @@ async function enrich() {
   await enrichEn({ concurrency: Number(val("--concurrency")) || 3 });
 }
 
-const run = { mine, harvest, enrich }[cmd];
+const run = { mine, harvest, enrich, reweight }[cmd];
 if (!run) {
   console.error(
     "usage:\n" +
       "  index.js mine [--source style|mmca|all] [--client X] [--pages N] [--verify] [--dry-run]\n" +
+      "  index.js reweight [--dry-run]   # 노션 후보를 다기관 교차등장(cross-institution) 기준으로 재가중\n" +
       "  index.js harvest [--push]"
   );
   process.exit(2);

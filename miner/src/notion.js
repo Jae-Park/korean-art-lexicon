@@ -59,6 +59,50 @@ export async function queryApproved() {
   return queryFilter({ property: "처리", select: { equals: "approved" } });
 }
 
+// 검수 대상(new/rework) 행 전체 — reweight용.
+export async function queryReviewable() {
+  return queryFilter({
+    or: [
+      { property: "처리", select: { equals: "new" } },
+      { property: "처리", select: { equals: "rework" } },
+    ],
+  });
+}
+
+const domainOf = (url) => {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return null;
+  }
+};
+
+// 노션 후보 코퍼스 전체에서 dedup_key → 서로 다른 출처 도메인(=기관) 집합.
+// 기관별로 따로 mine 해도 같은 작가가 여러 도메인에 등장하면 교차 집계됨(cross-run/cross-institution).
+export async function candidateMentionIndex() {
+  const idx = new Map();
+  const rows = await queryFilter({ property: "dedup_key", rich_text: { is_not_empty: true } });
+  for (const r of rows) {
+    const key = r.dedup_key;
+    const dom = domainOf(r["출처 URL"]);
+    if (!key || !dom) continue;
+    if (!idx.has(key)) idx.set(key, new Set());
+    idx.get(key).add(dom);
+  }
+  return idx;
+}
+
+// 우선순위(weight) 갱신.
+export async function setWeight(pageId, weight) {
+  if (!config.notionToken) return false;
+  const r = await fetch(`${API}/pages/${pageId}`, {
+    method: "PATCH",
+    headers: headers(),
+    body: JSON.stringify({ properties: { 우선순위: { number: weight } } }),
+  });
+  return r.ok;
+}
+
 async function queryFilter(filter) {
   if (!config.notionToken || !config.notionDbId) return [];
   const out = [];
