@@ -2,7 +2,7 @@ id: term.sinseang-gonggan
 term:
   ko: 신생공간
   en:
-    preferred: sinseang gonggan
+    preferred: sinsaeng gonggan
     type: transliteration
   hanja: 新生空間
   variants:
@@ -35,5 +35,5 @@ sources:
   note: Frieze — 영어권 정의, 대안공간에서 신생공간으로의 전환 서술
 - url: https://monthlyart.com/portfolio-item/2023%EB%85%84%EC%9D%98-%ED%99%94%EB%A0%A4%ED%95%98%EA%B3%A0-%EB%B6%88%EA%B8%B8%ED%95%9C-%EC%A0%84%EA%B0%9C-%EB%8B%A4%EC%8B%9C-%EA%B3%B5%ED%9A%8C%EC%A0%84-%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%87%B4/
   name_used: 신생공간
-  note: 월간미술 — '2023년의 화려하고 불길한 전개', 신생공간/콜렉티브 비평적 결산
+  note: 월간미술 — '2023년의 화려하고 불길한 전개', 신생공간/컬렉티브 비평적 결산
 status: reviewed
