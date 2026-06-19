@@ -1,14 +1,22 @@
 id: org.gyeonggi-creation-center
 name:
-  ko: 경기창작센터
+  ko: 경기창작캠퍼스
   en: Gyeonggi Creation Center
+  variants:
+  - form: 경기창작센터
+    lang: ko
+    script: Hang
+    type: former
+    source: 경기창작캠퍼스 공식 연혁(gcc.ggcf.kr) — 2024 명칭 변경
+    accessed: '2026-06-19'
 location:
   city: Ansan
   country: KR
 sources:
 - url: https://gcc.ggcf.kr/pages/history
-  note: MMCA 본관 / institution-official / 송성진 1평조차 2019-071
-  accessed: '2026-06-11'
+  name_used: 경기창작캠퍼스
+  note: 경기창작캠퍼스 공식 연혁 — 2024년 경기창작센터에서 개칭, (재)경기문화재단 운영, 안산 소재
+  accessed: '2026-06-19'
 - url: https://en.wikipedia.org/wiki/Soi_Park
   name_used: Gyeonggi Creation Center
   note: English Wikipedia 작가 문서 전시 이력 표기
