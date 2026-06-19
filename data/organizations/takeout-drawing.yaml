@@ -8,17 +8,19 @@ location:
   city: Seoul
   country: KR
 period:
-  start: 2007
-  end: 2015
+  start: 2010
+  end: 2016
   active: false
 related:
-- term.sinsaeng-gonggan
+- term.alternative-space
 sources:
 - url: https://www.newstapa.org/article/P3RBm
   name_used: 테이크아웃드로잉
-  note: 뉴스타파 폐점 기사
+  note: 뉴스타파 — 2016년 폐점 보도(2010년 봄 한남동 개관 확인, 운영자 최소연)
+  accessed: '2026-06-19'
 - url: https://magazine.sfac.or.kr/html/view.asp?PubDate=201510&CateMasterCd=300&CateSubCd=720
   name_used: 테이크아웃드로잉
-  note: 문화+서울 매거진
-status: pending_review
-notes: Representative sinsaeng gonggan, founded by artists
+  note: 서울문화재단 문화+서울 매거진
+  accessed: '2026-06-19'
+status: reviewed
+notes: 한남동 소재 카페-미술관 성격의 대안공간. 최소연(접는미술관 프로젝트, 2006)이 2010년 봄 개관, 2016년 건물주 분쟁으로 폐점.
