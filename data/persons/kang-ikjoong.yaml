@@ -5,9 +5,17 @@ name:
     family: 강
     given: 익중
   latn:
-    preferred: Kang Ik-Joong
+    preferred: Ik-Joong Kang
     family: Kang
     given: Ik-Joong
+  variants:
+  - form: Kang Ik-Joong
+    lang: en
+    script: Latn
+    type: alternate
+    display_order: family-given
+    source: ARKO 베니스 한국관 아카이브 등 성-이름 관례 표기
+    accessed: '2026-06-19'
 birth_year: 1960
 sources:
 - url: https://en.wikipedia.org/wiki/Korean_pavilion
@@ -24,4 +32,8 @@ sources:
   name_used: 강익중
   note: cmoa.cheongju.go.kr — 강익중 참조
   accessed: '2026-06-16'
+- url: https://ikjoongkang.com/
+  name_used: Ik-Joong Kang
+  note: 작가 공식 웹사이트
+  accessed: '2026-06-19'
 status: reviewed

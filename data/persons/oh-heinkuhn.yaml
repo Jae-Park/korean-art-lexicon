@@ -5,9 +5,17 @@ name:
     family: 오
     given: 형근
   latn:
-    preferred: Oh Heinkuhn
+    preferred: Heinkuhn Oh
     family: Oh
     given: Heinkuhn
+  variants:
+  - form: Oh Heinkuhn
+    lang: en
+    script: Latn
+    type: alternate
+    display_order: family-given
+    source: AAA — Venice 2005 Korean Pavilion catalogue
+    accessed: '2026-06-19'
 birth_year: 1963
 sources:
 - url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale

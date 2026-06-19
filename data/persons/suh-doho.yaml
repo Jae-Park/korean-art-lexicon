@@ -5,9 +5,16 @@ name:
     family: 서
     given: 도호
   latn:
-    preferred: Do-Ho Suh
+    preferred: Do Ho Suh
     family: Suh
-    given: Do-Ho
+    given: Do Ho
+  variants:
+  - form: Do-Ho Suh
+    lang: en
+    script: Latn
+    type: alternate
+    source: universes.art — Venice 2001 Korean Pavilion
+    accessed: '2026-06-19'
 birth_year: 1962
 sources:
 - url: https://universes.art/en/venice-biennale/2001/pavilions-tour/korea
@@ -20,4 +27,8 @@ sources:
   name_used: 서도호
   note: mmca.go.kr — 서도호 참조
   accessed: '2026-06-16'
+- url: https://www.lehmannmaupin.com/artists/do-ho-suh
+  name_used: Do Ho Suh
+  note: Lehmann Maupin 대표 갤러리
+  accessed: '2026-06-19'
 status: reviewed
