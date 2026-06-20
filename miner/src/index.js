@@ -6,6 +6,7 @@ import { config, assertNoApiKey } from "./config.js";
 import { fromStyleRegistry } from "./feeders/styleRegistry.js";
 import { fromMMCA } from "./feeders/mmca.js";
 import { fromAltpool } from "./feeders/altpool.js";
+import { fromGgcf } from "./feeders/ggcf.js";
 import { loadExistingKeys, filterNew } from "./dedup.js";
 import { verifyBatch } from "./verify/index.js";
 import { buildMentionIndex, computeWeight } from "./weight.js";
@@ -44,6 +45,15 @@ async function mine() {
   if (source === "altpool") {
     const a = fromAltpool({ jsonPath: val("--altpool-json") || undefined });
     log(`leads from altpool(GOLD): ${a.length}`);
+    leads.push(...a);
+  }
+  if (source === "ggcf") {
+    const a = await fromGgcf({
+      site: val("--site") || "gmoma",
+      fromId: Number(val("--from")) || 1,
+      toId: Number(val("--to")) || 260,
+    });
+    log(`leads from ggcf(${val("--site") || "gmoma"}): ${a.length}`);
     leads.push(...a);
   }
 
