@@ -129,3 +129,21 @@ institutions:
     domain: gwangjubiennale.org
     stage: planned
     updated: 2026-06-13
+
+  - key: busan-sima
+    name_ko: 부산시립미술관
+    name_en: Busan Museum of Art
+    domain: art.busan.go.kr
+    stage: planned
+    coverage: "전시·작가 (시립 공공 → GOLD 유력, SeMA 패턴 후보)"
+    updated: 2026-06-22
+    notes: "박재용 플래그(2026-06-22). 부산 공공데이터포털(data.busan.go.kr/bdip) 존재하나 전용 전시 데이터셋은 검색에 미surface(단정 금지, 포털 직접검색 필요). art.busan.go.kr은 JS셸(81B) → SeMA식 Ajax 엔드포인트 또는 data.go.kr 미러 확인 recon 필요."
+
+  - key: busan-moca
+    name_ko: 부산현대미술관
+    name_en: Museum of Contemporary Art Busan
+    domain: busan.go.kr/moca
+    stage: planned
+    coverage: "전시·작가 (시립 공공 → GOLD 유력)"
+    updated: 2026-06-22
+    notes: "부산시립과 함께 부산 공공 미술. 같은 recon(부산 공공데이터/사이트 Ajax)으로 묶어 처리. 2018 을숙도 개관."
