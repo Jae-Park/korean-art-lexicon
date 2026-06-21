@@ -134,16 +134,19 @@ institutions:
     name_ko: 부산시립미술관
     name_en: Busan Museum of Art
     domain: art.busan.go.kr
-    stage: planned
-    coverage: "전시·작가 (시립 공공 → GOLD 유력, SeMA 패턴 후보)"
+    scraper: (미빌드 — recon 완료)
+    tech: ".nm CMS. 81B는 JS 리다이렉트 → /index.nm 서버렌더(curl 가능). 전시 리스트 /tblTsite07Display/list{Now,Future,Past}Client.nm. 과거전시 page_no=1~52 페이징(백필 가능). 폼 필드에 artist/artist_eng/title/title_eng = 한영 양본."
+    stage: recon
+    coverage: "전시·작가 (52p 백필). ★artist_eng = 로마자 보유 → publish-gate 로마자 병목 직접 보강."
     updated: 2026-06-22
-    notes: "박재용 플래그(2026-06-22). 부산 공공데이터포털(data.busan.go.kr/bdip) 존재하나 전용 전시 데이터셋은 검색에 미surface(단정 금지, 포털 직접검색 필요). art.busan.go.kr은 JS셸(81B) → SeMA식 Ajax 엔드포인트 또는 data.go.kr 미러 확인 recon 필요."
+    notes: "박재용 플래그(2026-06-22). GOLD curl 확정 — 빌드 시 list→detail 링크 패턴 + artist 추출만 확정하면 됨. 한영 양본이라 SeMA처럼 로마자 병합 가능. 다음 피더 1순위(로마자 때문)."
 
   - key: busan-moca
     name_ko: 부산현대미술관
     name_en: Museum of Contemporary Art Busan
     domain: busan.go.kr/moca
-    stage: planned
-    coverage: "전시·작가 (시립 공공 → GOLD 유력)"
+    tech: "humanframe CMS. /moca/exhibition* 서버렌더(28KB). 현재/지난/예정 구분. 전시 리스트 카드 구조가 부산시립보다 약함(이미지카드/bbsNo 추가 프로브 필요)."
+    stage: recon
+    coverage: "전시·작가 (시립 공공). 2018 을숙도 개관."
     updated: 2026-06-22
-    notes: "부산시립과 함께 부산 공공 미술. 같은 recon(부산 공공데이터/사이트 Ajax)으로 묶어 처리. 2018 을숙도 개관."
+    notes: "서버렌더 확인. 전시 아이템 파싱 구조 추가 프로브 필요. 부산시립 빌드 후 같은 패턴 적용."
