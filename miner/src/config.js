@@ -29,6 +29,7 @@ export const config = {
   sourcesYaml: join(REPO_ROOT, "specs", "sources.yaml"),
   notionToken: process.env.NOTION_TOKEN || "",
   notionDbId: process.env.NOTION_CANDIDATES_DB_ID || "",
+  seoulApiKey: process.env.SEOUL_API_KEY || "", // 서울 열린데이터광장 인증키(SeMA 전시 OpenAPI)
   minerModel: process.env.MINER_MODEL || "",
   allowAnthropicApi: process.env.ALLOW_ANTHROPIC_API === "1",
   archiveExtractPy:
