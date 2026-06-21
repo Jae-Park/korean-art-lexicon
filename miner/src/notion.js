@@ -60,9 +60,22 @@ export async function queryApproved() {
   return queryFilter({ property: "처리", select: { equals: "approved" } });
 }
 
-// 검수 대상(new/rework) 행 전체 — reweight용.
+// Notion DB 쿼리는 한 필터당 10000건에서 has_more=false로 잘림(풀 >10000이면 누락).
+// 엔티티 타입별로 분할 쿼리 후 병합 — 각 타입이 <10000이면 전수 확보.
+const ENTITY_TYPES = ["person", "exhibition", "org", "term", "publication"];
+async function queryFilterAllTypes(baseFilter) {
+  const out = [];
+  for (const t of ENTITY_TYPES) {
+    const typeF = { property: "엔티티", select: { equals: t } };
+    const f = baseFilter ? { and: [baseFilter, typeF] } : typeF;
+    out.push(...(await queryFilter(f)));
+  }
+  return out;
+}
+
+// 검수 대상(new/rework) 행 전체 — reweight/gate용. 타입 분할로 10000 cap 우회.
 export async function queryReviewable() {
-  return queryFilter({
+  return queryFilterAllTypes({
     or: [
       { property: "처리", select: { equals: "new" } },
       { property: "처리", select: { equals: "rework" } },
@@ -95,7 +108,7 @@ export function rowInstitution(r) {
 // 같은 작가가 여러 기관(경기·금호·백남준…)에 등장하면 교차 집계 → weight 상승(cross-institution).
 export async function candidateMentionIndex() {
   const idx = new Map();
-  const rows = await queryFilter({ property: "dedup_key", rich_text: { is_not_empty: true } });
+  const rows = await queryFilterAllTypes({ property: "dedup_key", rich_text: { is_not_empty: true } });
   for (const r of rows) {
     const key = r.dedup_key;
     const inst = rowInstitution(r);
