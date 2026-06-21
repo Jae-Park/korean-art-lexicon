@@ -80,7 +80,7 @@ const domainOf = (url) => {
 
 // 후보 행 → 정규화된 기관(장소). 도메인이 곧 1기관인 피더는 도메인맵, 애그리게이터(neolook)는
 // 근거의 '@장소'를 파싱. 도메인 ≠ 기관(neolook 1도메인=N장소)이라 도메인 대신 이걸로 교차집계.
-function rowInstitution(r) {
+export function rowInstitution(r) {
   const dom = domainOf(r["출처 URL"]);
   if (dom === "neolook.com") {
     const ev = `${r["근거"] || ""} ${r["evidence"] || ""}`;

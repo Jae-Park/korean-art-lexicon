@@ -13,7 +13,8 @@ import { loadExistingKeys, filterNew } from "./dedup.js";
 import { verifyBatch } from "./verify/index.js";
 import { buildMentionIndex, computeWeight } from "./weight.js";
 import { normInstitution } from "./institutions.js";
-import { createCandidate, candidateMentionIndex, setWeight, queryReviewable } from "./notion.js";
+import { createCandidate, candidateMentionIndex, setWeight, queryReviewable, rowInstitution } from "./notion.js";
+import { writeFileSync, mkdirSync } from "node:fs";
 import { harvest as runHarvest } from "./harvest.js";
 import { enrichEn } from "./enrich.js";
 import { log } from "../lib/log.js";
@@ -173,6 +174,52 @@ async function reweight() {
   log(dry ? "--dry-run: PATCH 안 함(--dry-run 빼면 적용)" : `적용: ${changed}건 우선순위 갱신`);
 }
 
+// publish-gate — 인물 교차검증 퍼블리시 게이트. (SeMA∧MMCA) 또는 (정규화 기관 ≥N) 통과 인물을
+// 로마자 일치로 분류: ready(자동스테이지 가능) / 로마자보강필요(fast-track) / 로마자충돌(동명이인·변이검토).
+// data/·노션 안 건드림 — 검토용 파일만 출력(인간 배치 승인 후 materialize는 별도).
+async function gate() {
+  const minInst = Number(val("--min-inst")) || 3;
+  const rows = await queryReviewable();
+  log(`publish-gate: 검수풀 ${rows.length}행 분석`);
+  const byPerson = new Map();
+  for (const r of rows) {
+    if (r["엔티티"] !== "person" || !r.dedup_key) continue;
+    if (!byPerson.has(r.dedup_key)) byPerson.set(r.dedup_key, { ko: r["이름/제목"], rows: [] });
+    byPerson.get(r.dedup_key).rows.push(r);
+  }
+  const ready = [], needRoman = [], conflict = [];
+  for (const [key, p] of byPerson) {
+    const insts = new Set(), romans = new Set(), sources = new Set();
+    for (const r of p.rows) {
+      const inst = rowInstitution(r);
+      if (inst) insts.add(inst);
+      const en = (r["EN/romanization"] || "").trim();
+      if (en) romans.add(en);
+      if (r["출처 URL"]) sources.add(r["출처 URL"]);
+    }
+    const pass = (insts.has("서울시립미술관") && insts.has("국립현대미술관")) || insts.size >= minInst;
+    if (!pass) continue;
+    const rl = [...romans];
+    const norm = new Set(rl.map((s) => s.toLowerCase().replace(/[\s.\-]/g, "")));
+    const rec = { ko: p.ko, dedupKey: key, institutions: [...insts], n: insts.size, romanizations: rl, sources: [...sources] };
+    if (rl.length <= 1) needRoman.push(rec); // 로마자 0~1개 = 교차확인 안 됨(동명이인 미해소) → 사람
+    else if (norm.size === 1) ready.push(rec); // 로마자 ≥2개 일치 = 진짜 교차확인 → 동명이인 위험 낮음
+    else conflict.push(rec); // 로마자 ≥2개 충돌 → 동명이인이거나 변이, 사람 판단
+  }
+  const byN = (a, b) => b.n - a.n;
+  ready.sort(byN); needRoman.sort(byN); conflict.sort(byN);
+  const total = ready.length + needRoman.length + conflict.length;
+  log(`통과 인물 ${total}명 (min-inst=${minInst} 또는 SeMA∧MMCA)`);
+  log(`  ✅ auto-stage 준비(로마자 ≥2 교차확인): ${ready.length}`);
+  log(`  ✍️  로마자 교차확인 안 됨(≤1개) → fast-track 사람: ${needRoman.length}`);
+  log(`  ⚠️  로마자 충돌(동명이인/변이 검토): ${conflict.length}`);
+  log(`  상위: ${[...ready, ...needRoman].slice(0, 10).map((r) => `${r.ko}(${r.n})`).join(", ")}`);
+  mkdirSync(config.reportsDir, { recursive: true });
+  const path = `${config.reportsDir}/publish-gate.json`;
+  writeFileSync(path, JSON.stringify({ minInst, counts: { ready: ready.length, needRoman: needRoman.length, conflict: conflict.length }, ready, needRoman, conflict }, null, 2));
+  log(`→ ${path} (인간 배치 승인용 — data/·노션 미접촉)`);
+}
+
 async function harvest() {
   await runHarvest({ push: has("--push") });
 }
@@ -181,12 +228,13 @@ async function enrich() {
   await enrichEn({ concurrency: Number(val("--concurrency")) || 3 });
 }
 
-const run = { mine, harvest, enrich, reweight }[cmd];
+const run = { mine, harvest, enrich, reweight, gate }[cmd];
 if (!run) {
   console.error(
     "usage:\n" +
-      "  index.js mine [--source style|mmca|all] [--client X] [--pages N] [--verify] [--dry-run]\n" +
+      "  index.js mine [--source style|mmca|altpool|ggcf|neolook|sema|all] [--pages N] [--file X --file-en Y] [--verify] [--dry-run]\n" +
       "  index.js reweight [--dry-run]   # 노션 후보를 다기관 교차등장(cross-institution) 기준으로 재가중\n" +
+      "  index.js gate [--min-inst N]    # 인물 교차검증 퍼블리시 게이트(로마자 일치 분류) → 검토 파일\n" +
       "  index.js harvest [--push]"
   );
   process.exit(2);
