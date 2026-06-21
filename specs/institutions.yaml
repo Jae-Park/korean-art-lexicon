@@ -41,6 +41,25 @@ institutions:
       codex_extract: crawl-archive/altpool/codex_extract.json  # codex LLM 의미추출(피더 단일소스, 최종)
       mirror_extract: crawl-archive/altpool/extract_from_mirror.json  # regex 추출(폐기, 비교용)
 
+  - key: neolook
+    name_ko: 네오룩
+    name_en: neolook
+    domain: neolook.com
+    scraper: miner/crawl/neolook_harvest.py (+ src/feeders/neolook.js)
+    tech: "Phoenix LiveView — self-serve 전수수확 불가(전수검증): 디테일/연도/날짜 라우트 전부 0B octet-stream 다운로드, 페이지네이션 웹소켓 전용, robots Disallow /archives/. 서버렌더되는 /archives 보드(현재+예정 ~101)만 Playwright로 수확."
+    stage: scraper
+    coverage: "전시·작가·장소 (forward-only 보드 데일리 스킴)"
+    schedule: "매일 05:10 KST — com.lexicon.neolook (run-neolook.sh). 로컬 미러만, 노션 미접촉(push는 수동·human-gate)."
+    counts: { crawled: 85, candidates: 209, pushed: 0, approved: 0 }
+    updated: 2026-06-21
+    notes: "운영자(사장) 구두 OK. export는 팀 운영 미비(전시게재 요청폼이 hwp)로 포기 → forward 보드 누적 전략. 개인전 '작가展'→작가+한자 추출, 공모·잡지 필터, 이름꼴 가드. 과거 백필(2000~2016) 자력 불가. press 출처라 verified=false/medium → 교차등장 시만 weight 상승."
+    crawl:
+      last_run: 2026-06-21
+      record_count: 85
+      extent: "보드 101카드 → 85전시(개인전 50/단체 35)+공모11+잡지5"
+      mode: "forward-daily-skim (id 단위 증분 dedup, 누적)"
+      local_archive: miner/data-mirror/neolook/board.jsonl  # gitignore(로컬 캐시, harvested_at 타임스탬프)
+
   - key: artsonje
     name_ko: 아트선재센터
     name_en: Art Sonje Center
