@@ -5,3 +5,6 @@ node_modules/
 crawl-archive/
 __pycache__/
 dist/lexicon.json
+
+# miner 크롤 미러(재생성 가능, 로컬 캐시)
+miner/data-mirror/

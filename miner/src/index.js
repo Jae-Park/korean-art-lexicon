@@ -7,6 +7,7 @@ import { fromStyleRegistry } from "./feeders/styleRegistry.js";
 import { fromMMCA } from "./feeders/mmca.js";
 import { fromAltpool } from "./feeders/altpool.js";
 import { fromGgcf } from "./feeders/ggcf.js";
+import { fromNeolook } from "./feeders/neolook.js";
 import { loadExistingKeys, filterNew } from "./dedup.js";
 import { verifyBatch } from "./verify/index.js";
 import { buildMentionIndex, computeWeight } from "./weight.js";
@@ -54,6 +55,11 @@ async function mine() {
       toId: Number(val("--to")) || 260,
     });
     log(`leads from ggcf(${val("--site") || "gmoma"}): ${a.length}`);
+    leads.push(...a);
+  }
+  if (source === "neolook") {
+    const a = fromNeolook({ mirrorPath: val("--mirror") });
+    log(`leads from neolook(board, press): ${a.length}`);
     leads.push(...a);
   }
 
