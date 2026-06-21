@@ -54,6 +54,7 @@ function mk(type, ko, en, e, year, role) {
     evidence: nfc(evidence).trim().slice(0, 300),
     proposedId: proposedId(type, "", ko),
     dedupKey: dedupKey(type, ko, { year }),
+    institution: e.venue_ko, // cross-institution mention 단위(애그리게이터 핵심)
     notes: `네오룩 보드 크롤(press).${hanja}`.trim(),
   };
 }

@@ -2,6 +2,7 @@
 // MCP가 아니라 raw fetch(news-roundup 패턴) — launchd 무인 실행용. 토큰 미설정 시 no-op/[].
 import { config } from "./config.js";
 import { geunggeo } from "./geunggeo.js";
+import { normInstitution, DOMAIN_INSTITUTION } from "./institutions.js";
 
 const V = "2022-06-28";
 const API = "https://api.notion.com/v1";
@@ -77,17 +78,30 @@ const domainOf = (url) => {
   }
 };
 
-// 노션 후보 코퍼스 전체에서 dedup_key → 서로 다른 출처 도메인(=기관) 집합.
-// 기관별로 따로 mine 해도 같은 작가가 여러 도메인에 등장하면 교차 집계됨(cross-run/cross-institution).
+// 후보 행 → 정규화된 기관(장소). 도메인이 곧 1기관인 피더는 도메인맵, 애그리게이터(neolook)는
+// 근거의 '@장소'를 파싱. 도메인 ≠ 기관(neolook 1도메인=N장소)이라 도메인 대신 이걸로 교차집계.
+function rowInstitution(r) {
+  const dom = domainOf(r["출처 URL"]);
+  if (dom === "neolook.com") {
+    const ev = `${r["근거"] || ""} ${r["evidence"] || ""}`;
+    const m = ev.match(/@\s*([^|(\n]+?)(?:\s*[(|]|—|$)/);
+    if (m && m[1].trim()) return normInstitution(m[1]);
+  }
+  if (DOMAIN_INSTITUTION[dom]) return DOMAIN_INSTITUTION[dom];
+  return normInstitution(dom || "");
+}
+
+// 노션 후보 코퍼스 전체에서 dedup_key → 서로 다른 '기관'(정규화) 집합.
+// 같은 작가가 여러 기관(경기·금호·백남준…)에 등장하면 교차 집계 → weight 상승(cross-institution).
 export async function candidateMentionIndex() {
   const idx = new Map();
   const rows = await queryFilter({ property: "dedup_key", rich_text: { is_not_empty: true } });
   for (const r of rows) {
     const key = r.dedup_key;
-    const dom = domainOf(r["출처 URL"]);
-    if (!key || !dom) continue;
+    const inst = rowInstitution(r);
+    if (!key || !inst) continue;
     if (!idx.has(key)) idx.set(key, new Set());
-    idx.get(key).add(dom);
+    idx.get(key).add(inst);
   }
   return idx;
 }

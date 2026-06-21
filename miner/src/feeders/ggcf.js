@@ -111,6 +111,7 @@ function mk(type, ko, url, evidence, year, instKo) {
     evidence: nfc(evidence).trim().slice(0, 300),
     proposedId: proposedId(type, "", ko),
     dedupKey: dedupKey(type, ko, { year }),
+    institution: instKo, // cross-institution mention 단위
     notes: `GOLD: ${instKo} 기관 크롤. 상세 URL이 1차 출처.`,
   };
 }

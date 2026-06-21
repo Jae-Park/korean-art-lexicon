@@ -11,6 +11,7 @@ import { fromNeolook } from "./feeders/neolook.js";
 import { loadExistingKeys, filterNew } from "./dedup.js";
 import { verifyBatch } from "./verify/index.js";
 import { buildMentionIndex, computeWeight } from "./weight.js";
+import { normInstitution } from "./institutions.js";
 import { createCandidate, candidateMentionIndex, setWeight, queryReviewable } from "./notion.js";
 import { harvest as runHarvest } from "./harvest.js";
 import { enrichEn } from "./enrich.js";
@@ -107,27 +108,30 @@ async function mine() {
 // style_registry + 노션 후보 코퍼스(도메인=기관) + 현재 leads 도메인을 합산한 mention index.
 // 여러 기관을 따로 mine 해도 같은 작가의 교차등장(서로 다른 도메인)이 누적돼 weight에 반영된다.
 async function mergedMentionIndex(leads = []) {
-  const mIdx = buildMentionIndex(); // style_registry: dedupKey -> Set(client)
+  // 단위 = 정규화된 기관(장소). style_registry 클라이언트도 정규화(MMCA↔국립현대 교차 매칭).
+  const mIdx = new Map();
+  for (const [k, set] of buildMentionIndex()) {
+    mIdx.set(k, new Set([...set].map(normInstitution).filter(Boolean)));
+  }
   try {
-    const cIdx = await candidateMentionIndex(); // 노션 후보: dedupKey -> Set(domain)
-    for (const [k, doms] of cIdx) {
+    const cIdx = await candidateMentionIndex(); // 노션 후보: dedupKey -> Set(기관)
+    for (const [k, insts] of cIdx) {
       if (!mIdx.has(k)) mIdx.set(k, new Set());
-      for (const d of doms) mIdx.get(k).add(d);
+      for (const i of insts) mIdx.get(k).add(i);
     }
-    log(`mentionIdx: style_registry + 노션후보 ${cIdx.size}키 병합`);
+    log(`mentionIdx: style_registry + 노션후보 ${cIdx.size}키 병합(기관 단위)`);
   } catch (e) {
     log(`candidateMentionIndex skip: ${e.message}`);
   }
   for (const r of leads) {
-    if (!r.dedupKey || !r.sourceUrl) continue;
-    let dom;
-    try {
-      dom = new URL(r.sourceUrl).hostname.replace(/^www\./, "");
-    } catch {
-      continue;
+    if (!r.dedupKey) continue;
+    let inst = r.institution ? normInstitution(r.institution) : "";
+    if (!inst && r.sourceUrl) {
+      try { inst = normInstitution(new URL(r.sourceUrl).hostname.replace(/^www\./, "")); } catch {}
     }
+    if (!inst) continue;
     if (!mIdx.has(r.dedupKey)) mIdx.set(r.dedupKey, new Set());
-    mIdx.get(r.dedupKey).add(dom);
+    mIdx.get(r.dedupKey).add(inst);
   }
   return mIdx;
 }
