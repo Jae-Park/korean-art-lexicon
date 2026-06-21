@@ -8,7 +8,7 @@ import { fromMMCA } from "./feeders/mmca.js";
 import { fromAltpool } from "./feeders/altpool.js";
 import { fromGgcf } from "./feeders/ggcf.js";
 import { fromNeolook } from "./feeders/neolook.js";
-import { fromSema } from "./feeders/sema.js";
+import { fromSema, fromSemaFile } from "./feeders/sema.js";
 import { loadExistingKeys, filterNew } from "./dedup.js";
 import { verifyBatch } from "./verify/index.js";
 import { buildMentionIndex, computeWeight } from "./weight.js";
@@ -65,7 +65,10 @@ async function mine() {
     leads.push(...a);
   }
   if (source === "sema") {
-    const a = await fromSema({ service: val("--service"), max: Number(val("--max")) || 100000 });
+    const file = val("--file");
+    const a = file
+      ? fromSemaFile({ file, fileEn: val("--file-en") })
+      : await fromSema({ service: val("--service"), max: Number(val("--max")) || 100000 });
     log(`leads from sema(GOLD): ${a.length}`);
     leads.push(...a);
   }
