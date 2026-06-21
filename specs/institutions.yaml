@@ -134,12 +134,11 @@ institutions:
     name_ko: 부산시립미술관
     name_en: Busan Museum of Art
     domain: art.busan.go.kr
-    scraper: (미빌드 — recon 완료)
-    tech: ".nm CMS. 81B는 JS 리다이렉트 → /index.nm 서버렌더(curl 가능). 전시 리스트 /tblTsite07Display/list{Now,Future,Past}Client.nm. 과거전시 page_no=1~52 페이징(백필 가능). 폼 필드에 artist/artist_eng/title/title_eng = 한영 양본."
+    tech: ".nm CMS 서버렌더. 리스트 /tblTsite07Display/listPastClient.nm?page_no=1~52(백필). 아이템=span.tit+span.date+attr-kval id. 디테일 viewPastClient.nm?id=. ※디테일 dl엔 부문/작품수/장소/문의만 — 작가·로마자 표시 안 됨(검색폼 필드는 DB검색용, 미표시). 영문 페이지 1.9KB 셸. 장소도 외부 섞임."
     stage: recon
-    coverage: "전시·작가 (52p 백필). ★artist_eng = 로마자 보유 → publish-gate 로마자 병목 직접 보강."
+    coverage: "전시+장소만 (작가 0, 로마자 0). 인물 목표엔 ROI 낮음 — 웹 피더 보류."
     updated: 2026-06-22
-    notes: "박재용 플래그(2026-06-22). GOLD curl 확정 — 빌드 시 list→detail 링크 패턴 + artist 추출만 확정하면 됨. 한영 양본이라 SeMA처럼 로마자 병합 가능. 다음 피더 1순위(로마자 때문)."
+    notes: "⚠️ 정정(2026-06-22): 앞서 'artist_eng 로마자 보유 1순위'는 오판(검색폼 필드를 표시데이터로 착각). 실제 웹은 작가·로마자 미표시. 빌드 보류. 대안 = 부산 오픈데이터 데이터셋(DB엔 artist 있으니 SeMA식 덤프 가능성) 확인, 아니면 person_source_enrich로 803명 로마자 보강."
 
   - key: busan-moca
     name_ko: 부산현대미술관
