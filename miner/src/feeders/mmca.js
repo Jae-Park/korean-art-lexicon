@@ -7,7 +7,7 @@ const BASE = "https://www.mmca.go.kr";
 const UA = { "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Safari/605.1.15" };
 
 async function fetchPage(pageNo) {
-  const u = `${BASE}/exhibitions/AjaxExhibitionList.do?currentPageNo=${pageNo}`;
+  const u = `${BASE}/exhibitions/AjaxExhibitionList.do?pageIndex=${pageNo}`; // currentPageNo는 서버가 무시(첫장 반복)
   try {
     const r = await fetch(u, { headers: UA, signal: AbortSignal.timeout(15000) });
     return r.ok ? await r.json() : null;
@@ -65,6 +65,7 @@ function mk(type, ko, en, url, evidence, year) {
     evidence: nfc(evidence).trim().slice(0, 300),
     proposedId: proposedId(type, en, ko),
     dedupKey: dedupKey(type, ko, { year }),
+    institution: "국립현대미술관", // cross-institution mention 단위
     notes: "GOLD: MMCA 기관 크롤. 상세 URL이 1차 출처.",
   };
 }
