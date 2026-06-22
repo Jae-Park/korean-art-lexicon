@@ -13,58 +13,62 @@ nationality: KR
 birth_year: 1861
 death_year: 1919
 role:
-- aat: '300025103'
+  - aat: '300025103'
 external_ids:
   wikidata: Q10310975
 sources:
-- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
-  name_used: 안중식
-  note: 'MMCA 전시 ''내가 사랑한 미술관: 근대의 걸작'' 참여작가 (덕수궁, 2018)'
-  accessed: '2026-06-11'
-- url: https://en.wikipedia.org/wiki/An_Jung-sik
-  name_used: An Jung-sik
-  note: Wikipedia — Jung 로마자화(호 심전)
-  accessed: '2026-06-12'
-- url: https://www.britannica.com/biography/An-Chung-sik
-  name_used: An Chung-sik
-  note: Britannica — 하이픈 변이
-  accessed: '2026-06-12'
-- url: https://en.wikipedia.org/wiki/An_Chungsik
-  name_used: An Chungsik
-  note: English Wikipedia artist article title and infobox name
-  accessed: '2026-06-12'
-- url: https://es.wikipedia.org/wiki/An_Jung-sik
-  name_used: An Jung-sik
-  note: Spanish Wikipedia artist article title and lead sentence
-  accessed: '2026-06-12'
-- url: https://en.wikipedia.org/wiki/Kim_Eun-ho_(painter)
-  name_used: An Jung-Sik
-  note: English Wikipedia Kim Eun-ho article, Kyongsong School teacher list
-  accessed: '2026-06-12'
-- url: https://encykorea.aks.ac.kr/Article/E0035032
-  name_used: 안중식
-  note: '국내 출처: 한국민족문화대백과사전
-
-    encykorea.aks.ac.kr›Article'
-  accessed: '2026-06-12'
-- url: https://www.joongang.co.kr/article/25433084
-  name_used: 안중식
-  note: '국내 출처: “어진화가 아버지, 단원화첩 모사하라며 후학 가르쳐”'
-  accessed: '2026-06-12'
-- url: https://contents.history.go.kr/front/km/view.do?levelId=km_021_0040_0020
-  name_used: 안중식
-  note: '국내 출처: 우리역사넷
-
-    contents.history.go.kr›front'
-  accessed: '2026-06-12'
-- url: https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?schM=view&relicId=1818
-  name_used: 안중식
-  note: '국내 출처: 국립중앙박물관
-
-    www.museum.go.kr›MUSEUM'
-  accessed: '2026-06-12'
-- url: https://www.ulsan.go.kr/s/uam/bbs/view.ulsan?bbsId=BBS_0000000000000174&mId=001003001000000000&dataId=55778
-  name_used: 안중식
-  note: ulsan.go.kr — 안중식 참조
-  accessed: '2026-06-16'
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3931
+    name_used: An Chungsik
+    note: MMCA 소장품 상세 페이지(작가별)
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
+    name_used: 안중식
+    note: 'MMCA 전시 ''내가 사랑한 미술관: 근대의 걸작'' 참여작가 (덕수궁, 2018)'
+    accessed: '2026-06-11'
+  - url: https://en.wikipedia.org/wiki/An_Jung-sik
+    name_used: An Jung-sik
+    note: Wikipedia — Jung 로마자화(호 심전)
+    accessed: '2026-06-12'
+  - url: https://www.britannica.com/biography/An-Chung-sik
+    name_used: An Chung-sik
+    note: Britannica — 하이픈 변이
+    accessed: '2026-06-12'
+  - url: https://en.wikipedia.org/wiki/An_Chungsik
+    name_used: An Chungsik
+    note: English Wikipedia artist article title and infobox name
+    accessed: '2026-06-12'
+  - url: https://es.wikipedia.org/wiki/An_Jung-sik
+    name_used: An Jung-sik
+    note: Spanish Wikipedia artist article title and lead sentence
+    accessed: '2026-06-12'
+  - url: https://en.wikipedia.org/wiki/Kim_Eun-ho_(painter)
+    name_used: An Jung-Sik
+    note: English Wikipedia Kim Eun-ho article, Kyongsong School teacher list
+    accessed: '2026-06-12'
+  - url: https://encykorea.aks.ac.kr/Article/E0035032
+    name_used: 안중식
+    note: |-
+      국내 출처: 한국민족문화대백과사전
+      encykorea.aks.ac.kr›Article
+    accessed: '2026-06-12'
+  - url: https://www.joongang.co.kr/article/25433084
+    name_used: 안중식
+    note: '국내 출처: “어진화가 아버지, 단원화첩 모사하라며 후학 가르쳐”'
+    accessed: '2026-06-12'
+  - url: https://contents.history.go.kr/front/km/view.do?levelId=km_021_0040_0020
+    name_used: 안중식
+    note: |-
+      국내 출처: 우리역사넷
+      contents.history.go.kr›front
+    accessed: '2026-06-12'
+  - url: https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?schM=view&relicId=1818
+    name_used: 안중식
+    note: |-
+      국내 출처: 국립중앙박물관
+      www.museum.go.kr›MUSEUM
+    accessed: '2026-06-12'
+  - url: https://www.ulsan.go.kr/s/uam/bbs/view.ulsan?bbsId=BBS_0000000000000174&mId=001003001000000000&dataId=55778
+    name_used: 안중식
+    note: ulsan.go.kr — 안중식 참조
+    accessed: '2026-06-16'
 status: reviewed

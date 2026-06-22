@@ -13,60 +13,62 @@ nationality: KR
 birth_year: 1914
 death_year: 1965
 role:
-- aat: '300025103'
+  - aat: '300025103'
 external_ids:
   wikidata: Q7138062
 sources:
-- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
-  name_used: 박수근
-  note: 'MMCA 전시 ''내가 사랑한 미술관: 근대의 걸작'' 참여작가 (덕수궁, 2018)'
-  accessed: '2026-06-11'
-- url: https://www.artnet.com/artists/park-soo-keun/
-  name_used: Park Soo-Keun
-  note: Artnet
-  accessed: '2026-06-12'
-- url: https://www.mutualart.com/Artist/Park-Soo-Keun/98C0B98F27533022
-  name_used: Park Soo Keun
-  note: MutualArt — 띄어쓰기 변이
-  accessed: '2026-06-12'
-- url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=202101190001360
-  name_used: Park Sookeun
-  note: MMCA 영문 전시 페이지(기관 1차 출처). 'Sookeun' 붙여쓰기. MMCA 원문은 성을 대문자 'PARK Sookeun'으로
-    표기(여기선 정규화). 애그리게이터(Invaluable) 대체.
-  accessed: '2026-06-12'
-- url: https://www.koreaherald.com/view.php?ud=20200629000912
-  name_used: Park Soo-keun
-  note: Korea Herald 기사
-  accessed: '2026-06-12'
-- url: https://en.wikipedia.org/wiki/Park_Su-geun
-  name_used: Park Su-geun
-  note: English Wikipedia article heading and lead; also notes alternate transliteration
-    Park Soo-keun.
-  accessed: '2026-06-12'
-- url: https://fr.wikipedia.org/wiki/Park_Soo-keun
-  name_used: Park Soo-keun
-  note: French Wikipedia article heading, infobox, and lead.
-  accessed: '2026-06-12'
-- url: https://www.yna.co.kr/view/AKR20260515056800005?input=1195m
-  name_used: 박수근
-  note: '국내 출처: 박수근 말년 역작 ''귀로''·서도호 3ｍ 설치작품, 경매 나와'
-  accessed: '2026-06-12'
-- url: https://www.hani.co.kr/arti/culture/music/1259573.html
-  name_used: 박수근
-  note: '국내 출처: 독도 표기된 대동여지도·국민 화가 박수근 명작 강남서 전시'
-  accessed: '2026-06-12'
-- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202101190001360
-  name_used: 박수근
-  note: '국내 출처: 국립현대미술관
-
-    www.mmca.go.kr›exhibitions'
-  accessed: '2026-06-12'
-- url: https://encykorea.aks.ac.kr/Article/E0020834
-  name_used: 박수근
-  note: 한국민족문화대백과사전 — 한자 병기 출처
-  accessed: '2026-06-12'
-- url: http://www.parksookeun.or.kr/user_sub.php?mu_idx=80
-  name_used: 박수근
-  note: parksookeun.or.kr — 박수근 참조
-  accessed: '2026-06-16'
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=85
+    name_used: Park Soo-keun
+    note: MMCA 소장품 상세 페이지(작가별)
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999
+    name_used: 박수근
+    note: 'MMCA 전시 ''내가 사랑한 미술관: 근대의 걸작'' 참여작가 (덕수궁, 2018)'
+    accessed: '2026-06-11'
+  - url: https://www.artnet.com/artists/park-soo-keun/
+    name_used: Park Soo-Keun
+    note: Artnet
+    accessed: '2026-06-12'
+  - url: https://www.mutualart.com/Artist/Park-Soo-Keun/98C0B98F27533022
+    name_used: Park Soo Keun
+    note: MutualArt — 띄어쓰기 변이
+    accessed: '2026-06-12'
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=202101190001360
+    name_used: Park Sookeun
+    note: MMCA 영문 전시 페이지(기관 1차 출처). 'Sookeun' 붙여쓰기. MMCA 원문은 성을 대문자 'PARK Sookeun'으로 표기(여기선 정규화). 애그리게이터(Invaluable) 대체.
+    accessed: '2026-06-12'
+  - url: https://www.koreaherald.com/view.php?ud=20200629000912
+    name_used: Park Soo-keun
+    note: Korea Herald 기사
+    accessed: '2026-06-12'
+  - url: https://en.wikipedia.org/wiki/Park_Su-geun
+    name_used: Park Su-geun
+    note: English Wikipedia article heading and lead; also notes alternate transliteration Park Soo-keun.
+    accessed: '2026-06-12'
+  - url: https://fr.wikipedia.org/wiki/Park_Soo-keun
+    name_used: Park Soo-keun
+    note: French Wikipedia article heading, infobox, and lead.
+    accessed: '2026-06-12'
+  - url: https://www.yna.co.kr/view/AKR20260515056800005?input=1195m
+    name_used: 박수근
+    note: '국내 출처: 박수근 말년 역작 ''귀로''·서도호 3ｍ 설치작품, 경매 나와'
+    accessed: '2026-06-12'
+  - url: https://www.hani.co.kr/arti/culture/music/1259573.html
+    name_used: 박수근
+    note: '국내 출처: 독도 표기된 대동여지도·국민 화가 박수근 명작 강남서 전시'
+    accessed: '2026-06-12'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202101190001360
+    name_used: 박수근
+    note: |-
+      국내 출처: 국립현대미술관
+      www.mmca.go.kr›exhibitions
+    accessed: '2026-06-12'
+  - url: https://encykorea.aks.ac.kr/Article/E0020834
+    name_used: 박수근
+    note: 한국민족문화대백과사전 — 한자 병기 출처
+    accessed: '2026-06-12'
+  - url: http://www.parksookeun.or.kr/user_sub.php?mu_idx=80
+    name_used: 박수근
+    note: parksookeun.or.kr — 박수근 참조
+    accessed: '2026-06-16'
 status: reviewed
