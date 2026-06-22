@@ -1,0 +1,30 @@
+id: person.lee-inseoung
+name:
+  ko:
+    full: 이인성
+    family: 이
+    given: 인성
+  latn:
+    preferred: Lee Inseoung
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q12612396
+sources:
+  - url: https://www.wikidata.org/wiki/Q12612396
+    name_used: Lee Inseoung
+    note: Wikidata Q12612396 — 로마자/동일성. 통상 'Lee In-sung' — preferred 에디터 검토
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1392274
+    name_used: 이인성
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002759
+    name_used: 이인성
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+  - url: https://gmoma.ggcf.kr/exhibitions/45
+    name_used: 이인성
+    note: 경기도미술관 전시
+    accessed: '2026-06-22'
+status: pending_review

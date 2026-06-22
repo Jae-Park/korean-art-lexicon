@@ -1,0 +1,49 @@
+id: person.kim-won-sook
+name:
+  ko:
+    full: 김원숙
+    family: 김
+    given: 원숙
+  latn:
+    preferred: Kim Won Sook
+  variants:
+    - form: Won-Sook Kim
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+    - form: Won Sook Kim
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+    - form: Wonsook Kim
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q112919010
+sources:
+  - url: https://www.wikidata.org/wiki/Q112919010
+    name_used: Kim Won Sook
+    note: Wikidata Q112919010 — 로마자/동일성
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=523341
+    name_used: 김원숙
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002556
+    name_used: 김원숙
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+  - url: https://gmoma.ggcf.kr/exhibitions/59
+    name_used: 김원숙
+    note: 경기도미술관 전시
+    accessed: '2026-06-22'
+status: pending_review

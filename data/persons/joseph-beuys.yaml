@@ -1,0 +1,51 @@
+id: person.joseph-beuys
+name:
+  ko:
+    full: 요셉 보이스
+    family: 요
+    given: 셉 보이스
+  latn:
+    preferred: Joseph Beuys
+  variants:
+    - form: J. Beuys
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+    - form: Jozef Bojs
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+    - form: Iosef Boĭs
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+    - form: Josef Beuys
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q153965
+sources:
+  - url: https://www.wikidata.org/wiki/Q153965
+    name_used: Joseph Beuys
+    note: Wikidata Q153965 — 로마자/동일성
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=487
+    name_used: 요셉 보이스
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002552
+    name_used: 요셉 보이스
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+status: pending_review
