@@ -9,8 +9,12 @@ name:
 role:
   - aat: '300025103'
 sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201705110000604
+    name_used: Kim Min-jung
+    note: 검수 정밀검증 — MMCA 고양레지 INTRO2017(영상작가, ≠한지화가 Minjung Kim)
+    accessed: '2026-06-22'
   - url: http://koreanfilm.or.kr/eng/films/index/peopleView.jsp?peopleCd=20278209
     name_used: Kim Min-jung
     note: 롱테일 패스2(웹 검증) — 비디오/영상작가(≠한지화가 Minjung Kim). medium 동음주의
     accessed: '2026-06-22'
-status: pending_review
+status: reviewed

@@ -1,0 +1,27 @@
+id: person.yung-wun-yoo
+name:
+  ko:
+    full: 유영운
+    family: 유
+    given: 영운
+  latn:
+    preferred: Yung Wun Yoo
+  variants:
+    - form: Yoo Young-wun
+      lang: en
+      script: Latn
+      type: alternate
+      source: 이전 표기/RR
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=201311100000570
+    name_used: Yung Wun Yoo
+    note: 검수 정밀검증 — MMCA 창작스튜디오 '유영운 Yung Wun Yoo'(조각, ≠유영국)
+    accessed: '2026-06-22'
+  - url: https://www.instagram.com/yoo_young_wun/
+    name_used: Yoo Young-wun
+    note: 롱테일 패스3(2기관 웹 검증) — 본인IG(SeMA전, ≠유영국). medium
+    accessed: '2026-06-22'
+status: reviewed

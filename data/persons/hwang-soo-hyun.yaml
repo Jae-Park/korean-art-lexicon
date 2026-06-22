@@ -1,0 +1,27 @@
+id: person.hwang-soo-hyun
+name:
+  ko:
+    full: 황수현
+    family: 황
+    given: 수현
+  latn:
+    preferred: Hwang Soo Hyun
+  variants:
+    - form: Soo-Hyun Hwang
+      lang: en
+      script: Latn
+      type: alternate
+      source: 이전 표기/RR
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1494700
+    name_used: Hwang Soo Hyun
+    note: 검수 정밀검증 — SeMA 서서울미술관 개관 《호흡》(퍼포먼스, ≠황수연)
+    accessed: '2026-06-22'
+  - url: https://ocula.com/artists/soo-hyun-hwang/
+    name_used: Soo-Hyun Hwang
+    note: 롱테일 패스3(2기관 웹 검증) — Ocula(403, ≠황수연). 약-medium
+    accessed: '2026-06-22'
+status: reviewed

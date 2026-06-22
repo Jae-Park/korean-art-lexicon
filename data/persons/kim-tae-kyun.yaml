@@ -5,12 +5,23 @@ name:
     family: 김
     given: 태균
   latn:
-    preferred: Kim Tae Kyun
+    preferred: Kim Tae-Kyun
+  variants:
+    - form: Kim Tae Kyun
+      lang: en
+      script: Latn
+      type: alternate
+      source: 이전 표기/RR
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 sources:
+  - url: https://m.mmca.go.kr/eng/pr/newsDetail.do?bdCId=201311080003660
+    name_used: Kim Tae-Kyun
+    note: 검수 정밀검증 — MMCA 고양오픈스튜디오9 'KIM, Tae-Kyun'
+    accessed: '2026-06-22'
   - url: https://www.artmail.com/db/2021/20210616-kimtaegyun.htm
     name_used: Kim Tae Kyun
     note: 롱테일 패스2(웹 검증) — 전시통지(작가 통제). medium
     accessed: '2026-06-22'
-status: pending_review
+status: reviewed

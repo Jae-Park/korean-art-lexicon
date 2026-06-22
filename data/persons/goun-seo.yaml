@@ -11,6 +11,10 @@ role:
 sources:
   - url: https://sema.seoul.go.kr/kr/support/emerging_artist/detail_info?actNo=245
     name_used: Goun Seo
+    note: 검수 정밀검증 — SeMA 신진2013 + 본인 사이트
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/support/emerging_artist/detail_info?actNo=245
+    name_used: Goun Seo
     note: 롱테일 패스3(2기관 웹 검증) — SeMA 신진(영문 Artsy). medium
     accessed: '2026-06-22'
-status: pending_review
+status: reviewed

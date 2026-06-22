@@ -1,0 +1,27 @@
+id: person.yi-joungmin
+name:
+  ko:
+    full: 이정민
+    family: 이
+    given: 정민
+  latn:
+    preferred: Yi Joungmin
+  variants:
+    - form: Lee Jung Min
+      lang: en
+      script: Latn
+      type: alternate
+      source: 이전 표기/RR
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/support/nanji_residency/detail_info?actNo=652948
+    name_used: Yi Joungmin
+    note: 검수 정밀검증 — SeMA 난지 '이정민 Yi Joungmin' + MMCA고양(동양화/영상)
+    accessed: '2026-06-22'
+  - url: https://www.jungmin-artwork.com/
+    name_used: Lee Jung Min
+    note: 롱테일 패스2(웹 검증) — 작가 공식 + MMCA 아트뱅크(동음). medium
+    accessed: '2026-06-22'
+status: reviewed

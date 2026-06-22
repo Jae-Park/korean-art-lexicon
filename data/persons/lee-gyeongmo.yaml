@@ -1,0 +1,27 @@
+id: person.lee-gyeongmo
+name:
+  ko:
+    full: 이경모
+    family: 이
+    given: 경모
+  latn:
+    preferred: Lee Gyeongmo
+  variants:
+    - form: Lee Kyung-mo
+      lang: en
+      script: Latn
+      type: alternate
+      source: 이전 표기/RR
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmcaresearch.kr/terms/view.do?fid=1404
+    name_used: Lee Gyeongmo
+    note: 검수 정밀검증 — MMCA Research(기관형) — 언론 'Kyung-mo'는 매큔
+    accessed: '2026-06-22'
+  - url: https://view.asiae.co.kr/en/article/2022122322514133896
+    name_used: Lee Kyung-mo
+    note: 롱테일 패스3(2기관 웹 검증) — 아시아경제英(사진). medium
+    accessed: '2026-06-22'
+status: reviewed

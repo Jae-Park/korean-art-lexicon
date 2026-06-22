@@ -1,0 +1,27 @@
+id: person.soyoun-jeong
+name:
+  ko:
+    full: 정소연
+    family: 정
+    given: 소연
+  latn:
+    preferred: Soyoun Jeong
+  variants:
+    - form: Jeong Soyoun
+      lang: en
+      script: Latn
+      type: alternate
+      source: 이전 표기/RR
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+sources:
+  - url: http://www.soyounjeong.com/profile/
+    name_used: Soyoun Jeong
+    note: 검수 정밀검증 — 작가 공식 도메인 + SeMA 소장2점
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5353
+    name_used: Jeong Soyoun
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 동음이의 검증필요
+    accessed: '2026-06-22'
+status: reviewed

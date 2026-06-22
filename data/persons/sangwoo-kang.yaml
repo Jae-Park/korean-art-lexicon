@@ -9,8 +9,12 @@ name:
 role:
   - aat: '300025103'
 sources:
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1244756
+    name_used: Sangwoo Kang
+    note: 검수 정밀검증 — SeMA 타이틀매치2023(≠영화감독 강상우)
+    accessed: '2026-06-22'
   - url: https://artsandculture.google.com/asset/the-body-alien-sangwoo-kang/UQHjVyogMCRFEA
     name_used: Sangwoo Kang
     note: 롱테일 패스2(웹 검증) — Google A&C(한국미술관협회). medium
     accessed: '2026-06-22'
-status: pending_review
+status: reviewed

@@ -5,12 +5,23 @@ name:
     family: 정
     given: 기호
   latn:
-    preferred: Jung Ki Ho
+    preferred: Jung Ki-Ho
+  variants:
+    - form: Jung Ki Ho
+      lang: en
+      script: Latn
+      type: alternate
+      source: 이전 표기/RR
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 sources:
+  - url: http://jungkiho.com/jungkiho/
+    name_used: Jung Ki-Ho
+    note: 검수 정밀검증 — 작가 공식 + SeMA 소장
+    accessed: '2026-06-22'
   - url: https://www.artsy.net/artist/jung-ki-ho/about
     name_used: Jung Ki Ho
     note: 롱테일 패스3(2기관 웹 검증) — Artsy(슬러그). 약-medium
     accessed: '2026-06-22'
-status: pending_review
+status: reviewed

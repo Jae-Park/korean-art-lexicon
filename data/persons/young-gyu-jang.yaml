@@ -5,12 +5,23 @@ name:
     family: 장
     given: 영규
   latn:
-    preferred: Young-gyu Jang
+    preferred: Young Gyu Jang
+  variants:
+    - form: Young-gyu Jang
+      lang: en
+      script: Latn
+      type: alternate
+      source: 이전 표기/RR
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 sources:
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573371
+    name_used: Young Gyu Jang
+    note: 검수 정밀검증 — SeMA 타이틀매치2021 + MMCA 다다익선(사운드설치)
+    accessed: '2026-06-22'
   - url: https://terosaarinen.com/person/young-gyu-jang/
     name_used: Young-gyu Jang
     note: 롱테일 패스2(웹 검증) — Tero Saarinen Co(주로 음악/작곡가). medium caveat
     accessed: '2026-06-22'
-status: pending_review
+status: reviewed

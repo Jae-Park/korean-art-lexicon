@@ -11,6 +11,10 @@ role:
 sources:
   - url: http://www.massgallery.info/UngbaiLee
     name_used: Ungbai Lee
+    note: 검수 정밀검증 — MASS Gallery(본인선호) + 경기MoMA 소장(Lee Woong-bae)
+    accessed: '2026-06-22'
+  - url: http://www.massgallery.info/UngbaiLee
+    name_used: Ungbai Lee
     note: 롱테일 패스2(웹 검증) — MASS Gallery(특이 로마자, 확인요). medium
     accessed: '2026-06-22'
-status: pending_review
+status: reviewed
