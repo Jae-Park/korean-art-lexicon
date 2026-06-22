@@ -9,6 +9,7 @@ name:
     family: Bae
     given: Youngwhan
 birth_year: 1969
+death_year: 2026
 sources:
 - url: https://aaa.org.hk/en/collections/search/library/secret-beyond-the-door-the-korean-pavilion-the-51st-venice-biennale
   name_used: Bae Youngwhan
@@ -23,4 +24,8 @@ sources:
   name_used: 배영환
   note: publicart.or.kr — 배영환 참조
   accessed: '2026-06-16'
+- url: https://www.yna.co.kr/view/AKR20260619134100005
+  name_used: 배영환
+  note: 연합뉴스 — 2026년 6월 별세(향년 57)
+  accessed: '2026-06-22'
 status: reviewed
