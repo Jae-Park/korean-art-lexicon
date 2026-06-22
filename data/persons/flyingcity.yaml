@@ -1,0 +1,16 @@
+id: person.flyingcity
+name:
+  ko:
+    full: 플라잉시티
+    family: 플
+    given: 라잉시티
+  latn:
+    preferred: flyingCity
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmcaresearch.kr/terms/view.do?fid=1186
+    name_used: flyingCity
+    note: 롱테일 패스2(웹 검증) — MMCA Research Lab — 콜렉티브. high
+    accessed: '2026-06-22'
+status: pending_review

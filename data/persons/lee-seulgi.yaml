@@ -1,0 +1,16 @@
+id: person.lee-seulgi
+name:
+  ko:
+    full: 이슬기
+    family: 이
+    given: 슬기
+  latn:
+    preferred: Lee Seulgi
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=202001140001252
+    name_used: Lee Seulgi
+    note: 롱테일 패스2(웹 검증) — MMCA 영문 KAP2020(국제선 Seulgi Lee). high
+    accessed: '2026-06-22'
+status: pending_review

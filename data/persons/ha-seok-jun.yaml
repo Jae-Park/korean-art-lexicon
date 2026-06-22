@@ -1,0 +1,16 @@
+id: person.ha-seok-jun
+name:
+  ko:
+    full: 하석준
+    family: 하
+    given: 석준
+  latn:
+    preferred: Ha Seok-jun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/artStudio/artistDetail.do?cinArtistId=201703130000187
+    name_used: Ha Seok-jun
+    note: 롱테일 패스2(웹 검증) — MMCA 고양레지던시. medium
+    accessed: '2026-06-22'
+status: pending_review

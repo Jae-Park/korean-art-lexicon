@@ -1,0 +1,16 @@
+id: person.gemini-kim
+name:
+  ko:
+    full: 김재민이
+    family: 김
+    given: 재민이
+  latn:
+    preferred: Gemini Kim
+role:
+  - aat: '300025103'
+sources:
+  - url: https://gcc.ggcf.kr/boards/resident-writer/articles/449
+    name_used: Gemini Kim
+    note: 롱테일 패스2(웹 검증) — 경기문화재단 레지던시(본인 transliteration). medium
+    accessed: '2026-06-22'
+status: pending_review

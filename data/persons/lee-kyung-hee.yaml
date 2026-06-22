@@ -1,0 +1,16 @@
+id: person.lee-kyung-hee
+name:
+  ko:
+    full: 이경희
+    family: 이
+    given: 경희
+  latn:
+    preferred: Lee Kyung-hee
+role:
+  - aat: '300025103'
+sources:
+  - url: http://globalprintdouro.com/artists/lee.kyung-hee
+    name_used: Lee Kyung-hee
+    note: 롱테일 패스2(웹 검증) — Global Print Douro + 대영박물관(동음 多, 판화가). medium
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.zerolab
+name:
+  ko:
+    full: 제로랩
+    family: 제
+    given: 로랩
+  latn:
+    preferred: zerolab
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=315321
+    name_used: zerolab
+    note: 롱테일 패스2(웹 검증) — SeMA 영문 — 콜렉티브(소문자). high
+    accessed: '2026-06-22'
+status: pending_review

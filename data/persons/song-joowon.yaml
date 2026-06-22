@@ -1,0 +1,16 @@
+id: person.song-joowon
+name:
+  ko:
+    full: 송주원
+    family: 송
+    given: 주원
+  latn:
+    preferred: Song Joowon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://jumpingframes.com/en/film/artist-focus-song-joowon/
+    name_used: Song Joowon
+    note: 롱테일 패스2(웹 검증) — 안무/영화(미술관 맥락 약). medium
+    accessed: '2026-06-22'
+status: pending_review

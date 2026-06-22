@@ -1,0 +1,16 @@
+id: person.youngjoo-cho
+name:
+  ko:
+    full: 조영주
+    family: 조
+    given: 영주
+  latn:
+    preferred: Youngjoo Cho
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.delfinafoundation.com/in-residence/youngjoo-cho/
+    name_used: Youngjoo Cho
+    note: 롱테일 패스2(웹 검증) — Delfina Foundation + MMCA. high
+    accessed: '2026-06-22'
+status: pending_review

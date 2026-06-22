@@ -1,0 +1,16 @@
+id: person.dew-kim
+name:
+  ko:
+    full: 듀킴
+    family: 듀
+    given: 킴
+  latn:
+    preferred: Dew Kim
+role:
+  - aat: '300025103'
+sources:
+  - url: https://ggallery.kr/artists/dew-kim
+    name_used: Dew Kim
+    note: 롱테일 패스2(웹 검증) — G Gallery(씨알콜렉티브 확인). high
+    accessed: '2026-06-22'
+status: pending_review

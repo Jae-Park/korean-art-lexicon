@@ -1,0 +1,16 @@
+id: person.lee-byungchan
+name:
+  ko:
+    full: 이병찬
+    family: 이
+    given: 병찬
+  latn:
+    preferred: Lee Byungchan
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.bclee.org/
+    name_used: Lee Byungchan
+    note: 롱테일 패스2(웹 검증) — 작가 공식 + Art Front Gallery. high
+    accessed: '2026-06-22'
+status: pending_review

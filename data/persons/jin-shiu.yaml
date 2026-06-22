@@ -1,0 +1,16 @@
+id: person.jin-shiu
+name:
+  ko:
+    full: 진시우
+    family: 진
+    given: 시우
+  latn:
+    preferred: Jin Shiu
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=201701240000163
+    name_used: Jin Shiu
+    note: 롱테일 패스2(웹 검증) — MMCA 레지던시. high
+    accessed: '2026-06-22'
+status: pending_review

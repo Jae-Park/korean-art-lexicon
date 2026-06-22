@@ -1,0 +1,16 @@
+id: person.kim-joon
+name:
+  ko:
+    full: 김준
+    family: 김
+    given: 준
+  latn:
+    preferred: Kim Joon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833647
+    name_used: Kim Joon
+    note: 롱테일 패스2(웹 검증) — SeMA 난지(≠타투작가 Kim Joon). high
+    accessed: '2026-06-22'
+status: pending_review

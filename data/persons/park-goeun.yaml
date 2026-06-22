@@ -1,0 +1,16 @@
+id: person.park-goeun
+name:
+  ko:
+    full: 박고은
+    family: 박
+    given: 고은
+  latn:
+    preferred: Park Goeun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=202401150001740
+    name_used: Park Goeun
+    note: 롱테일 패스2(웹 검증) — MMCA 영문. high
+    accessed: '2026-06-22'
+status: pending_review

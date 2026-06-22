@@ -1,0 +1,16 @@
+id: person.jungkyun-shin
+name:
+  ko:
+    full: 신정균
+    family: 신
+    given: 정균
+  latn:
+    preferred: JungKyun Shin
+role:
+  - aat: '300025103'
+sources:
+  - url: https://m.doosanartcenter.com/en/exhibit/artist/344
+    name_used: JungKyun Shin
+    note: 롱테일 패스2(웹 검증) — 두산. medium
+    accessed: '2026-06-22'
+status: pending_review

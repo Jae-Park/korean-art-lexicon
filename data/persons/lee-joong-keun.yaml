@@ -1,0 +1,16 @@
+id: person.lee-joong-keun
+name:
+  ko:
+    full: 이중근
+    family: 이
+    given: 중근
+  latn:
+    preferred: Lee Joong Keun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/kr/support/nanji_residency/detail_info?actNo=652639
+    name_used: Lee Joong Keun
+    note: 롱테일 패스2(웹 검증) — SeMA 난지(≠롯데 회장). high
+    accessed: '2026-06-22'
+status: pending_review

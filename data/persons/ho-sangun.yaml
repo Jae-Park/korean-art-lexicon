@@ -1,0 +1,16 @@
+id: person.ho-sangun
+name:
+  ko:
+    full: 호상근
+    family: 호
+    given: 상근
+  latn:
+    preferred: Ho Sangun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sites.google.com/view/hosangun
+    name_used: Ho Sangun
+    note: 롱테일 패스2(웹 검증) — 작가 공식(호상근재현소). medium
+    accessed: '2026-06-22'
+status: pending_review

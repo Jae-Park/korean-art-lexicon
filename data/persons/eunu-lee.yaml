@@ -1,0 +1,16 @@
+id: person.eunu-lee
+name:
+  ko:
+    full: 이은우
+    family: 이
+    given: 은우
+  latn:
+    preferred: Eunu Lee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?artSeq=WORK_0000003858
+    name_used: Eunu Lee
+    note: 롱테일 패스2(웹 검증) — SeMA 영문 소장. high
+    accessed: '2026-06-22'
+status: pending_review

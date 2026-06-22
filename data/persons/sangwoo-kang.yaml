@@ -1,0 +1,16 @@
+id: person.sangwoo-kang
+name:
+  ko:
+    full: 강상우
+    family: 강
+    given: 상우
+  latn:
+    preferred: Sangwoo Kang
+role:
+  - aat: '300025103'
+sources:
+  - url: https://artsandculture.google.com/asset/the-body-alien-sangwoo-kang/UQHjVyogMCRFEA
+    name_used: Sangwoo Kang
+    note: 롱테일 패스2(웹 검증) — Google A&C(한국미술관협회). medium
+    accessed: '2026-06-22'
+status: pending_review

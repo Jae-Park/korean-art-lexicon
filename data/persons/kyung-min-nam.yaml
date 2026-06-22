@@ -1,0 +1,16 @@
+id: person.kyung-min-nam
+name:
+  ko:
+    full: 남경민
+    family: 남
+    given: 경민
+  latn:
+    preferred: Kyung-Min Nam
+role:
+  - aat: '300025103'
+sources:
+  - url: https://art.state.gov/personnel/kyung-min_nam/
+    name_used: Kyung-Min Nam
+    note: 롱테일 패스2(웹 검증) — 美 국무부 Art in Embassies(풀/경기 연계 미확인). medium
+    accessed: '2026-06-22'
+status: pending_review

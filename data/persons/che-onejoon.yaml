@@ -1,0 +1,16 @@
+id: person.che-onejoon
+name:
+  ko:
+    full: 최원준
+    family: 최
+    given: 원준
+  latn:
+    preferred: Che Onejoon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201802260001023
+    name_used: Che Onejoon
+    note: 롱테일 패스2(웹 검증) — MMCA 영문 'Civilization'(본인 선택명). high
+    accessed: '2026-06-22'
+status: pending_review

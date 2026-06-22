@@ -1,0 +1,16 @@
+id: person.sunghong-min
+name:
+  ko:
+    full: 민성홍
+    family: 민
+    given: 성홍
+  latn:
+    preferred: SungHong Min
+role:
+  - aat: '300025103'
+sources:
+  - url: https://gmoma.ggcf.kr/exhibitions/179
+    name_used: SungHong Min
+    note: 롱테일 패스2(웹 검증) — 경기도미술관 영문. high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.kim-bojoong
+name:
+  ko:
+    full: 김보중
+    family: 김
+    given: 보중
+  latn:
+    preferred: Kim Bojoong
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.e-flux.com/announcements/435415/time-of-the-earth/
+    name_used: Kim Bojoong
+    note: 롱테일 패스2(웹 검증) — e-flux MMCA 과천. medium
+    accessed: '2026-06-22'
+status: pending_review

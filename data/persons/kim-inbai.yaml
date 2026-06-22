@@ -1,0 +1,16 @@
+id: person.kim-inbai
+name:
+  ko:
+    full: 김인배
+    family: 김
+    given: 인배
+  latn:
+    preferred: Kim Inbai
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.arariogallery.com/artists/124-kim-inbai/
+    name_used: Kim Inbai
+    note: 롱테일 패스2(웹 검증) — 아라리오갤러리. high
+    accessed: '2026-06-22'
+status: pending_review

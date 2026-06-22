@@ -1,0 +1,16 @@
+id: person.eun-chun
+name:
+  ko:
+    full: 전명은
+    family: 전
+    given: 명은
+  latn:
+    preferred: Eun Chun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://m.doosanartcenter.com/en/exhibit/artist/317
+    name_used: Eun Chun
+    note: 롱테일 패스2(웹 검증) — 두산아트센터 영문(geonhi=CHUN Eun). medium
+    accessed: '2026-06-22'
+status: pending_review

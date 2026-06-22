@@ -1,0 +1,16 @@
+id: person.chung-heemin
+name:
+  ko:
+    full: 정희민
+    family: 정
+    given: 희민
+  latn:
+    preferred: Chung Heemin
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201902150001123
+    name_used: Chung Heemin
+    note: 롱테일 패스2(웹 검증) — MMCA 영문 YKA2019. high
+    accessed: '2026-06-22'
+status: pending_review

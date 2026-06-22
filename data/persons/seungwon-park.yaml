@@ -1,0 +1,16 @@
+id: person.seungwon-park
+name:
+  ko:
+    full: 박승원
+    family: 박
+    given: 승원
+  latn:
+    preferred: Seungwon Park
+role:
+  - aat: '300025103'
+sources:
+  - url: https://planbprojectspace.wordpress.com/2022/09/24/theordinaryday/
+    name_used: Seungwon Park
+    note: 롱테일 패스2(웹 검증) — Plan B Project Space + KAMS(MMCA/SeMA/NJP/경기 확인). high
+    accessed: '2026-06-22'
+status: pending_review

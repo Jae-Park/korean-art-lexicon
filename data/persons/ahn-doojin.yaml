@@ -1,0 +1,16 @@
+id: person.ahn-doojin
+name:
+  ko:
+    full: 안두진
+    family: 안
+    given: 두진
+  latn:
+    preferred: Ahn Doojin
+role:
+  - aat: '300025103'
+sources:
+  - url: https://gallerykiwa.com/artists/53-ahn-doojin/
+    name_used: Ahn Doojin
+    note: 롱테일 패스2(웹 검증) — Gallery Kiwa. high
+    accessed: '2026-06-22'
+status: pending_review

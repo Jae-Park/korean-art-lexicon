@@ -1,0 +1,16 @@
+id: person.hong-myung-seop
+name:
+  ko:
+    full: 홍명섭
+    family: 홍
+    given: 명섭
+  latn:
+    preferred: Hong Myung Seop
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1406567
+    name_used: Hong Myung Seop
+    note: 롱테일 패스2(웹 검증) — SeMA 영문(무하이픈). high
+    accessed: '2026-06-22'
+status: pending_review

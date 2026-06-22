@@ -1,0 +1,16 @@
+id: person.bona-park
+name:
+  ko:
+    full: 박보나
+    family: 박
+    given: 보나
+  latn:
+    preferred: Bona Park
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.gallerychosun.com/artists/31-bona-park/
+    name_used: Bona Park
+    note: 롱테일 패스2(웹 검증) — 갤러리조선 영문. high
+    accessed: '2026-06-22'
+status: pending_review

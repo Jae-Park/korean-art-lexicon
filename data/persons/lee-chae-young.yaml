@@ -1,0 +1,16 @@
+id: person.lee-chae-young
+name:
+  ko:
+    full: 이채영
+    family: 이
+    given: 채영
+  latn:
+    preferred: Lee Chae-Young
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.lgallerykorea.com/lgalleryartist/chae-young-lee?lang=en
+    name_used: Lee Chae-Young
+    note: 롱테일 패스2(웹 검증) — L Gallery(잉크화가, ≠NJP 큐레이터 동명). medium
+    accessed: '2026-06-22'
+status: pending_review

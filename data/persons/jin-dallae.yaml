@@ -1,0 +1,16 @@
+id: person.jin-dallae
+name:
+  ko:
+    full: 진달래
+    family: 진
+    given: 달래
+  latn:
+    preferred: Jin Dallae
+role:
+  - aat: '300025103'
+sources:
+  - url: https://fonderiedarling.org/en/Jin-Dallae
+    name_used: Jin Dallae
+    note: 롱테일 패스2(웹 검증) — Fonderie Darling(듀오 진달래&박우혁). high
+    accessed: '2026-06-22'
+status: pending_review

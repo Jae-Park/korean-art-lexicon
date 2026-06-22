@@ -1,0 +1,16 @@
+id: person.koo-seongyeon
+name:
+  ko:
+    full: 구성연
+    family: 구
+    given: 성연
+  latn:
+    preferred: Koo Seongyeon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.galleryjj.org/artists
+    name_used: Koo Seongyeon
+    note: 롱테일 패스2(웹 검증) — 갤러리JJ. high
+    accessed: '2026-06-22'
+status: pending_review

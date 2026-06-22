@@ -1,0 +1,16 @@
+id: person.eunme-ahn
+name:
+  ko:
+    full: 안은미
+    family: 안
+    given: 은미
+  latn:
+    preferred: Eunme Ahn
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=391284
+    name_used: Eunme Ahn
+    note: 롱테일 패스2(웹 검증) — SeMA 영문(안무가/퍼포먼스). high
+    accessed: '2026-06-22'
+status: pending_review

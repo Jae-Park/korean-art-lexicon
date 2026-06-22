@@ -1,0 +1,16 @@
+id: person.seulki-ki
+name:
+  ko:
+    full: 기슬기
+    family: 기
+    given: 슬기
+  latn:
+    preferred: Seulki Ki
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=201402130000038
+    name_used: Seulki Ki
+    note: 롱테일 패스2(웹 검증) — MMCA 레지던시. high
+    accessed: '2026-06-22'
+status: pending_review

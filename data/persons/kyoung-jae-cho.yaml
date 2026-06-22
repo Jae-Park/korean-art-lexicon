@@ -1,0 +1,16 @@
+id: person.kyoung-jae-cho
+name:
+  ko:
+    full: 조경재
+    family: 조
+    given: 경재
+  latn:
+    preferred: Kyoung-Jae Cho
+role:
+  - aat: '300025103'
+sources:
+  - url: http://geumcheon.blogspot.com/2019/03/kyoung-jae-cho.html
+    name_used: Kyoung-Jae Cho
+    note: 롱테일 패스2(웹 검증) — 금천예술공장(MMCA) 레지던시. high
+    accessed: '2026-06-22'
+status: pending_review

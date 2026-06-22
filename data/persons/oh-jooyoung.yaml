@@ -1,0 +1,16 @@
+id: person.oh-jooyoung
+name:
+  ko:
+    full: 오주영
+    family: 오
+    given: 주영
+  latn:
+    preferred: Oh Jooyoung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202403140000421
+    name_used: Oh Jooyoung
+    note: 롱테일 패스2(웹 검증) — MMCA 고양레지던시. high
+    accessed: '2026-06-22'
+status: pending_review

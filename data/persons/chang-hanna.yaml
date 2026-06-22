@@ -1,0 +1,16 @@
+id: person.chang-hanna
+name:
+  ko:
+    full: 장한나
+    family: 장
+    given: 한나
+  latn:
+    preferred: Chang Hanna
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=202503040001913
+    name_used: Chang Hanna
+    note: 롱테일 패스2(웹 검증) — MMCA 영문 YKA2025(≠첼리스트 Han-Na Chang). high
+    accessed: '2026-06-22'
+status: pending_review

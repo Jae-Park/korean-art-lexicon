@@ -1,0 +1,16 @@
+id: person.kim-bo-kyung
+name:
+  ko:
+    full: 김보경
+    family: 김
+    given: 보경
+  latn:
+    preferred: Kim Bo Kyung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.artej.kr/kimboktung
+    name_used: Kim Bo Kyung
+    note: 롱테일 패스2(웹 검증) — ARTE J Gallery(동음 위험). medium
+    accessed: '2026-06-22'
+status: pending_review

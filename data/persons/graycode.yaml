@@ -1,0 +1,16 @@
+id: person.graycode
+name:
+  ko:
+    full: 그레이코드
+    family: 그
+    given: 레이코드
+  latn:
+    preferred: GRAYCODE
+role:
+  - aat: '300025103'
+sources:
+  - url: https://graycodejiiiiin.kr/
+    name_used: GRAYCODE
+    note: 롱테일 패스2(웹 검증) — 본인 사이트(듀오 GRAYCODE, jiiiiin 중 조태복). medium
+    accessed: '2026-06-22'
+status: pending_review

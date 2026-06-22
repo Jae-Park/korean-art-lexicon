@@ -1,0 +1,16 @@
+id: person.mihye-cha
+name:
+  ko:
+    full: 차미혜
+    family: 차
+    given: 미혜
+  latn:
+    preferred: Mihye Cha
+role:
+  - aat: '300025103'
+sources:
+  - url: https://chamihye.com/aboutcontact
+    name_used: Mihye Cha
+    note: 롱테일 패스2(웹 검증) — 작가 공식 사이트. high
+    accessed: '2026-06-22'
+status: pending_review

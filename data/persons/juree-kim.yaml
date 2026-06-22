@@ -1,0 +1,16 @@
+id: person.juree-kim
+name:
+  ko:
+    full: 김주리
+    family: 김
+    given: 주리
+  latn:
+    preferred: Juree Kim
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.jureekim.com/
+    name_used: Juree Kim
+    note: 롱테일 패스2(웹 검증) — 작가 공식. high
+    accessed: '2026-06-22'
+status: pending_review

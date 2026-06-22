@@ -1,0 +1,16 @@
+id: person.youngle-keem
+name:
+  ko:
+    full: 김영글
+    family: 김
+    given: 영글
+  latn:
+    preferred: Youngle Keem
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.sfac.or.kr/artspace/artspace/geumcheon_writerView.do?rsdCode=ART_02_2021&rsdIdx=35
+    name_used: Youngle Keem
+    note: 롱테일 패스2(웹 검증) — SFAC 금천 + SeMA 난지. high
+    accessed: '2026-06-22'
+status: pending_review

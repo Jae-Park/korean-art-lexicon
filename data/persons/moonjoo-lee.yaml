@@ -1,0 +1,16 @@
+id: person.moonjoo-lee
+name:
+  ko:
+    full: 이문주
+    family: 이
+    given: 문주
+  latn:
+    preferred: Moonjoo Lee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mcst.go.kr/kor/s_culture/culture/cultureView.jsp?pSeq=47056
+    name_used: Moonjoo Lee
+    note: 롱테일 패스2(웹 검증) — 문체부 예술포털 + Bethanien. high
+    accessed: '2026-06-22'
+status: pending_review

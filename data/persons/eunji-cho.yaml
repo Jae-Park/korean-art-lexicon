@@ -1,0 +1,16 @@
+id: person.eunji-cho
+name:
+  ko:
+    full: 조은지
+    family: 조
+    given: 은지
+  latn:
+    preferred: Eunji Cho
+role:
+  - aat: '300025103'
+sources:
+  - url: https://m.doosanartcenter.com/en/exhibit/artist/324
+    name_used: Eunji Cho
+    note: 롱테일 패스2(웹 검증) — 두산(≠배우 조은지). high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.yuri-an
+name:
+  ko:
+    full: 안유리
+    family: 안
+    given: 유리
+  latn:
+    preferred: Yuri An
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.yurian.kr/
+    name_used: Yuri An
+    note: 롱테일 패스2(웹 검증) — 작가 공식(SeMA/MMCA/풀 확인). high
+    accessed: '2026-06-22'
+status: pending_review

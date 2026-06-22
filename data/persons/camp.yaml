@@ -1,0 +1,16 @@
+id: person.camp
+name:
+  ko:
+    full: 캠프
+    family: 캠
+    given: 프
+  latn:
+    preferred: CAMP
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.e-flux.com/announcements/348743/camp-wins-nam-june-paik-art-center-prize-2020
+    name_used: CAMP
+    note: 롱테일 패스2(웹 검증) — e-flux 백남준AC상2020 — 뭄바이 콜렉티브. high
+    accessed: '2026-06-22'
+status: pending_review

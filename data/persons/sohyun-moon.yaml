@@ -1,0 +1,16 @@
+id: person.sohyun-moon
+name:
+  ko:
+    full: 문소현
+    family: 문
+    given: 소현
+  latn:
+    preferred: Sohyun Moon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.doosanartcenter.com/en/exhibit/artist/394
+    name_used: Sohyun Moon
+    note: 롱테일 패스2(웹 검증) — 두산(4기관 다 확인). high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.son-jongjun
+name:
+  ko:
+    full: 손종준
+    family: 손
+    given: 종준
+  latn:
+    preferred: Son Jongjun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sonjongjun.com/
+    name_used: Son Jongjun
+    note: 롱테일 패스2(웹 검증) — 작가 공식 + SeMA 난지. high
+    accessed: '2026-06-22'
+status: pending_review

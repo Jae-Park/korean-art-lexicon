@@ -1,0 +1,16 @@
+id: person.choi-taehoon
+name:
+  ko:
+    full: 최태훈
+    family: 최
+    given: 태훈
+  latn:
+    preferred: Choi Taehoon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=201603080000143
+    name_used: Choi Taehoon
+    note: 롱테일 패스2(웹 검증) — MMCA 레지던시(≠Choi Tae Hoon b.1965). high
+    accessed: '2026-06-22'
+status: pending_review

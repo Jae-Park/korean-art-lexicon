@@ -1,0 +1,16 @@
+id: person.haesun-hwang
+name:
+  ko:
+    full: 황혜선
+    family: 황
+    given: 혜선
+  latn:
+    preferred: Haesun Hwang
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.haesunhwang.com/
+    name_used: Haesun Hwang
+    note: 롱테일 패스2(웹 검증) — 작가 공식. high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.soyo-lee
+name:
+  ko:
+    full: 이소요
+    family: 이
+    given: 소요
+  latn:
+    preferred: Soyo Lee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/support/nanji_residency/detail_info?actNo=652929
+    name_used: Soyo Lee
+    note: 롱테일 패스2(웹 검증) — SeMA 난지. high
+    accessed: '2026-06-22'
+status: pending_review

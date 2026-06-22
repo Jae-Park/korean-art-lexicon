@@ -1,0 +1,16 @@
+id: person.eunsae-lee
+name:
+  ko:
+    full: 이은새
+    family: 이
+    given: 은새
+  latn:
+    preferred: Eunsae Lee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.gallery2.co.kr/exhibitions/61-as-usual-eunsae-lee/
+    name_used: Eunsae Lee
+    note: 롱테일 패스2(웹 검증) — Gallery2 + 본인사이트. high
+    accessed: '2026-06-22'
+status: pending_review

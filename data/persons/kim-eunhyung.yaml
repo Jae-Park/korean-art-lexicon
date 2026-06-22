@@ -1,0 +1,16 @@
+id: person.kim-eunhyung
+name:
+  ko:
+    full: 김은형
+    family: 김
+    given: 은형
+  latn:
+    preferred: Kim Eunhyung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.kimeunhyung.com/
+    name_used: Kim Eunhyung
+    note: 롱테일 패스2(웹 검증) — 작가 공식. medium
+    accessed: '2026-06-22'
+status: pending_review

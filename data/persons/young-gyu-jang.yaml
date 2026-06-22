@@ -1,0 +1,16 @@
+id: person.young-gyu-jang
+name:
+  ko:
+    full: 장영규
+    family: 장
+    given: 영규
+  latn:
+    preferred: Young-gyu Jang
+role:
+  - aat: '300025103'
+sources:
+  - url: https://terosaarinen.com/person/young-gyu-jang/
+    name_used: Young-gyu Jang
+    note: 롱테일 패스2(웹 검증) — Tero Saarinen Co(주로 음악/작곡가). medium caveat
+    accessed: '2026-06-22'
+status: pending_review

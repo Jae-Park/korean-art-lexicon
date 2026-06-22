@@ -1,0 +1,16 @@
+id: person.byungjun-kwon
+name:
+  ko:
+    full: 권병준
+    family: 권
+    given: 병준
+  latn:
+    preferred: Byungjun Kwon
+role:
+  - aat: '300025103'
+sources:
+  - url: http://koreaartistprize.org/en/project/byungjun-kwon/
+    name_used: Byungjun Kwon
+    note: 롱테일 패스2(웹 검증) — 코리아아티스트프라이즈(MMCA). high
+    accessed: '2026-06-22'
+status: pending_review

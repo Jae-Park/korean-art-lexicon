@@ -1,0 +1,16 @@
+id: person.yongseok-oh
+name:
+  ko:
+    full: 오용석
+    family: 오
+    given: 용석
+  latn:
+    preferred: Yongseok Oh
+role:
+  - aat: '300025103'
+sources:
+  - url: https://m.doosanartcenter.com/en/exhibit/artist/205
+    name_used: Yongseok Oh
+    note: 롱테일 패스2(웹 검증) — 두산 — MMCA고양2012·SeMA2013 확인. high
+    accessed: '2026-06-22'
+status: pending_review

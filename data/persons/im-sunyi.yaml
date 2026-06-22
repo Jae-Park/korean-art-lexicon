@@ -1,0 +1,16 @@
+id: person.im-sunyi
+name:
+  ko:
+    full: 임선이
+    family: 임
+    given: 선이
+  latn:
+    preferred: Im Sunyi
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1318668
+    name_used: Im Sunyi
+    note: 롱테일 패스2(웹 검증) — SeMA 영문. high
+    accessed: '2026-06-22'
+status: pending_review

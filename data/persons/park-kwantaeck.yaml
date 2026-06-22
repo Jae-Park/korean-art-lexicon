@@ -1,0 +1,16 @@
+id: person.park-kwantaeck
+name:
+  ko:
+    full: 박관택
+    family: 박
+    given: 관택
+  latn:
+    preferred: Park Kwantaeck
+role:
+  - aat: '300025103'
+sources:
+  - url: https://art.snu.ac.kr/en/members/park-kwantaeck/
+    name_used: Park Kwantaeck
+    note: 롱테일 패스2(웹 검증) — 서울대 미대 교수진. high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.kim-min-jung
+name:
+  ko:
+    full: 김민정
+    family: 김
+    given: 민정
+  latn:
+    preferred: Kim Min-jung
+role:
+  - aat: '300025103'
+sources:
+  - url: http://koreanfilm.or.kr/eng/films/index/peopleView.jsp?peopleCd=20278209
+    name_used: Kim Min-jung
+    note: 롱테일 패스2(웹 검증) — 비디오/영상작가(≠한지화가 Minjung Kim). medium 동음주의
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.park-yong-seok
+name:
+  ko:
+    full: 박용석
+    family: 박
+    given: 용석
+  latn:
+    preferred: Park Yong-seok
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=503089
+    name_used: Park Yong-seok
+    note: 롱테일 패스2(웹 검증) — SeMA 영문 'Collecting for All'. high
+    accessed: '2026-06-22'
+status: pending_review

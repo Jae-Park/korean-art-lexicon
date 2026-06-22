@@ -1,0 +1,16 @@
+id: person.kim-tae-kyun
+name:
+  ko:
+    full: 김태균
+    family: 김
+    given: 태균
+  latn:
+    preferred: Kim Tae Kyun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.artmail.com/db/2021/20210616-kimtaegyun.htm
+    name_used: Kim Tae Kyun
+    note: 롱테일 패스2(웹 검증) — 전시통지(작가 통제). medium
+    accessed: '2026-06-22'
+status: pending_review

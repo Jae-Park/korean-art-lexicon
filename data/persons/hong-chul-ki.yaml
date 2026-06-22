@@ -1,0 +1,16 @@
+id: person.hong-chul-ki
+name:
+  ko:
+    full: 홍철기
+    family: 홍
+    given: 철기
+  latn:
+    preferred: Hong Chul-Ki
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=345
+    name_used: Hong Chul-Ki
+    note: 롱테일 패스2(웹 검증) — SeMA 영문 'Is It Noise?'. high
+    accessed: '2026-06-22'
+status: pending_review

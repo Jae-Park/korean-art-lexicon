@@ -1,0 +1,16 @@
+id: person.jeeyang-lee
+name:
+  ko:
+    full: 이지영
+    family: 이
+    given: 지영
+  latn:
+    preferred: Jeeyang Lee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1314927
+    name_used: Jeeyang Lee
+    note: 롱테일 패스2(웹 검증) — SeMA 영문(≠JeeYoung Lee b.1983). high
+    accessed: '2026-06-22'
+status: pending_review

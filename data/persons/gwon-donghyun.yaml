@@ -1,0 +1,16 @@
+id: person.gwon-donghyun
+name:
+  ko:
+    full: 권동현
+    family: 권
+    given: 동현
+  latn:
+    preferred: Gwon Donghyun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=202503040001913
+    name_used: Gwon Donghyun
+    note: 롱테일 패스2(웹 검증) — MMCA 영문 YKA2025. high
+    accessed: '2026-06-22'
+status: pending_review

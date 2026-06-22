@@ -1,0 +1,16 @@
+id: person.hwang-sejun
+name:
+  ko:
+    full: 황세준
+    family: 황
+    given: 세준
+  latn:
+    preferred: Hwang Sejun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmcaresearch.kr/timeline/view.do?searchYearmm=199206
+    name_used: Hwang Sejun
+    note: 롱테일 패스2(웹 검증) — MMCA Research Lab(작가 b.1963, ≠연예기획자). high
+    accessed: '2026-06-22'
+status: pending_review

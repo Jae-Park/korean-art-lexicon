@@ -1,0 +1,16 @@
+id: person.jeong-jeong-ju
+name:
+  ko:
+    full: 정정주
+    family: 정
+    given: 정주
+  latn:
+    preferred: Jeong Jeong-ju
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.gallerychosun.com/artists/25-jeong-jeong-ju/
+    name_used: Jeong Jeong-ju
+    note: 롱테일 패스2(웹 검증) — 갤러리조선. high
+    accessed: '2026-06-22'
+status: pending_review

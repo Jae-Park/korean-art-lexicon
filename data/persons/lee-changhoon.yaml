@@ -1,0 +1,16 @@
+id: person.lee-changhoon
+name:
+  ko:
+    full: 이창훈
+    family: 이
+    given: 창훈
+  latn:
+    preferred: Lee Changhoon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=201402130000053
+    name_used: Lee Changhoon
+    note: 롱테일 패스2(웹 검증) — MMCA 레지던시. high
+    accessed: '2026-06-22'
+status: pending_review

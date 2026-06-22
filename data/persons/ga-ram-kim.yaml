@@ -1,0 +1,16 @@
+id: person.ga-ram-kim
+name:
+  ko:
+    full: 김가람
+    family: 김
+    given: 가람
+  latn:
+    preferred: Ga Ram Kim
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/support/emerging_artist/detail_info?actNo=283
+    name_used: Ga Ram Kim
+    note: 롱테일 패스2(웹 검증) — SeMA 신진작가. high
+    accessed: '2026-06-22'
+status: pending_review

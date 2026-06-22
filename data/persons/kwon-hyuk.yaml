@@ -1,0 +1,16 @@
+id: person.kwon-hyuk
+name:
+  ko:
+    full: 권혁
+    family: 권
+    given: 혁
+  latn:
+    preferred: Kwon Hyuk
+role:
+  - aat: '300025103'
+sources:
+  - url: http://www.kwonhyuk.com/about
+    name_used: Kwon Hyuk
+    note: 롱테일 패스2(웹 검증) — 작가 공식. medium
+    accessed: '2026-06-22'
+status: pending_review

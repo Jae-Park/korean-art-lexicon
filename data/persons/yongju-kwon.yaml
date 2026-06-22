@@ -1,0 +1,16 @@
+id: person.yongju-kwon
+name:
+  ko:
+    full: 권용주
+    family: 권
+    given: 용주
+  latn:
+    preferred: Yongju Kwon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=472
+    name_used: Yongju Kwon
+    note: 롱테일 패스2(웹 검증) — SeMA 난지 레지던시 영문. high
+    accessed: '2026-06-22'
+status: pending_review

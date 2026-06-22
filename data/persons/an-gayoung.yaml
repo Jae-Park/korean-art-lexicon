@@ -1,0 +1,16 @@
+id: person.an-gayoung
+name:
+  ko:
+    full: 안가영
+    family: 안
+    given: 가영
+  latn:
+    preferred: An Gayoung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://angayoung.cargo.site/Information
+    name_used: An Gayoung
+    note: 롱테일 패스2(웹 검증) — 작가 공식 CV(경기 소장). high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.yezoi-hwang
+name:
+  ko:
+    full: 황예지
+    family: 황
+    given: 예지
+  latn:
+    preferred: Yezoi Hwang
+role:
+  - aat: '300025103'
+sources:
+  - url: https://tinakimgallery.com/exhibitions/63-scoring-the-words-sema-seoul-museum-of-art/
+    name_used: Yezoi Hwang
+    note: 롱테일 패스2(웹 검증) — Tina Kim Gallery(SeMA전) — 자기 로마자. high
+    accessed: '2026-06-22'
+status: pending_review

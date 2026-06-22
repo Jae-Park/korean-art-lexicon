@@ -1,0 +1,16 @@
+id: person.yanghee-lee
+name:
+  ko:
+    full: 이양희
+    family: 이
+    given: 양희
+  latn:
+    preferred: Yanghee Lee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://thepage-gallery.com/exhibitions/51-yanghee-lee-axis-and-foot/
+    name_used: Yanghee Lee
+    note: 롱테일 패스2(웹 검증) — The Page Gallery(≠UN 이양희 b.1956). medium
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.seo-min-jeong
+name:
+  ko:
+    full: 서민정
+    family: 서
+    given: 민정
+  latn:
+    preferred: Seo Min Jeong
+role:
+  - aat: '300025103'
+sources:
+  - url: https://schemaartmuseum.com/2023/03/25/
+    name_used: Seo Min Jeong
+    note: 롱테일 패스2(웹 검증) — Schema Art Museum + 경기문화재단. high
+    accessed: '2026-06-22'
+status: pending_review

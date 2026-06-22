@@ -1,0 +1,16 @@
+id: person.jihyun-jung
+name:
+  ko:
+    full: 정지현
+    family: 정
+    given: 지현
+  latn:
+    preferred: Jihyun Jung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.doosanartcenter.com/en/exhibit/artist/210
+    name_used: Jihyun Jung
+    note: 롱테일 패스2(웹 검증) — 두산(사진가). high
+    accessed: '2026-06-22'
+status: pending_review

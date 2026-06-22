@@ -1,0 +1,16 @@
+id: person.kim-lee-park
+name:
+  ko:
+    full: 김이박
+    family: 김
+    given: 이박
+  latn:
+    preferred: Kim Lee-Park
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.doosanartcenter.com/en/exhibit/1391
+    name_used: Kim Lee-Park
+    note: 롱테일 패스2(웹 검증) — 두산(개인 작가, 본명 김현영). high
+    accessed: '2026-06-22'
+status: pending_review

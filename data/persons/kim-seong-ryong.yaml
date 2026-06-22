@@ -1,0 +1,16 @@
+id: person.kim-seong-ryong
+name:
+  ko:
+    full: 김성룡
+    family: 김
+    given: 성룡
+  latn:
+    preferred: Kim Seong Ryong
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.bumgallery.com/artists/29-kim-seong-ryong/
+    name_used: Kim Seong Ryong
+    note: 롱테일 패스2(웹 검증) — BUM Gallery. medium
+    accessed: '2026-06-22'
+status: pending_review

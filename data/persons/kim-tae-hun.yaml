@@ -1,0 +1,16 @@
+id: person.kim-tae-hun
+name:
+  ko:
+    full: 김태헌
+    family: 김
+    given: 태헌
+  latn:
+    preferred: Kim Tae-hun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.e-flux.com/announcements/42602/a-grain-of-dust-a-drop-of-water
+    name_used: Kim Tae-hun
+    note: 롱테일 패스2(웹 검증) — e-flux 광주비엔날레2004(동음 위험, 재확인). medium
+    accessed: '2026-06-22'
+status: pending_review

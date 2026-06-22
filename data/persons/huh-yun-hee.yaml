@@ -1,0 +1,16 @@
+id: person.huh-yun-hee
+name:
+  ko:
+    full: 허윤희
+    family: 허
+    given: 윤희
+  latn:
+    preferred: Huh Yun-hee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.youtube.com/watch?v=SigAXO_GNNw
+    name_used: Huh Yun-hee
+    note: 롱테일 패스2(웹 검증) — 작가 본인 다큐. medium
+    accessed: '2026-06-22'
+status: pending_review

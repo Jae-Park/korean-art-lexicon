@@ -1,0 +1,16 @@
+id: person.uri-han
+name:
+  ko:
+    full: 한우리
+    family: 한
+    given: 우리
+  latn:
+    preferred: Uri Han
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/support/nanji_residency/detail_info?actNo=1365450
+    name_used: Uri Han
+    note: 롱테일 패스2(웹 검증) — SeMA 난지 영문. high
+    accessed: '2026-06-22'
+status: pending_review

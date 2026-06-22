@@ -1,0 +1,16 @@
+id: person.jongheon-bae
+name:
+  ko:
+    full: 배종헌
+    family: 배
+    given: 종헌
+  latn:
+    preferred: Jongheon Bae
+role:
+  - aat: '300025103'
+sources:
+  - url: https://art-ono.com/gallery-artist/jongheon-bae/
+    name_used: Jongheon Bae
+    note: 롱테일 패스2(웹 검증) — Art Ono Gallery + Glenfiddich. high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.gijeong-goo
+name:
+  ko:
+    full: 구기정
+    family: 구
+    given: 기정
+  latn:
+    preferred: Gijeong Goo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.e-flux.com/announcements/646227/
+    name_used: Gijeong Goo
+    note: 롱테일 패스2(웹 검증) — e-flux 백남준아트센터. high
+    accessed: '2026-06-22'
+status: pending_review

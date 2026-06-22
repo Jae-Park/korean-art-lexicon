@@ -1,0 +1,16 @@
+id: person.go-jeongnam
+name:
+  ko:
+    full: 고정남
+    family: 고
+    given: 정남
+  latn:
+    preferred: Go Jeongnam
+role:
+  - aat: '300025103'
+sources:
+  - url: https://ecophotoarchive.org/photographer/33
+    name_used: Go Jeongnam
+    note: 롱테일 패스2(웹 검증) — ECO PHOTO ARCHIVE(MMCA아트뱅크·SeMA·경기). medium
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.kim-sang-gyun
+name:
+  ko:
+    full: 김상균
+    family: 김
+    given: 상균
+  latn:
+    preferred: Kim Sang Gyun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://gallerybaton.com/artists/60-kim-sang-gyun/
+    name_used: Kim Sang Gyun
+    note: 롱테일 패스2(웹 검증) — Gallery Baton(MMCA/SeMA 명시). high
+    accessed: '2026-06-22'
+status: pending_review

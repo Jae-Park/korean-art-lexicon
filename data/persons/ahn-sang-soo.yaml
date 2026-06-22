@@ -1,0 +1,16 @@
+id: person.ahn-sang-soo
+name:
+  ko:
+    full: 안상수
+    family: 안
+    given: 상수
+  latn:
+    preferred: Ahn Sang-soo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/knowledge_research/collection/collection_detail?artSeq=WORK_0000004904
+    name_used: Ahn Sang-soo
+    note: 롱테일 패스2(웹 검증) — SeMA 영문 소장 — 그래픽디자이너/타이포. high
+    accessed: '2026-06-22'
+status: pending_review

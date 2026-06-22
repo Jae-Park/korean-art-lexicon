@@ -1,0 +1,16 @@
+id: person.park-gye-hoon
+name:
+  ko:
+    full: 박계훈
+    family: 박
+    given: 계훈
+  latn:
+    preferred: Park Gye-hoon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.umgallery.co.kr/portfolio-item/park-gye-hoon/
+    name_used: Park Gye-hoon
+    note: 롱테일 패스2(웹 검증) — UM Gallery. medium
+    accessed: '2026-06-22'
+status: pending_review

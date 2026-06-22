@@ -1,0 +1,16 @@
+id: person.jihye-park
+name:
+  ko:
+    full: 박지혜
+    family: 박
+    given: 지혜
+  latn:
+    preferred: Jihye Park
+role:
+  - aat: '300025103'
+sources:
+  - url: https://jihyeparkartist.com/
+    name_used: Jihye Park
+    note: 롱테일 패스2(웹 검증) — 작가 공식 + MMCA 아트뱅크(동음 위험). medium
+    accessed: '2026-06-22'
+status: pending_review

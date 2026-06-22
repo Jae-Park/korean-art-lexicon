@@ -1,0 +1,16 @@
+id: person.lim-ok-sang
+name:
+  ko:
+    full: 임옥상
+    family: 임
+    given: 옥상
+  latn:
+    preferred: Lim Ok-sang
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202210110001577
+    name_used: Lim Ok-sang
+    note: 롱테일 패스2(웹 검증) — MMCA 개인전. high
+    accessed: '2026-06-22'
+status: pending_review

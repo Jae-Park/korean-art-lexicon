@@ -1,0 +1,16 @@
+id: person.lee-juyong
+name:
+  ko:
+    full: 이주용
+    family: 이
+    given: 주용
+  latn:
+    preferred: Lee Juyong
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.opengallery.co.kr/exhibition/498/
+    name_used: Lee Juyong
+    note: 롱테일 패스2(웹 검증) — Open Gallery(SeMA 북서울전). medium
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.daum-kim
+name:
+  ko:
+    full: 김다움
+    family: 김
+    given: 다움
+  latn:
+    preferred: Daum Kim
+role:
+  - aat: '300025103'
+sources:
+  - url: https://geumcheon.blogspot.com/2022/02/daum-kim.html
+    name_used: Daum Kim
+    note: 롱테일 패스2(웹 검증) — 금천예술공장(MMCA) 레지던시. high
+    accessed: '2026-06-22'
+status: pending_review

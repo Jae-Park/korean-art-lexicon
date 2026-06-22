@@ -1,0 +1,16 @@
+id: person.han-sungwoo
+name:
+  ko:
+    full: 한성우
+    family: 한
+    given: 성우
+  latn:
+    preferred: Han Sungwoo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.e-flux.com/announcements/556991/open-studio-ever-after/
+    name_used: Han Sungwoo
+    note: 롱테일 패스2(웹 검증) — e-flux SeMA 난지. high
+    accessed: '2026-06-22'
+status: pending_review
