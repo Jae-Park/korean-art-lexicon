@@ -135,10 +135,10 @@ institutions:
     name_en: Busan Museum of Art
     domain: art.busan.go.kr
     tech: ".nm CMS 서버렌더. 리스트 /tblTsite07Display/listPastClient.nm?page_no=1~52(백필). 아이템=span.tit+span.date+attr-kval id. 디테일 viewPastClient.nm?id=. ※디테일 dl엔 부문/작품수/장소/문의만 — 작가·로마자 표시 안 됨(검색폼 필드는 DB검색용, 미표시). 영문 페이지 1.9KB 셸. 장소도 외부 섞임."
-    stage: recon
-    coverage: "전시+장소만 (작가 0, 로마자 0). 인물 목표엔 ROI 낮음 — 웹 피더 보류."
+    stage: dropped
+    coverage: "전시+장소만. 인물 수율 구조적으로 거의 0 → 드롭."
     updated: 2026-06-22
-    notes: "⚠️ 정정(2026-06-22): 앞서 'artist_eng 로마자 보유 1순위'는 오판(검색폼 필드를 표시데이터로 착각). 실제 웹은 작가·로마자 미표시. 빌드 보류. 대안 = 부산 오픈데이터 데이터셋(DB엔 artist 있으니 SeMA식 덤프 가능성) 확인, 아니면 person_source_enrich로 803명 로마자 보강."
+    notes: "⚠️ 정정·검증완료(2026-06-22): 'artist_eng 로마자 1순위'는 오판(검색폼 필드 착각). 실측: 디테일 dl엔 부문/작품수/장소/문의만, 작가·로마자 미표시. 36전시 중 개인전 2개(6%)뿐이고 개인전조차 작가는 제목 뒤('제목:작가명')에만. 나머지 94%는 단체·소장품전(멤버 작가 0). 인물 목표 ROI 없음 → 드롭. 전시/org coverage 우선순위 되면 재고."
 
   - key: busan-moca
     name_ko: 부산현대미술관
