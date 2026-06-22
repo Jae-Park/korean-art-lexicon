@@ -13,6 +13,7 @@ import { loadExistingKeys, filterNew } from "./dedup.js";
 import { verifyBatch } from "./verify/index.js";
 import { buildMentionIndex, computeWeight } from "./weight.js";
 import { normInstitution } from "./institutions.js";
+import { isBlacklisted } from "./blacklist.js";
 import { createCandidate, candidateMentionIndex, setWeight, queryReviewable, rowInstitution } from "./notion.js";
 import { writeFileSync, mkdirSync } from "node:fs";
 import { harvest as runHarvest } from "./harvest.js";
@@ -81,7 +82,10 @@ async function mine() {
   const dropped = leads.length - fresh.length;
   log(`new (not in lexicon): ${fresh.length}  (dropped ${dropped}: 이미 등재/배치중복)`);
 
-  let result = fresh;
+  // 블랙리스트(에디터 제외) — 인물 lead를 push 전 차단. 공개 진술 없이 조용히 제외.
+  const blocked = fresh.filter((r) => r.type === "person" && isBlacklisted(r.ko)).map((r) => r.ko);
+  let result = fresh.filter((r) => !(r.type === "person" && isBlacklisted(r.ko)));
+  if (blocked.length) log(`블랙리스트 제외: ${blocked.length}건 (${[...new Set(blocked)].join(", ")})`);
   if (has("--verify")) {
     log(`verify: Tier0(Wikidata)+Tier2(pageMatch), $0, on ${fresh.length} candidates...`);
     result = await verifyBatch(fresh);
@@ -188,7 +192,9 @@ async function gate() {
     byPerson.get(r.dedup_key).rows.push(r);
   }
   const ready = [], needRoman = [], conflict = [];
+  let blHidden = 0;
   for (const [key, p] of byPerson) {
+    if (isBlacklisted(p.ko)) { blHidden++; continue; } // 블랙리스트 인물은 gate에 안 띄움
     const insts = new Set(), romans = new Set(), sources = new Set();
     for (const r of p.rows) {
       const inst = rowInstitution(r);
