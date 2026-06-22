@@ -18,6 +18,10 @@ role:
 external_ids:
   wikidata: Q7640082
 sources:
+  - url: https://www.moma.org/magazine/articles/582
+    name_used: Sung Hwan Kim
+    note: MoMA — 본인 표기(재미)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q7640082
     name_used: Sung Hwan Kim
     note: Wikidata Q7640082 — 로마자 표기 및 동일성 출처

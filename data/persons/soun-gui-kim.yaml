@@ -24,6 +24,10 @@ role:
 external_ids:
   wikidata: Q108478022
 sources:
+  - url: https://www.centrepompidou.fr/en/ressources/personne/ck4aM8
+    name_used: Soun-Gui Kim
+    note: Centre Pompidou 소장(재불)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q108478022
     name_used: Soun-Gui Kim
     note: Wikidata Q108478022 — 로마자 표기 및 동일성 출처

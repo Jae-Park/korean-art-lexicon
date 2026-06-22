@@ -18,6 +18,10 @@ role:
 external_ids:
   wikidata: Q108477961
 sources:
+  - url: https://mediacityseoul.kr/en/yesterday/participants/yang-ah-ham
+    name_used: Yang Ah Ham
+    note: 서울미디어시티비엔날레(SeMA)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q108477961
     name_used: Yang Ah Ham
     note: Wikidata Q108477961 — 로마자 표기 및 동일성 출처

@@ -11,6 +11,10 @@ role:
 external_ids:
   wikidata: Q12588406
 sources:
+  - url: https://spencerart.ku.edu/art/collections-online/artist/28171
+    name_used: Kim In-seung
+    note: Spencer Museum of Art
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q12588406
     name_used: Kim In-seung
     note: Wikidata Q12588406 — 로마자/동일성

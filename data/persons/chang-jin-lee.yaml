@@ -18,6 +18,10 @@ role:
 external_ids:
   wikidata: Q19665451
 sources:
+  - url: https://www.changjinlee.net/
+    name_used: Chang-Jin Lee
+    note: 작가 공식 사이트(재미)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q19665451
     name_used: Chang-Jin Lee
     note: Wikidata Q19665451 — 로마자 표기 및 동일성 출처

@@ -36,6 +36,10 @@ role:
 external_ids:
   wikidata: Q51593288
 sources:
+  - url: https://www.kukjegallery.com/artists/view?seq=342
+    name_used: Chung Chang-Sup
+    note: 국제갤러리(전속)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q51593288
     name_used: Chung Chang-sup
     note: Wikidata Q51593288 — 로마자 표기 및 동일성 출처

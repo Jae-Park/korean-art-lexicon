@@ -11,6 +11,10 @@ role:
 external_ids:
   wikidata: Q101250887
 sources:
+  - url: https://www.tate.org.uk/art/artists/ayoung-kim-32937
+    name_used: Ayoung Kim
+    note: Tate 소장
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q101250887
     name_used: Ayoung Kim
     note: Wikidata Q101250887 — 로마자 표기 및 동일성 출처

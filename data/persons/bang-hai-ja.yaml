@@ -18,6 +18,10 @@ role:
 external_ids:
   wikidata: Q56251673
 sources:
+  - url: https://www.e-flux.com/announcements/6787132/bang-hai-jasowing-light-across-heaven-and-earth
+    name_used: Bang Hai Ja
+    note: MMCA 회고전 공지(e-flux)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q56251673
     name_used: Bang Hai Ja
     note: Wikidata Q56251673 — 로마자 표기 및 동일성 출처

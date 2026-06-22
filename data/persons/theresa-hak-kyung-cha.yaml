@@ -24,6 +24,10 @@ role:
 external_ids:
   wikidata: Q7782868
 sources:
+  - url: https://whitney.org/artists/19864
+    name_used: Theresa Hak Kyung Cha
+    note: Whitney Museum — 본인 표기(재미)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q7782868
     name_used: Theresa Hak Kyung Cha
     note: Wikidata Q7782868 — 로마자 표기 및 동일성 출처

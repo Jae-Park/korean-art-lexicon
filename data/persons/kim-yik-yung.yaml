@@ -5,12 +5,23 @@ name:
     family: 김
     given: 익영
   latn:
-    preferred: Kim Yik Yung
+    preferred: Kim Yik-Yung
+  variants:
+    - form: Kim Yik Yung
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q6409619
 sources:
+  - url: https://www.solunafineart.com/kim-yik-yung
+    name_used: Kim Yik-Yung
+    note: Soluna Fine Art — 하이픈
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q6409619
     name_used: Kim Yik Yung
     note: Wikidata Q6409619 — 로마자 표기 및 동일성 출처

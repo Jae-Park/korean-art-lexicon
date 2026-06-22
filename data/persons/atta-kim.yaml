@@ -11,6 +11,10 @@ role:
 external_ids:
   wikidata: Q399762
 sources:
+  - url: https://www.icp.org/exhibitions/atta-kim-on-air
+    name_used: Atta Kim
+    note: ICP — 본인 표기(재미)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q399762
     name_used: Atta Kim
     note: Wikidata Q399762 — 로마자 표기 및 동일성 출처

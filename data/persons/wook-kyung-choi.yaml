@@ -18,6 +18,10 @@ role:
 external_ids:
   wikidata: Q97190987
 sources:
+  - url: https://www.kukjegallery.com/artists/view?seq=272
+    name_used: Wook-kyung Choi
+    note: 국제갤러리
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q97190987
     name_used: Wook-kyung Choi
     note: Wikidata Q97190987 — 로마자 표기 및 동일성 출처

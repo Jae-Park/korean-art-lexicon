@@ -1,0 +1,79 @@
+id: person.kim-eunho
+name:
+  ko:
+    full: 김은호
+    family: 김
+    given: 은호
+    hanja: 金殷鎬
+  latn:
+    preferred: Kim Eunho
+  variants:
+    - form: Kim Eun-ho
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
+nationality: KR
+birth_year: 1892
+death_year: 1979
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q12588355
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=110
+    name_used: Kim Eunho
+    note: MMCA 소장품 — 무하이픈
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000
+    name_used: 김은호
+    note: 'MMCA 전시 ''대한제국의 미술: 빛의 길을 꿈꾸다'' 참여작가 (덕수궁, 2018)'
+    accessed: '2026-06-11'
+  - url: https://en.wikipedia.org/wiki/Kim_Eun-ho_(painter)
+    name_used: Kim Eun-ho
+    note: Wikipedia 영문(호 이당)
+    accessed: '2026-06-12'
+  - url: https://www.artnet.com/artists/kim-eun-ho/
+    name_used: Kim Eun-Ho
+    note: Artnet
+    accessed: '2026-06-12'
+  - url: https://en.wikipedia.org/wiki/Kim_Ki-chang
+    name_used: Kim Eun-ho
+    note: Wikipedia article on Kim Ki-chang, identifying Kim Eun-ho as his teacher.
+    accessed: '2026-06-12'
+  - url: https://en.wikipedia.org/wiki/Park_Seo-bo
+    name_used: Kim Eun-ho
+    note: Wikipedia article on Park Seo-bo, mentioning Korean artist Kim Eun-ho in early-life context.
+    accessed: '2026-06-12'
+  - url: https://www.culture.go.kr/portal/cltKnw/artCont/view.do?menuNo=200022&knwldgSn=7441&knwldgClsfCd=D612
+    name_used: 김은호
+    note: |-
+      국내 출처: 문화포털
+      www.culture.go.kr›portal
+    accessed: '2026-06-12'
+  - url: https://encykorea.aks.ac.kr/Article/E0010131
+    name_used: 김은호
+    note: |-
+      국내 출처: 한국민족문화대백과사전
+      encykorea.aks.ac.kr›Article
+    accessed: '2026-06-12'
+  - url: https://www.donga.com/archive/newslibrary/interview?cid=4475557
+    name_used: 김은호
+    note: |-
+      국내 출처: 동아일보
+      www.donga.com›archive
+    accessed: '2026-06-12'
+  - url: https://www.joongang.co.kr/article/25432972
+    name_used: 김은호
+    note: '국내 출처: 김은호 아들 “어진화사였던 부친, 김홍도 화첩으로 후학 가르쳐”'
+    accessed: '2026-06-12'
+  - url: https://namgaram.or.kr/artist/%EC%9D%B4%EB%8B%B9-%EA%B9%80%EC%9D%80%ED%98%B8-%E4%BB%A5%E5%A0%82-%EF%A4%8A%E6%AE%B7%E9%8E%AC/
+    name_used: 김은호
+    note: namgaram.or.kr — 김은호 참조
+    accessed: '2026-06-16'
+  - url: https://contents.history.go.kr/front/km/view.do?levelId=km_021_0060_0020_0020_0030
+    name_used: 김은호
+    note: contents.history.go.kr — 김은호 참조
+    accessed: '2026-06-16'
+status: reviewed

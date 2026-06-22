@@ -5,7 +5,7 @@ name:
     family: 서
     given: 세옥
   latn:
-    preferred: Suh Se-ok
+    preferred: Suh Se Ok
   variants:
     - form: Sŏ Se-ok
       lang: en
@@ -19,17 +19,21 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
-    - form: Suh Se Ok
+    - form: Suh Se-ok
       lang: en
       script: Latn
       type: alternate
-      source: Wikidata
+      source: Wikidata (영문 라벨)
       accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q16170392
 sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201511110000357
+    name_used: Suh Se Ok
+    note: MMCA 기증작품전 + 갤러리현대 — 무하이픈
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q16170392
     name_used: Suh Se-ok
     note: Wikidata Q16170392 — 로마자 표기 및 동일성 출처

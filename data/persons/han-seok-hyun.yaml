@@ -11,6 +11,10 @@ role:
 external_ids:
   wikidata: Q110797029
 sources:
+  - url: https://www.kanazawa21.jp/altering-home/en/artists/han-seok-hyun/index.html
+    name_used: Han Seok Hyun
+    note: 가나자와21 비엔날레
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q110797029
     name_used: Han Seok Hyun
     note: Wikidata Q110797029 — 로마자 표기 및 동일성 출처

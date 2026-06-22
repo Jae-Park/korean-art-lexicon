@@ -11,6 +11,10 @@ role:
 external_ids:
   wikidata: Q22276206
 sources:
+  - url: https://www.moma.org/artists/3096
+    name_used: Tchah-Sup Kim
+    note: MoMA 소장 — 본인 표기
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q22276206
     name_used: Tchah-Sup Kim
     note: Wikidata Q22276206 — 로마자 표기 및 동일성 출처

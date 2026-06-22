@@ -18,6 +18,10 @@ role:
 external_ids:
   wikidata: Q112766857
 sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201012280000009
+    name_used: Kim Ki-chang
+    note: MMCA 근대미술 명품전
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q112766857
     name_used: Kim Ki-chang
     note: Wikidata Q112766857 — 로마자 표기 및 동일성 출처

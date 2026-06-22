@@ -5,15 +5,9 @@ name:
     family: 김
     given: 창열
   latn:
-    preferred: Kim Tschang Yeul
+    preferred: Kim Tschang-Yeul
   variants:
     - form: Tschang-yeul Kim
-      lang: en
-      script: Latn
-      type: alternate
-      source: Wikidata
-      accessed: '2026-06-22'
-    - form: Kim Tschang-Yeul
       lang: en
       script: Latn
       type: alternate
@@ -31,11 +25,21 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
+    - form: Kim Tschang Yeul
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q6409518
 sources:
+  - url: https://tinakimgallery.com/artists/33-kim-tschang-yeul/
+    name_used: Kim Tschang-Yeul
+    note: MMCA + Tina Kim Gallery — 하이픈(본인 표기)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q6409518
     name_used: Kim Tschang Yeul
     note: Wikidata Q6409518 — 로마자 표기 및 동일성 출처

@@ -13,11 +13,21 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
+    - form: RHEE Seundja
+      lang: en
+      script: Latn
+      type: alternate
+      source: MMCA (Family-Given)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q166421
 sources:
+  - url: https://www.jinju.go.kr/rheesjmuseum/
+    name_used: Seund Ja Rhee
+    note: 진주시립이성자미술관(공식) — 본인 서명형(재불)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q166421
     name_used: Seund Ja Rhee
     note: Wikidata Q166421 — 로마자 표기 및 동일성 출처

@@ -11,6 +11,10 @@ role:
 external_ids:
   wikidata: Q21060122
 sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=202403220001771
+    name_used: Chang Jia
+    note: MMCA 《연결된 신체》
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q21060122
     name_used: Chang Jia
     note: Wikidata Q21060122 — 로마자 표기 및 동일성 출처

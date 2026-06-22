@@ -1,18 +1,12 @@
-id: person.choi-byung-so
+id: person.choi-byungso
 name:
   ko:
     full: 최병소
     family: 최
     given: 병소
   latn:
-    preferred: Choi Byung-so
+    preferred: Choi Byungso
   variants:
-    - form: Choi Byungso
-      lang: en
-      script: Latn
-      type: alternate
-      source: Wikidata
-      accessed: '2026-06-22'
     - form: Byung-so Choi
       lang: en
       script: Latn
@@ -31,11 +25,21 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
+    - form: Choi Byung-so
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q140264972
 sources:
+  - url: https://www.arariogallery.com/artists/160-choi-byungso/
+    name_used: Choi Byungso
+    note: 아라리오갤러리(전속) — 무하이픈
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q140264972
     name_used: Choi Byung-so
     note: Wikidata Q140264972 — 로마자 표기 및 동일성 출처

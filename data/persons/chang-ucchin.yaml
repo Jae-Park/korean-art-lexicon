@@ -18,6 +18,10 @@ role:
 external_ids:
   wikidata: Q5071680
 sources:
+  - url: https://www.yangju.go.kr/changucchin/contents.do?key=1999
+    name_used: Chang Ucchin
+    note: 양주시립장욱진미술관(공식)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q5071680
     name_used: Chang Ucchin
     note: Wikidata Q5071680 — 로마자 표기 및 동일성 출처

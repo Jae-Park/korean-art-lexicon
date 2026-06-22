@@ -18,6 +18,10 @@ role:
 external_ids:
   wikidata: Q111182173
 sources:
+  - url: https://www.gallerysimon.com/artists/shin-il-kim
+    name_used: Shin il Kim
+    note: 갤러리시몬(전속) — 본인 표기
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q111182173
     name_used: Shin il Kim
     note: Wikidata Q111182173 — 로마자 표기 및 동일성 출처
