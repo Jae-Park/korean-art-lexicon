@@ -1,16 +1,27 @@
-id: person.lee-yu-tae
+id: person.lee-yootae
 name:
   ko:
     full: 이유태
     family: 이
     given: 유태
   latn:
-    preferred: Lee Yu-tae
+    preferred: Lee Yootae
+  variants:
+    - form: Lee Yu-tae
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata/RR (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q16180856
 sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3891
+    name_used: Lee Yootae
+    note: MMCA 소장품 'LEE Yootae' — 출처충실
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q16180856
     name_used: Lee Yu-tae
     note: Wikidata Q16180856 — 로마자 표기 및 동일성 출처

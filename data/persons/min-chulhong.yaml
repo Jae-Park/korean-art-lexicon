@@ -1,16 +1,27 @@
-id: person.min-cheol-hong
+id: person.min-chulhong
 name:
   ko:
     full: 민철홍
     family: 민
     given: 철홍
   latn:
-    preferred: Min Cheol Hong
+    preferred: Min Chulhong
+  variants:
+    - form: Min Cheol Hong
+      lang: en
+      script: Latn
+      type: alternate
+      source: RR 하이픈형(현행)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q109459841
 sources:
+  - url: https://www.mmcaresearch.kr/terms/view.do?fid=2182
+    name_used: Min Chulhong
+    note: MMCA Research Lab 'Min Chulhong' — 융합형(출처충실)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q109459841
     name_used: Min Cheol Hong
     note: Wikidata Q109459841 — 로마자 표기 및 동일성 출처

@@ -11,6 +11,10 @@ role:
 external_ids:
   wikidata: Q7137912
 sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=283
+    name_used: Park Rehyun
+    note: MMCA 소장품 'PARK Rehyun' — 표기 일치
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q7137912
     name_used: Park Rehyun
     note: Wikidata Q7137912 — 로마자 표기 및 동일성 출처

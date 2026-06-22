@@ -1,16 +1,27 @@
-id: person.park-saeng-kwang
+id: person.park-saengkwang
 name:
   ko:
     full: 박생광
     family: 박
     given: 생광
   latn:
-    preferred: Park Saeng-kwang
+    preferred: Park Saengkwang
+  variants:
+    - form: Park Saeng-kwang
+      lang: en
+      script: Latn
+      type: alternate
+      source: RR 하이픈형(현행)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q16174513
 sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=10171
+    name_used: Park Saengkwang
+    note: MMCA 소장품 'PARK Saengkwang' + 샌디에이고미술관 — 무하이픈
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q16174513
     name_used: Park Saeng-kwang
     note: Wikidata Q16174513 — 로마자 표기 및 동일성 출처

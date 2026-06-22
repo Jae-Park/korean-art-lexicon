@@ -18,6 +18,10 @@ role:
 external_ids:
   wikidata: Q16247503
 sources:
+  - url: https://www.galleryhyundai.com/artist/view/20000000065
+    name_used: Nam Kwan
+    note: 갤러리현대 — 재불 추상화가
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q16247503
     name_used: Nam Kwan
     note: Wikidata Q16247503 — 로마자 표기 및 동일성 출처

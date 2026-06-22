@@ -6,11 +6,22 @@ name:
     given: 상희
   latn:
     preferred: Sanghee Song
+  variants:
+    - form: Song Sanghee
+      lang: en
+      script: Latn
+      type: alternate
+      source: 코리아 아티스트 프라이즈(MMCA) Family-Given
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q21402307
 sources:
+  - url: https://m.doosanartcenter.com/en/exhibit/artist/252
+    name_used: Sanghee Song
+    note: 두산아트센터 — 본인 국제 표기
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q21402307
     name_used: Sanghee Song
     note: Wikidata Q21402307 — 로마자 표기 및 동일성 출처

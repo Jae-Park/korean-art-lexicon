@@ -5,7 +5,7 @@ name:
     family: 오
     given: 치균
   latn:
-    preferred: Oh Chi-Gyun
+    preferred: Oh Chi-gyun
   variants:
     - form: Chi-Gyun Oh
       lang: en
@@ -24,6 +24,10 @@ role:
 external_ids:
   wikidata: Q112605126
 sources:
+  - url: https://www.koreaherald.com/article/3390947
+    name_used: Oh Chi-gyun
+    note: 코리아헤럴드 — 케이싱(Chi-Gyun→Chi-gyun)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q112605126
     name_used: Oh Chi-Gyun
     note: Wikidata Q112605126 — 로마자 표기 및 동일성 출처

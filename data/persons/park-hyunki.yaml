@@ -1,16 +1,31 @@
-id: person.park-hyun-ki
+id: person.park-hyunki
 name:
   ko:
     full: 박현기
     family: 박
     given: 현기
   latn:
-    preferred: Park Hyun-ki
+    preferred: Park Hyunki
+  variants:
+    - form: Park Hyun-ki
+      lang: en
+      script: Latn
+      type: alternate
+      source: RR 하이픈형(현행)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q20742226
 sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201501210000197
+    name_used: Park Hyunki
+    note: MMCA 영문 《만다라》 + MoMA — 무하이픈(출처충실)
+    accessed: '2026-06-22'
+  - url: https://www.galleryhyundai.com/artist/view/20000000083
+    name_used: Park Hyunki
+    note: 갤러리현대 박현기 에스테이트
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q20742226
     name_used: Park Hyun-ki
     note: Wikidata Q20742226 — 로마자 표기 및 동일성 출처
