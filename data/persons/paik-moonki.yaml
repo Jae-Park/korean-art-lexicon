@@ -1,0 +1,16 @@
+id: person.paik-moonki
+name:
+  ko:
+    full: 백문기
+    family: 백
+    given: 문기
+  latn:
+    preferred: Paik Moonki
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=168
+    name_used: Paik Moonki
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

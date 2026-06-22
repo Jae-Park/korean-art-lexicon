@@ -1,0 +1,16 @@
+id: person.moon-bongsun
+name:
+  ko:
+    full: 문봉선
+    family: 문
+    given: 봉선
+  latn:
+    preferred: Moon Bongsun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3731
+    name_used: Moon Bongsun
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

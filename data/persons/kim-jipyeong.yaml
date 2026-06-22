@@ -1,0 +1,16 @@
+id: person.kim-jipyeong
+name:
+  ko:
+    full: 김지평
+    family: 김
+    given: 지평
+  latn:
+    preferred: Kim Jipyeong
+role:
+  - aat: '300025103'
+sources:
+  - url: http://www.altpool.org/_v3/en/board/view.asp?b_type=8&board_id=2159
+    name_used: Kim Jipyeong
+    note: 아트스페이스 풀 영문판(전시 동시발행) — 기관 표기 · 승격후보
+    accessed: '2026-06-22'
+status: pending_review

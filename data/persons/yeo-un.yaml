@@ -1,0 +1,16 @@
+id: person.yeo-un
+name:
+  ko:
+    full: 여운
+    family: 여
+    given: 운
+  latn:
+    preferred: Yeo Un
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=4576
+    name_used: Yeo Un
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

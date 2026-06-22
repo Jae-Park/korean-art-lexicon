@@ -1,0 +1,16 @@
+id: person.choi-minhwa
+name:
+  ko:
+    full: 최민화
+    family: 최
+    given: 민화
+  latn:
+    preferred: Choi Minhwa
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5823
+    name_used: Choi Minhwa
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

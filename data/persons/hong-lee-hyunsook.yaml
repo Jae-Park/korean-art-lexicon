@@ -1,0 +1,16 @@
+id: person.hong-lee-hyunsook
+name:
+  ko:
+    full: 홍이현숙
+    family: 홍
+    given: 이현숙
+  latn:
+    preferred: Hong Lee Hyunsook
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=15393
+    name_used: Hong Lee Hyunsook
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 동음이의 검증필요
+    accessed: '2026-06-22'
+status: pending_review

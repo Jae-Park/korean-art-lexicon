@@ -1,0 +1,16 @@
+id: person.ji-seokcheol
+name:
+  ko:
+    full: 지석철
+    family: 지
+    given: 석철
+  latn:
+    preferred: Ji Seokcheol
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2863
+    name_used: Ji Seokcheol
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

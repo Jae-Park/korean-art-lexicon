@@ -1,0 +1,16 @@
+id: person.oh-inhwan
+name:
+  ko:
+    full: 오인환
+    family: 오
+    given: 인환
+  latn:
+    preferred: Oh Inhwan
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=8834
+    name_used: Oh Inhwan
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

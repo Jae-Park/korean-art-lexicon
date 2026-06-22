@@ -1,0 +1,16 @@
+id: person.kang-eunyup
+name:
+  ko:
+    full: 강은엽
+    family: 강
+    given: 은엽
+  latn:
+    preferred: Kang Eunyup
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2010
+    name_used: Kang Eunyup
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

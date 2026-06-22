@@ -1,0 +1,16 @@
+id: person.yeo-taemyong
+name:
+  ko:
+    full: 여태명
+    family: 여
+    given: 태명
+  latn:
+    preferred: Yeo Taemyong
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5412
+    name_used: Yeo Taemyong
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

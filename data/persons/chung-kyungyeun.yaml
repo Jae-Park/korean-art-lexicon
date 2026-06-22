@@ -1,0 +1,16 @@
+id: person.chung-kyungyeun
+name:
+  ko:
+    full: 정경연
+    family: 정
+    given: 경연
+  latn:
+    preferred: Chung Kyungyeun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2056
+    name_used: Chung Kyungyeun
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

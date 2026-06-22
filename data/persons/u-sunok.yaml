@@ -1,0 +1,16 @@
+id: person.u-sunok
+name:
+  ko:
+    full: 우순옥
+    family: 우
+    given: 순옥
+  latn:
+    preferred: U Sunok
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3030
+    name_used: U Sunok
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

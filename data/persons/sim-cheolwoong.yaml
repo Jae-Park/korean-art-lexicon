@@ -1,0 +1,16 @@
+id: person.sim-cheolwoong
+name:
+  ko:
+    full: 심철웅
+    family: 심
+    given: 철웅
+  latn:
+    preferred: Sim Cheolwoong
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=6861
+    name_used: Sim Cheolwoong
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

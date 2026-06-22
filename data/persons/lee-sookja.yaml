@@ -1,0 +1,16 @@
+id: person.lee-sookja
+name:
+  ko:
+    full: 이숙자
+    family: 이
+    given: 숙자
+  latn:
+    preferred: Lee Sookja
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2179
+    name_used: Lee Sookja
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.erkan-amp-amp-ouml-zgen
+name:
+  ko:
+    full: 에르칸 오즈겐
+    family: 에
+    given: 르칸 오즈겐
+  latn:
+    preferred: Erkan &amp;amp;Ouml;Zgen
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=32134
+    name_used: Erkan &amp;amp;Ouml;Zgen
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

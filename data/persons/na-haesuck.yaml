@@ -1,0 +1,16 @@
+id: person.na-haesuck
+name:
+  ko:
+    full: 나혜석
+    family: 나
+    given: 혜석
+  latn:
+    preferred: Na Haesuck
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=10053
+    name_used: Na Haesuck
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

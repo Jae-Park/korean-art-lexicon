@@ -1,0 +1,16 @@
+id: person.roh-choonghyun
+name:
+  ko:
+    full: 노충현
+    family: 노
+    given: 충현
+  latn:
+    preferred: Roh Choonghyun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=7123
+    name_used: Roh Choonghyun
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

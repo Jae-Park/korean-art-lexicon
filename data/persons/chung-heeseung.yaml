@@ -1,0 +1,16 @@
+id: person.chung-heeseung
+name:
+  ko:
+    full: 정희승
+    family: 정
+    given: 희승
+  latn:
+    preferred: Chung Heeseung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=8189
+    name_used: Chung Heeseung
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

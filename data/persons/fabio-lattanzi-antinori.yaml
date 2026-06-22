@@ -1,0 +1,16 @@
+id: person.fabio-lattanzi-antinori
+name:
+  ko:
+    full: 파비오 라탄치 안티노리
+    family: 파
+    given: 비오 라탄치 안티노리
+  latn:
+    preferred: Fabio Lattanzi Antinori
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=8622
+    name_used: Fabio Lattanzi Antinori
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

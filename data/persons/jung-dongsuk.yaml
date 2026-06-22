@@ -1,0 +1,16 @@
+id: person.jung-dongsuk
+name:
+  ko:
+    full: 정동석
+    family: 정
+    given: 동석
+  latn:
+    preferred: Jung Dongsuk
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5567
+    name_used: Jung Dongsuk
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 동음이의 검증필요
+    accessed: '2026-06-22'
+status: pending_review

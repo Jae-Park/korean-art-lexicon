@@ -1,0 +1,16 @@
+id: person.jieun-uhm
+name:
+  ko:
+    full: 엄지은
+    family: 엄
+    given: 지은
+  latn:
+    preferred: Jieun Uhm
+role:
+  - aat: '300025103'
+sources:
+  - url: http://www.altpool.org/_v3/en/board/view.asp?b_type=8&board_id=2063
+    name_used: Jieun Uhm
+    note: 아트스페이스 풀 영문판(전시 동시발행) — 기관 표기 · 승격후보
+    accessed: '2026-06-22'
+status: pending_review

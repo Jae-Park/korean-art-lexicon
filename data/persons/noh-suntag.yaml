@@ -1,0 +1,16 @@
+id: person.noh-suntag
+name:
+  ko:
+    full: 노순택
+    family: 노
+    given: 순택
+  latn:
+    preferred: Noh Suntag
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5945
+    name_used: Noh Suntag
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

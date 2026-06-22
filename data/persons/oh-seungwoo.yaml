@@ -1,0 +1,16 @@
+id: person.oh-seungwoo
+name:
+  ko:
+    full: 오승우
+    family: 오
+    given: 승우
+  latn:
+    preferred: Oh Seungwoo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=307
+    name_used: Oh Seungwoo
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

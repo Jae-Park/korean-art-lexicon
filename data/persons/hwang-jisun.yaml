@@ -1,0 +1,16 @@
+id: person.hwang-jisun
+name:
+  ko:
+    full: 황지선
+    family: 황
+    given: 지선
+  latn:
+    preferred: Hwang Jisun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3425
+    name_used: Hwang Jisun
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

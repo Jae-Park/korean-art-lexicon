@@ -1,0 +1,16 @@
+id: person.bernar-venet
+name:
+  ko:
+    full: 베르나르 브네
+    family: 베
+    given: 르나르 브네
+  latn:
+    preferred: Bernar Venet
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5965
+    name_used: Bernar Venet
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

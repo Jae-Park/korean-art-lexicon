@@ -1,0 +1,16 @@
+id: person.jung-jaeho
+name:
+  ko:
+    full: 정재호
+    family: 정
+    given: 재호
+  latn:
+    preferred: Jung Jaeho
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5993
+    name_used: Jung Jaeho
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

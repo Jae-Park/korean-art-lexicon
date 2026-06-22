@@ -1,0 +1,16 @@
+id: person.anri-sala
+name:
+  ko:
+    full: 안리 살라
+    family: 안
+    given: 리 살라
+  latn:
+    preferred: Anri Sala
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=16213
+    name_used: Anri Sala
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

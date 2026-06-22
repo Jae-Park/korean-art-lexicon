@@ -1,0 +1,16 @@
+id: person.back-seungwoo
+name:
+  ko:
+    full: 백승우
+    family: 백
+    given: 승우
+  latn:
+    preferred: Back Seungwoo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=6815
+    name_used: Back Seungwoo
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

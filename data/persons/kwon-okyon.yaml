@@ -1,0 +1,16 @@
+id: person.kwon-okyon
+name:
+  ko:
+    full: 권옥연
+    family: 권
+    given: 옥연
+  latn:
+    preferred: Kwon Okyon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3985
+    name_used: Kwon Okyon
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

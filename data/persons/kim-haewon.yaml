@@ -1,0 +1,16 @@
+id: person.kim-haewon
+name:
+  ko:
+    full: 김혜원
+    family: 김
+    given: 혜원
+  latn:
+    preferred: Kim Haewon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=1422
+    name_used: Kim Haewon
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.lee-seungil
+name:
+  ko:
+    full: 이승일
+    family: 이
+    given: 승일
+  latn:
+    preferred: Lee Seungil
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=4700
+    name_used: Lee Seungil
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

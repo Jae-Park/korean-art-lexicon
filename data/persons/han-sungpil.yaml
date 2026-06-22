@@ -1,0 +1,16 @@
+id: person.han-sungpil
+name:
+  ko:
+    full: 한성필
+    family: 한
+    given: 성필
+  latn:
+    preferred: Han Sungpil
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=6837
+    name_used: Han Sungpil
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.koh-jeongsoo
+name:
+  ko:
+    full: 고정수
+    family: 고
+    given: 정수
+  latn:
+    preferred: Koh Jeongsoo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2206
+    name_used: Koh Jeongsoo
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

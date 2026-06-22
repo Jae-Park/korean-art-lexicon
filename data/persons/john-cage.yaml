@@ -1,0 +1,16 @@
+id: person.john-cage
+name:
+  ko:
+    full: 존 케이지
+    family: 존
+    given: ' 케이지'
+  latn:
+    preferred: John Cage
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3272
+    name_used: John Cage
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

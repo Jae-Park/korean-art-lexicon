@@ -1,0 +1,16 @@
+id: person.keum-hyewon
+name:
+  ko:
+    full: 금혜원
+    family: 금
+    given: 혜원
+  latn:
+    preferred: Keum Hyewon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=8994
+    name_used: Keum Hyewon
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

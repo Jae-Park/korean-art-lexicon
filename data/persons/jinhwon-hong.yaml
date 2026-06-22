@@ -1,0 +1,16 @@
+id: person.jinhwon-hong
+name:
+  ko:
+    full: 홍진훤
+    family: 홍
+    given: 진훤
+  latn:
+    preferred: Jinhwon Hong
+role:
+  - aat: '300025103'
+sources:
+  - url: http://www.altpool.org/_v3/en/board/view.asp?b_type=8&board_id=2091
+    name_used: Jinhwon Hong
+    note: 아트스페이스 풀 영문판(전시 동시발행) — 기관 표기 · 승격후보
+    accessed: '2026-06-22'
+status: pending_review

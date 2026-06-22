@@ -1,0 +1,16 @@
+id: person.na-hyun
+name:
+  ko:
+    full: 나현
+    family: 나
+    given: 현
+  latn:
+    preferred: Na Hyun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=7915
+    name_used: Na Hyun
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.gum-nuri
+name:
+  ko:
+    full: 금누리
+    family: 금
+    given: 누리
+  latn:
+    preferred: Gum Nuri
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2315
+    name_used: Gum Nuri
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

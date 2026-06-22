@@ -1,0 +1,16 @@
+id: person.kim-jungheun
+name:
+  ko:
+    full: 김정헌
+    family: 김
+    given: 정헌
+  latn:
+    preferred: Kim Jungheun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3487
+    name_used: Kim Jungheun
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

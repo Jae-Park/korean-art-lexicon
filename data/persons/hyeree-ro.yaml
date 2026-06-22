@@ -1,0 +1,16 @@
+id: person.hyeree-ro
+name:
+  ko:
+    full: 노혜리
+    family: 노
+    given: 혜리
+  latn:
+    preferred: Hyeree Ro
+role:
+  - aat: '300025103'
+sources:
+  - url: http://www.altpool.org/_v3/en/board/view.asp?b_type=8&board_id=2112
+    name_used: Hyeree Ro
+    note: 아트스페이스 풀 영문판(전시 동시발행) — 기관 표기 · 승격후보
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.ahn-byeongseok
+name:
+  ko:
+    full: 안병석
+    family: 안
+    given: 병석
+  latn:
+    preferred: Ahn Byeongseok
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=1095
+    name_used: Ahn Byeongseok
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.park-choogheum
+name:
+  ko:
+    full: 박충흠
+    family: 박
+    given: 충흠
+  latn:
+    preferred: Park Choogheum
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=1427
+    name_used: Park Choogheum
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

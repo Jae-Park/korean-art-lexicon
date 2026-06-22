@@ -1,0 +1,16 @@
+id: person.cho-sohee
+name:
+  ko:
+    full: 조소희
+    family: 조
+    given: 소희
+  latn:
+    preferred: Cho Sohee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=6855
+    name_used: Cho Sohee
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

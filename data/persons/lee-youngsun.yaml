@@ -1,0 +1,16 @@
+id: person.lee-youngsun
+name:
+  ko:
+    full: 이영순
+    family: 이
+    given: 영순
+  latn:
+    preferred: Lee Youngsun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2494
+    name_used: Lee Youngsun
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

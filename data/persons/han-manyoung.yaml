@@ -1,0 +1,16 @@
+id: person.han-manyoung
+name:
+  ko:
+    full: 한만영
+    family: 한
+    given: 만영
+  latn:
+    preferred: Han Manyoung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2384
+    name_used: Han Manyoung
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

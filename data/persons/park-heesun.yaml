@@ -1,0 +1,16 @@
+id: person.park-heesun
+name:
+  ko:
+    full: 박희선
+    family: 박
+    given: 희선
+  latn:
+    preferred: Park Heesun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5958
+    name_used: Park Heesun
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

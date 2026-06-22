@@ -1,0 +1,16 @@
+id: person.hong-sungdo
+name:
+  ko:
+    full: 홍성도
+    family: 홍
+    given: 성도
+  latn:
+    preferred: Hong Sungdo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=6577
+    name_used: Hong Sungdo
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

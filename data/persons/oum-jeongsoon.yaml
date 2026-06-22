@@ -1,0 +1,16 @@
+id: person.oum-jeongsoon
+name:
+  ko:
+    full: 엄정순
+    family: 엄
+    given: 정순
+  latn:
+    preferred: Oum Jeongsoon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=4219
+    name_used: Oum Jeongsoon
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.cho-yanggyu
+name:
+  ko:
+    full: 조양규
+    family: 조
+    given: 양규
+  latn:
+    preferred: Cho Yanggyu
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=8187
+    name_used: Cho Yanggyu
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

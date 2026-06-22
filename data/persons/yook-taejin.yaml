@@ -1,0 +1,16 @@
+id: person.yook-taejin
+name:
+  ko:
+    full: 육태진
+    family: 육
+    given: 태진
+  latn:
+    preferred: Yook Taejin
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5459
+    name_used: Yook Taejin
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

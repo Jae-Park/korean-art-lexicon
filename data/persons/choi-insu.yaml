@@ -1,0 +1,16 @@
+id: person.choi-insu
+name:
+  ko:
+    full: 최인수
+    family: 최
+    given: 인수
+  latn:
+    preferred: Choi Insu
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3153
+    name_used: Choi Insu
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

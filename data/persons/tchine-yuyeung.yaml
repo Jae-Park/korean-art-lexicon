@@ -1,0 +1,16 @@
+id: person.tchine-yuyeung
+name:
+  ko:
+    full: 진유영
+    family: 진
+    given: 유영
+  latn:
+    preferred: Tchine Yuyeung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=479
+    name_used: Tchine Yuyeung
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

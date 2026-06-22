@@ -1,0 +1,16 @@
+id: person.hong-seonwung
+name:
+  ko:
+    full: 홍선웅
+    family: 홍
+    given: 선웅
+  latn:
+    preferred: Hong Seonwung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5834
+    name_used: Hong Seonwung
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

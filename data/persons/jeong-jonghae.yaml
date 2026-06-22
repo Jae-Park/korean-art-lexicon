@@ -1,0 +1,16 @@
+id: person.jeong-jonghae
+name:
+  ko:
+    full: 정종해
+    family: 정
+    given: 종해
+  latn:
+    preferred: Jeong Jonghae
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3556
+    name_used: Jeong Jonghae
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

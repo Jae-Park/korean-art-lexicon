@@ -1,0 +1,16 @@
+id: person.lee-dongi
+name:
+  ko:
+    full: 이동기
+    family: 이
+    given: 동기
+  latn:
+    preferred: Lee Dongi
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5199
+    name_used: Lee Dongi
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

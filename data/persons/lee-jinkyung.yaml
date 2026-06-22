@@ -1,0 +1,16 @@
+id: person.lee-jinkyung
+name:
+  ko:
+    full: 이진경
+    family: 이
+    given: 진경
+  latn:
+    preferred: Lee Jinkyung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=18089
+    name_used: Lee Jinkyung
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

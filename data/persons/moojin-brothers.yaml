@@ -1,0 +1,16 @@
+id: person.moojin-brothers
+name:
+  ko:
+    full: 무진형제
+    family: 무
+    given: 진형제
+  latn:
+    preferred: Moojin Brothers
+role:
+  - aat: '300025103'
+sources:
+  - url: http://www.altpool.org/_v3/en/board/view.asp?b_type=8&board_id=2170
+    name_used: Moojin Brothers
+    note: 아트스페이스 풀 영문판(전시 동시발행) — 기관 표기 · 승격후보
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.hwang-gyutae
+name:
+  ko:
+    full: 황규태
+    family: 황
+    given: 규태
+  latn:
+    preferred: Hwang Gyutae
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2967
+    name_used: Hwang Gyutae
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

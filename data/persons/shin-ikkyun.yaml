@@ -1,0 +1,16 @@
+id: person.shin-ikkyun
+name:
+  ko:
+    full: 신익균
+    family: 신
+    given: 익균
+  latn:
+    preferred: Shin Ikkyun
+role:
+  - aat: '300025103'
+sources:
+  - url: http://www.altpool.org/_v3/en/board/view.asp?b_type=8&board_id=2159
+    name_used: Shin Ikkyun
+    note: 아트스페이스 풀 영문판(전시 동시발행) — 기관 표기 · 승격후보
+    accessed: '2026-06-22'
+status: pending_review

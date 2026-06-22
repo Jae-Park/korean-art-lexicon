@@ -1,0 +1,16 @@
+id: person.moon-shin
+name:
+  ko:
+    full: 문신
+    family: 문
+    given: 신
+  latn:
+    preferred: Moon Shin
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2106
+    name_used: Moon Shin
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

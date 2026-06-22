@@ -1,0 +1,16 @@
+id: person.zin-kijong
+name:
+  ko:
+    full: 진기종
+    family: 진
+    given: 기종
+  latn:
+    preferred: Zin Kijong
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=6653
+    name_used: Zin Kijong
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

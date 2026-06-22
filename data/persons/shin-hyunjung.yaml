@@ -1,0 +1,16 @@
+id: person.shin-hyunjung
+name:
+  ko:
+    full: 신현중
+    family: 신
+    given: 현중
+  latn:
+    preferred: Shin Hyunjung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2313
+    name_used: Shin Hyunjung
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

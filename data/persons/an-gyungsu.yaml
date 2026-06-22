@@ -1,0 +1,16 @@
+id: person.an-gyungsu
+name:
+  ko:
+    full: 안경수
+    family: 안
+    given: 경수
+  latn:
+    preferred: An Gyungsu
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=8876
+    name_used: An Gyungsu
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 동음이의 검증필요
+    accessed: '2026-06-22'
+status: pending_review

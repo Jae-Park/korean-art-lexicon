@@ -1,0 +1,16 @@
+id: person.seo-hyunsuk
+name:
+  ko:
+    full: 서현석
+    family: 서
+    given: 현석
+  latn:
+    preferred: Seo Hyunsuk
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=8838
+    name_used: Seo Hyunsuk
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.son-donghyun
+name:
+  ko:
+    full: 손동현
+    family: 손
+    given: 동현
+  latn:
+    preferred: Son Donghyun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=7551
+    name_used: Son Donghyun
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 동음이의 검증필요
+    accessed: '2026-06-22'
+status: pending_review

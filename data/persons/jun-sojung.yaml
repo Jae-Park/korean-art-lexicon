@@ -1,0 +1,16 @@
+id: person.jun-sojung
+name:
+  ko:
+    full: 전소정
+    family: 전
+    given: 소정
+  latn:
+    preferred: Jun Sojung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=7528
+    name_used: Jun Sojung
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

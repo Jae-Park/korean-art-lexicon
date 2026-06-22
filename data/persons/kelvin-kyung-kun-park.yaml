@@ -1,0 +1,16 @@
+id: person.kelvin-kyung-kun-park
+name:
+  ko:
+    full: 박경근
+    family: 박
+    given: 경근
+  latn:
+    preferred: Kelvin Kyung Kun Park
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=7905
+    name_used: Kelvin Kyung Kun Park
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

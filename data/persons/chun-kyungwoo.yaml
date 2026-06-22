@@ -1,0 +1,16 @@
+id: person.chun-kyungwoo
+name:
+  ko:
+    full: 천경우
+    family: 천
+    given: 경우
+  latn:
+    preferred: Chun Kyungwoo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=6991
+    name_used: Chun Kyungwoo
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.woo-jaegil
+name:
+  ko:
+    full: 우제길
+    family: 우
+    given: 제길
+  latn:
+    preferred: Woo Jaegil
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2091
+    name_used: Woo Jaegil
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review

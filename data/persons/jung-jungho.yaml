@@ -1,0 +1,16 @@
+id: person.jung-jungho
+name:
+  ko:
+    full: 정정호
+    family: 정
+    given: 정호
+  latn:
+    preferred: Jung Jungho
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=22252
+    name_used: Jung Jungho
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
+    accessed: '2026-06-22'
+status: pending_review
