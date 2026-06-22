@@ -1,0 +1,37 @@
+id: person.je-hyun-shin
+name:
+  ko:
+    full: 신제현
+    family: 신
+    given: 제현
+  latn:
+    preferred: Je Hyun Shin
+  variants:
+    - form: Shin Jehyun
+      lang: en
+      script: Latn
+      type: alternate
+      source: 대안공간 루프 표기
+      accessed: '2026-06-22'
+    - form: Shin Je-hyun
+      lang: en
+      script: Latn
+      type: alternate
+      source: 호반문화재단
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+sources:
+  - url: https://hobancf.or.kr/exhibition/artist_view?seq=252
+    name_used: Je Hyun Shin
+    note: 작가 본인 선호 표기(에디터 확인). 호반문화재단 작가페이지는 'Shin Je-hyun' 표기(참고)
+    accessed: '2026-06-22'
+  - url: http://altspaceloop.com/exhibitions/artistic-survival-tactics
+    name_used: Shin Jehyun
+    note: 대안공간 루프 《예술적 생존법 연구》 — 'Shin Jehyun' 확인(MMCA 고양2022·SeMA2014)
+    accessed: '2026-06-22'
+  - url: https://hobancf.or.kr/exhibition/artist_view.php?seq=252
+    name_used: Shin Jehyun
+    note: 롱테일 패스3(2기관 웹 검증) — 호반문화재단(MMCA英은 SHIN Jae Hyun). medium
+    accessed: '2026-06-22'
+status: reviewed

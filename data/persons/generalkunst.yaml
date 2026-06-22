@@ -1,0 +1,27 @@
+id: person.generalkunst
+name:
+  ko:
+    full: 제너럴쿤스트
+    family: 제
+    given: 너럴쿤스트
+  latn:
+    preferred: generalkunst
+  variants:
+    - form: General Kunst
+      lang: en
+      script: Latn
+      type: alternate
+      source: 표기 변형
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.generalkunst.com/
+    name_used: generalkunst
+    note: 콜렉티브 공식 사이트(일반예술, 이혜령 주도 2015~) + MMCA 청주 다원예술2023
+    accessed: '2026-06-22'
+  - url: https://www.generalkunst.com/
+    name_used: General Kunst
+    note: 롱테일 패스3(2기관 웹 검증) — 콜렉티브 사이트(일반예술). medium
+    accessed: '2026-06-22'
+status: reviewed
