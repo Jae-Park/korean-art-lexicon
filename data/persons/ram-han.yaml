@@ -1,0 +1,16 @@
+id: person.ram-han
+name:
+  ko:
+    full: 람한
+    family: 람
+    given: 한
+  latn:
+    preferred: Ram Han
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1318668
+    name_used: Ram Han
+    note: 롱테일 패스3(2기관, 저명 보강) — SeMA Omnibus + MMCA 게임사회2023(b.1989 디지털페인팅). high
+    accessed: '2026-06-22'
+status: reviewed

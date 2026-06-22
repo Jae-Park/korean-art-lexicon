@@ -1,0 +1,16 @@
+id: person.liam-gillick
+name:
+  ko:
+    full: 리암 길릭
+    family: 리
+    given: 암 길릭
+  latn:
+    preferred: Liam Gillick
+role:
+  - aat: '300025103'
+sources:
+  - url: https://gallerybaton.com/artists/35-liam-gillick/
+    name_used: Liam Gillick
+    note: 롱테일 패스3(2기관, 저명 보강) — 갤러리바통(전속) — MMCA 'Catastrophe and Recovery'+SeMA(영국). high
+    accessed: '2026-06-22'
+status: reviewed

@@ -1,0 +1,16 @@
+id: person.koki-tanaka
+name:
+  ko:
+    full: 다나카 고키
+    family: 다
+    given: 나카 고키
+  latn:
+    preferred: Koki Tanaka
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1073846
+    name_used: Koki Tanaka
+    note: 롱테일 패스3(2기관, 저명 보강) — SeMA 'Scoring the Words'(일본 b.1975) + 아트선재. high
+    accessed: '2026-06-22'
+status: reviewed

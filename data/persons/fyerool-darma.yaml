@@ -1,0 +1,16 @@
+id: person.fyerool-darma
+name:
+  ko:
+    full: 파이어룰 달마
+    family: 파
+    given: 이어룰 달마
+  latn:
+    preferred: Fyerool Darma
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1199291
+    name_used: Fyerool Darma
+    note: 롱테일 패스3(2기관, 저명 보강) — SeMA 12회 미디어시티(싱가포르). high
+    accessed: '2026-06-22'
+status: reviewed

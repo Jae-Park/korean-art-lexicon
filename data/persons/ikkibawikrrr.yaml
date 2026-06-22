@@ -1,0 +1,16 @@
+id: person.ikkibawikrrr
+name:
+  ko:
+    full: 이끼바위쿠르르
+    family: 이
+    given: 끼바위쿠르르
+  latn:
+    preferred: ikkibawiKrrr
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1199291
+    name_used: ikkibawiKrrr
+    note: 롱테일 패스3(2기관, 저명 보강) — SeMA 12회 미디어시티 + 아트선재 — 비주얼리서치밴드(현 고결·조지은). high
+    accessed: '2026-06-22'
+status: reviewed

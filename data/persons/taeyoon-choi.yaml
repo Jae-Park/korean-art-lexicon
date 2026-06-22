@@ -1,0 +1,16 @@
+id: person.taeyoon-choi
+name:
+  ko:
+    full: 최태윤
+    family: 최
+    given: 태윤
+  latn:
+    preferred: Taeyoon Choi
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1314927
+    name_used: Taeyoon Choi
+    note: 롱테일 패스3(2기관, 저명 보강) — SeMA Omnibus(재미, SFPC 공동창립). high
+    accessed: '2026-06-22'
+status: reviewed

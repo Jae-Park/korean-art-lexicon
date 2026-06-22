@@ -1,0 +1,16 @@
+id: person.shinseungback-kimyonghun
+name:
+  ko:
+    full: 신승백김용훈
+    family: 신
+    given: 승백김용훈
+  latn:
+    preferred: Shinseungback Kimyonghun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1319672
+    name_used: Shinseungback Kimyonghun
+    note: 롱테일 패스3(2기관, 저명 보강) — SeMA(듀오 신승백+김용훈, Nonfacial Portrait 소장). high
+    accessed: '2026-06-22'
+status: reviewed
