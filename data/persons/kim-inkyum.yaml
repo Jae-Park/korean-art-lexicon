@@ -9,7 +9,12 @@ name:
     family: Kim
     given: In Kyum
 birth_year: 1945
+death_year: 2018
 sources:
+  - url: https://artinculture.kr/webzine/article-3101
+    name_used: 김인겸
+    note: 아트인컬처 부고 '사유의 조각가, 타계하다' — 2018.12.13 별세(향년 73). 곽훈 기사도 교차확인(베니스 1995 4인 중 곽훈만 생존)
+    accessed: '2026-06-22'
   - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3518
     name_used: Kim In Kyum
     note: MMCA 소장품 상세 페이지(작가별)
