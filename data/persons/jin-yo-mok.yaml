@@ -1,0 +1,16 @@
+id: person.jin-yo-mok
+name:
+  ko:
+    full: 목진요
+    family: 목
+    given: 진요
+  latn:
+    preferred: Jin-Yo Mok
+role:
+  - aat: '300025103'
+sources:
+  - url: https://whitney.org/artists/9665
+    name_used: Jin-Yo Mok
+    note: 롱테일 패스3(2기관 웹 검증) — Whitney. high
+    accessed: '2026-06-22'
+status: pending_review

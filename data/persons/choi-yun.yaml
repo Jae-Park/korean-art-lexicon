@@ -1,0 +1,16 @@
+id: person.choi-yun
+name:
+  ko:
+    full: 최윤
+    family: 최
+    given: 윤
+  latn:
+    preferred: Choi Yun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.kukjegallery.com/exhibitions/view?seq=281
+    name_used: Choi Yun
+    note: 롱테일 패스3(2기관 웹 검증) — 국제갤러리(SeMA+MMCA). high
+    accessed: '2026-06-22'
+status: pending_review

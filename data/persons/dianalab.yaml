@@ -1,0 +1,16 @@
+id: person.dianalab
+name:
+  ko:
+    full: 다이애나랩
+    family: 다
+    given: 이애나랩
+  latn:
+    preferred: dianalab
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhFlag=2&exhId=202503040001913
+    name_used: dianalab
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA英(콜렉티브). high
+    accessed: '2026-06-22'
+status: pending_review

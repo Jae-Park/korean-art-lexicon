@@ -1,0 +1,16 @@
+id: person.soyoung-chung
+name:
+  ko:
+    full: 정소영
+    family: 정
+    given: 소영
+  latn:
+    preferred: Soyoung Chung
+role:
+  - aat: '300025103'
+sources:
+  - url: http://www.soyoungchung.com/
+    name_used: Soyoung Chung
+    note: 롱테일 패스3(2기관 웹 검증) — 본인(MMCA+SeMA미디어시티, ≠정서영). high
+    accessed: '2026-06-22'
+status: pending_review

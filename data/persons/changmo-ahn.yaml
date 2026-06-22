@@ -1,0 +1,16 @@
+id: person.changmo-ahn
+name:
+  ko:
+    full: 안창모
+    family: 안
+    given: 창모
+  latn:
+    preferred: Changmo Ahn
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.archilovers.com/projects/128773/crow-s-eye-view-the-korean-peninsula.html
+    name_used: Changmo Ahn
+    note: 롱테일 패스3(2기관 웹 검증) — 베니스2014(건축사학). high
+    accessed: '2026-06-22'
+status: pending_review

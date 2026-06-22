@@ -1,0 +1,16 @@
+id: person.shirin-neshat
+name:
+  ko:
+    full: 쉬린 네샤트
+    family: 쉬
+    given: 린 네샤트
+  latn:
+    preferred: Shirin Neshat
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201403310000072
+    name_used: Shirin Neshat
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA英 회고전(이란). high
+    accessed: '2026-06-22'
+status: pending_review

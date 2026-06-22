@@ -1,0 +1,16 @@
+id: person.young-sun-lim
+name:
+  ko:
+    full: 임영선
+    family: 임
+    given: 영선
+  latn:
+    preferred: Young Sun Lim
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.commoncrowbooks.com/pages/books/0063045/young-jin-kim-hwa-young-park-bien-u-bae-young-sun-lim/inside-out-four-artists-from-korea
+    name_used: Young Sun Lim
+    note: 롱테일 패스3(2기관 웹 검증) — 국립현대 1997 도록. medium
+    accessed: '2026-06-22'
+status: pending_review

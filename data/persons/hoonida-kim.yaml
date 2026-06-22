@@ -1,0 +1,16 @@
+id: person.hoonida-kim
+name:
+  ko:
+    full: 후니다킴
+    family: 후
+    given: 니다킴
+  latn:
+    preferred: Hoonida Kim
+role:
+  - aat: '300025103'
+sources:
+  - url: https://hoonida.com/about/
+    name_used: Hoonida Kim
+    note: 롱테일 패스3(2기관 웹 검증) — 본인(MMCA전). high
+    accessed: '2026-06-22'
+status: pending_review

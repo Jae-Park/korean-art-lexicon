@@ -1,0 +1,16 @@
+id: person.minsuk-cho
+name:
+  ko:
+    full: 조민석
+    family: 조
+    given: 민석
+  latn:
+    preferred: Minsuk Cho
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.e-flux.com/announcements/299522/contemporary-korean-architecture-cosmopolitan-look-1989-2019
+    name_used: Minsuk Cho
+    note: 롱테일 패스3(2기관 웹 검증) — e-flux/SeMA 'Cho Minsuk'(건축 Mass Studies). high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.hwasoo-yoo
+name:
+  ko:
+    full: 유화수
+    family: 유
+    given: 화수
+  latn:
+    preferred: Hwasoo Yoo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1314927
+    name_used: Hwasoo Yoo
+    note: 롱테일 패스3(2기관 웹 검증) — SeMA英. high
+    accessed: '2026-06-22'
+status: pending_review

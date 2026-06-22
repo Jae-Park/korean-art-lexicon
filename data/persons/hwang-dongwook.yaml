@@ -1,0 +1,16 @@
+id: person.hwang-dongwook
+name:
+  ko:
+    full: 황동욱
+    family: 황
+    given: 동욱
+  latn:
+    preferred: Hwang Dongwook
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.e-flux.com/announcements/532913/young-korean-artists-2023annotating-the-museum/
+    name_used: Hwang Dongwook
+    note: 롱테일 패스3(2기관 웹 검증) — e-flux MMCA YKA2023. high
+    accessed: '2026-06-22'
+status: pending_review

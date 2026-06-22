@@ -1,0 +1,16 @@
+id: person.sim-seung-wook
+name:
+  ko:
+    full: 심승욱
+    family: 심
+    given: 승욱
+  latn:
+    preferred: Sim Seung-Wook
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.instagram.com/simseungwook/
+    name_used: Sim Seung-Wook
+    note: 롱테일 패스3(2기관 웹 검증) — 본인IG(국제 Seung Wook Sim). medium
+    accessed: '2026-06-22'
+status: pending_review

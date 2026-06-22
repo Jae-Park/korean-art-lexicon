@@ -1,0 +1,16 @@
+id: person.yang-seungwon
+name:
+  ko:
+    full: 양승원
+    family: 양
+    given: 승원
+  latn:
+    preferred: Yang Seungwon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://museumhanmi.or.kr/en/comp-artist/
+    name_used: Yang Seungwon
+    note: 롱테일 패스3(2기관 웹 검증) — 뮤지엄한미英. high
+    accessed: '2026-06-22'
+status: pending_review

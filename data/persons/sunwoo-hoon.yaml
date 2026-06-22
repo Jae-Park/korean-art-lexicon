@@ -1,0 +1,16 @@
+id: person.sunwoo-hoon
+name:
+  ko:
+    full: 선우훈
+    family: 선
+    given: 우훈
+  latn:
+    preferred: Sunwoo Hoon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.hkw.de/en/programme/global-fascisms/sunwoo-hoon
+    name_used: Sunwoo Hoon
+    note: 롱테일 패스3(2기관 웹 검증) — HKW베를린+4A시드니. high
+    accessed: '2026-06-22'
+status: pending_review

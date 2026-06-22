@@ -1,0 +1,16 @@
+id: person.lee-jung-woo
+name:
+  ko:
+    full: 이정우
+    family: 이
+    given: 정우
+  latn:
+    preferred: Lee Jung-woo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.koreaherald.com/article/10658295
+    name_used: Lee Jung-woo
+    note: 롱테일 패스3(2기관 웹 검증) — 코리아헤럴드(KAP2026). high
+    accessed: '2026-06-22'
+status: pending_review

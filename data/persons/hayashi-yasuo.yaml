@@ -1,0 +1,16 @@
+id: person.hayashi-yasuo
+name:
+  ko:
+    full: 하야시 야스오
+    family: 하
+    given: 야시 야스오
+  latn:
+    preferred: Hayashi Yasuo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.momat.go.jp/craft-museum/en/artists/aha048
+    name_used: Hayashi Yasuo
+    note: 롱테일 패스3(2기관 웹 검증) — 일본 국립공예관(일본). high
+    accessed: '2026-06-22'
+status: pending_review

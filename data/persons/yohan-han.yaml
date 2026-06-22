@@ -1,0 +1,16 @@
+id: person.yohan-han
+name:
+  ko:
+    full: 요한한
+    family: 요
+    given: 한한
+  latn:
+    preferred: Yohan Hàn
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.yohanhan.com/curriculum
+    name_used: Yohan Hàn
+    note: 롱테일 패스3(2기관 웹 검증) — 본인(MMCA YKA2021+SeMA난지). high
+    accessed: '2026-06-22'
+status: pending_review

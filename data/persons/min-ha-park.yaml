@@ -1,0 +1,16 @@
+id: person.min-ha-park
+name:
+  ko:
+    full: 박민하
+    family: 박
+    given: 민하
+  latn:
+    preferred: Min Ha Park
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.theartnewspaper.com/2025/06/02/min-ha-park-i-think-about-creating-situations-where-things-dont-immediatelyexplain-themselves
+    name_used: Min Ha Park
+    note: 롱테일 패스3(2기관 웹 검증) — Art Newspaper. high
+    accessed: '2026-06-22'
+status: pending_review

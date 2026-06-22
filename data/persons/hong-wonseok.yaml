@@ -1,0 +1,16 @@
+id: person.hong-wonseok
+name:
+  ko:
+    full: 홍원석
+    family: 홍
+    given: 원석
+  latn:
+    preferred: Hong WonSeok
+role:
+  - aat: '300025103'
+sources:
+  - url: https://ocula.com/artists/hong-wonseok/
+    name_used: Hong WonSeok
+    note: 롱테일 패스3(2기관 웹 검증) — Ocula+아라리오. high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.jinkyun-ahn
+name:
+  ko:
+    full: 안진균
+    family: 안
+    given: 진균
+  latn:
+    preferred: Jinkyun Ahn
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1079412
+    name_used: Jinkyun Ahn
+    note: 롱테일 패스3(2기관 웹 검증) — SeMA英. high
+    accessed: '2026-06-22'
+status: pending_review

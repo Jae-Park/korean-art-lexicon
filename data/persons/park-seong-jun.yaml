@@ -1,0 +1,16 @@
+id: person.park-seong-jun
+name:
+  ko:
+    full: 박성준
+    family: 박
+    given: 성준
+  latn:
+    preferred: Park Seong Jun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1204117
+    name_used: Park Seong Jun
+    note: 롱테일 패스3(2기관 웹 검증) — SeMA英(영상). high
+    accessed: '2026-06-22'
+status: pending_review

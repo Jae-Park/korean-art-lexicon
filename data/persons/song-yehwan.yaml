@@ -1,0 +1,16 @@
+id: person.song-yehwan
+name:
+  ko:
+    full: 송예환
+    family: 송
+    given: 예환
+  latn:
+    preferred: Song Yehwan
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhFlag=2&exhId=202503040001913
+    name_used: Song Yehwan
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA英 YKA2025. high
+    accessed: '2026-06-22'
+status: pending_review

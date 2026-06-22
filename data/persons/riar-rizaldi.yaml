@@ -1,0 +1,16 @@
+id: person.riar-rizaldi
+name:
+  ko:
+    full: 리아 리잘디
+    family: 리
+    given: 아 리잘디
+  latn:
+    preferred: Riar Rizaldi
+role:
+  - aat: '300025103'
+sources:
+  - url: http://geumcheon.blogspot.com/2018/02/riar-rizaldi.html
+    name_used: Riar Rizaldi
+    note: 롱테일 패스3(2기관 웹 검증) — 금천(인도네시아). medium
+    accessed: '2026-06-22'
+status: pending_review

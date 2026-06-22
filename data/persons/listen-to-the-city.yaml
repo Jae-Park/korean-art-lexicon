@@ -1,0 +1,16 @@
+id: person.listen-to-the-city
+name:
+  ko:
+    full: 리슨투더시티
+    family: 리
+    given: 슨투더시티
+  latn:
+    preferred: Listen to the City
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=503089
+    name_used: Listen to the City
+    note: 롱테일 패스3(2기관 웹 검증) — SeMA英(콜렉티브). high
+    accessed: '2026-06-22'
+status: pending_review

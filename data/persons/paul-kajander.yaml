@@ -1,0 +1,16 @@
+id: person.paul-kajander
+name:
+  ko:
+    full: 폴 카잔더
+    family: 폴
+    given: ' 카잔더'
+  latn:
+    preferred: Paul Kajander
+role:
+  - aat: '300025103'
+sources:
+  - url: https://artsonje.org/en/exhibition/art-sonje-banner-project-1-paul-kajander-what-cannot-be-is-what/
+    name_used: Paul Kajander
+    note: 롱테일 패스3(2기관 웹 검증) — 아트선재(캐나다). medium
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.ujoo-limheeyoung
+name:
+  ko:
+    full: 우주+림희영
+    family: 우
+    given: 주+림희영
+  latn:
+    preferred: Ujoo+Limheeyoung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://waterfall-artfulliving.com/pages/artist-ujoo-limheeyoung
+    name_used: Ujoo+Limheeyoung
+    note: 롱테일 패스3(2기관 웹 검증) — Waterfall(듀오). high
+    accessed: '2026-06-22'
+status: pending_review

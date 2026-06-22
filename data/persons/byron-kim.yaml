@@ -1,0 +1,16 @@
+id: person.byron-kim
+name:
+  ko:
+    full: 바이런 킴
+    family: 바
+    given: 이런 킴
+  latn:
+    preferred: Byron Kim
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=202001150001262
+    name_used: Byron Kim
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA英+SeMA남서울. high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.jesse-chun
+name:
+  ko:
+    full: 제시 천
+    family: 제
+    given: 시 천
+  latn:
+    preferred: Jesse Chun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.jessechun.com/info
+    name_used: Jesse Chun
+    note: 롱테일 패스3(2기관 웹 검증) — 본인(MMCA레지+SeMA미디어시티). high
+    accessed: '2026-06-22'
+status: pending_review

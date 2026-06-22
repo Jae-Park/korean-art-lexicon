@@ -1,0 +1,16 @@
+id: person.noh-sangho
+name:
+  ko:
+    full: 노상호
+    family: 노
+    given: 상호
+  latn:
+    preferred: Noh Sangho
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.arariogallery.com/artists/227-noh-sangho/
+    name_used: Noh Sangho
+    note: 롱테일 패스3(2기관 웹 검증) — 아라리오(MMCA아트뱅크). high
+    accessed: '2026-06-22'
+status: pending_review

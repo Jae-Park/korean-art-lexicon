@@ -1,0 +1,16 @@
+id: person.kim-uljiro
+name:
+  ko:
+    full: 김을지로
+    family: 김
+    given: 을지로
+  latn:
+    preferred: Kim Uljiro
+role:
+  - aat: '300025103'
+sources:
+  - url: https://uljiro.land/
+    name_used: Kim Uljiro
+    note: 롱테일 패스3(2기관 웹 검증) — 본인(MMCA YKA2025). high
+    accessed: '2026-06-22'
+status: pending_review

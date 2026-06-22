@@ -1,0 +1,16 @@
+id: person.minsoo-kang
+name:
+  ko:
+    full: 강민수
+    family: 강
+    given: 민수
+  latn:
+    preferred: MinSoo Kang
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.joongjunggallery.com/
+    name_used: MinSoo Kang
+    note: 롱테일 패스3(2기관 웹 검증) — 중정갤러리(도예). high
+    accessed: '2026-06-22'
+status: pending_review

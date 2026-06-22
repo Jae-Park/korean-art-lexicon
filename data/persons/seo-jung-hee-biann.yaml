@@ -1,0 +1,16 @@
+id: person.seo-jung-hee-biann
+name:
+  ko:
+    full: 서정희
+    family: 서
+    given: 정희
+  latn:
+    preferred: Seo Jung Hee Biann
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=406
+    name_used: Seo Jung Hee Biann
+    note: 롱테일 패스3(2기관 웹 검증) — SeMA英('Biann' 본인명). high
+    accessed: '2026-06-22'
+status: pending_review

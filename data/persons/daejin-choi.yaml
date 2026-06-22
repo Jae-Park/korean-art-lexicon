@@ -1,0 +1,16 @@
+id: person.daejin-choi
+name:
+  ko:
+    full: 최대진
+    family: 최
+    given: 대진
+  latn:
+    preferred: Daejin Choi
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.artsy.net/artist/daejin-choi
+    name_used: Daejin Choi
+    note: 롱테일 패스3(2기관 웹 검증) — Artsy(SeMA난지). 약-medium
+    accessed: '2026-06-22'
+status: pending_review

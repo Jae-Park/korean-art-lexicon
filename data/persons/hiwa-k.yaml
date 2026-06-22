@@ -1,0 +1,16 @@
+id: person.hiwa-k
+name:
+  ko:
+    full: 히와 케이
+    family: 히
+    given: 와 케이
+  latn:
+    preferred: Hiwa K
+role:
+  - aat: '300025103'
+sources:
+  - url: https://mediacityseoul.kr/en/yesterday/participants/hiwa-k
+    name_used: Hiwa K
+    note: 롱테일 패스3(2기관 웹 검증) — 서울미디어시티(SeMA, 이라크/독일). high
+    accessed: '2026-06-22'
+status: pending_review

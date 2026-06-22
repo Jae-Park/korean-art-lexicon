@@ -1,0 +1,16 @@
+id: person.eve-kwak
+name:
+  ko:
+    full: 곽이브
+    family: 곽
+    given: 이브
+  latn:
+    preferred: Eve Kwak
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.instagram.com/p/DTI9_ZqknDm/
+    name_used: Eve Kwak
+    note: 롱테일 패스3(2기관 웹 검증) — IG(MMCA고양레지). medium
+    accessed: '2026-06-22'
+status: pending_review

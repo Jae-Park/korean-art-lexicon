@@ -1,0 +1,16 @@
+id: person.sungyoon-jung
+name:
+  ko:
+    full: 정성윤
+    family: 정
+    given: 성윤
+  latn:
+    preferred: Sungyoon Jung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sungyoonjungpainting.wixsite.com/jung
+    name_used: Sungyoon Jung
+    note: 롱테일 패스3(2기관 웹 검증) — 본인. medium
+    accessed: '2026-06-22'
+status: pending_review

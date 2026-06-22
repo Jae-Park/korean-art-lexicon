@@ -1,0 +1,16 @@
+id: person.yuan-goang-ming
+name:
+  ko:
+    full: 위안광밍
+    family: 위
+    given: 안광밍
+  latn:
+    preferred: Yuan Goang-Ming
+role:
+  - aat: '300025103'
+sources:
+  - url: https://about.asianart.org/press/acclaimed-taiwanese-artist-yuan-goang-ming-brings-venice-biennale-triumph-to-asian-art-museum-in-first-north-american-solo-exhibition/
+    name_used: Yuan Goang-Ming
+    note: 롱테일 패스3(2기관 웹 검증) — 아시아미술관SF(대만). high
+    accessed: '2026-06-22'
+status: pending_review

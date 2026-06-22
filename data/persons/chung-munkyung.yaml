@@ -1,0 +1,16 @@
+id: person.chung-munkyung
+name:
+  ko:
+    full: 정문경
+    family: 정
+    given: 문경
+  latn:
+    preferred: Chung Munkyung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=835199
+    name_used: Chung Munkyung
+    note: 롱테일 패스3(2기관 웹 검증) — SeMA英 난지. high
+    accessed: '2026-06-22'
+status: pending_review

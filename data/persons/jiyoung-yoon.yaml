@@ -1,0 +1,16 @@
+id: person.jiyoung-yoon
+name:
+  ko:
+    full: 윤지영
+    family: 윤
+    given: 지영
+  latn:
+    preferred: Jiyoung Yoon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://koreaartistprize.org/project/
+    name_used: Jiyoung Yoon
+    note: 롱테일 패스3(2기관 웹 검증) — 코리아아티스트프라이즈(MMCA). high
+    accessed: '2026-06-22'
+status: pending_review

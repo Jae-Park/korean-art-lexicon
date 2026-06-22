@@ -1,0 +1,16 @@
+id: person.khadim-ali
+name:
+  ko:
+    full: 하딤 알리
+    family: 하
+    given: 딤 알리
+  latn:
+    preferred: Khadim Ali
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201707260000613
+    name_used: Khadim Ali
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA英(아프간/호주). high
+    accessed: '2026-06-22'
+status: pending_review

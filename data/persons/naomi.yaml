@@ -1,0 +1,16 @@
+id: person.naomi
+name:
+  ko:
+    full: 나오미
+    family: 나
+    given: 오미
+  latn:
+    preferred: NAOMI
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.koirhaomi.com/cv
+    name_used: NAOMI
+    note: 롱테일 패스3(2기관 웹 검증) — 본인(SeMA난지+MMCA고양). high
+    accessed: '2026-06-22'
+status: pending_review

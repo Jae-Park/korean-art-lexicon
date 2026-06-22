@@ -1,0 +1,16 @@
+id: person.shin-suk-pil
+name:
+  ko:
+    full: 신석필
+    family: 신
+    given: 석필
+  latn:
+    preferred: Shin Suk Pil
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.artsy.net/artist/shin-suk-pil
+    name_used: Shin Suk Pil
+    note: 롱테일 패스3(2기관 웹 검증) — Artsy(슬러그). 약-medium
+    accessed: '2026-06-22'
+status: pending_review

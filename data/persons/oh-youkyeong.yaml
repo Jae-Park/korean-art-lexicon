@@ -1,0 +1,16 @@
+id: person.oh-youkyeong
+name:
+  ko:
+    full: 오유경
+    family: 오
+    given: 유경
+  latn:
+    preferred: Oh Youkyeong
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.ngalleryart.com/youkyeongoh
+    name_used: Oh Youkyeong
+    note: 롱테일 패스3(2기관 웹 검증) — N Gallery(조각/설치). medium
+    accessed: '2026-06-22'
+status: pending_review

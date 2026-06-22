@@ -1,0 +1,16 @@
+id: person.john-akomfrah
+name:
+  ko:
+    full: 존 아캄프라
+    family: 존
+    given: ' 아캄프라'
+  latn:
+    preferred: John Akomfrah
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.tate.org.uk/art/artists/sir-john-akomfrah-cbe-9259
+    name_used: John Akomfrah
+    note: 롱테일 패스3(2기관 웹 검증) — Tate(영국/가나). high
+    accessed: '2026-06-22'
+status: pending_review

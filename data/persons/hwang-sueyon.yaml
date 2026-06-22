@@ -1,0 +1,16 @@
+id: person.hwang-sueyon
+name:
+  ko:
+    full: 황수연
+    family: 황
+    given: 수연
+  latn:
+    preferred: Hwang Sueyon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201902150001123
+    name_used: Hwang Sueyon
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA英 YKA2019(≠황수현). high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.yeseung-lee
+name:
+  ko:
+    full: 이예승
+    family: 이
+    given: 예승
+  latn:
+    preferred: YeSeung Lee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://yeseunglee.net
+    name_used: YeSeung Lee
+    note: 롱테일 패스3(2기관 웹 검증) — 본인(MMCA창동+SeMA난지). medium
+    accessed: '2026-06-22'
+status: pending_review

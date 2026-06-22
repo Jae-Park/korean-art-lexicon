@@ -1,0 +1,16 @@
+id: person.yoon-kalim
+name:
+  ko:
+    full: 윤가림
+    family: 윤
+    given: 가림
+  latn:
+    preferred: Yoon Kalim
+role:
+  - aat: '300025103'
+sources:
+  - url: https://yoonkalim.com/CV
+    name_used: Yoon Kalim
+    note: 롱테일 패스3(2기관 웹 검증) — 본인(SeMA+MMCA). high
+    accessed: '2026-06-22'
+status: pending_review

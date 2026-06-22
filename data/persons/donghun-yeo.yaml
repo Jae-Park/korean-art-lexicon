@@ -1,0 +1,16 @@
+id: person.donghun-yeo
+name:
+  ko:
+    full: 여동헌
+    family: 여
+    given: 동헌
+  latn:
+    preferred: Donghun Yeo
+role:
+  - aat: '300025103'
+sources:
+  - url: http://www.iartpark.com/artists/37-donghun-yeo/
+    name_used: Donghun Yeo
+    note: 롱테일 패스3(2기관 웹 검증) — 가나아트파크. medium
+    accessed: '2026-06-22'
+status: pending_review

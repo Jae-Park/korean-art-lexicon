@@ -1,0 +1,16 @@
+id: person.yoo-hee-young
+name:
+  ko:
+    full: 유희영
+    family: 유
+    given: 희영
+  latn:
+    preferred: Yoo Hee-young
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.koreatimes.co.kr/lifestyle/arts-theater/20181022/yoo-hee-youngs-abstract-paintings-reflect-his-struggle-with-colors
+    name_used: Yoo Hee-young
+    note: 롱테일 패스3(2기관 웹 검증) — 코리아타임스(전 SeMA관장). high
+    accessed: '2026-06-22'
+status: pending_review

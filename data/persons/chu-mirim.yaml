@@ -1,0 +1,16 @@
+id: person.chu-mirim
+name:
+  ko:
+    full: 추미림
+    family: 추
+    given: 미림
+  latn:
+    preferred: Chu Mirim
+role:
+  - aat: '300025103'
+sources:
+  - url: https://k-artist.com/Artist_page.php?tab_num=tab1&artist_num=45
+    name_used: Chu Mirim
+    note: 롱테일 패스3(2기관 웹 검증) — K-Artist(MMCA+SeMA). high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.kwon-ahram
+name:
+  ko:
+    full: 권아람
+    family: 권
+    given: 아람
+  latn:
+    preferred: Kwon Ahram
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.gallerykiche.com/artists/1483
+    name_used: Kwon Ahram
+    note: 롱테일 패스3(2기관 웹 검증) — 갤러리키체(SeMA난지+MMCA고양). high
+    accessed: '2026-06-22'
+status: pending_review

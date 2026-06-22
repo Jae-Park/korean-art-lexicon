@@ -1,0 +1,16 @@
+id: person.park-seung-hoon
+name:
+  ko:
+    full: 박승훈
+    family: 박
+    given: 승훈
+  latn:
+    preferred: Park Seung Hoon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.photobrusselsfestival.com/park-seung-hoon
+    name_used: Park Seung Hoon
+    note: 롱테일 패스3(2기관 웹 검증) — PhotoBrussels(사진). high
+    accessed: '2026-06-22'
+status: pending_review

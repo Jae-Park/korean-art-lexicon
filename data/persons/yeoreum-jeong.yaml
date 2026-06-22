@@ -1,0 +1,16 @@
+id: person.yeoreum-jeong
+name:
+  ko:
+    full: 정여름
+    family: 정
+    given: 여름
+  latn:
+    preferred: Yeoreum Jeong
+role:
+  - aat: '300025103'
+sources:
+  - url: https://iscp-nyc.org/resident/jeong-yeoreum
+    name_used: Yeoreum Jeong
+    note: 롱테일 패스3(2기관 웹 검증) — ISCP(SeMA벙커2023). high
+    accessed: '2026-06-22'
+status: pending_review

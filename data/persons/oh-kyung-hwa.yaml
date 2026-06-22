@@ -1,0 +1,16 @@
+id: person.oh-kyung-hwa
+name:
+  ko:
+    full: 오경화
+    family: 오
+    given: 경화
+  latn:
+    preferred: Oh Kyung Hwa
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhFlag=2&exhId=202403220001771
+    name_used: Oh Kyung Hwa
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA英(≠오경환 남). high
+    accessed: '2026-06-22'
+status: pending_review

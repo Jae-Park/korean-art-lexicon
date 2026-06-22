@@ -1,0 +1,16 @@
+id: person.sujin-lee
+name:
+  ko:
+    full: 이수진
+    family: 이
+    given: 수진
+  latn:
+    preferred: Sujin Lee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/kr/support/emerging_artist/detail_info?actNo=292
+    name_used: Sujin Lee
+    note: 롱테일 패스3(2기관 웹 검증) — SeMA 신진(영문병기, 시각). high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.choi-soo-jung
+name:
+  ko:
+    full: 최수정
+    family: 최
+    given: 수정
+  latn:
+    preferred: Choi Soo Jung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://gallerybaton.com/artists/77-choi-soo-jung/
+    name_used: Choi Soo Jung
+    note: 롱테일 패스3(2기관 웹 검증) — 갤러리바통(MMCA+SeMA). high
+    accessed: '2026-06-22'
+status: pending_review

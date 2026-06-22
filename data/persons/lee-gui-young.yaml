@@ -1,0 +1,16 @@
+id: person.lee-gui-young
+name:
+  ko:
+    full: 이귀영
+    family: 이
+    given: 귀영
+  latn:
+    preferred: Lee Gui-Young
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/upload/artInfo/2016/04/2016041802174050217703.pdf
+    name_used: Lee Gui-Young
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA 창동레지던시. high
+    accessed: '2026-06-22'
+status: pending_review

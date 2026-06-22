@@ -1,0 +1,16 @@
+id: person.hwang-byungki
+name:
+  ko:
+    full: 황병기
+    family: 황
+    given: 병기
+  latn:
+    preferred: Hwang Byungki
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1418254
+    name_used: Hwang Byungki
+    note: 롱테일 패스3(2기관 웹 검증) — SeMA英(미디어, ≠가야금명인). high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.ellie-kyungran-heo
+name:
+  ko:
+    full: 엘리 허경란
+    family: 엘
+    given: 리 허경란
+  latn:
+    preferred: Ellie Kyungran Heo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://elliekyungran.com/cv
+    name_used: Ellie Kyungran Heo
+    note: 롱테일 패스3(2기관 웹 검증) — 본인(MMCA2018+SeMA난지). high
+    accessed: '2026-06-22'
+status: pending_review

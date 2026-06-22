@@ -1,0 +1,16 @@
+id: person.young-joo-lee
+name:
+  ko:
+    full: 이영주
+    family: 이
+    given: 영주
+  latn:
+    preferred: Young Joo Lee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://youngjoolee.net/news-2/
+    name_used: Young Joo Lee
+    note: 롱테일 패스3(2기관 웹 검증) — 본인(MMCA2021+SeMA2024). high
+    accessed: '2026-06-22'
+status: pending_review

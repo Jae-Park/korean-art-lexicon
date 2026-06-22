@@ -1,0 +1,16 @@
+id: person.jinseung-jang
+name:
+  ko:
+    full: 장진승
+    family: 장
+    given: 진승
+  latn:
+    preferred: Jinseung Jang
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1065367
+    name_used: Jinseung Jang
+    note: 롱테일 패스3(2기관 웹 검증) — SeMA英. high
+    accessed: '2026-06-22'
+status: pending_review

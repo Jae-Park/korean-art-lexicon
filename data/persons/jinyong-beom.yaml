@@ -1,0 +1,16 @@
+id: person.jinyong-beom
+name:
+  ko:
+    full: 범진용
+    family: 범
+    given: 진용
+  latn:
+    preferred: Jinyong Beom
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.galleryartpresso.com/product-page/beom-jin-yong
+    name_used: Jinyong Beom
+    note: 롱테일 패스3(2기관 웹 검증) — 갤러리Artpresso(SeMA난지). medium
+    accessed: '2026-06-22'
+status: pending_review

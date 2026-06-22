@@ -1,0 +1,16 @@
+id: person.meiro-koizumi
+name:
+  ko:
+    full: 고이즈미 메이로
+    family: 고
+    given: 이즈미 메이로
+  latn:
+    preferred: Meiro Koizumi
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mujin-to.com/en/artist/koizumi/
+    name_used: Meiro Koizumi
+    note: 롱테일 패스3(2기관 웹 검증) — Mujin-to(일본). high
+    accessed: '2026-06-22'
+status: pending_review

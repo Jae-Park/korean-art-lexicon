@@ -1,0 +1,16 @@
+id: person.ahn-sekwon
+name:
+  ko:
+    full: 안세권
+    family: 안
+    given: 세권
+  latn:
+    preferred: Ahn Sekwon
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201412110000192
+    name_used: Ahn Sekwon
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA英(사진). high
+    accessed: '2026-06-22'
+status: pending_review

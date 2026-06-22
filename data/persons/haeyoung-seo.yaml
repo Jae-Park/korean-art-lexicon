@@ -1,0 +1,16 @@
+id: person.haeyoung-seo
+name:
+  ko:
+    full: 서해영
+    family: 서
+    given: 해영
+  latn:
+    preferred: Haeyoung Seo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.zku-berlin.org/people/haeyoung-seo/
+    name_used: Haeyoung Seo
+    note: 롱테일 패스3(2기관 웹 검증) — ZK/U베를린(SeMA). medium
+    accessed: '2026-06-22'
+status: pending_review

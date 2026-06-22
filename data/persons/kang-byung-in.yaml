@@ -1,0 +1,16 @@
+id: person.kang-byung-in
+name:
+  ko:
+    full: 강병인
+    family: 강
+    given: 병인
+  latn:
+    preferred: Kang Byung-in
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.koreaherald.com/article/10691906
+    name_used: Kang Byung-in
+    note: 롱테일 패스3(2기관 웹 검증) — 코리아헤럴드(캘리그래피). high
+    accessed: '2026-06-22'
+status: pending_review

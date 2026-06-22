@@ -1,0 +1,16 @@
+id: person.bokyung-jun
+name:
+  ko:
+    full: 전보경
+    family: 전
+    given: 보경
+  latn:
+    preferred: Bokyung Jun
+role:
+  - aat: '300025103'
+sources:
+  - url: http://altspaceloop.com/exhibitions/confirmhumanity-2021
+    name_used: Bokyung Jun
+    note: 롱테일 패스3(2기관 웹 검증) — LOOP(SeMA소장4점). high
+    accessed: '2026-06-22'
+status: pending_review

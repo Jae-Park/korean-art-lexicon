@@ -1,0 +1,16 @@
+id: person.juen-jiin
+name:
+  ko:
+    full: 전지인
+    family: 전
+    given: 지인
+  latn:
+    preferred: Juen Jiin
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202501200000434
+    name_used: Juen Jiin
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA 창동레지(공식 Juen Jiin). high
+    accessed: '2026-06-22'
+status: pending_review

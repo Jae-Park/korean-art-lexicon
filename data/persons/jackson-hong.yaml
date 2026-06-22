@@ -1,0 +1,16 @@
+id: person.jackson-hong
+name:
+  ko:
+    full: 잭슨홍
+    family: 잭
+    given: 슨홍
+  latn:
+    preferred: Jackson Hong
+role:
+  - aat: '300025103'
+sources:
+  - url: http://chapterii.org/press/237-jackson-hong-what-things-dream-about-at-mmca-seoul/
+    name_used: Jackson Hong
+    note: 롱테일 패스3(2기관 웹 검증) — Chapter II(MMCA전). high
+    accessed: '2026-06-22'
+status: pending_review

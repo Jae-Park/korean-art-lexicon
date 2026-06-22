@@ -1,0 +1,16 @@
+id: person.cici-wu
+name:
+  ko:
+    full: 씨씨 우
+    family: 씨
+    given: 씨 우
+  latn:
+    preferred: Cici Wu
+role:
+  - aat: '300025103'
+sources:
+  - url: https://36.bienal.org.br/en/artista/cici-wu/
+    name_used: Cici Wu
+    note: 롱테일 패스3(2기관 웹 검증) — 상파울루비엔날레+SeMA미디어시티. high
+    accessed: '2026-06-22'
+status: pending_review

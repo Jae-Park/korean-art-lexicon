@@ -1,0 +1,16 @@
+id: person.lee-kyung-mo
+name:
+  ko:
+    full: 이경모
+    family: 이
+    given: 경모
+  latn:
+    preferred: Lee Kyung-mo
+role:
+  - aat: '300025103'
+sources:
+  - url: https://view.asiae.co.kr/en/article/2022122322514133896
+    name_used: Lee Kyung-mo
+    note: 롱테일 패스3(2기관 웹 검증) — 아시아경제英(사진). medium
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.donggeun-lee
+name:
+  ko:
+    full: 이동근
+    family: 이
+    given: 동근
+  latn:
+    preferred: Donggeun Lee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://pageroom8.com/exhibition/?bmode=view&idx=94903342
+    name_used: Donggeun Lee
+    note: 롱테일 패스3(2기관 웹 검증) — PageRoom8+두산. medium
+    accessed: '2026-06-22'
+status: pending_review

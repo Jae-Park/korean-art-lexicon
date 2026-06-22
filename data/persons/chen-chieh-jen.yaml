@@ -1,0 +1,16 @@
+id: person.chen-chieh-jen
+name:
+  ko:
+    full: 천제런
+    family: 천
+    given: 제런
+  latn:
+    preferred: Chen Chieh-jen
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201802070001007
+    name_used: Chen Chieh-jen
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA英(대만). high
+    accessed: '2026-06-22'
+status: pending_review

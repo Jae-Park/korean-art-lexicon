@@ -1,0 +1,16 @@
+id: person.heo-suyoung
+name:
+  ko:
+    full: 허수영
+    family: 허
+    given: 수영
+  latn:
+    preferred: Heo Suyoung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=472
+    name_used: Heo Suyoung
+    note: 롱테일 패스3(2기관 웹 검증) — SeMA英 난지. high
+    accessed: '2026-06-22'
+status: pending_review

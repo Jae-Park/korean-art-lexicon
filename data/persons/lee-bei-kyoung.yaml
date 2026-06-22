@@ -1,0 +1,16 @@
+id: person.lee-bei-kyoung
+name:
+  ko:
+    full: 이배경
+    family: 이
+    given: 배경
+  latn:
+    preferred: Lee Bei-Kyoung
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=201311100000452
+    name_used: Lee Bei-Kyoung
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA 창동레지던시(조각). high
+    accessed: '2026-06-22'
+status: pending_review

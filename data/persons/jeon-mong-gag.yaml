@@ -1,0 +1,16 @@
+id: person.jeon-mong-gag
+name:
+  ko:
+    full: 전몽각
+    family: 전
+    given: 몽각
+  latn:
+    preferred: Jeon Mong Gag
+role:
+  - aat: '300025103'
+sources:
+  - url: https://museumhanmi.or.kr/en/post_1178/
+    name_used: Jeon Mong Gag
+    note: 롱테일 패스3(2기관 웹 검증) — 뮤지엄한미(사진). high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.gala-porras-kim
+name:
+  ko:
+    full: 갈라포라스-김
+    family: 갈
+    given: 라포라스-김
+  latn:
+    preferred: Gala Porras-Kim
+role:
+  - aat: '300025103'
+sources:
+  - url: https://spruethmagers.com/artists/gala-porras-kim/
+    name_used: Gala Porras-Kim
+    note: 롱테일 패스3(2기관 웹 검증) — Sprüth Magers(MMCA KAP2023). high
+    accessed: '2026-06-22'
+status: pending_review

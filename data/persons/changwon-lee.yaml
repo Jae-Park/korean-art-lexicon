@@ -1,0 +1,16 @@
+id: person.changwon-lee
+name:
+  ko:
+    full: 이창원
+    family: 이
+    given: 창원
+  latn:
+    preferred: Changwon Lee
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mori.art.museum/english/contents/mamproject/project017/index.html
+    name_used: Changwon Lee
+    note: 롱테일 패스3(2기관 웹 검증) — 모리미술관(SeMA소장). medium
+    accessed: '2026-06-22'
+status: pending_review

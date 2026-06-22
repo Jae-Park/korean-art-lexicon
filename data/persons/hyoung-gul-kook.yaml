@@ -1,0 +1,16 @@
+id: person.hyoung-gul-kook
+name:
+  ko:
+    full: 국형걸
+    family: 국
+    given: 형걸
+  latn:
+    preferred: Hyoung-gul Kook
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.architectmagazine.com/firms/hg-architecture
+    name_used: Hyoung-gul Kook
+    note: 롱테일 패스3(2기관 웹 검증) — Architect Mag(건축/설치). high
+    accessed: '2026-06-22'
+status: pending_review

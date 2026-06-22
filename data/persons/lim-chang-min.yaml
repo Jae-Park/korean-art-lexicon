@@ -1,0 +1,16 @@
+id: person.lim-chang-min
+name:
+  ko:
+    full: 임창민
+    family: 임
+    given: 창민
+  latn:
+    preferred: Lim Chang Min
+role:
+  - aat: '300025103'
+sources:
+  - url: https://aaa.org.hk/en/collections/search/library/sea-of-light-park-jin-won-lee-eun-joo-lee-lee-nam-lim-chang-min-cracker
+    name_used: Lim Chang Min
+    note: 롱테일 패스3(2기관 웹 검증) — Asia Art Archive(영상). medium
+    accessed: '2026-06-22'
+status: pending_review

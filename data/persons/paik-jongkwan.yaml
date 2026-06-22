@@ -1,0 +1,16 @@
+id: person.paik-jongkwan
+name:
+  ko:
+    full: 백종관
+    family: 백
+    given: 종관
+  latn:
+    preferred: Paik Jongkwan
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.koreanfilm.or.kr/eng/films/index/peopleView.jsp?peopleCd=20173983
+    name_used: Paik Jongkwan
+    note: 롱테일 패스3(2기관 웹 검증) — KOFIC英(실험영상). medium
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.eunkyung-lee
+name:
+  ko:
+    full: 이은경
+    family: 이
+    given: 은경
+  latn:
+    preferred: Eunkyung Lee
+role:
+  - aat: '300025103'
+sources:
+  - url: http://eunkyung-lee.com/
+    name_used: Eunkyung Lee
+    note: 롱테일 패스3(2기관 웹 검증) — 본인(런던, 조각). medium
+    accessed: '2026-06-22'
+status: pending_review

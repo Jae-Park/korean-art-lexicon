@@ -1,0 +1,16 @@
+id: person.youngmin-kang
+name:
+  ko:
+    full: 강영민
+    family: 강
+    given: 영민
+  latn:
+    preferred: Youngmin Kang
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201501300000200
+    name_used: Youngmin Kang
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA英. high
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,16 @@
+id: person.eobchae
+name:
+  ko:
+    full: 업체eobchae
+    family: 업
+    given: 체eobchae
+  latn:
+    preferred: eobchae
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhFlag=2&exhId=202503040001913
+    name_used: eobchae
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA英(콜렉티브). high
+    accessed: '2026-06-22'
+status: pending_review

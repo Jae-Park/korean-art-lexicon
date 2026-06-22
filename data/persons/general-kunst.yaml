@@ -1,0 +1,16 @@
+id: person.general-kunst
+name:
+  ko:
+    full: 제너럴쿤스트
+    family: 제
+    given: 너럴쿤스트
+  latn:
+    preferred: General Kunst
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.generalkunst.com/
+    name_used: General Kunst
+    note: 롱테일 패스3(2기관 웹 검증) — 콜렉티브 사이트(일반예술). medium
+    accessed: '2026-06-22'
+status: pending_review

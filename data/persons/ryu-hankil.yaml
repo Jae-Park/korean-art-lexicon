@@ -1,0 +1,16 @@
+id: person.ryu-hankil
+name:
+  ko:
+    full: 류한길
+    family: 류
+    given: 한길
+  latn:
+    preferred: Ryu Hankil
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.mmca.go.kr/engN/pop/exhibition/2012/09/13/detail1_eng.html
+    name_used: Ryu Hankil
+    note: 롱테일 패스3(2기관 웹 검증) — MMCA英(사운드). high
+    accessed: '2026-06-22'
+status: pending_review
