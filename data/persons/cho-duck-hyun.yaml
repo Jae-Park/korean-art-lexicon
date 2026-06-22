@@ -1,0 +1,32 @@
+id: person.cho-duck-hyun
+name:
+  ko:
+    full: 조덕현
+    family: 조
+    given: 덕현
+  latn:
+    preferred: Cho Duck Hyun
+role:
+  - aat: '300025103'
+sources:
+  - url: https://www.pkmgallery.com/artists/cho-duck-hyun/biography
+    name_used: Cho Duck Hyun
+    note: PKM Gallery 작가 약력 — 본인/갤러리 영문 표기(권위)
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201511090000354
+    name_used: Cho Duck Hyun
+    note: 'MMCA 영문 — 《The Garden of NIM: Cho Duck Hyun Archive》(2015)'
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573269
+    name_used: 조덕현
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511020000346
+    name_used: 조덕현
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+  - url: https://gmoma.ggcf.kr/exhibitions/65
+    name_used: 조덕현
+    note: 경기도미술관 전시
+    accessed: '2026-06-22'
+status: pending_review
