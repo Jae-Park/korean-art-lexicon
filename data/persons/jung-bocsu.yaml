@@ -1,16 +1,27 @@
-id: person.boc-su-jung
+id: person.jung-bocsu
 name:
   ko:
     full: 정복수
     family: 정
     given: 복수
   latn:
-    preferred: Boc Su Jung
+    preferred: Jung Bocsu
+  variants:
+    - form: Boc Su Jung
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q31177327
 sources:
+  - url: https://www.mmcaresearch.kr/timeline/view.do?searchYearmm=198811
+    name_used: Jung Bocsu
+    note: MMCA Research Lab — 어순 교정(Family-Given)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q31177327
     name_used: Boc Su Jung
     note: Wikidata Q31177327 — 로마자 표기 및 동일성 출처

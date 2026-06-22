@@ -1,11 +1,11 @@
-id: person.yi-eungro
+id: person.lee-ungno
 name:
   ko:
     full: 이응노
     family: 이
     given: 응노
   latn:
-    preferred: Yi Eungro
+    preferred: Lee Ungno
   variants:
     - form: Ung No Lee
       lang: en
@@ -31,11 +31,21 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
+    - form: Yi Eungro
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q6354146
 sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=7070
+    name_used: Lee Ungno
+    note: MMCA 소장품 + 이응노미술관 + Met — 보편 기관표기('Yi Eungro'는 Wikidata형)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q6354146
     name_used: Yi Eungro
     note: Wikidata Q6354146 — 로마자/동일성. 통상 'Lee Ungno'(고암) — preferred 에디터 검토

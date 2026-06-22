@@ -1,0 +1,711 @@
+[
+  {
+    "ko": "김아타",
+    "slug": "atta-kim",
+    "currentPreferred": "Atta Kim",
+    "qid": "Q399762",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=647531",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201507020000279"
+    ]
+  },
+  {
+    "ko": "김아영",
+    "slug": "ayoung-kim",
+    "currentPreferred": "Ayoung Kim",
+    "qid": "Q101250887",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1548449",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558",
+      "https://gmoma.ggcf.kr/exhibitions/17",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=842"
+    ]
+  },
+  {
+    "ko": "방혜자",
+    "slug": "bang-hai-ja",
+    "currentPreferred": "Bang Hai Ja",
+    "qid": "Q56251673",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1392274",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201403070000063"
+    ]
+  },
+  {
+    "ko": "정복수",
+    "slug": "boc-su-jung",
+    "currentPreferred": "Boc Su Jung",
+    "qid": "Q31177327",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1509709",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=469"
+    ]
+  },
+  {
+    "ko": "장지아",
+    "slug": "chang-jia",
+    "currentPreferred": "Chang Jia",
+    "qid": "Q21060122",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=152",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201403060000058",
+      "https://gmoma.ggcf.kr/exhibitions/24"
+    ]
+  },
+  {
+    "ko": "이창진",
+    "slug": "chang-jin-lee",
+    "currentPreferred": "Chang-Jin Lee",
+    "qid": "Q19665451",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=425",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202102010001377"
+    ]
+  },
+  {
+    "ko": "장욱진",
+    "slug": "chang-ucchin",
+    "currentPreferred": "Chang Ucchin",
+    "qid": "Q5071680",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316524",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201503160000209",
+      "https://gmoma.ggcf.kr/exhibitions/45"
+    ]
+  },
+  {
+    "ko": "최병소",
+    "slug": "choi-byung-so",
+    "currentPreferred": "Choi Byung-so",
+    "qid": "Q140264972",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202403080001760"
+    ]
+  },
+  {
+    "ko": "정창섭",
+    "slug": "chung-chang-sup",
+    "currentPreferred": "Chung Chang-sup",
+    "qid": "Q51593288",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=243",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201007200002824",
+      "https://gmoma.ggcf.kr/exhibitions/62"
+    ]
+  },
+  {
+    "ko": "도상봉",
+    "slug": "do-sang-bong",
+    "currentPreferred": "Do Sang-bong",
+    "qid": "Q16180486",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316524",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201411040000176"
+    ]
+  },
+  {
+    "ko": "고희동",
+    "slug": "go-hui-dong",
+    "currentPreferred": "Go Hui-dong",
+    "qid": "Q5574841",
+    "existingSources": [
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999",
+      "https://www.rem.routledge.com/articles/ko-hui-dong-1886-1965",
+      "https://www.koreaherald.com/article/2792450",
+      "https://www.britannica.com/biography/Ko-Hui-dong",
+      "https://www.joongang.co.kr/article/25253395",
+      "https://encykorea.aks.ac.kr/Article/E0004097",
+      "https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=126",
+      "https://www.mmca.go.kr/eng/collections/collectionsDetailPage.do?wrkinfoSeqno=126",
+      "https://www.jfac.or.kr/site/main/content/gohd01",
+      "https://contents.history.go.kr/front/km/view.do?levelId=km_021_0040_0030_0010",
+      "https://www.culture.go.kr/portal/cltKnw/artCont/view.do?menuNo=200022&knwldgSn=7393&knwldgClsfCd=D012"
+    ]
+  },
+  {
+    "ko": "한석현",
+    "slug": "han-seok-hyun",
+    "currentPreferred": "Han Seok Hyun",
+    "qid": "Q110797029",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833672",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202102010001377"
+    ]
+  },
+  {
+    "ko": "한영수",
+    "slug": "han-youngsoo",
+    "currentPreferred": "Han, Youngsoo",
+    "qid": "Q100839703",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1515171",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202205090001512",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=469"
+    ]
+  },
+  {
+    "ko": "홍성담",
+    "slug": "hong-song-dam",
+    "currentPreferred": "Hong Song-dam",
+    "qid": "Q16186706",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=423",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=837"
+    ]
+  },
+  {
+    "ko": "정대유",
+    "slug": "jeong-dae-yu",
+    "currentPreferred": "Jeong Dae-yu",
+    "qid": "Q16175292",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573364",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558"
+    ]
+  },
+  {
+    "ko": "정금형",
+    "slug": "jeong-geumhyung",
+    "currentPreferred": "Jeong Geumhyung",
+    "qid": "Q21030266",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=573192",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202102030001394"
+    ]
+  },
+  {
+    "ko": "윤정미",
+    "slug": "jeongmee-yoon",
+    "currentPreferred": "Jeongmee Yoon",
+    "qid": "Q108479351",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1450126",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202311130001710",
+      "https://gmoma.ggcf.kr/exhibitions/8",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=423"
+    ]
+  },
+  {
+    "ko": "강명희",
+    "slug": "kang-myonghi",
+    "currentPreferred": "Kang Myonghi",
+    "qid": "Q16267305",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1371760",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002520"
+    ]
+  },
+  {
+    "ko": "김은호",
+    "slug": "kim-eun-ho",
+    "currentPreferred": "Kim Eun-ho",
+    "qid": "Q12588355",
+    "existingSources": [
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180001000",
+      "https://www.culture.go.kr/portal/cltKnw/artCont/view.do?menuNo=200022&knwldgSn=7441&knwldgClsfCd=D612",
+      "https://encykorea.aks.ac.kr/Article/E0010131",
+      "https://www.donga.com/archive/newslibrary/interview?cid=4475557",
+      "https://www.joongang.co.kr/article/25432972",
+      "https://namgaram.or.kr/artist/%EC%9D%B4%EB%8B%B9-%EA%B9%80%EC%9D%80%ED%98%B8-%E4%BB%A5%E5%A0%82-%EF%A4%8A%E6%AE%B7%E9%8E%AC/",
+      "https://contents.history.go.kr/front/km/view.do?levelId=km_021_0060_0020_0020_0030"
+    ]
+  },
+  {
+    "ko": "김인승",
+    "slug": "kim-in-seung",
+    "currentPreferred": "Kim In-seung",
+    "qid": "Q12588406",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573364",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202101190001358"
+    ]
+  },
+  {
+    "ko": "김중현",
+    "slug": "kim-jung-hyeon",
+    "currentPreferred": "Kim Jung-hyeon",
+    "qid": "Q16179696",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316524",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202107060001450"
+    ]
+  },
+  {
+    "ko": "김기창",
+    "slug": "kim-ki-chang",
+    "currentPreferred": "Kim Ki-chang",
+    "qid": "Q112766857",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1285988",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002759"
+    ]
+  },
+  {
+    "ko": "김명희",
+    "slug": "kim-myeong-hui",
+    "currentPreferred": "Kim Myeong-hui",
+    "qid": "Q6409191",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002555",
+      "https://gmoma.ggcf.kr/exhibitions/178",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=449"
+    ]
+  },
+  {
+    "ko": "김창열",
+    "slug": "kim-tschang-yeul",
+    "currentPreferred": "Kim Tschang Yeul",
+    "qid": "Q6409518",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=216712",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202601120002030",
+      "https://gmoma.ggcf.kr/exhibitions/62",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=469"
+    ]
+  },
+  {
+    "ko": "김원숙",
+    "slug": "kim-won-sook",
+    "currentPreferred": "Kim Won Sook",
+    "qid": "Q112919010",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=523341",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002556",
+      "https://gmoma.ggcf.kr/exhibitions/59"
+    ]
+  },
+  {
+    "ko": "김익영",
+    "slug": "kim-yik-yung",
+    "currentPreferred": "Kim Yik Yung",
+    "qid": "Q6409619",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573364",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558"
+    ]
+  },
+  {
+    "ko": "구동희",
+    "slug": "koo-donghee",
+    "currentPreferred": "Koo Donghee",
+    "qid": "Q100255645",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1513028",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201403060000058",
+      "https://gmoma.ggcf.kr/exhibitions/64",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=668"
+    ]
+  },
+  {
+    "ko": "천경자",
+    "slug": "kyung-ja-chun",
+    "currentPreferred": "Kyung-ja Chun",
+    "qid": "Q12618820",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308405",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201404140000075"
+    ]
+  },
+  {
+    "ko": "이인성",
+    "slug": "lee-inseoung",
+    "currentPreferred": "Lee Inseoung",
+    "qid": "Q12612396",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1392274",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002759",
+      "https://gmoma.ggcf.kr/exhibitions/45"
+    ]
+  },
+  {
+    "ko": "이진준",
+    "slug": "lee-jin-joon",
+    "currentPreferred": "Lee Jin-joon",
+    "qid": "Q16183626",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=249",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201703130000538",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=331"
+    ]
+  },
+  {
+    "ko": "이승택",
+    "slug": "lee-seung-taek",
+    "currentPreferred": "Lee Seung-taek",
+    "qid": "Q20010758",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002573",
+      "https://neolook.com/archives/20260410b",
+      "https://njp.ggcf.kr/exhibitions/23"
+    ]
+  },
+  {
+    "ko": "이성근",
+    "slug": "lee-sung-keun",
+    "currentPreferred": "Lee Sung-keun",
+    "qid": "Q23652262",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316588",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558"
+    ]
+  },
+  {
+    "ko": "이왈종",
+    "slug": "lee-wal-jong",
+    "currentPreferred": "Lee Wal-jong",
+    "qid": "Q17346816",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=177",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558"
+    ]
+  },
+  {
+    "ko": "이유태",
+    "slug": "lee-yu-tae",
+    "currentPreferred": "Lee Yu-tae",
+    "qid": "Q16180856",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316524",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002582"
+    ]
+  },
+  {
+    "ko": "민병헌",
+    "slug": "min-byung-hun",
+    "currentPreferred": "Min Byung-Hun",
+    "qid": "Q138573307",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=115",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201604180000429"
+    ]
+  },
+  {
+    "ko": "민철홍",
+    "slug": "min-cheol-hong",
+    "currentPreferred": "Min Cheol Hong",
+    "qid": "Q109459841",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=536",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002596"
+    ]
+  },
+  {
+    "ko": "남관",
+    "slug": "nam-kwan",
+    "currentPreferred": "Nam Kwan",
+    "qid": "Q16247503",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316524",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202601120002030"
+    ]
+  },
+  {
+    "ko": "오치균",
+    "slug": "oh-chi-gyun",
+    "currentPreferred": "Oh Chi-Gyun",
+    "qid": "Q112605126",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1168593",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201403070000063"
+    ]
+  },
+  {
+    "ko": "오지호",
+    "slug": "oh-ji-ho",
+    "currentPreferred": "Oh Ji-ho",
+    "qid": "Q12608074",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316524",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999"
+    ]
+  },
+  {
+    "ko": "박현기",
+    "slug": "park-hyun-ki",
+    "currentPreferred": "Park Hyun-ki",
+    "qid": "Q20742226",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202507100001975",
+      "https://gmoma.ggcf.kr/exhibitions/79"
+    ]
+  },
+  {
+    "ko": "박래현",
+    "slug": "park-rehyun",
+    "currentPreferred": "Park Rehyun",
+    "qid": "Q7137912",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308405",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201503160000209"
+    ]
+  },
+  {
+    "ko": "박생광",
+    "slug": "park-saeng-kwang",
+    "currentPreferred": "Park Saeng-kwang",
+    "qid": "Q16174513",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308679",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593",
+      "https://gmoma.ggcf.kr/exhibitions/115"
+    ]
+  },
+  {
+    "ko": "송상희",
+    "slug": "sanghee-song",
+    "currentPreferred": "Sanghee Song",
+    "qid": "Q21402307",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1312939",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201812040001104",
+      "https://gmoma.ggcf.kr/exhibitions/27",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2145"
+    ]
+  },
+  {
+    "ko": "석철주",
+    "slug": "seok-cheoljoo",
+    "currentPreferred": "Seok Cheoljoo",
+    "qid": "Q7451527",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1285988",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558",
+      "https://gmoma.ggcf.kr/exhibitions/68"
+    ]
+  },
+  {
+    "ko": "이성자",
+    "slug": "seund-ja-rhee",
+    "currentPreferred": "Seund Ja Rhee",
+    "qid": "Q166421",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=216712",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202601120002030"
+    ]
+  },
+  {
+    "ko": "신학철",
+    "slug": "shin-hak-chul",
+    "currentPreferred": "Shin Hak-chul",
+    "qid": "Q123669675",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1509709",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593",
+      "https://gmoma.ggcf.kr/exhibitions/104",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=420"
+    ]
+  },
+  {
+    "ko": "김신일",
+    "slug": "shin-il-kim",
+    "currentPreferred": "Shin il Kim",
+    "qid": "Q111182173",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=394",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201403060000058",
+      "https://gmoma.ggcf.kr/exhibitions/126"
+    ]
+  },
+  {
+    "ko": "신미경",
+    "slug": "shin-mee-kyoung",
+    "currentPreferred": "Shin Mee-kyoung",
+    "qid": "Q62591970",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1291102",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201411040000176",
+      "https://gmoma.ggcf.kr/exhibitions/36"
+    ]
+  },
+  {
+    "ko": "신상호",
+    "slug": "shin-sang-ho",
+    "currentPreferred": "Shin Sang-Ho",
+    "qid": "Q7497216",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573364",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558",
+      "https://gmoma.ggcf.kr/exhibitions/69"
+    ]
+  },
+  {
+    "ko": "조숙진",
+    "slug": "sook-jin-jo",
+    "currentPreferred": "Sook-Jin Jo",
+    "qid": "Q21550675",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=334",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202006150001274",
+      "https://gmoma.ggcf.kr/exhibitions/134"
+    ]
+  },
+  {
+    "ko": "김순기",
+    "slug": "soun-gui-kim",
+    "currentPreferred": "Soun-Gui Kim",
+    "qid": "Q108478022",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=487",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202601120002030"
+    ]
+  },
+  {
+    "ko": "서세옥",
+    "slug": "suh-se-ok",
+    "currentPreferred": "Suh Se-ok",
+    "qid": "Q16170392",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=215",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201510070000333",
+      "https://gmoma.ggcf.kr/exhibitions/68"
+    ]
+  },
+  {
+    "ko": "서용선",
+    "slug": "suh-yongsun",
+    "currentPreferred": "Suh Yongsun",
+    "qid": "Q2363792",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050000206",
+      "https://gmoma.ggcf.kr/exhibitions/96",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=417"
+    ]
+  },
+  {
+    "ko": "김성환",
+    "slug": "sung-hwan-kim",
+    "currentPreferred": "Sung Hwan Kim",
+    "qid": "Q7640082",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=174",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202001090001220",
+      "https://njp.ggcf.kr/exhibitions/146"
+    ]
+  },
+  {
+    "ko": "김차섭",
+    "slug": "tchah-sup-kim",
+    "currentPreferred": "Tchah-Sup Kim",
+    "qid": "Q22276206",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002584"
+    ]
+  },
+  {
+    "ko": "차학경",
+    "slug": "theresa-hak-kyung-cha",
+    "currentPreferred": "Theresa Hak Kyung Cha",
+    "qid": "Q7782868",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=1199259",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201304050002913"
+    ]
+  },
+  {
+    "ko": "빠키",
+    "slug": "vakki",
+    "currentPreferred": "Vakki",
+    "qid": "Q106513367",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=367",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202011120001334"
+    ]
+  },
+  {
+    "ko": "장우성",
+    "slug": "woo-soung-chang",
+    "currentPreferred": "Woo-Soung Chang",
+    "qid": "Q12614626",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316524",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002759"
+    ]
+  },
+  {
+    "ko": "최욱경",
+    "slug": "wook-kyung-choi",
+    "currentPreferred": "Wook-kyung Choi",
+    "qid": "Q97190987",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=216712",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201403070000063",
+      "https://gmoma.ggcf.kr/exhibitions/115"
+    ]
+  },
+  {
+    "ko": "함양아",
+    "slug": "yang-ah-ham",
+    "currentPreferred": "Yang Ah Ham",
+    "qid": "Q108477961",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=1298275",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201303140002902",
+      "https://gmoma.ggcf.kr/exhibitions/43",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2145"
+    ]
+  },
+  {
+    "ko": "이응노",
+    "slug": "yi-eungro",
+    "currentPreferred": "Yi Eungro",
+    "qid": "Q6354146",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1372958",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201503160000209"
+    ]
+  },
+  {
+    "ko": "강요배",
+    "slug": "yo-bae-kang",
+    "currentPreferred": "Yo-bae Kang",
+    "qid": "Q59377862",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1392274",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593",
+      "https://gmoma.ggcf.kr/exhibitions/42",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=455"
+    ]
+  },
+  {
+    "ko": "유영호",
+    "slug": "yoo-young-ho",
+    "currentPreferred": "Yoo Young-ho",
+    "qid": "Q8055176",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=371",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002635",
+      "https://gmoma.ggcf.kr/exhibitions/49"
+    ]
+  },
+  {
+    "ko": "박영숙",
+    "slug": "young-sook-park",
+    "currentPreferred": "Young Sook Park",
+    "qid": "Q116148174",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1409653",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201311220000046",
+      "https://gmoma.ggcf.kr/exhibitions/65"
+    ]
+  },
+  {
+    "ko": "윤석남",
+    "slug": "yun-suknam",
+    "currentPreferred": "Yun Suknam",
+    "qid": "Q18052759",
+    "existingSources": [
+      "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1312939",
+      "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593",
+      "https://gmoma.ggcf.kr/exhibitions/65",
+      "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=420"
+    ]
+  }
+]

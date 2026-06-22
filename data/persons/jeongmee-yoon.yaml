@@ -5,12 +5,23 @@ name:
     family: 윤
     given: 정미
   latn:
-    preferred: Jeongmee Yoon
+    preferred: JeongMee Yoon
+  variants:
+    - form: Jeongmee Yoon
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q108479351
 sources:
+  - url: https://www.jeongmeeyoon.com
+    name_used: JeongMee Yoon
+    note: 작가 공식 사이트 — 본인 표기(중간 대문자 M)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q108479351
     name_used: Jeongmee Yoon
     note: Wikidata Q108479351 — 로마자 표기 및 동일성 출처

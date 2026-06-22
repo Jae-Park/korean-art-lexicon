@@ -1,16 +1,27 @@
-id: person.kang-myonghi
+id: person.myonghi-kang
 name:
   ko:
     full: 강명희
     family: 강
     given: 명희
   latn:
-    preferred: Kang Myonghi
+    preferred: Myonghi Kang
+  variants:
+    - form: Kang Myonghi
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q16267305
 sources:
+  - url: https://www.villepinart.com/myonghi-kang
+    name_used: Myonghi Kang
+    note: Galerie Villepin + 본인 사이트 — 본인 표기(재불)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q16267305
     name_used: Kang Myonghi
     note: Wikidata Q16267305 — 로마자 표기 및 동일성 출처

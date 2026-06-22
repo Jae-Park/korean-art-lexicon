@@ -1,11 +1,11 @@
-id: person.kim-myeong-hui
+id: person.myong-hi-kim
 name:
   ko:
     full: 김명희
     family: 김
     given: 명희
   latn:
-    preferred: Kim Myeong-hui
+    preferred: Myong Hi Kim
   variants:
     - form: Gim Myeong-hui
       lang: en
@@ -13,11 +13,21 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
+    - form: Kim Myeong-hui
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q6409191
 sources:
+  - url: https://artprojects.com/news/myong-hi-kim-in-portrait-figure-and-people-december-18-2019-march-1-2020/
+    name_used: Myong Hi Kim
+    note: Art Projects Intl + 본인 사이트(myong-hikim.com) — 본인 표기(재미)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q6409191
     name_used: Kim Myeong-hui
     note: Wikidata Q6409191 — 로마자 표기 및 동일성 출처

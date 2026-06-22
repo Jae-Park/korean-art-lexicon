@@ -1,16 +1,27 @@
-id: person.kyung-ja-chun
+id: person.chun-kyung-ja
 name:
   ko:
     full: 천경자
     family: 천
     given: 경자
   latn:
-    preferred: Kyung-ja Chun
+    preferred: Chun Kyung-ja
+  variants:
+    - form: Kyung-ja Chun
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q12618820
 sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=488
+    name_used: Chun Kyung-ja
+    note: SeMA 천경자 추모전(소장 기관) — 어순 교정(Family-Given)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q12618820
     name_used: Kyung-ja Chun
     note: Wikidata Q12618820 — 로마자 표기 및 동일성 출처

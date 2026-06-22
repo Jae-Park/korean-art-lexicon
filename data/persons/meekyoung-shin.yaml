@@ -1,11 +1,11 @@
-id: person.shin-mee-kyoung
+id: person.meekyoung-shin
 name:
   ko:
     full: 신미경
     family: 신
     given: 미경
   latn:
-    preferred: Shin Mee-kyoung
+    preferred: Meekyoung Shin
   variants:
     - form: MeeKyoung Shin
       lang: en
@@ -13,17 +13,21 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
-    - form: Meekyoung Shin
+    - form: Shin Mee-kyoung
       lang: en
       script: Latn
       type: alternate
-      source: Wikidata
+      source: Wikidata (영문 라벨)
       accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q62591970
 sources:
+  - url: https://www.meekyoungshin.com/
+    name_used: Meekyoung Shin
+    note: 작가 공식 사이트 + 국제갤러리(전속) — 본인 표기(재영)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q62591970
     name_used: Shin Mee-kyoung
     note: Wikidata Q62591970 — 로마자 표기 및 동일성 출처

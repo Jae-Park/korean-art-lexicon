@@ -1,23 +1,27 @@
-id: person.jeong-geumhyung
+id: person.geumhyung-jeong
 name:
   ko:
     full: 정금형
     family: 정
     given: 금형
   latn:
-    preferred: Jeong Geumhyung
+    preferred: Geumhyung Jeong
   variants:
-    - form: Geumhyung Jeong
+    - form: Jeong Geumhyung
       lang: en
       script: Latn
       type: alternate
-      source: Wikidata
+      source: Wikidata (영문 라벨)
       accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q21030266
 sources:
+  - url: https://www.labiennale.org/en/art/2022/milk-dreams/geumhyung-jeong
+    name_used: Geumhyung Jeong
+    note: 베니스 비엔날레 2022(공식) — 본인 국제 표기
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q21030266
     name_used: Jeong Geumhyung
     note: Wikidata Q21030266 — 로마자 표기 및 동일성 출처

@@ -1,16 +1,27 @@
-id: person.lee-inseoung
+id: person.lee-in-sung
 name:
   ko:
     full: 이인성
     family: 이
     given: 인성
   latn:
-    preferred: Lee Inseoung
+    preferred: Lee In-sung
+  variants:
+    - form: Lee Inseoung
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q12612396
 sources:
+  - url: https://artsandculture.google.com/asset/kyesan-dong-cathedral-lee-in-sung/VwFKDQWV5D7xJw
+    name_used: Lee In-sung
+    note: Google Arts&Culture(MMCA 데이터) — 현행 'Inseoung'은 오타 교정
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q12612396
     name_used: Lee Inseoung
     note: Wikidata Q12612396 — 로마자/동일성. 통상 'Lee In-sung' — preferred 에디터 검토

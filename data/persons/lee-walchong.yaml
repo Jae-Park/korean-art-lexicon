@@ -1,16 +1,27 @@
-id: person.lee-wal-jong
+id: person.lee-walchong
 name:
   ko:
     full: 이왈종
     family: 이
     given: 왈종
   latn:
-    preferred: Lee Wal-jong
+    preferred: Lee Walchong
+  variants:
+    - form: Lee Wal-jong
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q17346816
 sources:
+  - url: https://www.ganaart.com/exhibition/lee-walchong/
+    name_used: Lee Walchong
+    note: 가나아트(전속 갤러리) — 기관표기(Walchong, 무하이픈)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q17346816
     name_used: Lee Wal-jong
     note: Wikidata Q17346816 — 로마자 표기 및 동일성 출처

@@ -1,11 +1,11 @@
-id: person.woo-soung-chang
+id: person.chang-woosoung
 name:
   ko:
     full: 장우성
     family: 장
     given: 우성
   latn:
-    preferred: Woo-Soung Chang
+    preferred: Chang Woosoung
   variants:
     - form: Woljeon
       lang: en
@@ -13,11 +13,21 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
+    - form: Woo-Soung Chang
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q12614626
 sources:
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=189
+    name_used: Chang Woosoung
+    note: MMCA 소장품 — 어순 교정(Family-Given)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q12614626
     name_used: Woo-Soung Chang
     note: Wikidata Q12614626 — 로마자 표기 및 동일성 출처

@@ -1,11 +1,11 @@
-id: person.kim-won-sook
+id: person.wonsook-kim
 name:
   ko:
     full: 김원숙
     family: 김
     given: 원숙
   latn:
-    preferred: Kim Won Sook
+    preferred: Wonsook Kim
   variants:
     - form: Won-Sook Kim
       lang: en
@@ -19,17 +19,21 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
-    - form: Wonsook Kim
+    - form: Kim Won Sook
       lang: en
       script: Latn
       type: alternate
-      source: Wikidata
+      source: Wikidata (영문 라벨)
       accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q112919010
 sources:
+  - url: https://wonsook.com/about/
+    name_used: Wonsook Kim
+    note: 작가 공식 사이트 — 본인 표기(재미)
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q112919010
     name_used: Kim Won Sook
     note: Wikidata Q112919010 — 로마자/동일성

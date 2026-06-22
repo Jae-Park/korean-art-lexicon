@@ -1,0 +1,30 @@
+id: person.park-gwangsoo
+name:
+  ko:
+    full: 박광수
+    family: 박
+    given: 광수
+  latn:
+    preferred: Park Gwangsoo
+    family: Park
+    given: Gwangsoo
+  variants:
+  - form: Gwangsoo Park
+    lang: en
+    script: Latn
+    type: alternate
+    source: Frieze / Kiaf (given-family 국제 표기)
+    accessed: '2026-06-22'
+birth_year: 1984
+role:
+- aat: '300025103'
+sources:
+- url: http://www.hakgojae.com/page/2-1-view.php?artist_num=337
+  name_used: Park Gwangsoo
+  note: '학고재 갤러리 전속작가 페이지(공식). 강원 철원 출생 1984년생, 회화. ※민중미술 계열 동명이인(국립현대 《민중미술 15년》 1994 참여)과 별개 인물.'
+  accessed: '2026-06-22'
+- url: https://www.frieze.com/event/gwangsoo-park-copper-and-hand
+  name_used: Gwangsoo Park
+  note: Frieze — 학고재 개인전 《Copper and Hand》(2023)
+  accessed: '2026-06-22'
+status: reviewed

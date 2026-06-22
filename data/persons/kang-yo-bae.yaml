@@ -1,16 +1,27 @@
-id: person.yo-bae-kang
+id: person.kang-yo-bae
 name:
   ko:
     full: 강요배
     family: 강
     given: 요배
   latn:
-    preferred: Yo-bae Kang
+    preferred: Kang Yo-bae
+  variants:
+    - form: Yo-bae Kang
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q59377862
 sources:
+  - url: https://www.hakgojae.com/page/2-1-view.php?artist_num=2
+    name_used: Kang Yo-bae
+    note: 학고재(전속)+Asia Art Archive — 어순 교정
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q59377862
     name_used: Yo-bae Kang
     note: Wikidata Q59377862 — 로마자 표기 및 동일성 출처

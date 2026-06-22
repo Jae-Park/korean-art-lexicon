@@ -1,16 +1,27 @@
-id: person.young-sook-park
+id: person.park-youngsook
 name:
   ko:
     full: 박영숙
     family: 박
     given: 영숙
   latn:
-    preferred: Young Sook Park
+    preferred: Park Youngsook
+  variants:
+    - form: Young Sook Park
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata (영문 라벨)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q116148174
 sources:
+  - url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=202403220001771
+    name_used: Park Youngsook
+    note: MMCA 《연결된 신체》+SeMA+아라리오 — 어순 교정
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q116148174
     name_used: Young Sook Park
     note: Wikidata Q116148174 — 로마자 표기 및 동일성 출처
