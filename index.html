@@ -635,7 +635,7 @@
     Hanja (한자), birth and death years, nationality, and role, with citations to primary institutional
     sources. It covers Korean and Korea-connected artists, exhibitions, institutions, and critical terms.
     Initiated and maintained by Jaeyong Park of Seoul Reading Room, who continues to develop and expand it.</p>
-    <p class="seo-updated">Last updated: June 2026</p>
+    <p class="seo-updated">Last updated: <span class="live-updated">June 2026</span></p>
     <!-- SEO-DIRECTORY:START -->
     <h3>People · 인물 (96)</h3>
     <ul>
@@ -834,6 +834,11 @@
     async function init() {
       const res = await fetch('dist/lexicon.json?v=' + Date.now(), { cache: 'no-store' });
       data = await res.json();
+
+      // Live "last updated" = most recent entry change (git commit date)
+      let latest = '';
+      for (const key of Object.keys(data)) for (const e of (data[key] || [])) if (e && e._last_updated && e._last_updated > latest) latest = e._last_updated;
+      if (latest) document.querySelectorAll('.live-updated').forEach(el => el.textContent = latest);
 
       // Hide entries that haven't passed review
       for (const key of Object.keys(data)) {
