@@ -1,16 +1,39 @@
-id: person.chin-gyu-kwon
+id: person.kwon-jin-kyu
 name:
   ko:
     full: 권진규
     family: 권
     given: 진규
   latn:
-    preferred: Chin-gyu Kwŏn
+    preferred: Kwon Jin Kyu
+  variants:
+    - form: Chin-gyu Kwŏn
+      lang: en
+      script: Latn
+      type: transliteration
+      source: Wikidata (McCune-Reischauer)
+      accessed: '2026-06-22'
+    - form: Kwon Jin-kyu
+      lang: en
+      script: Latn
+      type: alternate
+      source: 갤러리/미술관
+      accessed: '2026-06-22'
+    - form: Kwon Jinkyu
+      lang: en
+      script: Latn
+      type: alternate
+      source: 갤러리/미술관
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q12586158
 sources:
+  - url: https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1033195
+    name_used: Kwon Jin Kyu
+    note: SeMA 권진규 탄생100주년 회고전 'Kwon Jin Kyu Centennial'
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q12586158
     name_used: Chin-gyu Kwŏn
     note: Wikidata Q12586158 — 로마자 표기 및 동일성 출처

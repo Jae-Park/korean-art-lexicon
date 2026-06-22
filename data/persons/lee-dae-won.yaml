@@ -1,11 +1,11 @@
-id: person.tae-won-yi
+id: person.lee-dae-won
 name:
   ko:
     full: 이대원
     family: 이
     given: 대원
   latn:
-    preferred: Tae-wŏn Yi
+    preferred: Lee Dae-won
   variants:
     - form: Dentist
       lang: en
@@ -13,11 +13,27 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
+    - form: Tae-wŏn Yi
+      lang: en
+      script: Latn
+      type: transliteration
+      source: Wikidata (McCune-Reischauer)
+      accessed: '2026-06-22'
+    - form: Lee Dai-won
+      lang: en
+      script: Latn
+      type: alternate
+      source: 갤러리/미술관
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q18684950
 sources:
+  - url: https://www.artsy.net/artist/idaeweon-dae-won-lee
+    name_used: Lee Dae-won
+    note: Artsy(갤러리 소스) — 표기 다양, 검토 여지
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q18684950
     name_used: Tae-wŏn Yi
     note: Wikidata Q18684950 — 로마자 표기 및 동일성 출처

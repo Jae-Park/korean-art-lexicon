@@ -1,16 +1,27 @@
-id: person.mal-lin-ch-oe
+id: person.choi-man-lin
 name:
   ko:
     full: 최만린
     family: 최
     given: 만린
   latn:
-    preferred: Mal-lin Ch'oe
+    preferred: Choi Man-lin
+  variants:
+    - form: Mal-lin Ch'oe
+      lang: en
+      script: Latn
+      type: transliteration
+      source: Wikidata (McCune-Reischauer)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q17504374
 sources:
+  - url: https://sma.sbculture.or.kr/cml/about/introduce.do
+    name_used: Choi Man-lin
+    note: 성북구립 최만린미술관
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q17504374
     name_used: Mal-lin Ch'oe
     note: Wikidata Q17504374 — 로마자 표기 및 동일성 출처

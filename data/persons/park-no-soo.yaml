@@ -1,16 +1,27 @@
-id: person.no-su-pak
+id: person.park-no-soo
 name:
   ko:
     full: 박노수
     family: 박
     given: 노수
   latn:
-    preferred: No-su Pak
+    preferred: Park No-soo
+  variants:
+    - form: No-su Pak
+      lang: en
+      script: Latn
+      type: transliteration
+      source: Wikidata (McCune-Reischauer)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q12596574
 sources:
+  - url: https://www.jfac.or.kr/site/main/content/parkns01
+    name_used: Park No-soo
+    note: 종로구립 박노수미술관
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q12596574
     name_used: No-su Pak
     note: Wikidata Q12596574 — 로마자 표기 및 동일성 출처

@@ -1,16 +1,33 @@
-id: person.pon-ch-ang-ku
+id: person.koo-bohnchang
 name:
   ko:
     full: 구본창
     family: 구
     given: 본창
   latn:
-    preferred: Pon-ch'ang Ku
+    preferred: Koo Bohnchang
+  variants:
+    - form: Pon-ch'ang Ku
+      lang: en
+      script: Latn
+      type: transliteration
+      source: Wikidata (McCune-Reischauer)
+      accessed: '2026-06-22'
+    - form: Bohnchang Koo
+      lang: en
+      script: Latn
+      type: alternate
+      source: 갤러리/미술관
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q94655068
 sources:
+  - url: http://www.bckoo.com/biography
+    name_used: Koo Bohnchang
+    note: 작가 본인 사이트 — 영문 표기 권위
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q94655068
     name_used: Pon-ch'ang Ku
     note: Wikidata Q94655068 — 로마자 표기 및 동일성 출처

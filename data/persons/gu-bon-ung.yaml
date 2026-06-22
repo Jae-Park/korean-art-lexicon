@@ -1,16 +1,27 @@
-id: person.pon-ung-ku
+id: person.gu-bon-ung
 name:
   ko:
     full: 구본웅
     family: 구
     given: 본웅
   latn:
-    preferred: Pon-ung Ku
+    preferred: Gu Bon-ung
+  variants:
+    - form: Pon-ung Ku
+      lang: en
+      script: Latn
+      type: transliteration
+      source: Wikidata (McCune-Reischauer)
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q12585446
 sources:
+  - url: https://www.e-flux.com/announcements/371537
+    name_used: Gu Bon-ung
+    note: e-flux MMCA 전시 — Gu Bon-ung
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q12585446
     name_used: Pon-ung Ku
     note: Wikidata Q12585446 — 로마자 표기 및 동일성 출처

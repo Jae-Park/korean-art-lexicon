@@ -1,16 +1,33 @@
-id: person.kwan-sik-pyon
+id: person.byeon-gwan-sik
 name:
   ko:
     full: 변관식
     family: 변
     given: 관식
   latn:
-    preferred: Kwan-sik Pyŏn
+    preferred: Byeon Gwan-sik
+  variants:
+    - form: Kwan-sik Pyŏn
+      lang: en
+      script: Latn
+      type: transliteration
+      source: Wikidata (McCune-Reischauer)
+      accessed: '2026-06-22'
+    - form: Byeon Gwansik
+      lang: en
+      script: Latn
+      type: alternate
+      source: 갤러리/미술관
+      accessed: '2026-06-22'
 role:
   - aat: '300025103'
 external_ids:
   wikidata: Q16181461
 sources:
+  - url: https://searchcollection.asianart.org/people/1195/byeon-gwansik
+    name_used: Byeon Gwan-sik
+    note: Asian Art Museum (SF) 소장품 — Byeon Gwansik
+    accessed: '2026-06-22'
   - url: https://www.wikidata.org/wiki/Q16181461
     name_used: Kwan-sik Pyŏn
     note: Wikidata Q16181461 — 로마자 표기 및 동일성 출처
