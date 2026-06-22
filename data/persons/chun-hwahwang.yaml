@@ -6,6 +6,8 @@ name:
     given: 화황
   latn:
     preferred: Chun Hwahwang
+birth_year: 1909
+death_year: 1996
 role:
   - aat: '300025103'
 sources:

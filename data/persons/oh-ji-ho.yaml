@@ -6,6 +6,8 @@ name:
     given: 지호
   latn:
     preferred: Oh Ji-ho
+birth_year: 1905
+death_year: 1982
 role:
   - aat: '300025103'
 external_ids:

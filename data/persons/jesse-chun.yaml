@@ -6,6 +6,7 @@ name:
     given: 시 천
   latn:
     preferred: Jesse Chun
+birth_year: 1984
 role:
   - aat: '300025103'
 sources:

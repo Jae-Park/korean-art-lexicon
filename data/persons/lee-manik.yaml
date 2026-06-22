@@ -6,6 +6,8 @@ name:
     given: 만익
   latn:
     preferred: Lee Manik
+birth_year: 1938
+death_year: 2012
 role:
   - aat: '300025103'
 sources:

@@ -13,6 +13,7 @@ name:
       type: alternate
       source: Wikidata (영문 라벨)
       accessed: '2026-06-22'
+birth_year: 1960
 role:
   - aat: '300025103'
 external_ids:
@@ -38,4 +39,8 @@ sources:
     name_used: 조숙진
     note: 경기도미술관 전시
     accessed: '2026-06-22'
+  - url: https://prabook.com/web/sook_jin.jo/783187
+    name_used: Sook Jin Jo
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

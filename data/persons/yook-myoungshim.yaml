@@ -6,6 +6,8 @@ name:
     given: 명심
   latn:
     preferred: Yook Myoungshim
+birth_year: 1933
+death_year: 2025
 role:
   - aat: '300025103'
 sources:

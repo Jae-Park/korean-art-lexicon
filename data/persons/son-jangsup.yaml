@@ -6,6 +6,8 @@ name:
     given: 장섭
   latn:
     preferred: Son Jangsup
+birth_year: 1941
+death_year: 2021
 role:
   - aat: '300025103'
 sources:

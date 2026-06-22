@@ -6,6 +6,7 @@ name:
     given: 명은
   latn:
     preferred: Eun Chun
+birth_year: 1977
 role:
   - aat: '300025103'
 sources:

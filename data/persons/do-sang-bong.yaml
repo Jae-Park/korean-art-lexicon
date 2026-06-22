@@ -6,6 +6,8 @@ name:
     given: 상봉
   latn:
     preferred: Do Sang-bong
+birth_year: 1902
+death_year: 1977
 role:
   - aat: '300025103'
 external_ids:

@@ -6,6 +6,7 @@ name:
     given: 헤윰
   latn:
     preferred: Bä Hejum
+birth_year: 1987
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Bä Hejum
     note: 롱테일 패스3(2기관 웹 검증) — MMCA英 YKA2021(국제 Hejum Bä). high
     accessed: '2026-06-22'
+  - url: https://k-artist.com/Artist_page.php?tab_num=tab1&artist_num=69
+    name_used: Bä Hejum
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

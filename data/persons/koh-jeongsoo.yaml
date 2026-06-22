@@ -6,6 +6,7 @@ name:
     given: 정수
   latn:
     preferred: Koh Jeongsoo
+birth_year: 1948
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,8 @@ name:
     given: 점식
   latn:
     preferred: Jung Jeoumsik
+birth_year: 1917
+death_year: 2009
 role:
   - aat: '300025103'
 sources:

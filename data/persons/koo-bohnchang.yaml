@@ -19,6 +19,7 @@ name:
       type: alternate
       source: 갤러리/미술관
       accessed: '2026-06-22'
+birth_year: 1953
 role:
   - aat: '300025103'
 external_ids:

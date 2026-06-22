@@ -6,6 +6,7 @@ name:
     given: 이박
   latn:
     preferred: Kim Lee-Park
+birth_year: 1982
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Kim Lee-Park
     note: 롱테일 패스2(웹 검증) — 두산(개인 작가, 본명 김현영). high
     accessed: '2026-06-22'
+  - url: https://m.doosanartcenter.com/ko/exhibit/artist/334
+    name_used: Kim Lee-Park
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

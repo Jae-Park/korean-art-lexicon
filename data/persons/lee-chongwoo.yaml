@@ -6,6 +6,8 @@ name:
     given: 종우
   latn:
     preferred: Lee Chongwoo
+birth_year: 1899
+death_year: 1981
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,8 @@ name:
     given: 문기
   latn:
     preferred: Paik Moonki
+birth_year: 1927
+death_year: 2018
 role:
   - aat: '300025103'
 sources:

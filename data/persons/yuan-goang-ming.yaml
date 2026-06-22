@@ -6,6 +6,7 @@ name:
     given: 안광밍
   latn:
     preferred: Yuan Goang-Ming
+birth_year: 1965
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Yuan Goang-Ming
     note: 롱테일 패스3(2기관 웹 검증) — 아시아미술관SF(대만). high
     accessed: '2026-06-22'
+  - url: https://www.tkgplus.com/en/artists/29-yuan-goang-ming/biography/
+    name_used: Yuan Goang-Ming
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

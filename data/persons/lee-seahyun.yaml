@@ -6,6 +6,7 @@ name:
     given: 세현
   latn:
     preferred: Lee Seahyun
+birth_year: 1967
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Lee Seahyun
     note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
     accessed: '2026-06-22'
+  - url: https://www.choiandchoi.com/artists/39-sea-hyun-lee/
+    name_used: Lee Seahyun
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

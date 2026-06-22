@@ -6,6 +6,7 @@ name:
     given: 인종
   latn:
     preferred: Won Injong
+birth_year: 1956
 role:
   - aat: '300025103'
 sources:

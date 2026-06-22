@@ -6,6 +6,8 @@ name:
     given: 승조
   latn:
     preferred: Lee Seungjio
+birth_year: 1941
+death_year: 1990
 role:
   - aat: '300025103'
 sources:

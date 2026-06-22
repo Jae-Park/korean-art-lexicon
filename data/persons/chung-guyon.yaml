@@ -6,6 +6,8 @@ name:
     given: 기용
   latn:
     preferred: Chung Guyon
+birth_year: 1945
+death_year: 2011
 role:
   - aat: '300025103'
 sources:

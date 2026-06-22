@@ -13,6 +13,7 @@ name:
       type: alternate
       source: 이전 표기/RR
       accessed: '2026-06-22'
+birth_year: 1939
 role:
   - aat: '300025103'
 sources:

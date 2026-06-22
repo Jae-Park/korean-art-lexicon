@@ -6,6 +6,8 @@ name:
     given: 리스티앙 볼탕스키
   latn:
     preferred: Christian Boltanski
+birth_year: 1944
+death_year: 2021
 role:
   - aat: '300025103'
 sources:

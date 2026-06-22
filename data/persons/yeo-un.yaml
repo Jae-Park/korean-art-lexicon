@@ -6,6 +6,8 @@ name:
     given: 운
   latn:
     preferred: Yeo Un
+birth_year: 1947
+death_year: 2013
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,8 @@ name:
     given: 영수
   latn:
     preferred: Kim Youngsoo
+birth_year: 1946
+death_year: 2011
 role:
   - aat: '300025103'
 sources:

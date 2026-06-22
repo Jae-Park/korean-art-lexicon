@@ -6,6 +6,7 @@ name:
     given: 우리
   latn:
     preferred: Uri Han
+birth_year: 1986
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Uri Han
     note: 롱테일 패스2(웹 검증) — SeMA 난지 영문. high
     accessed: '2026-06-22'
+  - url: https://hitecollection.com/uri-han-biography/
+    name_used: Uri Han
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

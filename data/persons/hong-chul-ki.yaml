@@ -6,6 +6,7 @@ name:
     given: 철기
   latn:
     preferred: Hong Chul-Ki
+birth_year: 1976
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Hong Chul-Ki
     note: 롱테일 패스2(웹 검증) — SeMA 영문 'Is It Noise?'. high
     accessed: '2026-06-22'
+  - url: https://lampo.org/archive/lee-hangjun-and-hong-chulki-2016/
+    name_used: Hong Chul-Ki
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

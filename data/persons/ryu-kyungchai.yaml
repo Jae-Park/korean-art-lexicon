@@ -6,6 +6,8 @@ name:
     given: 경채
   latn:
     preferred: Ryu Kyungchai
+birth_year: 1920
+death_year: 1995
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,8 @@ name:
     given: 두건
   latn:
     preferred: Chang Dookun
+birth_year: 1918
+death_year: 2015
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +15,8 @@ sources:
     name_used: Chang Dookun
     note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
     accessed: '2026-06-22'
+  - url: https://poma.pohang.go.kr/poma/bbs/board.php?bo_table=exhibition&wr_id=6246&ketime=current
+    name_used: Chang Dookun
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

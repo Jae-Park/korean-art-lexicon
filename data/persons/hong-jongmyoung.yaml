@@ -6,6 +6,8 @@ name:
     given: 종명
   latn:
     preferred: Hong Jongmyoung
+birth_year: 1922
+death_year: 2004
 role:
   - aat: '300025103'
 sources:

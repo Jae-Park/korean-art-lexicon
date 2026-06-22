@@ -6,6 +6,7 @@ name:
     given: 은실
   latn:
     preferred: Lee Eunsil
+birth_year: 1983
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Lee Eunsil
     note: MMCA 소장품 artistnmEng — 기관 표기 · 동음이의 검증필요
     accessed: '2026-06-22'
+  - url: https://www.eunsillee.com/en/biography
+    name_used: Lee Eunsil
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

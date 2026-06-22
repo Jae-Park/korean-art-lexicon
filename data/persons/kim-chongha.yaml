@@ -6,6 +6,8 @@ name:
     given: 종하
   latn:
     preferred: Kim Chongha
+birth_year: 1918
+death_year: 2011
 role:
   - aat: '300025103'
 sources:

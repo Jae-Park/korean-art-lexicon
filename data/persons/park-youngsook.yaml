@@ -13,6 +13,8 @@ name:
       type: alternate
       source: Wikidata (영문 라벨)
       accessed: '2026-06-22'
+birth_year: 1941
+death_year: 2025
 role:
   - aat: '300025103'
 external_ids:
@@ -38,4 +40,8 @@ sources:
     name_used: 박영숙
     note: 경기도미술관 전시
     accessed: '2026-06-22'
+  - url: https://www.arariogallery.com/artists/76-park-youngsook/
+    name_used: Park Youngsook
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

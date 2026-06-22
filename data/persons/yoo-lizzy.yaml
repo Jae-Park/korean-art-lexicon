@@ -6,6 +6,8 @@ name:
     given: 리지
   latn:
     preferred: Yoo Lizzy
+birth_year: 1945
+death_year: 2013
 role:
   - aat: '300025103'
 sources:

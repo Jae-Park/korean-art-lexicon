@@ -6,6 +6,7 @@ name:
     given: 한
   latn:
     preferred: Ram Han
+birth_year: 1989
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Ram Han
     note: 롱테일 패스3(2기관, 저명 보강) — SeMA Omnibus + MMCA 게임사회2023(b.1989 디지털페인팅). high
     accessed: '2026-06-22'
+  - url: https://www.harpersbazaar.co.kr/artwalk/artist/detail/294
+    name_used: Ram Han
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

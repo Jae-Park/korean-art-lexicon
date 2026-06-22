@@ -13,6 +13,7 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
+birth_year: 1975
 role:
   - aat: '300025103'
 external_ids:
@@ -38,4 +39,8 @@ sources:
     name_used: 김성환
     note: 백남준아트센터 전시
     accessed: '2026-06-22'
+  - url: https://www.tate.org.uk/art/artists/sung-hwan-kim-17304
+    name_used: Sung Hwan Kim
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

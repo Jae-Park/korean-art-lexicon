@@ -6,6 +6,7 @@ name:
     given: 정수
   latn:
     preferred: Shim Jungsoo
+birth_year: 1942
 role:
   - aat: '300025103'
 sources:

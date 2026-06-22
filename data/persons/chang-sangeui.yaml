@@ -6,6 +6,7 @@ name:
     given: 상의
   latn:
     preferred: Chang Sangeui
+birth_year: 1940
 role:
   - aat: '300025103'
 sources:

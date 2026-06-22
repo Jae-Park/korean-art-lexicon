@@ -13,6 +13,7 @@ name:
       type: alternate
       source: Wikidata (영문 라벨)
       accessed: '2026-06-22'
+birth_year: 1957
 role:
   - aat: '300025103'
 external_ids:
@@ -38,4 +39,8 @@ sources:
     name_used: 정복수
     note: 아트스페이스 풀 전시
     accessed: '2026-06-22'
+  - url: https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B5%EC%88%98_(1957%EB%85%84)
+    name_used: Jung Bocsu
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

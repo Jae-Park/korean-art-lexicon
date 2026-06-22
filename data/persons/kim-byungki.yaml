@@ -6,6 +6,8 @@ name:
     given: 병기
   latn:
     preferred: Kim Byungki
+birth_year: 1916
+death_year: 2022
 role:
   - aat: '300025103'
 sources:

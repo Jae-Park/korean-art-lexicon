@@ -6,6 +6,8 @@ name:
     given: 성훈
   latn:
     preferred: Kong Sunghun
+birth_year: 1965
+death_year: 2021
 role:
   - aat: '300025103'
 sources:

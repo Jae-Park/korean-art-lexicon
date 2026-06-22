@@ -6,6 +6,7 @@ name:
     given: 동유
   latn:
     preferred: Kim Dongyoo
+birth_year: 1965
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Kim Dongyoo
     note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
     accessed: '2026-06-22'
+  - url: https://ko.wikipedia.org/wiki/%EA%B9%80%EB%8F%99%EC%9C%A0
+    name_used: Kim Dongyoo
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

@@ -13,6 +13,8 @@ name:
       type: alternate
       source: RR 하이픈형(현행)
       accessed: '2026-06-22'
+birth_year: 1933
+death_year: 2020
 role:
   - aat: '300025103'
 external_ids:

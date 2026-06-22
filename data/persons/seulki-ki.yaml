@@ -6,6 +6,7 @@ name:
     given: 슬기
   latn:
     preferred: Seulki Ki
+birth_year: 1984
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Seulki Ki
     note: 롱테일 패스2(웹 검증) — MMCA 레지던시. high
     accessed: '2026-06-22'
+  - url: https://m.doosanartcenter.com/en/exhibit/artist/235
+    name_used: Seulki Ki
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

@@ -6,6 +6,8 @@ name:
     given: 직순
   latn:
     preferred: Yim Jiksoon
+birth_year: 1921
+death_year: 1996
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,8 @@ name:
     given: 정윤
   latn:
     preferred: Um Jeongyoon
+birth_year: 1927
+death_year: 2025
 role:
   - aat: '300025103'
 sources:

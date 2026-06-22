@@ -6,6 +6,7 @@ name:
     given: 영주
   latn:
     preferred: IM Youngzoo
+birth_year: 1982
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: IM Youngzoo
     note: 아트스페이스 풀 영문판(전시 동시발행) — 기관 표기 · 승격후보
     accessed: '2026-06-22'
+  - url: https://www.frieze.com/article/im-youngzoo-wins-frieze-seoul-2025-artist-award
+    name_used: IM Youngzoo
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

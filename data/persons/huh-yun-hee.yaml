@@ -6,6 +6,7 @@ name:
     given: 윤희
   latn:
     preferred: Huh Yun-hee
+birth_year: 1968
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Huh Yun-hee
     note: 롱테일 패스2(웹 검증) — 작가 본인 다큐. medium
     accessed: '2026-06-22'
+  - url: https://www.imaeil.com/page/view/2024110312151646478
+    name_used: Huh Yun-hee
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

@@ -6,6 +6,7 @@ name:
     given: 보경
   latn:
     preferred: Bokyung Jun
+birth_year: 1979
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Bokyung Jun
     note: 롱테일 패스3(2기관 웹 검증) — LOOP(SeMA소장4점). high
     accessed: '2026-06-22'
+  - url: https://www.proyectoace.org/en/artistas/bokyung-jun-2/
+    name_used: Bokyung Jun
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

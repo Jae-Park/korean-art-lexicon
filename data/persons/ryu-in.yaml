@@ -6,6 +6,8 @@ name:
     given: 인
   latn:
     preferred: Ryu In
+birth_year: 1956
+death_year: 1999
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,7 @@ name:
     given: 직성
   latn:
     preferred: Jeong Zikseong
+birth_year: 1976
 role:
   - aat: '300025103'
 sources:

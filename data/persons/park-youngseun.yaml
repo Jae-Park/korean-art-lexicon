@@ -6,6 +6,8 @@ name:
     given: 영선
   latn:
     preferred: Park Youngseun
+birth_year: 1910
+death_year: 1994
 role:
   - aat: '300025103'
 sources:

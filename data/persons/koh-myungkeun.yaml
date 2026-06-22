@@ -6,6 +6,7 @@ name:
     given: 명근
   latn:
     preferred: Koh Myungkeun
+birth_year: 1964
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Koh Myungkeun
     note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
     accessed: '2026-06-22'
+  - url: https://namuso-gallery.com/artists/49-myungkeun-koh/
+    name_used: Koh Myungkeun
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

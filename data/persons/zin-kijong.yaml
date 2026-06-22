@@ -6,6 +6,7 @@ name:
     given: 기종
   latn:
     preferred: Zin Kijong
+birth_year: 1981
 role:
   - aat: '300025103'
 sources:

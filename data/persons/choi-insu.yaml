@@ -6,6 +6,7 @@ name:
     given: 인수
   latn:
     preferred: Choi Insu
+birth_year: 1946
 role:
   - aat: '300025103'
 sources:

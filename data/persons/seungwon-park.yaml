@@ -6,6 +6,7 @@ name:
     given: 승원
   latn:
     preferred: Seungwon Park
+birth_year: 1980
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Seungwon Park
     note: 롱테일 패스2(웹 검증) — Plan B Project Space + KAMS(MMCA/SeMA/NJP/경기 확인). high
     accessed: '2026-06-22'
+  - url: https://m.doosanartcenter.com/ko/exhibit/artist/322
+    name_used: Seungwon Park
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

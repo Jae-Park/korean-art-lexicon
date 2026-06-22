@@ -6,6 +6,7 @@ name:
     given: 비호
   latn:
     preferred: Ryu Biho
+birth_year: 1970
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,8 @@ name:
     given: 영우
   latn:
     preferred: Kwon Youngwoo
+birth_year: 1926
+death_year: 2013
 role:
   - aat: '300025103'
 sources:

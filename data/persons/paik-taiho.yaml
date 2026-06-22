@@ -6,6 +6,8 @@ name:
     given: 태호
   latn:
     preferred: Paik Taiho
+birth_year: 1925
+death_year: 2009
 role:
   - aat: '300025103'
 sources:

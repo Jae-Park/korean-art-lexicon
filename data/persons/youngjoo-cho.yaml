@@ -6,6 +6,7 @@ name:
     given: 영주
   latn:
     preferred: Youngjoo Cho
+birth_year: 1978
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Youngjoo Cho
     note: 롱테일 패스2(웹 검증) — Delfina Foundation + MMCA. high
     accessed: '2026-06-22'
+  - url: https://k-artist.com/Artist_page.php?tab_num=tab1&artist_num=55
+    name_used: Youngjoo Cho
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

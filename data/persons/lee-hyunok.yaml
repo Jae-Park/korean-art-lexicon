@@ -6,6 +6,8 @@ name:
     given: 현옥
   latn:
     preferred: Lee Hyunok
+birth_year: 1909
+death_year: 2000
 role:
   - aat: '300025103'
 sources:

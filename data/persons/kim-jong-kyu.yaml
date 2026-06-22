@@ -6,6 +6,7 @@ name:
     given: 종규
   latn:
     preferred: Kim Jong Kyu
+birth_year: 1960
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Kim Jong Kyu
     note: 롱테일 패스3(2기관 웹 검증) — e-flux MMCA건축. high
     accessed: '2026-06-22'
+  - url: https://prabook.com/web/jong-kyu.kim/412661
+    name_used: Kim Jong Kyu
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

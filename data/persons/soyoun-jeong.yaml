@@ -13,6 +13,7 @@ name:
       type: alternate
       source: 이전 표기/RR
       accessed: '2026-06-22'
+birth_year: 1967
 role:
   - aat: '300025103'
 sources:
@@ -24,4 +25,8 @@ sources:
     name_used: Jeong Soyoun
     note: MMCA 소장품 artistnmEng — 기관 표기 · 동음이의 검증필요
     accessed: '2026-06-22'
+  - url: https://www.artsy.net/artist/soyoun-jeong
+    name_used: Soyoun Jeong
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

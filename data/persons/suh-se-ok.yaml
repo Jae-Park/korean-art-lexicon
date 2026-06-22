@@ -25,6 +25,8 @@ name:
       type: alternate
       source: Wikidata (영문 라벨)
       accessed: '2026-06-22'
+birth_year: 1929
+death_year: 2020
 role:
   - aat: '300025103'
 external_ids:
@@ -50,4 +52,8 @@ sources:
     name_used: 서세옥
     note: 경기도미술관 전시
     accessed: '2026-06-22'
+  - url: https://ko.wikipedia.org/wiki/%EC%84%9C%EC%84%B8%EC%98%A5
+    name_used: Suh Se Ok
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

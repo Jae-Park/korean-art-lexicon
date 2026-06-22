@@ -6,6 +6,8 @@ name:
     given: 인식
   latn:
     preferred: Quac Insik
+birth_year: 1919
+death_year: 1988
 role:
   - aat: '300025103'
 sources:

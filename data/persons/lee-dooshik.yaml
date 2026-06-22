@@ -6,6 +6,8 @@ name:
     given: 두식
   latn:
     preferred: Lee Dooshik
+birth_year: 1947
+death_year: 2013
 role:
   - aat: '300025103'
 sources:

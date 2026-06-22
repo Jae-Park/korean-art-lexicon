@@ -6,6 +6,7 @@ name:
     given: 미정
   latn:
     preferred: Shin Mijung
+birth_year: 1983
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Shin Mijung
     note: 롱테일 패스3(2기관 웹 검증) — 금천(MMCA고양+SeMA). high
     accessed: '2026-06-22'
+  - url: https://www.kbmaeil.com/article/202305030361263
+    name_used: Shin Mijung
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

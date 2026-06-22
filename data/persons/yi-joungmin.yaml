@@ -13,6 +13,8 @@ name:
       type: alternate
       source: 이전 표기/RR
       accessed: '2026-06-22'
+birth_year: 1971
+death_year: 2019
 role:
   - aat: '300025103'
 sources:
@@ -24,4 +26,8 @@ sources:
     name_used: Lee Jung Min
     note: 롱테일 패스2(웹 검증) — 작가 공식 + MMCA 아트뱅크(동음). medium
     accessed: '2026-06-22'
+  - url: https://www.artforum.com/news/jin-shiu-and-yi-joungmin-of-south-korean-okin-collective-found-dead-80533
+    name_used: Yi Joungmin
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

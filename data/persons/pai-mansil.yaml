@@ -6,6 +6,8 @@ name:
     given: 만실
   latn:
     preferred: Pai Mansil
+birth_year: 1923
+death_year: 2018
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,7 @@ name:
     given: 성우
   latn:
     preferred: Han Sungwoo
+birth_year: 1987
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Han Sungwoo
     note: 롱테일 패스2(웹 검증) — e-flux SeMA 난지. high
     accessed: '2026-06-22'
+  - url: https://www.nookgallery.com/jobs-1/%ED%95%9C%EC%84%B1%EC%9A%B0-sungwoo-han
+    name_used: Han Sungwoo
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

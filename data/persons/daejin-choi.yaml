@@ -6,6 +6,7 @@ name:
     given: 대진
   latn:
     preferred: Daejin Choi
+birth_year: 1974
 role:
   - aat: '300025103'
 sources:
@@ -17,4 +18,8 @@ sources:
     name_used: Daejin Choi
     note: 롱테일 패스3(2기관 웹 검증) — Artsy(SeMA난지). 약-medium
     accessed: '2026-06-22'
+  - url: https://hitecollection.com/daejin-choi-biography/
+    name_used: Daejin Choi
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

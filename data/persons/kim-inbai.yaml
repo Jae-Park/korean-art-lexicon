@@ -6,6 +6,7 @@ name:
     given: 인배
   latn:
     preferred: Kim Inbai
+birth_year: 1978
 role:
   - aat: '300025103'
 sources:

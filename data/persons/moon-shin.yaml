@@ -6,6 +6,8 @@ name:
     given: 신
   latn:
     preferred: Moon Shin
+birth_year: 1923
+death_year: 1995
 role:
   - aat: '300025103'
 sources:

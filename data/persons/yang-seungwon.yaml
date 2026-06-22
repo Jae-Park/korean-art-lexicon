@@ -6,6 +6,7 @@ name:
     given: 승원
   latn:
     preferred: Yang Seungwon
+birth_year: 1984
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Yang Seungwon
     note: 롱테일 패스3(2기관 웹 검증) — 뮤지엄한미英. high
     accessed: '2026-06-22'
+  - url: https://hitecollection.com/seungwonyang_biography/
+    name_used: Yang Seungwon
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

@@ -6,6 +6,7 @@ name:
     given: 명섭
   latn:
     preferred: Hong Myung Seop
+birth_year: 1948
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Hong Myung Seop
     note: 롱테일 패스2(웹 검증) — SeMA 영문(무하이픈). high
     accessed: '2026-06-22'
+  - url: http://www.umgallery.co.kr/portfolio-item/hong-myung-seop/
+    name_used: Hong Myung Seop
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

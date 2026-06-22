@@ -13,6 +13,8 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
+birth_year: 1940
+death_year: 1985
 role:
   - aat: '300025103'
 external_ids:

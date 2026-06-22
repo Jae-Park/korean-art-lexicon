@@ -6,6 +6,7 @@ name:
     given: 동희
   latn:
     preferred: Donghee Kim
+birth_year: 1986
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Donghee Kim
     note: 롱테일 패스3(2기관 웹 검증) — SeMA英(MMCA INTRO2015). high
     accessed: '2026-06-22'
+  - url: https://hitecollection.com/kim-donghee-biography/
+    name_used: Donghee Kim
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

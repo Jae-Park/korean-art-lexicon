@@ -6,6 +6,8 @@ name:
     given: 병용
   latn:
     preferred: Lee Byoungyong
+birth_year: 1948
+death_year: 2001
 role:
   - aat: '300025103'
 sources:

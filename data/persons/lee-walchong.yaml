@@ -13,6 +13,7 @@ name:
       type: alternate
       source: Wikidata (영문 라벨)
       accessed: '2026-06-22'
+birth_year: 1945
 role:
   - aat: '300025103'
 external_ids:
@@ -34,4 +35,8 @@ sources:
     name_used: 이왈종
     note: 국립현대미술관 전시
     accessed: '2026-06-22'
+  - url: https://www.artsy.net/artist/lee-wal-chong
+    name_used: Lee Walchong
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

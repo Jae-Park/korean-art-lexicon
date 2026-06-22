@@ -6,6 +6,8 @@ name:
     given: 수근
   latn:
     preferred: Kim Sooguen
+birth_year: 1931
+death_year: 1986
 role:
   - aat: '300025103'
 sources:

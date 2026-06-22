@@ -19,6 +19,7 @@ name:
       type: alternate
       source: Wikidata (영문 라벨)
       accessed: '2026-06-22'
+birth_year: 1949
 role:
   - aat: '300025103'
 external_ids:
@@ -48,4 +49,8 @@ sources:
     name_used: 김명희
     note: 아트스페이스 풀 전시
     accessed: '2026-06-22'
+  - url: https://artprojects.com/exhibitions/myong-hi-kim/
+    name_used: Myong Hi Kim
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

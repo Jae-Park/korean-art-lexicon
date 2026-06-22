@@ -6,6 +6,7 @@ name:
     given: 기정
   latn:
     preferred: Gijeong Goo
+birth_year: 1992
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Gijeong Goo
     note: 롱테일 패스2(웹 검증) — e-flux 백남준아트센터. high
     accessed: '2026-06-22'
+  - url: https://nslasha.kr/artists/gijeong-goo
+    name_used: Gijeong Goo
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

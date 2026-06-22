@@ -6,6 +6,8 @@ name:
     given: 동훈
   latn:
     preferred: Lee Donghoon
+birth_year: 1903
+death_year: 1984
 role:
   - aat: '300025103'
 sources:

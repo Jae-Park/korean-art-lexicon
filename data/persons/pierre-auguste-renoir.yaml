@@ -6,6 +6,8 @@ name:
     given: 에르 오귀스트 르누아르
   latn:
     preferred: Pierre-Auguste Renoir
+birth_year: 1841
+death_year: 1919
 role:
   - aat: '300025103'
 sources:

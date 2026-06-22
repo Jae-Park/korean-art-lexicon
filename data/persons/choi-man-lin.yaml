@@ -13,6 +13,8 @@ name:
       type: transliteration
       source: Wikidata (McCune-Reischauer)
       accessed: '2026-06-22'
+birth_year: 1935
+death_year: 2020
 role:
   - aat: '300025103'
 external_ids:
@@ -34,4 +36,8 @@ sources:
     name_used: 최만린
     note: 국립현대미술관 전시
     accessed: '2026-06-22'
+  - url: https://ko.wikipedia.org/wiki/%EC%B5%9C%EB%A7%8C%EB%A6%B0
+    name_used: Choi Man-lin
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

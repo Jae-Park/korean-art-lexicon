@@ -6,6 +6,7 @@ name:
     given: 선
   latn:
     preferred: Choi Sun
+birth_year: 1973
 role:
   - aat: '300025103'
 sources:

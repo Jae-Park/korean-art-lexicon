@@ -6,6 +6,7 @@ name:
     given: 제길
   latn:
     preferred: Woo Jaegil
+birth_year: 1942
 role:
   - aat: '300025103'
 sources:

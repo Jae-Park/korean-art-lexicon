@@ -6,6 +6,7 @@ name:
     given: 영호
   latn:
     preferred: Yoo Young-ho
+birth_year: 1965
 role:
   - aat: '300025103'
 external_ids:
@@ -27,4 +28,8 @@ sources:
     name_used: 유영호
     note: 경기도미술관 전시
     accessed: '2026-06-22'
+  - url: https://en.wikipedia.org/wiki/Yoo_Young-ho
+    name_used: Yoo Young-ho
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

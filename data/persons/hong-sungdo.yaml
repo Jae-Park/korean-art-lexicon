@@ -6,6 +6,7 @@ name:
     given: 성도
   latn:
     preferred: Hong Sungdo
+birth_year: 1953
 role:
   - aat: '300025103'
 sources:

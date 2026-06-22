@@ -6,6 +6,8 @@ name:
     given: 동진
   latn:
     preferred: Seo Dongjin
+birth_year: 1900
+death_year: 1970
 role:
   - aat: '300025103'
 sources:

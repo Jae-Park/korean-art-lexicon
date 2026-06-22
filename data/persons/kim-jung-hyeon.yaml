@@ -6,6 +6,8 @@ name:
     given: 중현
   latn:
     preferred: Kim Jung-hyeon
+birth_year: 1901
+death_year: 1953
 role:
   - aat: '300025103'
 external_ids:

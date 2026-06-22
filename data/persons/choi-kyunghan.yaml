@@ -6,6 +6,8 @@ name:
     given: 경한
   latn:
     preferred: Choi Kyunghan
+birth_year: 1932
+death_year: 2017
 role:
   - aat: '300025103'
 sources:

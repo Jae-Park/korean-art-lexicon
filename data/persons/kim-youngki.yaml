@@ -6,6 +6,8 @@ name:
     given: 영기
   latn:
     preferred: Kim Youngki
+birth_year: 1911
+death_year: 2003
 role:
   - aat: '300025103'
 sources:

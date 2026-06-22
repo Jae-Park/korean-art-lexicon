@@ -6,6 +6,7 @@ name:
     given: 기라
   latn:
     preferred: Kira Kim
+birth_year: 1974
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Kira Kim
     note: 롱테일 패스3(2기관 웹 검증) — MMCA 코리아아티스트프라이즈2015. high
     accessed: '2026-06-22'
+  - url: http://koreaartistprize.org/en/project/kim-kira/
+    name_used: Kira Kim
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

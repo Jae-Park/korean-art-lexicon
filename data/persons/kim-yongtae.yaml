@@ -6,6 +6,8 @@ name:
     given: 용태
   latn:
     preferred: Kim Yongtae
+birth_year: 1946
+death_year: 2014
 role:
   - aat: '300025103'
 sources:

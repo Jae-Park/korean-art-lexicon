@@ -6,6 +6,7 @@ name:
     given: 영주
   latn:
     preferred: Young Joo Lee
+birth_year: 1987
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Young Joo Lee
     note: 롱테일 패스3(2기관 웹 검증) — 본인(MMCA2021+SeMA2024). high
     accessed: '2026-06-22'
+  - url: https://ochigallery.com/artist/young-joo-lee/
+    name_used: Young Joo Lee
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

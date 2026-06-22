@@ -6,6 +6,7 @@ name:
     given: 영글
   latn:
     preferred: Youngle Keem
+birth_year: 1980
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Youngle Keem
     note: 롱테일 패스2(웹 검증) — SFAC 금천 + SeMA 난지. high
     accessed: '2026-06-22'
+  - url: https://www.proyectoace.org/en/artistas/young-gle-keem-2/
+    name_used: Youngle Keem
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

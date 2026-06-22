@@ -6,6 +6,7 @@ name:
     given: 해민선
   latn:
     preferred: Leehaiminsun
+birth_year: 1977
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Leehaiminsun
     note: 아트스페이스 풀 영문판(전시 동시발행) — 기관 표기 · 승격후보
     accessed: '2026-06-22'
+  - url: http://www.akive.org/artist/A0000281/%EC%9D%B4%ED%95%B4%EB%AF%BC%EC%84%A0
+    name_used: Leehaiminsun
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

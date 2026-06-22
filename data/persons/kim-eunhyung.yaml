@@ -6,6 +6,7 @@ name:
     given: 은형
   latn:
     preferred: Kim Eunhyung
+birth_year: 1982
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Kim Eunhyung
     note: 롱테일 패스2(웹 검증) — 작가 공식. medium
     accessed: '2026-06-22'
+  - url: https://www.kimeunhyung.com/about-7
+    name_used: Kim Eunhyung
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

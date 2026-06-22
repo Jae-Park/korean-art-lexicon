@@ -6,6 +6,7 @@ name:
     given: 상수
   latn:
     preferred: Ahn Sang-soo
+birth_year: 1952
 role:
   - aat: '300025103'
 sources:

@@ -13,6 +13,8 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
+birth_year: 1911
+death_year: 1990
 role:
   - aat: '300025103'
 external_ids:
@@ -34,4 +36,8 @@ sources:
     name_used: 남관
     note: 국립현대미술관 전시
     accessed: '2026-06-22'
+  - url: https://encykorea.aks.ac.kr/Article/E0011806
+    name_used: Nam Kwan
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

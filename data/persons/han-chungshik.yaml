@@ -6,6 +6,7 @@ name:
     given: 정식
   latn:
     preferred: Han Chungshik
+birth_year: 1937
 role:
   - aat: '300025103'
 sources:

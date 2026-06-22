@@ -6,6 +6,7 @@ name:
     given: 지원
   latn:
     preferred: Kim Jiwon
+birth_year: 1961
 role:
   - aat: '300025103'
 sources:

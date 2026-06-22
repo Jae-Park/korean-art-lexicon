@@ -6,6 +6,8 @@ name:
     given: 동철
   latn:
     preferred: Ha Dongchul
+birth_year: 1942
+death_year: 2006
 role:
   - aat: '300025103'
 sources:

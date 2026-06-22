@@ -6,6 +6,7 @@ name:
     given: 이어룰 달마
   latn:
     preferred: Fyerool Darma
+birth_year: 1987
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Fyerool Darma
     note: 롱테일 패스3(2기관, 저명 보강) — SeMA 12회 미디어시티(싱가포르). high
     accessed: '2026-06-22'
+  - url: https://www.yeoworkshop.com/artists/34-fyerool-darma/biography/
+    name_used: Fyerool Darma
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

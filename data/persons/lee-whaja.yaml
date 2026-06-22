@@ -6,6 +6,7 @@ name:
     given: 화자
   latn:
     preferred: Lee Whaja
+birth_year: 1943
 role:
   - aat: '300025103'
 sources:

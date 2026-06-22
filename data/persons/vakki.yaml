@@ -6,6 +6,7 @@ name:
     given: 키
   latn:
     preferred: Vakki
+birth_year: 1978
 role:
   - aat: '300025103'
 external_ids:

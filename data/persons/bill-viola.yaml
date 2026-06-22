@@ -6,6 +6,8 @@ name:
     given: ' 비올라'
   latn:
     preferred: Bill Viola
+birth_year: 1951
+death_year: 2024
 role:
   - aat: '300025103'
 sources:

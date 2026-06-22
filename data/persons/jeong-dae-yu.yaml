@@ -6,6 +6,8 @@ name:
     given: 대유
   latn:
     preferred: Jeong Dae-yu
+birth_year: 1852
+death_year: 1927
 role:
   - aat: '300025103'
 external_ids:

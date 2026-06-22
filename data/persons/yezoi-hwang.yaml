@@ -6,6 +6,7 @@ name:
     given: 예지
   latn:
     preferred: Yezoi Hwang
+birth_year: 1993
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Yezoi Hwang
     note: 롱테일 패스2(웹 검증) — Tina Kim Gallery(SeMA전) — 자기 로마자. high
     accessed: '2026-06-22'
+  - url: https://www.doosanartcenter.com/ko/exhibit/artist/391
+    name_used: Yezoi Hwang
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

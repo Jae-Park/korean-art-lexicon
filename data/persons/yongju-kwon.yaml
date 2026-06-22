@@ -6,6 +6,7 @@ name:
     given: 용주
   latn:
     preferred: Yongju Kwon
+birth_year: 1977
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Yongju Kwon
     note: 롱테일 패스2(웹 검증) — SeMA 난지 레지던시 영문. high
     accessed: '2026-06-22'
+  - url: https://chapterii.org/artists/96-kwon-yong-ju/
+    name_used: Yongju Kwon
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

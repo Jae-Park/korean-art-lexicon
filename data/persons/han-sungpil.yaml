@@ -6,6 +6,7 @@ name:
     given: 성필
   latn:
     preferred: Han Sungpil
+birth_year: 1972
 role:
   - aat: '300025103'
 sources:

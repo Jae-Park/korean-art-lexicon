@@ -6,6 +6,8 @@ name:
     given: 세득
   latn:
     preferred: Lee Seduk
+birth_year: 1921
+death_year: 2001
 role:
   - aat: '300025103'
 sources:

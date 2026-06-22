@@ -6,6 +6,8 @@ name:
     given: 시우
   latn:
     preferred: Jin Shiu
+birth_year: 1975
+death_year: 2019
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +15,8 @@ sources:
     name_used: Jin Shiu
     note: 롱테일 패스2(웹 검증) — MMCA 레지던시. high
     accessed: '2026-06-22'
+  - url: https://www.artasiapacific.com/news/obituary-jin-shiu-1975-2019-and-yi-joungmin-1971-2019/
+    name_used: Jin Shiu
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

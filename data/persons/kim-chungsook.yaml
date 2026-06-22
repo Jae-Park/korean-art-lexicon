@@ -6,6 +6,8 @@ name:
     given: 정숙
   latn:
     preferred: Kim Chungsook
+birth_year: 1917
+death_year: 1991
 role:
   - aat: '300025103'
 sources:

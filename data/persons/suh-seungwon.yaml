@@ -6,6 +6,7 @@ name:
     given: 승원
   latn:
     preferred: Suh Seungwon
+birth_year: 1941
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Suh Seungwon
     note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
     accessed: '2026-06-22'
+  - url: https://www.suhseungwon.com/biography
+    name_used: Suh Seungwon
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

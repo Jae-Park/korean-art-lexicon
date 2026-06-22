@@ -13,6 +13,8 @@ name:
       type: transliteration
       source: Wikidata (McCune-Reischauer)
       accessed: '2026-06-22'
+birth_year: 1906
+death_year: 1952
 role:
   - aat: '300025103'
 external_ids:
@@ -34,4 +36,8 @@ sources:
     name_used: 구본웅
     note: 국립현대미술관 전시
     accessed: '2026-06-22'
+  - url: https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%B3%B8%EC%9B%85
+    name_used: Gu Bon-ung
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

@@ -6,6 +6,7 @@ name:
     given: 상호
   latn:
     preferred: Noh Sangho
+birth_year: 1986
 role:
   - aat: '300025103'
 sources:

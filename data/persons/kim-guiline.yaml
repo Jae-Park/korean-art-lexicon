@@ -6,6 +6,8 @@ name:
     given: 기린
   latn:
     preferred: Kim Guiline
+birth_year: 1936
+death_year: 2021
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,7 @@ name:
     given: 세진
   latn:
     preferred: Song Sejin
+birth_year: 1984
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Song Sejin
     note: 아트스페이스 풀 영문판(전시 동시발행) — 기관 표기 · 승격후보
     accessed: '2026-06-22'
+  - url: https://hitecollection.com/sejinsong/
+    name_used: Song Sejin
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

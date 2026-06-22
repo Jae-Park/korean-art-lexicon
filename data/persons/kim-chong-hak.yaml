@@ -6,6 +6,7 @@ name:
     given: 종학
   latn:
     preferred: Kim Chong Hak
+birth_year: 1937
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Kim Chong Hak
     note: 롱테일 패스2(웹 검증) — MMCA 영문 회고전(b.1937). high
     accessed: '2026-06-22'
+  - url: https://www.johyungallery.com/artists/46-kim-chong-hak/biography/
+    name_used: Kim Chong Hak
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

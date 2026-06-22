@@ -6,6 +6,7 @@ name:
     given: 인숙
   latn:
     preferred: Kim Insook
+birth_year: 1978
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,7 @@ name:
     given: 계훈
   latn:
     preferred: Park Gye-hoon
+birth_year: 1965
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Park Gye-hoon
     note: 롱테일 패스2(웹 검증) — UM Gallery. medium
     accessed: '2026-06-22'
+  - url: https://artsandculture.google.com/asset/melancholy-park-gye-hoon/twEEKVLEgVr2yg
+    name_used: Park Gye-hoon
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

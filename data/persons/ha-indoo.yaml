@@ -6,6 +6,8 @@ name:
     given: 인두
   latn:
     preferred: Ha Indoo
+birth_year: 1930
+death_year: 1989
 role:
   - aat: '300025103'
 sources:

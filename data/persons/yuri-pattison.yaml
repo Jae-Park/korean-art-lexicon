@@ -6,6 +6,7 @@ name:
     given: 리 패티슨
   latn:
     preferred: Yuri Pattison
+birth_year: 1986
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Yuri Pattison
     note: 롱테일 패스3(2기관 웹 검증) — e-flux MMCA(아일랜드)+SeMA미디어시티. high
     accessed: '2026-06-22'
+  - url: https://imma.ie/artists/yuri-pattison/
+    name_used: Yuri Pattison
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

@@ -6,6 +6,8 @@ name:
     given: 중식
   latn:
     preferred: Yoon Jungsik
+birth_year: 1913
+death_year: 2012
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,7 @@ name:
     given: 은새
   latn:
     preferred: Eunsae Lee
+birth_year: 1987
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Eunsae Lee
     note: 롱테일 패스2(웹 검증) — Gallery2 + 본인사이트. high
     accessed: '2026-06-22'
+  - url: https://k-artist.com/Artist_page.php?tab_num=tab1&artist_num=47
+    name_used: Eunsae Lee
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

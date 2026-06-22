@@ -6,6 +6,7 @@ name:
     given: 상원
   latn:
     preferred: Lee Sangwon
+birth_year: 1935
 role:
   - aat: '300025103'
 sources:

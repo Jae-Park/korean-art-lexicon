@@ -6,6 +6,7 @@ name:
     given: 성홍
   latn:
     preferred: SungHong Min
+birth_year: 1972
 role:
   - aat: '300025103'
 sources:

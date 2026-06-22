@@ -6,6 +6,8 @@ name:
     given: 계복
   latn:
     preferred: Choi Kyebok
+birth_year: 1909
+death_year: 2002
 role:
   - aat: '300025103'
 sources:

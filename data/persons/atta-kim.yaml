@@ -6,6 +6,7 @@ name:
     given: 아타
   latn:
     preferred: Atta Kim
+birth_year: 1956
 role:
   - aat: '300025103'
 external_ids:

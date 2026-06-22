@@ -6,6 +6,8 @@ name:
     given: 응식
   latn:
     preferred: Limb Eungsik
+birth_year: 1912
+death_year: 2001
 role:
   - aat: '300025103'
 sources:

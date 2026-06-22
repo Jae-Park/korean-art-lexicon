@@ -6,6 +6,8 @@ name:
     given: 형록
   latn:
     preferred: Lee Hyungrok
+birth_year: 1917
+death_year: 2011
 role:
   - aat: '300025103'
 sources:

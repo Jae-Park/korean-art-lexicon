@@ -6,6 +6,7 @@ name:
     given: 정수
   latn:
     preferred: Woo Jeongsu
+birth_year: 1986
 role:
   - aat: '300025103'
 sources:

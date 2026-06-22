@@ -6,6 +6,8 @@ name:
     given: 형구
   latn:
     preferred: Kim Hyungkoo
+birth_year: 1922
+death_year: 2015
 role:
   - aat: '300025103'
 sources:

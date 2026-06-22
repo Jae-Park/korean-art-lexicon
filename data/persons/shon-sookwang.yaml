@@ -6,6 +6,8 @@ name:
     given: 수광
   latn:
     preferred: Shon Sookwang
+birth_year: 1943
+death_year: 2002
 role:
   - aat: '300025103'
 sources:

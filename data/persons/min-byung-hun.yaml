@@ -13,6 +13,7 @@ name:
       type: alternate
       source: 국제 갤러리(Peter Fetterman/Miyako Yoshinaga) 표기
       accessed: '2026-06-22'
+birth_year: 1955
 role:
   - aat: '300025103'
 external_ids:
@@ -34,4 +35,8 @@ sources:
     name_used: 민병헌
     note: 국립현대미술관 전시
     accessed: '2026-06-22'
+  - url: https://www.peterfetterman.com/artists/149-byung-hun-min/biography/
+    name_used: Min Byung-hun
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

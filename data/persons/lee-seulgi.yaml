@@ -6,6 +6,7 @@ name:
     given: 슬기
   latn:
     preferred: Lee Seulgi
+birth_year: 1972
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Lee Seulgi
     note: 롱테일 패스2(웹 검증) — MMCA 영문 KAP2020(국제선 Seulgi Lee). high
     accessed: '2026-06-22'
+  - url: https://k-artist.com/Artist_page.php?tab_num=tab5&artist_id=115&artist_num=115&works_num=&page=2
+    name_used: Lee Seulgi
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

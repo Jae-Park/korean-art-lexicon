@@ -6,6 +6,7 @@ name:
     given: 혁
   latn:
     preferred: Kwon Hyuk
+birth_year: 1977
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Kwon Hyuk
     note: 롱테일 패스2(웹 검증) — 작가 공식. medium
     accessed: '2026-06-22'
+  - url: https://www.slaggallery.com/chelsea_art_gallery/artists/hk-kwon/documents/bio
+    name_used: Kwon Hyuk
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

@@ -6,6 +6,7 @@ name:
     given: 보나
   latn:
     preferred: Bona Park
+birth_year: 1977
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Bona Park
     note: 롱테일 패스2(웹 검증) — 갤러리조선 영문. high
     accessed: '2026-06-22'
+  - url: https://www.gallerychosun.com/usr/library/documents/main/artists/31/bona-park-cv-en-kr_2023.pdf
+    name_used: Bona Park
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

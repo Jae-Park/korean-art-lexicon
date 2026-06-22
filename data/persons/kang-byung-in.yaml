@@ -6,6 +6,7 @@ name:
     given: 병인
   latn:
     preferred: Kang Byung-in
+birth_year: 1962
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Kang Byung-in
     note: 롱테일 패스3(2기관 웹 검증) — 코리아헤럴드(캘리그래피). high
     accessed: '2026-06-22'
+  - url: https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003117487
+    name_used: Kang Byung-in
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

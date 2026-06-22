@@ -6,6 +6,7 @@ name:
     given: 문자
   latn:
     preferred: Won Moonja
+birth_year: 1944
 role:
   - aat: '300025103'
 sources:

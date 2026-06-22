@@ -6,6 +6,8 @@ name:
     given: 재철
   latn:
     preferred: Jung Jaechul
+birth_year: 1959
+death_year: 2020
 role:
   - aat: '300025103'
 sources:

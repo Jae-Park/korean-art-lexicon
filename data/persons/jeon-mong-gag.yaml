@@ -6,6 +6,8 @@ name:
     given: 몽각
   latn:
     preferred: Jeon Mong Gag
+birth_year: 1931
+death_year: 2006
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +15,8 @@ sources:
     name_used: Jeon Mong Gag
     note: 롱테일 패스3(2기관 웹 검증) — 뮤지엄한미(사진). high
     accessed: '2026-06-22'
+  - url: https://artfacts.net/artist/jeon-mong-gag-1931-kr
+    name_used: Jeon Mong Gag
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

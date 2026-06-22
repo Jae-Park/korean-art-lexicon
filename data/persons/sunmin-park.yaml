@@ -6,6 +6,7 @@ name:
     given: 선민
   latn:
     preferred: Sunmin Park
+birth_year: 1971
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Sunmin Park
     note: 롱테일 패스2(웹 검증) — e-flux 백남준아트센터. high
     accessed: '2026-06-22'
+  - url: https://artfacts.net/artist/sun-min-park-1971-kr
+    name_used: Sunmin Park
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

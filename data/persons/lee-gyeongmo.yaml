@@ -13,6 +13,8 @@ name:
       type: alternate
       source: 이전 표기/RR
       accessed: '2026-06-22'
+birth_year: 1926
+death_year: 2001
 role:
   - aat: '300025103'
 sources:
@@ -24,4 +26,8 @@ sources:
     name_used: Lee Kyung-mo
     note: 롱테일 패스3(2기관 웹 검증) — 아시아경제英(사진). medium
     accessed: '2026-06-22'
+  - url: https://dh.aks.ac.kr/~gwangju/wiki/index.php/%EC%9D%B4%EA%B2%BD%EB%AA%A8
+    name_used: Lee Gyeongmo
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

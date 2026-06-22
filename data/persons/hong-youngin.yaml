@@ -6,6 +6,7 @@ name:
     given: 영인
   latn:
     preferred: Hong Youngin
+birth_year: 1972
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,8 @@ name:
     given: 디워홀
   latn:
     preferred: Andy Warhol
+birth_year: 1928
+death_year: 1987
 role:
   - aat: '300025103'
 sources:

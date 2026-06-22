@@ -19,6 +19,8 @@ name:
       type: alternate
       source: 갤러리/미술관
       accessed: '2026-06-22'
+birth_year: 1899
+death_year: 1976
 role:
   - aat: '300025103'
 external_ids:
@@ -40,4 +42,8 @@ sources:
     name_used: 변관식
     note: 국립현대미술관 전시
     accessed: '2026-06-22'
+  - url: https://www.galleryhyundai.com/story/view/20000000078
+    name_used: Byeon Gwan-sik
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

@@ -6,6 +6,8 @@ name:
     given: 영주
   latn:
     preferred: Kim Youngjoo
+birth_year: 1920
+death_year: 1995
 role:
   - aat: '300025103'
 sources:

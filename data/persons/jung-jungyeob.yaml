@@ -6,6 +6,7 @@ name:
     given: 정엽
   latn:
     preferred: Jung Jungyeob
+birth_year: 1962
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Jung Jungyeob
     note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
     accessed: '2026-06-22'
+  - url: http://monthlyart.com/02-artist/artist-review-%EC%A0%95%EC%A0%95%EC%97%BD/
+    name_used: Jung Jungyeob
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

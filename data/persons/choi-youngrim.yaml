@@ -6,6 +6,8 @@ name:
     given: 영림
   latn:
     preferred: Choi Youngrim
+birth_year: 1916
+death_year: 1985
 role:
   - aat: '300025103'
 sources:

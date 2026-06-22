@@ -13,6 +13,8 @@ name:
       type: transliteration
       source: Wikidata (McCune-Reischauer)
       accessed: '2026-06-22'
+birth_year: 1927
+death_year: 2013
 role:
   - aat: '300025103'
 external_ids:

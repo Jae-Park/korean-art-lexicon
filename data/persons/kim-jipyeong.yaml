@@ -6,6 +6,7 @@ name:
     given: 지평
   latn:
     preferred: Kim Jipyeong
+birth_year: 1976
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Kim Jipyeong
     note: 아트스페이스 풀 영문판(전시 동시발행) — 기관 표기 · 승격후보
     accessed: '2026-06-22'
+  - url: https://k-artist.com/2022/12/23/kim-jipyeong-b-1976/
+    name_used: Kim Jipyeong
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

@@ -6,6 +6,8 @@ name:
     given: 준
   latn:
     preferred: Lee Joon
+birth_year: 1919
+death_year: 2021
 role:
   - aat: '300025103'
 sources:

@@ -6,6 +6,8 @@ name:
     given: 래현
   latn:
     preferred: Park Rehyun
+birth_year: 1920
+death_year: 1976
 role:
   - aat: '300025103'
 external_ids:

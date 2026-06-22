@@ -6,6 +6,8 @@ name:
     given: 상국
   latn:
     preferred: Lee Sangguk
+birth_year: 1947
+death_year: 2014
 role:
   - aat: '300025103'
 sources:

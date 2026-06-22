@@ -6,6 +6,8 @@ name:
     given: 동수
   latn:
     preferred: Kim Dongsoo
+birth_year: 1935
+death_year: 2011
 role:
   - aat: '300025103'
 sources:

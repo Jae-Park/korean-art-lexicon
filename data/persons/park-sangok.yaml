@@ -6,6 +6,8 @@ name:
     given: 상옥
   latn:
     preferred: Park Sangok
+birth_year: 1915
+death_year: 1968
 role:
   - aat: '300025103'
 sources:

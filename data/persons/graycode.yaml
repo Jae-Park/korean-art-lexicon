@@ -6,6 +6,7 @@ name:
     given: 레이코드
   latn:
     preferred: GRAYCODE
+birth_year: 1984
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: GRAYCODE
     note: 롱테일 패스2(웹 검증) — 본인 사이트(듀오 GRAYCODE, jiiiiin 중 조태복). medium
     accessed: '2026-06-22'
+  - url: https://k-artist.com/Artist_page.php?tab_num=tab3&artist_num=216
+    name_used: GRAYCODE
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

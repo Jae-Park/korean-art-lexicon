@@ -6,6 +6,7 @@ name:
     given: 아 리잘디
   latn:
     preferred: Riar Rizaldi
+birth_year: 1990
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Riar Rizaldi
     note: 롱테일 패스3(2기관 웹 검증) — 금천(인도네시아). medium
     accessed: '2026-06-22'
+  - url: https://kadist.org/people/riar-rizaldi/
+    name_used: Riar Rizaldi
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

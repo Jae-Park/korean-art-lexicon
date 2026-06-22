@@ -6,6 +6,8 @@ name:
     given: .R. 펭크
   latn:
     preferred: A.R. Penck
+birth_year: 1939
+death_year: 2017
 role:
   - aat: '300025103'
 sources:

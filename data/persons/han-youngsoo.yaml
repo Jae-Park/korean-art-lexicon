@@ -19,6 +19,8 @@ name:
       type: alternate
       source: Wikidata (영문 라벨)
       accessed: '2026-06-22'
+birth_year: 1933
+death_year: 1999
 role:
   - aat: '300025103'
 external_ids:

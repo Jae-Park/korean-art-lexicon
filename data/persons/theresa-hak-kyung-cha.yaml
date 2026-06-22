@@ -19,6 +19,8 @@ name:
       type: alternate
       source: Wikidata
       accessed: '2026-06-22'
+birth_year: 1951
+death_year: 1982
 role:
   - aat: '300025103'
 external_ids:

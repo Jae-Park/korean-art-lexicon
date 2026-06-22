@@ -6,6 +6,7 @@ name:
     given: 기창
   latn:
     preferred: Han Kichang
+birth_year: 1966
 role:
   - aat: '300025103'
 sources:

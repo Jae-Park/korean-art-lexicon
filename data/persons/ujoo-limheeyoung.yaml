@@ -6,6 +6,7 @@ name:
     given: 주+림희영
   latn:
     preferred: Ujoo+Limheeyoung
+birth_year: 1976
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Ujoo+Limheeyoung
     note: 롱테일 패스3(2기관 웹 검증) — Waterfall(듀오). high
     accessed: '2026-06-22'
+  - url: https://u-joolimheeyoung.blogspot.com/p/blog-page_16.html
+    name_used: Ujoo+Limheeyoung
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

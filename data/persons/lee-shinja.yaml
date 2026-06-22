@@ -6,6 +6,7 @@ name:
     given: 신자
   latn:
     preferred: Lee Shinja
+birth_year: 1931
 role:
   - aat: '300025103'
 sources:

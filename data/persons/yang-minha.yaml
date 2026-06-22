@@ -6,6 +6,7 @@ name:
     given: 민하
   latn:
     preferred: Yang Minha
+birth_year: 1975
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Yang Minha
     note: 롱테일 패스3(2기관 웹 검증) — 본인사이트. high
     accessed: '2026-06-22'
+  - url: https://cargocollective.com/yangminha/About
+    name_used: Yang Minha
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

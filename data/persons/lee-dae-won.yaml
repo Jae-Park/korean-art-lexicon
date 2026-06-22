@@ -25,6 +25,8 @@ name:
       type: alternate
       source: 갤러리/미술관
       accessed: '2026-06-22'
+birth_year: 1921
+death_year: 2005
 role:
   - aat: '300025103'
 external_ids:
@@ -50,4 +52,8 @@ sources:
     name_used: 이대원
     note: 경기도미술관 전시
     accessed: '2026-06-22'
+  - url: https://www.mutualart.com/Artist/Lee-Dai-Won/4F0C59DC99C646CA
+    name_used: Lee Dae-won
+    note: 생몰연도 출처
+    accessed: '2026-06-23'
 status: reviewed

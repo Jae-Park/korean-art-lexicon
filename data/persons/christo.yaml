@@ -6,6 +6,8 @@ name:
     given: 리스토
   latn:
     preferred: Christo
+birth_year: 1935
+death_year: 2020
 role:
   - aat: '300025103'
 sources:

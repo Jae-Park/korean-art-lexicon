@@ -6,6 +6,8 @@ name:
     given: 애근
   latn:
     preferred: Yun Aekun
+birth_year: 1943
+death_year: 2010
 role:
   - aat: '300025103'
 sources:
