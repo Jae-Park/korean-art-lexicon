@@ -8,3 +8,6 @@ dist/lexicon.json
 
 # miner 크롤 미러(재생성 가능, 로컬 캐시)
 miner/data-mirror/
+
+# 블랙리스트(에디터 제외 명단 — 민감, 비공개)
+miner/blacklist.json

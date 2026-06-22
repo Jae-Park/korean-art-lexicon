@@ -1,0 +1,26 @@
+id: person.park-rehyun
+name:
+  ko:
+    full: 박래현
+    family: 박
+    given: 래현
+  latn:
+    preferred: Park Rehyun
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q7137912
+sources:
+  - url: https://www.wikidata.org/wiki/Q7137912
+    name_used: Park Rehyun
+    note: Wikidata Q7137912 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308405
+    name_used: 박래현
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201503160000209
+    name_used: 박래현
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+status: pending_review

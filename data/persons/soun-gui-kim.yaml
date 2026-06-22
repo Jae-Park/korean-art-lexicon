@@ -1,0 +1,39 @@
+id: person.soun-gui-kim
+name:
+  ko:
+    full: 김순기
+    family: 김
+    given: 순기
+  latn:
+    preferred: Soun-Gui Kim
+  variants:
+    - form: Kim Soun-Gui
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+    - form: Soun Gin Kim
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q108478022
+sources:
+  - url: https://www.wikidata.org/wiki/Q108478022
+    name_used: Soun-Gui Kim
+    note: Wikidata Q108478022 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=487
+    name_used: 김순기
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202601120002030
+    name_used: 김순기
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+status: pending_review

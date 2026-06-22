@@ -1,0 +1,34 @@
+id: person.ayoung-kim
+name:
+  ko:
+    full: 김아영
+    family: 김
+    given: 아영
+  latn:
+    preferred: Ayoung Kim
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q101250887
+sources:
+  - url: https://www.wikidata.org/wiki/Q101250887
+    name_used: Ayoung Kim
+    note: Wikidata Q101250887 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1548449
+    name_used: 김아영
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558
+    name_used: 김아영
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+  - url: https://gmoma.ggcf.kr/exhibitions/17
+    name_used: 김아영
+    note: 경기도미술관 전시
+    accessed: '2026-06-22'
+  - url: http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=842
+    name_used: 김아영
+    note: 아트스페이스 풀 전시
+    accessed: '2026-06-22'
+status: pending_review

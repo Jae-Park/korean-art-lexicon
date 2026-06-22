@@ -1,0 +1,30 @@
+id: person.hong-song-dam
+name:
+  ko:
+    full: 홍성담
+    family: 홍
+    given: 성담
+  latn:
+    preferred: Hong Song-dam
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q16186706
+sources:
+  - url: https://www.wikidata.org/wiki/Q16186706
+    name_used: Hong Song-dam
+    note: Wikidata Q16186706 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=423
+    name_used: 홍성담
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593
+    name_used: 홍성담
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+  - url: http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=837
+    name_used: 홍성담
+    note: 아트스페이스 풀 전시
+    accessed: '2026-06-22'
+status: pending_review

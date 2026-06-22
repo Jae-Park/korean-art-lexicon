@@ -1,0 +1,53 @@
+id: person.lee-seung-taek
+name:
+  ko:
+    full: 이승택
+    family: 이
+    given: 승택
+  latn:
+    preferred: Lee Seung-taek
+  variants:
+    - form: Seung-taek Lee
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+    - form: Seungtaek Lee
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+    - form: Lee Seungtaek
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q20010758
+sources:
+  - url: https://www.wikidata.org/wiki/Q20010758
+    name_used: Lee Seung-taek
+    note: Wikidata Q20010758 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699
+    name_used: 이승택
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002573
+    name_used: 이승택
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+  - url: https://neolook.com/archives/20260410b
+    name_used: 이승택
+    note: 네오룩 전시 아카이브
+    accessed: '2026-06-22'
+  - url: https://njp.ggcf.kr/exhibitions/23
+    name_used: 이승택
+    note: 백남준아트센터 전시
+    accessed: '2026-06-22'
+status: pending_review

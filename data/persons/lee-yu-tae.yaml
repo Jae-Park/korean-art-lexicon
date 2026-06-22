@@ -1,0 +1,26 @@
+id: person.lee-yu-tae
+name:
+  ko:
+    full: 이유태
+    family: 이
+    given: 유태
+  latn:
+    preferred: Lee Yu-tae
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q16180856
+sources:
+  - url: https://www.wikidata.org/wiki/Q16180856
+    name_used: Lee Yu-tae
+    note: Wikidata Q16180856 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316524
+    name_used: 이유태
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002582
+    name_used: 이유태
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+status: pending_review

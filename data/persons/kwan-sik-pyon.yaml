@@ -1,0 +1,26 @@
+id: person.kwan-sik-pyon
+name:
+  ko:
+    full: 변관식
+    family: 변
+    given: 관식
+  latn:
+    preferred: Kwan-sik Pyŏn
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q16181461
+sources:
+  - url: https://www.wikidata.org/wiki/Q16181461
+    name_used: Kwan-sik Pyŏn
+    note: Wikidata Q16181461 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=177
+    name_used: 변관식
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511120000358
+    name_used: 변관식
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+status: pending_review

@@ -1,0 +1,59 @@
+id: person.chung-chang-sup
+name:
+  ko:
+    full: 정창섭
+    family: 정
+    given: 창섭
+  latn:
+    preferred: Chung Chang-sup
+  variants:
+    - form: Chŏng Ch'ang-sŏp
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+    - form: Chung Chang Sup
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+    - form: Chang Sup Chung
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+    - form: Chang Suo Chung
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q51593288
+sources:
+  - url: https://www.wikidata.org/wiki/Q51593288
+    name_used: Chung Chang-sup
+    note: Wikidata Q51593288 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=243
+    name_used: 정창섭
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201007200002824
+    name_used: 정창섭
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+  - url: https://gmoma.ggcf.kr/exhibitions/62
+    name_used: 정창섭
+    note: 경기도미술관 전시
+    accessed: '2026-06-22'
+  - url: https://en.wikipedia.org/wiki/Chung_Chang-sup
+    name_used: 정창섭
+    note: en.wikipedia.org 전시 출처(교차검증)
+    accessed: '2026-06-22'
+status: pending_review

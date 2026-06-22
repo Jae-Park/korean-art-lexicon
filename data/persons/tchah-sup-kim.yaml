@@ -1,0 +1,26 @@
+id: person.tchah-sup-kim
+name:
+  ko:
+    full: 김차섭
+    family: 김
+    given: 차섭
+  latn:
+    preferred: Tchah-Sup Kim
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q22276206
+sources:
+  - url: https://www.wikidata.org/wiki/Q22276206
+    name_used: Tchah-Sup Kim
+    note: Wikidata Q22276206 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699
+    name_used: 김차섭
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002584
+    name_used: 김차섭
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+status: pending_review

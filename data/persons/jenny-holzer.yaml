@@ -1,0 +1,33 @@
+id: person.jenny-holzer
+name:
+  ko:
+    full: 제니 홀저
+    family: 제
+    given: 니 홀저
+  latn:
+    preferred: Jenny Holzer
+  variants:
+    - form: G'eni Holtser
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q270388
+sources:
+  - url: https://www.wikidata.org/wiki/Q270388
+    name_used: Jenny Holzer
+    note: Wikidata Q270388 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=268
+    name_used: 제니 홀저
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201911140001204
+    name_used: 제니 홀저
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+status: pending_review

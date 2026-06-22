@@ -1,0 +1,37 @@
+id: person.chang-ucchin
+name:
+  ko:
+    full: 장욱진
+    family: 장
+    given: 욱진
+  latn:
+    preferred: Chang Ucchin
+  variants:
+    - form: Uk-chin Chang
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q5071680
+sources:
+  - url: https://www.wikidata.org/wiki/Q5071680
+    name_used: Chang Ucchin
+    note: Wikidata Q5071680 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316524
+    name_used: 장욱진
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201503160000209
+    name_used: 장욱진
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+  - url: https://gmoma.ggcf.kr/exhibitions/45
+    name_used: 장욱진
+    note: 경기도미술관 전시
+    accessed: '2026-06-22'
+status: pending_review

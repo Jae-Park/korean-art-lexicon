@@ -1,0 +1,41 @@
+id: person.yun-suknam
+name:
+  ko:
+    full: 윤석남
+    family: 윤
+    given: 석남
+  latn:
+    preferred: Yun Suknam
+  variants:
+    - form: Sŏng-nam Yun
+      lang: en
+      script: Latn
+      type: alternate
+      source: Wikidata
+      accessed: '2026-06-22'
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q18052759
+sources:
+  - url: https://www.wikidata.org/wiki/Q18052759
+    name_used: Yun Suknam
+    note: Wikidata Q18052759 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1312939
+    name_used: 윤석남
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593
+    name_used: 윤석남
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+  - url: https://gmoma.ggcf.kr/exhibitions/65
+    name_used: 윤석남
+    note: 경기도미술관 전시
+    accessed: '2026-06-22'
+  - url: http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=420
+    name_used: 윤석남
+    note: 아트스페이스 풀 전시
+    accessed: '2026-06-22'
+status: pending_review

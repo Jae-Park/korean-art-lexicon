@@ -1,0 +1,30 @@
+id: person.park-hyun-ki
+name:
+  ko:
+    full: 박현기
+    family: 박
+    given: 현기
+  latn:
+    preferred: Park Hyun-ki
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q20742226
+sources:
+  - url: https://www.wikidata.org/wiki/Q20742226
+    name_used: Park Hyun-ki
+    note: Wikidata Q20742226 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699
+    name_used: 박현기
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202507100001975
+    name_used: 박현기
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+  - url: https://gmoma.ggcf.kr/exhibitions/79
+    name_used: 박현기
+    note: 경기도미술관 전시
+    accessed: '2026-06-22'
+status: pending_review

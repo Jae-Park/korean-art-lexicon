@@ -1,0 +1,30 @@
+id: person.young-sook-park
+name:
+  ko:
+    full: 박영숙
+    family: 박
+    given: 영숙
+  latn:
+    preferred: Young Sook Park
+role:
+  - aat: '300025103'
+external_ids:
+  wikidata: Q116148174
+sources:
+  - url: https://www.wikidata.org/wiki/Q116148174
+    name_used: Young Sook Park
+    note: Wikidata Q116148174 — 로마자 표기 및 동일성 출처
+    accessed: '2026-06-22'
+  - url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1409653
+    name_used: 박영숙
+    note: 서울시립미술관 전시
+    accessed: '2026-06-22'
+  - url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201311220000046
+    name_used: 박영숙
+    note: 국립현대미술관 전시
+    accessed: '2026-06-22'
+  - url: https://gmoma.ggcf.kr/exhibitions/65
+    name_used: 박영숙
+    note: 경기도미술관 전시
+    accessed: '2026-06-22'
+status: pending_review
