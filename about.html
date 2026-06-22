@@ -301,7 +301,10 @@
           한국미술 번역 커뮤니티를 위한 공공 자원을 목표로 합니다.
         </p>
       </div>
-      <p class="status">Currently in prototype development. · 현재 프로토타입 개발 중입니다.</p>
+      <p class="status">
+        <strong id="liveCount">—</strong> public entries · <span id="liveBreakdown">집계 중…</span><br>
+        <span style="font-size:0.875rem;color:#666;font-weight:400">Live count from the published dataset · 공개 데이터셋 실시간 집계</span>
+      </p>
     </div>
 
     <!-- 2. Why -->
@@ -344,7 +347,7 @@
           <span><strong>기관</strong> — 미술관, 갤러리, 대안공간</span>
         </li>
         <li>
-          <span><strong>Terms</strong> — Dansaekhwa, Minjung art, Sinseang gonggan...</span>
+          <span><strong>Terms</strong> — Dansaekhwa, Minjung art, Sinsaeng gonggan...</span>
           <span><strong>용어</strong> — 단색화, 민중미술, 신생공간...</span>
         </li>
         <li>
@@ -372,6 +375,14 @@
         <li>
           <span>Sources track which name form they use.</span>
           <span>출처별로 사용된 표기를 추적합니다.</span>
+        </li>
+        <li>
+          <span>Names are cross-validated across multiple institutions' records before they are published.</span>
+          <span>이름은 여러 기관의 등재 자료를 교차검증한 뒤 공개합니다.</span>
+        </li>
+        <li>
+          <span>Name authority follows Korean institutions, galleries, and artists' own English—not external aggregate databases. Wikidata and similar sources are linked for identifiers and variants only.</span>
+          <span>표기 권위는 한국 기관, 갤러리, 작가 본인의 영문을 따릅니다. Wikidata 등 외부 집합 데이터는 식별자와 변이로만 연결하며, 표준 표기로 삼지 않습니다.</span>
         </li>
         <li>
           <span>Classifications follow Getty AAT — no custom taxonomies.</span>
@@ -417,8 +428,31 @@
 
     <footer>
       <p>Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a> · Code: MIT</p>
-      <p>Last updated: June 2026</p>
+      <p>Last updated: <span class="live-updated">June 2026</span></p>
     </footer>
   </div>
+  <script>
+    (async function () {
+      const labels = { persons: '인물', exhibitions: '전시', organizations: '기관', terms: '용어', publications: '출판물' };
+      try {
+        const res = await fetch('dist/lexicon.json?v=' + Date.now(), { cache: 'no-store' });
+        const data = await res.json();
+        let total = 0; const parts = []; let latest = '';
+        for (const key of Object.keys(labels)) {
+          const all = Array.isArray(data[key]) ? data[key] : [];
+          const pub = all.filter(e => e && e.status !== 'pending_review');
+          total += pub.length;
+          parts.push(labels[key] + ' ' + pub.length);
+          for (const e of all) if (e && e._last_updated && e._last_updated > latest) latest = e._last_updated;
+        }
+        const c = document.getElementById('liveCount'); if (c) c.textContent = total.toLocaleString();
+        const b = document.getElementById('liveBreakdown'); if (b) b.textContent = parts.join(', ');
+        if (latest) document.querySelectorAll('.live-updated').forEach(el => el.textContent = latest);
+      } catch (e) {
+        const c = document.getElementById('liveCount'); if (c) c.textContent = '600+';
+        const b = document.getElementById('liveBreakdown'); if (b) b.textContent = '';
+      }
+    })();
+  </script>
 </body>
 </html>
