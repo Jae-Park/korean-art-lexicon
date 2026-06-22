@@ -9,31 +9,32 @@ name:
     family: Kang
     given: Ik-Joong
   variants:
-  - form: Kang Ik-Joong
-    lang: en
-    script: Latn
-    type: alternate
-    display_order: family-given
-    source: ARKO 베니스 한국관 아카이브 등 성-이름 관례 표기
-    accessed: '2026-06-19'
+    - form: Kang Ik-Joong
+      lang: en
+      script: Latn
+      type: alternate
+      display_order: family-given
+      source: ARKO 베니스 한국관 아카이브 등 성-이름 관례 표기
+      accessed: '2026-06-19'
 birth_year: 1960
 sources:
-- url: https://en.wikipedia.org/wiki/Korean_pavilion
-  name_used: Ik-joong Kang
-  note: Venice Biennale Korean Pavilion 1997 — Honorable Mention
-- url: https://www.arko.or.kr/biennale/content/643
-  name_used: 강익중
-  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
-- url: https://www.cheongju.go.kr/www/selectBbsNttView.do?key=279&bbsNo=40&nttNo=219256
-  name_used: 강익중
-  note: cheongju.go.kr — 강익중 참조
-  accessed: '2026-06-16'
-- url: https://cmoa.cheongju.go.kr/www/speclExbiView.do?key=61&exbiNo=773
-  name_used: 강익중
-  note: cmoa.cheongju.go.kr — 강익중 참조
-  accessed: '2026-06-16'
-- url: https://ikjoongkang.com/
-  name_used: Ik-Joong Kang
-  note: 작가 공식 웹사이트
-  accessed: '2026-06-19'
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=7475
+    name_used: Ik-Joong Kang
+    note: MMCA 소장품 상세 페이지(작가별)
+    accessed: '2026-06-22'
+  - url: https://www.arko.or.kr/biennale/content/643
+    name_used: 강익중
+    note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+  - url: https://www.cheongju.go.kr/www/selectBbsNttView.do?key=279&bbsNo=40&nttNo=219256
+    name_used: 강익중
+    note: cheongju.go.kr — 강익중 참조
+    accessed: '2026-06-16'
+  - url: https://cmoa.cheongju.go.kr/www/speclExbiView.do?key=61&exbiNo=773
+    name_used: 강익중
+    note: cmoa.cheongju.go.kr — 강익중 참조
+    accessed: '2026-06-16'
+  - url: https://ikjoongkang.com/
+    name_used: Ik-Joong Kang
+    note: 작가 공식 웹사이트
+    accessed: '2026-06-19'
 status: reviewed

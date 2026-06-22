@@ -10,18 +10,19 @@ name:
     given: Hoon
 birth_year: 1941
 sources:
-- url: https://en.wikipedia.org/wiki/Korean_pavilion
-  name_used: Kwak Hoon
-  note: Venice Biennale Korean Pavilion 1995
-- url: https://www.arko.or.kr/biennale/content/643
-  name_used: 곽훈
-  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
-- url: https://daeguartmuseum.or.kr/index.do?menu_id=00000731&menu_link=/front/ehi/ehiWoaFront.do&ehi_id=EHI_00000330
-  name_used: 곽훈
-  note: daeguartmuseum.or.kr — 곽훈 참조
-  accessed: '2026-06-16'
-- url: https://www.mcst.go.kr/site/s_culture/culture/cultureView.jsp?pSeq=44520
-  name_used: 곽훈
-  note: mcst.go.kr — 곽훈 참조
-  accessed: '2026-06-16'
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=492
+    name_used: Kwak Hoon
+    note: MMCA 소장품 상세 페이지(작가별)
+    accessed: '2026-06-22'
+  - url: https://www.arko.or.kr/biennale/content/643
+    name_used: 곽훈
+    note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+  - url: https://daeguartmuseum.or.kr/index.do?menu_id=00000731&menu_link=/front/ehi/ehiWoaFront.do&ehi_id=EHI_00000330
+    name_used: 곽훈
+    note: daeguartmuseum.or.kr — 곽훈 참조
+    accessed: '2026-06-16'
+  - url: https://www.mcst.go.kr/site/s_culture/culture/cultureView.jsp?pSeq=44520
+    name_used: 곽훈
+    note: mcst.go.kr — 곽훈 참조
+    accessed: '2026-06-16'
 status: reviewed

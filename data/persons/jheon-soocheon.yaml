@@ -11,18 +11,19 @@ name:
 birth_year: 1947
 death_year: 2018
 sources:
-- url: https://en.wikipedia.org/wiki/Korean_pavilion
-  name_used: Jheon Soocheon
-  note: Venice Biennale Korean Pavilion 1995 — Special Mention
-- url: https://www.arko.or.kr/biennale/content/643
-  name_used: 전수천
-  note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
-- url: https://www.jma.go.kr/web/page.php?pcode=AB&exhibit_code=26031016101808
-  name_used: 전수천
-  note: jma.go.kr — 전수천 참조
-  accessed: '2026-06-16'
-- url: https://museum.or.kr/museums_news/?mod=document&uid=6632
-  name_used: 전수천
-  note: museum.or.kr — 전수천 참조
-  accessed: '2026-06-16'
+  - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3067
+    name_used: Jheon Soocheon
+    note: MMCA 소장품 상세 페이지(작가별)
+    accessed: '2026-06-22'
+  - url: https://www.arko.or.kr/biennale/content/643
+    name_used: 전수천
+    note: ARKO 베니스 비엔날레 한국관 아카이브 — 한글 이름 확인
+  - url: https://www.jma.go.kr/web/page.php?pcode=AB&exhibit_code=26031016101808
+    name_used: 전수천
+    note: jma.go.kr — 전수천 참조
+    accessed: '2026-06-16'
+  - url: https://museum.or.kr/museums_news/?mod=document&uid=6632
+    name_used: 전수천
+    note: museum.or.kr — 전수천 참조
+    accessed: '2026-06-16'
 status: reviewed
