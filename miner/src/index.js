@@ -9,12 +9,12 @@ import { fromAltpool } from "./feeders/altpool.js";
 import { fromGgcf } from "./feeders/ggcf.js";
 import { fromNeolook } from "./feeders/neolook.js";
 import { fromSema, fromSemaFile } from "./feeders/sema.js";
-import { loadExistingKeys, filterNew } from "./dedup.js";
+import { loadExistingKeys, filterNew, filterNotionExisting } from "./dedup.js";
 import { verifyBatch } from "./verify/index.js";
 import { buildMentionIndex, computeWeight } from "./weight.js";
 import { normInstitution } from "./institutions.js";
 import { isBlacklisted } from "./blacklist.js";
-import { createCandidate, candidateMentionIndex, setWeight, queryReviewable, rowInstitution } from "./notion.js";
+import { createCandidate, candidateMentionIndex, existingCandidateKeys, setWeight, queryReviewable, rowInstitution } from "./notion.js";
 import { writeFileSync, mkdirSync } from "node:fs";
 import { harvest as runHarvest } from "./harvest.js";
 import { enrichEn } from "./enrich.js";
@@ -107,16 +107,21 @@ async function mine() {
     process.stdout.write(JSON.stringify({ count: result.length, candidates: result }, null, 2) + "\n");
     return;
   }
-  log(`Notion push: ${result.length}건...`);
+  // 리포 lexicon dedup 뒤에도 Notion DB에는 과거 run의 후보가 남아 있다. create 직전에
+  // 전수 키를 다시 대조해 같은 dedup_key의 재푸시를 차단한다.
+  const notionKeys = await existingCandidateKeys();
+  const pushable = filterNotionExisting(result, notionKeys);
+  log(`Notion existing dedup keys: ${notionKeys.size}`);
+  log(`Notion push: ${pushable.length}건 (skip ${result.length - pushable.length}: 이미 Candidates DB에 존재)...`);
   let pushed = 0;
-  for (const c of result) {
+  for (const c of pushable) {
     try {
       if (await createCandidate(c)) pushed++;
     } catch (e) {
       log(`push 실패 ${c.ko}: ${e.message}`);
     }
   }
-  log(`pushed ${pushed}/${result.length}`);
+  log(`pushed ${pushed}/${pushable.length}`);
 }
 
 // style_registry + 노션 후보 코퍼스(도메인=기관) + 현재 leads 도메인을 합산한 mention index.

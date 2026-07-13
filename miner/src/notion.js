@@ -49,9 +49,11 @@ export async function createCandidate(c) {
   return true;
 }
 
-// 이미 큐에 있는 dedup_key(노션 pending dedup, Phase 2). 모든 비-rejected/materialized 행.
-export async function pendingKeys() {
-  const rows = await queryFilter({ property: "dedup_key", rich_text: { is_not_empty: true } });
+// Candidates DB에 이미 존재하는 dedup_key 전부. 처리 상태와 무관하게 이력을 1행으로 보존한다.
+// mine의 create 직전에 사용해 재실행/재수집으로 같은 후보가 재푸시되는 것을 막는다.
+export async function existingCandidateKeys() {
+  // 1만 행 제한을 피하려고 엔티티별로 나눠 전수 조회한다. legacy org도 ENTITY_TYPES에 포함한다.
+  const rows = await queryFilterAllTypes({ property: "dedup_key", rich_text: { is_not_empty: true } });
   return new Set(rows.map((r) => r.dedup_key).filter(Boolean));
 }
 
@@ -62,7 +64,8 @@ export async function queryApproved() {
 
 // Notion DB 쿼리는 한 필터당 10000건에서 has_more=false로 잘림(풀 >10000이면 누락).
 // 엔티티 타입별로 분할 쿼리 후 병합 — 각 타입이 <10000이면 전수 확보.
-const ENTITY_TYPES = ["person", "exhibition", "org", "term", "publication"];
+// 표준 라벨은 organization. 기존 Notion 행의 org도 읽어 마이그레이션 전 누락을 막는다.
+const ENTITY_TYPES = ["person", "exhibition", "organization", "org", "term", "publication"];
 async function queryFilterAllTypes(baseFilter) {
   const out = [];
   for (const t of ENTITY_TYPES) {

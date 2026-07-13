@@ -31,7 +31,7 @@ export function fromNeolook({ mirrorPath } = {}) {
     const year = (e.date || "").slice(0, 4);
     if (e.title_ko) out.push(mk("exhibition", e.title_ko, e.title_en, e, year, "전시"));
     if (e.artist_ko) out.push(mk("person", cleanName(e.artist_ko), e.artist_en, e, year, "개인전 작가"));
-    if (e.venue_ko) out.push(mk("org", e.venue_ko, e.venue_en, e, year, "전시 장소"));
+    if (e.venue_ko) out.push(mk("organization", e.venue_ko, e.venue_en, e, year, "전시 장소"));
   }
   return out;
 }
