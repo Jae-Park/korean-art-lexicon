@@ -1,0 +1,16 @@
+id: person.shinwook-kim
+name:
+  ko:
+    full: 김신욱
+  latn:
+    preferred: Shinwook Kim
+sources:
+- url: https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=420487
+  name_used: Shinwook Kim
+  note: 서울시립미술관(SeMA) — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202211030001591
+  name_used: Shinwook Kim
+  note: 국립현대미술관(MMCA) — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+status: reviewed
