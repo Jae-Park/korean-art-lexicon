@@ -1,0 +1,2078 @@
+{
+  "counts": {
+    "already_in_repo": 723,
+    "mmca_authoritative": 8,
+    "single_inst_roman": 28,
+    "needs_web_verify": 66,
+    "conflict": 12
+  },
+  "mmca_authoritative": [
+    {
+      "ko": "김영은",
+      "romanization": "Kim Youngeun",
+      "n": 6,
+      "dedupKey": "person|김영은",
+      "mmcaEn": "Kim Youngeun",
+      "sources": [
+        "https://www.hongik.ac.kr/kr/newscenter/news.do?articleNo=148760&mode=view",
+        "https://youngeunkim.com/",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=640675",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202501060001895",
+        "https://helenjgallery.com/YoungEun-Kim",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2054"
+      ]
+    },
+    {
+      "ko": "김성희",
+      "romanization": "Kim Seongheui",
+      "n": 4,
+      "dedupKey": "person|김성희",
+      "mmcaEn": "Kim Seongheui",
+      "sources": [
+        "https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=201311100000379",
+        "https://monthlyart.com/05-article/special-artist-%EA%B9%80%EC%84%B1%ED%9D%AC/",
+        "https://art.snu.ac.kr/en/members/sunghee-kim/",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002540",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2145"
+      ]
+    },
+    {
+      "ko": "손기환",
+      "romanization": "Son Kihwan",
+      "n": 4,
+      "dedupKey": "person|손기환",
+      "mmcaEn": "Son Kihwan",
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593",
+        "https://neolook.com/archives/20260523a",
+        "https://gmoma.ggcf.kr/exhibitions/186",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=420"
+      ]
+    },
+    {
+      "ko": "커먼 어카운츠",
+      "romanization": "Common Accounts",
+      "n": 3,
+      "dedupKey": "person|커먼어카운츠",
+      "mmcaEn": "Common Accounts",
+      "sources": [
+        "https://www.corkingallery.com/artists/68-common-accounts/",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316642",
+        "https://www.commonaccounts.online/"
+      ]
+    },
+    {
+      "ko": "송성진",
+      "romanization": "Song Sungjin",
+      "n": 3,
+      "dedupKey": "person|송성진",
+      "mmcaEn": "Song Sungjin",
+      "sources": [
+        "https://www.songsungjin.com/",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202102010001377",
+        "https://gmoma.ggcf.kr/exhibitions/17"
+      ]
+    },
+    {
+      "ko": "김지희",
+      "romanization": "Kim Jihee",
+      "n": 3,
+      "dedupKey": "person|김지희",
+      "mmcaEn": "Kim Jihee",
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833640",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558",
+        "https://gmoma.ggcf.kr/exhibitions/17"
+      ]
+    },
+    {
+      "ko": "이진주",
+      "romanization": "Lee Jinju",
+      "n": 3,
+      "dedupKey": "person|이진주",
+      "mmcaEn": "Lee Jinju",
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=424",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202101290001373",
+        "https://gmoma.ggcf.kr/exhibitions/178"
+      ]
+    },
+    {
+      "ko": "김희정",
+      "romanization": "Kim Heejung",
+      "n": 3,
+      "dedupKey": "person|김희정",
+      "mmcaEn": "Kim Heejung",
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=265284",
+        "https://gmoma.ggcf.kr/exhibitions/65",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=326"
+      ]
+    }
+  ],
+  "single_inst_roman": [
+    {
+      "ko": "야나기 무네요시",
+      "roman": "Yanagi Muneyoshi",
+      "n": 4,
+      "dedupKey": "person|야나기무네요시",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q113467607",
+        "https://ko.wikipedia.org/wiki/%EC%95%BC%EB%82%98%EA%B8%B0_%EB%AC%B4%EB%84%A4%EC%9A%94%EC%8B%9C",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201304030002908",
+        "https://mingeikan.or.jp/about/soetsu/?lang=ja"
+      ]
+    },
+    {
+      "ko": "W.E.B. 두보이스",
+      "roman": "W.E.B. Du Bois",
+      "n": 4,
+      "dedupKey": "person|W.E.B.두보이스",
+      "sources": [
+        "https://www.library.umass.edu/about-w-e-b-du-bois/",
+        "https://www.duboisnhs.org/about/",
+        "https://ko.wikipedia.org/wiki/W._E._B._%EB%93%80%EB%B3%B4%EC%9D%B4%EC%8A%A4",
+        "https://www.cooperhewitt.org/exhibition/deconstructing-power-w-e-b-du-bois-at-the-1900-worlds-fair/"
+      ]
+    },
+    {
+      "ko": "김원",
+      "roman": "Kim Won",
+      "n": 4,
+      "dedupKey": "person|김원",
+      "sources": [
+        "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%9B%90_(1912%EB%85%84)",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=235",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558",
+        "https://gmoma.ggcf.kr/exhibitions/115"
+      ]
+    },
+    {
+      "ko": "아니쉬 카푸어",
+      "roman": "Anish Kapoor",
+      "n": 4,
+      "dedupKey": "person|아니쉬카푸어",
+      "sources": [
+        "http://www.anishkapoor.com",
+        "https://www.lissongallery.com/artists/anish-kapoor",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=665629",
+        "https://ko.wikipedia.org/wiki/%EC%95%A0%EB%8B%88%EC%8B%9C_%EC%BB%A4%ED%91%B8%EC%96%B4"
+      ]
+    },
+    {
+      "ko": "박은하",
+      "roman": "Yuna Park",
+      "n": 4,
+      "dedupKey": "person|박은하",
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=213",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201510140000334",
+        "https://gmoma.ggcf.kr/exhibitions/128",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2071"
+      ]
+    },
+    {
+      "ko": "문경원·전준호",
+      "roman": "MOON Kyungwon & JEON Joonho",
+      "n": 3,
+      "dedupKey": "person|문경원·전준호",
+      "sources": [
+        "https://www.mmca.go.kr/pr/employmentDetail.do?bdCId=202103100007562&menuId=&searchBmCid=200903020000015",
+        "https://ocula.com/magazine/conversations/moon-kyungwon-and-jeon-joonho/",
+        "https://www.galleryhyundai.com/artist/view/20000000092"
+      ]
+    },
+    {
+      "ko": "안나 비트",
+      "roman": "Anna Witt",
+      "n": 3,
+      "dedupKey": "person|안나비트",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q103825857",
+        "https://tanjawagner.com/artists/anna-witt/",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316642"
+      ]
+    },
+    {
+      "ko": "리투 사린",
+      "roman": "Ritu Sarin",
+      "n": 3,
+      "dedupKey": "person|리투사린",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ritu_Sarin",
+        "https://whitecranefilms.com/about/",
+        "https://13thgwangjubiennale.org/live-organ/pratiwi-sarin-sonam-lim/"
+      ]
+    },
+    {
+      "ko": "루하 벤자민",
+      "roman": "Ruha Benjamin",
+      "n": 3,
+      "dedupKey": "person|루하벤자민",
+      "sources": [
+        "https://citp.princeton.edu/people/ruha-benjamin",
+        "https://aas.princeton.edu/people/ruha-benjamin",
+        "https://13thgwangjubiennale.org/live-organ/benjamin/"
+      ]
+    },
+    {
+      "ko": "나타샤 진발라",
+      "roman": "Natasha Ginwala",
+      "n": 3,
+      "dedupKey": "person|나타샤진발라",
+      "sources": [
+        "https://www.gwangjubiennale.org/en/Board/10385/detailView.do",
+        "https://www.wikidata.org/wiki/Q131399025",
+        "https://13thgwangjubiennale.org/introduction/"
+      ]
+    },
+    {
+      "ko": "니콜라이 표도로프",
+      "roman": "Nikolai Fyodorov",
+      "n": 3,
+      "dedupKey": "person|니콜라이표도로프",
+      "sources": [
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002687573",
+        "https://iep.utm.edu/fedorov/",
+        "https://en.wikipedia.org/wiki/Nikolai_Fyodorov_%28philosopher%29"
+      ]
+    },
+    {
+      "ko": "김홍도",
+      "roman": "KIM Hong-do",
+      "n": 3,
+      "dedupKey": "person|김홍도",
+      "sources": [
+        "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%8D%EB%8F%84",
+        "https://encykorea.aks.ac.kr/Article/E0011079",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202101190001358"
+      ]
+    },
+    {
+      "ko": "강수미",
+      "roman": "Sumi Kang",
+      "n": 3,
+      "dedupKey": "person|강수미",
+      "sources": [
+        "https://www4530.dongduk.ac.kr/shop_contents/myboard_list.htm?me_popup=1&myboard_code=myboard2",
+        "https://www.dbpia.co.kr/author/authorDetail?ancId=1114496",
+        "https://dongduk.academia.edu/SumiKang"
+      ]
+    },
+    {
+      "ko": "최은주",
+      "roman": "Eunjoo Choi",
+      "n": 3,
+      "dedupKey": "person|최은주",
+      "sources": [
+        "https://eunjoochoi.artspoon.io/about",
+        "https://sema.seoul.go.kr/kr/sema/landing",
+        "https://www.mediacityseoul.kr/ko/yesterday/participants/eunju-choi"
+      ]
+    },
+    {
+      "ko": "김종성",
+      "roman": "Jong Soung Kimm",
+      "n": 3,
+      "dedupKey": "person|김종성",
+      "sources": [
+        "https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201409240000151&menuId=1010000000",
+        "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%A2%85%EC%84%B1_%28%EA%B1%B4%EC%B6%95%EA%B0%80%29",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=564",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201409240000150",
+        "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%A2%85%EC%84%B1_(%EA%B1%B4%EC%B6%95%EA%B0%80"
+      ]
+    },
+    {
+      "ko": "강신대",
+      "roman": "Sindae Kang",
+      "n": 3,
+      "dedupKey": "person|강신대",
+      "sources": [
+        "https://njp.ggcf.kr/boards/artists2/articles/18",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=687519",
+        "https://njp.ggcf.kr/exhibitions/64",
+        "https://gmoma.ggcf.kr/exhibitions/134",
+        "https://njp.ggcf.kr/강신대/"
+      ]
+    },
+    {
+      "ko": "김종원",
+      "roman": "Kim Jong-won",
+      "n": 3,
+      "dedupKey": "person|김종원",
+      "sources": [
+        "https://dusongallery.com/artist4.html",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202403070001756",
+        "http://www.kimjongwon.com/profile.php"
+      ]
+    },
+    {
+      "ko": "박진우",
+      "roman": "Zinoo Park",
+      "n": 3,
+      "dedupKey": "person|박진우",
+      "sources": [
+        "https://museum1.co.kr/153",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=207538",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201406020000084"
+      ]
+    },
+    {
+      "ko": "이택광",
+      "roman": "Alex Taek-Gwang LEE",
+      "n": 3,
+      "dedupKey": "person|이택광",
+      "sources": [
+        "https://com.khu.ac.kr/gskh_eng/user/contents/view.do?menuNo=13200266",
+        "https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%83%9D%EA%B4%91",
+        "https://khu.elsevierpure.com/en/persons/taek-gwang-lee/"
+      ]
+    },
+    {
+      "ko": "기혜경",
+      "roman": "Ki Hyekyung",
+      "n": 3,
+      "dedupKey": "person|기혜경",
+      "sources": [
+        "https://arthistory.hongik.ac.kr/arthistory/sub/prof_detail.do?article.offset=0&articleLimit=10&articleNo=135829&mode=view",
+        "http://www.daljin.com/column/18434",
+        "https://art.hongik.ac.kr/dept/prof_detail.html?campusGubun=1&S1=2016&S2=58420&dept_code=AAB120&depth=2"
+      ]
+    },
+    {
+      "ko": "김동호",
+      "roman": "DongHyun Kim",
+      "n": 3,
+      "dedupKey": "person|김동호",
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=336",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002573",
+        "https://gmoma.ggcf.kr/exhibitions/106"
+      ]
+    },
+    {
+      "ko": "김지은",
+      "roman": "Ji-Eun Kim",
+      "n": 3,
+      "dedupKey": "person|김지은",
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=530",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201510140000334",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=513"
+      ]
+    },
+    {
+      "ko": "심현희",
+      "roman": "Hyun-Hee Sim",
+      "n": 3,
+      "dedupKey": "person|심현희",
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=537",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002540",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=455"
+      ]
+    },
+    {
+      "ko": "김경호",
+      "roman": "Kim Kyoung-Ho",
+      "n": 3,
+      "dedupKey": "person|김경호",
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833727",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511090000353",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=1153"
+      ]
+    },
+    {
+      "ko": "김건희",
+      "roman": "Kim gun-hee",
+      "n": 3,
+      "dedupKey": "person|김건희",
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=1454"
+      ]
+    },
+    {
+      "ko": "이윤호",
+      "roman": "Yun Ho Lee",
+      "n": 3,
+      "dedupKey": "person|이윤호",
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558",
+        "https://gmoma.ggcf.kr/exhibitions/88",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=1496"
+      ]
+    },
+    {
+      "ko": "김지민",
+      "roman": "Kim Ji-min",
+      "n": 2,
+      "dedupKey": "person|김지민",
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=172",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201306040002917"
+      ]
+    },
+    {
+      "ko": "김기철",
+      "roman": "Kim Ki Chul",
+      "n": 2,
+      "dedupKey": "person|김기철",
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=284",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201011170002828"
+      ]
+    }
+  ],
+  "needs_web_verify": [
+    {
+      "ko": "노경애",
+      "n": 4,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관",
+        "백남준아트센터",
+        "경기도미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1494700",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202403070001758",
+        "https://njp.ggcf.kr/exhibitions/118",
+        "https://gmoma.ggcf.kr/exhibitions/24"
+      ]
+    },
+    {
+      "ko": "이수영",
+      "n": 4,
+      "institutions": [
+        "국립현대미술관",
+        "백남준아트센터",
+        "경기도미술관",
+        "아트스페이스 풀"
+      ],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202304060001638",
+        "https://njp.ggcf.kr/exhibitions/28",
+        "https://gmoma.ggcf.kr/exhibitions/18",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=663"
+      ]
+    },
+    {
+      "ko": "퓌순 에즈자즈바쉬",
+      "n": 3,
+      "institutions": [
+        "fundacioncallia.org",
+        "mimarizm.com",
+        "en.wikipedia.org"
+      ],
+      "sources": [
+        "https://www.fundacioncallia.org/en/international-patronage-awards/fusun-eczacibasi/",
+        "https://www.mimarizm.com/hobi/fusun-eczacibasi-ile-sanat-uzerine_133561",
+        "https://en.wikipedia.org/wiki/F%C3%BCsun_Eczac%C4%B1ba%C5%9F%C4%B1"
+      ]
+    },
+    {
+      "ko": "윤세영",
+      "n": 3,
+      "institutions": [
+        "namdonews.com",
+        "monthlyart.com",
+        "gwangjuart.com"
+      ],
+      "sources": [
+        "https://www.namdonews.com/news/articleView.html?idxno=749139",
+        "https://monthlyart.com/portfolio-item/%EC%9C%A4%EC%84%B8%EC%98%81-%EB%82%AF%EC%84%A4%EA%B3%A0-%ED%91%B8%EB%A5%B8-%EC%83%9D%EC%84%B1%EC%A7%80%EC%A0%90/",
+        "http://www.gwangjuart.com/bbs/board.php?bo_table=artist01&wr_id=94"
+      ]
+    },
+    {
+      "ko": "오영재",
+      "n": 3,
+      "institutions": [
+        "helioart.org",
+        "busan.grandculture.net",
+        "jungle.co.kr"
+      ],
+      "sources": [
+        "https://www.helioart.org/artists-3/youngjae-oh?lang=ko",
+        "https://busan.grandculture.net/Contents?local=busan&dataType=01&contents_id=GC04212938",
+        "https://www.jungle.co.kr/magazine/205454"
+      ]
+    },
+    {
+      "ko": "이지연",
+      "n": 3,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관",
+        "백남준아트센터"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=384",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558",
+        "https://njp.ggcf.kr/exhibitions/243"
+      ]
+    },
+    {
+      "ko": "박호은",
+      "n": 3,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833730",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511090000353",
+        "https://gmoma.ggcf.kr/exhibitions/16"
+      ]
+    },
+    {
+      "ko": "안데스",
+      "n": 3,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1087608",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201608020000472",
+        "https://gmoma.ggcf.kr/exhibitions/9"
+      ]
+    },
+    {
+      "ko": "이수지",
+      "n": 3,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1240280",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202410300001867",
+        "https://gmoma.ggcf.kr/exhibitions/204"
+      ]
+    },
+    {
+      "ko": "김동현",
+      "n": 3,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1312939",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201910290001200",
+        "https://gmoma.ggcf.kr/exhibitions/33"
+      ]
+    },
+    {
+      "ko": "전혜림",
+      "n": 3,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1393224",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201710100000626",
+        "https://gmoma.ggcf.kr/exhibitions/33"
+      ]
+    },
+    {
+      "ko": "지인",
+      "n": 3,
+      "institutions": [
+        "서울시립미술관",
+        "백남준아트센터",
+        "경기도미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1494700",
+        "https://njp.ggcf.kr/exhibitions/152",
+        "https://gmoma.ggcf.kr/exhibitions/181"
+      ]
+    },
+    {
+      "ko": "김성은",
+      "n": 3,
+      "institutions": [
+        "국립현대미술관",
+        "백남준아트센터",
+        "아트스페이스 풀"
+      ],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002540",
+        "https://njp.ggcf.kr/exhibitions/24",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=1073"
+      ]
+    },
+    {
+      "ko": "전민수",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=152",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202211290001604"
+      ]
+    },
+    {
+      "ko": "김혜숙",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=152",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002573"
+      ]
+    },
+    {
+      "ko": "송명수",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=214",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558"
+      ]
+    },
+    {
+      "ko": "강은구",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833632",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202012220001348"
+      ]
+    },
+    {
+      "ko": "김민주",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833654",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201311200000044"
+      ]
+    },
+    {
+      "ko": "정도준",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=282",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558"
+      ]
+    },
+    {
+      "ko": "박종호",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833649",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511090000353"
+      ]
+    },
+    {
+      "ko": "김덕영",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833649",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201401230000051"
+      ]
+    },
+    {
+      "ko": "황연주",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=351",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002758"
+      ]
+    },
+    {
+      "ko": "조미영",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=351",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202012220001348"
+      ]
+    },
+    {
+      "ko": "최태현",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=345",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603150000404"
+      ]
+    },
+    {
+      "ko": "이종석",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=364",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201505260000269"
+      ]
+    },
+    {
+      "ko": "조남호",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=377",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200912140002813"
+      ]
+    },
+    {
+      "ko": "최  선",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=384",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201710240000629"
+      ]
+    },
+    {
+      "ko": "우혜민",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=414",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002765"
+      ]
+    },
+    {
+      "ko": "이태원",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=695217",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201608020000472"
+      ]
+    },
+    {
+      "ko": "김정모",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=570",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201910290001200"
+      ]
+    },
+    {
+      "ko": "이영",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=576",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202006020001272"
+      ]
+    },
+    {
+      "ko": "박기진",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=216712",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202501060001893"
+      ]
+    },
+    {
+      "ko": "최승준",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=231879",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002765"
+      ]
+    },
+    {
+      "ko": "이소영",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=231879",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201410280000170"
+      ]
+    },
+    {
+      "ko": "애나한",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833720",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201401230000051"
+      ]
+    },
+    {
+      "ko": "박경진",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=217337",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201908300001175"
+      ]
+    },
+    {
+      "ko": "옵티컬 레이스",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316642",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201505260000269"
+      ]
+    },
+    {
+      "ko": "유인수",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=424851",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002573"
+      ]
+    },
+    {
+      "ko": "김신욱",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=420487",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202211030001591"
+      ]
+    },
+    {
+      "ko": "배인숙",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833729",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202011120001334"
+      ]
+    },
+    {
+      "ko": "박미옥",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833727",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201607050000457"
+      ]
+    },
+    {
+      "ko": "박남재",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573364",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002573"
+      ]
+    },
+    {
+      "ko": "현박",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573209",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201406020000084"
+      ]
+    },
+    {
+      "ko": "김민숙",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=573346",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593"
+      ]
+    },
+    {
+      "ko": "김지현",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=640313",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002604"
+      ]
+    },
+    {
+      "ko": "김태희",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=636451",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558"
+      ]
+    },
+    {
+      "ko": "이동규",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1034869",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558"
+      ]
+    },
+    {
+      "ko": "임선구",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1060421",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202403040001750"
+      ]
+    },
+    {
+      "ko": "정철규",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1061057",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202411050001870"
+      ]
+    },
+    {
+      "ko": "최희수",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1101682",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002573"
+      ]
+    },
+    {
+      "ko": "김윤기",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1108494",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593"
+      ]
+    },
+    {
+      "ko": "최수빈",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1230708",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202401150001734"
+      ]
+    },
+    {
+      "ko": "이이란",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1233185",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202001090001240"
+      ]
+    },
+    {
+      "ko": "유소윤)",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1233185",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202302010001619"
+      ]
+    },
+    {
+      "ko": "라이스 브루잉 시스터즈 클럽(손혜민",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1233185",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202302010001619"
+      ]
+    },
+    {
+      "ko": "이곤",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1300979",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558"
+      ]
+    },
+    {
+      "ko": "황문정",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1299359",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201610130000498"
+      ]
+    },
+    {
+      "ko": "정혜정",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1299359",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201810290001099"
+      ]
+    },
+    {
+      "ko": "박아람",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1393224",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202101210001364"
+      ]
+    },
+    {
+      "ko": "이은재",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1395747",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201307240002919"
+      ]
+    },
+    {
+      "ko": "전장연",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1407939",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202311030001707"
+      ]
+    },
+    {
+      "ko": "최정유",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1450126",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201307240002919"
+      ]
+    },
+    {
+      "ko": "이현호",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1450126",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202012220001348"
+      ]
+    },
+    {
+      "ko": "정세영",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1494700",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201908220001165"
+      ]
+    },
+    {
+      "ko": "남정현",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1494700",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202304060001638"
+      ]
+    },
+    {
+      "ko": "이지양",
+      "n": 2,
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1548449",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201610130000498"
+      ]
+    }
+  ],
+  "already_in_repo": [
+    "양아치",
+    "장서영",
+    "김희천",
+    "전명은",
+    "차재민",
+    "박승원",
+    "권용주",
+    "권혜원",
+    "이승택",
+    "무진형제",
+    "류경채",
+    "장종완",
+    "정창섭",
+    "서현석",
+    "최욱경",
+    "구본창",
+    "이상현",
+    "노순택",
+    "공성훈",
+    "윤동천",
+    "오용석",
+    "언메이크랩",
+    "박보나",
+    "김창열",
+    "정재철",
+    "황세준",
+    "김기수",
+    "김태헌",
+    "유현미",
+    "이지영",
+    "금혜원",
+    "차미혜",
+    "김지평",
+    "조습",
+    "고정남",
+    "노원희",
+    "박민희",
+    "정주영",
+    "박용석",
+    "김지영",
+    "최태훈",
+    "노충현",
+    "옥정호",
+    "방정아",
+    "주재환",
+    "구성연",
+    "홍명섭",
+    "배종헌",
+    "김은진",
+    "함양아",
+    "조은지",
+    "홍영인",
+    "주황",
+    "윤석남",
+    "송상희",
+    "김옥선",
+    "박선민",
+    "노재운",
+    "강요배",
+    "이수경",
+    "한우리",
+    "최민화",
+    "정정엽",
+    "이해민선",
+    "이우성",
+    "윤정미",
+    "김상돈",
+    "서용선",
+    "민정기",
+    "김용철",
+    "김용익",
+    "김명희",
+    "전소정",
+    "구동희",
+    "이선민",
+    "김준",
+    "기슬기",
+    "김도균",
+    "강홍구",
+    "이종구",
+    "신학철",
+    "김정헌",
+    "최원준",
+    "안은미",
+    "임영주",
+    "이은우",
+    "김아영",
+    "김성수",
+    "박상숙",
+    "정지현",
+    "이은희",
+    "서동진",
+    "천경우",
+    "조양규",
+    "김가람",
+    "윤향로",
+    "정소연",
+    "박현기",
+    "권진규",
+    "곽덕준",
+    "함경아",
+    "백승우",
+    "김을",
+    "이소요",
+    "이기봉",
+    "강애란",
+    "구민자",
+    "문봉선",
+    "장지아",
+    "김민정",
+    "이채영",
+    "박계훈",
+    "한기창",
+    "김성환",
+    "이웅배",
+    "이중근",
+    "원인종",
+    "오용길",
+    "강경구",
+    "이종상",
+    "서세옥",
+    "이창훈",
+    "안두진",
+    "이준",
+    "정종미",
+    "이강우",
+    "박주욱",
+    "써니킴",
+    "이진준",
+    "최진욱",
+    "윤영석",
+    "김지원",
+    "김종구",
+    "최인수",
+    "남경민",
+    "손종준",
+    "하태범",
+    "조숙진",
+    "박능생",
+    "이혜인",
+    "유영호",
+    "김신일",
+    "권오상",
+    "홍성담",
+    "박고은",
+    "박광수",
+    "김승구",
+    "김진희",
+    "김승영",
+    "이주용",
+    "박지혜",
+    "김보경",
+    "문소현",
+    "김홍식",
+    "진달래",
+    "최성록",
+    "김은형",
+    "진기종",
+    "나현",
+    "원경환",
+    "이정민",
+    "윤중식",
+    "플라잉시티",
+    "김혜련",
+    "김태균",
+    "오윤",
+    "박형근",
+    "박진화",
+    "김혜원",
+    "김웅현",
+    "권혁",
+    "정희승",
+    "최영림",
+    "임옥상",
+    "믹스라이스",
+    "하석준",
+    "김상균",
+    "제로랩",
+    "한성필",
+    "고낙범",
+    "장욱진",
+    "이대원",
+    "이경희",
+    "박득순",
+    "문학진",
+    "나혜석",
+    "권영우",
+    "김동유",
+    "이만익",
+    "이병찬",
+    "호상근",
+    "김영기",
+    "한경우",
+    "안경수",
+    "김인배",
+    "조경재",
+    "안성금",
+    "송현숙",
+    "김원숙",
+    "임영균",
+    "이광호",
+    "박소영",
+    "김이박",
+    "오재우",
+    "신상호",
+    "박영선",
+    "조덕현",
+    "송주원",
+    "허윤희",
+    "박진영",
+    "서민정",
+    "김다움",
+    "장영규",
+    "강운",
+    "민성홍",
+    "니콜라스 펠처",
+    "김주리",
+    "김익현",
+    "백현진",
+    "캠프",
+    "이은실",
+    "박관택",
+    "김웅용",
+    "강호연",
+    "정인숙",
+    "홍철기",
+    "안유리",
+    "고산금",
+    "김영수",
+    "전현선",
+    "신익균",
+    "한성우",
+    "김재민이",
+    "이동기",
+    "강상우",
+    "이재삼",
+    "이미래",
+    "정현",
+    "황혜선",
+    "석철주",
+    "민경갑",
+    "엄지은",
+    "신미경",
+    "송세진",
+    "유승호",
+    "여다함",
+    "김경태",
+    "홍승혜",
+    "이슬기",
+    "우한나",
+    "심래정",
+    "손동현",
+    "박생광",
+    "김주현",
+    "김실비",
+    "이제",
+    "임선이",
+    "곽남신",
+    "이이남",
+    "구기정",
+    "홍성도",
+    "홍이현숙",
+    "이세현",
+    "송창",
+    "류인",
+    "하인두",
+    "이인성",
+    "김봉태",
+    "권옥연",
+    "곽인식",
+    "이은새",
+    "박미나",
+    "안가영",
+    "노혜리",
+    "박영숙",
+    "원성원",
+    "최호철",
+    "정직성",
+    "황예지",
+    "홍진훤",
+    "장한나",
+    "송민규",
+    "장민승",
+    "유비호",
+    "하동철",
+    "김보중",
+    "전국광",
+    "오주영",
+    "정동석",
+    "안상수",
+    "손장섭",
+    "문범",
+    "한운성",
+    "오민",
+    "그레이코드",
+    "백정기",
+    "한영수",
+    "김종학",
+    "정복수",
+    "박은태",
+    "김인순",
+    "김세진",
+    "조소희",
+    "김영글",
+    "정희민",
+    "신정균",
+    "듀킴",
+    "조영주",
+    "권병준",
+    "박혜수",
+    "권동현",
+    "이양희",
+    "진시우",
+    "이문주",
+    "하차연",
+    "정정주",
+    "고승욱",
+    "박영균",
+    "류준화",
+    "김성룡",
+    "조해준",
+    "김기린",
+    "김태수",
+    "박민하",
+    "김동수",
+    "민병헌",
+    "주명덕",
+    "오지호",
+    "오인환",
+    "강태성",
+    "이병용",
+    "양민하",
+    "안병석",
+    "신영상",
+    "홍종명",
+    "난다",
+    "김범수",
+    "황지선",
+    "홍순모",
+    "최종태",
+    "전뢰진",
+    "임송자",
+    "신석필",
+    "백현옥",
+    "백문기",
+    "박병욱",
+    "김경승",
+    "고정수",
+    "강관욱",
+    "정탁영",
+    "이왈종",
+    "홍푸르메",
+    "송계일",
+    "변관식",
+    "김보희",
+    "박충흠",
+    "김영원",
+    "강희덕",
+    "마르크 샤갈",
+    "베르나르 브네",
+    "이철주",
+    "박승훈",
+    "진옥선",
+    "이두식",
+    "유희영",
+    "앤디워홀",
+    "김선회",
+    "구자승",
+    "강민수",
+    "장두건",
+    "심철웅",
+    "황용진",
+    "권여현",
+    "정기호",
+    "윤애영",
+    "서정태",
+    "육근병",
+    "신기운",
+    "한정식",
+    "전미숙",
+    "강병인",
+    "천제런",
+    "위안광밍",
+    "국형걸",
+    "전화황",
+    "도미야마 다에코",
+    "임영선",
+    "폴 고갱",
+    "제니 홀저",
+    "김기영",
+    "박애정",
+    "서고운",
+    "김하영",
+    "신현중",
+    "강영민",
+    "오원배",
+    "조수호",
+    "황창배",
+    "송대섭",
+    "신제현",
+    "폴 카잔더",
+    "루크 슈뢰더",
+    "한석현",
+    "송영방",
+    "빠키",
+    "김태호",
+    "강용면",
+    "안세권",
+    "이배경",
+    "육태진",
+    "최승천",
+    "배만실",
+    "박숙희",
+    "고이즈미 메이로",
+    "고명근",
+    "홍선웅",
+    "김준권",
+    "오유경",
+    "연기백",
+    "유영운",
+    "김두진",
+    "금누리",
+    "이영순",
+    "서정화",
+    "이정화",
+    "엄정순",
+    "안창모",
+    "정문경",
+    "서정희",
+    "노상호",
+    "김승희",
+    "홍원석",
+    "박재영",
+    "크리스티앙 볼탕스키",
+    "신디 셔먼",
+    "김호석",
+    "박성원",
+    "요셉 보이스",
+    "존 케이지",
+    "김순기",
+    "김근배",
+    "피에르 오귀스트 르누아르",
+    "허수영",
+    "신형섭",
+    "민철홍",
+    "선우훈",
+    "론 뮤익",
+    "정경연",
+    "오숙환",
+    "노경조",
+    "백태호",
+    "유걸",
+    "조병수",
+    "정기용",
+    "김종규",
+    "조민석",
+    "황두진",
+    "최문규",
+    "김인철",
+    "승효상",
+    "김수근",
+    "존 아캄프라",
+    "최대진",
+    "정종해",
+    "여태명",
+    "김수현",
+    "양 푸동",
+    "루이즈 부르주아",
+    "주태석",
+    "짐다인",
+    "크리스토",
+    "잭슨홍",
+    "오화진",
+    "오경화",
+    "바이런 킴",
+    "이성자",
+    "히와 케이",
+    "에르칸 오즈겐",
+    "이귀영",
+    "리슨투더시티",
+    "파비오 라탄치 안티노리",
+    "윌리엄 켄트리지",
+    "황주리",
+    "A.R. 펭크",
+    "목진요",
+    "마이클 맨디버그",
+    "이승조",
+    "서승원",
+    "정점식",
+    "장우성",
+    "임직순",
+    "이유태",
+    "이세득",
+    "윤재우",
+    "박상옥",
+    "도상봉",
+    "남관",
+    "김형구",
+    "김중현",
+    "구본웅",
+    "도윤희",
+    "정재호",
+    "김덕기",
+    "후니다킴",
+    "류한길",
+    "심승욱",
+    "하딤 알리",
+    "와엘 샤키",
+    "김용관",
+    "이성근",
+    "푸하하하프렌즈",
+    "이동근",
+    "최계복",
+    "정범태",
+    "전몽각",
+    "임응식",
+    "이경모",
+    "육명심",
+    "왈리드 라드",
+    "한애규",
+    "호 추 니엔",
+    "최윤석",
+    "유화수",
+    "박현정",
+    "이예승",
+    "안리 살라",
+    "쉬린 네샤트",
+    "빌 비올라",
+    "박경근",
+    "여동헌",
+    "엄정윤",
+    "이창진",
+    "신이피",
+    "배헤윰",
+    "하야시 야스오",
+    "최현칠",
+    "최만린",
+    "진유영",
+    "정대유",
+    "전상수",
+    "이종우",
+    "유리지",
+    "오종욱",
+    "오승우",
+    "신양섭",
+    "손수광",
+    "김종하",
+    "김종복",
+    "김정숙",
+    "김인승",
+    "김익영",
+    "김병기",
+    "권순형",
+    "문신",
+    "김소영",
+    "황동욱",
+    "이영애",
+    "이은주",
+    "정금형",
+    "유리 패티슨",
+    "씨씨 우",
+    "곽이브",
+    "송민정",
+    "김방주",
+    "이승일",
+    "고재욱",
+    "이진경",
+    "김아타",
+    "올라퍼 엘리아슨",
+    "클로드 모네",
+    "범진용",
+    "최하늘",
+    "이동훈",
+    "이창원",
+    "장진승",
+    "황규태",
+    "이재욱",
+    "김동희",
+    "임창민",
+    "서해영",
+    "다나카 고키",
+    "김을지로",
+    "권아람",
+    "권도연",
+    "최경한",
+    "켄트 찬",
+    "권동현×권세정",
+    "전지인",
+    "리아 리잘디",
+    "김재원",
+    "오치균",
+    "심정수",
+    "정여름",
+    "유병훈",
+    "박성준",
+    "김상진",
+    "최윤",
+    "차학경",
+    "이끼바위쿠르르",
+    "안진균",
+    "김신애",
+    "이석주",
+    "김강용",
+    "파이어룰 달마",
+    "구수현",
+    "강은엽",
+    "김재형",
+    "정소영",
+    "김채린",
+    "칸디다 회퍼",
+    "김민애",
+    "나오미",
+    "리암 길릭",
+    "노먼 포스터",
+    "송수남",
+    "박노수",
+    "김호득",
+    "김기창",
+    "정승",
+    "전보경",
+    "차명희",
+    "김춘옥",
+    "주민숙",
+    "송수련",
+    "원문자",
+    "심경자",
+    "이화자",
+    "윤애근",
+    "오낭자",
+    "이숙자",
+    "류민자",
+    "장상의",
+    "이인실",
+    "문은희",
+    "천경자",
+    "박래현",
+    "배정례",
+    "이현옥",
+    "정찬영",
+    "정성윤",
+    "이영주",
+    "우순옥",
+    "신승백김용훈",
+    "신경희",
+    "람한",
+    "권하윤",
+    "최수정",
+    "이원우",
+    "자크 블라스",
+    "최태윤",
+    "이원호",
+    "구나",
+    "윤가림",
+    "손광주",
+    "추미림",
+    "이수진",
+    "양승원",
+    "홍범",
+    "다이애나랩",
+    "박광진",
+    "강명희",
+    "이응노",
+    "권순철",
+    "방혜자",
+    "제너럴쿤스트",
+    "김은설",
+    "김영주",
+    "이은경",
+    "요한한",
+    "엘리 허경란",
+    "백종관",
+    "김인숙",
+    "이형록",
+    "폴 개린",
+    "황병기",
+    "이상원",
+    "최덕휴",
+    "김기라",
+    "이신자",
+    "우제길",
+    "박희선",
+    "김병주",
+    "김영재",
+    "한만영",
+    "최병소",
+    "지석철",
+    "장화진",
+    "이규철",
+    "이교준",
+    "여운",
+    "송번수",
+    "김차섭",
+    "업체eobchae",
+    "송예환",
+    "김우진",
+    "최재은",
+    "김태동",
+    "황수현",
+    "곽소진",
+    "감동환",
+    "정정호",
+    "황재형",
+    "이흥덕",
+    "이상국",
+    "이명복",
+    "오경환",
+    "박흥순",
+    "박불똥",
+    "김용태",
+    "차지량",
+    "정재경",
+    "윤지영",
+    "염지혜",
+    "우주+림희영",
+    "안성석",
+    "황수연",
+    "최찬숙",
+    "제시 천",
+    "전준",
+    "이정우",
+    "우정수",
+    "신미정",
+    "갈라포라스-김"
+  ],
+  "conflict": [
+    {
+      "ko": "임민욱",
+      "romanizations": [
+        "Minouk Lim",
+        "Min-Wook Im"
+      ],
+      "n": 6
+    },
+    {
+      "ko": "정윤석",
+      "romanizations": [
+        "Jung Yoonsuk",
+        "Yoon-Seok Jung"
+      ],
+      "n": 5
+    },
+    {
+      "ko": "양정욱",
+      "romanizations": [
+        "Yang Jung Uk",
+        "Jung Uk Yang"
+      ],
+      "n": 5
+    },
+    {
+      "ko": "유근택",
+      "romanizations": [
+        "Yoo Geun-Taek",
+        "Geun-Taek Yu"
+      ],
+      "n": 4
+    },
+    {
+      "ko": "김인규",
+      "romanizations": [
+        "Kim Ingyu",
+        "In-Kyu Kim"
+      ],
+      "n": 4
+    },
+    {
+      "ko": "김현태",
+      "romanizations": [
+        "Gim Hyuntae",
+        "Hyuntae Gim"
+      ],
+      "n": 4
+    },
+    {
+      "ko": "강용석",
+      "romanizations": [
+        "Kang Yong Suk",
+        "Yongseok Kang"
+      ],
+      "n": 4
+    },
+    {
+      "ko": "홍경택",
+      "romanizations": [
+        "Park Gwang-soo",
+        "Kyung-Taek Hong"
+      ],
+      "n": 4
+    },
+    {
+      "ko": "안정주",
+      "romanizations": [
+        "Jungju An",
+        "An Jung-ju"
+      ],
+      "n": 4
+    },
+    {
+      "ko": "김정명",
+      "romanizations": [
+        "Kim Jeong-myeong",
+        "Jung-Myung Kim"
+      ],
+      "n": 3
+    },
+    {
+      "ko": "김월식",
+      "romanizations": [
+        "Kim Joo Hyun",
+        "Wol-Sik Kim"
+      ],
+      "n": 3
+    },
+    {
+      "ko": "조문기",
+      "romanizations": [
+        "CHO Moon Ki",
+        "Munki Cho"
+      ],
+      "n": 3
+    }
+  ]
+}
+

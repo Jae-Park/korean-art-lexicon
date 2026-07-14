@@ -1,0 +1,20 @@
+id: person.kim-heejung
+name:
+  ko:
+    full: 김희정
+  latn:
+    preferred: Kim Heejung
+sources:
+- url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=265284
+  name_used: Kim Heejung
+  note: '서울시립미술관(SeMA) — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+- url: https://gmoma.ggcf.kr/exhibitions/65
+  name_used: Kim Heejung
+  note: '경기도미술관(GMoMA) — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+- url: http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=326
+  name_used: Kim Heejung
+  note: '아트스페이스 풀 — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+status: pending_review

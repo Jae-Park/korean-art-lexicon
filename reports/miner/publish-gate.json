@@ -2,7 +2,7 @@
   "minInst": 3,
   "counts": {
     "ready": 3,
-    "needRoman": 803,
+    "needRoman": 822,
     "conflict": 12
   },
   "ready": [
@@ -10,21 +10,47 @@
       "ko": "김영은",
       "dedupKey": "person|김영은",
       "institutions": [
+        "hongik.ac.kr",
+        "youngeunkim.com",
         "서울시립미술관",
         "국립현대미술관",
         "helenjgallery.com",
         "아트스페이스 풀"
       ],
-      "n": 4,
+      "n": 6,
       "romanizations": [
         "YoungEun Kim",
         "Young Eun Kim"
       ],
       "sources": [
+        "https://www.hongik.ac.kr/kr/newscenter/news.do?articleNo=148760&mode=view",
+        "https://youngeunkim.com/",
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=640675",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202501060001895",
         "https://helenjgallery.com/YoungEun-Kim",
         "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2054"
+      ]
+    },
+    {
+      "ko": "김성희",
+      "dedupKey": "person|김성희",
+      "institutions": [
+        "국립현대미술관",
+        "monthlyart.com",
+        "art.snu.ac.kr",
+        "아트스페이스 풀"
+      ],
+      "n": 4,
+      "romanizations": [
+        "Kim Sunghee",
+        "Kim Sung-hee"
+      ],
+      "sources": [
+        "https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=201311100000379",
+        "https://monthlyart.com/05-article/special-artist-%EA%B9%80%EC%84%B1%ED%9D%AC/",
+        "https://art.snu.ac.kr/en/members/sunghee-kim/",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002540",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2145"
       ]
     },
     {
@@ -47,28 +73,125 @@
         "https://gmoma.ggcf.kr/exhibitions/186",
         "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=420"
       ]
-    },
-    {
-      "ko": "김성희",
-      "dedupKey": "person|김성희",
-      "institutions": [
-        "국립현대미술관",
-        "monthlyart.com",
-        "아트스페이스 풀"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Kim Sunghee",
-        "Kim Sung-hee"
-      ],
-      "sources": [
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002540",
-        "https://monthlyart.com/05-article/special-artist-%EA%B9%80%EC%84%B1%ED%9D%AC/",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2145"
-      ]
     }
   ],
   "needRoman": [
+    {
+      "ko": "양아치",
+      "dedupKey": "person|양아치",
+      "institutions": [
+        "barakatcontemporary.com",
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관",
+        "hakgojae.com",
+        "아트스페이스 풀"
+      ],
+      "n": 6,
+      "romanizations": [
+        "Yangachi"
+      ],
+      "sources": [
+        "https://barakatcontemporary.com/artists/47-yangachi/",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1528398",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201407310000095",
+        "https://gmoma.ggcf.kr/exhibitions/43",
+        "http://www.hakgojae.com/page/2-1-view.php?artist_num=221",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=842"
+      ]
+    },
+    {
+      "ko": "장서영",
+      "dedupKey": "person|장서영",
+      "institutions": [
+        "doosanartcenter.com",
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관",
+        "m.doosanartcenter.com",
+        "아트스페이스 풀"
+      ],
+      "n": 6,
+      "romanizations": [
+        "Seo Young Chang"
+      ],
+      "sources": [
+        "https://www.doosanartcenter.com/ko/exhibit/artist/220",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573317",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201902150001122",
+        "https://gmoma.ggcf.kr/exhibitions/17",
+        "https://m.doosanartcenter.com/ko/exhibit/artist/220",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2079"
+      ]
+    },
+    {
+      "ko": "김희천",
+      "dedupKey": "person|김희천",
+      "institutions": [
+        "doosanartcenter.com",
+        "서울시립미술관",
+        "국립현대미술관",
+        "백남준아트센터",
+        "경기도미술관",
+        "zkm.de"
+      ],
+      "n": 6,
+      "romanizations": [
+        "Heecheon Kim"
+      ],
+      "sources": [
+        "https://www.doosanartcenter.com/ko/exhibit/artist/297",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1202571",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202108020001460",
+        "https://njp.ggcf.kr/exhibitions/34",
+        "https://gmoma.ggcf.kr/exhibitions/11",
+        "https://zkm.de/en/person/kim-heecheon"
+      ]
+    },
+    {
+      "ko": "전명은",
+      "dedupKey": "person|전명은",
+      "institutions": [
+        "geonhi.com",
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관",
+        "아트스페이스 풀"
+      ],
+      "n": 5,
+      "romanizations": [
+        "Chun Eun"
+      ],
+      "sources": [
+        "https://geonhi.com/korean/22821-2/",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1156364",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201710100000626",
+        "https://gmoma.ggcf.kr/exhibitions/27",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2145"
+      ]
+    },
+    {
+      "ko": "차재민",
+      "dedupKey": "person|차재민",
+      "institutions": [
+        "doosanartcenter.com",
+        "서울시립미술관",
+        "국립현대미술관",
+        "kadist.org",
+        "아트스페이스 풀"
+      ],
+      "n": 5,
+      "romanizations": [
+        "Jeamin Cha"
+      ],
+      "sources": [
+        "https://www.doosanartcenter.com/ko/exhibit/artist/217",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1523485",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202108020001460",
+        "https://kadist.org/people/jeamin-cha/",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=842"
+      ]
+    },
     {
       "ko": "박승원",
       "dedupKey": "person|박승원",
@@ -111,72 +234,6 @@
         "https://njp.ggcf.kr/exhibitions/133",
         "https://gmoma.ggcf.kr/exhibitions/124",
         "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=842"
-      ]
-    },
-    {
-      "ko": "장서영",
-      "dedupKey": "person|장서영",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관",
-        "m.doosanartcenter.com",
-        "아트스페이스 풀"
-      ],
-      "n": 5,
-      "romanizations": [
-        "Seo Young Chang"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573317",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201902150001122",
-        "https://gmoma.ggcf.kr/exhibitions/17",
-        "https://m.doosanartcenter.com/ko/exhibit/artist/220",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2079"
-      ]
-    },
-    {
-      "ko": "전명은",
-      "dedupKey": "person|전명은",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관",
-        "geonhi.com",
-        "아트스페이스 풀"
-      ],
-      "n": 5,
-      "romanizations": [
-        "Chun Eun"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1156364",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201710100000626",
-        "https://gmoma.ggcf.kr/exhibitions/27",
-        "https://geonhi.com/korean/22821-2/",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2145"
-      ]
-    },
-    {
-      "ko": "김희천",
-      "dedupKey": "person|김희천",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "백남준아트센터",
-        "경기도미술관",
-        "zkm.de"
-      ],
-      "n": 5,
-      "romanizations": [
-        "Heecheon Kim"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1202571",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202108020001460",
-        "https://njp.ggcf.kr/exhibitions/34",
-        "https://gmoma.ggcf.kr/exhibitions/11",
-        "https://zkm.de/en/person/kim-heecheon"
       ]
     },
     {
@@ -246,25 +303,241 @@
       ]
     },
     {
-      "ko": "양아치",
-      "dedupKey": "person|양아치",
+      "ko": "야나기 무네요시",
+      "dedupKey": "person|야나기무네요시",
+      "institutions": [
+        "wikidata.org",
+        "ko.wikipedia.org",
+        "국립현대미술관",
+        "mingeikan.or.jp"
+      ],
+      "n": 4,
+      "romanizations": [
+        "Yanagi Muneyoshi"
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q113467607",
+        "https://ko.wikipedia.org/wiki/%EC%95%BC%EB%82%98%EA%B8%B0_%EB%AC%B4%EB%84%A4%EC%9A%94%EC%8B%9C",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201304030002908",
+        "https://mingeikan.or.jp/about/soetsu/?lang=ja"
+      ]
+    },
+    {
+      "ko": "W.E.B. 두보이스",
+      "dedupKey": "person|W.E.B.두보이스",
+      "institutions": [
+        "library.umass.edu",
+        "duboisnhs.org",
+        "ko.wikipedia.org",
+        "cooperhewitt.org"
+      ],
+      "n": 4,
+      "romanizations": [
+        "W.E.B. Du Bois"
+      ],
+      "sources": [
+        "https://www.library.umass.edu/about-w-e-b-du-bois/",
+        "https://www.duboisnhs.org/about/",
+        "https://ko.wikipedia.org/wiki/W._E._B._%EB%93%80%EB%B3%B4%EC%9D%B4%EC%8A%A4",
+        "https://www.cooperhewitt.org/exhibition/deconstructing-power-w-e-b-du-bois-at-the-1900-worlds-fair/"
+      ]
+    },
+    {
+      "ko": "김원",
+      "dedupKey": "person|김원",
+      "institutions": [
+        "ko.wikipedia.org",
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관"
+      ],
+      "n": 4,
+      "romanizations": [
+        "Kim Won"
+      ],
+      "sources": [
+        "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%9B%90_(1912%EB%85%84)",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=235",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558",
+        "https://gmoma.ggcf.kr/exhibitions/115"
+      ]
+    },
+    {
+      "ko": "아니쉬 카푸어",
+      "dedupKey": "person|아니쉬카푸어",
+      "institutions": [
+        "anishkapoor.com",
+        "lissongallery.com",
+        "서울시립미술관",
+        "ko.wikipedia.org"
+      ],
+      "n": 4,
+      "romanizations": [
+        "Anish Kapoor"
+      ],
+      "sources": [
+        "http://www.anishkapoor.com",
+        "https://www.lissongallery.com/artists/anish-kapoor",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=665629",
+        "https://ko.wikipedia.org/wiki/%EC%95%A0%EB%8B%88%EC%8B%9C_%EC%BB%A4%ED%91%B8%EC%96%B4"
+      ]
+    },
+    {
+      "ko": "류경채",
+      "dedupKey": "person|류경채",
       "institutions": [
         "서울시립미술관",
         "국립현대미술관",
         "경기도미술관",
-        "hakgojae.com",
-        "아트스페이스 풀"
+        "naa.go.kr"
       ],
-      "n": 5,
+      "n": 4,
       "romanizations": [
-        "Yangachi"
+        "Ryu Kyung-Chai"
       ],
       "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1528398",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201407310000095",
-        "https://gmoma.ggcf.kr/exhibitions/43",
-        "http://www.hakgojae.com/page/2-1-view.php?artist_num=221",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=842"
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=243",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201507200000285",
+        "https://gmoma.ggcf.kr/exhibitions/115",
+        "http://www.naa.go.kr/site/main/naa/member/view?memId=392"
+      ]
+    },
+    {
+      "ko": "장종완",
+      "dedupKey": "person|장종완",
+      "institutions": [
+        "arariogallery.com",
+        "서울시립미술관",
+        "국립현대미술관",
+        "acc-exhibition.com"
+      ],
+      "n": 4,
+      "romanizations": [
+        "Jongwan Jang"
+      ],
+      "sources": [
+        "https://www.arariogallery.com/artists/120-jang-jongwan/",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308758",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201908300001175",
+        "https://acc-exhibition.com/collection/%EC%9E%A5%EC%A2%85%EC%99%84/"
+      ]
+    },
+    {
+      "ko": "정창섭",
+      "dedupKey": "person|정창섭",
+      "institutions": [
+        "en.wikipedia.org",
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관"
+      ],
+      "n": 4,
+      "romanizations": [
+        "Chung Chang-sup"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chung_Chang-sup",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=243",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201007200002824",
+        "https://gmoma.ggcf.kr/exhibitions/62"
+      ]
+    },
+    {
+      "ko": "서현석",
+      "dedupKey": "person|서현석",
+      "institutions": [
+        "monthlyart.com",
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관"
+      ],
+      "n": 4,
+      "romanizations": [
+        "SEO Hyun-Suk"
+      ],
+      "sources": [
+        "https://monthlyart.com/portfolio-item/%EC%84%9C%ED%98%84%EC%84%9D/",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1450003",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201505260000269",
+        "https://gmoma.ggcf.kr/exhibitions/24"
+      ]
+    },
+    {
+      "ko": "최욱경",
+      "dedupKey": "person|최욱경",
+      "institutions": [
+        "ko.wikipedia.org",
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관"
+      ],
+      "n": 4,
+      "romanizations": [
+        "Choi Wook-kyung"
+      ],
+      "sources": [
+        "https://ko.wikipedia.org/wiki/%EC%B5%9C%EC%9A%B1%EA%B2%BD",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=216712",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201403070000063",
+        "https://gmoma.ggcf.kr/exhibitions/115"
+      ]
+    },
+    {
+      "ko": "구본창",
+      "dedupKey": "person|구본창",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관",
+        "ko.wikipedia.org"
+      ],
+      "n": 4,
+      "romanizations": [
+        "Koo Bon Chang"
+      ],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201604180000429",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1244356",
+        "https://gmoma.ggcf.kr/exhibitions/80",
+        "https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%B3%B8%EC%B0%BD"
+      ]
+    },
+    {
+      "ko": "이상현",
+      "dedupKey": "person|이상현",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관",
+        "아트스페이스 풀"
+      ],
+      "n": 4,
+      "romanizations": [
+        "Lee Sanghyun"
+      ],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000416",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=333",
+        "https://gmoma.ggcf.kr/exhibitions/8",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=1086"
+      ]
+    },
+    {
+      "ko": "노순택",
+      "dedupKey": "person|노순택",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관",
+        "아트스페이스 풀"
+      ],
+      "n": 4,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1372958",
+        "https://gmoma.ggcf.kr/exhibitions/71",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2145"
       ]
     },
     {
@@ -288,26 +561,6 @@
       ]
     },
     {
-      "ko": "김원",
-      "dedupKey": "person|김원",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관",
-        "ko.wikipedia.org"
-      ],
-      "n": 4,
-      "romanizations": [
-        "Kim Won"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=235",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558",
-        "https://gmoma.ggcf.kr/exhibitions/115",
-        "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%9B%90_(1912%EB%85%84)"
-      ]
-    },
-    {
       "ko": "공성훈",
       "dedupKey": "person|공성훈",
       "institutions": [
@@ -325,46 +578,6 @@
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201303140002902",
         "https://gmoma.ggcf.kr/exhibitions/30",
         "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=420"
-      ]
-    },
-    {
-      "ko": "정창섭",
-      "dedupKey": "person|정창섭",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관",
-        "en.wikipedia.org"
-      ],
-      "n": 4,
-      "romanizations": [
-        "Chung Chang-sup"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=243",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201007200002824",
-        "https://gmoma.ggcf.kr/exhibitions/62",
-        "https://en.wikipedia.org/wiki/Chung_Chang-sup"
-      ]
-    },
-    {
-      "ko": "류경채",
-      "dedupKey": "person|류경채",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관",
-        "naa.go.kr"
-      ],
-      "n": 4,
-      "romanizations": [
-        "Ryu Kyung-Chai"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=243",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201507200000285",
-        "https://gmoma.ggcf.kr/exhibitions/115",
-        "http://www.naa.go.kr/site/main/naa/member/view?memId=392"
       ]
     },
     {
@@ -408,26 +621,6 @@
       ]
     },
     {
-      "ko": "이상현",
-      "dedupKey": "person|이상현",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관",
-        "아트스페이스 풀"
-      ],
-      "n": 4,
-      "romanizations": [
-        "Lee Sanghyun"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=333",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000416",
-        "https://gmoma.ggcf.kr/exhibitions/8",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=1086"
-      ]
-    },
-    {
       "ko": "언메이크랩",
       "dedupKey": "person|언메이크랩",
       "institutions": [
@@ -463,26 +656,6 @@
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202001090001222",
         "https://njp.ggcf.kr/exhibitions/185",
         "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=668"
-      ]
-    },
-    {
-      "ko": "최욱경",
-      "dedupKey": "person|최욱경",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관",
-        "ko.wikipedia.org"
-      ],
-      "n": 4,
-      "romanizations": [
-        "Choi Wook-kyung"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=216712",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201403070000063",
-        "https://gmoma.ggcf.kr/exhibitions/115",
-        "https://ko.wikipedia.org/wiki/%EC%B5%9C%EC%9A%B1%EA%B2%BD"
       ]
     },
     {
@@ -938,26 +1111,6 @@
       ]
     },
     {
-      "ko": "구본창",
-      "dedupKey": "person|구본창",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관",
-        "ko.wikipedia.org"
-      ],
-      "n": 4,
-      "romanizations": [
-        "Koo Bon Chang"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1244356",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201604180000429",
-        "https://gmoma.ggcf.kr/exhibitions/80",
-        "https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%B3%B8%EC%B0%BD"
-      ]
-    },
-    {
       "ko": "홍명섭",
       "dedupKey": "person|홍명섭",
       "institutions": [
@@ -1189,24 +1342,6 @@
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201504230000245",
         "https://gmoma.ggcf.kr/exhibitions/43",
         "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=668"
-      ]
-    },
-    {
-      "ko": "노순택",
-      "dedupKey": "person|노순택",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관",
-        "아트스페이스 풀"
-      ],
-      "n": 4,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1372958",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994",
-        "https://gmoma.ggcf.kr/exhibitions/71",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2145"
       ]
     },
     {
@@ -1702,26 +1837,6 @@
       ]
     },
     {
-      "ko": "차재민",
-      "dedupKey": "person|차재민",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "kadist.org",
-        "아트스페이스 풀"
-      ],
-      "n": 4,
-      "romanizations": [
-        "Jeamin Cha"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1523485",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202108020001460",
-        "https://kadist.org/people/jeamin-cha/",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=842"
-      ]
-    },
-    {
       "ko": "최원준",
       "dedupKey": "person|최원준",
       "institutions": [
@@ -1838,19 +1953,709 @@
       ]
     },
     {
-      "ko": "배병우",
-      "dedupKey": "person|배병우",
+      "ko": "문경원·전준호",
+      "dedupKey": "person|문경원·전준호",
+      "institutions": [
+        "국립현대미술관",
+        "ocula.com",
+        "갤러리현대"
+      ],
+      "n": 3,
+      "romanizations": [
+        "MOON Kyungwon & JEON Joonho"
+      ],
+      "sources": [
+        "https://www.mmca.go.kr/pr/employmentDetail.do?bdCId=202103100007562&menuId=&searchBmCid=200903020000015",
+        "https://ocula.com/magazine/conversations/moon-kyungwon-and-jeon-joonho/",
+        "https://www.galleryhyundai.com/artist/view/20000000092"
+      ]
+    },
+    {
+      "ko": "안나 비트",
+      "dedupKey": "person|안나비트",
+      "institutions": [
+        "wikidata.org",
+        "tanjawagner.com",
+        "서울시립미술관"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Anna Witt"
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q103825857",
+        "https://tanjawagner.com/artists/anna-witt/",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316642"
+      ]
+    },
+    {
+      "ko": "리투 사린",
+      "dedupKey": "person|리투사린",
+      "institutions": [
+        "en.wikipedia.org",
+        "whitecranefilms.com",
+        "13thgwangjubiennale.org"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Ritu Sarin"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ritu_Sarin",
+        "https://whitecranefilms.com/about/",
+        "https://13thgwangjubiennale.org/live-organ/pratiwi-sarin-sonam-lim/"
+      ]
+    },
+    {
+      "ko": "루하 벤자민",
+      "dedupKey": "person|루하벤자민",
+      "institutions": [
+        "citp.princeton.edu",
+        "aas.princeton.edu",
+        "13thgwangjubiennale.org"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Ruha Benjamin"
+      ],
+      "sources": [
+        "https://citp.princeton.edu/people/ruha-benjamin",
+        "https://aas.princeton.edu/people/ruha-benjamin",
+        "https://13thgwangjubiennale.org/live-organ/benjamin/"
+      ]
+    },
+    {
+      "ko": "퓌순 에즈자즈바쉬",
+      "dedupKey": "person|퓌순에즈자즈바쉬",
+      "institutions": [
+        "fundacioncallia.org",
+        "mimarizm.com",
+        "en.wikipedia.org"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Füsun Eczacıbaşı"
+      ],
+      "sources": [
+        "https://www.fundacioncallia.org/en/international-patronage-awards/fusun-eczacibasi/",
+        "https://www.mimarizm.com/hobi/fusun-eczacibasi-ile-sanat-uzerine_133561",
+        "https://en.wikipedia.org/wiki/F%C3%BCsun_Eczac%C4%B1ba%C5%9F%C4%B1"
+      ]
+    },
+    {
+      "ko": "나타샤 진발라",
+      "dedupKey": "person|나타샤진발라",
+      "institutions": [
+        "gwangjubiennale.org",
+        "wikidata.org",
+        "13thgwangjubiennale.org"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Natasha Ginwala"
+      ],
+      "sources": [
+        "https://www.gwangjubiennale.org/en/Board/10385/detailView.do",
+        "https://www.wikidata.org/wiki/Q131399025",
+        "https://13thgwangjubiennale.org/introduction/"
+      ]
+    },
+    {
+      "ko": "커먼 어카운츠",
+      "dedupKey": "person|커먼어카운츠",
+      "institutions": [
+        "corkingallery.com",
+        "서울시립미술관",
+        "commonaccounts.online"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Common Accounts"
+      ],
+      "sources": [
+        "https://www.corkingallery.com/artists/68-common-accounts/",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316642",
+        "https://www.commonaccounts.online/"
+      ]
+    },
+    {
+      "ko": "니콜라이 표도로프",
+      "dedupKey": "person|니콜라이표도로프",
+      "institutions": [
+        "kci.go.kr",
+        "iep.utm.edu",
+        "en.wikipedia.org"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Nikolai Fyodorov"
+      ],
+      "sources": [
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002687573",
+        "https://iep.utm.edu/fedorov/",
+        "https://en.wikipedia.org/wiki/Nikolai_Fyodorov_%28philosopher%29"
+      ]
+    },
+    {
+      "ko": "김홍도",
+      "dedupKey": "person|김홍도",
+      "institutions": [
+        "ko.wikipedia.org",
+        "encykorea.aks.ac.kr",
+        "국립현대미술관"
+      ],
+      "n": 3,
+      "romanizations": [
+        "KIM Hong-do"
+      ],
+      "sources": [
+        "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%8D%EB%8F%84",
+        "https://encykorea.aks.ac.kr/Article/E0011079",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202101190001358"
+      ]
+    },
+    {
+      "ko": "강수미",
+      "dedupKey": "person|강수미",
+      "institutions": [
+        "www4530.dongduk.ac.kr",
+        "dbpia.co.kr",
+        "dongduk.academia.edu"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Sumi Kang"
+      ],
+      "sources": [
+        "https://www4530.dongduk.ac.kr/shop_contents/myboard_list.htm?me_popup=1&myboard_code=myboard2",
+        "https://www.dbpia.co.kr/author/authorDetail?ancId=1114496",
+        "https://dongduk.academia.edu/SumiKang"
+      ]
+    },
+    {
+      "ko": "윤세영",
+      "dedupKey": "person|윤세영",
+      "institutions": [
+        "namdonews.com",
+        "monthlyart.com",
+        "gwangjuart.com"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Yoon/Youn Se-young (불일치)"
+      ],
+      "sources": [
+        "https://www.namdonews.com/news/articleView.html?idxno=749139",
+        "https://monthlyart.com/portfolio-item/%EC%9C%A4%EC%84%B8%EC%98%81-%EB%82%AF%EC%84%A4%EA%B3%A0-%ED%91%B8%EB%A5%B8-%EC%83%9D%EC%84%B1%EC%A7%80%EC%A0%90/",
+        "http://www.gwangjuart.com/bbs/board.php?bo_table=artist01&wr_id=94"
+      ]
+    },
+    {
+      "ko": "최은주",
+      "dedupKey": "person|최은주",
+      "institutions": [
+        "eunjoochoi.artspoon.io",
+        "서울시립미술관",
+        "서울미디어시티비엔날레"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Eunjoo Choi"
+      ],
+      "sources": [
+        "https://eunjoochoi.artspoon.io/about",
+        "https://sema.seoul.go.kr/kr/sema/landing",
+        "https://www.mediacityseoul.kr/ko/yesterday/participants/eunju-choi"
+      ]
+    },
+    {
+      "ko": "김종성",
+      "dedupKey": "person|김종성",
+      "institutions": [
+        "국립현대미술관",
+        "ko.wikipedia.org",
+        "서울시립미술관"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Jong Soung Kimm"
+      ],
+      "sources": [
+        "https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201409240000151&menuId=1010000000",
+        "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%A2%85%EC%84%B1_%28%EA%B1%B4%EC%B6%95%EA%B0%80%29",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=564",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201409240000150",
+        "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%A2%85%EC%84%B1_(%EA%B1%B4%EC%B6%95%EA%B0%80"
+      ]
+    },
+    {
+      "ko": "송성진",
+      "dedupKey": "person|송성진",
+      "institutions": [
+        "songsungjin.com",
+        "국립현대미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Song Sungjin"
+      ],
+      "sources": [
+        "https://www.songsungjin.com/",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202102010001377",
+        "https://gmoma.ggcf.kr/exhibitions/17"
+      ]
+    },
+    {
+      "ko": "강신대",
+      "dedupKey": "person|강신대",
+      "institutions": [
+        "백남준아트센터",
+        "서울시립미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Sindae Kang"
+      ],
+      "sources": [
+        "https://njp.ggcf.kr/boards/artists2/articles/18",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=687519",
+        "https://njp.ggcf.kr/exhibitions/64",
+        "https://gmoma.ggcf.kr/exhibitions/134",
+        "https://njp.ggcf.kr/강신대/"
+      ]
+    },
+    {
+      "ko": "김종원",
+      "dedupKey": "person|김종원",
+      "institutions": [
+        "dusongallery.com",
+        "국립현대미술관",
+        "kimjongwon.com"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Kim Jong-won"
+      ],
+      "sources": [
+        "https://dusongallery.com/artist4.html",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202403070001756",
+        "http://www.kimjongwon.com/profile.php"
+      ]
+    },
+    {
+      "ko": "박진우",
+      "dedupKey": "person|박진우",
+      "institutions": [
+        "museum1.co.kr",
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Zinoo Park"
+      ],
+      "sources": [
+        "https://museum1.co.kr/153",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=207538",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201406020000084"
+      ]
+    },
+    {
+      "ko": "이택광",
+      "dedupKey": "person|이택광",
+      "institutions": [
+        "com.khu.ac.kr",
+        "ko.wikipedia.org",
+        "khu.elsevierpure.com"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Alex Taek-Gwang LEE"
+      ],
+      "sources": [
+        "https://com.khu.ac.kr/gskh_eng/user/contents/view.do?menuNo=13200266",
+        "https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%83%9D%EA%B4%91",
+        "https://khu.elsevierpure.com/en/persons/taek-gwang-lee/"
+      ]
+    },
+    {
+      "ko": "오영재",
+      "dedupKey": "person|오영재",
+      "institutions": [
+        "helioart.org",
+        "busan.grandculture.net",
+        "jungle.co.kr"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Oh Youngjae"
+      ],
+      "sources": [
+        "https://www.helioart.org/artists-3/youngjae-oh?lang=ko",
+        "https://busan.grandculture.net/Contents?local=busan&dataType=01&contents_id=GC04212938",
+        "https://www.jungle.co.kr/magazine/205454"
+      ]
+    },
+    {
+      "ko": "기혜경",
+      "dedupKey": "person|기혜경",
+      "institutions": [
+        "arthistory.hongik.ac.kr",
+        "daljin.com",
+        "art.hongik.ac.kr"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Ki Hyekyung"
+      ],
+      "sources": [
+        "https://arthistory.hongik.ac.kr/arthistory/sub/prof_detail.do?article.offset=0&articleLimit=10&articleNo=135829&mode=view",
+        "http://www.daljin.com/column/18434",
+        "https://art.hongik.ac.kr/dept/prof_detail.html?campusGubun=1&S1=2016&S2=58420&dept_code=AAB120&depth=2"
+      ]
+    },
+    {
+      "ko": "김성수",
+      "dedupKey": "person|김성수",
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관",
+        "palbokart.kr"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Kim Sung-soo"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=580",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558",
+        "https://palbokart.kr/main/inner.php?sMenu=D2300&mode=view&no=1"
+      ]
+    },
+    {
+      "ko": "박상숙",
+      "dedupKey": "person|박상숙",
       "institutions": [
         "서울시립미술관",
         "국립현대미술관",
         "경기도미술관"
       ],
       "n": 3,
+      "romanizations": [
+        "박상숙"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=811411",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002573",
+        "https://gmoma.ggcf.kr/exhibitions/49"
+      ]
+    },
+    {
+      "ko": "정지현",
+      "dedupKey": "person|정지현",
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관",
+        "m.doosanartcenter.com"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Jihyun Jung"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1453002",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511090000353",
+        "https://m.doosanartcenter.com/ko/exhibit/artist/197"
+      ]
+    },
+    {
+      "ko": "이은희",
+      "dedupKey": "person|이은희",
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관",
+        "아트스페이스 풀"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Eunhee Lee"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1523485",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202505280001951",
+        "https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202202160000353",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2111"
+      ]
+    },
+    {
+      "ko": "서동진",
+      "dedupKey": "person|서동진",
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관",
+        "ko.wikipedia.org"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Seo Dongjin"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=460189",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202501060001892",
+        "https://ko.wikipedia.org/wiki/%EC%84%9C%EB%8F%99%EC%A7%84_%28%EC%82%AC%ED%9A%8C%ED%95%99%EC%9E%90%29"
+      ]
+    },
+    {
+      "ko": "천경우",
+      "dedupKey": "person|천경우",
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관",
+        "wikidata.org"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Kyungwoo Chun"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308679",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201309110002922",
+        "https://www.wikidata.org/wiki/Q72223802"
+      ]
+    },
+    {
+      "ko": "조양규",
+      "dedupKey": "person|조양규",
+      "institutions": [
+        "momat.go.jp",
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Cho Yang-gyu"
+      ],
+      "sources": [
+        "https://www.momat.go.jp/en/artists/bch003",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=289",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202408210001821"
+      ]
+    },
+    {
+      "ko": "김가람",
+      "dedupKey": "person|김가람",
+      "institutions": [
+        "백남준아트센터",
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Garam Kim"
+      ],
+      "sources": [
+        "https://njp.ggcf.kr/boards/artists2/articles/13",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=463128",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511090000353",
+        "https://njp.ggcf.kr/exhibitions/35"
+      ]
+    },
+    {
+      "ko": "윤향로",
+      "dedupKey": "person|윤향로",
+      "institutions": [
+        "doosanartcenter.com",
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Hyangro Yoon"
+      ],
+      "sources": [
+        "https://www.doosanartcenter.com/ko/exhibit/artist/97",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833736",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511090000353"
+      ]
+    },
+    {
+      "ko": "정소연",
+      "dedupKey": "person|정소연",
+      "institutions": [
+        "ko.wikipedia.org",
+        "서울시립미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
+      "romanizations": [
+        "Soyeon Jeong"
+      ],
+      "sources": [
+        "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%86%8C%EC%97%B0",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573317",
+        "https://gmoma.ggcf.kr/exhibitions/64"
+      ]
+    },
+    {
+      "ko": "박현기",
+      "dedupKey": "person|박현기",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
       "romanizations": [],
       "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=115",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201604180000429",
-        "https://gmoma.ggcf.kr/exhibitions/83"
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202507100001975",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699",
+        "https://gmoma.ggcf.kr/exhibitions/79"
+      ]
+    },
+    {
+      "ko": "권진규",
+      "dedupKey": "person|권진규",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202507100001975",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308679",
+        "https://gmoma.ggcf.kr/exhibitions/45"
+      ]
+    },
+    {
+      "ko": "곽덕준",
+      "dedupKey": "person|곽덕준",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202507100001975",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699",
+        "https://gmoma.ggcf.kr/exhibitions/79"
+      ]
+    },
+    {
+      "ko": "함경아",
+      "dedupKey": "person|함경아",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000418",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1372958",
+        "https://gmoma.ggcf.kr/exhibitions/36"
+      ]
+    },
+    {
+      "ko": "백승우",
+      "dedupKey": "person|백승우",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000418",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=424851",
+        "https://gmoma.ggcf.kr/exhibitions/71"
+      ]
+    },
+    {
+      "ko": "김을",
+      "dedupKey": "person|김을",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000418",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308679",
+        "https://gmoma.ggcf.kr/exhibitions/88"
+      ]
+    },
+    {
+      "ko": "이소요",
+      "dedupKey": "person|이소요",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000416",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1460122",
+        "https://gmoma.ggcf.kr/exhibitions/18"
+      ]
+    },
+    {
+      "ko": "이기봉",
+      "dedupKey": "person|이기봉",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000416",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=256",
+        "https://gmoma.ggcf.kr/exhibitions/68"
+      ]
+    },
+    {
+      "ko": "강애란",
+      "dedupKey": "person|강애란",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000416",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=424",
+        "https://gmoma.ggcf.kr/exhibitions/42"
+      ]
+    },
+    {
+      "ko": "구민자",
+      "dedupKey": "person|구민자",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관",
+        "경기도미술관"
+      ],
+      "n": 3,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=461365",
+        "https://gmoma.ggcf.kr/exhibitions/119"
       ]
     },
     {
@@ -2250,22 +3055,6 @@
       ]
     },
     {
-      "ko": "이기봉",
-      "dedupKey": "person|이기봉",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=256",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000416",
-        "https://gmoma.ggcf.kr/exhibitions/68"
-      ]
-    },
-    {
       "ko": "윤영석",
       "dedupKey": "person|윤영석",
       "institutions": [
@@ -2331,24 +3120,6 @@
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=284",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201411040000176",
         "https://gmoma.ggcf.kr/exhibitions/56"
-      ]
-    },
-    {
-      "ko": "조양규",
-      "dedupKey": "person|조양규",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "momat.go.jp"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Cho Yang-gyu"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=289",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202408210001821",
-        "https://www.momat.go.jp/en/artists/bch003"
       ]
     },
     {
@@ -2571,22 +3342,6 @@
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=424",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202101290001373",
         "https://gmoma.ggcf.kr/exhibitions/178"
-      ]
-    },
-    {
-      "ko": "강애란",
-      "dedupKey": "person|강애란",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=424",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000416",
-        "https://gmoma.ggcf.kr/exhibitions/42"
       ]
     },
     {
@@ -2944,24 +3699,6 @@
       ]
     },
     {
-      "ko": "김종성",
-      "dedupKey": "person|김종성",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "ko.wikipedia.org"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Jong Soung Kimm"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=564",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201409240000150",
-        "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%A2%85%EC%84%B1_(%EA%B1%B4%EC%B6%95%EA%B0%80"
-      ]
-    },
-    {
       "ko": "김혜련",
       "dedupKey": "person|김혜련",
       "institutions": [
@@ -3077,24 +3814,6 @@
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=580",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201902120001116",
         "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=1799"
-      ]
-    },
-    {
-      "ko": "김성수",
-      "dedupKey": "person|김성수",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "palbokart.kr"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Kim Sung-soo"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=580",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558",
-        "https://palbokart.kr/main/inner.php?sMenu=D2300&mode=view&no=1"
       ]
     },
     {
@@ -3424,22 +4143,6 @@
       ]
     },
     {
-      "ko": "백승우",
-      "dedupKey": "person|백승우",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=424851",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000418",
-        "https://gmoma.ggcf.kr/exhibitions/71"
-      ]
-    },
-    {
       "ko": "이병찬",
       "dedupKey": "person|이병찬",
       "institutions": [
@@ -3519,25 +4222,6 @@
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=691483",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201410270000168",
         "https://gmoma.ggcf.kr/exhibitions/83"
-      ]
-    },
-    {
-      "ko": "강신대",
-      "dedupKey": "person|강신대",
-      "institutions": [
-        "서울시립미술관",
-        "백남준아트센터",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Sindae Kang"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=687519",
-        "https://njp.ggcf.kr/exhibitions/64",
-        "https://gmoma.ggcf.kr/exhibitions/134",
-        "https://njp.ggcf.kr/강신대/"
       ]
     },
     {
@@ -3659,22 +4343,6 @@
       ]
     },
     {
-      "ko": "구민자",
-      "dedupKey": "person|구민자",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=461365",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994",
-        "https://gmoma.ggcf.kr/exhibitions/119"
-      ]
-    },
-    {
       "ko": "임영균",
       "dedupKey": "person|임영균",
       "institutions": [
@@ -3688,25 +4356,6 @@
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=463128",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201712180000937",
         "https://njp.ggcf.kr/exhibitions/185"
-      ]
-    },
-    {
-      "ko": "김가람",
-      "dedupKey": "person|김가람",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "백남준아트센터"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Garam Kim"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=463128",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511090000353",
-        "https://njp.ggcf.kr/exhibitions/35",
-        "https://njp.ggcf.kr/boards/artists2/articles/13"
       ]
     },
     {
@@ -3742,24 +4391,6 @@
       ]
     },
     {
-      "ko": "서동진",
-      "dedupKey": "person|서동진",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "ko.wikipedia.org"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Seo Dongjin"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=460189",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202501060001892",
-        "https://ko.wikipedia.org/wiki/%EC%84%9C%EB%8F%99%EC%A7%84_%28%EC%82%AC%ED%9A%8C%ED%95%99%EC%9E%90%29"
-      ]
-    },
-    {
       "ko": "김이박",
       "dedupKey": "person|김이박",
       "institutions": [
@@ -3776,24 +4407,6 @@
       ]
     },
     {
-      "ko": "윤향로",
-      "dedupKey": "person|윤향로",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "doosanartcenter.com"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Hyangro Yoon"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=833736",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511090000353",
-        "https://www.doosanartcenter.com/ko/exhibit/artist/97"
-      ]
-    },
-    {
       "ko": "오재우",
       "dedupKey": "person|오재우",
       "institutions": [
@@ -3807,24 +4420,6 @@
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=575223",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201410270000168",
         "https://gmoma.ggcf.kr/exhibitions/159"
-      ]
-    },
-    {
-      "ko": "정소연",
-      "dedupKey": "person|정소연",
-      "institutions": [
-        "서울시립미술관",
-        "경기도미술관",
-        "ko.wikipedia.org"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Soyeon Jeong"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573317",
-        "https://gmoma.ggcf.kr/exhibitions/64",
-        "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%86%8C%EC%97%B0"
       ]
     },
     {
@@ -3923,24 +4518,6 @@
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=647531",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201505080000251",
         "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=1454"
-      ]
-    },
-    {
-      "ko": "박상숙",
-      "dedupKey": "person|박상숙",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [
-        "박상숙"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=811411",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002573",
-        "https://gmoma.ggcf.kr/exhibitions/49"
       ]
     },
     {
@@ -4600,24 +5177,6 @@
       ]
     },
     {
-      "ko": "천경우",
-      "dedupKey": "person|천경우",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "wikidata.org"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Kyungwoo Chun"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308679",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201309110002922",
-        "https://www.wikidata.org/wiki/Q72223802"
-      ]
-    },
-    {
       "ko": "이슬기",
       "dedupKey": "person|이슬기",
       "institutions": [
@@ -4722,22 +5281,6 @@
       ]
     },
     {
-      "ko": "김을",
-      "dedupKey": "person|김을",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308679",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000418",
-        "https://gmoma.ggcf.kr/exhibitions/88"
-      ]
-    },
-    {
       "ko": "김실비",
       "dedupKey": "person|김실비",
       "institutions": [
@@ -4751,40 +5294,6 @@
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308679",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201408060000100",
         "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=842"
-      ]
-    },
-    {
-      "ko": "권진규",
-      "dedupKey": "person|권진규",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308679",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202507100001975",
-        "https://gmoma.ggcf.kr/exhibitions/45"
-      ]
-    },
-    {
-      "ko": "장종완",
-      "dedupKey": "person|장종완",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "acc-exhibition.com"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Jongwan Jang"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1308758",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201908300001175",
-        "https://acc-exhibition.com/collection/%EC%9E%A5%EC%A2%85%EC%99%84/"
       ]
     },
     {
@@ -4917,22 +5426,6 @@
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1298509",
         "https://gmoma.ggcf.kr/exhibitions/9",
         "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2139"
-      ]
-    },
-    {
-      "ko": "함경아",
-      "dedupKey": "person|함경아",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1372958",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000418",
-        "https://gmoma.ggcf.kr/exhibitions/36"
       ]
     },
     {
@@ -5310,24 +5803,6 @@
       ]
     },
     {
-      "ko": "서현석",
-      "dedupKey": "person|서현석",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [
-        "SEO Hyun-Suk"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1450003",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201505260000269",
-        "https://gmoma.ggcf.kr/exhibitions/24"
-      ]
-    },
-    {
       "ko": "하동철",
       "dedupKey": "person|하동철",
       "institutions": [
@@ -5394,24 +5869,6 @@
       ]
     },
     {
-      "ko": "정지현",
-      "dedupKey": "person|정지현",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "m.doosanartcenter.com"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Jihyun Jung"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1453002",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511090000353",
-        "https://m.doosanartcenter.com/ko/exhibit/artist/197"
-      ]
-    },
-    {
       "ko": "정동석",
       "dedupKey": "person|정동석",
       "institutions": [
@@ -5464,22 +5921,6 @@
       ]
     },
     {
-      "ko": "박현기",
-      "dedupKey": "person|박현기",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202507100001975",
-        "https://gmoma.ggcf.kr/exhibitions/79"
-      ]
-    },
-    {
       "ko": "문범",
       "dedupKey": "person|문범",
       "institutions": [
@@ -5511,38 +5952,6 @@
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593",
         "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=1454"
-      ]
-    },
-    {
-      "ko": "곽덕준",
-      "dedupKey": "person|곽덕준",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1470699",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202507100001975",
-        "https://gmoma.ggcf.kr/exhibitions/79"
-      ]
-    },
-    {
-      "ko": "이소요",
-      "dedupKey": "person|이소요",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관"
-      ],
-      "n": 3,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1460122",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201603170000416",
-        "https://gmoma.ggcf.kr/exhibitions/18"
       ]
     },
     {
@@ -5773,25 +6182,6 @@
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1523485",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201902150001122",
         "https://gmoma.ggcf.kr/exhibitions/30"
-      ]
-    },
-    {
-      "ko": "이은희",
-      "dedupKey": "person|이은희",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관",
-        "아트스페이스 풀"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Eunhee Lee"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1523485",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202505280001951",
-        "https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202202160000353",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2111"
       ]
     },
     {
@@ -6119,6 +6509,110 @@
       ]
     },
     {
+      "ko": "김태수",
+      "dedupKey": "person|김태수",
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "n": 2,
+      "romanizations": [
+        "Tai Soo Kim"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1531127",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201601280000387"
+      ]
+    },
+    {
+      "ko": "박민하",
+      "dedupKey": "person|박민하",
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "n": 2,
+      "romanizations": [
+        "Minha Park"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1523485",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202505280001951"
+      ]
+    },
+    {
+      "ko": "김동수",
+      "dedupKey": "person|김동수",
+      "institutions": [
+        "서울시립미술관",
+        "국립현대미술관"
+      ],
+      "n": 2,
+      "romanizations": [
+        "KIM Dong-soo"
+      ],
+      "sources": [
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=177",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558"
+      ]
+    },
+    {
+      "ko": "민병헌",
+      "dedupKey": "person|민병헌",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관"
+      ],
+      "n": 2,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201604180000429",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=115"
+      ]
+    },
+    {
+      "ko": "주명덕",
+      "dedupKey": "person|주명덕",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관"
+      ],
+      "n": 2,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201604180000429",
+        "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=1062993"
+      ]
+    },
+    {
+      "ko": "오지호",
+      "dedupKey": "person|오지호",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관"
+      ],
+      "n": 2,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316524"
+      ]
+    },
+    {
+      "ko": "오인환",
+      "dedupKey": "person|오인환",
+      "institutions": [
+        "국립현대미술관",
+        "서울시립미술관"
+      ],
+      "n": 2,
+      "romanizations": [],
+      "sources": [
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1312939"
+      ]
+    },
+    {
       "ko": "강태성",
       "dedupKey": "person|강태성",
       "institutions": [
@@ -6146,20 +6640,6 @@
       "sources": [
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=115",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200903200000179"
-      ]
-    },
-    {
-      "ko": "민병헌",
-      "dedupKey": "person|민병헌",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관"
-      ],
-      "n": 2,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=115",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201604180000429"
       ]
     },
     {
@@ -6540,22 +7020,6 @@
       "sources": [
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=177",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201410200000166"
-      ]
-    },
-    {
-      "ko": "김동수",
-      "dedupKey": "person|김동수",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관"
-      ],
-      "n": 2,
-      "romanizations": [
-        "KIM Dong-soo"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=177",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002558"
       ]
     },
     {
@@ -8493,22 +8957,6 @@
       ]
     },
     {
-      "ko": "박진우",
-      "dedupKey": "person|박진우",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관"
-      ],
-      "n": 2,
-      "romanizations": [
-        "Zinoo Park"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=207538",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201406020000084"
-      ]
-    },
-    {
       "ko": "바이런 킴",
       "dedupKey": "person|바이런킴",
       "institutions": [
@@ -8856,20 +9304,6 @@
       "sources": [
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316524",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002582"
-      ]
-    },
-    {
-      "ko": "오지호",
-      "dedupKey": "person|오지호",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관"
-      ],
-      "n": 2,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=316524",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801180000999"
       ]
     },
     {
@@ -10189,20 +10623,6 @@
       ]
     },
     {
-      "ko": "주명덕",
-      "dedupKey": "person|주명덕",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관"
-      ],
-      "n": 2,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=1062993",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201604180000429"
-      ]
-    },
-    {
       "ko": "황규태",
       "dedupKey": "person|황규태",
       "institutions": [
@@ -11393,20 +11813,6 @@
       ]
     },
     {
-      "ko": "오인환",
-      "dedupKey": "person|오인환",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관"
-      ],
-      "n": 2,
-      "romanizations": [],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1312939",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201801150000994"
-      ]
-    },
-    {
       "ko": "구나",
       "dedupKey": "person|구나",
       "institutions": [
@@ -12205,22 +12611,6 @@
       ]
     },
     {
-      "ko": "김태수",
-      "dedupKey": "person|김태수",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관"
-      ],
-      "n": 2,
-      "romanizations": [
-        "Tai Soo Kim"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1531127",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201601280000387"
-      ]
-    },
-    {
       "ko": "황재형",
       "dedupKey": "person|황재형",
       "institutions": [
@@ -12389,22 +12779,6 @@
       ]
     },
     {
-      "ko": "박민하",
-      "dedupKey": "person|박민하",
-      "institutions": [
-        "서울시립미술관",
-        "국립현대미술관"
-      ],
-      "n": 2,
-      "romanizations": [
-        "Minha Park"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1523485",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202505280001951"
-      ]
-    },
-    {
       "ko": "우주+림희영",
       "dedupKey": "person|우주+림희영",
       "institutions": [
@@ -12561,6 +12935,54 @@
   ],
   "conflict": [
     {
+      "ko": "임민욱",
+      "dedupKey": "person|임민욱",
+      "institutions": [
+        "minouklim.com",
+        "PKM갤러리",
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관",
+        "아트스페이스 풀"
+      ],
+      "n": 6,
+      "romanizations": [
+        "Minouk Lim",
+        "Min-Wook Im"
+      ],
+      "sources": [
+        "http://www.minouklim.com/",
+        "https://www.pkmgallery.com/artists/minouk-lim/biography/",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573371",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511120000360",
+        "https://gmoma.ggcf.kr/exhibitions/71",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=668"
+      ]
+    },
+    {
+      "ko": "정윤석",
+      "dedupKey": "person|정윤석",
+      "institutions": [
+        "ko.wikipedia.org",
+        "서울시립미술관",
+        "국립현대미술관",
+        "경기도미술관",
+        "아트스페이스 풀"
+      ],
+      "n": 5,
+      "romanizations": [
+        "Jung Yoonsuk",
+        "Yoon-Seok Jung"
+      ],
+      "sources": [
+        "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%9C%A4%EC%84%9D_(%EC%98%81%ED%99%94_%EA%B0%90%EB%8F%85)",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=576",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201404150000078",
+        "https://gmoma.ggcf.kr/exhibitions/80",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=668"
+      ]
+    },
+    {
       "ko": "양정욱",
       "dedupKey": "person|양정욱",
       "institutions": [
@@ -12584,49 +13006,87 @@
       ]
     },
     {
-      "ko": "정윤석",
-      "dedupKey": "person|정윤석",
+      "ko": "유근택",
+      "dedupKey": "person|유근택",
       "institutions": [
+        "nookgallery.com",
+        "dongsanbanggallery.com",
         "서울시립미술관",
-        "국립현대미술관",
-        "경기도미술관",
-        "ko.wikipedia.org",
         "아트스페이스 풀"
       ],
-      "n": 5,
+      "n": 4,
       "romanizations": [
-        "Jung Yoonsuk",
-        "Yoon-Seok Jung"
+        "Yoo Geun-Taek",
+        "Geun-Taek Yu"
       ],
       "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=576",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201404150000078",
-        "https://gmoma.ggcf.kr/exhibitions/80",
-        "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%9C%A4%EC%84%9D_(%EC%98%81%ED%99%94_%EA%B0%90%EB%8F%85)",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=668"
+        "https://www.nookgallery.com/jobs-1/%EC%9C%A0%EA%B7%BC%ED%83%9D-geuntaek-yoo-",
+        "https://www.dongsanbanggallery.com/yoogeuntaek",
+        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1285988",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=481"
       ]
     },
     {
-      "ko": "임민욱",
-      "dedupKey": "person|임민욱",
+      "ko": "김인규",
+      "dedupKey": "person|김인규",
       "institutions": [
-        "서울시립미술관",
+        "chungnam.go.kr",
         "국립현대미술관",
-        "경기도미술관",
-        "PKM갤러리",
+        "art-map.co.kr",
         "아트스페이스 풀"
       ],
-      "n": 5,
+      "n": 4,
       "romanizations": [
-        "Minouk Lim",
-        "Min-Wook Im"
+        "Kim Ingyu",
+        "In-Kyu Kim"
       ],
       "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=573371",
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201511120000360",
-        "https://gmoma.ggcf.kr/exhibitions/71",
-        "https://www.pkmgallery.com/artists/minouk-lim/biography/",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=668"
+        "https://www.chungnam.go.kr/cnportal/media/article/view.do?articleNo=MD0003264477&edate=2025-07-03&layerType=all&menuNo=500190&pageIndex=1&sdate=2024-07-03&searchCnd=2&searchWrd=%EC%9A%A9%EB%94%B1%EC%A7%80",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593",
+        "https://art-map.co.kr/artists/view.php?idx=14819",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=1042"
+      ]
+    },
+    {
+      "ko": "김현태",
+      "dedupKey": "person|김현태",
+      "institutions": [
+        "imageroot.co.kr",
+        "kimhyuntae.com",
+        "국립현대미술관",
+        "아트스페이스 풀"
+      ],
+      "n": 4,
+      "romanizations": [
+        "Gim Hyuntae",
+        "Hyuntae Gim"
+      ],
+      "sources": [
+        "https://imageroot.co.kr/blog/artist/%EA%B9%80%ED%98%84%ED%83%9C-hyun-tae-kim/",
+        "https://kimhyuntae.com/about-1/",
+        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202012220001348",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2062"
+      ]
+    },
+    {
+      "ko": "강용석",
+      "dedupKey": "person|강용석",
+      "institutions": [
+        "geonhi.com",
+        "museumhanmi.or.kr",
+        "서울시립미술관",
+        "아트스페이스 풀"
+      ],
+      "n": 4,
+      "romanizations": [
+        "Kang Yong Suk",
+        "Yongseok Kang"
+      ],
+      "sources": [
+        "https://geonhi.com/korean/15538/",
+        "https://museumhanmi.or.kr/post_exhibition/%EA%B0%95%EC%9A%A9%EC%84%9D-%E3%80%8A%ED%95%9C%EA%B5%AD%EC%A0%84%EC%9F%81%EA%B8%B0%EB%85%90%EB%B9%84%E3%80%8B/",
+        "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=449",
+        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=416"
       ]
     },
     {
@@ -12710,25 +13170,6 @@
       ]
     },
     {
-      "ko": "강용석",
-      "dedupKey": "person|강용석",
-      "institutions": [
-        "서울시립미술관",
-        "museumhanmi.or.kr",
-        "아트스페이스 풀"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Kang Yong Suk",
-        "Yongseok Kang"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=449",
-        "https://museumhanmi.or.kr/post_exhibition/%EA%B0%95%EC%9A%A9%EC%84%9D-%E3%80%8A%ED%95%9C%EA%B5%AD%EC%A0%84%EC%9F%81%EA%B8%B0%EB%85%90%EB%B9%84%E3%80%8B/",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=416"
-      ]
-    },
-    {
       "ko": "조문기",
       "dedupKey": "person|조문기",
       "institutions": [
@@ -12745,63 +13186,6 @@
         "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=527",
         "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201908300001175",
         "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=1087"
-      ]
-    },
-    {
-      "ko": "유근택",
-      "dedupKey": "person|유근택",
-      "institutions": [
-        "서울시립미술관",
-        "dongsanbanggallery.com",
-        "아트스페이스 풀"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Yoo Geun-Taek",
-        "Geun-Taek Yu"
-      ],
-      "sources": [
-        "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1285988",
-        "https://www.dongsanbanggallery.com/yoogeuntaek",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=481"
-      ]
-    },
-    {
-      "ko": "김현태",
-      "dedupKey": "person|김현태",
-      "institutions": [
-        "국립현대미술관",
-        "kimhyuntae.com",
-        "아트스페이스 풀"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Gim Hyuntae",
-        "Hyuntae Gim"
-      ],
-      "sources": [
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202012220001348",
-        "https://kimhyuntae.com/about-1/",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2062"
-      ]
-    },
-    {
-      "ko": "김인규",
-      "dedupKey": "person|김인규",
-      "institutions": [
-        "국립현대미술관",
-        "art-map.co.kr",
-        "아트스페이스 풀"
-      ],
-      "n": 3,
-      "romanizations": [
-        "Kim Ingyu",
-        "In-Kyu Kim"
-      ],
-      "sources": [
-        "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=200904050002593",
-        "https://art-map.co.kr/artists/view.php?idx=14819",
-        "http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=1042"
       ]
     }
   ]

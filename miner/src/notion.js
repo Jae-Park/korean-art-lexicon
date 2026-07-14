@@ -86,6 +86,11 @@ export async function queryReviewable() {
   });
 }
 
+// dedup_key 한 건의 모든 이력 행. 승인 스크립트처럼 상태별 분기가 필요한 경우에 쓴다.
+export async function queryCandidatesByDedupKey(dedupKey) {
+  return queryFilter({ property: "dedup_key", rich_text: { equals: dedupKey } });
+}
+
 const domainOf = (url) => {
   try {
     return new URL(url).hostname.replace(/^www\./, "");
@@ -133,6 +138,17 @@ export async function setWeight(pageId, weight) {
   return r.ok;
 }
 
+// Candidates DB의 처리 상태 변경. 호출자는 대상 상태를 명시해야 한다.
+export async function setProcessingStatus(pageId, status) {
+  if (!config.notionToken) return false;
+  const r = await fetch(`${API}/pages/${pageId}`, {
+    method: "PATCH",
+    headers: headers(),
+    body: JSON.stringify({ properties: { 처리: { select: { name: status } } } }),
+  });
+  return r.ok;
+}
+
 async function queryFilter(filter) {
   if (!config.notionToken || !config.notionDbId) return [];
   const out = [];
@@ -167,11 +183,5 @@ function flatten(page) {
 }
 
 export async function markMaterialized(pageId) {
-  if (!config.notionToken) return false;
-  const r = await fetch(`${API}/pages/${pageId}`, {
-    method: "PATCH",
-    headers: headers(),
-    body: JSON.stringify({ properties: { 처리: { select: { name: "materialized" } } } }),
-  });
-  return r.ok;
+  return setProcessingStatus(pageId, "materialized");
 }

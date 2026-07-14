@@ -1,0 +1,28 @@
+id: person.kim-youngeun
+name:
+  ko:
+    full: 김영은
+  latn:
+    preferred: Kim Youngeun
+sources:
+- url: https://www.hongik.ac.kr/kr/newscenter/news.do?articleNo=148760&mode=view
+  name_used: Kim Youngeun
+  note: 'hongik.ac.kr — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+- url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=640675
+  name_used: Kim Youngeun
+  note: '서울시립미술관(SeMA) — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202501060001895
+  name_used: Kim Youngeun
+  note: '국립현대미술관(MMCA) — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+- url: https://helenjgallery.com/YoungEun-Kim
+  name_used: Kim Youngeun
+  note: 'helenjgallery.com — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+- url: http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=2054
+  name_used: Kim Youngeun
+  note: '아트스페이스 풀 — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+status: pending_review

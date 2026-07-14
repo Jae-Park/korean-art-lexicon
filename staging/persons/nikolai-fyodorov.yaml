@@ -1,0 +1,20 @@
+id: person.nikolai-fyodorov
+name:
+  ko:
+    full: 니콜라이 표도로프
+  latn:
+    preferred: Nikolai Fyodorov
+sources:
+- url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002687573
+  name_used: Nikolai Fyodorov
+  note: 'kci.go.kr — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+- url: https://iep.utm.edu/fedorov/
+  name_used: Nikolai Fyodorov
+  note: 'iep.utm.edu — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+- url: https://en.wikipedia.org/wiki/Nikolai_Fyodorov_%28philosopher%29
+  name_used: Nikolai Fyodorov
+  note: 'en.wikipedia.org — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+status: pending_review

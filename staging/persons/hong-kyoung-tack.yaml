@@ -1,0 +1,24 @@
+id: person.hong-kyoung-tack
+name:
+  ko:
+    full: 홍경택
+  latn:
+    preferred: Hong Kyoung-tack
+sources:
+- url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=421
+  name_used: Hong Kyoung-tack
+  note: '서울시립미술관(SeMA) — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=202310170001700
+  name_used: Hong Kyoung-tack
+  note: '국립현대미술관(MMCA) — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+- url: https://gmoma.ggcf.kr/exhibitions/42
+  name_used: Hong Kyoung-tack
+  note: '경기도미술관(GMoMA) — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+- url: http://www.altpool.org/_v3/board/view.asp?b_type=8&board_id=481
+  name_used: Hong Kyoung-tack
+  note: '아트스페이스 풀 — miner 자동수집, 검수 시 내용 대조 필요'
+  accessed: '2026-07-14'
+status: pending_review
