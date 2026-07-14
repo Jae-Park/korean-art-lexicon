@@ -1,5 +1,4 @@
-// dedup: dist/lexicon.json의 기존 엔트리로 key Set을 만들어 신규 후보만 남긴다.
-// dist/lexicon.json이 정본 dedup 기준(빌드 산출물). 노션 pending dedup은 Phase 2.
+// dedup: 확정 lexicon 및 Notion 후보 코퍼스의 key Set으로 재유입 후보를 제거한다.
 import { readFileSync } from "node:fs";
 import { dedupKey } from "./normalize.js";
 import { config } from "./config.js";
@@ -32,6 +31,21 @@ export function filterNew(candidates, existing) {
       continue;
     }
     seen.add(c.dedupKey);
+    out.push(c);
+  }
+  return out;
+}
+
+// Notion Candidates DB에 한 번이라도 만들어진 키는 처리 상태와 무관하게 재생성하지 않는다.
+// rejected/materialized도 이력으로 보존해 재실행이 새 행을 증식시키지 않게 한다.
+// 호출 위치는 반드시 Notion create 직전이어야 한다(동일 mine 재실행의 최종 안전망).
+export function filterNotionExisting(candidates, existingKeys) {
+  const out = [];
+  for (const c of candidates) {
+    if (existingKeys.has(c.dedupKey)) {
+      c._drop = "in-notion";
+      continue;
+    }
     out.push(c);
   }
   return out;

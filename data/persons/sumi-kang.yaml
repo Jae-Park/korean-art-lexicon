@@ -1,0 +1,20 @@
+id: person.sumi-kang
+name:
+  ko:
+    full: 강수미
+  latn:
+    preferred: Sumi Kang
+sources:
+- url: https://www4530.dongduk.ac.kr/shop_contents/myboard_list.htm?me_popup=1&myboard_code=myboard2
+  name_used: Sumi Kang
+  note: www4530.dongduk.ac.kr — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+- url: https://www.dbpia.co.kr/author/authorDetail?ancId=1114496
+  name_used: Sumi Kang
+  note: dbpia.co.kr — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+- url: https://dongduk.academia.edu/SumiKang
+  name_used: Sumi Kang
+  note: dongduk.academia.edu — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+status: reviewed

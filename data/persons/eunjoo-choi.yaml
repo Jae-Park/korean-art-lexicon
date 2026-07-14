@@ -1,0 +1,20 @@
+id: person.eunjoo-choi
+name:
+  ko:
+    full: 최은주
+  latn:
+    preferred: Eunjoo Choi
+sources:
+- url: https://eunjoochoi.artspoon.io/about
+  name_used: Eunjoo Choi
+  note: eunjoochoi.artspoon.io — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+- url: https://sema.seoul.go.kr/kr/sema/landing
+  name_used: Eunjoo Choi
+  note: 서울시립미술관(SeMA) — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+- url: https://www.mediacityseoul.kr/ko/yesterday/participants/eunju-choi
+  name_used: Eunjoo Choi
+  note: mediacityseoul.kr — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+status: reviewed
