@@ -1,0 +1,20 @@
+id: person.jong-soung-kimm
+name:
+  ko:
+    full: 김종성
+  latn:
+    preferred: Jong Soung Kimm
+sources:
+- url: https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201409240000151&menuId=1010000000
+  name_used: Jong Soung Kimm
+  note: 국립현대미술관(MMCA) — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+- url: https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=564
+  name_used: Jong Soung Kimm
+  note: 서울시립미술관(SeMA) — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+- url: https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhId=201409240000150
+  name_used: Jong Soung Kimm
+  note: 국립현대미술관(MMCA) — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+status: reviewed

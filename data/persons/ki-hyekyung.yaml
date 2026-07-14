@@ -1,0 +1,16 @@
+id: person.ki-hyekyung
+name:
+  ko:
+    full: 기혜경
+  latn:
+    preferred: Ki Hyekyung
+sources:
+- url: https://arthistory.hongik.ac.kr/arthistory/sub/prof_detail.do?article.offset=0&articleLimit=10&articleNo=135829&mode=view
+  name_used: Ki Hyekyung
+  note: arthistory.hongik.ac.kr — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+- url: http://www.daljin.com/column/18434
+  name_used: Ki Hyekyung
+  note: 서울아트가이드(김달진) — miner 자동수집, 검수 시 내용 대조 필요
+  accessed: '2026-07-14'
+status: reviewed
