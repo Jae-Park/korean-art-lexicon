@@ -4,6 +4,13 @@ name:
     full: 라이스 브루잉 시스터즈 클럽
   latn:
     preferred: Rice Brewing Sisters Club
+  variants:
+  - form: RBSC
+    lang: en
+    script: Latn
+    type: abbreviation
+    source: 'e-flux "Rice Brewing Sisters Club (RBSC)" · 본인 공식 인스타그램(자칭 약칭)'
+    accessed: '2026-07-14'
 role:
   - aat: '300025103'
 sources:
