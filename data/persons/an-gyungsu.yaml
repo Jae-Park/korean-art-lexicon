@@ -12,6 +12,6 @@ role:
 sources:
   - url: https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=8876
     name_used: An Gyungsu
-    note: MMCA 소장품 artistnmEng — 기관 표기 · 동음이의 검증필요
+    note: MMCA 소장품 artistnmEng — 기관 표기 · 동음이의 감사완료(2026-08-17 웹검증, 미술계 내 단일 인물 — 구한말 정치인 안경수·기업인 안경수는 타분야 무관 동명이인)
     accessed: '2026-06-22'
 status: reviewed
