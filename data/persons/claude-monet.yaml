@@ -2,8 +2,8 @@ id: person.claude-monet
 name:
   ko:
     full: 클로드 모네
-    family: 클
-    given: 로드 모네
+    family: 모네
+    given: 클로드
   latn:
     preferred: Claude Monet
   variants:

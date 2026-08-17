@@ -2,8 +2,8 @@ id: person.jenny-holzer
 name:
   ko:
     full: 제니 홀저
-    family: 제
-    given: 니 홀저
+    family: 홀저
+    given: 제니
   latn:
     preferred: Jenny Holzer
   variants:

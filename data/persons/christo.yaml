@@ -2,8 +2,6 @@ id: person.christo
 name:
   ko:
     full: 크리스토
-    family: 크
-    given: 리스토
   latn:
     preferred: Christo
 birth_year: 1935

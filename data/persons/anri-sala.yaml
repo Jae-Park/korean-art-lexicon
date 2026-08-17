@@ -2,8 +2,8 @@ id: person.anri-sala
 name:
   ko:
     full: 안리 살라
-    family: 안
-    given: 리 살라
+    family: 살라
+    given: 안리
   latn:
     preferred: Anri Sala
 birth_year: 1974

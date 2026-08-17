@@ -2,8 +2,8 @@ id: person.hayashi-yasuo
 name:
   ko:
     full: 하야시 야스오
-    family: 하
-    given: 야시 야스오
+    family: 야스오
+    given: 하야시
   latn:
     preferred: Hayashi Yasuo
 birth_year: 1928

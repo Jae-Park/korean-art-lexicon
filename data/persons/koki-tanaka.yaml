@@ -2,8 +2,8 @@ id: person.koki-tanaka
 name:
   ko:
     full: 다나카 고키
-    family: 다
-    given: 나카 고키
+    family: 고키
+    given: 다나카
   latn:
     preferred: Koki Tanaka
 birth_year: 1975

@@ -2,8 +2,8 @@ id: person.norman-foster
 name:
   ko:
     full: 노먼 포스터
-    family: 노
-    given: 먼 포스터
+    family: 포스터
+    given: 노먼
   latn:
     preferred: Norman Foster
 birth_year: 1935

@@ -2,8 +2,8 @@ id: person.paul-kajander
 name:
   ko:
     full: 폴 카잔더
-    family: 폴
-    given: ' 카잔더'
+    family: 카잔더
+    given: 폴
   latn:
     preferred: Paul Kajander
 birth_year: 1980

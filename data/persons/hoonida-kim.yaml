@@ -2,8 +2,8 @@ id: person.hoonida-kim
 name:
   ko:
     full: 후니다킴
-    family: 후
-    given: 니다킴
+    family: 킴
+    given: 후니다
   latn:
     preferred: Hoonida Kim
 birth_year: 1976

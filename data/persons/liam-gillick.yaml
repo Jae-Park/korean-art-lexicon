@@ -2,8 +2,8 @@ id: person.liam-gillick
 name:
   ko:
     full: 리암 길릭
-    family: 리
-    given: 암 길릭
+    family: 길릭
+    given: 리암
   latn:
     preferred: Liam Gillick
 birth_year: 1964

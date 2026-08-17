@@ -2,8 +2,8 @@ id: person.kent-chan
 name:
   ko:
     full: 켄트 찬
-    family: 켄
-    given: 트 찬
+    family: 찬
+    given: 켄트
   latn:
     preferred: Kent Chan
 birth_year: 1984

@@ -2,8 +2,8 @@ id: person.yuri-pattison
 name:
   ko:
     full: 유리 패티슨
-    family: 유
-    given: 리 패티슨
+    family: 패티슨
+    given: 유리
   latn:
     preferred: Yuri Pattison
 birth_year: 1986

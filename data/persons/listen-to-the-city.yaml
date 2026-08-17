@@ -2,8 +2,6 @@ id: person.listen-to-the-city
 name:
   ko:
     full: 리슨투더시티
-    family: 리
-    given: 슨투더시티
   latn:
     preferred: Listen to the City
 role:

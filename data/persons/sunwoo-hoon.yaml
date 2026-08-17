@@ -2,8 +2,8 @@ id: person.sunwoo-hoon
 name:
   ko:
     full: 선우훈
-    family: 선
-    given: 우훈
+    family: 선우
+    given: 훈
   latn:
     preferred: Sunwoo Hoon
 birth_year: 1989

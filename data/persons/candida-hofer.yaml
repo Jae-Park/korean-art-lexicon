@@ -2,8 +2,8 @@ id: person.candida-hofer
 name:
   ko:
     full: 칸디다 회퍼
-    family: 칸
-    given: 디다 회퍼
+    family: 회퍼
+    given: 칸디다
   latn:
     preferred: Candida Hofer
 birth_year: 1944

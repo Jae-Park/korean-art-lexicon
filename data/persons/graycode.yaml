@@ -2,8 +2,6 @@ id: person.graycode
 name:
   ko:
     full: 그레이코드
-    family: 그
-    given: 레이코드
   latn:
     preferred: GRAYCODE
 birth_year: 1984

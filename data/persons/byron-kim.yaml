@@ -2,8 +2,8 @@ id: person.byron-kim
 name:
   ko:
     full: 바이런 킴
-    family: 바
-    given: 이런 킴
+    family: 킴
+    given: 바이런
   latn:
     preferred: Byron Kim
 birth_year: 1961

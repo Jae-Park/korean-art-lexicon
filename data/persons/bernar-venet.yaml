@@ -2,8 +2,8 @@ id: person.bernar-venet
 name:
   ko:
     full: 베르나르 브네
-    family: 베
-    given: 르나르 브네
+    family: 브네
+    given: 베르나르
   latn:
     preferred: Bernar Venet
 birth_year: 1941

@@ -2,8 +2,6 @@ id: person.mixrice
 name:
   ko:
     full: 믹스라이스
-    family: 믹
-    given: 스라이스
   latn:
     preferred: mixrice
 role:

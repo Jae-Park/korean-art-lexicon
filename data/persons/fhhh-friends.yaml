@@ -2,8 +2,6 @@ id: person.fhhh-friends
 name:
   ko:
     full: 푸하하하프렌즈
-    family: 푸
-    given: 하하하프렌즈
   latn:
     preferred: FHHH Friends
 role:

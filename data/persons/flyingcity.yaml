@@ -2,8 +2,6 @@ id: person.flyingcity
 name:
   ko:
     full: 플라잉시티
-    family: 플
-    given: 라잉시티
   latn:
     preferred: flyingCity
 role:

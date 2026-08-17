@@ -2,8 +2,8 @@ id: person.khadim-ali
 name:
   ko:
     full: 하딤 알리
-    family: 하
-    given: 딤 알리
+    family: 알리
+    given: 하딤
   latn:
     preferred: Khadim Ali
 birth_year: 1978

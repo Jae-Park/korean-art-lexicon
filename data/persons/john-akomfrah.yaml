@@ -2,8 +2,8 @@ id: person.john-akomfrah
 name:
   ko:
     full: 존 아캄프라
-    family: 존
-    given: ' 아캄프라'
+    family: 아캄프라
+    given: 존
   latn:
     preferred: John Akomfrah
 birth_year: 1957

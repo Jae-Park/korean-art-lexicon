@@ -2,8 +2,8 @@ id: person.nicolas-pelzer
 name:
   ko:
     full: 니콜라스 펠처
-    family: 니
-    given: 콜라스 펠처
+    family: 펠처
+    given: 니콜라스
   latn:
     preferred: Nicolas Pelzer
 birth_year: 1982

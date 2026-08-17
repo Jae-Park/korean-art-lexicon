@@ -2,8 +2,8 @@ id: person.john-cage
 name:
   ko:
     full: 존 케이지
-    family: 존
-    given: ' 케이지'
+    family: 케이지
+    given: 존
   latn:
     preferred: John Cage
 birth_year: 1912

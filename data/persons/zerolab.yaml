@@ -2,8 +2,6 @@ id: person.zerolab
 name:
   ko:
     full: 제로랩
-    family: 제
-    given: 로랩
   latn:
     preferred: zerolab
 role:

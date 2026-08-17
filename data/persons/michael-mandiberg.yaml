@@ -2,8 +2,8 @@ id: person.michael-mandiberg
 name:
   ko:
     full: 마이클 맨디버그
-    family: 마
-    given: 이클 맨디버그
+    family: 맨디버그
+    given: 마이클
   latn:
     preferred: Michael Mandiberg
 birth_year: 1977

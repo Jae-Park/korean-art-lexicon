@@ -2,8 +2,8 @@ id: person.dew-kim
 name:
   ko:
     full: 듀킴
-    family: 듀
-    given: 킴
+    family: 킴
+    given: 듀
   latn:
     preferred: Dew Kim
 birth_year: 1985

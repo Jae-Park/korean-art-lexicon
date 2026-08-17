@@ -2,8 +2,8 @@ id: person.ron-mueck
 name:
   ko:
     full: 론 뮤익
-    family: 론
-    given: ' 뮤익'
+    family: 뮤익
+    given: 론
   latn:
     preferred: Ron Mueck
   variants:

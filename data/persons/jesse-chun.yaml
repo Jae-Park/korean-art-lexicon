@@ -2,8 +2,8 @@ id: person.jesse-chun
 name:
   ko:
     full: 제시 천
-    family: 제
-    given: 시 천
+    family: 천
+    given: 제시
   latn:
     preferred: Jesse Chun
 birth_year: 1984

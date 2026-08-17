@@ -2,8 +2,8 @@ id: person.paul-garrin
 name:
   ko:
     full: 폴 개린
-    family: 폴
-    given: ' 개린'
+    family: 개린
+    given: 폴
   latn:
     preferred: Paul Garrin
 birth_year: 1957

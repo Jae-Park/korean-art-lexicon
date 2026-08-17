@@ -2,8 +2,6 @@ id: person.camp
 name:
   ko:
     full: 캠프
-    family: 캠
-    given: 프
   latn:
     preferred: CAMP
 role:

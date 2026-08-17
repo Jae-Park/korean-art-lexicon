@@ -15,7 +15,16 @@ const existKo=new Set(), existSlug=new Set();
 for(const f of readdirSync(DIR).filter(x=>x.endsWith(".yaml"))){ existSlug.add(f.replace(".yaml",""));
   const m=readFileSync(DIR+f,"utf8").match(/full:\s*(.+?)\s*$/m); if(m)existKo.add(m[1].trim()); }
 const slugify=s=>s.normalize("NFKD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
-const splitKo=ko=>({full:ko, family:ko.slice(0,1), given:ko.slice(1)});
+// ponytail: 2026-08-17 버그수정 — 첫음절=family 슬라이스가 외국이름/콜렉티브를 깨뜨림(reference: project_korean_art_lexicon_miner.md).
+// 공백구분 서구식=마지막 토큰이 family, 무공백 5음절+=콜렉티브 추정으로 family/given 생략(strip), 2음절 한국성은 TWO로 우선매치.
+const TWO=["남궁","황보","제갈","사공","선우","독고","동방","서문"];
+const splitKo=ko=>{
+  if(ko.includes(" ")){ const t=ko.split(" "); return {full:ko, given:t.slice(0,-1).join(" "), family:t[t.length-1]}; }
+  const two=TWO.find(f=>ko.startsWith(f));
+  if(two) return {full:ko, family:two, given:ko.slice(two.length)};
+  if(ko.length>=5) return {full:ko}; // 콜렉티브 추정 — family/given 생략
+  return {full:ko, family:ko.slice(0,1), given:ko.slice(1)};
+};
 let n=0;
 for(const [ko,[en,url,note]] of Object.entries(M)){
   if(existKo.has(ko)){console.log("중복",ko);continue;}

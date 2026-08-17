@@ -2,8 +2,6 @@ id: person.unmake-lab
 name:
   ko:
     full: 언메이크랩
-    family: 언
-    given: 메이크랩
   latn:
     preferred: Unmake Lab
 role:

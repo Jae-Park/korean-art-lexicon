@@ -2,8 +2,8 @@ id: person.shirin-neshat
 name:
   ko:
     full: 쉬린 네샤트
-    family: 쉬
-    given: 린 네샤트
+    family: 네샤트
+    given: 쉬린
   latn:
     preferred: Shirin Neshat
 birth_year: 1957

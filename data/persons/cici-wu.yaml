@@ -2,8 +2,8 @@ id: person.cici-wu
 name:
   ko:
     full: 씨씨 우
-    family: 씨
-    given: 씨 우
+    family: 우
+    given: 씨씨
   latn:
     preferred: Cici Wu
 birth_year: 1989

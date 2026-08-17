@@ -2,8 +2,8 @@ id: person.wael-shawky
 name:
   ko:
     full: 와엘 샤키
-    family: 와
-    given: 엘 샤키
+    family: 샤키
+    given: 와엘
   latn:
     preferred: Wael Shawky
 birth_year: 1971

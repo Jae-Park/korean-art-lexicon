@@ -2,8 +2,8 @@ id: person.cindy-sherman
 name:
   ko:
     full: 신디 셔먼
-    family: 신
-    given: 디 셔먼
+    family: 셔먼
+    given: 신디
   latn:
     preferred: Cindy Sherman
   variants:

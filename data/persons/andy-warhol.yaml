@@ -2,8 +2,8 @@ id: person.andy-warhol
 name:
   ko:
     full: 앤디워홀
-    family: 앤
-    given: 디워홀
+    family: 워홀
+    given: 앤디
   latn:
     preferred: Andy Warhol
 birth_year: 1928

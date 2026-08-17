@@ -2,8 +2,6 @@ id: person.dianalab
 name:
   ko:
     full: 다이애나랩
-    family: 다
-    given: 이애나랩
   latn:
     preferred: dianalab
 role:

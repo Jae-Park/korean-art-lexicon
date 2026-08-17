@@ -2,8 +2,8 @@ id: person.christian-boltanski
 name:
   ko:
     full: 크리스티앙 볼탕스키
-    family: 크
-    given: 리스티앙 볼탕스키
+    family: 볼탕스키
+    given: 크리스티앙
   latn:
     preferred: Christian Boltanski
 birth_year: 1944

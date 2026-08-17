@@ -2,8 +2,8 @@ id: person.zach-blas
 name:
   ko:
     full: 자크 블라스
-    family: 자
-    given: 크 블라스
+    family: 블라스
+    given: 자크
   latn:
     preferred: Zach Blas
 birth_year: 1981

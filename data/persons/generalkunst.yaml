@@ -2,8 +2,6 @@ id: person.generalkunst
 name:
   ko:
     full: 제너럴쿤스트
-    family: 제
-    given: 너럴쿤스트
   latn:
     preferred: generalkunst
   variants:

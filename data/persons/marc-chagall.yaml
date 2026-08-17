@@ -2,8 +2,8 @@ id: person.marc-chagall
 name:
   ko:
     full: 마르크 샤갈
-    family: 마
-    given: 르크 샤갈
+    family: 샤갈
+    given: 마르크
   latn:
     preferred: Marc Chagall
   variants:

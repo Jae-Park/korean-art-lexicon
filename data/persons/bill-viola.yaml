@@ -2,8 +2,8 @@ id: person.bill-viola
 name:
   ko:
     full: 빌 비올라
-    family: 빌
-    given: ' 비올라'
+    family: 비올라
+    given: 빌
   latn:
     preferred: Bill Viola
 birth_year: 1951

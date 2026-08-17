@@ -2,8 +2,8 @@ id: person.paul-gauguin
 name:
   ko:
     full: 폴 고갱
-    family: 폴
-    given: ' 고갱'
+    family: 고갱
+    given: 폴
   latn:
     preferred: Paul Gauguin
   variants:

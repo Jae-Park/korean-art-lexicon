@@ -2,8 +2,8 @@ id: person.hiwa-k
 name:
   ko:
     full: 히와 케이
-    family: 히
-    given: 와 케이
+    family: 케이
+    given: 히와
   latn:
     preferred: Hiwa K
 birth_year: 1975

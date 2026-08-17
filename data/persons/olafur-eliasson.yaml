@@ -2,8 +2,8 @@ id: person.olafur-eliasson
 name:
   ko:
     full: 올라퍼 엘리아슨
-    family: 올
-    given: 라퍼 엘리아슨
+    family: 엘리아슨
+    given: 올라퍼
   latn:
     preferred: Ólafur Elíasson
   variants:
