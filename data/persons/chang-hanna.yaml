@@ -6,6 +6,7 @@ name:
     given: 한나
   latn:
     preferred: Chang Hanna
+birth_year: 1988
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Chang Hanna
     note: 롱테일 패스2(웹 검증) — MMCA 영문 YKA2025(≠첼리스트 Han-Na Chang). high
     accessed: '2026-06-22'
+  - url: https://www.artbava.com/exhibit/%EC%9E%A5%ED%95%9C%EB%82%98-%EB%89%B4-%EB%9D%BD-new-rock/
+    name_used: 장한나
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

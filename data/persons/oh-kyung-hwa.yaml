@@ -6,6 +6,7 @@ name:
     given: 경화
   latn:
     preferred: Oh Kyung Hwa
+birth_year: 1960
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Oh Kyung Hwa
     note: 롱테일 패스3(2기관 웹 검증) — MMCA英(≠오경환 남). high
     accessed: '2026-06-22'
+  - url: http://www.porart.com/board_view.php
+    name_used: 오경화
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

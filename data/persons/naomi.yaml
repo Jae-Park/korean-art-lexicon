@@ -6,6 +6,7 @@ name:
     given: 오미
   latn:
     preferred: NAOMI
+birth_year: 1982
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: NAOMI
     note: 롱테일 패스3(2기관 웹 검증) — 본인(SeMA난지+MMCA고양). high
     accessed: '2026-06-22'
+  - url: http://www.asiaa.co.kr/news/articleView.html?idxno=3385
+    name_used: 나오미
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

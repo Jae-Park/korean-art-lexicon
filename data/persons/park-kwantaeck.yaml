@@ -6,6 +6,7 @@ name:
     given: 관택
   latn:
     preferred: Park Kwantaeck
+birth_year: 1983
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Park Kwantaeck
     note: 롱테일 패스2(웹 검증) — 서울대 미대 교수진. high
     accessed: '2026-06-22'
+  - url: https://editprojects.kr/inner-portrait-/
+    name_used: 박관택
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

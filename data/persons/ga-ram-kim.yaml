@@ -6,6 +6,7 @@ name:
     given: 가람
   latn:
     preferred: Ga Ram Kim
+birth_year: 1984
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Ga Ram Kim
     note: 롱테일 패스2(웹 검증) — SeMA 신진작가. high
     accessed: '2026-06-22'
+  - url: https://bab20.bkkartbiennale.com/artist/ga-ram-kim
+    name_used: 김가람
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

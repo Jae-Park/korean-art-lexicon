@@ -13,6 +13,7 @@ name:
       type: alternate
       source: 이전 표기/RR
       accessed: '2026-06-22'
+birth_year: 1961
 role:
   - aat: '300025103'
 sources:
@@ -24,4 +25,8 @@ sources:
     name_used: Park Soyoung
     note: MMCA 소장품 artistnmEng — 기관 표기 · 동음이의 검증필요
     accessed: '2026-06-22'
+  - url: http://www.akive.org/artist/A0000176/박소영
+    name_used: 박소영
+    note: 생몰연도 출처(round2, medium)
+    accessed: '2026-08-17'
 status: reviewed

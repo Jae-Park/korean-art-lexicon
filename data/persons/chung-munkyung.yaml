@@ -6,6 +6,7 @@ name:
     given: 문경
   latn:
     preferred: Chung Munkyung
+birth_year: 1981
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Chung Munkyung
     note: 롱테일 패스3(2기관 웹 검증) — SeMA英 난지. high
     accessed: '2026-06-22'
+  - url: https://atcurating.com/ART-INTERVIEW-FAIR/view/156334
+    name_used: 정문경
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

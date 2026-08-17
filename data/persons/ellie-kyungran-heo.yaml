@@ -6,6 +6,7 @@ name:
     given: 리 허경란
   latn:
     preferred: Ellie Kyungran Heo
+birth_year: 1976
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Ellie Kyungran Heo
     note: 롱테일 패스3(2기관 웹 검증) — 본인(MMCA2018+SeMA난지). high
     accessed: '2026-06-22'
+  - url: https://m.doosanartcenter.com/en/exhibit/artist/437
+    name_used: 엘리 허경란
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

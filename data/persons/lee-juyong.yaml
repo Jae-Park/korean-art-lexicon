@@ -6,6 +6,7 @@ name:
     given: 주용
   latn:
     preferred: Lee Juyong
+birth_year: 1958
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Lee Juyong
     note: 롱테일 패스2(웹 검증) — Open Gallery(SeMA 북서울전). medium
     accessed: '2026-06-22'
+  - url: https://www.photoart.co.kr/bbs/m/mcb_data_view.php
+    name_used: 이주용
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

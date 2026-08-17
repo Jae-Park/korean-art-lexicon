@@ -6,6 +6,7 @@ name:
     given: 홍식
   latn:
     preferred: Kim Hong Shik
+birth_year: 1962
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Kim Hong Shik
     note: 롱테일 패스2(웹 검증) — Art&Edition(MMCA/SeMA/경기 소장 명시). medium
     accessed: '2026-06-22'
+  - url: http://www.artnedition.com/shop/goods/goods_list.php?category=002016
+    name_used: 김홍식
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

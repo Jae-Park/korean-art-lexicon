@@ -6,6 +6,7 @@ name:
     given: 배경
   latn:
     preferred: Lee Bei-Kyoung
+birth_year: 1969
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Lee Bei-Kyoung
     note: 롱테일 패스3(2기관 웹 검증) — MMCA 창동레지던시(조각). high
     accessed: '2026-06-22'
+  - url: https://mu-um.com/?action=artist_view&artist_idx=2130
+    name_used: 이배경
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

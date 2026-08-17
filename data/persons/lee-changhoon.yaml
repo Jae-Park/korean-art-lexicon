@@ -6,6 +6,7 @@ name:
     given: 창훈
   latn:
     preferred: Lee Changhoon
+birth_year: 1971
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Lee Changhoon
     note: 롱테일 패스2(웹 검증) — MMCA 레지던시. high
     accessed: '2026-06-22'
+  - url: https://inartplatform.kr/residency/view?residency=198
+    name_used: 이창훈
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

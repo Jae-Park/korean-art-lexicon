@@ -6,6 +6,7 @@ name:
     given: 용석
   latn:
     preferred: Park Yong-seok
+birth_year: 1972
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Park Yong-seok
     note: 롱테일 패스2(웹 검증) — SeMA 영문 'Collecting for All'. high
     accessed: '2026-06-22'
+  - url: https://gmoma.ggcf.kr/collections/67
+    name_used: 박용석
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

@@ -6,6 +6,7 @@ name:
     given: 민정
   latn:
     preferred: Kim Min-jung
+birth_year: 1962
 role:
   - aat: '300025103'
 sources:
@@ -17,4 +18,8 @@ sources:
     name_used: Kim Min-jung
     note: 롱테일 패스2(웹 검증) — 비디오/영상작가(≠한지화가 Minjung Kim). medium 동음주의
     accessed: '2026-06-22'
+  - url: https://whitecube.com/artists/artist/minjung_kim
+    name_used: 김민정
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

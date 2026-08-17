@@ -13,6 +13,7 @@ name:
       type: alternate
       source: 이전 표기/RR
       accessed: '2026-06-22'
+birth_year: 1974
 role:
   - aat: '300025103'
 sources:
@@ -24,4 +25,8 @@ sources:
     name_used: Soo-Hyun Hwang
     note: 롱테일 패스3(2기관 웹 검증) — Ocula(403, ≠황수연). 약-medium
     accessed: '2026-06-22'
+  - url: https://dancepostkorea.com/news/articleView.html?idxno=20666
+    name_used: 황수현
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

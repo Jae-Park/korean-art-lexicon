@@ -6,6 +6,7 @@ name:
     given: 정호
   latn:
     preferred: Oak Jungho
+birth_year: 1974
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Oak Jungho
     note: 롱테일 패스2(웹 검증) — SeMA 영문(성 옥=OAK). high
     accessed: '2026-06-22'
+  - url: http://geonhi.com/korean/옥정호-yoga-project-2011-2013/
+    name_used: 옥정호
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

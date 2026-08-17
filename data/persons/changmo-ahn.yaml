@@ -6,6 +6,7 @@ name:
     given: 창모
   latn:
     preferred: Changmo Ahn
+birth_year: 1962
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Changmo Ahn
     note: 롱테일 패스3(2기관 웹 검증) — 베니스2014(건축사학). high
     accessed: '2026-06-22'
+  - url: https://www.aladin.co.kr/author/wauthor_overview.aspx?AuthorSearch=@25654
+    name_used: 안창모
+    note: 생몰연도 출처(round2, medium)
+    accessed: '2026-08-17'
 status: reviewed

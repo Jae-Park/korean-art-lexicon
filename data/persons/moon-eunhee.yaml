@@ -6,6 +6,7 @@ name:
     given: 은희
   latn:
     preferred: Moon Eunhee
+birth_year: 1931
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Moon Eunhee
     note: 롱테일 패스3(2기관 웹 검증) — SeMA英 천경자100주년. high
     accessed: '2026-06-22'
+  - url: https://www.handmk.com/news/articleView.html?idxno=24396
+    name_used: 문은희
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

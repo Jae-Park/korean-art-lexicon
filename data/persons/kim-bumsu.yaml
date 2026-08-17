@@ -6,6 +6,7 @@ name:
     given: 범수
   latn:
     preferred: Kim Bumsu
+birth_year: 1965
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Kim Bumsu
     note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
     accessed: '2026-06-22'
+  - url: https://pontonegallery.com/artists/54-bumsu-kim/biography/
+    name_used: 김범수
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

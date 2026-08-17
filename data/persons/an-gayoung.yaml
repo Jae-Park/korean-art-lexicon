@@ -6,6 +6,7 @@ name:
     given: 가영
   latn:
     preferred: An Gayoung
+birth_year: 1985
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: An Gayoung
     note: 롱테일 패스2(웹 검증) — 작가 공식 CV(경기 소장). high
     accessed: '2026-06-22'
+  - url: https://k-artist.com/ko/Artist_Works.php?tab_num=tab1&artist_num=168
+    name_used: 안가영
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

@@ -6,6 +6,7 @@ name:
     given: 나
   latn:
     preferred: GuNA
+birth_year: 1982
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: GuNA
     note: 롱테일 패스3(2기관 웹 검증) — e-flux MMCA+SeMA. high
     accessed: '2026-06-22'
+  - url: https://inartplatform.kr/residency/view?residency=251&category=2018
+    name_used: 구나
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

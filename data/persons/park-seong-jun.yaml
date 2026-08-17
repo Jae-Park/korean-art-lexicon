@@ -6,6 +6,7 @@ name:
     given: 성준
   latn:
     preferred: Park Seong Jun
+birth_year: 1979
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Park Seong Jun
     note: 롱테일 패스3(2기관 웹 검증) — SeMA英(영상). high
     accessed: '2026-06-22'
+  - url: https://k-artist.com/Artist_Posts.php?artist_id=113
+    name_used: 박성준
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

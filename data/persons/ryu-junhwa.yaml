@@ -6,6 +6,7 @@ name:
     given: 준화
   latn:
     preferred: Ryu Junhwa
+birth_year: 1963
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Ryu Junhwa
     note: 롱테일 패스2(웹 검증) — MMCA 도서목록(Ryu, Jun-Hwa) + 정부아트뱅크. high
     accessed: '2026-06-22'
+  - url: https://www.artnet.com/artists/ryu-junhwa/biography
+    name_used: 류준화
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

@@ -6,6 +6,7 @@ name:
     given: 석준
   latn:
     preferred: Ha Seok-jun
+birth_year: 1973
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Ha Seok-jun
     note: 롱테일 패스2(웹 검증) — MMCA 고양레지던시. medium
     accessed: '2026-06-22'
+  - url: https://artinpost.co.kr/bbs/board.php?bo_table=artist&wr_id=146
+    name_used: 하석준
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

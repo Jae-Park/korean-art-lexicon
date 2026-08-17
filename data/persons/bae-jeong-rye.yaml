@@ -6,6 +6,8 @@ name:
     given: 정례
   latn:
     preferred: Bae Jeong-Rye
+birth_year: 1916
+death_year: 2006
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +15,8 @@ sources:
     name_used: Bae Jeong-Rye
     note: 롱테일 패스3(2기관 웹 검증) — SeMA英. high
     accessed: '2026-06-22'
+  - url: https://www.ccdn.co.kr/news/articleView.html?idxno=1043040
+    name_used: 배정례
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed

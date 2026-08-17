@@ -6,6 +6,7 @@ name:
     given: 영순
   latn:
     preferred: Lee Youngsun
+birth_year: 1949
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Lee Youngsun
     note: MMCA 소장품 artistnmEng — 기관 표기 · 교차검증(국립현대 전시맥락), 승격후보
     accessed: '2026-06-22'
+  - url: http://www.cnbizm.com/news/articleView.html?idxno=114538
+    name_used: 이영순
+    note: 생몰연도 출처(round2, medium)
+    accessed: '2026-08-17'
 status: reviewed

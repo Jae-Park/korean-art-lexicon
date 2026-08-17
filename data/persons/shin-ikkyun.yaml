@@ -6,6 +6,7 @@ name:
     given: 익균
   latn:
     preferred: Shin Ikkyun
+birth_year: 1986
 role:
   - aat: '300025103'
 sources:
@@ -13,4 +14,8 @@ sources:
     name_used: Shin Ikkyun
     note: 아트스페이스 풀 영문판(전시 동시발행) — 기관 표기 · 승격후보
     accessed: '2026-06-22'
+  - url: https://sayuji301.creatorlink.net/002-신익균-Shin-Ikkyun
+    name_used: 신익균
+    note: 생몰연도 출처(round2, high)
+    accessed: '2026-08-17'
 status: reviewed
