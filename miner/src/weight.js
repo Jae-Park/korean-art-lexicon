@@ -1,14 +1,12 @@
 // 업로드/검수 순서 가중치. "기관 먼저, 인물은 주요 기관 언급 많을수록"(사용자 지침 2026-06-11).
 // 검증품질(검증·신뢰도·출처)을 1차로, 타입가중을 2차로 합성 → 높을수록 먼저 검수(노션 우선순위 정렬).
-import { readFileSync, existsSync } from "node:fs";
-import { config } from "./config.js";
+import { readStyleRegistry } from "./config.js";
 import { nfc, dedupKey, cleanName, looksLikeRole } from "./normalize.js";
 
 // 각 엔티티가 style_registry의 몇 개 (서로 다른) 클라이언트=기관에 등장하나 → 명성/언급빈도 proxy.
 export function buildMentionIndex() {
   const idx = new Map(); // dedupKey -> Set(client)
-  if (!existsSync(config.styleRegistry)) return idx;
-  const d = JSON.parse(readFileSync(config.styleRegistry, "utf8"));
+  const d = readStyleRegistry();
   const add = (type, ko, client) => {
     if (!ko) return;
     const k = dedupKey(type, ko);

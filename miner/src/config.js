@@ -37,9 +37,25 @@ export const config = {
     join(homedir(), ".claude", "scripts", "archive_alayer_extract.py"),
   styleRegistry: join(
     homedir(),
-    "Documents/Apps_Obsidian/500 Translation/510 Terminology/style_registry.json"
+    "Vaults/Apps_Obsidian/500 Translation/510 Terminology/style_registry.json"
   ),
 };
+
+// style_registry는 SILVER 스트림과 weight 인덱스의 *필수* 입력이다. 없으면 조용히 빈손으로
+// 도는 대신 즉시 죽는다 → 최상위 run().catch가 exit 1로 끝내고 launchd 워치독이 잡는다.
+// 왜: 2026-08-30 볼트 이관(~/Documents → ~/Vaults)으로 이 경로가 깨졌는데 두 호출부가
+// existsSync 실패를 빈 배열/빈 맵으로 삼켜 exit 0으로 끝났다. SILVER 리드가 11주 연속
+// 278에서 0으로 떨어졌는데 로그 한 줄 말고는 아무한테도 안 닿았다.
+export function readStyleRegistry() {
+  if (!existsSync(config.styleRegistry)) {
+    throw new Error(
+      `style_registry.json 없음: ${config.styleRegistry}\n` +
+        "볼트 경로가 바뀌었을 수 있다(2026-08-30 ~/Documents → ~/Vaults 이관). " +
+        "miner/src/config.js의 styleRegistry를 갱신할 것."
+    );
+  }
+  return JSON.parse(readFileSync(config.styleRegistry, "utf8"));
+}
 
 // miner는 구독 claude -p / codex만 쓴다. API 키 경로 차단(bot-fleet 표준 가드).
 export function assertNoApiKey() {

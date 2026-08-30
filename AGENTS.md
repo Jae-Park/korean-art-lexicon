@@ -230,7 +230,7 @@ korean-art-lexicon/
 
 ### local-first
 - 코드 정본 = 이 repo(`~/Developer/korean-art-lexicon`, MBP). **iCloud 아님.**
-- 지식·교훈 정본 = 볼트 `~/Documents/Apps_Obsidian/600 Claude Lessons/`. **session-end 시** 교훈·결정·다음 할 일 기록.
+- 지식·교훈 정본 = 볼트 `~/Vaults/Apps_Obsidian/600 Claude Lessons/`. **session-end 시** 교훈·결정·다음 할 일 기록.
 
 ### 교차 리뷰 (기본 패턴)
 한쪽 구현 → 다른 쪽이 diff 리뷰 → 반영 → 커밋.

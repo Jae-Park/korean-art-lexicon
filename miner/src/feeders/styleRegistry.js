@@ -2,13 +2,11 @@
 // romanization(→person) → 후보 lead. 각자 박재용 확정 표기 + authority + provenance(note).
 // 이건 "무엇을 웹 교차검증할지"의 고품질 시드 — sourceUrl은 verify 단계에서 채운다.
 // origin: 한국인=KO 정본·EN 로마자(우선) / 외국인=원어 정본·KO 음역(포함, 우선순위 낮음).
-import { readFileSync, existsSync } from "node:fs";
-import { config } from "../config.js";
+import { readStyleRegistry } from "../config.js";
 import { nfc, dedupKey, proposedId, cleanName, looksLikeRole, guessOrigin } from "../normalize.js";
 
 export function fromStyleRegistry({ clients } = {}) {
-  if (!existsSync(config.styleRegistry)) return [];
-  const d = JSON.parse(readFileSync(config.styleRegistry, "utf8"));
+  const d = readStyleRegistry();
   const cl = d.clients || {};
   const out = [];
   for (const [cname, c] of Object.entries(cl)) {
