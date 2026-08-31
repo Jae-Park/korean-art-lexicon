@@ -61,6 +61,15 @@ export async function verifyBatch(cands, { tier1 = true, codexConcurrency = 3, p
   // Pass 2: 미해결만 codex (동시성)
   const unresolved = out.filter((c) => c.verifyTier === "unresolved");
   log(`tier1 codex --search on ${unresolved.length} unresolved (동시성 ${codexConcurrency})...`);
+  // 실패 사유 집계. 카운터만 찍으면 "돌고 있는 것처럼 보이는 전멸"을 못 본다 —
+  // 2026-08-31에 codex 바이너리가 실행 자체를 못 하는 상태로 148건 전부 110초 타임아웃이었는데
+  // 로그엔 `codex 93/148`만 찍혀 진행으로 보였다. 사유는 verifyNote에만 있고 아무도 안 읽었다.
+  const reasons = new Map();
+  const tally = (r) => {
+    const m = /codex(?:-found)?[:(]\s*([a-z-]+)/.exec(r.verifyNote || "");
+    const k = r.verifyTier === "codex" ? "ok" : (m ? m[1] : r.verifyTier || "unknown");
+    reasons.set(k, (reasons.get(k) || 0) + 1);
+  };
   for (let i = 0; i < unresolved.length; i += codexConcurrency) {
     const chunk = unresolved.slice(i, i + codexConcurrency);
     const res = await Promise.all(
@@ -69,8 +78,18 @@ export async function verifyBatch(cands, { tier1 = true, codexConcurrency = 3, p
     for (const r of res) {
       const idx = out.findIndex((o) => o.dedupKey === r.dedupKey);
       if (idx >= 0) out[idx] = r;
+      tally(r);
     }
-    log(`codex ${Math.min(i + codexConcurrency, unresolved.length)}/${unresolved.length}`);
+    const brief = [...reasons.entries()].map(([k, v]) => `${k}:${v}`).join(" ");
+    log(`codex ${Math.min(i + codexConcurrency, unresolved.length)}/${unresolved.length} — ${brief}`);
+  }
+  // 전멸 경고 — 도구가 고장난 것과 "웹에 자료가 없다"는 다르다.
+  const done = [...reasons.values()].reduce((a, b) => a + b, 0);
+  const timeouts = reasons.get("timeout") || 0;
+  if (done >= 5 && timeouts / done >= 0.8) {
+    log(`🚨 codex tier1 사실상 전멸 (${timeouts}/${done} timeout). 후보가 없는 게 아니라 codex가 안 도는 것이다.`);
+    log(`   확인: codex --version 이 10초 안에 응답하는가.`);
+    log(`   처방(실측): cp /opt/homebrew/Caskroom/codex/*/bin/codex /tmp/codex-fresh && /tmp/codex-fresh --version && codex --version && rm /tmp/codex-fresh`);
   }
 
   // Pass 3: codex도 못 잡은 것만 claude(sonnet) — 다른 모델 패밀리, 어려운 disambiguation.
